@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20221215160936_ddddeee")]
-    partial class ddddeee
+    [Migration("20221216070500_FFFF")]
+    partial class FFFF
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -51,6 +51,9 @@ namespace API.Data.Migrations
                     b.Property<float>("CostPerGram")
                         .HasColumnType("real");
 
+                    b.Property<DateTime?>("DateAdd")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Kart")
                         .HasColumnType("nvarchar(max)");
 
@@ -76,6 +79,9 @@ namespace API.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Supplier")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("User")
                         .HasColumnType("int");
 
                     b.Property<float>("Weight")
@@ -157,9 +163,6 @@ namespace API.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<byte[]>("PhotoOrFile")
-                        .HasColumnType("varbinary(max)");
-
                     b.HasKey("Id");
 
                     b.ToTable("StoneCategory");
@@ -178,6 +181,9 @@ namespace API.Data.Migrations
 
                     b.Property<string>("Colour")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("PhotoOrFile")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<long>("Price")
                         .HasColumnType("bigint");
@@ -201,10 +207,19 @@ namespace API.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<long>("Code")
                         .HasColumnType("bigint");
 
+                    b.Property<string>("CompanyId")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

@@ -7,7 +7,8 @@
                 MessageBox.Show("يرجى ادخال اسم المورد")
                 Return
             End If
-            ClsMain_.AddNewSupplier(TxtCode.Text, TxtName.Text)
+            ClsMain_.AddNewSupplier(TxtCode.Text, TxtName.Text, TxtPhoneNumber.Text,
+                                    TxtAddress.Text, TxtCompany.Text)
             AllSuppliers()
             MessageBox.Show("تم الحفظ")
         Catch ex As Exception
@@ -34,6 +35,9 @@
         Try
             TxtCode.Text = GridView1.GetFocusedDataRow("رقم المورد")
             TxtName.Text = GridView1.GetFocusedDataRow("اسم المورد")
+            TxtPhoneNumber.Text = GridView1.GetFocusedDataRow("رقم الهاتف")
+            TxtAddress.Text = GridView1.GetFocusedDataRow("العنوان")
+            TxtCompany.Text = GridView1.GetFocusedDataRow("رقم الشركة")
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
@@ -44,7 +48,8 @@
                 MessageBox.Show("يرجى ادخال اسم المورد")
                 Return
             End If
-            ClsMain_.UpdateSupplier(TxtCode.Text, TxtName.Text)
+            ClsMain_.UpdateSupplier(TxtCode.Text, TxtName.Text, TxtPhoneNumber.Text,
+                                    TxtAddress.Text, TxtCompany.Text)
             AllSuppliers()
             MessageBox.Show("تم التعديل")
         Catch ex As Exception

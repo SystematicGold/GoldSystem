@@ -23,7 +23,8 @@ Public Class FrmAddCat
                                                   ComStone.Text,
                                                   TxtStoneWeight.Text,
                                                   TxtStoneColor.Text, TxtStonePrice.Text,
-                                                  LblFileExtentions.Text}
+                                                  LblFileExtentions.Text,
+                                                  TxtClarity.Text, TxtCut.Text}
             DgvStone.Rows.Add(row)
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
@@ -402,6 +403,20 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
                 ComMadINBlock.DataSource = DT
                 ComMadINBlock.DisplayMember = "Name"
                 ComMadINBlock.ValueMember = "Code"
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString)
+        End Try
+    End Sub
+    Private Sub ComboBox1_DropDown(sender As Object, e As EventArgs) Handles ComMadeInStone.DropDown
+        Try
+            Dim DT As New DataTable
+            DT.Clear()
+            DT = ClsGoldItem_.MadeIn()
+            If DT.Rows.Count > 0 Then
+                ComMadeInStone.DataSource = DT
+                ComMadeInStone.DisplayMember = "Name"
+                ComMadeInStone.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)

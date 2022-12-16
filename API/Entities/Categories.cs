@@ -24,5 +24,7 @@ namespace API.Entities
         public int Supplier { get; set; }
         public string Ramz { get; set; }
         public int? NumberPiece { get; set; } = 0;
+        public int? UserCode { get; set; } = 0;
+        public DateTime? DateAdd { get; set; } = new DateTime();
     }
 }

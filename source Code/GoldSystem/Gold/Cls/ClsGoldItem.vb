@@ -63,8 +63,9 @@ Public Class ClsGoldItem
         Dim FS As New FileStream(Path_, FileMode.Open, FileAccess.Read)
         Dim BR As New BinaryReader(FS)
         Dim FILE() As Byte = BR.ReadBytes(BR.BaseStream.Length)
-        Dim Prm(0) As SqlParameter
+        Dim Prm(1) As SqlParameter
         Prm(0) = New SqlParameter("@file", SqlDbType.VarBinary) With {.Value = FILE}
+        Prm(1) = New SqlParameter("@Dtp", SqlDbType.VarBinary) With {.Value = Today.Date}
         Con.EXECUTECOMMAND("INSERT INTO [dbo].[Category]
            ([Code]
            ,[AnotherCode]
@@ -81,11 +82,14 @@ Public Class ClsGoldItem
            ,[PhotoOrFile]
            ,[NumberOfPieces]
            ,[NumberPiece]
-           ,[Ramz])
+           ,[Ramz]
+           ,[UserCode]
+           ,[DateAdd])
      VALUES
            (" & Code & "," & AnotherCode & "," & AnotherCode2 & ",'" & BarCode & "','" & Name & "',
             " & Kart & "," & Weight & "," & MakingCharge & "," & Cost & "," & CostPerGram & "," & MadeIn & ",
-            '" & Supplier & "',@file," & NumberOfPieces & "," & NumberPiece & ",'" & Ramz & "')", Prm)
+            '" & Supplier & "',@file," & NumberOfPieces & "," & NumberPiece & ",'" & Ramz & "', " & My.Settings.Usercode & ",
+            @Dtp)", Prm)
     End Sub
     Public Function MaxSupplier()
         Dim Con As New ClsConnectionString
@@ -98,7 +102,12 @@ Public Class ClsGoldItem
         Dim Con As New ClsConnectionString
         Dim DT As New DataTable
         DT.Clear()
-        DT = Con.SELECT_TXT("SELECT Code as [رقم المورد], Name as [اسم المورد] FROM Suppliers order by Code")
+        DT = Con.SELECT_TXT("SELECT Code as [رقم المورد],
+                            Name as [اسم المورد],
+                            PhoneNumber as [رقم الهاتف],
+                            Address as [العنوان],
+                            CompanyId as [رقم الشركة]
+                            FROM Suppliers order by Code")
         Return DT
     End Function
 End Class
