@@ -23,23 +23,14 @@ Partial Class FrmAddCat
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle22 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle23 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle24 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle25 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmAddCat))
-        Dim DataGridViewCellStyle26 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle27 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle28 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle29 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle30 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.TxtCode = New System.Windows.Forms.TextBox()
         Me.ComStone = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -69,13 +60,14 @@ Partial Class FrmAddCat
         Me.DgvStone = New System.Windows.Forms.DataGridView()
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column20 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column18 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.DgvAdderItem = New System.Windows.Forms.DataGridView()
         Me.Column16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -103,10 +95,8 @@ Partial Class FrmAddCat
         Me.PictureEdit4 = New DevExpress.XtraEditors.PictureEdit()
         Me.Guna2TabControl1 = New Guna.UI2.WinForms.Guna2TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
-        Me.GridView2 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.TxtDoc = New DevExpress.XtraEditors.TextEdit()
+        Me.TxtPath = New DevExpress.XtraEditors.TextEdit()
         Me.BarManager1 = New DevExpress.XtraBars.BarManager(Me.components)
         Me.barDockControlTop = New DevExpress.XtraBars.BarDockControl()
         Me.barDockControlBottom = New DevExpress.XtraBars.BarDockControl()
@@ -122,6 +112,10 @@ Partial Class FrmAddCat
         Me.BarButtonItem5 = New DevExpress.XtraBars.BarButtonItem()
         Me.BarButtonItem6 = New DevExpress.XtraBars.BarButtonItem()
         Me.BarButtonItem7 = New DevExpress.XtraBars.BarButtonItem()
+        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
+        Me.GridView2 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.PictureEdit12 = New DevExpress.XtraEditors.PictureEdit()
         Me.Guna2Button13 = New Guna.UI2.WinForms.Guna2Button()
         Me.PictureEdit9 = New DevExpress.XtraEditors.PictureEdit()
@@ -129,9 +123,11 @@ Partial Class FrmAddCat
         Me.Lbl = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.TxtNumber = New System.Windows.Forms.TextBox()
-        Me.TxtPath = New System.Windows.Forms.TextBox()
+        Me.TxtPath2 = New System.Windows.Forms.TextBox()
         Me.TxtRamz = New System.Windows.Forms.TextBox()
+        Me.Label42 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.ComSupplier = New System.Windows.Forms.ComboBox()
         Me.ComName = New System.Windows.Forms.ComboBox()
         Me.ComMadeInStone = New System.Windows.Forms.ComboBox()
@@ -141,8 +137,10 @@ Partial Class FrmAddCat
         Me.Label39 = New System.Windows.Forms.Label()
         Me.LblFileExtentions = New System.Windows.Forms.Label()
         Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.TxtCostPerGram = New System.Windows.Forms.TextBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.LblFileExtentionsBlock = New System.Windows.Forms.Label()
         Me.PictureEdit13 = New DevExpress.XtraEditors.PictureEdit()
         Me.TxtPathBlock = New System.Windows.Forms.TextBox()
         Me.Label37 = New System.Windows.Forms.Label()
@@ -154,27 +152,6 @@ Partial Class FrmAddCat
         Me.TxtRamzBlock = New System.Windows.Forms.TextBox()
         Me.PictureEdit10 = New DevExpress.XtraEditors.PictureEdit()
         Me.ComSupplierBlock = New System.Windows.Forms.ComboBox()
-        Me.Guna2Separator1 = New Guna.UI2.WinForms.Guna2Separator()
-        Me.Guna2Button12 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button11 = New Guna.UI2.WinForms.Guna2Button()
-        Me.DgvStoneBlock = New System.Windows.Forms.DataGridView()
-        Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.ComStoneBlock = New System.Windows.Forms.ComboBox()
-        Me.TxtStonePriceBlock = New System.Windows.Forms.TextBox()
-        Me.TxtStoneColorBlock = New System.Windows.Forms.TextBox()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.TxtStoneWeightBlock = New System.Windows.Forms.TextBox()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.Label30 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.TxtCodeBlock = New System.Windows.Forms.TextBox()
         Me.Label17 = New System.Windows.Forms.Label()
@@ -216,15 +193,16 @@ Partial Class FrmAddCat
         CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
+        CType(Me.TxtDoc.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TxtPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         CType(Me.PictureEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DgvStoneBlock, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -236,26 +214,15 @@ Partial Class FrmAddCat
         CType(Me.RadialMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Label1
-        '
-        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label1.Location = New System.Drawing.Point(974, 3)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(130, 19)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Code - كود الصنف"
-        '
         'TxtCode
         '
         Me.TxtCode.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TxtCode.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtCode.Location = New System.Drawing.Point(905, 25)
+        Me.TxtCode.Location = New System.Drawing.Point(18, 178)
         Me.TxtCode.Name = "TxtCode"
         Me.TxtCode.ReadOnly = True
         Me.TxtCode.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtCode.Size = New System.Drawing.Size(199, 27)
+        Me.TxtCode.Size = New System.Drawing.Size(37, 27)
         Me.TxtCode.TabIndex = 1
         '
         'ComStone
@@ -264,27 +231,25 @@ Partial Class FrmAddCat
         Me.ComStone.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComStone.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.ComStone.FormattingEnabled = True
-        Me.ComStone.Location = New System.Drawing.Point(860, 189)
+        Me.ComStone.Location = New System.Drawing.Point(877, 189)
         Me.ComStone.Name = "ComStone"
-        Me.ComStone.Size = New System.Drawing.Size(144, 27)
+        Me.ComStone.Size = New System.Drawing.Size(127, 27)
         Me.ComStone.TabIndex = 2
         '
         'Label2
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label2.Location = New System.Drawing.Point(766, 3)
+        Me.Label2.Location = New System.Drawing.Point(904, 104)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(132, 19)
+        Me.Label2.Size = New System.Drawing.Size(199, 19)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "BarCode - الباركود"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TxtBarCode
         '
         Me.TxtBarCode.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtBarCode.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtBarCode.Location = New System.Drawing.Point(699, 25)
+        Me.TxtBarCode.Location = New System.Drawing.Point(904, 129)
         Me.TxtBarCode.Name = "TxtBarCode"
         Me.TxtBarCode.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtBarCode.Size = New System.Drawing.Size(199, 27)
@@ -293,41 +258,37 @@ Partial Class FrmAddCat
         'Label3
         '
         Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label3.Location = New System.Drawing.Point(758, 55)
+        Me.Label3.Location = New System.Drawing.Point(904, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(144, 19)
+        Me.Label3.Size = New System.Drawing.Size(199, 19)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "Name - اسم الصنف"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label4
         '
         Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label4.Location = New System.Drawing.Point(606, 3)
+        Me.Label4.Location = New System.Drawing.Point(698, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(87, 19)
+        Me.Label4.Size = New System.Drawing.Size(199, 19)
         Me.Label4.TabIndex = 0
-        Me.Label4.Text = "Kart - العيار"
+        Me.Label4.Text = "عيار الذهب"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label5
         '
         Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label5.Location = New System.Drawing.Point(590, 55)
+        Me.Label5.Location = New System.Drawing.Point(489, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(107, 19)
+        Me.Label5.Size = New System.Drawing.Size(199, 19)
         Me.Label5.TabIndex = 0
-        Me.Label5.Text = "Weight - الوزن"
+        Me.Label5.Text = "وزن الذهب"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TxtWeight
         '
         Me.TxtWeight.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtWeight.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtWeight.Location = New System.Drawing.Point(494, 77)
+        Me.TxtWeight.Location = New System.Drawing.Point(489, 22)
         Me.TxtWeight.Name = "TxtWeight"
         Me.TxtWeight.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtWeight.Size = New System.Drawing.Size(199, 27)
@@ -336,19 +297,17 @@ Partial Class FrmAddCat
         'Label6
         '
         Me.Label6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label6.Location = New System.Drawing.Point(416, 5)
+        Me.Label6.Location = New System.Drawing.Point(698, 52)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(69, 19)
+        Me.Label6.Size = New System.Drawing.Size(199, 19)
         Me.Label6.TabIndex = 0
-        Me.Label6.Text = "المصنعية"
+        Me.Label6.Text = "مصنعية البيع / جرام"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TxtMakingCharge
         '
         Me.TxtMakingCharge.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtMakingCharge.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtMakingCharge.Location = New System.Drawing.Point(286, 25)
+        Me.TxtMakingCharge.Location = New System.Drawing.Point(698, 74)
         Me.TxtMakingCharge.Name = "TxtMakingCharge"
         Me.TxtMakingCharge.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtMakingCharge.Size = New System.Drawing.Size(199, 27)
@@ -357,19 +316,17 @@ Partial Class FrmAddCat
         'Label7
         '
         Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label7.Location = New System.Drawing.Point(997, 55)
+        Me.Label7.Location = New System.Drawing.Point(904, 52)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(93, 19)
+        Me.Label7.Size = New System.Drawing.Size(199, 19)
         Me.Label7.TabIndex = 0
-        Me.Label7.Text = "تكلفة الشراء"
+        Me.Label7.Text = "سعر جرام الذهب عند الشراء"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TxtTotalCost
         '
         Me.TxtTotalCost.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtTotalCost.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtTotalCost.Location = New System.Drawing.Point(905, 77)
+        Me.TxtTotalCost.Location = New System.Drawing.Point(904, 74)
         Me.TxtTotalCost.Name = "TxtTotalCost"
         Me.TxtTotalCost.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtTotalCost.Size = New System.Drawing.Size(199, 27)
@@ -378,19 +335,17 @@ Partial Class FrmAddCat
         'Label8
         '
         Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label8.Location = New System.Drawing.Point(89, 3)
+        Me.Label8.Location = New System.Drawing.Point(275, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(190, 19)
+        Me.Label8.Size = New System.Drawing.Size(199, 19)
         Me.Label8.TabIndex = 0
-        Me.Label8.Text = "Cost/Geram - تكلفة الجرام"
+        Me.Label8.Text = "تكلفة الشراء للجرام"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TxtCostGram
         '
         Me.TxtCostGram.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtCostGram.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtCostGram.Location = New System.Drawing.Point(80, 25)
+        Me.TxtCostGram.Location = New System.Drawing.Point(275, 22)
         Me.TxtCostGram.Name = "TxtCostGram"
         Me.TxtCostGram.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtCostGram.Size = New System.Drawing.Size(199, 27)
@@ -399,21 +354,19 @@ Partial Class FrmAddCat
         'Label9
         '
         Me.Label9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label9.Location = New System.Drawing.Point(953, 107)
+        Me.Label9.Location = New System.Drawing.Point(275, 52)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(151, 19)
+        Me.Label9.Size = New System.Drawing.Size(199, 19)
         Me.Label9.TabIndex = 0
-        Me.Label9.Text = "Made in - بلد المنشأ"
+        Me.Label9.Text = "بلد المنشأ"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'ComKart
         '
         Me.ComKart.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComKart.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComKart.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.ComKart.FormattingEnabled = True
-        Me.ComKart.Location = New System.Drawing.Point(494, 25)
+        Me.ComKart.Location = New System.Drawing.Point(698, 22)
         Me.ComKart.Name = "ComKart"
         Me.ComKart.Size = New System.Drawing.Size(199, 27)
         Me.ComKart.TabIndex = 2
@@ -421,30 +374,27 @@ Partial Class FrmAddCat
         'Label10
         '
         Me.Label10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label10.Location = New System.Drawing.Point(162, 55)
+        Me.Label10.Location = New System.Drawing.Point(66, 52)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(122, 19)
+        Me.Label10.Size = New System.Drawing.Size(199, 19)
         Me.Label10.TabIndex = 0
         Me.Label10.Text = "Supplier - المورد"
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label11
         '
         Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label11.Location = New System.Drawing.Point(295, 55)
+        Me.Label11.Location = New System.Drawing.Point(489, 104)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(197, 19)
+        Me.Label11.Size = New System.Drawing.Size(199, 19)
         Me.Label11.TabIndex = 0
-        Me.Label11.Text = "Number Pieces - عدد القطع"
+        Me.Label11.Text = "عدد القطع"
+        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TxtNumberPieses
         '
         Me.TxtNumberPieses.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtNumberPieses.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtNumberPieses.Location = New System.Drawing.Point(286, 77)
+        Me.TxtNumberPieses.Location = New System.Drawing.Point(489, 129)
         Me.TxtNumberPieses.Name = "TxtNumberPieses"
         Me.TxtNumberPieses.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtNumberPieses.Size = New System.Drawing.Size(199, 27)
@@ -454,21 +404,19 @@ Partial Class FrmAddCat
         '
         Me.Label12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label12.Location = New System.Drawing.Point(885, 167)
+        Me.Label12.Location = New System.Drawing.Point(923, 167)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(119, 19)
+        Me.Label12.Size = New System.Drawing.Size(65, 19)
         Me.Label12.TabIndex = 0
-        Me.Label12.Text = "Stone - الفصوص"
+        Me.Label12.Text = "اسم الفص"
         '
         'Label13
         '
         Me.Label13.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label13.Location = New System.Drawing.Point(780, 167)
+        Me.Label13.Location = New System.Drawing.Point(797, 167)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(74, 19)
+        Me.Label13.Size = New System.Drawing.Size(64, 19)
         Me.Label13.TabIndex = 0
         Me.Label13.Text = "وزن الفص"
         '
@@ -476,7 +424,7 @@ Partial Class FrmAddCat
         '
         Me.TxtStoneWeight.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TxtStoneWeight.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtStoneWeight.Location = New System.Drawing.Point(742, 189)
+        Me.TxtStoneWeight.Location = New System.Drawing.Point(759, 189)
         Me.TxtStoneWeight.Name = "TxtStoneWeight"
         Me.TxtStoneWeight.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtStoneWeight.Size = New System.Drawing.Size(112, 27)
@@ -486,10 +434,9 @@ Partial Class FrmAddCat
         '
         Me.Label14.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.Label14.Location = New System.Drawing.Point(663, 167)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(73, 19)
+        Me.Label14.Size = New System.Drawing.Size(64, 19)
         Me.Label14.TabIndex = 0
         Me.Label14.Text = "لون الفص"
         '
@@ -497,7 +444,7 @@ Partial Class FrmAddCat
         '
         Me.TxtStoneColor.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TxtStoneColor.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtStoneColor.Location = New System.Drawing.Point(624, 189)
+        Me.TxtStoneColor.Location = New System.Drawing.Point(641, 189)
         Me.TxtStoneColor.Name = "TxtStoneColor"
         Me.TxtStoneColor.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtStoneColor.Size = New System.Drawing.Size(112, 27)
@@ -507,10 +454,9 @@ Partial Class FrmAddCat
         '
         Me.Label15.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.Label15.Location = New System.Drawing.Point(135, 167)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(81, 19)
+        Me.Label15.Size = New System.Drawing.Size(67, 19)
         Me.Label15.TabIndex = 0
         Me.Label15.Text = "سعر الفص"
         '
@@ -527,44 +473,20 @@ Partial Class FrmAddCat
         'DgvStone
         '
         Me.DgvStone.AllowUserToAddRows = False
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DgvStone.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DgvStone.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.DgvStone.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DgvStone.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DgvStone.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DgvStone.BackgroundColor = System.Drawing.Color.White
-        DataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvStone.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle17
         Me.DgvStone.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DgvStone.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column5, Me.Column9, Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column12, Me.Column18, Me.Column19})
-        DataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DgvStone.DefaultCellStyle = DataGridViewCellStyle18
+        Me.DgvStone.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column5, Me.Column9, Me.Column20, Me.Column1, Me.Column2, Me.Column3, Me.Column18, Me.Column19, Me.Column4, Me.Column12})
         Me.DgvStone.Location = New System.Drawing.Point(93, 222)
         Me.DgvStone.Name = "DgvStone"
         Me.DgvStone.ReadOnly = True
         Me.DgvStone.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        DataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle19.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle19.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvStone.RowHeadersDefaultCellStyle = DataGridViewCellStyle19
-        DataGridViewCellStyle20.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.DgvStone.RowsDefaultCellStyle = DataGridViewCellStyle20
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.DgvStone.RowsDefaultCellStyle = DataGridViewCellStyle2
         Me.DgvStone.RowTemplate.DefaultCellStyle.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
         Me.DgvStone.Size = New System.Drawing.Size(1011, 145)
         Me.DgvStone.TabIndex = 4
@@ -579,44 +501,36 @@ Partial Class FrmAddCat
         'Column9
         '
         Me.Column9.FillWeight = 40.0!
-        Me.Column9.HeaderText = "العدد"
+        Me.Column9.HeaderText = "م"
         Me.Column9.Name = "Column9"
         Me.Column9.ReadOnly = True
+        '
+        'Column20
+        '
+        Me.Column20.HeaderText = "نوع الفص"
+        Me.Column20.Name = "Column20"
+        Me.Column20.ReadOnly = True
         '
         'Column1
         '
         Me.Column1.FillWeight = 88.85164!
-        Me.Column1.HeaderText = "Name - الاسم"
+        Me.Column1.HeaderText = "اسم الفص"
         Me.Column1.Name = "Column1"
         Me.Column1.ReadOnly = True
         '
         'Column2
         '
         Me.Column2.FillWeight = 88.85164!
-        Me.Column2.HeaderText = "Weight - الوزن"
+        Me.Column2.HeaderText = "وزن الفص"
         Me.Column2.Name = "Column2"
         Me.Column2.ReadOnly = True
         '
         'Column3
         '
         Me.Column3.FillWeight = 88.85164!
-        Me.Column3.HeaderText = "Color - اللون"
+        Me.Column3.HeaderText = "لون الفص"
         Me.Column3.Name = "Column3"
         Me.Column3.ReadOnly = True
-        '
-        'Column4
-        '
-        Me.Column4.FillWeight = 88.85164!
-        Me.Column4.HeaderText = "Price - السعر"
-        Me.Column4.Name = "Column4"
-        Me.Column4.ReadOnly = True
-        '
-        'Column12
-        '
-        Me.Column12.HeaderText = "File"
-        Me.Column12.Name = "Column12"
-        Me.Column12.ReadOnly = True
-        Me.Column12.Visible = False
         '
         'Column18
         '
@@ -631,6 +545,19 @@ Partial Class FrmAddCat
         Me.Column19.HeaderText = "قصة الفص"
         Me.Column19.Name = "Column19"
         Me.Column19.ReadOnly = True
+        '
+        'Column4
+        '
+        Me.Column4.FillWeight = 88.85164!
+        Me.Column4.HeaderText = "السعر"
+        Me.Column4.Name = "Column4"
+        Me.Column4.ReadOnly = True
+        '
+        'Column12
+        '
+        Me.Column12.HeaderText = "عرض المرفق"
+        Me.Column12.Name = "Column12"
+        Me.Column12.ReadOnly = True
         '
         'Guna2Button1
         '
@@ -652,46 +579,46 @@ Partial Class FrmAddCat
         'DgvAdderItem
         '
         Me.DgvAdderItem.AllowUserToAddRows = False
-        DataGridViewCellStyle21.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DgvAdderItem.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle21
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DgvAdderItem.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle3
         Me.DgvAdderItem.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DgvAdderItem.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DgvAdderItem.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DgvAdderItem.BackgroundColor = System.Drawing.Color.White
-        DataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle22.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvAdderItem.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle22
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DgvAdderItem.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
         Me.DgvAdderItem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DgvAdderItem.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column16, Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.Column8, Me.DataGridViewTextBoxColumn5, Me.Column6, Me.Column17, Me.Column7, Me.Column13, Me.Column14, Me.Column15, Me.Column11})
-        DataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle23.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DgvAdderItem.DefaultCellStyle = DataGridViewCellStyle23
-        Me.DgvAdderItem.Location = New System.Drawing.Point(110, 415)
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DgvAdderItem.DefaultCellStyle = DataGridViewCellStyle5
+        Me.DgvAdderItem.Location = New System.Drawing.Point(0, 169)
         Me.DgvAdderItem.Name = "DgvAdderItem"
         Me.DgvAdderItem.ReadOnly = True
         Me.DgvAdderItem.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        DataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle24.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvAdderItem.RowHeadersDefaultCellStyle = DataGridViewCellStyle24
-        DataGridViewCellStyle25.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.DgvAdderItem.RowsDefaultCellStyle = DataGridViewCellStyle25
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DgvAdderItem.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.DgvAdderItem.RowsDefaultCellStyle = DataGridViewCellStyle7
         Me.DgvAdderItem.RowTemplate.DefaultCellStyle.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.DgvAdderItem.Size = New System.Drawing.Size(838, 195)
+        Me.DgvAdderItem.Size = New System.Drawing.Size(1072, 261)
         Me.DgvAdderItem.TabIndex = 4
         '
         'Column16
@@ -791,11 +718,11 @@ Partial Class FrmAddCat
         Me.Guna2Button2.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.Location = New System.Drawing.Point(949, 528)
+        Me.Guna2Button2.Location = New System.Drawing.Point(16, 124)
         Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.Size = New System.Drawing.Size(107, 35)
+        Me.Guna2Button2.Size = New System.Drawing.Size(157, 35)
         Me.Guna2Button2.TabIndex = 5
-        Me.Guna2Button2.Text = "اضافة"
+        Me.Guna2Button2.Text = "تفاصيل الطقم"
         Me.Guna2Button2.UseTransparentBackground = True
         '
         'Guna2Button3
@@ -980,10 +907,11 @@ Partial Class FrmAddCat
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.TxtDoc)
+        Me.TabPage1.Controls.Add(Me.TxtPath)
         Me.TabPage1.Controls.Add(Me.GridControl1)
         Me.TabPage1.Controls.Add(Me.PictureEdit12)
         Me.TabPage1.Controls.Add(Me.Guna2Button13)
-        Me.TabPage1.Controls.Add(Me.Label1)
         Me.TabPage1.Controls.Add(Me.PictureEdit9)
         Me.TabPage1.Controls.Add(Me.PictureEdit4)
         Me.TabPage1.Controls.Add(Me.TxtCode)
@@ -1007,11 +935,13 @@ Partial Class FrmAddCat
         Me.TabPage1.Controls.Add(Me.Label40)
         Me.TabPage1.Controls.Add(Me.Label9)
         Me.TabPage1.Controls.Add(Me.TxtNumber)
-        Me.TabPage1.Controls.Add(Me.TxtPath)
+        Me.TabPage1.Controls.Add(Me.TxtPath2)
         Me.TabPage1.Controls.Add(Me.TxtRamz)
+        Me.TabPage1.Controls.Add(Me.Label42)
         Me.TabPage1.Controls.Add(Me.DgvStone)
         Me.TabPage1.Controls.Add(Me.Label36)
         Me.TabPage1.Controls.Add(Me.Label11)
+        Me.TabPage1.Controls.Add(Me.ComboBox1)
         Me.TabPage1.Controls.Add(Me.ComStone)
         Me.TabPage1.Controls.Add(Me.ComSupplier)
         Me.TabPage1.Controls.Add(Me.ComName)
@@ -1027,16 +957,20 @@ Partial Class FrmAddCat
         Me.TabPage1.Controls.Add(Me.LblFileExtentions)
         Me.TabPage1.Controls.Add(Me.Label38)
         Me.TabPage1.Controls.Add(Me.Label15)
+        Me.TabPage1.Controls.Add(Me.Label1)
         Me.TabPage1.Controls.Add(Me.Label8)
         Me.TabPage1.Controls.Add(Me.TxtStoneWeight)
+        Me.TabPage1.Controls.Add(Me.Label41)
         Me.TabPage1.Controls.Add(Me.Label10)
         Me.TabPage1.Controls.Add(Me.Label14)
+        Me.TabPage1.Controls.Add(Me.TxtCostPerGram)
         Me.TabPage1.Controls.Add(Me.TxtCostGram)
         Me.TabPage1.Controls.Add(Me.Label13)
         Me.TabPage1.Controls.Add(Me.Label4)
         Me.TabPage1.Controls.Add(Me.Label12)
         Me.TabPage1.Controls.Add(Me.Label5)
         Me.TabPage1.Controls.Add(Me.TxtWeight)
+        Me.TabPage1.Font = New System.Drawing.Font("Calibri", 12.0!)
         Me.TabPage1.Location = New System.Drawing.Point(184, 4)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
@@ -1045,40 +979,28 @@ Partial Class FrmAddCat
         Me.TabPage1.Text = "اضافة قطعة فردية"
         Me.TabPage1.UseVisualStyleBackColor = True
         '
-        'GridControl1
+        'TxtDoc
         '
-        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.GridControl1.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.GridControl1.Location = New System.Drawing.Point(3, 442)
-        Me.GridControl1.MainView = Me.GridView2
-        Me.GridControl1.MenuManager = Me.BarManager1
-        Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.GridControl1.Size = New System.Drawing.Size(1104, 246)
-        Me.GridControl1.TabIndex = 53
-        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
+        Me.TxtDoc.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtDoc.Location = New System.Drawing.Point(66, 130)
+        Me.TxtDoc.Name = "TxtDoc"
+        Me.TxtDoc.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtDoc.Properties.Appearance.Options.UseFont = True
+        Me.TxtDoc.Properties.ContextImageOptions.Image = CType(resources.GetObject("TxtDoc.Properties.ContextImageOptions.Image"), System.Drawing.Image)
+        Me.TxtDoc.Size = New System.Drawing.Size(199, 26)
+        Me.TxtDoc.TabIndex = 54
         '
-        'GridView2
+        'TxtPath
         '
-        Me.GridView2.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn1, Me.GridColumn2})
-        Me.GridView2.GridControl = Me.GridControl1
-        Me.GridView2.Name = "GridView2"
-        '
-        'GridColumn1
-        '
-        Me.GridColumn1.Caption = "م"
-        Me.GridColumn1.FieldName = "م"
-        Me.GridColumn1.Name = "GridColumn1"
-        Me.GridColumn1.Visible = True
-        Me.GridColumn1.VisibleIndex = 0
-        '
-        'GridColumn2
-        '
-        Me.GridColumn2.Caption = "الباركود"
-        Me.GridColumn2.FieldName = "الباركود"
-        Me.GridColumn2.Name = "GridColumn2"
-        Me.GridColumn2.Visible = True
-        Me.GridColumn2.VisibleIndex = 1
+        Me.TxtPath.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtPath.Location = New System.Drawing.Point(275, 129)
+        Me.TxtPath.MenuManager = Me.BarManager1
+        Me.TxtPath.Name = "TxtPath"
+        Me.TxtPath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtPath.Properties.Appearance.Options.UseFont = True
+        Me.TxtPath.Properties.ContextImageOptions.Image = CType(resources.GetObject("TxtPath.Properties.ContextImageOptions.Image"), System.Drawing.Image)
+        Me.TxtPath.Size = New System.Drawing.Size(199, 26)
+        Me.TxtPath.TabIndex = 54
         '
         'BarManager1
         '
@@ -1230,12 +1152,47 @@ Partial Class FrmAddCat
         Me.BarButtonItem7.ItemInMenuAppearance.Normal.Options.UseBackColor = True
         Me.BarButtonItem7.Name = "BarButtonItem7"
         '
+        'GridControl1
+        '
+        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.GridControl1.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.GridControl1.Location = New System.Drawing.Point(3, 442)
+        Me.GridControl1.MainView = Me.GridView2
+        Me.GridControl1.MenuManager = Me.BarManager1
+        Me.GridControl1.Name = "GridControl1"
+        Me.GridControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.GridControl1.Size = New System.Drawing.Size(1104, 246)
+        Me.GridControl1.TabIndex = 53
+        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
+        '
+        'GridView2
+        '
+        Me.GridView2.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn1, Me.GridColumn2})
+        Me.GridView2.GridControl = Me.GridControl1
+        Me.GridView2.Name = "GridView2"
+        '
+        'GridColumn1
+        '
+        Me.GridColumn1.Caption = "م"
+        Me.GridColumn1.FieldName = "م"
+        Me.GridColumn1.Name = "GridColumn1"
+        Me.GridColumn1.Visible = True
+        Me.GridColumn1.VisibleIndex = 0
+        '
+        'GridColumn2
+        '
+        Me.GridColumn2.Caption = "الباركود"
+        Me.GridColumn2.FieldName = "الباركود"
+        Me.GridColumn2.Name = "GridColumn2"
+        Me.GridColumn2.Visible = True
+        Me.GridColumn2.VisibleIndex = 1
+        '
         'PictureEdit12
         '
         Me.PictureEdit12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit12.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit12.EditValue = CType(resources.GetObject("PictureEdit12.EditValue"), Object)
-        Me.PictureEdit12.Location = New System.Drawing.Point(233, 119)
+        Me.PictureEdit12.Location = New System.Drawing.Point(66, 399)
         Me.PictureEdit12.Name = "PictureEdit12"
         Me.PictureEdit12.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.PictureEdit12.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
@@ -1246,7 +1203,7 @@ Partial Class FrmAddCat
         Me.PictureEdit12.Properties.Appearance.Options.UseForeColor = True
         Me.PictureEdit12.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit12.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit12.Size = New System.Drawing.Size(53, 42)
+        Me.PictureEdit12.Size = New System.Drawing.Size(32, 34)
         Me.PictureEdit12.TabIndex = 52
         '
         'Guna2Button13
@@ -1287,85 +1244,99 @@ Partial Class FrmAddCat
         'Label34
         '
         Me.Label34.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label34.AutoSize = True
-        Me.Label34.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label34.Location = New System.Drawing.Point(608, 107)
+        Me.Label34.Location = New System.Drawing.Point(489, 52)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(83, 19)
+        Me.Label34.Size = New System.Drawing.Size(199, 19)
         Me.Label34.TabIndex = 0
         Me.Label34.Text = "رقم القطعة"
+        Me.Label34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Lbl
         '
         Me.Lbl.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Lbl.AutoSize = True
-        Me.Lbl.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Lbl.Location = New System.Drawing.Point(816, 107)
+        Me.Lbl.Location = New System.Drawing.Point(698, 104)
         Me.Lbl.Name = "Lbl"
-        Me.Lbl.Size = New System.Drawing.Size(80, 19)
+        Me.Lbl.Size = New System.Drawing.Size(199, 19)
         Me.Lbl.TabIndex = 0
         Me.Lbl.Text = "رمز القطعة"
+        Me.Lbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label40
         '
         Me.Label40.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.Label40.Location = New System.Drawing.Point(261, 167)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(123, 19)
+        Me.Label40.Size = New System.Drawing.Size(97, 19)
         Me.Label40.TabIndex = 0
         Me.Label40.Text = "بلد المنشأ للفص"
         '
         'TxtNumber
         '
         Me.TxtNumber.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtNumber.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtNumber.Location = New System.Drawing.Point(494, 129)
+        Me.TxtNumber.Location = New System.Drawing.Point(489, 74)
         Me.TxtNumber.Name = "TxtNumber"
         Me.TxtNumber.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtNumber.Size = New System.Drawing.Size(199, 27)
         Me.TxtNumber.TabIndex = 1
         '
-        'TxtPath
+        'TxtPath2
         '
-        Me.TxtPath.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtPath.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtPath.Location = New System.Drawing.Point(289, 129)
-        Me.TxtPath.Name = "TxtPath"
-        Me.TxtPath.ReadOnly = True
-        Me.TxtPath.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtPath.Size = New System.Drawing.Size(199, 27)
-        Me.TxtPath.TabIndex = 1
+        Me.TxtPath2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtPath2.Location = New System.Drawing.Point(3, 399)
+        Me.TxtPath2.Name = "TxtPath2"
+        Me.TxtPath2.ReadOnly = True
+        Me.TxtPath2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TxtPath2.Size = New System.Drawing.Size(195, 27)
+        Me.TxtPath2.TabIndex = 1
         '
         'TxtRamz
         '
         Me.TxtRamz.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtRamz.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtRamz.Location = New System.Drawing.Point(697, 129)
+        Me.TxtRamz.Location = New System.Drawing.Point(698, 129)
         Me.TxtRamz.Name = "TxtRamz"
         Me.TxtRamz.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TxtRamz.Size = New System.Drawing.Size(199, 27)
         Me.TxtRamz.TabIndex = 1
         '
+        'Label42
+        '
+        Me.Label42.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label42.Location = New System.Drawing.Point(66, 105)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(199, 19)
+        Me.Label42.TabIndex = 0
+        Me.Label42.Text = "مستندات / شهادات"
+        Me.Label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Label36
         '
         Me.Label36.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label36.Location = New System.Drawing.Point(398, 107)
+        Me.Label36.Location = New System.Drawing.Point(275, 104)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(87, 19)
+        Me.Label36.Size = New System.Drawing.Size(199, 19)
         Me.Label36.TabIndex = 0
-        Me.Label36.Text = "صورة / ملف"
+        Me.Label36.Text = "صورة القطعة"
+        Me.Label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox1.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"عادى", "ثمين"})
+        Me.ComboBox1.Location = New System.Drawing.Point(1010, 189)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(95, 27)
+        Me.ComboBox1.TabIndex = 2
         '
         'ComSupplier
         '
         Me.ComSupplier.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComSupplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComSupplier.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.ComSupplier.FormattingEnabled = True
-        Me.ComSupplier.Location = New System.Drawing.Point(81, 77)
+        Me.ComSupplier.Location = New System.Drawing.Point(66, 74)
         Me.ComSupplier.Name = "ComSupplier"
         Me.ComSupplier.Size = New System.Drawing.Size(199, 27)
         Me.ComSupplier.TabIndex = 2
@@ -1373,9 +1344,8 @@ Partial Class FrmAddCat
         'ComName
         '
         Me.ComName.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ComName.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.ComName.FormattingEnabled = True
-        Me.ComName.Location = New System.Drawing.Point(697, 77)
+        Me.ComName.Location = New System.Drawing.Point(904, 22)
         Me.ComName.Name = "ComName"
         Me.ComName.Size = New System.Drawing.Size(199, 27)
         Me.ComName.TabIndex = 2
@@ -1395,9 +1365,8 @@ Partial Class FrmAddCat
         '
         Me.ComMadIN.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComMadIN.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComMadIN.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.ComMadIN.FormattingEnabled = True
-        Me.ComMadIN.Location = New System.Drawing.Point(905, 129)
+        Me.ComMadIN.Location = New System.Drawing.Point(275, 74)
         Me.ComMadIN.Name = "ComMadIN"
         Me.ComMadIN.Size = New System.Drawing.Size(199, 27)
         Me.ComMadIN.TabIndex = 2
@@ -1426,10 +1395,9 @@ Partial Class FrmAddCat
         '
         Me.Label39.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.Label39.Location = New System.Drawing.Point(420, 167)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(78, 19)
+        Me.Label39.Size = New System.Drawing.Size(69, 19)
         Me.Label39.TabIndex = 0
         Me.Label39.Text = "قصة الفص"
         '
@@ -1449,16 +1417,43 @@ Partial Class FrmAddCat
         '
         Me.Label38.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.Label38.Location = New System.Drawing.Point(525, 167)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(82, 19)
+        Me.Label38.Size = New System.Drawing.Size(71, 19)
         Me.Label38.TabIndex = 0
         Me.Label38.Text = "نقاوة الفص"
         '
+        'Label1
+        '
+        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label1.Location = New System.Drawing.Point(66, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(199, 19)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "سعر شراء القطعة"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label41
+        '
+        Me.Label41.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label41.AutoSize = True
+        Me.Label41.Location = New System.Drawing.Point(1032, 167)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(61, 19)
+        Me.Label41.TabIndex = 0
+        Me.Label41.Text = "نوع الفص"
+        '
+        'TxtCostPerGram
+        '
+        Me.TxtCostPerGram.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtCostPerGram.Location = New System.Drawing.Point(66, 22)
+        Me.TxtCostPerGram.Name = "TxtCostPerGram"
+        Me.TxtCostPerGram.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TxtCostPerGram.Size = New System.Drawing.Size(199, 27)
+        Me.TxtCostPerGram.TabIndex = 1
+        '
         'TabPage2
         '
-        Me.TabPage2.Controls.Add(Me.LblFileExtentionsBlock)
         Me.TabPage2.Controls.Add(Me.PictureEdit13)
         Me.TabPage2.Controls.Add(Me.TxtPathBlock)
         Me.TabPage2.Controls.Add(Me.Label37)
@@ -1470,20 +1465,6 @@ Partial Class FrmAddCat
         Me.TabPage2.Controls.Add(Me.TxtRamzBlock)
         Me.TabPage2.Controls.Add(Me.PictureEdit10)
         Me.TabPage2.Controls.Add(Me.ComSupplierBlock)
-        Me.TabPage2.Controls.Add(Me.Guna2Separator1)
-        Me.TabPage2.Controls.Add(Me.Guna2Button12)
-        Me.TabPage2.Controls.Add(Me.Guna2Button11)
-        Me.TabPage2.Controls.Add(Me.DgvStoneBlock)
-        Me.TabPage2.Controls.Add(Me.ComStoneBlock)
-        Me.TabPage2.Controls.Add(Me.TxtStonePriceBlock)
-        Me.TabPage2.Controls.Add(Me.TxtStoneColorBlock)
-        Me.TabPage2.Controls.Add(Me.Label27)
-        Me.TabPage2.Controls.Add(Me.TxtStoneWeightBlock)
-        Me.TabPage2.Controls.Add(Me.Label28)
-        Me.TabPage2.Controls.Add(Me.Label29)
-        Me.TabPage2.Controls.Add(Me.Label32)
-        Me.TabPage2.Controls.Add(Me.Label31)
-        Me.TabPage2.Controls.Add(Me.Label30)
         Me.TabPage2.Controls.Add(Me.Label16)
         Me.TabPage2.Controls.Add(Me.TxtCodeBlock)
         Me.TabPage2.Controls.Add(Me.Label17)
@@ -1521,18 +1502,6 @@ Partial Class FrmAddCat
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "اضافة طقم"
         Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'LblFileExtentionsBlock
-        '
-        Me.LblFileExtentionsBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.LblFileExtentionsBlock.AutoSize = True
-        Me.LblFileExtentionsBlock.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.LblFileExtentionsBlock.Location = New System.Drawing.Point(308, 161)
-        Me.LblFileExtentionsBlock.Name = "LblFileExtentionsBlock"
-        Me.LblFileExtentionsBlock.Size = New System.Drawing.Size(18, 19)
-        Me.LblFileExtentionsBlock.TabIndex = 63
-        Me.LblFileExtentionsBlock.Text = "0"
-        Me.LblFileExtentionsBlock.Visible = False
         '
         'PictureEdit13
         '
@@ -1666,244 +1635,6 @@ Partial Class FrmAddCat
         Me.ComSupplierBlock.Name = "ComSupplierBlock"
         Me.ComSupplierBlock.Size = New System.Drawing.Size(199, 27)
         Me.ComSupplierBlock.TabIndex = 52
-        '
-        'Guna2Separator1
-        '
-        Me.Guna2Separator1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Separator1.Location = New System.Drawing.Point(41, 399)
-        Me.Guna2Separator1.Name = "Guna2Separator1"
-        Me.Guna2Separator1.Size = New System.Drawing.Size(984, 10)
-        Me.Guna2Separator1.TabIndex = 51
-        '
-        'Guna2Button12
-        '
-        Me.Guna2Button12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Button12.BorderRadius = 10
-        Me.Guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button12.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2Button12.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2Button12.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button12.Location = New System.Drawing.Point(279, 182)
-        Me.Guna2Button12.Name = "Guna2Button12"
-        Me.Guna2Button12.Size = New System.Drawing.Size(148, 35)
-        Me.Guna2Button12.TabIndex = 50
-        Me.Guna2Button12.Text = "ملف / صورة"
-        '
-        'Guna2Button11
-        '
-        Me.Guna2Button11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Button11.BorderRadius = 10
-        Me.Guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button11.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2Button11.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2Button11.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button11.Location = New System.Drawing.Point(113, 183)
-        Me.Guna2Button11.Name = "Guna2Button11"
-        Me.Guna2Button11.Size = New System.Drawing.Size(107, 35)
-        Me.Guna2Button11.TabIndex = 50
-        Me.Guna2Button11.Text = "اضافة حجر"
-        '
-        'DgvStoneBlock
-        '
-        Me.DgvStoneBlock.AllowUserToAddRows = False
-        DataGridViewCellStyle26.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DgvStoneBlock.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle26
-        Me.DgvStoneBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.DgvStoneBlock.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.DgvStoneBlock.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
-        Me.DgvStoneBlock.BackgroundColor = System.Drawing.Color.White
-        DataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle27.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle27.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvStoneBlock.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle27
-        Me.DgvStoneBlock.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DgvStoneBlock.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn11, Me.Column10})
-        DataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle28.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle28.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle28.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DgvStoneBlock.DefaultCellStyle = DataGridViewCellStyle28
-        Me.DgvStoneBlock.Location = New System.Drawing.Point(113, 219)
-        Me.DgvStoneBlock.Name = "DgvStoneBlock"
-        Me.DgvStoneBlock.ReadOnly = True
-        Me.DgvStoneBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        DataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle29.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle29.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvStoneBlock.RowHeadersDefaultCellStyle = DataGridViewCellStyle29
-        DataGridViewCellStyle30.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.DgvStoneBlock.RowsDefaultCellStyle = DataGridViewCellStyle30
-        Me.DgvStoneBlock.RowTemplate.DefaultCellStyle.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.DgvStoneBlock.Size = New System.Drawing.Size(835, 177)
-        Me.DgvStoneBlock.TabIndex = 49
-        '
-        'DataGridViewTextBoxColumn6
-        '
-        Me.DataGridViewTextBoxColumn6.HeaderText = "StoneCode"
-        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
-        Me.DataGridViewTextBoxColumn6.ReadOnly = True
-        Me.DataGridViewTextBoxColumn6.Visible = False
-        '
-        'DataGridViewTextBoxColumn7
-        '
-        Me.DataGridViewTextBoxColumn7.HeaderText = "العدد"
-        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
-        Me.DataGridViewTextBoxColumn7.ReadOnly = True
-        '
-        'DataGridViewTextBoxColumn8
-        '
-        Me.DataGridViewTextBoxColumn8.HeaderText = "Name - الاسم"
-        Me.DataGridViewTextBoxColumn8.Name = "DataGridViewTextBoxColumn8"
-        Me.DataGridViewTextBoxColumn8.ReadOnly = True
-        '
-        'DataGridViewTextBoxColumn9
-        '
-        Me.DataGridViewTextBoxColumn9.HeaderText = "Weight - الوزن"
-        Me.DataGridViewTextBoxColumn9.Name = "DataGridViewTextBoxColumn9"
-        Me.DataGridViewTextBoxColumn9.ReadOnly = True
-        '
-        'DataGridViewTextBoxColumn10
-        '
-        Me.DataGridViewTextBoxColumn10.HeaderText = "Color - اللون"
-        Me.DataGridViewTextBoxColumn10.Name = "DataGridViewTextBoxColumn10"
-        Me.DataGridViewTextBoxColumn10.ReadOnly = True
-        '
-        'DataGridViewTextBoxColumn11
-        '
-        Me.DataGridViewTextBoxColumn11.HeaderText = "Price - السعر"
-        Me.DataGridViewTextBoxColumn11.Name = "DataGridViewTextBoxColumn11"
-        Me.DataGridViewTextBoxColumn11.ReadOnly = True
-        '
-        'Column10
-        '
-        Me.Column10.HeaderText = "File"
-        Me.Column10.Name = "Column10"
-        Me.Column10.ReadOnly = True
-        Me.Column10.Visible = False
-        '
-        'ComStoneBlock
-        '
-        Me.ComStoneBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ComStoneBlock.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComStoneBlock.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.ComStoneBlock.FormattingEnabled = True
-        Me.ComStoneBlock.Location = New System.Drawing.Point(785, 186)
-        Me.ComStoneBlock.Name = "ComStoneBlock"
-        Me.ComStoneBlock.Size = New System.Drawing.Size(144, 27)
-        Me.ComStoneBlock.TabIndex = 48
-        '
-        'TxtStonePriceBlock
-        '
-        Me.TxtStonePriceBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtStonePriceBlock.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtStonePriceBlock.Location = New System.Drawing.Point(432, 186)
-        Me.TxtStonePriceBlock.Name = "TxtStonePriceBlock"
-        Me.TxtStonePriceBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtStonePriceBlock.Size = New System.Drawing.Size(112, 27)
-        Me.TxtStonePriceBlock.TabIndex = 45
-        '
-        'TxtStoneColorBlock
-        '
-        Me.TxtStoneColorBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtStoneColorBlock.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtStoneColorBlock.Location = New System.Drawing.Point(549, 186)
-        Me.TxtStoneColorBlock.Name = "TxtStoneColorBlock"
-        Me.TxtStoneColorBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtStoneColorBlock.Size = New System.Drawing.Size(112, 27)
-        Me.TxtStoneColorBlock.TabIndex = 46
-        '
-        'Label27
-        '
-        Me.Label27.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label27.Location = New System.Drawing.Point(448, 164)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(100, 19)
-        Me.Label27.TabIndex = 41
-        Me.Label27.Text = "Price - السعر"
-        '
-        'TxtStoneWeightBlock
-        '
-        Me.TxtStoneWeightBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtStoneWeightBlock.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtStoneWeightBlock.Location = New System.Drawing.Point(667, 186)
-        Me.TxtStoneWeightBlock.Name = "TxtStoneWeightBlock"
-        Me.TxtStoneWeightBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtStoneWeightBlock.Size = New System.Drawing.Size(112, 27)
-        Me.TxtStoneWeightBlock.TabIndex = 47
-        '
-        'Label28
-        '
-        Me.Label28.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label28.Location = New System.Drawing.Point(565, 164)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(96, 19)
-        Me.Label28.TabIndex = 42
-        Me.Label28.Text = "Color - اللون"
-        '
-        'Label29
-        '
-        Me.Label29.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label29.Location = New System.Drawing.Point(672, 164)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(107, 19)
-        Me.Label29.TabIndex = 43
-        Me.Label29.Text = "Weight - الوزن"
-        '
-        'Label32
-        '
-        Me.Label32.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Tahoma", 13.0!, System.Drawing.FontStyle.Bold)
-        Me.Label32.Location = New System.Drawing.Point(979, 481)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(61, 44)
-        Me.Label32.TabIndex = 44
-        Me.Label32.Text = "بيانات" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "الطقم"
-        '
-        'Label31
-        '
-        Me.Label31.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label31.AutoSize = True
-        Me.Label31.Font = New System.Drawing.Font("Tahoma", 13.0!, System.Drawing.FontStyle.Bold)
-        Me.Label31.Location = New System.Drawing.Point(954, 268)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(86, 44)
-        Me.Label31.TabIndex = 44
-        Me.Label31.Text = "بيانات" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "الفصوص"
-        '
-        'Label30
-        '
-        Me.Label30.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.Label30.Location = New System.Drawing.Point(810, 164)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(119, 19)
-        Me.Label30.TabIndex = 44
-        Me.Label30.Text = "Stone - الفصوص"
         '
         'Label16
         '
@@ -2339,16 +2070,17 @@ Partial Class FrmAddCat
         Me.Guna2TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
+        CType(Me.TxtDoc.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TxtPath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
         CType(Me.PictureEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DgvStoneBlock, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2362,8 +2094,6 @@ Partial Class FrmAddCat
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label1 As Label
     Friend WithEvents TxtCode As TextBox
     Friend WithEvents ComStone As ComboBox
     Friend WithEvents Label2 As Label
@@ -2435,19 +2165,6 @@ Partial Class FrmAddCat
     Friend WithEvents Label25 As Label
     Friend WithEvents Label26 As Label
     Friend WithEvents TxtWeightBlock As TextBox
-    Friend WithEvents Guna2Button11 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents DgvStoneBlock As DataGridView
-    Friend WithEvents ComStoneBlock As ComboBox
-    Friend WithEvents TxtStonePriceBlock As TextBox
-    Friend WithEvents TxtStoneColorBlock As TextBox
-    Friend WithEvents Label27 As Label
-    Friend WithEvents TxtStoneWeightBlock As TextBox
-    Friend WithEvents Label28 As Label
-    Friend WithEvents Label29 As Label
-    Friend WithEvents Label32 As Label
-    Friend WithEvents Label31 As Label
-    Friend WithEvents Label30 As Label
-    Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents ComSupplier As ComboBox
     Friend WithEvents ComSupplierBlock As ComboBox
     Friend WithEvents Lbl As Label
@@ -2481,24 +2198,15 @@ Partial Class FrmAddCat
     Friend WithEvents ComNameBlock As ComboBox
     Friend WithEvents ComMadIN As ComboBox
     Friend WithEvents ComMadINBlock As ComboBox
-    Friend WithEvents Guna2Button12 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents DataGridViewTextBoxColumn6 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn7 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn8 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn9 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn10 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn11 As DataGridViewTextBoxColumn
-    Friend WithEvents Column10 As DataGridViewTextBoxColumn
     Friend WithEvents Guna2Button13 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents LblFileExtentions As Label
     Friend WithEvents OFD As OpenFileDialog
     Friend WithEvents PictureEdit12 As DevExpress.XtraEditors.PictureEdit
-    Friend WithEvents TxtPath As TextBox
+    Friend WithEvents TxtPath2 As TextBox
     Friend WithEvents Label36 As Label
     Friend WithEvents PictureEdit13 As DevExpress.XtraEditors.PictureEdit
     Friend WithEvents TxtPathBlock As TextBox
     Friend WithEvents Label37 As Label
-    Friend WithEvents LblFileExtentionsBlock As Label
     Friend WithEvents Column16 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
@@ -2521,15 +2229,23 @@ Partial Class FrmAddCat
     Friend WithEvents GridView2 As DevExpress.XtraGrid.Views.Grid.GridView
     Friend WithEvents GridColumn1 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn2 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents Label40 As Label
+    Friend WithEvents ComMadeInStone As ComboBox
     Friend WithEvents Column5 As DataGridViewTextBoxColumn
     Friend WithEvents Column9 As DataGridViewTextBoxColumn
+    Friend WithEvents Column20 As DataGridViewTextBoxColumn
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
-    Friend WithEvents Column4 As DataGridViewTextBoxColumn
-    Friend WithEvents Column12 As DataGridViewTextBoxColumn
     Friend WithEvents Column18 As DataGridViewTextBoxColumn
     Friend WithEvents Column19 As DataGridViewTextBoxColumn
-    Friend WithEvents Label40 As Label
-    Friend WithEvents ComMadeInStone As ComboBox
+    Friend WithEvents Column4 As DataGridViewTextBoxColumn
+    Friend WithEvents Column12 As DataGridViewTextBoxColumn
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Label41 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TxtCostPerGram As TextBox
+    Friend WithEvents TxtDoc As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TxtPath As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents Label42 As Label
 End Class
