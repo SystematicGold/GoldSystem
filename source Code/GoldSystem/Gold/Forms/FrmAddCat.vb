@@ -211,11 +211,11 @@ Public Class FrmAddCat
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub PictureEdit13_Click(sender As Object, e As EventArgs) Handles PictureEdit13.Click
+    Private Sub PictureEdit13_Click(sender As Object, e As EventArgs)
         Try
             If OFD.ShowDialog = DialogResult.OK Then
                 Dim path As String = OFD.FileName
-                TxtPathBlock.Text = path
+                'TxtPathBlock.Text = path
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
@@ -259,10 +259,10 @@ Public Class FrmAddCat
     Private Sub Guna2Button9_Click(sender As Object, e As EventArgs) Handles Guna2Button9.Click
         Try
             Max()
-            ClsGoldItem_.AddItem(TxtCodeBlock.Text, 0, 0, TxtBarCodeBlock.Text, ComNameBlock.Text, ComKartBlock.SelectedValue,
-                            TxtWeightBlock.Text, TxtMakingChargeBlock.Text, TxtTotalCostBlock.Text, TxtCostGramBlock.Text,
-                            ComMadINBlock.SelectedValue, ComSupplierBlock.SelectedValue, TxtPathBlock.Text, TxtNumberPiesesBlock.Text,
-                            TxtNumberBlock.Text, TxtRamzBlock.Text)
+            'ClsGoldItem_.AddItem(TxtCodeBlock.Text, 0, 0, TxtBarCodeBlock.Text, ComNameBlock.Text, ComKartBlock.SelectedValue,
+            '                TxtWeightBlock.Text, TxtMakingChargeBlock.Text, TxtTotalCostBlock.Text, TxtCostGramBlock.Text,
+            '                ComMadINBlock.SelectedValue, ComSupplierBlock.SelectedValue, TxtPathBlock.Text, TxtNumberPiesesBlock.Text,
+            '                TxtNumberBlock.Text, TxtRamzBlock.Text)
             AddStoneBlock()
             AddAnotherItem()
             MessageBox.Show("تم حفظ الصنف")
@@ -283,15 +283,15 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
             Next
         End If
     End Sub
-    Private Sub ComKartBlock_DropDown(sender As Object, e As EventArgs) Handles ComKartBlock.DropDown
+    Private Sub ComKartBlock_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
             DT = ClsGoldItem_.Kart()
             If DT.Rows.Count > 0 Then
-                ComKartBlock.DataSource = DT
-                ComKartBlock.DisplayMember = "Name"
-                ComKartBlock.ValueMember = "Code"
+                'ComKartBlock.DataSource = DT
+                'ComKartBlock.DisplayMember = "Name"
+                'ComKartBlock.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
@@ -384,15 +384,15 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub ComMadINBlock_DropDown(sender As Object, e As EventArgs) Handles ComMadINBlock.DropDown
+    Private Sub ComMadINBlock_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
             DT = ClsGoldItem_.MadeIn()
             If DT.Rows.Count > 0 Then
-                ComMadINBlock.DataSource = DT
-                ComMadINBlock.DisplayMember = "Name"
-                ComMadINBlock.ValueMember = "Code"
+                'ComMadINBlock.DataSource = DT
+                'ComMadINBlock.DisplayMember = "Name"
+                'ComMadINBlock.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)

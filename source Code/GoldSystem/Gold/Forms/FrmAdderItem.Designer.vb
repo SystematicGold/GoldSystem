@@ -23,8 +23,8 @@ Partial Class FrmAdderItem
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmAdderItem))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
@@ -94,12 +94,16 @@ Partial Class FrmAdderItem
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.Guna2GroupBox2 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         CType(Me.TxtDoc.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TxtPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2GroupBox1.SuspendLayout()
+        Me.Guna2GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2Button2
@@ -113,7 +117,7 @@ Partial Class FrmAdderItem
         Me.Guna2Button2.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2Button2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.Location = New System.Drawing.Point(799, 647)
+        Me.Guna2Button2.Location = New System.Drawing.Point(798, 606)
         Me.Guna2Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button2.Name = "Guna2Button2"
         Me.Guna2Button2.Size = New System.Drawing.Size(143, 51)
@@ -131,7 +135,7 @@ Partial Class FrmAdderItem
         Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.Location = New System.Drawing.Point(648, 647)
+        Me.Guna2Button1.Location = New System.Drawing.Point(647, 606)
         Me.Guna2Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button1.Name = "Guna2Button1"
         Me.Guna2Button1.Size = New System.Drawing.Size(143, 51)
@@ -149,7 +153,7 @@ Partial Class FrmAdderItem
         Me.Guna2Button3.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2Button3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button3.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button3.Location = New System.Drawing.Point(497, 647)
+        Me.Guna2Button3.Location = New System.Drawing.Point(496, 606)
         Me.Guna2Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button3.Name = "Guna2Button3"
         Me.Guna2Button3.Size = New System.Drawing.Size(143, 51)
@@ -167,7 +171,7 @@ Partial Class FrmAdderItem
         Me.Guna2Button4.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button4.Location = New System.Drawing.Point(346, 647)
+        Me.Guna2Button4.Location = New System.Drawing.Point(345, 606)
         Me.Guna2Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button4.Name = "Guna2Button4"
         Me.Guna2Button4.Size = New System.Drawing.Size(143, 51)
@@ -181,7 +185,7 @@ Partial Class FrmAdderItem
         'TxtDoc
         '
         Me.TxtDoc.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtDoc.Location = New System.Drawing.Point(8, 160)
+        Me.TxtDoc.Location = New System.Drawing.Point(11, 198)
         Me.TxtDoc.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtDoc.Name = "TxtDoc"
         Me.TxtDoc.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -193,7 +197,7 @@ Partial Class FrmAdderItem
         'TxtPath
         '
         Me.TxtPath.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtPath.Location = New System.Drawing.Point(193, 160)
+        Me.TxtPath.Location = New System.Drawing.Point(196, 198)
         Me.TxtPath.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtPath.Name = "TxtPath"
         Me.TxtPath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -217,8 +221,10 @@ Partial Class FrmAdderItem
         'Label2
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label2.Location = New System.Drawing.Point(760, 129)
+        Me.Label2.ForeColor = System.Drawing.Color.Black
+        Me.Label2.Location = New System.Drawing.Point(763, 167)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(181, 27)
@@ -229,18 +235,20 @@ Partial Class FrmAdderItem
         'TxtBarCode
         '
         Me.TxtBarCode.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtBarCode.Location = New System.Drawing.Point(760, 160)
+        Me.TxtBarCode.Location = New System.Drawing.Point(763, 198)
         Me.TxtBarCode.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtBarCode.Name = "TxtBarCode"
         Me.TxtBarCode.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtBarCode.Size = New System.Drawing.Size(181, 27)
+        Me.TxtBarCode.Size = New System.Drawing.Size(181, 30)
         Me.TxtBarCode.TabIndex = 83
         '
         'Label3
         '
         Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label3.Location = New System.Drawing.Point(760, 13)
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(763, 44)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(181, 27)
@@ -251,8 +259,10 @@ Partial Class FrmAdderItem
         'Label6
         '
         Me.Label6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label6.Location = New System.Drawing.Point(571, 73)
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(574, 109)
         Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(181, 27)
@@ -263,18 +273,20 @@ Partial Class FrmAdderItem
         'TxtMakingCharge
         '
         Me.TxtMakingCharge.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtMakingCharge.Location = New System.Drawing.Point(571, 101)
+        Me.TxtMakingCharge.Location = New System.Drawing.Point(574, 137)
         Me.TxtMakingCharge.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtMakingCharge.Name = "TxtMakingCharge"
         Me.TxtMakingCharge.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtMakingCharge.Size = New System.Drawing.Size(181, 27)
+        Me.TxtMakingCharge.Size = New System.Drawing.Size(181, 30)
         Me.TxtMakingCharge.TabIndex = 86
         '
         'Label7
         '
         Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label7.Location = New System.Drawing.Point(760, 73)
+        Me.Label7.ForeColor = System.Drawing.Color.Black
+        Me.Label7.Location = New System.Drawing.Point(763, 109)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(181, 27)
@@ -285,11 +297,11 @@ Partial Class FrmAdderItem
         'TxtTotalCost
         '
         Me.TxtTotalCost.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtTotalCost.Location = New System.Drawing.Point(760, 101)
+        Me.TxtTotalCost.Location = New System.Drawing.Point(763, 137)
         Me.TxtTotalCost.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtTotalCost.Name = "TxtTotalCost"
         Me.TxtTotalCost.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtTotalCost.Size = New System.Drawing.Size(181, 27)
+        Me.TxtTotalCost.Size = New System.Drawing.Size(181, 30)
         Me.TxtTotalCost.TabIndex = 88
         '
         'Guna2Button5
@@ -301,20 +313,21 @@ Partial Class FrmAdderItem
         Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2Button5.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2Button5.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button5.Location = New System.Drawing.Point(247, 129)
+        Me.Guna2Button5.Location = New System.Drawing.Point(280, 129)
         Me.Guna2Button5.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button5.Name = "Guna2Button5"
-        Me.Guna2Button5.Size = New System.Drawing.Size(117, 35)
+        Me.Guna2Button5.Size = New System.Drawing.Size(129, 35)
         Me.Guna2Button5.TabIndex = 101
         Me.Guna2Button5.Text = "اضافة حجر"
         '
         'Label34
         '
         Me.Label34.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label34.BackColor = System.Drawing.Color.Transparent
         Me.Label34.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label34.Location = New System.Drawing.Point(382, 73)
+        Me.Label34.ForeColor = System.Drawing.Color.Black
+        Me.Label34.Location = New System.Drawing.Point(385, 109)
         Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(181, 27)
@@ -325,8 +338,10 @@ Partial Class FrmAdderItem
         'Lbl
         '
         Me.Lbl.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Lbl.BackColor = System.Drawing.Color.Transparent
         Me.Lbl.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Lbl.Location = New System.Drawing.Point(575, 129)
+        Me.Lbl.ForeColor = System.Drawing.Color.Black
+        Me.Lbl.Location = New System.Drawing.Point(578, 167)
         Me.Lbl.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Lbl.Name = "Lbl"
         Me.Lbl.Size = New System.Drawing.Size(181, 27)
@@ -338,7 +353,7 @@ Partial Class FrmAdderItem
         '
         Me.Label40.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label40.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label40.Location = New System.Drawing.Point(135, 45)
+        Me.Label40.Location = New System.Drawing.Point(146, 45)
         Me.Label40.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(129, 27)
@@ -349,8 +364,10 @@ Partial Class FrmAdderItem
         'Label9
         '
         Me.Label9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label9.Location = New System.Drawing.Point(193, 73)
+        Me.Label9.ForeColor = System.Drawing.Color.Black
+        Me.Label9.Location = New System.Drawing.Point(196, 109)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(181, 27)
@@ -361,28 +378,30 @@ Partial Class FrmAdderItem
         'TxtNumber
         '
         Me.TxtNumber.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtNumber.Location = New System.Drawing.Point(382, 101)
+        Me.TxtNumber.Location = New System.Drawing.Point(385, 137)
         Me.TxtNumber.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtNumber.Name = "TxtNumber"
         Me.TxtNumber.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtNumber.Size = New System.Drawing.Size(181, 27)
+        Me.TxtNumber.Size = New System.Drawing.Size(181, 30)
         Me.TxtNumber.TabIndex = 90
         '
         'TxtRamz
         '
         Me.TxtRamz.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtRamz.Location = New System.Drawing.Point(575, 160)
+        Me.TxtRamz.Location = New System.Drawing.Point(578, 198)
         Me.TxtRamz.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtRamz.Name = "TxtRamz"
         Me.TxtRamz.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtRamz.Size = New System.Drawing.Size(181, 27)
+        Me.TxtRamz.Size = New System.Drawing.Size(181, 30)
         Me.TxtRamz.TabIndex = 89
         '
         'Label42
         '
         Me.Label42.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label42.BackColor = System.Drawing.Color.Transparent
         Me.Label42.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label42.Location = New System.Drawing.Point(8, 129)
+        Me.Label42.ForeColor = System.Drawing.Color.Black
+        Me.Label42.Location = New System.Drawing.Point(11, 167)
         Me.Label42.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(181, 27)
@@ -393,8 +412,8 @@ Partial Class FrmAdderItem
         'DgvStone
         '
         Me.DgvStone.AllowUserToAddRows = False
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DgvStone.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle13.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DgvStone.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle13
         Me.DgvStone.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DgvStone.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DgvStone.BackgroundColor = System.Drawing.Color.White
@@ -406,10 +425,10 @@ Partial Class FrmAdderItem
         Me.DgvStone.Name = "DgvStone"
         Me.DgvStone.ReadOnly = True
         Me.DgvStone.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.DgvStone.RowsDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle14.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.DgvStone.RowsDefaultCellStyle = DataGridViewCellStyle14
         Me.DgvStone.RowTemplate.DefaultCellStyle.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.DgvStone.Size = New System.Drawing.Size(934, 255)
+        Me.DgvStone.Size = New System.Drawing.Size(953, 186)
         Me.DgvStone.TabIndex = 100
         '
         'Column5
@@ -483,8 +502,10 @@ Partial Class FrmAdderItem
         'Label36
         '
         Me.Label36.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label36.BackColor = System.Drawing.Color.Transparent
         Me.Label36.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label36.Location = New System.Drawing.Point(193, 129)
+        Me.Label36.ForeColor = System.Drawing.Color.Black
+        Me.Label36.Location = New System.Drawing.Point(196, 167)
         Me.Label36.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(181, 27)
@@ -495,8 +516,10 @@ Partial Class FrmAdderItem
         'Label11
         '
         Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label11.Location = New System.Drawing.Point(382, 129)
+        Me.Label11.ForeColor = System.Drawing.Color.Black
+        Me.Label11.Location = New System.Drawing.Point(385, 167)
         Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(181, 27)
@@ -523,7 +546,7 @@ Partial Class FrmAdderItem
         Me.ComStone.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComStone.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.ComStone.FormattingEnabled = True
-        Me.ComStone.Location = New System.Drawing.Point(801, 76)
+        Me.ComStone.Location = New System.Drawing.Point(812, 76)
         Me.ComStone.Margin = New System.Windows.Forms.Padding(4)
         Me.ComStone.Name = "ComStone"
         Me.ComStone.Size = New System.Drawing.Size(129, 27)
@@ -534,20 +557,20 @@ Partial Class FrmAdderItem
         Me.ComSupplier.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComSupplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComSupplier.FormattingEnabled = True
-        Me.ComSupplier.Location = New System.Drawing.Point(4, 101)
+        Me.ComSupplier.Location = New System.Drawing.Point(7, 137)
         Me.ComSupplier.Margin = New System.Windows.Forms.Padding(4)
         Me.ComSupplier.Name = "ComSupplier"
-        Me.ComSupplier.Size = New System.Drawing.Size(181, 27)
+        Me.ComSupplier.Size = New System.Drawing.Size(181, 31)
         Me.ComSupplier.TabIndex = 93
         '
         'ComName
         '
         Me.ComName.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComName.FormattingEnabled = True
-        Me.ComName.Location = New System.Drawing.Point(760, 45)
+        Me.ComName.Location = New System.Drawing.Point(763, 76)
         Me.ComName.Margin = New System.Windows.Forms.Padding(4)
         Me.ComName.Name = "ComName"
-        Me.ComName.Size = New System.Drawing.Size(181, 27)
+        Me.ComName.Size = New System.Drawing.Size(181, 31)
         Me.ComName.TabIndex = 96
         '
         'ComMadeInStone
@@ -556,7 +579,7 @@ Partial Class FrmAdderItem
         Me.ComMadeInStone.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComMadeInStone.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.ComMadeInStone.FormattingEnabled = True
-        Me.ComMadeInStone.Location = New System.Drawing.Point(136, 76)
+        Me.ComMadeInStone.Location = New System.Drawing.Point(147, 76)
         Me.ComMadeInStone.Margin = New System.Windows.Forms.Padding(4)
         Me.ComMadeInStone.Name = "ComMadeInStone"
         Me.ComMadeInStone.Size = New System.Drawing.Size(129, 27)
@@ -567,10 +590,10 @@ Partial Class FrmAdderItem
         Me.ComMadIN.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComMadIN.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComMadIN.FormattingEnabled = True
-        Me.ComMadIN.Location = New System.Drawing.Point(193, 101)
+        Me.ComMadIN.Location = New System.Drawing.Point(196, 137)
         Me.ComMadIN.Margin = New System.Windows.Forms.Padding(4)
         Me.ComMadIN.Name = "ComMadIN"
-        Me.ComMadIN.Size = New System.Drawing.Size(181, 27)
+        Me.ComMadIN.Size = New System.Drawing.Size(181, 31)
         Me.ComMadIN.TabIndex = 94
         '
         'ComKart
@@ -578,17 +601,17 @@ Partial Class FrmAdderItem
         Me.ComKart.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComKart.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComKart.FormattingEnabled = True
-        Me.ComKart.Location = New System.Drawing.Point(571, 45)
+        Me.ComKart.Location = New System.Drawing.Point(574, 76)
         Me.ComKart.Margin = New System.Windows.Forms.Padding(4)
         Me.ComKart.Name = "ComKart"
-        Me.ComKart.Size = New System.Drawing.Size(181, 27)
+        Me.ComKart.Size = New System.Drawing.Size(181, 31)
         Me.ComKart.TabIndex = 99
         '
         'TxtCut
         '
         Me.TxtCut.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TxtCut.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtCut.Location = New System.Drawing.Point(269, 76)
+        Me.TxtCut.Location = New System.Drawing.Point(280, 76)
         Me.TxtCut.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtCut.Name = "TxtCut"
         Me.TxtCut.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -599,7 +622,7 @@ Partial Class FrmAdderItem
         '
         Me.TxtClarity.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TxtClarity.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtClarity.Location = New System.Drawing.Point(402, 76)
+        Me.TxtClarity.Location = New System.Drawing.Point(413, 76)
         Me.TxtClarity.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtClarity.Name = "TxtClarity"
         Me.TxtClarity.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -610,7 +633,7 @@ Partial Class FrmAdderItem
         '
         Me.TxtStonePrice.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TxtStonePrice.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtStonePrice.Location = New System.Drawing.Point(3, 76)
+        Me.TxtStonePrice.Location = New System.Drawing.Point(14, 76)
         Me.TxtStonePrice.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtStonePrice.Name = "TxtStonePrice"
         Me.TxtStonePrice.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -620,18 +643,18 @@ Partial Class FrmAdderItem
         'TxtNumberPieses
         '
         Me.TxtNumberPieses.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtNumberPieses.Location = New System.Drawing.Point(382, 160)
+        Me.TxtNumberPieses.Location = New System.Drawing.Point(385, 198)
         Me.TxtNumberPieses.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtNumberPieses.Name = "TxtNumberPieses"
         Me.TxtNumberPieses.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtNumberPieses.Size = New System.Drawing.Size(181, 27)
+        Me.TxtNumberPieses.Size = New System.Drawing.Size(181, 30)
         Me.TxtNumberPieses.TabIndex = 79
         '
         'TxtStoneColor
         '
         Me.TxtStoneColor.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TxtStoneColor.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtStoneColor.Location = New System.Drawing.Point(535, 76)
+        Me.TxtStoneColor.Location = New System.Drawing.Point(546, 76)
         Me.TxtStoneColor.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtStoneColor.Name = "TxtStoneColor"
         Me.TxtStoneColor.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -642,7 +665,7 @@ Partial Class FrmAdderItem
         '
         Me.Label39.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label39.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label39.Location = New System.Drawing.Point(269, 45)
+        Me.Label39.Location = New System.Drawing.Point(280, 45)
         Me.Label39.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(129, 27)
@@ -654,7 +677,7 @@ Partial Class FrmAdderItem
         '
         Me.Label38.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label38.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label38.Location = New System.Drawing.Point(403, 45)
+        Me.Label38.Location = New System.Drawing.Point(414, 45)
         Me.Label38.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(129, 27)
@@ -666,7 +689,7 @@ Partial Class FrmAdderItem
         '
         Me.Label15.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label15.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label15.Location = New System.Drawing.Point(3, 45)
+        Me.Label15.Location = New System.Drawing.Point(14, 45)
         Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(129, 27)
@@ -677,8 +700,10 @@ Partial Class FrmAdderItem
         'Label1
         '
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label1.Location = New System.Drawing.Point(4, 13)
+        Me.Label1.ForeColor = System.Drawing.Color.Black
+        Me.Label1.Location = New System.Drawing.Point(7, 44)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(181, 27)
@@ -689,8 +714,10 @@ Partial Class FrmAdderItem
         'Label8
         '
         Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label8.Location = New System.Drawing.Point(193, 13)
+        Me.Label8.ForeColor = System.Drawing.Color.Black
+        Me.Label8.Location = New System.Drawing.Point(196, 44)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(181, 27)
@@ -702,11 +729,11 @@ Partial Class FrmAdderItem
         '
         Me.TxtStoneWeight.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TxtStoneWeight.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtStoneWeight.Location = New System.Drawing.Point(668, 76)
+        Me.TxtStoneWeight.Location = New System.Drawing.Point(705, 76)
         Me.TxtStoneWeight.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtStoneWeight.Name = "TxtStoneWeight"
         Me.TxtStoneWeight.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtStoneWeight.Size = New System.Drawing.Size(129, 27)
+        Me.TxtStoneWeight.Size = New System.Drawing.Size(103, 27)
         Me.TxtStoneWeight.TabIndex = 84
         '
         'Label41
@@ -723,8 +750,10 @@ Partial Class FrmAdderItem
         'Label10
         '
         Me.Label10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label10.Location = New System.Drawing.Point(4, 73)
+        Me.Label10.ForeColor = System.Drawing.Color.Black
+        Me.Label10.Location = New System.Drawing.Point(7, 109)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(181, 27)
@@ -736,7 +765,7 @@ Partial Class FrmAdderItem
         '
         Me.Label14.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label14.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label14.Location = New System.Drawing.Point(537, 45)
+        Me.Label14.Location = New System.Drawing.Point(548, 45)
         Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(129, 27)
@@ -747,31 +776,31 @@ Partial Class FrmAdderItem
         'TxtCostPerGram
         '
         Me.TxtCostPerGram.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtCostPerGram.Location = New System.Drawing.Point(4, 45)
+        Me.TxtCostPerGram.Location = New System.Drawing.Point(7, 76)
         Me.TxtCostPerGram.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtCostPerGram.Name = "TxtCostPerGram"
         Me.TxtCostPerGram.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtCostPerGram.Size = New System.Drawing.Size(181, 27)
+        Me.TxtCostPerGram.Size = New System.Drawing.Size(181, 30)
         Me.TxtCostPerGram.TabIndex = 85
         '
         'TxtCostGram
         '
         Me.TxtCostGram.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtCostGram.Location = New System.Drawing.Point(193, 45)
+        Me.TxtCostGram.Location = New System.Drawing.Point(196, 76)
         Me.TxtCostGram.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtCostGram.Name = "TxtCostGram"
         Me.TxtCostGram.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtCostGram.Size = New System.Drawing.Size(181, 27)
+        Me.TxtCostGram.Size = New System.Drawing.Size(181, 30)
         Me.TxtCostGram.TabIndex = 87
         '
         'Label13
         '
         Me.Label13.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label13.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label13.Location = New System.Drawing.Point(674, 45)
+        Me.Label13.Location = New System.Drawing.Point(705, 45)
         Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(129, 27)
+        Me.Label13.Size = New System.Drawing.Size(109, 27)
         Me.Label13.TabIndex = 70
         Me.Label13.Text = "وزن الفص"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -779,8 +808,10 @@ Partial Class FrmAdderItem
         'Label4
         '
         Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label4.Location = New System.Drawing.Point(571, 13)
+        Me.Label4.ForeColor = System.Drawing.Color.Black
+        Me.Label4.Location = New System.Drawing.Point(574, 44)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(181, 27)
@@ -792,7 +823,7 @@ Partial Class FrmAdderItem
         '
         Me.Label12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label12.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label12.Location = New System.Drawing.Point(803, 45)
+        Me.Label12.Location = New System.Drawing.Point(814, 45)
         Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(129, 27)
@@ -803,8 +834,10 @@ Partial Class FrmAdderItem
         'Label5
         '
         Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label5.Location = New System.Drawing.Point(382, 13)
+        Me.Label5.ForeColor = System.Drawing.Color.Black
+        Me.Label5.Location = New System.Drawing.Point(385, 44)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(181, 27)
@@ -815,18 +848,18 @@ Partial Class FrmAdderItem
         'TxtWeight
         '
         Me.TxtWeight.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtWeight.Location = New System.Drawing.Point(382, 45)
+        Me.TxtWeight.Location = New System.Drawing.Point(385, 76)
         Me.TxtWeight.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtWeight.Name = "TxtWeight"
         Me.TxtWeight.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtWeight.Size = New System.Drawing.Size(181, 27)
+        Me.TxtWeight.Size = New System.Drawing.Size(181, 30)
         Me.TxtWeight.TabIndex = 92
         '
         'Label16
         '
         Me.Label16.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label16.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label16.Location = New System.Drawing.Point(671, 107)
+        Me.Label16.Location = New System.Drawing.Point(680, 107)
         Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(261, 27)
@@ -838,7 +871,7 @@ Partial Class FrmAdderItem
         '
         Me.Label17.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label17.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label17.Location = New System.Drawing.Point(402, 107)
+        Me.Label17.Location = New System.Drawing.Point(411, 107)
         Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(261, 27)
@@ -849,7 +882,7 @@ Partial Class FrmAdderItem
         'TextEdit1
         '
         Me.TextEdit1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextEdit1.Location = New System.Drawing.Point(671, 138)
+        Me.TextEdit1.Location = New System.Drawing.Point(680, 138)
         Me.TextEdit1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -861,7 +894,7 @@ Partial Class FrmAdderItem
         'TextEdit2
         '
         Me.TextEdit2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextEdit2.Location = New System.Drawing.Point(402, 138)
+        Me.TextEdit2.Location = New System.Drawing.Point(411, 138)
         Me.TextEdit2.Margin = New System.Windows.Forms.Padding(4)
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -872,8 +905,11 @@ Partial Class FrmAdderItem
         '
         'Guna2GroupBox1
         '
+        Me.Guna2GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2GroupBox1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GroupBox1.BorderRadius = 10
+        Me.Guna2GroupBox1.BorderColor = System.Drawing.Color.Red
+        Me.Guna2GroupBox1.BorderThickness = 2
         Me.Guna2GroupBox1.Controls.Add(Me.DgvStone)
         Me.Guna2GroupBox1.Controls.Add(Me.TextEdit2)
         Me.Guna2GroupBox1.Controls.Add(Me.Label12)
@@ -888,61 +924,102 @@ Partial Class FrmAdderItem
         Me.Guna2GroupBox1.Controls.Add(Me.TxtStonePrice)
         Me.Guna2GroupBox1.Controls.Add(Me.TxtClarity)
         Me.Guna2GroupBox1.Controls.Add(Me.TxtCut)
+        Me.Guna2GroupBox1.Controls.Add(Me.ComboBox2)
         Me.Guna2GroupBox1.Controls.Add(Me.ComMadeInStone)
         Me.Guna2GroupBox1.Controls.Add(Me.Guna2Button5)
         Me.Guna2GroupBox1.Controls.Add(Me.ComStone)
         Me.Guna2GroupBox1.Controls.Add(Me.Label16)
+        Me.Guna2GroupBox1.Controls.Add(Me.Label18)
         Me.Guna2GroupBox1.Controls.Add(Me.Label17)
         Me.Guna2GroupBox1.Controls.Add(Me.Label40)
         Me.Guna2GroupBox1.Font = New System.Drawing.Font("Calibri", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GroupBox1.ForeColor = System.Drawing.Color.Black
-        Me.Guna2GroupBox1.Location = New System.Drawing.Point(8, 213)
+        Me.Guna2GroupBox1.Location = New System.Drawing.Point(0, 241)
         Me.Guna2GroupBox1.Name = "Guna2GroupBox1"
-        Me.Guna2GroupBox1.ShadowDecoration.Enabled = True
-        Me.Guna2GroupBox1.Size = New System.Drawing.Size(934, 427)
-        Me.Guna2GroupBox1.TabIndex = 105
+        Me.Guna2GroupBox1.Size = New System.Drawing.Size(953, 358)
+        Me.Guna2GroupBox1.TabIndex = 1
         Me.Guna2GroupBox1.Text = "بيانات الاحجار"
         Me.Guna2GroupBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Guna2GroupBox2
+        '
+        Me.Guna2GroupBox2.BorderColor = System.Drawing.Color.Red
+        Me.Guna2GroupBox2.BorderThickness = 2
+        Me.Guna2GroupBox2.Controls.Add(Me.Label3)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtDoc)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtWeight)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtPath)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label5)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label4)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label2)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtCostGram)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtBarCode)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtCostPerGram)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label10)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label6)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label8)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtMakingCharge)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label1)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label7)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtNumberPieses)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtTotalCost)
+        Me.Guna2GroupBox2.Controls.Add(Me.ComKart)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label34)
+        Me.Guna2GroupBox2.Controls.Add(Me.ComMadIN)
+        Me.Guna2GroupBox2.Controls.Add(Me.Lbl)
+        Me.Guna2GroupBox2.Controls.Add(Me.ComName)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label9)
+        Me.Guna2GroupBox2.Controls.Add(Me.ComSupplier)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtNumber)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label11)
+        Me.Guna2GroupBox2.Controls.Add(Me.TxtRamz)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label36)
+        Me.Guna2GroupBox2.Controls.Add(Me.Label42)
+        Me.Guna2GroupBox2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Guna2GroupBox2.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.Guna2GroupBox2.ForeColor = System.Drawing.Color.Black
+        Me.Guna2GroupBox2.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2GroupBox2.Name = "Guna2GroupBox2"
+        Me.Guna2GroupBox2.Size = New System.Drawing.Size(953, 235)
+        Me.Guna2GroupBox2.TabIndex = 0
+        Me.Guna2GroupBox2.Text = "بيانات القطعة"
+        Me.Guna2GroupBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label18
+        '
+        Me.Label18.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label18.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label18.Location = New System.Drawing.Point(679, 45)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(23, 27)
+        Me.Label18.TabIndex = 67
+        Me.Label18.Text = "جم"
+        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ComboBox2.Font = New System.Drawing.Font("Tahoma", 12.0!)
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Items.AddRange(New Object() {"قيراط", "جرام"})
+        Me.ComboBox2.Location = New System.Drawing.Point(680, 76)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(23, 27)
+        Me.ComboBox2.TabIndex = 95
         '
         'FrmAdderItem
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(953, 711)
+        Me.ClientSize = New System.Drawing.Size(953, 664)
+        Me.Controls.Add(Me.Guna2GroupBox2)
         Me.Controls.Add(Me.Guna2GroupBox1)
-        Me.Controls.Add(Me.TxtDoc)
-        Me.Controls.Add(Me.TxtPath)
         Me.Controls.Add(Me.TxtCode)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TxtBarCode)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TxtMakingCharge)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.TxtTotalCost)
-        Me.Controls.Add(Me.Label34)
-        Me.Controls.Add(Me.Lbl)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.TxtNumber)
-        Me.Controls.Add(Me.TxtRamz)
-        Me.Controls.Add(Me.Label42)
-        Me.Controls.Add(Me.Label36)
-        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.ComSupplier)
-        Me.Controls.Add(Me.ComName)
-        Me.Controls.Add(Me.ComMadIN)
-        Me.Controls.Add(Me.ComKart)
-        Me.Controls.Add(Me.TxtNumberPieses)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label41)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.TxtCostPerGram)
-        Me.Controls.Add(Me.TxtCostGram)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TxtWeight)
         Me.Controls.Add(Me.Guna2Button4)
         Me.Controls.Add(Me.Guna2Button3)
         Me.Controls.Add(Me.Guna2Button1)
@@ -961,6 +1038,8 @@ Partial Class FrmAdderItem
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2GroupBox1.ResumeLayout(False)
         Me.Guna2GroupBox1.PerformLayout()
+        Me.Guna2GroupBox2.ResumeLayout(False)
+        Me.Guna2GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1034,4 +1113,7 @@ Partial Class FrmAdderItem
     Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit2 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents Guna2GroupBox1 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents Guna2GroupBox2 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents Label18 As Label
 End Class
