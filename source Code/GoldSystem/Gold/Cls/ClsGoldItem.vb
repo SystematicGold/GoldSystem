@@ -110,4 +110,11 @@ Public Class ClsGoldItem
                             FROM Suppliers order by Code")
         Return DT
     End Function
+    Public Function ShowAllItems()
+        Dim Con As New ClsConnectionString
+        Dim DT As New DataTable
+        DT.Clear()
+        DT = Con.SELECT_TXT("select * from Category order by Code")
+        Return DT
+    End Function
 End Class

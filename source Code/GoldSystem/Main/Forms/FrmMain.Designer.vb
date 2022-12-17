@@ -177,15 +177,15 @@ Partial Class FrmMain
         Me.Guna2GradientButton7 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.PictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
+        Me.GunaPictureBox1 = New Guna.UI.WinForms.GunaPictureBox()
         Me.PanelAll = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2GradientButton26 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2GradientButton25 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.Guna2GradientButton24 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton5 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.GunaPictureBox1 = New Guna.UI.WinForms.GunaPictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Guna2GradientButton24 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton25 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton26 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SettingMenu.SuspendLayout()
@@ -198,8 +198,8 @@ Partial Class FrmMain
         Me.Guna2Panel6.SuspendLayout()
         Me.PanalGold.SuspendLayout()
         CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.PanelAll.SuspendLayout()
         CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelAll.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2GradientButton2
@@ -389,11 +389,11 @@ Partial Class FrmMain
         '
         Me.Guna2HtmlLabel4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Tahoma", 15.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2HtmlLabel4.Font = New System.Drawing.Font("Calibri", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel4.ForeColor = System.Drawing.Color.Black
         Me.Guna2HtmlLabel4.Location = New System.Drawing.Point(763, 73)
         Me.Guna2HtmlLabel4.Name = "Guna2HtmlLabel4"
-        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(125, 26)
+        Me.Guna2HtmlLabel4.Size = New System.Drawing.Size(129, 35)
         Me.Guna2HtmlLabel4.TabIndex = 0
         Me.Guna2HtmlLabel4.Text = ", محمد مرحبا"
         Me.Guna2HtmlLabel4.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
@@ -402,11 +402,11 @@ Partial Class FrmMain
         '
         Me.Guna2HtmlLabel5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Tahoma", 15.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2HtmlLabel5.Font = New System.Drawing.Font("Calibri", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel5.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(520, 73)
+        Me.Guna2HtmlLabel5.Location = New System.Drawing.Point(476, 73)
         Me.Guna2HtmlLabel5.Name = "Guna2HtmlLabel5"
-        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(237, 26)
+        Me.Guna2HtmlLabel5.Size = New System.Drawing.Size(262, 35)
         Me.Guna2HtmlLabel5.TabIndex = 0
         Me.Guna2HtmlLabel5.Text = "Your setting are all set."
         '
@@ -1312,7 +1312,7 @@ Partial Class FrmMain
         '
         'Guna2Panel4
         '
-        Me.Guna2Panel4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Guna2Panel4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2Panel4.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Panel4.BorderRadius = 15
         Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel27)
@@ -1327,11 +1327,11 @@ Partial Class FrmMain
         Me.Guna2Panel4.Controls.Add(Me.Label28)
         Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel21)
         Me.Guna2Panel4.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel4.Location = New System.Drawing.Point(18, 539)
+        Me.Guna2Panel4.Location = New System.Drawing.Point(18, 460)
         Me.Guna2Panel4.Name = "Guna2Panel4"
         Me.Guna2Panel4.ShadowDecoration.Depth = 20
         Me.Guna2Panel4.ShadowDecoration.Enabled = True
-        Me.Guna2Panel4.Size = New System.Drawing.Size(271, 198)
+        Me.Guna2Panel4.Size = New System.Drawing.Size(271, 254)
         Me.Guna2Panel4.TabIndex = 6
         '
         'Guna2HtmlLabel27
@@ -1438,29 +1438,26 @@ Partial Class FrmMain
         Me.Label28.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label28.AutoSize = True
         Me.Label28.BackColor = System.Drawing.Color.Transparent
-        Me.Label28.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Label28.Location = New System.Drawing.Point(170, 21)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(91, 18)
+        Me.Label28.Size = New System.Drawing.Size(80, 23)
         Me.Label28.TabIndex = 2
         Me.Label28.Text = "الدعم الفنى"
         '
         'Guna2HtmlLabel21
         '
         Me.Guna2HtmlLabel21.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel21.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2HtmlLabel21.Location = New System.Drawing.Point(7, 21)
         Me.Guna2HtmlLabel21.Name = "Guna2HtmlLabel21"
-        Me.Guna2HtmlLabel21.Size = New System.Drawing.Size(135, 20)
+        Me.Guna2HtmlLabel21.Size = New System.Drawing.Size(139, 25)
         Me.Guna2HtmlLabel21.TabIndex = 0
         Me.Guna2HtmlLabel21.Text = "Technical support"
         '
         'Guna2Panel5
         '
-        Me.Guna2Panel5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Guna2Panel5.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2Panel5.BackColor = System.Drawing.Color.Transparent
         Me.Guna2Panel5.BorderRadius = 15
         Me.Guna2Panel5.Controls.Add(Me.Guna2VSeparator3)
@@ -1508,11 +1505,11 @@ Partial Class FrmMain
         Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar5)
         Me.Guna2Panel5.Controls.Add(Me.Guna2Separator9)
         Me.Guna2Panel5.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel5.Location = New System.Drawing.Point(299, 460)
+        Me.Guna2Panel5.Location = New System.Drawing.Point(301, 460)
         Me.Guna2Panel5.Name = "Guna2Panel5"
         Me.Guna2Panel5.ShadowDecoration.Depth = 20
         Me.Guna2Panel5.ShadowDecoration.Enabled = True
-        Me.Guna2Panel5.Size = New System.Drawing.Size(610, 277)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(610, 254)
         Me.Guna2Panel5.TabIndex = 7
         '
         'Guna2VSeparator3
@@ -1522,7 +1519,7 @@ Partial Class FrmMain
         Me.Guna2VSeparator3.FillThickness = 2
         Me.Guna2VSeparator3.Location = New System.Drawing.Point(69, 51)
         Me.Guna2VSeparator3.Name = "Guna2VSeparator3"
-        Me.Guna2VSeparator3.Size = New System.Drawing.Size(10, 206)
+        Me.Guna2VSeparator3.Size = New System.Drawing.Size(10, 183)
         Me.Guna2VSeparator3.TabIndex = 2
         '
         'Guna2Button5
@@ -1578,7 +1575,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel41.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel41.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel41.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel41.Location = New System.Drawing.Point(536, 255)
+        Me.Guna2HtmlLabel41.Location = New System.Drawing.Point(536, 232)
         Me.Guna2HtmlLabel41.Name = "Guna2HtmlLabel41"
         Me.Guna2HtmlLabel41.Size = New System.Drawing.Size(19, 18)
         Me.Guna2HtmlLabel41.TabIndex = 0
@@ -1590,7 +1587,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel40.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel40.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel40.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel40.Location = New System.Drawing.Point(495, 255)
+        Me.Guna2HtmlLabel40.Location = New System.Drawing.Point(495, 232)
         Me.Guna2HtmlLabel40.Name = "Guna2HtmlLabel40"
         Me.Guna2HtmlLabel40.Size = New System.Drawing.Size(19, 18)
         Me.Guna2HtmlLabel40.TabIndex = 0
@@ -1602,7 +1599,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel38.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel38.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel38.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel38.Location = New System.Drawing.Point(418, 255)
+        Me.Guna2HtmlLabel38.Location = New System.Drawing.Point(418, 232)
         Me.Guna2HtmlLabel38.Name = "Guna2HtmlLabel38"
         Me.Guna2HtmlLabel38.Size = New System.Drawing.Size(11, 18)
         Me.Guna2HtmlLabel38.TabIndex = 0
@@ -1614,7 +1611,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel37.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel37.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel37.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel37.Location = New System.Drawing.Point(377, 255)
+        Me.Guna2HtmlLabel37.Location = New System.Drawing.Point(377, 232)
         Me.Guna2HtmlLabel37.Name = "Guna2HtmlLabel37"
         Me.Guna2HtmlLabel37.Size = New System.Drawing.Size(11, 18)
         Me.Guna2HtmlLabel37.TabIndex = 0
@@ -1626,7 +1623,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel35.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel35.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel35.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel35.Location = New System.Drawing.Point(294, 255)
+        Me.Guna2HtmlLabel35.Location = New System.Drawing.Point(294, 232)
         Me.Guna2HtmlLabel35.Name = "Guna2HtmlLabel35"
         Me.Guna2HtmlLabel35.Size = New System.Drawing.Size(11, 18)
         Me.Guna2HtmlLabel35.TabIndex = 0
@@ -1638,7 +1635,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel39.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel39.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel39.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel39.Location = New System.Drawing.Point(455, 255)
+        Me.Guna2HtmlLabel39.Location = New System.Drawing.Point(455, 232)
         Me.Guna2HtmlLabel39.Name = "Guna2HtmlLabel39"
         Me.Guna2HtmlLabel39.Size = New System.Drawing.Size(19, 18)
         Me.Guna2HtmlLabel39.TabIndex = 0
@@ -1650,7 +1647,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel34.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel34.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel34.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel34.Location = New System.Drawing.Point(253, 255)
+        Me.Guna2HtmlLabel34.Location = New System.Drawing.Point(253, 232)
         Me.Guna2HtmlLabel34.Name = "Guna2HtmlLabel34"
         Me.Guna2HtmlLabel34.Size = New System.Drawing.Size(11, 18)
         Me.Guna2HtmlLabel34.TabIndex = 0
@@ -1662,7 +1659,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel36.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel36.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel36.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel36.Location = New System.Drawing.Point(337, 255)
+        Me.Guna2HtmlLabel36.Location = New System.Drawing.Point(337, 232)
         Me.Guna2HtmlLabel36.Name = "Guna2HtmlLabel36"
         Me.Guna2HtmlLabel36.Size = New System.Drawing.Size(11, 18)
         Me.Guna2HtmlLabel36.TabIndex = 0
@@ -1674,7 +1671,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel32.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel32.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel32.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel32.Location = New System.Drawing.Point(171, 255)
+        Me.Guna2HtmlLabel32.Location = New System.Drawing.Point(171, 232)
         Me.Guna2HtmlLabel32.Name = "Guna2HtmlLabel32"
         Me.Guna2HtmlLabel32.Size = New System.Drawing.Size(11, 18)
         Me.Guna2HtmlLabel32.TabIndex = 0
@@ -1686,7 +1683,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel33.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel33.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel33.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel33.Location = New System.Drawing.Point(213, 255)
+        Me.Guna2HtmlLabel33.Location = New System.Drawing.Point(213, 232)
         Me.Guna2HtmlLabel33.Name = "Guna2HtmlLabel33"
         Me.Guna2HtmlLabel33.Size = New System.Drawing.Size(11, 18)
         Me.Guna2HtmlLabel33.TabIndex = 0
@@ -1698,7 +1695,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel31.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel31.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel31.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel31.Location = New System.Drawing.Point(130, 255)
+        Me.Guna2HtmlLabel31.Location = New System.Drawing.Point(130, 232)
         Me.Guna2HtmlLabel31.Name = "Guna2HtmlLabel31"
         Me.Guna2HtmlLabel31.Size = New System.Drawing.Size(11, 18)
         Me.Guna2HtmlLabel31.TabIndex = 0
@@ -1710,7 +1707,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel30.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel30.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel30.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel30.Location = New System.Drawing.Point(90, 255)
+        Me.Guna2HtmlLabel30.Location = New System.Drawing.Point(90, 232)
         Me.Guna2HtmlLabel30.Name = "Guna2HtmlLabel30"
         Me.Guna2HtmlLabel30.Size = New System.Drawing.Size(11, 18)
         Me.Guna2HtmlLabel30.TabIndex = 0
@@ -1733,7 +1730,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel42.BackColor = System.Drawing.Color.Transparent
         Me.Guna2HtmlLabel42.Font = New System.Drawing.Font("Tahoma", 9.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel42.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel42.Location = New System.Drawing.Point(16, 252)
+        Me.Guna2HtmlLabel42.Location = New System.Drawing.Point(16, 229)
         Me.Guna2HtmlLabel42.Name = "Guna2HtmlLabel42"
         Me.Guna2HtmlLabel42.Size = New System.Drawing.Size(51, 18)
         Me.Guna2HtmlLabel42.TabIndex = 0
@@ -1762,7 +1759,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar28.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar28.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar28.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar28.Size = New System.Drawing.Size(18, 161)
+        Me.Guna2ProgressBar28.Size = New System.Drawing.Size(18, 138)
         Me.Guna2ProgressBar28.TabIndex = 1
         Me.Guna2ProgressBar28.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar28.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1780,7 +1777,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar27.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar27.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar27.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar27.Size = New System.Drawing.Size(18, 134)
+        Me.Guna2ProgressBar27.Size = New System.Drawing.Size(18, 111)
         Me.Guna2ProgressBar27.TabIndex = 1
         Me.Guna2ProgressBar27.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar27.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1798,7 +1795,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar20.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar20.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar20.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar20.Size = New System.Drawing.Size(18, 186)
+        Me.Guna2ProgressBar20.Size = New System.Drawing.Size(18, 163)
         Me.Guna2ProgressBar20.TabIndex = 1
         Me.Guna2ProgressBar20.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar20.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1816,7 +1813,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar19.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar19.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar19.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar19.Size = New System.Drawing.Size(18, 161)
+        Me.Guna2ProgressBar19.Size = New System.Drawing.Size(18, 138)
         Me.Guna2ProgressBar19.TabIndex = 1
         Me.Guna2ProgressBar19.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar19.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1834,7 +1831,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar26.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar26.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar26.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar26.Size = New System.Drawing.Size(18, 177)
+        Me.Guna2ProgressBar26.Size = New System.Drawing.Size(18, 154)
         Me.Guna2ProgressBar26.TabIndex = 1
         Me.Guna2ProgressBar26.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar26.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1852,7 +1849,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar12.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar12.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar12.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar12.Size = New System.Drawing.Size(18, 177)
+        Me.Guna2ProgressBar12.Size = New System.Drawing.Size(18, 154)
         Me.Guna2ProgressBar12.TabIndex = 1
         Me.Guna2ProgressBar12.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar12.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1870,7 +1867,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar18.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar18.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar18.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar18.Size = New System.Drawing.Size(18, 134)
+        Me.Guna2ProgressBar18.Size = New System.Drawing.Size(18, 111)
         Me.Guna2ProgressBar18.TabIndex = 1
         Me.Guna2ProgressBar18.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar18.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1888,7 +1885,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar25.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar25.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar25.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar25.Size = New System.Drawing.Size(18, 143)
+        Me.Guna2ProgressBar25.Size = New System.Drawing.Size(18, 120)
         Me.Guna2ProgressBar25.TabIndex = 1
         Me.Guna2ProgressBar25.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar25.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1906,7 +1903,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar11.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar11.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar11.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar11.Size = New System.Drawing.Size(18, 122)
+        Me.Guna2ProgressBar11.Size = New System.Drawing.Size(18, 99)
         Me.Guna2ProgressBar11.TabIndex = 1
         Me.Guna2ProgressBar11.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar11.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1924,7 +1921,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar17.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar17.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar17.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar17.Size = New System.Drawing.Size(18, 143)
+        Me.Guna2ProgressBar17.Size = New System.Drawing.Size(18, 120)
         Me.Guna2ProgressBar17.TabIndex = 1
         Me.Guna2ProgressBar17.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar17.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1942,7 +1939,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar24.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar24.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar24.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar24.Size = New System.Drawing.Size(18, 150)
+        Me.Guna2ProgressBar24.Size = New System.Drawing.Size(18, 127)
         Me.Guna2ProgressBar24.TabIndex = 1
         Me.Guna2ProgressBar24.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar24.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1960,7 +1957,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar8.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar8.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar8.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar8.Size = New System.Drawing.Size(18, 143)
+        Me.Guna2ProgressBar8.Size = New System.Drawing.Size(18, 120)
         Me.Guna2ProgressBar8.TabIndex = 1
         Me.Guna2ProgressBar8.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar8.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1977,7 +1974,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar16.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
         Me.Guna2ProgressBar16.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar16.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar16.Size = New System.Drawing.Size(18, 107)
+        Me.Guna2ProgressBar16.Size = New System.Drawing.Size(18, 84)
         Me.Guna2ProgressBar16.TabIndex = 1
         Me.Guna2ProgressBar16.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar16.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1995,7 +1992,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar23.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar23.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar23.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar23.Size = New System.Drawing.Size(18, 161)
+        Me.Guna2ProgressBar23.Size = New System.Drawing.Size(18, 138)
         Me.Guna2ProgressBar23.TabIndex = 1
         Me.Guna2ProgressBar23.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar23.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2013,7 +2010,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar10.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar10.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar10.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar10.Size = New System.Drawing.Size(18, 150)
+        Me.Guna2ProgressBar10.Size = New System.Drawing.Size(18, 127)
         Me.Guna2ProgressBar10.TabIndex = 1
         Me.Guna2ProgressBar10.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar10.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2030,7 +2027,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar15.ProgressColor2 = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
         Me.Guna2ProgressBar15.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar15.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar15.Size = New System.Drawing.Size(18, 107)
+        Me.Guna2ProgressBar15.Size = New System.Drawing.Size(18, 84)
         Me.Guna2ProgressBar15.TabIndex = 1
         Me.Guna2ProgressBar15.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar15.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2048,7 +2045,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar22.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar22.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar22.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar22.Size = New System.Drawing.Size(18, 177)
+        Me.Guna2ProgressBar22.Size = New System.Drawing.Size(18, 154)
         Me.Guna2ProgressBar22.TabIndex = 1
         Me.Guna2ProgressBar22.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar22.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2066,7 +2063,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar7.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar7.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar7.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar7.Size = New System.Drawing.Size(18, 189)
+        Me.Guna2ProgressBar7.Size = New System.Drawing.Size(18, 166)
         Me.Guna2ProgressBar7.TabIndex = 1
         Me.Guna2ProgressBar7.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar7.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2084,7 +2081,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar14.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar14.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar14.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar14.Size = New System.Drawing.Size(18, 161)
+        Me.Guna2ProgressBar14.Size = New System.Drawing.Size(18, 138)
         Me.Guna2ProgressBar14.TabIndex = 1
         Me.Guna2ProgressBar14.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar14.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2102,7 +2099,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar21.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar21.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar21.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar21.Size = New System.Drawing.Size(18, 143)
+        Me.Guna2ProgressBar21.Size = New System.Drawing.Size(18, 120)
         Me.Guna2ProgressBar21.TabIndex = 1
         Me.Guna2ProgressBar21.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar21.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2120,7 +2117,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar9.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar9.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar9.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar9.Size = New System.Drawing.Size(18, 177)
+        Me.Guna2ProgressBar9.Size = New System.Drawing.Size(18, 154)
         Me.Guna2ProgressBar9.TabIndex = 1
         Me.Guna2ProgressBar9.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar9.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2138,7 +2135,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar13.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar13.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar13.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar13.Size = New System.Drawing.Size(18, 143)
+        Me.Guna2ProgressBar13.Size = New System.Drawing.Size(18, 120)
         Me.Guna2ProgressBar13.TabIndex = 1
         Me.Guna2ProgressBar13.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar13.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2156,7 +2153,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar6.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar6.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar6.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar6.Size = New System.Drawing.Size(18, 143)
+        Me.Guna2ProgressBar6.Size = New System.Drawing.Size(18, 120)
         Me.Guna2ProgressBar6.TabIndex = 1
         Me.Guna2ProgressBar6.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar6.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2174,7 +2171,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar5.ShadowDecoration.Depth = 20
         Me.Guna2ProgressBar5.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar5.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar5.Size = New System.Drawing.Size(18, 122)
+        Me.Guna2ProgressBar5.Size = New System.Drawing.Size(18, 99)
         Me.Guna2ProgressBar5.TabIndex = 1
         Me.Guna2ProgressBar5.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar5.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -2184,7 +2181,7 @@ Partial Class FrmMain
         '
         Me.Guna2Separator9.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Guna2Separator9.FillThickness = 2
-        Me.Guna2Separator9.Location = New System.Drawing.Point(69, 250)
+        Me.Guna2Separator9.Location = New System.Drawing.Point(69, 227)
         Me.Guna2Separator9.Name = "Guna2Separator9"
         Me.Guna2Separator9.Size = New System.Drawing.Size(528, 10)
         Me.Guna2Separator9.TabIndex = 3
@@ -2202,7 +2199,7 @@ Partial Class FrmMain
         Me.Guna2Panel6.ShadowDecoration.Depth = 20
         Me.Guna2Panel6.ShadowDecoration.Enabled = True
         Me.Guna2Panel6.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2Panel6.Size = New System.Drawing.Size(200, 707)
+        Me.Guna2Panel6.Size = New System.Drawing.Size(200, 723)
         Me.Guna2Panel6.TabIndex = 8
         '
         'PanalGold
@@ -2228,7 +2225,7 @@ Partial Class FrmMain
         Me.PanalGold.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.PanalGold.Location = New System.Drawing.Point(0, 0)
         Me.PanalGold.Name = "PanalGold"
-        Me.PanalGold.Size = New System.Drawing.Size(200, 707)
+        Me.PanalGold.Size = New System.Drawing.Size(200, 723)
         Me.PanalGold.TabIndex = 8
         '
         'Guna2GradientButton20
@@ -2456,7 +2453,6 @@ Partial Class FrmMain
         Me.Guna2GradientButton8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2GradientButton8.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2GradientButton8.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton8.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Guna2GradientButton8.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton8.Location = New System.Drawing.Point(0, 133)
         Me.Guna2GradientButton8.Name = "Guna2GradientButton8"
@@ -2516,6 +2512,18 @@ Partial Class FrmMain
         Me.PictureEdit1.Size = New System.Drawing.Size(40, 39)
         Me.PictureEdit1.TabIndex = 7
         '
+        'GunaPictureBox1
+        '
+        Me.GunaPictureBox1.BaseColor = System.Drawing.Color.White
+        Me.GunaPictureBox1.ErrorImage = Global.GoldSystem.My.Resources.Resources.Screenshot_819
+        Me.GunaPictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Screenshot_819
+        Me.GunaPictureBox1.Location = New System.Drawing.Point(47, 26)
+        Me.GunaPictureBox1.Name = "GunaPictureBox1"
+        Me.GunaPictureBox1.Size = New System.Drawing.Size(126, 43)
+        Me.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaPictureBox1.TabIndex = 1
+        Me.GunaPictureBox1.TabStop = False
+        '
         'PanelAll
         '
         Me.PanelAll.Controls.Add(Me.Guna2GradientButton1)
@@ -2531,6 +2539,87 @@ Partial Class FrmMain
         Me.PanelAll.Name = "PanelAll"
         Me.PanelAll.Size = New System.Drawing.Size(170, 571)
         Me.PanelAll.TabIndex = 7
+        '
+        'Guna2GradientButton26
+        '
+        Me.Guna2GradientButton26.Animated = True
+        Me.Guna2GradientButton26.AutoRoundedCorners = True
+        Me.Guna2GradientButton26.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton26.BorderRadius = 21
+        Me.Guna2GradientButton26.CustomizableEdges.BottomLeft = False
+        Me.Guna2GradientButton26.CustomizableEdges.TopLeft = False
+        Me.Guna2GradientButton26.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton26.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton26.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton26.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton26.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton26.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2GradientButton26.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2GradientButton26.Font = New System.Drawing.Font("Segoe UI", 13.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2GradientButton26.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton26.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2GradientButton26.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.Guna2GradientButton26.Location = New System.Drawing.Point(-7, 444)
+        Me.Guna2GradientButton26.Name = "Guna2GradientButton26"
+        Me.Guna2GradientButton26.ShadowDecoration.BorderRadius = 0
+        Me.Guna2GradientButton26.ShadowDecoration.Enabled = True
+        Me.Guna2GradientButton26.Size = New System.Drawing.Size(188, 44)
+        Me.Guna2GradientButton26.TabIndex = 6
+        Me.Guna2GradientButton26.Text = "الليرات"
+        '
+        'Guna2GradientButton25
+        '
+        Me.Guna2GradientButton25.Animated = True
+        Me.Guna2GradientButton25.AutoRoundedCorners = True
+        Me.Guna2GradientButton25.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton25.BorderRadius = 21
+        Me.Guna2GradientButton25.CustomizableEdges.BottomLeft = False
+        Me.Guna2GradientButton25.CustomizableEdges.TopLeft = False
+        Me.Guna2GradientButton25.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton25.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton25.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton25.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton25.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton25.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2GradientButton25.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2GradientButton25.Font = New System.Drawing.Font("Segoe UI", 13.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2GradientButton25.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton25.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2GradientButton25.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.Guna2GradientButton25.Location = New System.Drawing.Point(-7, 388)
+        Me.Guna2GradientButton25.Name = "Guna2GradientButton25"
+        Me.Guna2GradientButton25.ShadowDecoration.BorderRadius = 0
+        Me.Guna2GradientButton25.ShadowDecoration.Enabled = True
+        Me.Guna2GradientButton25.Size = New System.Drawing.Size(188, 44)
+        Me.Guna2GradientButton25.TabIndex = 6
+        Me.Guna2GradientButton25.Text = "السبائك"
+        '
+        'Guna2GradientButton24
+        '
+        Me.Guna2GradientButton24.Animated = True
+        Me.Guna2GradientButton24.AutoRoundedCorners = True
+        Me.Guna2GradientButton24.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientButton24.BorderRadius = 21
+        Me.Guna2GradientButton24.CustomizableEdges.BottomLeft = False
+        Me.Guna2GradientButton24.CustomizableEdges.TopLeft = False
+        Me.Guna2GradientButton24.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton24.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2GradientButton24.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton24.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2GradientButton24.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2GradientButton24.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2GradientButton24.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2GradientButton24.Font = New System.Drawing.Font("Segoe UI", 13.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2GradientButton24.ForeColor = System.Drawing.Color.White
+        Me.Guna2GradientButton24.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2GradientButton24.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.Guna2GradientButton24.Location = New System.Drawing.Point(-5, 330)
+        Me.Guna2GradientButton24.Name = "Guna2GradientButton24"
+        Me.Guna2GradientButton24.ShadowDecoration.BorderRadius = 0
+        Me.Guna2GradientButton24.ShadowDecoration.Enabled = True
+        Me.Guna2GradientButton24.Size = New System.Drawing.Size(188, 44)
+        Me.Guna2GradientButton24.TabIndex = 6
+        Me.Guna2GradientButton24.Text = "الاحجار الكريمة"
         '
         'Guna2GradientButton5
         '
@@ -2613,108 +2702,15 @@ Partial Class FrmMain
         Me.Guna2GradientButton4.TabIndex = 6
         Me.Guna2GradientButton4.Text = "ماركات وساعات"
         '
-        'GunaPictureBox1
-        '
-        Me.GunaPictureBox1.BaseColor = System.Drawing.Color.White
-        Me.GunaPictureBox1.ErrorImage = Global.GoldSystem.My.Resources.Resources.Screenshot_819
-        Me.GunaPictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Screenshot_819
-        Me.GunaPictureBox1.Location = New System.Drawing.Point(47, 26)
-        Me.GunaPictureBox1.Name = "GunaPictureBox1"
-        Me.GunaPictureBox1.Size = New System.Drawing.Size(126, 43)
-        Me.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaPictureBox1.TabIndex = 1
-        Me.GunaPictureBox1.TabStop = False
-        '
         'Timer1
         '
-        '
-        'Guna2GradientButton24
-        '
-        Me.Guna2GradientButton24.Animated = True
-        Me.Guna2GradientButton24.AutoRoundedCorners = True
-        Me.Guna2GradientButton24.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton24.BorderRadius = 21
-        Me.Guna2GradientButton24.CustomizableEdges.BottomLeft = False
-        Me.Guna2GradientButton24.CustomizableEdges.TopLeft = False
-        Me.Guna2GradientButton24.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton24.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton24.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton24.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton24.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton24.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton24.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton24.Font = New System.Drawing.Font("Segoe UI", 13.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2GradientButton24.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton24.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton24.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Guna2GradientButton24.Location = New System.Drawing.Point(-5, 330)
-        Me.Guna2GradientButton24.Name = "Guna2GradientButton24"
-        Me.Guna2GradientButton24.ShadowDecoration.BorderRadius = 0
-        Me.Guna2GradientButton24.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton24.Size = New System.Drawing.Size(188, 44)
-        Me.Guna2GradientButton24.TabIndex = 6
-        Me.Guna2GradientButton24.Text = "الاحجار الكريمة"
-        '
-        'Guna2GradientButton25
-        '
-        Me.Guna2GradientButton25.Animated = True
-        Me.Guna2GradientButton25.AutoRoundedCorners = True
-        Me.Guna2GradientButton25.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton25.BorderRadius = 21
-        Me.Guna2GradientButton25.CustomizableEdges.BottomLeft = False
-        Me.Guna2GradientButton25.CustomizableEdges.TopLeft = False
-        Me.Guna2GradientButton25.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton25.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton25.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton25.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton25.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton25.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton25.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton25.Font = New System.Drawing.Font("Segoe UI", 13.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2GradientButton25.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton25.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton25.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Guna2GradientButton25.Location = New System.Drawing.Point(-7, 388)
-        Me.Guna2GradientButton25.Name = "Guna2GradientButton25"
-        Me.Guna2GradientButton25.ShadowDecoration.BorderRadius = 0
-        Me.Guna2GradientButton25.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton25.Size = New System.Drawing.Size(188, 44)
-        Me.Guna2GradientButton25.TabIndex = 6
-        Me.Guna2GradientButton25.Text = "السبائك"
-        '
-        'Guna2GradientButton26
-        '
-        Me.Guna2GradientButton26.Animated = True
-        Me.Guna2GradientButton26.AutoRoundedCorners = True
-        Me.Guna2GradientButton26.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton26.BorderRadius = 21
-        Me.Guna2GradientButton26.CustomizableEdges.BottomLeft = False
-        Me.Guna2GradientButton26.CustomizableEdges.TopLeft = False
-        Me.Guna2GradientButton26.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton26.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton26.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton26.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton26.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton26.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton26.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton26.Font = New System.Drawing.Font("Segoe UI", 13.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2GradientButton26.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton26.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton26.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Guna2GradientButton26.Location = New System.Drawing.Point(-7, 444)
-        Me.Guna2GradientButton26.Name = "Guna2GradientButton26"
-        Me.Guna2GradientButton26.ShadowDecoration.BorderRadius = 0
-        Me.Guna2GradientButton26.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton26.Size = New System.Drawing.Size(188, 44)
-        Me.Guna2GradientButton26.TabIndex = 6
-        Me.Guna2GradientButton26.Text = "الليرات"
+        Me.Timer1.Interval = 10
         '
         'FrmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(1117, 749)
+        Me.ClientSize = New System.Drawing.Size(1117, 765)
         Me.Controls.Add(Me.SettingMenu)
         Me.Controls.Add(Me.Guna2Panel6)
         Me.Controls.Add(Me.Guna2Panel5)
@@ -2726,6 +2722,7 @@ Partial Class FrmMain
         Me.Controls.Add(Me.Guna2Panel1)
         Me.Controls.Add(Me.Guna2HtmlLabel4)
         Me.Controls.Add(Me.Guna2HtmlLabel5)
+        Me.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "FrmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
@@ -2748,8 +2745,8 @@ Partial Class FrmMain
         Me.Guna2Panel6.ResumeLayout(False)
         Me.PanalGold.ResumeLayout(False)
         CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.PanelAll.ResumeLayout(False)
         CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelAll.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

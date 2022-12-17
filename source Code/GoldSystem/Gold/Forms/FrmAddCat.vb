@@ -1,10 +1,11 @@
-﻿Imports System.Text
+﻿Imports System.Data.OleDb
+Imports System.Text
 
 Public Class FrmAddCat
     Dim ClsGoldItem_ As New ClsGoldItem
     Dim ClsMain_ As New ClsMain
     Dim counter As Integer = 0
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles btnAddStone.Click
         Try
             If ComStone.Text = String.Empty Then
                 MessageBox.Show("يجب اختيار الفصوص")
@@ -160,10 +161,10 @@ Public Class FrmAddCat
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
         Try
             Max()
-            ClsGoldItem_.AddItem(TxtCode.Text, 0, 0, TxtBarCode.Text, ComName.Text, ComKart.SelectedValue,
-                            TxtWeight.Text, TxtMakingCharge.Text, TxtTotalCost.Text, TxtCostGram.Text,
-                            ComMadIN.SelectedValue, ComSupplier.SelectedValue, TxtPath2.Text, TxtNumberPieses.Text,
-                            TxtNumber.Text, TxtRamz.Text)
+            'ClsGoldItem_.AddItem(TxtCode.Text, 0, 0, TxtBarCode.Text, ComName.Text, ComKart.SelectedValue,
+            '                TxtWeight.Text, TxtMakingCharge.Text, TxtTotalCost.Text, TxtCostGram.Text,
+            '                ComMadIN.SelectedValue, ComSupplier.SelectedValue, TxtPath2.Text, TxtNumberPieses.Text,
+            '                TxtNumber.Text, TxtRamz.Text)
             AddStone()
             MessageBox.Show("تم حفظ الصنف")
         Catch ex As Exception
@@ -431,6 +432,60 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
+        End Try
+    End Sub
+
+    Private Sub Guna2Button11_Click_1(sender As Object, e As EventArgs) Handles Guna2Button11.Click
+        Try
+            Max()
+            'ClsGoldItem_.AddItem(TxtCode.Text, 0, 0, TxtBarCode.Text, ComName.Text, ComKart.SelectedValue,
+            '                TxtWeight.Text, TxtMakingCharge.Text, TxtTotalCost.Text, TxtCostGram.Text,
+            '                ComMadIN.SelectedValue, ComSupplier.SelectedValue, TxtPath2.Text, TxtNumberPieses.Text,
+            '                TxtNumber.Text, TxtRamz.Text)
+            AddStone()
+            MessageBox.Show("تم حفظ الصنف")
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString)
+        End Try
+    End Sub
+    Private Sub Guna2Button12_Click_1(sender As Object, e As EventArgs) Handles Guna2Button12.Click
+        Try
+            OFD.Filter = "Excel 2013|*.xlsx|Excel 2003|*.xls"
+            If OFD.ShowDialog = DialogResult.OK Then
+                DgvAddItems.DataSource = Nothing
+                Dim path As String = OFD.FileName
+                Dim CONN As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" & path & ";Extended Properties='Excel 12.0 Xml;HDR=YES';")
+                Dim DT As New DataTable
+                DT.Clear()
+                CONN.Open()
+                Dim DT0 As New DataTable
+                DT0.Clear()
+                DT0 = CONN.GetOleDbSchemaTable(OleDbSchemaGuid.Tables, Nothing)
+                ComboBox1.DataSource = DT0
+                ComboBox1.DisplayMember = "TABLE_NAME"
+                ComboBox1.ValueMember = "TABLE_NAME"
+                Dim CMD As New OleDbCommand("SELECT * FROM [Sheet1$]", CONN)
+                DT.Load(CMD.ExecuteReader)
+                CONN.Close()
+            Else
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString)
+        End Try
+    End Sub
+    Private Sub Guna2TabControl1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Guna2TabControl1.SelectedIndexChanged
+        Try
+            If Guna2TabControl1.SelectedIndex = 2 Then
+                Dim DT As New DataTable
+                DT.Clear()
+                DT = ClsGoldItem_.ShowAllItems()
+                If DT.Rows.Count > 0 Then
+                    DGVSelectAll.DataSource = DT
+                Else
+                End If
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString())
         End Try
     End Sub
 End Class
