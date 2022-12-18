@@ -212,4 +212,5 @@ C:\Source Code\source Code\GoldSystem\obj\x64\Debug\GoldSystem.vbproj.CopyComple
 C:\Source Code\source Code\GoldSystem\obj\x64\Debug\GoldSystem.exe
 C:\Source Code\source Code\GoldSystem\obj\x64\Debug\GoldSystem.xml
 C:\Source Code\source Code\GoldSystem\obj\x64\Debug\GoldSystem.pdb
+C:\Source Code\source Code\GoldSystem\obj\x64\Debug\GoldSystem.CivilId.resources
 C:\Source Code\source Code\GoldSystem\obj\x64\Debug\GoldSystem.vbprojAssemblyReference.cache

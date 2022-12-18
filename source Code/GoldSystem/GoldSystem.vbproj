@@ -146,6 +146,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Gold\Cls\ClsGoldItem.vb" />
+    <Compile Include="Gold\Forms\CivilId.Designer.vb">
+      <DependentUpon>CivilId.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\CivilId.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Gold\Forms\FrmAddCat.Designer.vb">
       <DependentUpon>FrmAddCat.vb</DependentUpon>
     </Compile>
@@ -240,6 +246,9 @@
     <Compile Include="Setting\Settings.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Gold\Forms\CivilId.resx">
+      <DependentUpon>CivilId.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\FrmAddCat.resx">
       <DependentUpon>FrmAddCat.vb</DependentUpon>
     </EmbeddedResource>

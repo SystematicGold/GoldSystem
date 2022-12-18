@@ -20,18 +20,37 @@ Partial Class FrmSales
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.CivilId1 = New GoldSystem.CivilId()
         Me.SuspendLayout()
+        '
+        'CivilId1
+        '
+        Me.CivilId1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.CivilId1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.CivilId1.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CivilId1.Location = New System.Drawing.Point(0, 0)
+        Me.CivilId1.Margin = New System.Windows.Forms.Padding(5)
+        Me.CivilId1.Name = "CivilId1"
+        Me.CivilId1.Size = New System.Drawing.Size(1350, 416)
+        Me.CivilId1.TabIndex = 0
         '
         'FrmSales
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(896, 510)
+        Me.ClientSize = New System.Drawing.Size(1350, 729)
+        Me.Controls.Add(Me.CivilId1)
+        Me.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Margin = New System.Windows.Forms.Padding(5)
+        Me.MaximumSize = New System.Drawing.Size(1366, 768)
+        Me.MinimumSize = New System.Drawing.Size(1366, 768)
         Me.Name = "FrmSales"
         Me.Text = "FrmSales"
         Me.ResumeLayout(False)
 
     End Sub
+
+    Friend WithEvents CivilId1 As CivilId
 End Class
