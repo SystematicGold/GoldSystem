@@ -14,9 +14,24 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
@@ -55,7 +70,7 @@
     <DocumentationFile>GoldSystem.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <DebugType>full</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
@@ -70,6 +85,9 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>..\Bunifu_UI_v1.52.dll</HintPath>
@@ -83,6 +101,8 @@
     <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.TreeMap.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -94,6 +114,12 @@
     <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="FontAwesome.Sharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net45\FontAwesome.Sharp.dll</HintPath>
     </Reference>
@@ -145,7 +171,14 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Gold\Cls\ClsGoldItem.vb" />
+    <Compile Include="Gold\Forms\AddGoldItem.Designer.vb">
+      <DependentUpon>AddGoldItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\AddGoldItem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Gold\Forms\CivilId.Designer.vb">
       <DependentUpon>CivilId.vb</DependentUpon>
     </Compile>
@@ -158,10 +191,16 @@
     <Compile Include="Gold\Forms\FrmAddCat.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\FrmAdderItem.Designer.vb">
-      <DependentUpon>FrmAdderItem.vb</DependentUpon>
+    <Compile Include="Gold\Forms\FrmAddItem.Designer.vb">
+      <DependentUpon>FrmAddItem.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\FrmAdderItem.vb">
+    <Compile Include="Gold\Forms\FrmAddItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmAddStone.Designer.vb">
+      <DependentUpon>FrmAddStone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmAddStone.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gold\Forms\FrmGold.Designer.vb">
@@ -209,10 +248,10 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main\Cls\ClsMain.vb" />
-    <Compile Include="Main\Forms\FrmAddNweSupplier.Designer.vb">
-      <DependentUpon>FrmAddNweSupplier.vb</DependentUpon>
+    <Compile Include="Main\Forms\FrmAddNewSupplier.Designer.vb">
+      <DependentUpon>FrmAddNewSupplier.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\FrmAddNweSupplier.vb">
+    <Compile Include="Main\Forms\FrmAddNewSupplier.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main\Forms\FrmMain.Designer.vb">
@@ -246,17 +285,26 @@
     <Compile Include="Setting\Settings.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Gold\Forms\AddGoldItem.resx">
+      <DependentUpon>AddGoldItem.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\CivilId.resx">
       <DependentUpon>CivilId.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\FrmAddCat.resx">
       <DependentUpon>FrmAddCat.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\FrmAdderItem.resx">
-      <DependentUpon>FrmAdderItem.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\FrmAddItem.resx">
+      <DependentUpon>FrmAddItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\FrmAddStone.resx">
+      <DependentUpon>FrmAddStone.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\FrmGold.resx">
       <DependentUpon>FrmGold.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\FrmPurchases.resx">
+      <DependentUpon>FrmPurchases.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\FrmSales.resx">
       <DependentUpon>FrmSales.vb</DependentUpon>
@@ -279,8 +327,8 @@
     <EmbeddedResource Include="Login\Forms\SettingFile.resx">
       <DependentUpon>SettingFile.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\FrmAddNweSupplier.resx">
-      <DependentUpon>FrmAddNweSupplier.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\FrmAddNewSupplier.resx">
+      <DependentUpon>FrmAddNewSupplier.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Forms\FrmMain.resx">
       <DependentUpon>FrmMain.vb</DependentUpon>
@@ -297,6 +345,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -308,7 +357,18 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Resources\Profile-Male-PNG.png" />

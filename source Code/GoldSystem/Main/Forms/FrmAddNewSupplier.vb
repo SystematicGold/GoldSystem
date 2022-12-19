@@ -1,4 +1,4 @@
-﻿Public Class FrmAddNweSupplier
+﻿Public Class FrmAddNewSupplier
     Dim ClsMain_ As New ClsMain
     Dim ClsGoldItem_ As New ClsGoldItem
     Private Sub Guna2Button9_Click(sender As Object, e As EventArgs) Handles Guna2Button9.Click

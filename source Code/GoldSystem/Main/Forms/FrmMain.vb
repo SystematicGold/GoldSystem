@@ -11,26 +11,32 @@ Public Class FrmMain
     End Sub
     Private Sub FrmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
-            PanelAll.Visible = True
-            PanalGold.Visible = False
+            pnlAll.Visible = True
+            pnlGold.Visible = False
         Catch ex As Exception
             MessageBox.Show(ex.ToString())
         End Try
     End Sub
-    Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
+    Private Sub btnGold_Click(sender As Object, e As EventArgs) Handles btnGold.Click
         Try
-            PanalGold.Visible = True
+            pnlGold.Left = pnlMain.Left - pnlGold.Width - 2
+            pnlGold.Visible = Not pnlGold.Visible
+            If pnlGold.Visible = True Then
+                btnGold.BackColor = Color.White
+            Else
+                btnGold.BackColor = Color.Transparent
+            End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString())
         End Try
     End Sub
-    Private Sub Guna2GradientButton2_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton2.Click
+    Private Sub btnSilver_Click(sender As Object, e As EventArgs) Handles btnSilver.Click
         Dim f As New XtraReport1
 
     End Sub
-    Private Sub PictureEdit1_Click_1(sender As Object, e As EventArgs) Handles PictureEdit1.Click
+    Private Sub PictureEdit1_Click_1(sender As Object, e As EventArgs) Handles PictureEdit1.Click, PictureEdit2.Click
         Try
-            PanalGold.Visible = False
+            pnlGold.Visible = False
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
@@ -84,22 +90,31 @@ Public Class FrmMain
             Dim dt As New DataTable
             dt.Clear()
             dt = ClsMain_.GetItemCode()
-            If dt.Rows.Count > 0 Then
-                F.TxtCode.Text = dt.Rows(0)(0)
-                F.TxtCodeBlock.Text = dt.Rows(0)(0)
-                Dim s As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghigklmnopqrstuvxyz"
-                Dim r As New Random
+            'If dt.Rows.Count > 0 Then
+            '    F.TxtCode.Text = dt.Rows(0)(0)
+            F.TxtCodeBlock.Text = dt.Rows(0)(0)
+            Dim s As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            Dim r As New Random
                 Dim sb As New StringBuilder
-                For i As Integer = 1 To 8
-                    Dim idx As Integer = r.Next(0, 35)
-                    sb.Append(s.Substring(idx, 1))
-                Next
-                F.TxtBarCode.Text = sb.ToString()
-                F.TxtBarCodeBlock.Text = sb.ToString()
-            End If
+            For i As Integer = 1 To 3
+                Dim idx As Integer = r.Next(0, 35)
+                sb.Append(s.Substring(idx, 1))
+            Next
+            'F.TxtBarCode.Text = sb.ToString()
+            F.TxtBarCodeBlock.Text = sb.ToString()
+            'End If
             F.Show()
         Catch ex As Exception
             MessageBox.Show(ex.ToString())
+        End Try
+    End Sub
+
+    Private Sub Guna2GradientButton9_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton9.Click
+        Try
+
+            FrmPurchases.Show()
+        Catch ex As Exception
+
         End Try
     End Sub
 End Class

@@ -45,10 +45,16 @@ namespace API.Data.Migrations
                     b.Property<float>("Cost")
                         .HasColumnType("real");
 
+                    b.Property<float>("CostForSeller")
+                        .HasColumnType("real");
+
                     b.Property<float>("CostPerGram")
                         .HasColumnType("real");
 
                     b.Property<DateTime?>("DateAdd")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DateOfManufacture")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Kart")
@@ -78,7 +84,10 @@ namespace API.Data.Migrations
                     b.Property<int>("Supplier")
                         .HasColumnType("int");
 
-                    b.Property<int?>("User")
+                    b.Property<bool?>("TaxExempt")
+                        .HasColumnType("bit");
+
+                    b.Property<int?>("UserCode")
                         .HasColumnType("int");
 
                     b.Property<float>("Weight")
@@ -108,7 +117,7 @@ namespace API.Data.Migrations
                     b.ToTable("ItemNames");
                 });
 
-            modelBuilder.Entity("API.Entities.KartItem", b =>
+            modelBuilder.Entity("API.Entities.KaratItem", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()

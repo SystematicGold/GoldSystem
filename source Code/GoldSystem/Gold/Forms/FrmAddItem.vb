@@ -1,6 +1,8 @@
 ﻿Public Class FrmAdderItem
     Dim ClsItem As New ClsGoldItem
     Public IsYes = False
+
+
     'Private Sub ComboBox2_DropDown(sender As Object, e As EventArgs)
     '    Try
     '        Dim DT As New DataTable
@@ -15,7 +17,7 @@
     '        MessageBox.Show(ex.ToString)
     '    End Try
     'End Sub
-    'Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+    'Private Sub btnSave_Click(sender As Object, e As EventArgs) Handles btnSave.Click
     '    Try
     '        IsYes = True
     '        Close()

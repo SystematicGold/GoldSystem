@@ -5,43 +5,34 @@ Public Class FrmAddCat
     Dim ClsGoldItem_ As New ClsGoldItem
     Dim ClsMain_ As New ClsMain
     Dim counter As Integer = 0
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles btnAddStone.Click
+    Dim btnAddStoneLeft As Integer
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs)
         Try
-            If ComStone.Text = String.Empty Then
-                MessageBox.Show("يجب اختيار الفصوص")
-                Return
-            End If
-            If TxtStoneWeight.Text = String.Empty Or TxtStoneWeight.Text = 0 Then
-                MessageBox.Show("يجب ادخال الوزن")
-                Return
-            End If
-            If TxtStonePrice.Text = String.Empty Or TxtStonePrice.Text = 0 Then
-                MessageBox.Show("يجب ادخال السعر")
-                Return
-            End If
-            counter += 1
-            Dim row As String() = New String() {ComStone.SelectedValue, counter,
-                                                  ComStone.Text,
-                                                  TxtStoneWeight.Text,
-                                                  TxtStoneColor.Text, TxtStonePrice.Text,
-                                                  LblFileExtentions.Text,
-                                                  TxtClarity.Text, TxtCut.Text}
-            DgvStone.Rows.Add(row)
+            'If ComStone.Text = String.Empty Then
+            '    MessageBox.Show("يجب اختيار الفصوص")
+            '    Return
+            'End If
+            'If TxtStoneWeight.Text = String.Empty Or TxtStoneWeight.Text = 0 Then
+            '    MessageBox.Show("يجب ادخال الوزن")
+            '    Return
+            'End If
+            'If TxtStonePrice.Text = String.Empty Or TxtStonePrice.Text = 0 Then
+            '    MessageBox.Show("يجب ادخال السعر")
+            '    Return
+            'End If
+            'counter += 1
+            'Dim row As String() = New String() {ComStone.SelectedValue, counter,
+            '                                      ComStone.Text,
+            '                                      TxtStoneWeight.Text,
+            '                                      TxtStoneColor.Text, TxtStonePrice.Text,
+            '                                      LblFileExtentions.Text,
+            '                                      TxtClarity.Text, TxtCut.Text}
+            'DgvStone.Rows.Add(row)
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub TxtStoneWeight_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TxtStoneWeight.KeyPress
-        Try
-            If Not Char.IsDigit(e.KeyChar) Then
-                e.Handled = True
-                MessageBox.Show("ارقام فقط")
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
-    Private Sub TxtStonePrice_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TxtStonePrice.KeyPress
+    Private Sub TxtStoneWeight_KeyPress(sender As Object, e As KeyPressEventArgs)
         Try
             If Not Char.IsDigit(e.KeyChar) Then
                 e.Handled = True
@@ -51,15 +42,25 @@ Public Class FrmAddCat
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub ComStone_DropDown(sender As Object, e As EventArgs) Handles ComStone.DropDown, ComboBox1.DropDown
+    Private Sub TxtStonePrice_KeyPress(sender As Object, e As KeyPressEventArgs)
+        Try
+            If Not Char.IsDigit(e.KeyChar) Then
+                e.Handled = True
+                MessageBox.Show("ارقام فقط")
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString)
+        End Try
+    End Sub
+    Private Sub ComStone_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
             DT = ClsGoldItem_.Stone()
             If DT.Rows.Count > 0 Then
-                ComStone.DataSource = DT
-                ComStone.DisplayMember = "Name"
-                ComStone.ValueMember = "Code"
+                'ComStone.DataSource = DT
+                'ComStone.DisplayMember = "Name"
+                'ComStone.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
@@ -95,7 +96,7 @@ Public Class FrmAddCat
                     Dim idx As Integer = r.Next(0, 35)
                     sb.Append(s.Substring(idx, 1))
                 Next
-                f.TxtBarCode.Text = sb.ToString()
+                'f.txtBarCode.Text = sb.ToString()
             End If
             f.ShowDialog()
             If f.IsYes = True Then
@@ -120,15 +121,15 @@ Public Class FrmAddCat
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub ComboBox2_DropDown(sender As Object, e As EventArgs) Handles ComKart.DropDown
+    Private Sub ComboBox2_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
             DT = ClsGoldItem_.Kart()
             If DT.Rows.Count > 0 Then
-                ComKart.DataSource = DT
-                ComKart.DisplayMember = "Name"
-                ComKart.ValueMember = "Code"
+                'ComKart.DataSource = DT
+                'ComKart.DisplayMember = "Name"
+                'ComKart.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
@@ -137,28 +138,28 @@ Public Class FrmAddCat
     Sub ShowRadial()
         RadialMenu1.ShowPopup(New Point(95, 140))
     End Sub
-    Private Sub PictureEdit9_Click(sender As Object, e As EventArgs) Handles PictureEdit9.Click
+    Private Sub PictureEdit9_Click(sender As Object, e As EventArgs)
         Try
             ShowRadial()
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub PictureEdit10_Click(sender As Object, e As EventArgs) Handles PictureEdit10.Click
+    Private Sub PictureEdit10_Click(sender As Object, e As EventArgs)
         Try
             ShowRadial()
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub PictureEdit11_Click(sender As Object, e As EventArgs) Handles PictureEdit11.Click
+    Private Sub PictureEdit11_Click(sender As Object, e As EventArgs)
         Try
             ShowRadial()
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
+    Private Sub Guna2Button4_Click(sender As Object, e As EventArgs)
         Try
             Max()
             'ClsGoldItem_.AddItem(TxtCode.Text, 0, 0, TxtBarCode.Text, ComName.Text, ComKart.SelectedValue,
@@ -176,20 +177,20 @@ Public Class FrmAddCat
         dt.Clear()
         dt = ClsMain_.GetItemCode()
         If dt.Rows.Count > 0 Then
-            TxtCode.Text = dt.Rows(0)(0)
-            TxtCodeBlock.Text = dt.Rows(0)(0)
+            'TxtCode.Text = dt.Rows(0)(0)
+            'TxtCodeBlock.Text = dt.Rows(0)(0)
         End If
     End Sub
     Sub AddStone()
-        If DgvStone.Rows.Count > 0 Then
-            For i As Integer = 0 To DgvStone.Rows.Count - 1
-                ClsGoldItem_.AddStonForItem(TxtCode.Text, DgvStone.Rows(i).Cells(0).Value,
-                                DgvStone.Rows(i).Cells(4).Value,
-                                DgvStone.Rows(i).Cells(5).Value,
-                                DgvStone.Rows(i).Cells(3).Value,
-                                DgvStone.Rows(i).Cells(6).Value)
-            Next
-        End If
+        'If DgvStone.Rows.Count > 0 Then
+        '    For i As Integer = 0 To DgvStone.Rows.Count - 1
+        '        ClsGoldItem_.AddStonForItem(TxtCode.Text, DgvStone.Rows(i).Cells(0).Value,
+        '                        DgvStone.Rows(i).Cells(4).Value,
+        '                        DgvStone.Rows(i).Cells(5).Value,
+        '                        DgvStone.Rows(i).Cells(3).Value,
+        '                        DgvStone.Rows(i).Cells(6).Value)
+        'Next
+        'End If
     End Sub
     Sub AddStoneBlock()
         'If DgvStoneBlock.Rows.Count > 0 Then
@@ -202,11 +203,11 @@ Public Class FrmAddCat
         'Next
         'End If
     End Sub
-    Private Sub Guna2Button13_Click(sender As Object, e As EventArgs) Handles Guna2Button13.Click
+    Private Sub Guna2Button13_Click(sender As Object, e As EventArgs)
         Try
             If OFD.ShowDialog = DialogResult.OK Then
                 Dim path As String = OFD.FileName
-                LblFileExtentions.Text = path
+                'LblFileExtentions.Text = path
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
@@ -298,43 +299,43 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub ComName_DropDown(sender As Object, e As EventArgs) Handles ComName.DropDown
+    Private Sub ComName_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
             DT = ClsGoldItem_.ItemName()
             If DT.Rows.Count > 0 Then
-                ComName.DataSource = DT
-                ComName.DisplayMember = "Name"
-                ComName.ValueMember = "Code"
+                'ComName.DataSource = DT
+                'ComName.DisplayMember = "Name"
+                'ComName.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub ComSupplier_DropDown(sender As Object, e As EventArgs) Handles ComSupplier.DropDown
+    Private Sub ComSupplier_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
             DT = ClsGoldItem_.Supplier()
             If DT.Rows.Count > 0 Then
-                ComSupplier.DataSource = DT
-                ComSupplier.DisplayMember = "Name"
-                ComSupplier.ValueMember = "Code"
+                'ComSupplier.DataSource = DT
+                'ComSupplier.DisplayMember = "Name"
+                'ComSupplier.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub ComMadIN_DropDown(sender As Object, e As EventArgs) Handles ComMadIN.DropDown
+    Private Sub ComMadIN_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
             DT = ClsGoldItem_.MadeIn()
             If DT.Rows.Count > 0 Then
-                ComMadIN.DataSource = DT
-                ComMadIN.DisplayMember = "Name"
-                ComMadIN.ValueMember = "Code"
+                'ComMadIN.DataSource = DT
+                'ComMadIN.DisplayMember = "Name"
+                'ComMadIN.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
@@ -342,7 +343,7 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
     End Sub
 
     Private Sub BarLargeButtonItem1_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarLargeButtonItem1.ItemClick
-        Dim F As New FrmAddNweSupplier
+        Dim F As New FrmAddNewSupplier
         Dim DT As New DataTable
         DT.Clear()
         DT = ClsGoldItem_.MaxSupplier()
@@ -399,43 +400,43 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub ComboBox1_DropDown(sender As Object, e As EventArgs) Handles ComMadeInStone.DropDown
+    Private Sub ComboBox1_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
             DT = ClsGoldItem_.MadeIn()
             If DT.Rows.Count > 0 Then
-                ComMadeInStone.DataSource = DT
-                ComMadeInStone.DisplayMember = "Name"
-                ComMadeInStone.ValueMember = "Code"
+                'ComMadeInStone.DataSource = DT
+                'ComMadeInStone.DisplayMember = "Name"
+                'ComMadeInStone.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
 
-    Private Sub gl_Click(sender As Object, e As EventArgs) Handles TxtPath.Click
+    Private Sub gl_Click(sender As Object, e As EventArgs)
         Try
             If OFD.ShowDialog = DialogResult.OK Then
                 Dim path As String = OFD.FileName
-                TxtPath.Text = path
+                'TxtPath.Text = path
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub TxtDoc_Click(sender As Object, e As EventArgs) Handles TxtDoc.Click
+    Private Sub TxtDoc_Click(sender As Object, e As EventArgs)
         Try
             If OFD.ShowDialog = DialogResult.OK Then
                 Dim path As String = OFD.FileName
-                TxtDoc.Text = path
+                'TxtDoc.Text = path
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
 
-    Private Sub Guna2Button11_Click_1(sender As Object, e As EventArgs) Handles Guna2Button11.Click
+    Private Sub Guna2Button11_Click_1(sender As Object, e As EventArgs)
         Try
             Max()
             'ClsGoldItem_.AddItem(TxtCode.Text, 0, 0, TxtBarCode.Text, ComName.Text, ComKart.SelectedValue,
@@ -461,9 +462,9 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
                 Dim DT0 As New DataTable
                 DT0.Clear()
                 DT0 = CONN.GetOleDbSchemaTable(OleDbSchemaGuid.Tables, Nothing)
-                ComboBox1.DataSource = DT0
-                ComboBox1.DisplayMember = "TABLE_NAME"
-                ComboBox1.ValueMember = "TABLE_NAME"
+                'ComboBox1.DataSource = DT0
+                'ComboBox1.DisplayMember = "TABLE_NAME"
+                'ComboBox1.ValueMember = "TABLE_NAME"
                 Dim CMD As New OleDbCommand("SELECT * FROM [Sheet1$]", CONN)
                 DT.Load(CMD.ExecuteReader)
                 CONN.Close()
@@ -473,19 +474,23 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub Guna2TabControl1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Guna2TabControl1.SelectedIndexChanged
+    Private Sub tabMain_SelectedIndexChanged(sender As Object, e As EventArgs)
         Try
-            If Guna2TabControl1.SelectedIndex = 2 Then
-                Dim DT As New DataTable
-                DT.Clear()
-                DT = ClsGoldItem_.ShowAllItems()
-                If DT.Rows.Count > 0 Then
-                    DGVSelectAll.DataSource = DT
-                Else
-                End If
-            End If
+            'If tabMain.SelectedIndex = 2 Then
+            '    Dim DT As New DataTable
+            '    DT.Clear()
+            '    DT = ClsGoldItem_.ShowAllItems()
+            '    If DT.Rows.Count > 0 Then
+            '        DGVSelectAll.DataSource = DT
+            '    Else
+            '    End If
+            'End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString())
         End Try
+    End Sub
+    Private Sub FrmAddCat_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'btnAddStoneLeft = btnAddStone.Left
+        'tabMain.SelectedIndex = tabMain.TabPages.Count - 1
     End Sub
 End Class

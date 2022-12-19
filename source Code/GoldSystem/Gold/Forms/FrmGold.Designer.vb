@@ -52,7 +52,7 @@ Partial Class FrmGold
         Me.Guna2GradientButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2GradientButton3.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2GradientButton3.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.Guna2GradientButton3.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.Guna2GradientButton3.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton3.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton3.Location = New System.Drawing.Point(270, 229)
         Me.Guna2GradientButton3.Name = "Guna2GradientButton3"
@@ -70,7 +70,7 @@ Partial Class FrmGold
         Me.Guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2GradientButton4.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2GradientButton4.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.Guna2GradientButton4.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.Guna2GradientButton4.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton4.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton4.Location = New System.Drawing.Point(270, 311)
         Me.Guna2GradientButton4.Name = "Guna2GradientButton4"
@@ -88,7 +88,7 @@ Partial Class FrmGold
         Me.Guna2GradientButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2GradientButton5.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2GradientButton5.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.Guna2GradientButton5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2GradientButton5.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton5.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton5.Location = New System.Drawing.Point(18, 66)
         Me.Guna2GradientButton5.Name = "Guna2GradientButton5"
@@ -106,7 +106,7 @@ Partial Class FrmGold
         Me.Guna2GradientButton6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2GradientButton6.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2GradientButton6.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.Guna2GradientButton6.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2GradientButton6.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton6.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton6.Location = New System.Drawing.Point(18, 148)
         Me.Guna2GradientButton6.Name = "Guna2GradientButton6"
@@ -124,7 +124,7 @@ Partial Class FrmGold
         Me.Guna2GradientButton7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2GradientButton7.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2GradientButton7.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.Guna2GradientButton7.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2GradientButton7.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton7.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton7.Location = New System.Drawing.Point(18, 229)
         Me.Guna2GradientButton7.Name = "Guna2GradientButton7"
@@ -142,7 +142,7 @@ Partial Class FrmGold
         Me.Guna2GradientButton8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2GradientButton8.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2GradientButton8.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.Guna2GradientButton8.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2GradientButton8.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton8.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton8.Location = New System.Drawing.Point(18, 311)
         Me.Guna2GradientButton8.Name = "Guna2GradientButton8"
@@ -160,7 +160,7 @@ Partial Class FrmGold
         Me.Guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2GradientButton2.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2GradientButton2.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.Guna2GradientButton2.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.Guna2GradientButton2.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton2.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton2.Location = New System.Drawing.Point(270, 147)
         Me.Guna2GradientButton2.Name = "Guna2GradientButton2"
@@ -179,7 +179,7 @@ Partial Class FrmGold
         Me.Guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2GradientButton1.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2GradientButton1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(130, Byte), Integer))
-        Me.Guna2GradientButton1.Font = New System.Drawing.Font("Segoe UI", 15.0!)
+        Me.Guna2GradientButton1.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2GradientButton1.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton1.ImageSize = New System.Drawing.Size(30, 30)
         Me.Guna2GradientButton1.Location = New System.Drawing.Point(270, 66)
@@ -194,12 +194,17 @@ Partial Class FrmGold
         Me.PictureEdit1.EditValue = CType(resources.GetObject("PictureEdit1.EditValue"), Object)
         Me.PictureEdit1.Location = New System.Drawing.Point(271, 160)
         Me.PictureEdit1.Name = "PictureEdit1"
+        '
+        '
+        '
         Me.PictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.PictureEdit1.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
         Me.PictureEdit1.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
+        Me.PictureEdit1.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PictureEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
         Me.PictureEdit1.Properties.Appearance.Options.UseBackColor = True
         Me.PictureEdit1.Properties.Appearance.Options.UseBorderColor = True
+        Me.PictureEdit1.Properties.Appearance.Options.UseFont = True
         Me.PictureEdit1.Properties.Appearance.Options.UseForeColor = True
         Me.PictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
@@ -212,12 +217,17 @@ Partial Class FrmGold
         Me.PictureEdit2.EditValue = CType(resources.GetObject("PictureEdit2.EditValue"), Object)
         Me.PictureEdit2.Location = New System.Drawing.Point(271, 243)
         Me.PictureEdit2.Name = "PictureEdit2"
+        '
+        '
+        '
         Me.PictureEdit2.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.PictureEdit2.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
         Me.PictureEdit2.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
+        Me.PictureEdit2.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PictureEdit2.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
         Me.PictureEdit2.Properties.Appearance.Options.UseBackColor = True
         Me.PictureEdit2.Properties.Appearance.Options.UseBorderColor = True
+        Me.PictureEdit2.Properties.Appearance.Options.UseFont = True
         Me.PictureEdit2.Properties.Appearance.Options.UseForeColor = True
         Me.PictureEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
@@ -230,12 +240,17 @@ Partial Class FrmGold
         Me.PictureEdit3.EditValue = CType(resources.GetObject("PictureEdit3.EditValue"), Object)
         Me.PictureEdit3.Location = New System.Drawing.Point(271, 82)
         Me.PictureEdit3.Name = "PictureEdit3"
+        '
+        '
+        '
         Me.PictureEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.PictureEdit3.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
         Me.PictureEdit3.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
+        Me.PictureEdit3.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PictureEdit3.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
         Me.PictureEdit3.Properties.Appearance.Options.UseBackColor = True
         Me.PictureEdit3.Properties.Appearance.Options.UseBorderColor = True
+        Me.PictureEdit3.Properties.Appearance.Options.UseFont = True
         Me.PictureEdit3.Properties.Appearance.Options.UseForeColor = True
         Me.PictureEdit3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
@@ -248,12 +263,17 @@ Partial Class FrmGold
         Me.PictureEdit4.EditValue = CType(resources.GetObject("PictureEdit4.EditValue"), Object)
         Me.PictureEdit4.Location = New System.Drawing.Point(271, 327)
         Me.PictureEdit4.Name = "PictureEdit4"
+        '
+        '
+        '
         Me.PictureEdit4.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.PictureEdit4.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
         Me.PictureEdit4.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
+        Me.PictureEdit4.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PictureEdit4.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
         Me.PictureEdit4.Properties.Appearance.Options.UseBackColor = True
         Me.PictureEdit4.Properties.Appearance.Options.UseBorderColor = True
+        Me.PictureEdit4.Properties.Appearance.Options.UseFont = True
         Me.PictureEdit4.Properties.Appearance.Options.UseForeColor = True
         Me.PictureEdit4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
@@ -264,18 +284,17 @@ Partial Class FrmGold
         '
         Me.Guna2HtmlLabel11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel11.Font = New System.Drawing.Font("Tahoma", 20.0!, System.Drawing.FontStyle.Bold)
+        Me.Guna2HtmlLabel11.Font = New System.Drawing.Font("Calibri", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2HtmlLabel11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(247, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(81, Byte), Integer))
-        Me.Guna2HtmlLabel11.Location = New System.Drawing.Point(186, 12)
+        Me.Guna2HtmlLabel11.Location = New System.Drawing.Point(190, 12)
         Me.Guna2HtmlLabel11.Name = "Guna2HtmlLabel11"
-        Me.Guna2HtmlLabel11.Size = New System.Drawing.Size(175, 35)
+        Me.Guna2HtmlLabel11.Size = New System.Drawing.Size(148, 38)
         Me.Guna2HtmlLabel11.TabIndex = 8
         Me.Guna2HtmlLabel11.Text = "Gold - الذهب"
         '
         'FrmGold
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(528, 397)
         Me.Controls.Add(Me.Guna2HtmlLabel11)
@@ -291,6 +310,7 @@ Partial Class FrmGold
         Me.Controls.Add(Me.Guna2GradientButton2)
         Me.Controls.Add(Me.Guna2GradientButton5)
         Me.Controls.Add(Me.Guna2GradientButton1)
+        Me.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(544, 436)
         Me.MinimizeBox = False
