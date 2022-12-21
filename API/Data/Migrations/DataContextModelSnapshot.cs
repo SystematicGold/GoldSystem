@@ -22,7 +22,7 @@ namespace API.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("API.Entities.Categories", b =>
+            modelBuilder.Entity("API.Entities.DeffCountryOfOrigin", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -30,132 +30,102 @@ namespace API.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<long>("AnotherCode")
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("AnotherCode2")
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("BarCode")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<long>("Code")
                         .HasColumnType("bigint");
 
-                    b.Property<float>("Cost")
-                        .HasColumnType("real");
-
-                    b.Property<float>("CostForSeller")
-                        .HasColumnType("real");
-
-                    b.Property<float>("CostPerGram")
-                        .HasColumnType("real");
-
-                    b.Property<DateTime?>("DateAdd")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime?>("DateOfManufacture")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Kart")
+                    b.Property<string>("NameAr")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("MadeIn")
+                    b.Property<string>("NameEn")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("MakingCharge")
-                        .HasColumnType("real");
+                    b.HasKey("Id");
 
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
+                    b.ToTable("DeffCountryOfOrigin");
+                });
 
-                    b.Property<int?>("NumberOfPieces")
+            modelBuilder.Entity("API.Entities.DeffCustomer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int?>("NumberPiece")
-                        .HasColumnType("int");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<byte[]>("PhotoOrFile")
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("CIDImageBack")
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<string>("Ramz")
+                    b.Property<byte[]>("CIDImageFront")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("CIDNo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Supplier")
-                        .HasColumnType("int");
+                    b.Property<string>("NameAr")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool?>("TaxExempt")
+                    b.Property<string>("NameEn")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nationality")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PassPortNo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DeffCustomer");
+                });
+
+            modelBuilder.Entity("API.Entities.DeffKarat", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DeffKarat");
+                });
+
+            modelBuilder.Entity("API.Entities.DeffStoneColor", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("IsDiamondColor")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("UserCode")
-                        .HasColumnType("int");
-
-                    b.Property<float>("Weight")
-                        .HasColumnType("real");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Category");
-                });
-
-            modelBuilder.Entity("API.Entities.ItemName", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<long>("Code")
-                        .HasColumnType("bigint");
-
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("ItemNames");
+                    b.ToTable("DeffStoneColor");
                 });
 
-            modelBuilder.Entity("API.Entities.KaratItem", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<long>("Code")
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("KartItems");
-                });
-
-            modelBuilder.Entity("API.Entities.MadeCountry", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<long>("Code")
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("MadeCountrys");
-                });
-
-            modelBuilder.Entity("API.Entities.StoneCategoris", b =>
+            modelBuilder.Entity("API.Entities.DeffStoneName", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -171,41 +141,10 @@ namespace API.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("StoneCategory");
+                    b.ToTable("DeffStoneName");
                 });
 
-            modelBuilder.Entity("API.Entities.StoneItemCategories", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
-
-                    b.Property<long>("CategoriesCode")
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("Colour")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<byte[]>("PhotoOrFile")
-                        .HasColumnType("varbinary(max)");
-
-                    b.Property<long>("Price")
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("StoneCode")
-                        .HasColumnType("bigint");
-
-                    b.Property<float>("Weight")
-                        .HasColumnType("real");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("StoneItemCategory");
-                });
-
-            modelBuilder.Entity("API.Entities.Supplier", b =>
+            modelBuilder.Entity("API.Entities.DeffSupplier", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -230,7 +169,157 @@ namespace API.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Suppliers");
+                    b.ToTable("DeffSupplier");
+                });
+
+            modelBuilder.Entity("API.Entities.GoldDeffItemName", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GoldDeffItemName");
+                });
+
+            modelBuilder.Entity("API.Entities.GoldStock", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("AnotherCode")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("AnotherCode2")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("BarCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<int?>("Condition")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Cost")
+                        .HasColumnType("decimal(18,3)");
+
+                    b.Property<decimal>("CostForSeller")
+                        .HasColumnType("decimal(18,3)");
+
+                    b.Property<decimal>("CostPerGram")
+                        .HasColumnType("decimal(18,3)");
+
+                    b.Property<string>("CountryOfOrigin")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DateAdd")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DateOfManufacture")
+                        .HasColumnType("datetime2");
+
+                    b.Property<byte[]>("Document")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<decimal>("GoldWeight")
+                        .HasColumnType("decimal(18,3)");
+
+                    b.Property<string>("Karat")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("MakingCharge")
+                        .HasColumnType("decimal(18,3)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("NumberOfPiece")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("NumberOfPieces")
+                        .HasColumnType("int");
+
+                    b.Property<byte[]>("Photo")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<int>("Supplier")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Symbol")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("TaxExempt")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UserCode")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GoldStock");
+                });
+
+            modelBuilder.Entity("API.Entities.GoldStone", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("CategoryCode")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Clarity")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Color")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CountryOfOrigin")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cut")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<byte[]>("Document")
+                        .HasColumnType("image");
+
+                    b.Property<byte[]>("Photo")
+                        .HasColumnType("image");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,3)");
+
+                    b.Property<long>("StoneCode")
+                        .HasColumnType("bigint");
+
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
+                    b.Property<long>("Weight")
+                        .HasColumnType("bigint");
+
+                    b.Property<int>("WeightType")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GoldStone");
                 });
 
             modelBuilder.Entity("API.Entities.Users", b =>

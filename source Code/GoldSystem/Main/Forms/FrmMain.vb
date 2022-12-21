@@ -34,7 +34,7 @@ Public Class FrmMain
         Dim f As New XtraReport1
 
     End Sub
-    Private Sub PictureEdit1_Click_1(sender As Object, e As EventArgs) Handles PictureEdit1.Click, PictureEdit2.Click
+    Private Sub PictureEdit1_Click_1(sender As Object, e As EventArgs) Handles PictureEdit1.Click
         Try
             pnlGold.Visible = False
         Catch ex As Exception
@@ -86,7 +86,7 @@ Public Class FrmMain
     End Sub
     Private Sub Guna2GradientButton16_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton16.Click
         Try
-            Dim F As New FrmAddCat
+            Dim F As New FrmAddGold
             Dim dt As New DataTable
             dt.Clear()
             dt = ClsMain_.GetItemCode()

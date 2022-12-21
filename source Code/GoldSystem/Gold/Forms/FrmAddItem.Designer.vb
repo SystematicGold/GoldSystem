@@ -174,7 +174,7 @@ Partial Class FrmAdderItem
         Me.MinimumSize = New System.Drawing.Size(962, 630)
         Me.Name = "FrmAdderItem"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "اضافة قطعة الى الطقم - Add a piece to the kit"
+        Me.Text = "إضافة قطعة للطقم"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

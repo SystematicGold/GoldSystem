@@ -674,7 +674,6 @@ C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\bin\Debug\ja\DevEx
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.AddGoldItem.resources
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.CivilId.resources
-C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.FrmAddCat.resources
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.FrmAdderItem.resources
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.FrmAddStone.resources
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.FrmGold.resources
@@ -700,3 +699,5 @@ C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSyst
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.exe
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.xml
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.pdb
+C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.FrmAddGold.resources
+C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.vbprojAssemblyReference.cache

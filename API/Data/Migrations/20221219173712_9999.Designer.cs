@@ -25,7 +25,7 @@ namespace API.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("API.Entities.Categories", b =>
+            modelBuilder.Entity("API.Entities.Category", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -177,7 +177,7 @@ namespace API.Data.Migrations
                     b.ToTable("StoneCategory");
                 });
 
-            modelBuilder.Entity("API.Entities.StoneItemCategories", b =>
+            modelBuilder.Entity("API.Entities.StoneItemCategory", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -185,7 +185,7 @@ namespace API.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<long>("CategoriesCode")
+                    b.Property<long>("CategoryCode")
                         .HasColumnType("bigint");
 
                     b.Property<string>("Colour")

@@ -20,11 +20,11 @@ namespace API.Data.Migrations
             context.Users.Add(users);
             await context.SaveChangesAsync();
             // ======================================   Karat Item
-            if (await context.KartItems.AnyAsync()) return;
+            if (await context.DeffKarat.AnyAsync()) return;
             var KaratData = await File.ReadAllTextAsync("Data/KaratSeed.json");
             var KaratOptions = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
-            var Karat = JsonSerializer.Deserialize<List<KaratItem>>(KaratData);
-            context.KartItems.AddRange(Karat);
+            var Karat = JsonSerializer.Deserialize<List<DeffKarat>>(KaratData);
+            context.DeffKarat.AddRange(Karat);
             await context.SaveChangesAsync();
         }
     }

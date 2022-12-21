@@ -3,11 +3,13 @@
 
     End Sub
 
-    Private Sub PictureEdit1_Click(sender As Object, e As EventArgs) Handles PictureEdit1.Click
+    Private Sub PictureEdit1_Click(sender As Object, e As EventArgs) Handles pbAddStone.Click
         Try
             FrmAddStone.ShowDialog()
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
+
+
 End Class

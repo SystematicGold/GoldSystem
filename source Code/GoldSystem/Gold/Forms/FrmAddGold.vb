@@ -1,7 +1,7 @@
 ﻿Imports System.Data.OleDb
 Imports System.Text
 
-Public Class FrmAddCat
+Public Class FrmAddGold
     Dim ClsGoldItem_ As New ClsGoldItem
     Dim ClsMain_ As New ClsMain
     Dim counter As Integer = 0
@@ -56,7 +56,7 @@ Public Class FrmAddCat
         Try
             Dim DT As New DataTable
             DT.Clear()
-            DT = ClsGoldItem_.Stone()
+            DT = ClsGoldItem_.StoneName()
             If DT.Rows.Count > 0 Then
                 'ComStone.DataSource = DT
                 'ComStone.DisplayMember = "Name"
@@ -70,7 +70,7 @@ Public Class FrmAddCat
         Try
             Dim DT As New DataTable
             DT.Clear()
-            DT = ClsGoldItem_.Stone()
+            DT = ClsGoldItem_.StoneName()
             If DT.Rows.Count > 0 Then
                 'ComStoneBlock.DataSource = DT
                 'ComStoneBlock.DisplayMember = "Name"
@@ -81,51 +81,12 @@ Public Class FrmAddCat
         End Try
     End Sub
 
-    Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
-        Try
-            Dim f As New FrmAdderItem
-            Dim dt As New DataTable
-            dt.Clear()
-            dt = ClsMain_.GetItemCode()
-            If dt.Rows.Count > 0 Then
-                f.TxtCode.Text = dt.Rows(0)(0)
-                Dim s As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghigklmnopqrstuvxyz"
-                Dim r As New Random
-                Dim sb As New StringBuilder
-                For i As Integer = 1 To 8
-                    Dim idx As Integer = r.Next(0, 35)
-                    sb.Append(s.Substring(idx, 1))
-                Next
-                'f.txtBarCode.Text = sb.ToString()
-            End If
-            f.ShowDialog()
-            If f.IsYes = True Then
-                'Dim row As String() = New String() {
-                '                                 f.TxtCode.Text,
-                '                                 f.TxtBarCode.Text,
-                '                                 f.ComNameBlock.Text,
-                '                                 f.ComKart.SelectedValue,
-                '                                 f.TxtWeight.Text,
-                '                                 f.TxtMade.Text,
-                '                                 f.TxtCost.Text,
-                '                                 f.TxtCostGram.Text,
-                '                                 f.ComMadINBlock.SelectedValue,
-                '                                 f.TxtPeace.Text,
-                '                                 f.TxtRamzBlock.Text,
-                '                                 f.TxtNumberBlock.Text,
-                '                                 f.ComSupplierBlock.SelectedValue,
-                '                                 f.TxtPath.Text}
-                'DgvAdderItem.Rows.Add(row)
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
+
     Private Sub ComboBox2_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
-            DT = ClsGoldItem_.Kart()
+            DT = ClsGoldItem_.Karat()
             If DT.Rows.Count > 0 Then
                 'ComKart.DataSource = DT
                 'ComKart.DisplayMember = "Name"
@@ -289,7 +250,7 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
         Try
             Dim DT As New DataTable
             DT.Clear()
-            DT = ClsGoldItem_.Kart()
+            DT = ClsGoldItem_.Karat()
             If DT.Rows.Count > 0 Then
                 'ComKartBlock.DataSource = DT
                 'ComKartBlock.DisplayMember = "Name"
@@ -492,5 +453,46 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
     Private Sub FrmAddCat_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'btnAddStoneLeft = btnAddStone.Left
         'tabMain.SelectedIndex = tabMain.TabPages.Count - 1
+    End Sub
+
+    Private Sub pbAddSetItem_Click(sender As Object, e As EventArgs) Handles pbAddSetItem.Click
+        Try
+            Dim f As New FrmAdderItem
+            Dim dt As New DataTable
+            dt.Clear()
+            dt = ClsMain_.GetItemCode()
+            If dt.Rows.Count > 0 Then
+                f.TxtCode.Text = dt.Rows(0)(0)
+                Dim s As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghigklmnopqrstuvxyz"
+                Dim r As New Random
+                Dim sb As New StringBuilder
+                For i As Integer = 1 To 8
+                    Dim idx As Integer = r.Next(0, 35)
+                    sb.Append(s.Substring(idx, 1))
+                Next
+                'f.txtBarCode.Text = sb.ToString()
+            End If
+            f.ShowDialog()
+            If f.IsYes = True Then
+                'Dim row As String() = New String() {
+                '                                 f.TxtCode.Text,
+                '                                 f.TxtBarCode.Text,
+                '                                 f.ComNameBlock.Text,
+                '                                 f.ComKart.SelectedValue,
+                '                                 f.TxtWeight.Text,
+                '                                 f.TxtMade.Text,
+                '                                 f.TxtCost.Text,
+                '                                 f.TxtCostGram.Text,
+                '                                 f.ComMadINBlock.SelectedValue,
+                '                                 f.TxtPeace.Text,
+                '                                 f.TxtRamzBlock.Text,
+                '                                 f.TxtNumberBlock.Text,
+                '                                 f.ComSupplierBlock.SelectedValue,
+                '                                 f.TxtPath.Text}
+                'DgvAdderItem.Rows.Add(row)
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString)
+        End Try
     End Sub
 End Class

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace API.Entities
 {
-    public class ItemName
+    public class DeffKarat
     {
         public long Id { get; set; }
         public long Code { get; set; }

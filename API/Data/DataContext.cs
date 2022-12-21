@@ -6,12 +6,14 @@ namespace API.Data
     {
         public DataContext(DbContextOptions options) : base(options) { }
         public DbSet<Users> Users { get; set; }
-        public DbSet<Categories> Category { get; set; }
-        public DbSet<StoneCategoris> StoneCategory { get; set; }
-        public DbSet<StoneItemCategories> StoneItemCategory { get; set; }
-        public DbSet<KaratItem> KartItems { get; set; }
-        public DbSet<ItemName> ItemNames { get; set; }
-        public DbSet<MadeCountry> MadeCountrys { get; set; }
-        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<DeffStoneName> DeffStoneName { get; set; }
+        public DbSet<DeffCountryOfOrigin> DeffCountryOfOrigin { get; set; }
+        public DbSet<DeffSupplier> DeffSupplier { get; set; }
+        public DbSet<GoldStone> GoldStone { get; set; }
+        public DbSet<DeffKarat> DeffKarat { get; set; }
+        public DbSet<DeffStoneColor> DeffStoneColor { get; set; }
+        public DbSet<GoldDeffItemName> GoldDeffItemName { get; set; }
+        public DbSet<GoldStock> GoldStock { get; set; }
+        public DbSet<DeffCustomer> DeffCustomer { get; set; }
     }
 }

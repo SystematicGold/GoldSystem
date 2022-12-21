@@ -17,7 +17,7 @@
     End Sub
     Private Sub Guna2GradientButton3_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton3.Click
         Try
-            Dim F As New FrmAddCat
+            Dim F As New FrmAddGold
             F.Show()
         Catch ex As Exception
             MessageBox.Show(ex.ToString())

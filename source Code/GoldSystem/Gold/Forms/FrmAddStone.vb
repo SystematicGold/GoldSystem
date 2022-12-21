@@ -1,5 +1,5 @@
-﻿Public Class FrmAddStone
-    Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
-        Close()
+﻿Public Class frmAddStone
+    Private Sub frmAddStone_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

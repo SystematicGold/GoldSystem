@@ -191,7 +191,6 @@ Partial Class FrmMain
         Me.Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.PictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.PictureEdit2 = New DevExpress.XtraEditors.PictureEdit()
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SettingMenu.SuspendLayout()
@@ -206,7 +205,6 @@ Partial Class FrmMain
         Me.pnlAll.SuspendLayout()
         Me.pnlGold.SuspendLayout()
         CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnSilver
@@ -239,7 +237,7 @@ Partial Class FrmMain
         '
         Me.btnGold.Animated = True
         Me.btnGold.AutoRoundedCorners = True
-        Me.btnGold.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGold.BackColor = System.Drawing.Color.Transparent
         Me.btnGold.BorderRadius = 21
         Me.btnGold.BorderThickness = 1
         Me.btnGold.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -2222,7 +2220,6 @@ Partial Class FrmMain
         '
         'pnlAll
         '
-        Me.pnlAll.Controls.Add(Me.PictureEdit2)
         Me.pnlAll.Controls.Add(Me.Guna2GradientButton4)
         Me.pnlAll.Controls.Add(Me.Guna2GradientButton3)
         Me.pnlAll.Controls.Add(Me.Guna2GradientButton2)
@@ -2903,21 +2900,6 @@ Partial Class FrmMain
         '
         Me.Timer1.Interval = 10
         '
-        'PictureEdit2
-        '
-        Me.PictureEdit2.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit2.EditValue = CType(resources.GetObject("PictureEdit2.EditValue"), Object)
-        Me.PictureEdit2.Location = New System.Drawing.Point(-8, 3)
-        Me.PictureEdit2.Name = "PictureEdit2"
-        Me.PictureEdit2.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.PictureEdit2.Properties.Appearance.ForeColor = System.Drawing.Color.White
-        Me.PictureEdit2.Properties.Appearance.Options.UseBackColor = True
-        Me.PictureEdit2.Properties.Appearance.Options.UseForeColor = True
-        Me.PictureEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.PictureEdit2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit2.Size = New System.Drawing.Size(40, 39)
-        Me.PictureEdit2.TabIndex = 7
-        '
         'FrmMain
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -2960,7 +2942,6 @@ Partial Class FrmMain
         Me.pnlAll.ResumeLayout(False)
         Me.pnlGold.ResumeLayout(False)
         CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2981,148 +2962,148 @@ Partial Class FrmMain
     Friend WithEvents Guna2HtmlLabel4 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel5 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents SettingMenu As Guna.UI2.WinForms.Guna2Panel
-  Friend WithEvents Guna2HtmlLabel6 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Label1 As Label
-  Friend WithEvents Label5 As Label
-  Friend WithEvents Label4 As Label
-  Friend WithEvents Label3 As Label
-  Friend WithEvents Label2 As Label
-  Friend WithEvents Guna2HtmlLabel10 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel9 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel8 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel11 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel7 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel14 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel13 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel12 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
-  Friend WithEvents Guna2Separator3 As Guna.UI2.WinForms.Guna2Separator
-  Friend WithEvents Guna2Separator2 As Guna.UI2.WinForms.Guna2Separator
-  Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
-  Friend WithEvents Label6 As Label
-  Friend WithEvents Guna2GradientPanel2 As Guna.UI2.WinForms.Guna2GradientPanel
-  Friend WithEvents Guna2Separator6 As Guna.UI2.WinForms.Guna2Separator
-  Friend WithEvents Label8 As Label
-  Friend WithEvents Label9 As Label
-  Friend WithEvents Guna2HtmlLabel15 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel16 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Label12 As Label
-  Friend WithEvents Guna2HtmlLabel17 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2GradientPanel3 As Guna.UI2.WinForms.Guna2GradientPanel
-  Friend WithEvents Guna2Separator4 As Guna.UI2.WinForms.Guna2Separator
-  Friend WithEvents Label7 As Label
-  Friend WithEvents Label10 As Label
-  Friend WithEvents Guna2HtmlLabel18 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel19 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Label11 As Label
-  Friend WithEvents Guna2HtmlLabel20 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
-  Friend WithEvents Guna2CircleProgressBar2 As Guna.UI2.WinForms.Guna2CircleProgressBar
-  Friend WithEvents Guna2ProgressBar1 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2CircleProgressBar1 As Guna.UI2.WinForms.Guna2CircleProgressBar
-  Friend WithEvents Guna2CircleProgressBar4 As Guna.UI2.WinForms.Guna2CircleProgressBar
-  Friend WithEvents Guna2CircleProgressBar3 As Guna.UI2.WinForms.Guna2CircleProgressBar
-  Friend WithEvents Guna2ProgressBar4 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar3 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar2 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Label16 As Label
-  Friend WithEvents Label15 As Label
-  Friend WithEvents Label14 As Label
-  Friend WithEvents Label17 As Label
-  Friend WithEvents Label13 As Label
-  Friend WithEvents Label20 As Label
-  Friend WithEvents Label19 As Label
-  Friend WithEvents Label18 As Label
-  Friend WithEvents Guna2CircleProgressBar5 As Guna.UI2.WinForms.Guna2CircleProgressBar
-  Friend WithEvents Label21 As Label
-  Friend WithEvents Label25 As Label
-  Friend WithEvents Label24 As Label
-  Friend WithEvents Label23 As Label
-  Friend WithEvents Label22 As Label
-  Friend WithEvents Label27 As Label
-  Friend WithEvents Label26 As Label
-  Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
-  Friend WithEvents Label28 As Label
-  Friend WithEvents Guna2HtmlLabel21 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel25 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel23 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel22 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2Separator7 As Guna.UI2.WinForms.Guna2Separator
-  Friend WithEvents Guna2Separator5 As Guna.UI2.WinForms.Guna2Separator
-  Friend WithEvents Guna2HtmlLabel27 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel26 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2Separator8 As Guna.UI2.WinForms.Guna2Separator
-  Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
-  Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
-  Friend WithEvents pnlMain As Guna.UI2.WinForms.Guna2Panel
-  Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
-  Friend WithEvents Guna2HtmlLabel29 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel28 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2ProgressBar6 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar5 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar8 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar7 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar28 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar27 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar20 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar19 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar26 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar12 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar18 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar25 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar11 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar17 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar24 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar16 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar23 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar10 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar15 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar22 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar14 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar21 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar9 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2ProgressBar13 As Guna.UI2.WinForms.Guna2ProgressBar
-  Friend WithEvents Guna2HtmlLabel41 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel40 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel38 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel37 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel35 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel39 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel34 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel36 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel32 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel33 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel31 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel30 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2HtmlLabel42 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2VSeparator3 As Guna.UI2.WinForms.Guna2VSeparator
-  Friend WithEvents Guna2HtmlLabel43 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents Guna2Separator9 As Guna.UI2.WinForms.Guna2Separator
-  Friend WithEvents btnAuction As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents btnBrand As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents btnDiamond As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2HtmlLabel24 As Guna.UI2.WinForms.Guna2HtmlLabel
-  Friend WithEvents pnlAll As Guna.UI2.WinForms.Guna2Panel
-  Friend WithEvents pnlGold As Guna.UI2.WinForms.Guna2Panel
-  Friend WithEvents Guna2GradientButton13 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton12 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton11 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton10 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton9 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton8 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton7 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton6 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton16 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton15 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton14 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton20 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton19 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton18 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton17 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton23 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton22 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Guna2GradientButton21 As Guna.UI2.WinForms.Guna2GradientButton
-  Friend WithEvents Timer1 As Timer
+    Friend WithEvents Guna2HtmlLabel6 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Guna2HtmlLabel10 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel9 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel8 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel11 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel7 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel14 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel13 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel12 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Guna2Separator3 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Guna2Separator2 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Guna2GradientPanel2 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Guna2Separator6 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Guna2HtmlLabel15 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel16 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Guna2HtmlLabel17 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2GradientPanel3 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Guna2Separator4 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Guna2HtmlLabel18 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel19 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Guna2HtmlLabel20 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2CircleProgressBar2 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Guna2ProgressBar1 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2CircleProgressBar1 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Guna2CircleProgressBar4 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Guna2CircleProgressBar3 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Guna2ProgressBar4 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar3 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar2 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Label16 As Label
+    Friend WithEvents Label15 As Label
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label17 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label19 As Label
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Guna2CircleProgressBar5 As Guna.UI2.WinForms.Guna2CircleProgressBar
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Guna2HtmlLabel21 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel25 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel23 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel22 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2Separator7 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Guna2Separator5 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Guna2HtmlLabel27 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel26 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2Separator8 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents pnlMain As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2HtmlLabel29 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel28 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2ProgressBar6 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar5 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar8 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar7 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar28 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar27 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar20 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar19 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar26 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar12 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar18 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar25 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar11 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar17 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar24 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar16 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar23 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar10 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar15 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar22 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar14 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar21 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar9 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2ProgressBar13 As Guna.UI2.WinForms.Guna2ProgressBar
+    Friend WithEvents Guna2HtmlLabel41 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel40 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel38 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel37 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel35 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel39 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel34 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel36 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel32 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel33 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel31 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel30 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2HtmlLabel42 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2VSeparator3 As Guna.UI2.WinForms.Guna2VSeparator
+    Friend WithEvents Guna2HtmlLabel43 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents Guna2Separator9 As Guna.UI2.WinForms.Guna2Separator
+    Friend WithEvents btnAuction As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnBrand As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnDiamond As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2HtmlLabel24 As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents pnlAll As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pnlGold As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2GradientButton13 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton12 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton11 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton10 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton9 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton8 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton7 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton6 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton16 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton15 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton14 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton20 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton19 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton18 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton17 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton23 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton22 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Guna2GradientButton21 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents Timer1 As Timer
     Friend WithEvents btnLira As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnBar As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnStone As Guna.UI2.WinForms.Guna2GradientButton
@@ -3132,5 +3113,4 @@ Partial Class FrmMain
     Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
-    Private WithEvents PictureEdit2 As DevExpress.XtraEditors.PictureEdit
 End Class

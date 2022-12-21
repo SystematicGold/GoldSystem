@@ -103,7 +103,7 @@ namespace API.Data.Migrations
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CategoriesCode = table.Column<long>(type: "bigint", nullable: false),
+                    CategoryCode = table.Column<long>(type: "bigint", nullable: false),
                     StoneCode = table.Column<long>(type: "bigint", nullable: false),
                     Weight = table.Column<float>(type: "real", nullable: false),
                     Colour = table.Column<string>(type: "nvarchar(max)", nullable: true),
