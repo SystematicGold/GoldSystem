@@ -214,14 +214,14 @@ namespace API.Data.Migrations
                     b.Property<int?>("Condition")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("Cost")
-                        .HasColumnType("decimal(18,3)");
+                    b.Property<double>("Cost")
+                        .HasColumnType("float");
 
-                    b.Property<decimal>("CostForSeller")
-                        .HasColumnType("decimal(18,3)");
+                    b.Property<double>("CostForSeller")
+                        .HasColumnType("float");
 
-                    b.Property<decimal>("CostPerGram")
-                        .HasColumnType("decimal(18,3)");
+                    b.Property<double>("CostPerGram")
+                        .HasColumnType("float");
 
                     b.Property<string>("CountryOfOrigin")
                         .HasColumnType("nvarchar(max)");
@@ -235,14 +235,14 @@ namespace API.Data.Migrations
                     b.Property<byte[]>("Document")
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<decimal>("GoldWeight")
-                        .HasColumnType("decimal(18,3)");
+                    b.Property<double>("GoldWeight")
+                        .HasColumnType("float");
 
                     b.Property<string>("Karat")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("MakingCharge")
-                        .HasColumnType("decimal(18,3)");
+                    b.Property<double>("MakingCharge")
+                        .HasColumnType("float");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
@@ -297,18 +297,18 @@ namespace API.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<byte[]>("Document")
-                        .HasColumnType("image");
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<byte[]>("Photo")
-                        .HasColumnType("image");
+                        .HasColumnType("varbinary(max)");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,3)");
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
 
                     b.Property<long>("StoneCode")
                         .HasColumnType("bigint");
 
-                    b.Property<int>("UserID")
+                    b.Property<int>("UserCode")
                         .HasColumnType("int");
 
                     b.Property<long>("Weight")

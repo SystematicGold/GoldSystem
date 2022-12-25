@@ -26,15 +26,15 @@ Partial Class FrmMain
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmMain))
         Me.btnSilver = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnGold = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.pnlMenu = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2VSeparator1 = New Guna.UI2.WinForms.Guna2VSeparator()
-        Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
-        Me.Guna2HtmlLabel2 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.btnNotifications = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.lblDashboard = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.lblProfile = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2VSeparator2 = New Guna.UI2.WinForms.Guna2VSeparator()
-        Me.Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
-        Me.Guna2HtmlLabel3 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.pbProfile = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.lblUser = New Guna.UI2.WinForms.Guna2HtmlLabel()
+        Me.btnSettings = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2NotificationPaint1 = New Guna.UI2.WinForms.Guna2NotificationPaint(Me.components)
         Me.Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -56,12 +56,12 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel12 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel13 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel14 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.pnlGoldPrice = New Guna.UI2.WinForms.Guna2GradientPanel()
         Me.Guna2Separator3 = New Guna.UI2.WinForms.Guna2Separator()
         Me.Guna2Separator2 = New Guna.UI2.WinForms.Guna2Separator()
         Me.Guna2Separator1 = New Guna.UI2.WinForms.Guna2Separator()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Guna2GradientPanel2 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.pnlSilverPrice = New Guna.UI2.WinForms.Guna2GradientPanel()
         Me.Guna2Separator6 = New Guna.UI2.WinForms.Guna2Separator()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -69,7 +69,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel16 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Guna2HtmlLabel17 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2GradientPanel3 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.pnlOuncePrice = New Guna.UI2.WinForms.Guna2GradientPanel()
         Me.Guna2Separator4 = New Guna.UI2.WinForms.Guna2Separator()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
@@ -77,7 +77,7 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel19 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Guna2HtmlLabel20 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.pnlYear = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2CircleProgressBar5 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
         Me.Guna2CircleProgressBar4 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
         Me.Guna2CircleProgressBar3 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
@@ -102,7 +102,7 @@ Partial Class FrmMain
         Me.Guna2CircleProgressBar2 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
         Me.Guna2ProgressBar1 = New Guna.UI2.WinForms.Guna2ProgressBar()
         Me.Guna2CircleProgressBar1 = New Guna.UI2.WinForms.Guna2CircleProgressBar()
-        Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.pnlTechSupport = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2HtmlLabel27 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel25 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel23 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -114,10 +114,10 @@ Partial Class FrmMain
         Me.Guna2Separator5 = New Guna.UI2.WinForms.Guna2Separator()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Guna2HtmlLabel21 = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.pnlGraph = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2VSeparator3 = New Guna.UI2.WinForms.Guna2VSeparator()
-        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
+        Me.btnGraph2 = New Guna.UI2.WinForms.Guna2Button()
+        Me.btnGraph1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2HtmlLabel29 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel41 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel40 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -173,38 +173,38 @@ Partial Class FrmMain
         Me.btnDiamond = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnBrand = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.pnlGold = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2GradientButton27 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton20 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton19 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton18 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton17 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton16 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton15 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton14 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton13 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton12 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton11 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton10 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton9 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton8 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton7 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.Guna2GradientButton6 = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.PictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
+        Me.btnGoldPaymentVoucher = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldArchive = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldSettings = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldCustomers = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldBarCodePrint = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldItems = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldGallery = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldٌReceiptVoucher = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldMarketing = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldReports = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldAccounting = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldSell = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldBuy = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldSellWholeSale = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldBuyWholeSale = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnGoldWorkShop = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.pbGoldHide = New DevExpress.XtraEditors.PictureEdit()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Guna2Panel1.SuspendLayout()
-        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pnlMenu.SuspendLayout()
+        CType(Me.pbProfile, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SettingMenu.SuspendLayout()
-        Me.Guna2GradientPanel1.SuspendLayout()
-        Me.Guna2GradientPanel2.SuspendLayout()
-        Me.Guna2GradientPanel3.SuspendLayout()
-        Me.Guna2Panel3.SuspendLayout()
-        Me.Guna2Panel4.SuspendLayout()
-        Me.Guna2Panel5.SuspendLayout()
+        Me.pnlGoldPrice.SuspendLayout()
+        Me.pnlSilverPrice.SuspendLayout()
+        Me.pnlOuncePrice.SuspendLayout()
+        Me.pnlYear.SuspendLayout()
+        Me.pnlTechSupport.SuspendLayout()
+        Me.pnlGraph.SuspendLayout()
         Me.pnlMain.SuspendLayout()
         CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlAll.SuspendLayout()
         Me.pnlGold.SuspendLayout()
-        CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbGoldHide.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnSilver
@@ -260,25 +260,25 @@ Partial Class FrmMain
         Me.btnGold.TabIndex = 6
         Me.btnGold.Text = "المشغولات الذهبية"
         '
-        'Guna2Panel1
+        'pnlMenu
         '
-        Me.Guna2Panel1.BackColor = System.Drawing.Color.White
-        Me.Guna2Panel1.Controls.Add(Me.Guna2VSeparator1)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2CircleButton2)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel2)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel1)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2VSeparator2)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2CirclePictureBox1)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2HtmlLabel3)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2CircleButton1)
-        Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.ShadowDecoration.Depth = 20
-        Me.Guna2Panel1.ShadowDecoration.Enabled = True
-        Me.Guna2Panel1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2Panel1.Size = New System.Drawing.Size(1350, 42)
-        Me.Guna2Panel1.TabIndex = 1
+        Me.pnlMenu.BackColor = System.Drawing.Color.White
+        Me.pnlMenu.Controls.Add(Me.Guna2VSeparator1)
+        Me.pnlMenu.Controls.Add(Me.btnNotifications)
+        Me.pnlMenu.Controls.Add(Me.lblDashboard)
+        Me.pnlMenu.Controls.Add(Me.lblProfile)
+        Me.pnlMenu.Controls.Add(Me.Guna2VSeparator2)
+        Me.pnlMenu.Controls.Add(Me.pbProfile)
+        Me.pnlMenu.Controls.Add(Me.lblUser)
+        Me.pnlMenu.Controls.Add(Me.btnSettings)
+        Me.pnlMenu.Dock = System.Windows.Forms.DockStyle.Top
+        Me.pnlMenu.Location = New System.Drawing.Point(0, 0)
+        Me.pnlMenu.Name = "pnlMenu"
+        Me.pnlMenu.ShadowDecoration.Depth = 20
+        Me.pnlMenu.ShadowDecoration.Enabled = True
+        Me.pnlMenu.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
+        Me.pnlMenu.Size = New System.Drawing.Size(1350, 42)
+        Me.pnlMenu.TabIndex = 1
         '
         'Guna2VSeparator1
         '
@@ -287,52 +287,52 @@ Partial Class FrmMain
         Me.Guna2VSeparator1.Size = New System.Drawing.Size(10, 26)
         Me.Guna2VSeparator1.TabIndex = 2
         '
-        'Guna2CircleButton2
+        'btnNotifications
         '
-        Me.Guna2CircleButton2.Animated = True
-        Me.Guna2CircleButton2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton2.BorderColor = System.Drawing.Color.White
-        Me.Guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2CircleButton2.FillColor = System.Drawing.Color.White
-        Me.Guna2CircleButton2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2CircleButton2.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleButton2.Image = Global.GoldSystem.My.Resources.Resources.notification_90px1
-        Me.Guna2CircleButton2.ImageSize = New System.Drawing.Size(28, 28)
-        Me.Guna2CircleButton2.Location = New System.Drawing.Point(71, 3)
-        Me.Guna2CircleButton2.Name = "Guna2CircleButton2"
-        Me.Guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CircleButton2.Size = New System.Drawing.Size(37, 37)
-        Me.Guna2CircleButton2.TabIndex = 2
-        Me.Guna2CircleButton2.UseTransparentBackground = True
+        Me.btnNotifications.Animated = True
+        Me.btnNotifications.BackColor = System.Drawing.Color.Transparent
+        Me.btnNotifications.BorderColor = System.Drawing.Color.White
+        Me.btnNotifications.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnNotifications.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnNotifications.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnNotifications.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnNotifications.FillColor = System.Drawing.Color.White
+        Me.btnNotifications.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnNotifications.ForeColor = System.Drawing.Color.White
+        Me.btnNotifications.Image = Global.GoldSystem.My.Resources.Resources.notification_90px1
+        Me.btnNotifications.ImageSize = New System.Drawing.Size(28, 28)
+        Me.btnNotifications.Location = New System.Drawing.Point(71, 3)
+        Me.btnNotifications.Name = "btnNotifications"
+        Me.btnNotifications.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.btnNotifications.Size = New System.Drawing.Size(37, 37)
+        Me.btnNotifications.TabIndex = 2
+        Me.btnNotifications.UseTransparentBackground = True
         '
-        'Guna2HtmlLabel2
+        'lblDashboard
         '
-        Me.Guna2HtmlLabel2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel2.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2HtmlLabel2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Guna2HtmlLabel2.Location = New System.Drawing.Point(1265, 9)
-        Me.Guna2HtmlLabel2.Name = "Guna2HtmlLabel2"
-        Me.Guna2HtmlLabel2.Size = New System.Drawing.Size(79, 25)
-        Me.Guna2HtmlLabel2.TabIndex = 0
-        Me.Guna2HtmlLabel2.Text = "Dashbord"
-        Me.Guna2HtmlLabel2.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblDashboard.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblDashboard.BackColor = System.Drawing.Color.Transparent
+        Me.lblDashboard.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.lblDashboard.ForeColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.lblDashboard.Location = New System.Drawing.Point(1265, 9)
+        Me.lblDashboard.Name = "lblDashboard"
+        Me.lblDashboard.Size = New System.Drawing.Size(79, 25)
+        Me.lblDashboard.TabIndex = 0
+        Me.lblDashboard.Text = "Dashbord"
+        Me.lblDashboard.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Guna2HtmlLabel1
+        'lblProfile
         '
-        Me.Guna2HtmlLabel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2HtmlLabel1.ForeColor = System.Drawing.Color.Gray
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(1142, 9)
-        Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(104, 25)
-        Me.Guna2HtmlLabel1.TabIndex = 0
-        Me.Guna2HtmlLabel1.Text = "Your Profile / "
-        Me.Guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblProfile.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblProfile.BackColor = System.Drawing.Color.Transparent
+        Me.lblProfile.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.lblProfile.ForeColor = System.Drawing.Color.Gray
+        Me.lblProfile.Location = New System.Drawing.Point(1142, 9)
+        Me.lblProfile.Name = "lblProfile"
+        Me.lblProfile.Size = New System.Drawing.Size(104, 25)
+        Me.lblProfile.TabIndex = 0
+        Me.lblProfile.Text = "Your Profile / "
+        Me.lblProfile.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Guna2VSeparator2
         '
@@ -341,56 +341,56 @@ Partial Class FrmMain
         Me.Guna2VSeparator2.Size = New System.Drawing.Size(10, 26)
         Me.Guna2VSeparator2.TabIndex = 2
         '
-        'Guna2CirclePictureBox1
+        'pbProfile
         '
-        Me.Guna2CirclePictureBox1.FillColor = System.Drawing.Color.Black
-        Me.Guna2CirclePictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Profile_Male_PNG
-        Me.Guna2CirclePictureBox1.ImageRotate = 0!
-        Me.Guna2CirclePictureBox1.Location = New System.Drawing.Point(126, 3)
-        Me.Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
-        Me.Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CirclePictureBox1.Size = New System.Drawing.Size(37, 37)
-        Me.Guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.Guna2CirclePictureBox1.TabIndex = 2
-        Me.Guna2CirclePictureBox1.TabStop = False
+        Me.pbProfile.FillColor = System.Drawing.Color.Black
+        Me.pbProfile.Image = Global.GoldSystem.My.Resources.Resources.Profile_Male_PNG
+        Me.pbProfile.ImageRotate = 0!
+        Me.pbProfile.Location = New System.Drawing.Point(126, 3)
+        Me.pbProfile.Name = "pbProfile"
+        Me.pbProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.pbProfile.Size = New System.Drawing.Size(37, 37)
+        Me.pbProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbProfile.TabIndex = 2
+        Me.pbProfile.TabStop = False
         '
-        'Guna2HtmlLabel3
+        'lblUser
         '
-        Me.Guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel3.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2HtmlLabel3.ForeColor = System.Drawing.Color.Black
-        Me.Guna2HtmlLabel3.Location = New System.Drawing.Point(169, 9)
-        Me.Guna2HtmlLabel3.Name = "Guna2HtmlLabel3"
-        Me.Guna2HtmlLabel3.Size = New System.Drawing.Size(107, 25)
-        Me.Guna2HtmlLabel3.TabIndex = 0
-        Me.Guna2HtmlLabel3.Text = "Admin Admin"
-        Me.Guna2HtmlLabel3.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblUser.BackColor = System.Drawing.Color.Transparent
+        Me.lblUser.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.lblUser.ForeColor = System.Drawing.Color.Black
+        Me.lblUser.Location = New System.Drawing.Point(169, 9)
+        Me.lblUser.Name = "lblUser"
+        Me.lblUser.Size = New System.Drawing.Size(107, 25)
+        Me.lblUser.TabIndex = 0
+        Me.lblUser.Text = "Admin Admin"
+        Me.lblUser.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Guna2CircleButton1
+        'btnSettings
         '
-        Me.Guna2CircleButton1.Animated = True
-        Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2CircleButton1.BorderColor = System.Drawing.Color.White
-        Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2CircleButton1.FillColor = System.Drawing.Color.White
-        Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleButton1.Image = Global.GoldSystem.My.Resources.Resources.settings_90px
-        Me.Guna2CircleButton1.ImageSize = New System.Drawing.Size(28, 28)
-        Me.Guna2CircleButton1.Location = New System.Drawing.Point(12, 3)
-        Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
-        Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.Guna2CircleButton1.Size = New System.Drawing.Size(37, 37)
-        Me.Guna2CircleButton1.TabIndex = 2
-        Me.Guna2CircleButton1.UseTransparentBackground = True
+        Me.btnSettings.Animated = True
+        Me.btnSettings.BackColor = System.Drawing.Color.Transparent
+        Me.btnSettings.BorderColor = System.Drawing.Color.White
+        Me.btnSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnSettings.FillColor = System.Drawing.Color.White
+        Me.btnSettings.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnSettings.ForeColor = System.Drawing.Color.White
+        Me.btnSettings.Image = Global.GoldSystem.My.Resources.Resources.settings_90px
+        Me.btnSettings.ImageSize = New System.Drawing.Size(28, 28)
+        Me.btnSettings.Location = New System.Drawing.Point(12, 3)
+        Me.btnSettings.Name = "btnSettings"
+        Me.btnSettings.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.btnSettings.Size = New System.Drawing.Size(37, 37)
+        Me.btnSettings.TabIndex = 2
+        Me.btnSettings.UseTransparentBackground = True
         '
         'Guna2NotificationPaint1
         '
         Me.Guna2NotificationPaint1.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Guna2NotificationPaint1.TargetControl = Me.Guna2CircleButton2
+        Me.Guna2NotificationPaint1.TargetControl = Me.btnNotifications
         '
         'Guna2HtmlLabel4
         '
@@ -657,38 +657,38 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel14.Text = "15.000"
         Me.Guna2HtmlLabel14.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Guna2GradientPanel1
+        'pnlGoldPrice
         '
-        Me.Guna2GradientPanel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientPanel1.BorderRadius = 15
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2Separator3)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2Separator2)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2Separator1)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Label5)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Label6)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Label1)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Label4)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel6)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Label3)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel7)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Label2)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel11)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel12)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel10)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel13)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel9)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel14)
-        Me.Guna2GradientPanel1.Controls.Add(Me.Guna2HtmlLabel8)
-        Me.Guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(152, Byte), Integer))
-        Me.Guna2GradientPanel1.Location = New System.Drawing.Point(850, 117)
-        Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
-        Me.Guna2GradientPanel1.ShadowDecoration.BorderRadius = 15
-        Me.Guna2GradientPanel1.ShadowDecoration.Depth = 20
-        Me.Guna2GradientPanel1.ShadowDecoration.Enabled = True
-        Me.Guna2GradientPanel1.Size = New System.Drawing.Size(294, 173)
-        Me.Guna2GradientPanel1.TabIndex = 4
+        Me.pnlGoldPrice.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pnlGoldPrice.BackColor = System.Drawing.Color.Transparent
+        Me.pnlGoldPrice.BorderRadius = 15
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2Separator3)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2Separator2)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2Separator1)
+        Me.pnlGoldPrice.Controls.Add(Me.Label5)
+        Me.pnlGoldPrice.Controls.Add(Me.Label6)
+        Me.pnlGoldPrice.Controls.Add(Me.Label1)
+        Me.pnlGoldPrice.Controls.Add(Me.Label4)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2HtmlLabel6)
+        Me.pnlGoldPrice.Controls.Add(Me.Label3)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2HtmlLabel7)
+        Me.pnlGoldPrice.Controls.Add(Me.Label2)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2HtmlLabel11)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2HtmlLabel12)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2HtmlLabel10)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2HtmlLabel13)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2HtmlLabel9)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2HtmlLabel14)
+        Me.pnlGoldPrice.Controls.Add(Me.Guna2HtmlLabel8)
+        Me.pnlGoldPrice.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.pnlGoldPrice.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(152, Byte), Integer))
+        Me.pnlGoldPrice.Location = New System.Drawing.Point(850, 117)
+        Me.pnlGoldPrice.Name = "pnlGoldPrice"
+        Me.pnlGoldPrice.ShadowDecoration.BorderRadius = 15
+        Me.pnlGoldPrice.ShadowDecoration.Depth = 20
+        Me.pnlGoldPrice.ShadowDecoration.Enabled = True
+        Me.pnlGoldPrice.Size = New System.Drawing.Size(294, 173)
+        Me.pnlGoldPrice.TabIndex = 4
         '
         'Guna2Separator3
         '
@@ -729,27 +729,27 @@ Partial Class FrmMain
         Me.Label6.TabIndex = 2
         Me.Label6.Text = "Price / السعر"
         '
-        'Guna2GradientPanel2
+        'pnlSilverPrice
         '
-        Me.Guna2GradientPanel2.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientPanel2.BorderRadius = 15
-        Me.Guna2GradientPanel2.Controls.Add(Me.Guna2Separator6)
-        Me.Guna2GradientPanel2.Controls.Add(Me.Label8)
-        Me.Guna2GradientPanel2.Controls.Add(Me.Label9)
-        Me.Guna2GradientPanel2.Controls.Add(Me.Guna2HtmlLabel15)
-        Me.Guna2GradientPanel2.Controls.Add(Me.Guna2HtmlLabel16)
-        Me.Guna2GradientPanel2.Controls.Add(Me.Label12)
-        Me.Guna2GradientPanel2.Controls.Add(Me.Guna2HtmlLabel17)
-        Me.Guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(152, Byte), Integer))
-        Me.Guna2GradientPanel2.Location = New System.Drawing.Point(433, 117)
-        Me.Guna2GradientPanel2.Name = "Guna2GradientPanel2"
-        Me.Guna2GradientPanel2.ShadowDecoration.BorderRadius = 15
-        Me.Guna2GradientPanel2.ShadowDecoration.Depth = 20
-        Me.Guna2GradientPanel2.ShadowDecoration.Enabled = True
-        Me.Guna2GradientPanel2.Size = New System.Drawing.Size(294, 173)
-        Me.Guna2GradientPanel2.TabIndex = 4
+        Me.pnlSilverPrice.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.pnlSilverPrice.BackColor = System.Drawing.Color.Transparent
+        Me.pnlSilverPrice.BorderRadius = 15
+        Me.pnlSilverPrice.Controls.Add(Me.Guna2Separator6)
+        Me.pnlSilverPrice.Controls.Add(Me.Label8)
+        Me.pnlSilverPrice.Controls.Add(Me.Label9)
+        Me.pnlSilverPrice.Controls.Add(Me.Guna2HtmlLabel15)
+        Me.pnlSilverPrice.Controls.Add(Me.Guna2HtmlLabel16)
+        Me.pnlSilverPrice.Controls.Add(Me.Label12)
+        Me.pnlSilverPrice.Controls.Add(Me.Guna2HtmlLabel17)
+        Me.pnlSilverPrice.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.pnlSilverPrice.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(152, Byte), Integer))
+        Me.pnlSilverPrice.Location = New System.Drawing.Point(433, 117)
+        Me.pnlSilverPrice.Name = "pnlSilverPrice"
+        Me.pnlSilverPrice.ShadowDecoration.BorderRadius = 15
+        Me.pnlSilverPrice.ShadowDecoration.Depth = 20
+        Me.pnlSilverPrice.ShadowDecoration.Enabled = True
+        Me.pnlSilverPrice.Size = New System.Drawing.Size(294, 173)
+        Me.pnlSilverPrice.TabIndex = 4
         '
         'Guna2Separator6
         '
@@ -833,26 +833,26 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel17.Text = "15.000"
         Me.Guna2HtmlLabel17.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Guna2GradientPanel3
+        'pnlOuncePrice
         '
-        Me.Guna2GradientPanel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientPanel3.BorderRadius = 15
-        Me.Guna2GradientPanel3.Controls.Add(Me.Guna2Separator4)
-        Me.Guna2GradientPanel3.Controls.Add(Me.Label7)
-        Me.Guna2GradientPanel3.Controls.Add(Me.Label10)
-        Me.Guna2GradientPanel3.Controls.Add(Me.Guna2HtmlLabel18)
-        Me.Guna2GradientPanel3.Controls.Add(Me.Guna2HtmlLabel19)
-        Me.Guna2GradientPanel3.Controls.Add(Me.Label11)
-        Me.Guna2GradientPanel3.Controls.Add(Me.Guna2HtmlLabel20)
-        Me.Guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(152, Byte), Integer))
-        Me.Guna2GradientPanel3.Location = New System.Drawing.Point(16, 117)
-        Me.Guna2GradientPanel3.Name = "Guna2GradientPanel3"
-        Me.Guna2GradientPanel3.ShadowDecoration.BorderRadius = 15
-        Me.Guna2GradientPanel3.ShadowDecoration.Depth = 20
-        Me.Guna2GradientPanel3.ShadowDecoration.Enabled = True
-        Me.Guna2GradientPanel3.Size = New System.Drawing.Size(294, 173)
-        Me.Guna2GradientPanel3.TabIndex = 4
+        Me.pnlOuncePrice.BackColor = System.Drawing.Color.Transparent
+        Me.pnlOuncePrice.BorderRadius = 15
+        Me.pnlOuncePrice.Controls.Add(Me.Guna2Separator4)
+        Me.pnlOuncePrice.Controls.Add(Me.Label7)
+        Me.pnlOuncePrice.Controls.Add(Me.Label10)
+        Me.pnlOuncePrice.Controls.Add(Me.Guna2HtmlLabel18)
+        Me.pnlOuncePrice.Controls.Add(Me.Guna2HtmlLabel19)
+        Me.pnlOuncePrice.Controls.Add(Me.Label11)
+        Me.pnlOuncePrice.Controls.Add(Me.Guna2HtmlLabel20)
+        Me.pnlOuncePrice.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.pnlOuncePrice.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(179, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(152, Byte), Integer))
+        Me.pnlOuncePrice.Location = New System.Drawing.Point(16, 117)
+        Me.pnlOuncePrice.Name = "pnlOuncePrice"
+        Me.pnlOuncePrice.ShadowDecoration.BorderRadius = 15
+        Me.pnlOuncePrice.ShadowDecoration.Depth = 20
+        Me.pnlOuncePrice.ShadowDecoration.Enabled = True
+        Me.pnlOuncePrice.Size = New System.Drawing.Size(294, 173)
+        Me.pnlOuncePrice.TabIndex = 4
         '
         'Guna2Separator4
         '
@@ -936,48 +936,48 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel20.Text = "15.000"
         Me.Guna2HtmlLabel20.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Guna2Panel3
+        'pnlYear
         '
-        Me.Guna2Panel3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.pnlYear.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Panel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel3.BorderRadius = 15
-        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar5)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar4)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar3)
-        Me.Guna2Panel3.Controls.Add(Me.Label27)
-        Me.Guna2Panel3.Controls.Add(Me.Label16)
-        Me.Guna2Panel3.Controls.Add(Me.Label15)
-        Me.Guna2Panel3.Controls.Add(Me.Label26)
-        Me.Guna2Panel3.Controls.Add(Me.Label14)
-        Me.Guna2Panel3.Controls.Add(Me.Label20)
-        Me.Guna2Panel3.Controls.Add(Me.Label19)
-        Me.Guna2Panel3.Controls.Add(Me.Label18)
-        Me.Guna2Panel3.Controls.Add(Me.Label25)
-        Me.Guna2Panel3.Controls.Add(Me.Label24)
-        Me.Guna2Panel3.Controls.Add(Me.Label23)
-        Me.Guna2Panel3.Controls.Add(Me.Label22)
-        Me.Guna2Panel3.Controls.Add(Me.Label17)
-        Me.Guna2Panel3.Controls.Add(Me.Label21)
-        Me.Guna2Panel3.Controls.Add(Me.Label13)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar4)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar3)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar2)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar2)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2ProgressBar1)
-        Me.Guna2Panel3.Controls.Add(Me.Guna2CircleProgressBar1)
-        Me.Guna2Panel3.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel3.Location = New System.Drawing.Point(18, 323)
-        Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.ShadowDecoration.BorderRadius = 15
-        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges.BottomLeft = False
-        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges.BottomRight = False
-        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges.TopLeft = False
-        Me.Guna2Panel3.ShadowDecoration.CustomizableEdges.TopRight = False
-        Me.Guna2Panel3.ShadowDecoration.Depth = 25
-        Me.Guna2Panel3.ShadowDecoration.Enabled = True
-        Me.Guna2Panel3.Size = New System.Drawing.Size(1126, 131)
-        Me.Guna2Panel3.TabIndex = 5
+        Me.pnlYear.BackColor = System.Drawing.Color.Transparent
+        Me.pnlYear.BorderRadius = 15
+        Me.pnlYear.Controls.Add(Me.Guna2CircleProgressBar5)
+        Me.pnlYear.Controls.Add(Me.Guna2CircleProgressBar4)
+        Me.pnlYear.Controls.Add(Me.Guna2CircleProgressBar3)
+        Me.pnlYear.Controls.Add(Me.Label27)
+        Me.pnlYear.Controls.Add(Me.Label16)
+        Me.pnlYear.Controls.Add(Me.Label15)
+        Me.pnlYear.Controls.Add(Me.Label26)
+        Me.pnlYear.Controls.Add(Me.Label14)
+        Me.pnlYear.Controls.Add(Me.Label20)
+        Me.pnlYear.Controls.Add(Me.Label19)
+        Me.pnlYear.Controls.Add(Me.Label18)
+        Me.pnlYear.Controls.Add(Me.Label25)
+        Me.pnlYear.Controls.Add(Me.Label24)
+        Me.pnlYear.Controls.Add(Me.Label23)
+        Me.pnlYear.Controls.Add(Me.Label22)
+        Me.pnlYear.Controls.Add(Me.Label17)
+        Me.pnlYear.Controls.Add(Me.Label21)
+        Me.pnlYear.Controls.Add(Me.Label13)
+        Me.pnlYear.Controls.Add(Me.Guna2ProgressBar4)
+        Me.pnlYear.Controls.Add(Me.Guna2ProgressBar3)
+        Me.pnlYear.Controls.Add(Me.Guna2ProgressBar2)
+        Me.pnlYear.Controls.Add(Me.Guna2CircleProgressBar2)
+        Me.pnlYear.Controls.Add(Me.Guna2ProgressBar1)
+        Me.pnlYear.Controls.Add(Me.Guna2CircleProgressBar1)
+        Me.pnlYear.FillColor = System.Drawing.Color.White
+        Me.pnlYear.Location = New System.Drawing.Point(18, 323)
+        Me.pnlYear.Name = "pnlYear"
+        Me.pnlYear.ShadowDecoration.BorderRadius = 15
+        Me.pnlYear.ShadowDecoration.CustomizableEdges.BottomLeft = False
+        Me.pnlYear.ShadowDecoration.CustomizableEdges.BottomRight = False
+        Me.pnlYear.ShadowDecoration.CustomizableEdges.TopLeft = False
+        Me.pnlYear.ShadowDecoration.CustomizableEdges.TopRight = False
+        Me.pnlYear.ShadowDecoration.Depth = 25
+        Me.pnlYear.ShadowDecoration.Enabled = True
+        Me.pnlYear.Size = New System.Drawing.Size(1126, 131)
+        Me.pnlYear.TabIndex = 5
         '
         'Guna2CircleProgressBar5
         '
@@ -986,7 +986,7 @@ Partial Class FrmMain
         Me.Guna2CircleProgressBar5.FillThickness = 5
         Me.Guna2CircleProgressBar5.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Guna2CircleProgressBar5.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleProgressBar5.Location = New System.Drawing.Point(836, 35)
+        Me.Guna2CircleProgressBar5.Location = New System.Drawing.Point(1059, 35)
         Me.Guna2CircleProgressBar5.Minimum = 0
         Me.Guna2CircleProgressBar5.Name = "Guna2CircleProgressBar5"
         Me.Guna2CircleProgressBar5.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
@@ -1007,7 +1007,7 @@ Partial Class FrmMain
         Me.Guna2CircleProgressBar4.FillThickness = 5
         Me.Guna2CircleProgressBar4.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Guna2CircleProgressBar4.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleProgressBar4.Location = New System.Drawing.Point(637, 35)
+        Me.Guna2CircleProgressBar4.Location = New System.Drawing.Point(805, 35)
         Me.Guna2CircleProgressBar4.Minimum = 0
         Me.Guna2CircleProgressBar4.Name = "Guna2CircleProgressBar4"
         Me.Guna2CircleProgressBar4.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
@@ -1028,7 +1028,7 @@ Partial Class FrmMain
         Me.Guna2CircleProgressBar3.FillThickness = 5
         Me.Guna2CircleProgressBar3.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Guna2CircleProgressBar3.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleProgressBar3.Location = New System.Drawing.Point(440, 35)
+        Me.Guna2CircleProgressBar3.Location = New System.Drawing.Point(551, 35)
         Me.Guna2CircleProgressBar3.Minimum = 0
         Me.Guna2CircleProgressBar3.Name = "Guna2CircleProgressBar3"
         Me.Guna2CircleProgressBar3.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
@@ -1048,7 +1048,7 @@ Partial Class FrmMain
         Me.Label27.AutoSize = True
         Me.Label27.BackColor = System.Drawing.Color.Transparent
         Me.Label27.ForeColor = System.Drawing.Color.Gray
-        Me.Label27.Location = New System.Drawing.Point(815, 80)
+        Me.Label27.Location = New System.Drawing.Point(1048, 80)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(65, 23)
         Me.Label27.TabIndex = 2
@@ -1059,7 +1059,7 @@ Partial Class FrmMain
         Me.Label16.AutoSize = True
         Me.Label16.BackColor = System.Drawing.Color.Transparent
         Me.Label16.ForeColor = System.Drawing.Color.Gray
-        Me.Label16.Location = New System.Drawing.Point(623, 80)
+        Me.Label16.Location = New System.Drawing.Point(787, 80)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(78, 23)
         Me.Label16.TabIndex = 2
@@ -1070,7 +1070,7 @@ Partial Class FrmMain
         Me.Label15.AutoSize = True
         Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.ForeColor = System.Drawing.Color.Gray
-        Me.Label15.Location = New System.Drawing.Point(428, 80)
+        Me.Label15.Location = New System.Drawing.Point(531, 80)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(83, 23)
         Me.Label15.TabIndex = 2
@@ -1081,7 +1081,7 @@ Partial Class FrmMain
         Me.Label26.AutoSize = True
         Me.Label26.BackColor = System.Drawing.Color.Transparent
         Me.Label26.ForeColor = System.Drawing.Color.Gray
-        Me.Label26.Location = New System.Drawing.Point(810, 105)
+        Me.Label26.Location = New System.Drawing.Point(1042, 105)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(76, 23)
         Me.Label26.TabIndex = 2
@@ -1092,7 +1092,7 @@ Partial Class FrmMain
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.Color.Transparent
         Me.Label14.ForeColor = System.Drawing.Color.Gray
-        Me.Label14.Location = New System.Drawing.Point(224, 80)
+        Me.Label14.Location = New System.Drawing.Point(284, 80)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(76, 23)
         Me.Label14.TabIndex = 2
@@ -1103,7 +1103,7 @@ Partial Class FrmMain
         Me.Label20.AutoSize = True
         Me.Label20.BackColor = System.Drawing.Color.Transparent
         Me.Label20.ForeColor = System.Drawing.Color.Gray
-        Me.Label20.Location = New System.Drawing.Point(610, 105)
+        Me.Label20.Location = New System.Drawing.Point(764, 105)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(124, 23)
         Me.Label20.TabIndex = 2
@@ -1114,7 +1114,7 @@ Partial Class FrmMain
         Me.Label19.AutoSize = True
         Me.Label19.BackColor = System.Drawing.Color.Transparent
         Me.Label19.ForeColor = System.Drawing.Color.Gray
-        Me.Label19.Location = New System.Drawing.Point(417, 105)
+        Me.Label19.Location = New System.Drawing.Point(516, 105)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(112, 23)
         Me.Label19.TabIndex = 2
@@ -1125,7 +1125,7 @@ Partial Class FrmMain
         Me.Label18.AutoSize = True
         Me.Label18.BackColor = System.Drawing.Color.Transparent
         Me.Label18.ForeColor = System.Drawing.Color.Gray
-        Me.Label18.Location = New System.Drawing.Point(213, 105)
+        Me.Label18.Location = New System.Drawing.Point(257, 105)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(131, 23)
         Me.Label18.TabIndex = 2
@@ -1136,7 +1136,7 @@ Partial Class FrmMain
         Me.Label25.AutoSize = True
         Me.Label25.BackColor = System.Drawing.Color.Transparent
         Me.Label25.ForeColor = System.Drawing.Color.Gray
-        Me.Label25.Location = New System.Drawing.Point(823, 10)
+        Me.Label25.Location = New System.Drawing.Point(1049, 10)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(63, 23)
         Me.Label25.TabIndex = 2
@@ -1147,7 +1147,7 @@ Partial Class FrmMain
         Me.Label24.AutoSize = True
         Me.Label24.BackColor = System.Drawing.Color.Transparent
         Me.Label24.ForeColor = System.Drawing.Color.Gray
-        Me.Label24.Location = New System.Drawing.Point(632, 10)
+        Me.Label24.Location = New System.Drawing.Point(795, 10)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(63, 23)
         Me.Label24.TabIndex = 2
@@ -1158,7 +1158,7 @@ Partial Class FrmMain
         Me.Label23.AutoSize = True
         Me.Label23.BackColor = System.Drawing.Color.Transparent
         Me.Label23.ForeColor = System.Drawing.Color.Gray
-        Me.Label23.Location = New System.Drawing.Point(426, 10)
+        Me.Label23.Location = New System.Drawing.Point(541, 10)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(63, 23)
         Me.Label23.TabIndex = 2
@@ -1169,7 +1169,7 @@ Partial Class FrmMain
         Me.Label22.AutoSize = True
         Me.Label22.BackColor = System.Drawing.Color.Transparent
         Me.Label22.ForeColor = System.Drawing.Color.Gray
-        Me.Label22.Location = New System.Drawing.Point(234, 10)
+        Me.Label22.Location = New System.Drawing.Point(291, 10)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(63, 23)
         Me.Label22.TabIndex = 2
@@ -1180,7 +1180,7 @@ Partial Class FrmMain
         Me.Label17.AutoSize = True
         Me.Label17.BackColor = System.Drawing.Color.Transparent
         Me.Label17.ForeColor = System.Drawing.Color.Gray
-        Me.Label17.Location = New System.Drawing.Point(20, 105)
+        Me.Label17.Location = New System.Drawing.Point(10, 105)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(109, 23)
         Me.Label17.TabIndex = 2
@@ -1191,7 +1191,7 @@ Partial Class FrmMain
         Me.Label21.AutoSize = True
         Me.Label21.BackColor = System.Drawing.Color.Transparent
         Me.Label21.ForeColor = System.Drawing.Color.Gray
-        Me.Label21.Location = New System.Drawing.Point(41, 10)
+        Me.Label21.Location = New System.Drawing.Point(33, 10)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(63, 23)
         Me.Label21.TabIndex = 2
@@ -1202,7 +1202,7 @@ Partial Class FrmMain
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.ForeColor = System.Drawing.Color.Gray
-        Me.Label13.Location = New System.Drawing.Point(30, 80)
+        Me.Label13.Location = New System.Drawing.Point(27, 80)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(75, 23)
         Me.Label13.TabIndex = 2
@@ -1210,25 +1210,25 @@ Partial Class FrmMain
         '
         'Guna2ProgressBar4
         '
-        Me.Guna2ProgressBar4.Location = New System.Drawing.Point(677, 53)
+        Me.Guna2ProgressBar4.Location = New System.Drawing.Point(852, 53)
         Me.Guna2ProgressBar4.Name = "Guna2ProgressBar4"
         Me.Guna2ProgressBar4.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
         Me.Guna2ProgressBar4.ShadowDecoration.Depth = 25
         Me.Guna2ProgressBar4.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar4.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar4.Size = New System.Drawing.Size(161, 5)
+        Me.Guna2ProgressBar4.Size = New System.Drawing.Size(201, 5)
         Me.Guna2ProgressBar4.TabIndex = 1
         Me.Guna2ProgressBar4.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar4.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
         '
         'Guna2ProgressBar3
         '
-        Me.Guna2ProgressBar3.Location = New System.Drawing.Point(478, 53)
+        Me.Guna2ProgressBar3.Location = New System.Drawing.Point(598, 53)
         Me.Guna2ProgressBar3.Name = "Guna2ProgressBar3"
         Me.Guna2ProgressBar3.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
         Me.Guna2ProgressBar3.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar3.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar3.Size = New System.Drawing.Size(161, 5)
+        Me.Guna2ProgressBar3.Size = New System.Drawing.Size(201, 5)
         Me.Guna2ProgressBar3.TabIndex = 1
         Me.Guna2ProgressBar3.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar3.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1236,14 +1236,14 @@ Partial Class FrmMain
         '
         'Guna2ProgressBar2
         '
-        Me.Guna2ProgressBar2.Location = New System.Drawing.Point(281, 53)
+        Me.Guna2ProgressBar2.Location = New System.Drawing.Point(345, 53)
         Me.Guna2ProgressBar2.Name = "Guna2ProgressBar2"
         Me.Guna2ProgressBar2.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
         Me.Guna2ProgressBar2.ShadowDecoration.Color = System.Drawing.Color.Gray
         Me.Guna2ProgressBar2.ShadowDecoration.Depth = 25
         Me.Guna2ProgressBar2.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar2.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar2.Size = New System.Drawing.Size(161, 5)
+        Me.Guna2ProgressBar2.Size = New System.Drawing.Size(201, 5)
         Me.Guna2ProgressBar2.TabIndex = 1
         Me.Guna2ProgressBar2.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar2.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1256,7 +1256,7 @@ Partial Class FrmMain
         Me.Guna2CircleProgressBar2.FillThickness = 5
         Me.Guna2CircleProgressBar2.Font = New System.Drawing.Font("Segoe UI", 12.0!)
         Me.Guna2CircleProgressBar2.ForeColor = System.Drawing.Color.White
-        Me.Guna2CircleProgressBar2.Location = New System.Drawing.Point(242, 35)
+        Me.Guna2CircleProgressBar2.Location = New System.Drawing.Point(301, 35)
         Me.Guna2CircleProgressBar2.Minimum = 0
         Me.Guna2CircleProgressBar2.Name = "Guna2CircleProgressBar2"
         Me.Guna2CircleProgressBar2.ProgressColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(240, Byte), Integer))
@@ -1280,7 +1280,7 @@ Partial Class FrmMain
         Me.Guna2ProgressBar1.ShadowDecoration.Depth = 25
         Me.Guna2ProgressBar1.ShadowDecoration.Enabled = True
         Me.Guna2ProgressBar1.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.Guna2ProgressBar1.Size = New System.Drawing.Size(161, 5)
+        Me.Guna2ProgressBar1.Size = New System.Drawing.Size(215, 5)
         Me.Guna2ProgressBar1.TabIndex = 1
         Me.Guna2ProgressBar1.Text = "Guna2ProgressBar1"
         Me.Guna2ProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault
@@ -1308,29 +1308,29 @@ Partial Class FrmMain
         Me.Guna2CircleProgressBar1.Text = "Guna2CircleProgressBar1"
         Me.Guna2CircleProgressBar1.Value = 100
         '
-        'Guna2Panel4
+        'pnlTechSupport
         '
-        Me.Guna2Panel4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Panel4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel4.BorderRadius = 15
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel27)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel25)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel23)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel26)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel24)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel22)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2Separator8)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2Separator7)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2Separator5)
-        Me.Guna2Panel4.Controls.Add(Me.Label28)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2HtmlLabel21)
-        Me.Guna2Panel4.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel4.Location = New System.Drawing.Point(18, 530)
-        Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.ShadowDecoration.Depth = 20
-        Me.Guna2Panel4.ShadowDecoration.Enabled = True
-        Me.Guna2Panel4.Size = New System.Drawing.Size(271, 254)
-        Me.Guna2Panel4.TabIndex = 6
+        Me.pnlTechSupport.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.pnlTechSupport.BackColor = System.Drawing.Color.Transparent
+        Me.pnlTechSupport.BorderRadius = 15
+        Me.pnlTechSupport.Controls.Add(Me.Guna2HtmlLabel27)
+        Me.pnlTechSupport.Controls.Add(Me.Guna2HtmlLabel25)
+        Me.pnlTechSupport.Controls.Add(Me.Guna2HtmlLabel23)
+        Me.pnlTechSupport.Controls.Add(Me.Guna2HtmlLabel26)
+        Me.pnlTechSupport.Controls.Add(Me.Guna2HtmlLabel24)
+        Me.pnlTechSupport.Controls.Add(Me.Guna2HtmlLabel22)
+        Me.pnlTechSupport.Controls.Add(Me.Guna2Separator8)
+        Me.pnlTechSupport.Controls.Add(Me.Guna2Separator7)
+        Me.pnlTechSupport.Controls.Add(Me.Guna2Separator5)
+        Me.pnlTechSupport.Controls.Add(Me.Label28)
+        Me.pnlTechSupport.Controls.Add(Me.Guna2HtmlLabel21)
+        Me.pnlTechSupport.FillColor = System.Drawing.Color.White
+        Me.pnlTechSupport.Location = New System.Drawing.Point(18, 468)
+        Me.pnlTechSupport.Name = "pnlTechSupport"
+        Me.pnlTechSupport.ShadowDecoration.Depth = 20
+        Me.pnlTechSupport.ShadowDecoration.Enabled = True
+        Me.pnlTechSupport.Size = New System.Drawing.Size(271, 254)
+        Me.pnlTechSupport.TabIndex = 6
         '
         'Guna2HtmlLabel27
         '
@@ -1463,63 +1463,63 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel21.Text = "Technical support"
         Me.Guna2HtmlLabel21.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'Guna2Panel5
+        'pnlGraph
         '
-        Me.Guna2Panel5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.pnlGraph.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Panel5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2Panel5.BorderRadius = 15
-        Me.Guna2Panel5.Controls.Add(Me.Guna2VSeparator3)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2Button5)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2Button4)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel29)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel41)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel40)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel38)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel37)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel35)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel39)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel34)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel36)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel32)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel33)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel31)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel30)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel43)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel42)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2HtmlLabel28)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar28)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar27)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar20)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar19)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar26)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar12)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar18)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar25)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar11)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar17)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar24)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar8)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar16)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar23)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar10)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar15)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar22)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar7)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar14)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar21)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar9)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar13)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar6)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2ProgressBar5)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2Separator9)
-        Me.Guna2Panel5.FillColor = System.Drawing.Color.White
-        Me.Guna2Panel5.Location = New System.Drawing.Point(301, 530)
-        Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.ShadowDecoration.Depth = 20
-        Me.Guna2Panel5.ShadowDecoration.Enabled = True
-        Me.Guna2Panel5.Size = New System.Drawing.Size(843, 254)
-        Me.Guna2Panel5.TabIndex = 7
+        Me.pnlGraph.BackColor = System.Drawing.Color.Transparent
+        Me.pnlGraph.BorderRadius = 15
+        Me.pnlGraph.Controls.Add(Me.Guna2VSeparator3)
+        Me.pnlGraph.Controls.Add(Me.btnGraph2)
+        Me.pnlGraph.Controls.Add(Me.btnGraph1)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel29)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel41)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel40)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel38)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel37)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel35)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel39)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel34)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel36)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel32)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel33)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel31)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel30)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel43)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel42)
+        Me.pnlGraph.Controls.Add(Me.Guna2HtmlLabel28)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar28)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar27)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar20)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar19)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar26)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar12)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar18)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar25)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar11)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar17)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar24)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar8)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar16)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar23)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar10)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar15)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar22)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar7)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar14)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar21)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar9)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar13)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar6)
+        Me.pnlGraph.Controls.Add(Me.Guna2ProgressBar5)
+        Me.pnlGraph.Controls.Add(Me.Guna2Separator9)
+        Me.pnlGraph.FillColor = System.Drawing.Color.White
+        Me.pnlGraph.Location = New System.Drawing.Point(301, 468)
+        Me.pnlGraph.Name = "pnlGraph"
+        Me.pnlGraph.ShadowDecoration.Depth = 20
+        Me.pnlGraph.ShadowDecoration.Enabled = True
+        Me.pnlGraph.Size = New System.Drawing.Size(843, 254)
+        Me.pnlGraph.TabIndex = 7
         '
         'Guna2VSeparator3
         '
@@ -1531,41 +1531,41 @@ Partial Class FrmMain
         Me.Guna2VSeparator3.Size = New System.Drawing.Size(10, 183)
         Me.Guna2VSeparator3.TabIndex = 2
         '
-        'Guna2Button5
+        'btnGraph2
         '
-        Me.Guna2Button5.Animated = True
-        Me.Guna2Button5.BorderRadius = 5
-        Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button5.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button5.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button5.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
-        Me.Guna2Button5.Location = New System.Drawing.Point(188, 11)
-        Me.Guna2Button5.Name = "Guna2Button5"
-        Me.Guna2Button5.Size = New System.Drawing.Size(30, 30)
-        Me.Guna2Button5.TabIndex = 0
-        Me.Guna2Button5.UseTransparentBackground = True
+        Me.btnGraph2.Animated = True
+        Me.btnGraph2.BorderRadius = 5
+        Me.btnGraph2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGraph2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGraph2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGraph2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGraph2.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.btnGraph2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnGraph2.ForeColor = System.Drawing.Color.White
+        Me.btnGraph2.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
+        Me.btnGraph2.Location = New System.Drawing.Point(188, 11)
+        Me.btnGraph2.Name = "btnGraph2"
+        Me.btnGraph2.Size = New System.Drawing.Size(30, 30)
+        Me.btnGraph2.TabIndex = 0
+        Me.btnGraph2.UseTransparentBackground = True
         '
-        'Guna2Button4
+        'btnGraph1
         '
-        Me.Guna2Button4.Animated = True
-        Me.Guna2Button4.BorderRadius = 5
-        Me.Guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button4.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.Guna2Button4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button4.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
-        Me.Guna2Button4.Location = New System.Drawing.Point(23, 11)
-        Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.Size = New System.Drawing.Size(30, 30)
-        Me.Guna2Button4.TabIndex = 0
-        Me.Guna2Button4.UseTransparentBackground = True
+        Me.btnGraph1.Animated = True
+        Me.btnGraph1.BorderRadius = 5
+        Me.btnGraph1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGraph1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGraph1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGraph1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGraph1.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.btnGraph1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnGraph1.ForeColor = System.Drawing.Color.White
+        Me.btnGraph1.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
+        Me.btnGraph1.Location = New System.Drawing.Point(23, 11)
+        Me.btnGraph1.Name = "btnGraph1"
+        Me.btnGraph1.Size = New System.Drawing.Size(30, 30)
+        Me.btnGraph1.TabIndex = 0
+        Me.btnGraph1.UseTransparentBackground = True
         '
         'Guna2HtmlLabel29
         '
@@ -2203,18 +2203,19 @@ Partial Class FrmMain
         Me.pnlMain.ShadowDecoration.Depth = 20
         Me.pnlMain.ShadowDecoration.Enabled = True
         Me.pnlMain.ShadowDecoration.Shadow = New System.Windows.Forms.Padding(0, 0, 0, 5)
-        Me.pnlMain.Size = New System.Drawing.Size(200, 793)
+        Me.pnlMain.Size = New System.Drawing.Size(200, 687)
         Me.pnlMain.TabIndex = 8
         '
         'GunaPictureBox1
         '
+        Me.GunaPictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.GunaPictureBox1.BaseColor = System.Drawing.Color.White
-        Me.GunaPictureBox1.ErrorImage = Global.GoldSystem.My.Resources.Resources.Screenshot_819
-        Me.GunaPictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Screenshot_819
+        Me.GunaPictureBox1.ErrorImage = Nothing
+        Me.GunaPictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Ship
         Me.GunaPictureBox1.Location = New System.Drawing.Point(3, 3)
         Me.GunaPictureBox1.Name = "GunaPictureBox1"
         Me.GunaPictureBox1.Size = New System.Drawing.Size(191, 43)
-        Me.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.GunaPictureBox1.TabIndex = 1
         Me.GunaPictureBox1.TabStop = False
         '
@@ -2505,396 +2506,396 @@ Partial Class FrmMain
         Me.pnlGold.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.pnlGold.AutoScroll = True
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton27)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton20)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton19)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton18)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton17)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton16)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton15)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton14)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton13)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton12)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton11)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton10)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton9)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton8)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton7)
-        Me.pnlGold.Controls.Add(Me.Guna2GradientButton6)
-        Me.pnlGold.Controls.Add(Me.PictureEdit1)
+        Me.pnlGold.Controls.Add(Me.btnGoldPaymentVoucher)
+        Me.pnlGold.Controls.Add(Me.btnGoldArchive)
+        Me.pnlGold.Controls.Add(Me.btnGoldSettings)
+        Me.pnlGold.Controls.Add(Me.btnGoldCustomers)
+        Me.pnlGold.Controls.Add(Me.btnGoldBarCodePrint)
+        Me.pnlGold.Controls.Add(Me.btnGoldItems)
+        Me.pnlGold.Controls.Add(Me.btnGoldGallery)
+        Me.pnlGold.Controls.Add(Me.btnGoldٌReceiptVoucher)
+        Me.pnlGold.Controls.Add(Me.btnGoldMarketing)
+        Me.pnlGold.Controls.Add(Me.btnGoldReports)
+        Me.pnlGold.Controls.Add(Me.btnGoldAccounting)
+        Me.pnlGold.Controls.Add(Me.btnGoldSell)
+        Me.pnlGold.Controls.Add(Me.btnGoldBuy)
+        Me.pnlGold.Controls.Add(Me.btnGoldSellWholeSale)
+        Me.pnlGold.Controls.Add(Me.btnGoldBuyWholeSale)
+        Me.pnlGold.Controls.Add(Me.btnGoldWorkShop)
+        Me.pnlGold.Controls.Add(Me.pbGoldHide)
         Me.pnlGold.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.pnlGold.Location = New System.Drawing.Point(945, 73)
+        Me.pnlGold.Location = New System.Drawing.Point(950, 43)
         Me.pnlGold.Name = "pnlGold"
         Me.pnlGold.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.pnlGold.Size = New System.Drawing.Size(200, 798)
+        Me.pnlGold.Size = New System.Drawing.Size(200, 692)
         Me.pnlGold.TabIndex = 8
         '
-        'Guna2GradientButton27
+        'btnGoldPaymentVoucher
         '
-        Me.Guna2GradientButton27.AutoRoundedCorners = True
-        Me.Guna2GradientButton27.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton27.BorderRadius = 19
-        Me.Guna2GradientButton27.BorderThickness = 1
-        Me.Guna2GradientButton27.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton27.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton27.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton27.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton27.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton27.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton27.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton27.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton27.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton27.Location = New System.Drawing.Point(0, 437)
-        Me.Guna2GradientButton27.Name = "Guna2GradientButton27"
-        Me.Guna2GradientButton27.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton27.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton27.TabIndex = 9
-        Me.Guna2GradientButton27.Text = "سند الصـــــــــــــــــــــــــــــــــرف"
+        Me.btnGoldPaymentVoucher.AutoRoundedCorners = True
+        Me.btnGoldPaymentVoucher.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldPaymentVoucher.BorderRadius = 19
+        Me.btnGoldPaymentVoucher.BorderThickness = 1
+        Me.btnGoldPaymentVoucher.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldPaymentVoucher.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldPaymentVoucher.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldPaymentVoucher.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldPaymentVoucher.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldPaymentVoucher.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldPaymentVoucher.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldPaymentVoucher.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldPaymentVoucher.ForeColor = System.Drawing.Color.White
+        Me.btnGoldPaymentVoucher.Location = New System.Drawing.Point(0, 437)
+        Me.btnGoldPaymentVoucher.Name = "btnGoldPaymentVoucher"
+        Me.btnGoldPaymentVoucher.ShadowDecoration.Enabled = True
+        Me.btnGoldPaymentVoucher.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldPaymentVoucher.TabIndex = 9
+        Me.btnGoldPaymentVoucher.Text = "سند صــــــــــــــــــــــــــــــــــــــرف"
         '
-        'Guna2GradientButton20
+        'btnGoldArchive
         '
-        Me.Guna2GradientButton20.AutoRoundedCorners = True
-        Me.Guna2GradientButton20.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton20.BorderRadius = 19
-        Me.Guna2GradientButton20.BorderThickness = 1
-        Me.Guna2GradientButton20.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton20.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton20.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton20.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton20.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton20.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton20.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton20.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton20.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton20.Location = New System.Drawing.Point(0, 695)
-        Me.Guna2GradientButton20.Name = "Guna2GradientButton20"
-        Me.Guna2GradientButton20.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton20.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton20.TabIndex = 8
-        Me.Guna2GradientButton20.Text = "الأرشـــــــــــيـــــــــــــــــــــــــــــــــــــــــــــــــــــــــف"
+        Me.btnGoldArchive.AutoRoundedCorners = True
+        Me.btnGoldArchive.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldArchive.BorderRadius = 19
+        Me.btnGoldArchive.BorderThickness = 1
+        Me.btnGoldArchive.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldArchive.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldArchive.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldArchive.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldArchive.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldArchive.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldArchive.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldArchive.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldArchive.ForeColor = System.Drawing.Color.White
+        Me.btnGoldArchive.Location = New System.Drawing.Point(0, 695)
+        Me.btnGoldArchive.Name = "btnGoldArchive"
+        Me.btnGoldArchive.ShadowDecoration.Enabled = True
+        Me.btnGoldArchive.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldArchive.TabIndex = 8
+        Me.btnGoldArchive.Text = "الأرشـــــــــــيـــــــــــــــــــــــــــــــــــــــــــــــــــــــــف"
         '
-        'Guna2GradientButton19
+        'btnGoldSettings
         '
-        Me.Guna2GradientButton19.AutoRoundedCorners = True
-        Me.Guna2GradientButton19.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton19.BorderRadius = 19
-        Me.Guna2GradientButton19.BorderThickness = 1
-        Me.Guna2GradientButton19.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton19.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton19.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton19.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton19.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton19.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton19.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton19.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton19.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton19.Location = New System.Drawing.Point(0, 652)
-        Me.Guna2GradientButton19.Name = "Guna2GradientButton19"
-        Me.Guna2GradientButton19.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton19.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton19.TabIndex = 8
-        Me.Guna2GradientButton19.Text = "الإعـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــدادت"
+        Me.btnGoldSettings.AutoRoundedCorners = True
+        Me.btnGoldSettings.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldSettings.BorderRadius = 19
+        Me.btnGoldSettings.BorderThickness = 1
+        Me.btnGoldSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldSettings.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldSettings.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldSettings.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldSettings.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldSettings.ForeColor = System.Drawing.Color.White
+        Me.btnGoldSettings.Location = New System.Drawing.Point(0, 652)
+        Me.btnGoldSettings.Name = "btnGoldSettings"
+        Me.btnGoldSettings.ShadowDecoration.Enabled = True
+        Me.btnGoldSettings.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldSettings.TabIndex = 8
+        Me.btnGoldSettings.Text = "الإعـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــدادت"
         '
-        'Guna2GradientButton18
+        'btnGoldCustomers
         '
-        Me.Guna2GradientButton18.AutoRoundedCorners = True
-        Me.Guna2GradientButton18.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton18.BorderRadius = 19
-        Me.Guna2GradientButton18.BorderThickness = 1
-        Me.Guna2GradientButton18.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton18.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton18.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton18.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton18.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton18.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton18.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton18.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton18.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton18.Location = New System.Drawing.Point(0, 609)
-        Me.Guna2GradientButton18.Name = "Guna2GradientButton18"
-        Me.Guna2GradientButton18.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton18.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton18.TabIndex = 8
-        Me.Guna2GradientButton18.Text = "قـــــــــــائـــــــــــمـــــة الـــــــــــعمـــــلاء"
+        Me.btnGoldCustomers.AutoRoundedCorners = True
+        Me.btnGoldCustomers.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldCustomers.BorderRadius = 19
+        Me.btnGoldCustomers.BorderThickness = 1
+        Me.btnGoldCustomers.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldCustomers.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldCustomers.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldCustomers.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldCustomers.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldCustomers.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldCustomers.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldCustomers.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldCustomers.ForeColor = System.Drawing.Color.White
+        Me.btnGoldCustomers.Location = New System.Drawing.Point(0, 609)
+        Me.btnGoldCustomers.Name = "btnGoldCustomers"
+        Me.btnGoldCustomers.ShadowDecoration.Enabled = True
+        Me.btnGoldCustomers.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldCustomers.TabIndex = 8
+        Me.btnGoldCustomers.Text = "قـــــــــــائـــــــــــمـــــة الـــــــــــعمـــــلاء"
         '
-        'Guna2GradientButton17
+        'btnGoldBarCodePrint
         '
-        Me.Guna2GradientButton17.AutoRoundedCorners = True
-        Me.Guna2GradientButton17.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton17.BorderRadius = 19
-        Me.Guna2GradientButton17.BorderThickness = 1
-        Me.Guna2GradientButton17.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton17.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton17.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton17.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton17.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton17.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton17.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton17.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton17.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton17.Location = New System.Drawing.Point(0, 566)
-        Me.Guna2GradientButton17.Name = "Guna2GradientButton17"
-        Me.Guna2GradientButton17.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton17.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton17.TabIndex = 8
-        Me.Guna2GradientButton17.Text = "طــــــبــــــاعـــــــة البــــاركــــــود"
+        Me.btnGoldBarCodePrint.AutoRoundedCorners = True
+        Me.btnGoldBarCodePrint.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldBarCodePrint.BorderRadius = 19
+        Me.btnGoldBarCodePrint.BorderThickness = 1
+        Me.btnGoldBarCodePrint.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldBarCodePrint.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldBarCodePrint.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldBarCodePrint.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldBarCodePrint.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldBarCodePrint.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldBarCodePrint.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldBarCodePrint.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldBarCodePrint.ForeColor = System.Drawing.Color.White
+        Me.btnGoldBarCodePrint.Location = New System.Drawing.Point(0, 566)
+        Me.btnGoldBarCodePrint.Name = "btnGoldBarCodePrint"
+        Me.btnGoldBarCodePrint.ShadowDecoration.Enabled = True
+        Me.btnGoldBarCodePrint.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldBarCodePrint.TabIndex = 8
+        Me.btnGoldBarCodePrint.Text = "طــــــبــــــاعـــــــة البــــاركــــــود"
         '
-        'Guna2GradientButton16
+        'btnGoldItems
         '
-        Me.Guna2GradientButton16.AutoRoundedCorners = True
-        Me.Guna2GradientButton16.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton16.BorderRadius = 19
-        Me.Guna2GradientButton16.BorderThickness = 1
-        Me.Guna2GradientButton16.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton16.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton16.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton16.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton16.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton16.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton16.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton16.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton16.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton16.Location = New System.Drawing.Point(0, 523)
-        Me.Guna2GradientButton16.Name = "Guna2GradientButton16"
-        Me.Guna2GradientButton16.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton16.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton16.TabIndex = 8
-        Me.Guna2GradientButton16.Text = "الأصـــــــــــنـــــــــــــــــــــــــــــــــــــــــــــــــاف"
+        Me.btnGoldItems.AutoRoundedCorners = True
+        Me.btnGoldItems.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldItems.BorderRadius = 19
+        Me.btnGoldItems.BorderThickness = 1
+        Me.btnGoldItems.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldItems.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldItems.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldItems.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldItems.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldItems.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldItems.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldItems.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldItems.ForeColor = System.Drawing.Color.White
+        Me.btnGoldItems.Location = New System.Drawing.Point(0, 523)
+        Me.btnGoldItems.Name = "btnGoldItems"
+        Me.btnGoldItems.ShadowDecoration.Enabled = True
+        Me.btnGoldItems.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldItems.TabIndex = 8
+        Me.btnGoldItems.Text = "الأصـــــــــــنـــــــــــــــــــــــــــــــــــــــــــــــــاف"
         '
-        'Guna2GradientButton15
+        'btnGoldGallery
         '
-        Me.Guna2GradientButton15.AutoRoundedCorners = True
-        Me.Guna2GradientButton15.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton15.BorderRadius = 19
-        Me.Guna2GradientButton15.BorderThickness = 1
-        Me.Guna2GradientButton15.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton15.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton15.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton15.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton15.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton15.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton15.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton15.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton15.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton15.Location = New System.Drawing.Point(0, 480)
-        Me.Guna2GradientButton15.Name = "Guna2GradientButton15"
-        Me.Guna2GradientButton15.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton15.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton15.TabIndex = 8
-        Me.Guna2GradientButton15.Text = "معـــــــرض الصــــــــــــــــــــــور"
+        Me.btnGoldGallery.AutoRoundedCorners = True
+        Me.btnGoldGallery.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldGallery.BorderRadius = 19
+        Me.btnGoldGallery.BorderThickness = 1
+        Me.btnGoldGallery.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldGallery.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldGallery.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldGallery.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldGallery.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldGallery.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldGallery.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldGallery.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldGallery.ForeColor = System.Drawing.Color.White
+        Me.btnGoldGallery.Location = New System.Drawing.Point(0, 480)
+        Me.btnGoldGallery.Name = "btnGoldGallery"
+        Me.btnGoldGallery.ShadowDecoration.Enabled = True
+        Me.btnGoldGallery.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldGallery.TabIndex = 8
+        Me.btnGoldGallery.Text = "معـــــــرض الصــــــــــــــــــــــور"
         '
-        'Guna2GradientButton14
+        'btnGoldٌReceiptVoucher
         '
-        Me.Guna2GradientButton14.AutoRoundedCorners = True
-        Me.Guna2GradientButton14.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton14.BorderRadius = 19
-        Me.Guna2GradientButton14.BorderThickness = 1
-        Me.Guna2GradientButton14.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton14.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton14.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton14.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton14.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton14.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton14.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton14.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton14.Location = New System.Drawing.Point(0, 394)
-        Me.Guna2GradientButton14.Name = "Guna2GradientButton14"
-        Me.Guna2GradientButton14.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton14.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton14.TabIndex = 8
-        Me.Guna2GradientButton14.Text = "سند القبـــــــــــــــــــــــــــــــــض"
+        Me.btnGoldٌReceiptVoucher.AutoRoundedCorners = True
+        Me.btnGoldٌReceiptVoucher.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldٌReceiptVoucher.BorderRadius = 19
+        Me.btnGoldٌReceiptVoucher.BorderThickness = 1
+        Me.btnGoldٌReceiptVoucher.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldٌReceiptVoucher.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldٌReceiptVoucher.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldٌReceiptVoucher.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldٌReceiptVoucher.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldٌReceiptVoucher.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldٌReceiptVoucher.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldٌReceiptVoucher.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldٌReceiptVoucher.ForeColor = System.Drawing.Color.White
+        Me.btnGoldٌReceiptVoucher.Location = New System.Drawing.Point(0, 394)
+        Me.btnGoldٌReceiptVoucher.Name = "btnGoldٌReceiptVoucher"
+        Me.btnGoldٌReceiptVoucher.ShadowDecoration.Enabled = True
+        Me.btnGoldٌReceiptVoucher.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldٌReceiptVoucher.TabIndex = 8
+        Me.btnGoldٌReceiptVoucher.Text = "سند قبــــــــــــــــــــــــــــــــــــــض"
         '
-        'Guna2GradientButton13
+        'btnGoldMarketing
         '
-        Me.Guna2GradientButton13.AutoRoundedCorners = True
-        Me.Guna2GradientButton13.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton13.BorderRadius = 19
-        Me.Guna2GradientButton13.BorderThickness = 1
-        Me.Guna2GradientButton13.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton13.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton13.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton13.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton13.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton13.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton13.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton13.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton13.Location = New System.Drawing.Point(0, 351)
-        Me.Guna2GradientButton13.Name = "Guna2GradientButton13"
-        Me.Guna2GradientButton13.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton13.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton13.TabIndex = 8
-        Me.Guna2GradientButton13.Text = "التســــــــــــــــــــــــويـــــــــــــــــــــــــــق"
+        Me.btnGoldMarketing.AutoRoundedCorners = True
+        Me.btnGoldMarketing.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldMarketing.BorderRadius = 19
+        Me.btnGoldMarketing.BorderThickness = 1
+        Me.btnGoldMarketing.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldMarketing.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldMarketing.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldMarketing.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldMarketing.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldMarketing.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldMarketing.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldMarketing.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldMarketing.ForeColor = System.Drawing.Color.White
+        Me.btnGoldMarketing.Location = New System.Drawing.Point(0, 351)
+        Me.btnGoldMarketing.Name = "btnGoldMarketing"
+        Me.btnGoldMarketing.ShadowDecoration.Enabled = True
+        Me.btnGoldMarketing.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldMarketing.TabIndex = 8
+        Me.btnGoldMarketing.Text = "التســــــــــــــــــــــــويـــــــــــــــــــــــــــق"
         '
-        'Guna2GradientButton12
+        'btnGoldReports
         '
-        Me.Guna2GradientButton12.AutoRoundedCorners = True
-        Me.Guna2GradientButton12.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton12.BorderRadius = 19
-        Me.Guna2GradientButton12.BorderThickness = 1
-        Me.Guna2GradientButton12.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton12.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton12.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton12.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton12.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton12.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton12.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton12.Location = New System.Drawing.Point(0, 308)
-        Me.Guna2GradientButton12.Name = "Guna2GradientButton12"
-        Me.Guna2GradientButton12.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton12.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton12.TabIndex = 8
-        Me.Guna2GradientButton12.Text = "الـــــــــــتـــــــــــقـــــــــــاريــــــــــــــــــــــر"
+        Me.btnGoldReports.AutoRoundedCorners = True
+        Me.btnGoldReports.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldReports.BorderRadius = 19
+        Me.btnGoldReports.BorderThickness = 1
+        Me.btnGoldReports.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldReports.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldReports.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldReports.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldReports.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldReports.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldReports.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldReports.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldReports.ForeColor = System.Drawing.Color.White
+        Me.btnGoldReports.Location = New System.Drawing.Point(0, 308)
+        Me.btnGoldReports.Name = "btnGoldReports"
+        Me.btnGoldReports.ShadowDecoration.Enabled = True
+        Me.btnGoldReports.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldReports.TabIndex = 8
+        Me.btnGoldReports.Text = "الـــــــــــتـــــــــــقـــــــــــاريــــــــــــــــــــــر"
         '
-        'Guna2GradientButton11
+        'btnGoldAccounting
         '
-        Me.Guna2GradientButton11.AutoRoundedCorners = True
-        Me.Guna2GradientButton11.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton11.BorderRadius = 19
-        Me.Guna2GradientButton11.BorderThickness = 1
-        Me.Guna2GradientButton11.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton11.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton11.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton11.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton11.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton11.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton11.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton11.Location = New System.Drawing.Point(0, 265)
-        Me.Guna2GradientButton11.Name = "Guna2GradientButton11"
-        Me.Guna2GradientButton11.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton11.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton11.TabIndex = 8
-        Me.Guna2GradientButton11.Text = "الحـــــــــــســـــــــــابـــــــــــات"
+        Me.btnGoldAccounting.AutoRoundedCorners = True
+        Me.btnGoldAccounting.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldAccounting.BorderRadius = 19
+        Me.btnGoldAccounting.BorderThickness = 1
+        Me.btnGoldAccounting.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldAccounting.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldAccounting.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldAccounting.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldAccounting.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldAccounting.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldAccounting.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldAccounting.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldAccounting.ForeColor = System.Drawing.Color.White
+        Me.btnGoldAccounting.Location = New System.Drawing.Point(0, 265)
+        Me.btnGoldAccounting.Name = "btnGoldAccounting"
+        Me.btnGoldAccounting.ShadowDecoration.Enabled = True
+        Me.btnGoldAccounting.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldAccounting.TabIndex = 8
+        Me.btnGoldAccounting.Text = "الحـــــــــــســـــــــــابـــــــــــات"
         '
-        'Guna2GradientButton10
+        'btnGoldSell
         '
-        Me.Guna2GradientButton10.AutoRoundedCorners = True
-        Me.Guna2GradientButton10.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton10.BorderRadius = 19
-        Me.Guna2GradientButton10.BorderThickness = 1
-        Me.Guna2GradientButton10.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton10.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton10.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton10.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton10.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton10.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton10.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton10.Location = New System.Drawing.Point(0, 222)
-        Me.Guna2GradientButton10.Name = "Guna2GradientButton10"
-        Me.Guna2GradientButton10.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton10.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton10.TabIndex = 8
-        Me.Guna2GradientButton10.Text = "مبـــــــــــيـــــــــــعــــــــــــــــــــــــــات"
+        Me.btnGoldSell.AutoRoundedCorners = True
+        Me.btnGoldSell.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldSell.BorderRadius = 19
+        Me.btnGoldSell.BorderThickness = 1
+        Me.btnGoldSell.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldSell.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldSell.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldSell.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldSell.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldSell.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldSell.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldSell.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldSell.ForeColor = System.Drawing.Color.White
+        Me.btnGoldSell.Location = New System.Drawing.Point(0, 222)
+        Me.btnGoldSell.Name = "btnGoldSell"
+        Me.btnGoldSell.ShadowDecoration.Enabled = True
+        Me.btnGoldSell.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldSell.TabIndex = 8
+        Me.btnGoldSell.Text = "مبـــــــــــيـــــــــــعــــــــــــــــــــــــــات"
         '
-        'Guna2GradientButton9
+        'btnGoldBuy
         '
-        Me.Guna2GradientButton9.AutoRoundedCorners = True
-        Me.Guna2GradientButton9.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton9.BorderRadius = 19
-        Me.Guna2GradientButton9.BorderThickness = 1
-        Me.Guna2GradientButton9.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton9.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton9.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton9.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton9.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton9.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton9.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton9.Location = New System.Drawing.Point(0, 179)
-        Me.Guna2GradientButton9.Name = "Guna2GradientButton9"
-        Me.Guna2GradientButton9.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton9.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton9.TabIndex = 8
-        Me.Guna2GradientButton9.Text = "مـــــــــــشـــــــــــتريــــــــــــــــــــــات"
+        Me.btnGoldBuy.AutoRoundedCorners = True
+        Me.btnGoldBuy.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldBuy.BorderRadius = 19
+        Me.btnGoldBuy.BorderThickness = 1
+        Me.btnGoldBuy.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldBuy.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldBuy.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldBuy.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldBuy.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldBuy.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldBuy.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldBuy.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldBuy.ForeColor = System.Drawing.Color.White
+        Me.btnGoldBuy.Location = New System.Drawing.Point(0, 179)
+        Me.btnGoldBuy.Name = "btnGoldBuy"
+        Me.btnGoldBuy.ShadowDecoration.Enabled = True
+        Me.btnGoldBuy.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldBuy.TabIndex = 8
+        Me.btnGoldBuy.Text = "مـــــــــــشـــــــــــتريــــــــــــــــــــــات"
         '
-        'Guna2GradientButton8
+        'btnGoldSellWholeSale
         '
-        Me.Guna2GradientButton8.AutoRoundedCorners = True
-        Me.Guna2GradientButton8.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton8.BorderRadius = 19
-        Me.Guna2GradientButton8.BorderThickness = 1
-        Me.Guna2GradientButton8.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton8.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton8.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton8.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton8.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton8.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton8.Location = New System.Drawing.Point(0, 136)
-        Me.Guna2GradientButton8.Name = "Guna2GradientButton8"
-        Me.Guna2GradientButton8.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton8.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton8.TabIndex = 8
-        Me.Guna2GradientButton8.Text = "مبيعات الجملة"
+        Me.btnGoldSellWholeSale.AutoRoundedCorners = True
+        Me.btnGoldSellWholeSale.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldSellWholeSale.BorderRadius = 19
+        Me.btnGoldSellWholeSale.BorderThickness = 1
+        Me.btnGoldSellWholeSale.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldSellWholeSale.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldSellWholeSale.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldSellWholeSale.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldSellWholeSale.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldSellWholeSale.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldSellWholeSale.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldSellWholeSale.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldSellWholeSale.ForeColor = System.Drawing.Color.White
+        Me.btnGoldSellWholeSale.Location = New System.Drawing.Point(0, 136)
+        Me.btnGoldSellWholeSale.Name = "btnGoldSellWholeSale"
+        Me.btnGoldSellWholeSale.ShadowDecoration.Enabled = True
+        Me.btnGoldSellWholeSale.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldSellWholeSale.TabIndex = 8
+        Me.btnGoldSellWholeSale.Text = "مبيعات الجملة"
         '
-        'Guna2GradientButton7
+        'btnGoldBuyWholeSale
         '
-        Me.Guna2GradientButton7.AutoRoundedCorners = True
-        Me.Guna2GradientButton7.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton7.BorderRadius = 19
-        Me.Guna2GradientButton7.BorderThickness = 1
-        Me.Guna2GradientButton7.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton7.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton7.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton7.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton7.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton7.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton7.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton7.Location = New System.Drawing.Point(0, 93)
-        Me.Guna2GradientButton7.Name = "Guna2GradientButton7"
-        Me.Guna2GradientButton7.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton7.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton7.TabIndex = 8
-        Me.Guna2GradientButton7.Text = "مشتريات الجملة"
+        Me.btnGoldBuyWholeSale.AutoRoundedCorners = True
+        Me.btnGoldBuyWholeSale.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldBuyWholeSale.BorderRadius = 19
+        Me.btnGoldBuyWholeSale.BorderThickness = 1
+        Me.btnGoldBuyWholeSale.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldBuyWholeSale.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldBuyWholeSale.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldBuyWholeSale.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldBuyWholeSale.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldBuyWholeSale.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldBuyWholeSale.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldBuyWholeSale.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldBuyWholeSale.ForeColor = System.Drawing.Color.White
+        Me.btnGoldBuyWholeSale.Location = New System.Drawing.Point(0, 93)
+        Me.btnGoldBuyWholeSale.Name = "btnGoldBuyWholeSale"
+        Me.btnGoldBuyWholeSale.ShadowDecoration.Enabled = True
+        Me.btnGoldBuyWholeSale.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldBuyWholeSale.TabIndex = 8
+        Me.btnGoldBuyWholeSale.Text = "مشتريات الجملة"
         '
-        'Guna2GradientButton6
+        'btnGoldWorkShop
         '
-        Me.Guna2GradientButton6.AutoRoundedCorners = True
-        Me.Guna2GradientButton6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2GradientButton6.BorderRadius = 19
-        Me.Guna2GradientButton6.BorderThickness = 1
-        Me.Guna2GradientButton6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2GradientButton6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton6.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2GradientButton6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2GradientButton6.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton6.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2GradientButton6.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2GradientButton6.ForeColor = System.Drawing.Color.White
-        Me.Guna2GradientButton6.Location = New System.Drawing.Point(0, 50)
-        Me.Guna2GradientButton6.Name = "Guna2GradientButton6"
-        Me.Guna2GradientButton6.ShadowDecoration.Enabled = True
-        Me.Guna2GradientButton6.Size = New System.Drawing.Size(180, 40)
-        Me.Guna2GradientButton6.TabIndex = 8
-        Me.Guna2GradientButton6.Text = "ورش التصنيـــــــــــع"
+        Me.btnGoldWorkShop.AutoRoundedCorners = True
+        Me.btnGoldWorkShop.BackColor = System.Drawing.Color.Transparent
+        Me.btnGoldWorkShop.BorderRadius = 19
+        Me.btnGoldWorkShop.BorderThickness = 1
+        Me.btnGoldWorkShop.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldWorkShop.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGoldWorkShop.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldWorkShop.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGoldWorkShop.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGoldWorkShop.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldWorkShop.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnGoldWorkShop.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnGoldWorkShop.ForeColor = System.Drawing.Color.White
+        Me.btnGoldWorkShop.Location = New System.Drawing.Point(0, 50)
+        Me.btnGoldWorkShop.Name = "btnGoldWorkShop"
+        Me.btnGoldWorkShop.ShadowDecoration.Enabled = True
+        Me.btnGoldWorkShop.Size = New System.Drawing.Size(180, 40)
+        Me.btnGoldWorkShop.TabIndex = 8
+        Me.btnGoldWorkShop.Text = "ورش التصنيـــــــــــع"
         '
-        'PictureEdit1
+        'pbGoldHide
         '
-        Me.PictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit1.EditValue = CType(resources.GetObject("PictureEdit1.EditValue"), Object)
-        Me.PictureEdit1.Location = New System.Drawing.Point(0, 2)
-        Me.PictureEdit1.Name = "PictureEdit1"
-        Me.PictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.PictureEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.White
-        Me.PictureEdit1.Properties.Appearance.Options.UseBackColor = True
-        Me.PictureEdit1.Properties.Appearance.Options.UseForeColor = True
-        Me.PictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.PictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit1.Size = New System.Drawing.Size(40, 39)
-        Me.PictureEdit1.TabIndex = 7
+        Me.pbGoldHide.Cursor = System.Windows.Forms.Cursors.Default
+        Me.pbGoldHide.EditValue = CType(resources.GetObject("pbGoldHide.EditValue"), Object)
+        Me.pbGoldHide.Location = New System.Drawing.Point(0, 2)
+        Me.pbGoldHide.Name = "pbGoldHide"
+        Me.pbGoldHide.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.pbGoldHide.Properties.Appearance.ForeColor = System.Drawing.Color.White
+        Me.pbGoldHide.Properties.Appearance.Options.UseBackColor = True
+        Me.pbGoldHide.Properties.Appearance.Options.UseForeColor = True
+        Me.pbGoldHide.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.pbGoldHide.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.pbGoldHide.Size = New System.Drawing.Size(40, 39)
+        Me.pbGoldHide.TabIndex = 7
         '
         'Timer1
         '
@@ -2904,44 +2905,44 @@ Partial Class FrmMain
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(1350, 835)
+        Me.ClientSize = New System.Drawing.Size(1350, 729)
         Me.Controls.Add(Me.pnlGold)
         Me.Controls.Add(Me.SettingMenu)
         Me.Controls.Add(Me.pnlMain)
-        Me.Controls.Add(Me.Guna2Panel5)
-        Me.Controls.Add(Me.Guna2Panel4)
-        Me.Controls.Add(Me.Guna2Panel3)
-        Me.Controls.Add(Me.Guna2GradientPanel3)
-        Me.Controls.Add(Me.Guna2GradientPanel2)
-        Me.Controls.Add(Me.Guna2GradientPanel1)
-        Me.Controls.Add(Me.Guna2Panel1)
+        Me.Controls.Add(Me.pnlGraph)
+        Me.Controls.Add(Me.pnlTechSupport)
+        Me.Controls.Add(Me.pnlYear)
+        Me.Controls.Add(Me.pnlOuncePrice)
+        Me.Controls.Add(Me.pnlSilverPrice)
+        Me.Controls.Add(Me.pnlGoldPrice)
+        Me.Controls.Add(Me.pnlMenu)
         Me.Controls.Add(Me.Guna2HtmlLabel4)
         Me.Controls.Add(Me.Guna2HtmlLabel5)
         Me.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.Name = "FrmMain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        Me.Guna2Panel1.ResumeLayout(False)
-        Me.Guna2Panel1.PerformLayout()
-        CType(Me.Guna2CirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.pnlMenu.ResumeLayout(False)
+        Me.pnlMenu.PerformLayout()
+        CType(Me.pbProfile, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SettingMenu.ResumeLayout(False)
-        Me.Guna2GradientPanel1.ResumeLayout(False)
-        Me.Guna2GradientPanel1.PerformLayout()
-        Me.Guna2GradientPanel2.ResumeLayout(False)
-        Me.Guna2GradientPanel2.PerformLayout()
-        Me.Guna2GradientPanel3.ResumeLayout(False)
-        Me.Guna2GradientPanel3.PerformLayout()
-        Me.Guna2Panel3.ResumeLayout(False)
-        Me.Guna2Panel3.PerformLayout()
-        Me.Guna2Panel4.ResumeLayout(False)
-        Me.Guna2Panel4.PerformLayout()
-        Me.Guna2Panel5.ResumeLayout(False)
-        Me.Guna2Panel5.PerformLayout()
+        Me.pnlGoldPrice.ResumeLayout(False)
+        Me.pnlGoldPrice.PerformLayout()
+        Me.pnlSilverPrice.ResumeLayout(False)
+        Me.pnlSilverPrice.PerformLayout()
+        Me.pnlOuncePrice.ResumeLayout(False)
+        Me.pnlOuncePrice.PerformLayout()
+        Me.pnlYear.ResumeLayout(False)
+        Me.pnlYear.PerformLayout()
+        Me.pnlTechSupport.ResumeLayout(False)
+        Me.pnlTechSupport.PerformLayout()
+        Me.pnlGraph.ResumeLayout(False)
+        Me.pnlGraph.PerformLayout()
         Me.pnlMain.ResumeLayout(False)
         CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlAll.ResumeLayout(False)
         Me.pnlGold.ResumeLayout(False)
-        CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbGoldHide.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -2949,13 +2950,13 @@ Partial Class FrmMain
     Friend WithEvents GunaPictureBox1 As Guna.UI.WinForms.GunaPictureBox
     Friend WithEvents btnGold As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnSilver As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2HtmlLabel2 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2CirclePictureBox1 As Guna.UI2.WinForms.Guna2CirclePictureBox
-    Friend WithEvents Guna2HtmlLabel3 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
-    Friend WithEvents Guna2CircleButton2 As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents pnlMenu As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents lblDashboard As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents lblProfile As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents pbProfile As Guna.UI2.WinForms.Guna2CirclePictureBox
+    Friend WithEvents lblUser As Guna.UI2.WinForms.Guna2HtmlLabel
+    Friend WithEvents btnSettings As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents btnNotifications As Guna.UI2.WinForms.Guna2CircleButton
     Friend WithEvents Guna2VSeparator1 As Guna.UI2.WinForms.Guna2VSeparator
     Friend WithEvents Guna2VSeparator2 As Guna.UI2.WinForms.Guna2VSeparator
     Friend WithEvents Guna2NotificationPaint1 As Guna.UI2.WinForms.Guna2NotificationPaint
@@ -2976,12 +2977,12 @@ Partial Class FrmMain
     Friend WithEvents Guna2HtmlLabel14 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel13 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel12 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents pnlGoldPrice As Guna.UI2.WinForms.Guna2GradientPanel
     Friend WithEvents Guna2Separator3 As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents Guna2Separator2 As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents Guna2Separator1 As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents Label6 As Label
-    Friend WithEvents Guna2GradientPanel2 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents pnlSilverPrice As Guna.UI2.WinForms.Guna2GradientPanel
     Friend WithEvents Guna2Separator6 As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
@@ -2989,7 +2990,7 @@ Partial Class FrmMain
     Friend WithEvents Guna2HtmlLabel16 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Label12 As Label
     Friend WithEvents Guna2HtmlLabel17 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2GradientPanel3 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents pnlOuncePrice As Guna.UI2.WinForms.Guna2GradientPanel
     Friend WithEvents Guna2Separator4 As Guna.UI2.WinForms.Guna2Separator
     Friend WithEvents Label7 As Label
     Friend WithEvents Label10 As Label
@@ -2997,7 +2998,7 @@ Partial Class FrmMain
     Friend WithEvents Guna2HtmlLabel19 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Label11 As Label
     Friend WithEvents Guna2HtmlLabel20 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pnlYear As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2CircleProgressBar2 As Guna.UI2.WinForms.Guna2CircleProgressBar
     Friend WithEvents Guna2ProgressBar1 As Guna.UI2.WinForms.Guna2ProgressBar
     Friend WithEvents Guna2CircleProgressBar1 As Guna.UI2.WinForms.Guna2CircleProgressBar
@@ -3022,7 +3023,7 @@ Partial Class FrmMain
     Friend WithEvents Label22 As Label
     Friend WithEvents Label27 As Label
     Friend WithEvents Label26 As Label
-    Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents pnlTechSupport As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label28 As Label
     Friend WithEvents Guna2HtmlLabel21 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel25 As Guna.UI2.WinForms.Guna2HtmlLabel
@@ -3033,10 +3034,10 @@ Partial Class FrmMain
     Friend WithEvents Guna2HtmlLabel27 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel26 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2Separator8 As Guna.UI2.WinForms.Guna2Separator
-    Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents pnlGraph As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents btnGraph1 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents pnlMain As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents btnGraph2 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2HtmlLabel29 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2HtmlLabel28 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents Guna2ProgressBar6 As Guna.UI2.WinForms.Guna2ProgressBar
@@ -3085,21 +3086,21 @@ Partial Class FrmMain
     Friend WithEvents Guna2HtmlLabel24 As Guna.UI2.WinForms.Guna2HtmlLabel
     Friend WithEvents pnlAll As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents pnlGold As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2GradientButton13 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton12 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton11 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton10 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton9 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton8 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton7 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton6 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton16 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton15 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton14 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton20 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton19 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton18 As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents Guna2GradientButton17 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldMarketing As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldReports As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldAccounting As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldSell As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldBuy As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldSellWholeSale As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldBuyWholeSale As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldWorkShop As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldItems As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldGallery As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldٌReceiptVoucher As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldArchive As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldSettings As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldCustomers As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnGoldBarCodePrint As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton23 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton22 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton21 As Guna.UI2.WinForms.Guna2GradientButton
@@ -3107,8 +3108,8 @@ Partial Class FrmMain
     Friend WithEvents btnLira As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnBar As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnStone As Guna.UI2.WinForms.Guna2GradientButton
-    Private WithEvents PictureEdit1 As DevExpress.XtraEditors.PictureEdit
-    Friend WithEvents Guna2GradientButton27 As Guna.UI2.WinForms.Guna2GradientButton
+    Private WithEvents pbGoldHide As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents btnGoldPaymentVoucher As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton4 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton

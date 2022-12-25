@@ -6,3 +6,9 @@ git checkout main
 git pull origin main
 header2_center
 63541dfab51s6d5gb1
+
+
+To Push:
+git add .
+git commit -m "Commit"
+git push -u origin main

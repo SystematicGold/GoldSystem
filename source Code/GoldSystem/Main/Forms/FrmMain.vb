@@ -21,11 +21,6 @@ Public Class FrmMain
         Try
             pnlGold.Left = pnlMain.Left - pnlGold.Width - 2
             pnlGold.Visible = Not pnlGold.Visible
-            If pnlGold.Visible = True Then
-                btnGold.BackColor = Color.White
-            Else
-                btnGold.BackColor = Color.Transparent
-            End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString())
         End Try
@@ -34,14 +29,14 @@ Public Class FrmMain
         Dim f As New XtraReport1
 
     End Sub
-    Private Sub PictureEdit1_Click_1(sender As Object, e As EventArgs) Handles PictureEdit1.Click
+    Private Sub pbGoldHide_Click(sender As Object, e As EventArgs) Handles pbGoldHide.Click
         Try
             pnlGold.Visible = False
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub Guna2CircleButton1_Click(sender As Object, e As EventArgs) Handles Guna2CircleButton1.Click
+    Private Sub btnSettings_Click(sender As Object, e As EventArgs) Handles btnSettings.Click
         Try
             Toggle = Not Toggle
             Timer1.Start()
@@ -76,7 +71,7 @@ Public Class FrmMain
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub Guna2GradientPanel1_Click(sender As Object, e As EventArgs) Handles Guna2GradientPanel1.Click
+    Private Sub pnlGoldPrice_Click(sender As Object, e As EventArgs) Handles pnlGoldPrice.Click
         Try
             Dim f As New FrmMaxmizeGold
             f.ShowDialog()
@@ -84,9 +79,9 @@ Public Class FrmMain
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub Guna2GradientButton16_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton16.Click
+    Private Sub btnGoldItems_Click(sender As Object, e As EventArgs) Handles btnGoldItems.Click
         Try
-            Dim F As New FrmAddGold
+            Dim F As New FrmGoldItem
             Dim dt As New DataTable
             dt.Clear()
             dt = ClsMain_.GetItemCode()
@@ -95,7 +90,7 @@ Public Class FrmMain
             F.TxtCodeBlock.Text = dt.Rows(0)(0)
             Dim s As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
             Dim r As New Random
-                Dim sb As New StringBuilder
+            Dim sb As New StringBuilder
             For i As Integer = 1 To 3
                 Dim idx As Integer = r.Next(0, 35)
                 sb.Append(s.Substring(idx, 1))
@@ -109,10 +104,41 @@ Public Class FrmMain
         End Try
     End Sub
 
-    Private Sub Guna2GradientButton9_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton9.Click
+    Private Sub btnGoldBuy_Click(sender As Object, e As EventArgs) Handles btnGoldBuy.Click
         Try
+            FrmGoldPurchase.Show()
+        Catch ex As Exception
 
-            FrmPurchases.Show()
+        End Try
+    End Sub
+
+    Private Sub btnGoldSell_Click(sender As Object, e As EventArgs) Handles btnGoldSell.Click
+        Try
+            FrmGoldSale.Show()
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub pnlGold_VisibleChanged(sender As Object, e As EventArgs) Handles pnlGold.VisibleChanged
+        If pnlGold.Visible = True Then
+            btnGold.BackColor = Color.White
+        Else
+            btnGold.BackColor = Color.Transparent
+        End If
+    End Sub
+
+    Private Sub btnGoldBarCodePrint_Click(sender As Object, e As EventArgs) Handles btnGoldBarCodePrint.Click
+        Try
+            FrmGoldPrintBarCode.Show()
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub btnGoldReports_Click(sender As Object, e As EventArgs) Handles btnGoldReports.Click
+        Try
+            frmGoldReport.Show()
         Catch ex As Exception
 
         End Try

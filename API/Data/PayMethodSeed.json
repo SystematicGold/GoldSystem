@@ -1,0 +1,44 @@
+[
+  {
+      "Code": 1,
+      "PayMethodAr": "نقدي",
+      "PayMethodEn": "Cash",
+      "Status": 1
+  },
+  {
+      "Code": 2,
+      "PayMethodAr": "كي نت",
+      "PayMethodEn": "K-Net",
+      "Status": 1
+  },
+  {
+      "Code": 3,
+      "PayMethodAr": "ماستر كارد",
+      "PayMethodEn": "MasterCard",
+      "Status": 1
+  },
+  {
+      "Code": 4,
+      "PayMethodAr": "فيزا",
+      "PayMethodEn": "Visa",
+      "Status": 1
+  },
+  {
+      "Code": 5,
+      "PayMethodAr": "رابط",
+      "PayMethodEn": "Link",
+      "Status": 1
+  },
+  {
+      "Code": 6,
+      "PayMethodAr": "شيك",
+      "PayMethodEn": "Chique",
+      "Status": 1
+  },
+  {
+      "Code": 7,
+      "PayMethodAr": "تحويل بنكي",
+      "PayMethodEn": "Bank Transfer",
+      "Status": 1
+  }
+]

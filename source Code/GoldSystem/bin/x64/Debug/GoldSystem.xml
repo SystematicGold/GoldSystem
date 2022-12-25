@@ -27,6 +27,21 @@ GoldSystem
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:GoldSystem.My.Resources.Resources.BarCode1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GoldSystem.My.Resources.Resources.BarCode2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GoldSystem.My.Resources.Resources.BarCode3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:GoldSystem.My.Resources.Resources.download">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -53,6 +68,11 @@ GoldSystem
 </summary>
 </member>
 <member name="P:GoldSystem.My.Resources.Resources.settings_90px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GoldSystem.My.Resources.Resources.Ship">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
