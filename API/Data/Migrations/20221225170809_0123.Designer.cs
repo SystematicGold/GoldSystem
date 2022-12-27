@@ -4,6 +4,7 @@ using API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20221225170809_0123")]
+    partial class _0123
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -95,17 +98,14 @@ namespace API.Data.Migrations
                     b.Property<string>("BarCodeName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("BarCodeTypeAr")
+                    b.Property<string>("BarCodeType")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("BarCodeTypeEn")
+                    b.Property<string>("BarCodeX")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("BarCodeX")
-                        .HasColumnType("real");
-
-                    b.Property<float>("BarCodeY")
-                        .HasColumnType("real");
+                    b.Property<string>("BarCodeY")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Code")
                         .HasColumnType("int");

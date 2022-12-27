@@ -77,3 +77,4 @@ C:\Users\mts_e\Desktop\GoldSystem-main\API\obj\Debug\net7.0\refint\API.dll
 C:\Users\mts_e\Desktop\GoldSystem-main\API\obj\Debug\net7.0\API.pdb
 C:\Users\mts_e\Desktop\GoldSystem-main\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\Users\mts_e\Desktop\GoldSystem-main\API\obj\Debug\net7.0\ref\API.dll
+C:\Users\mts_e\Desktop\GoldSystem-main\API\bin\Debug\net7.0\Data\DeffGoldBarCodeSeed.json

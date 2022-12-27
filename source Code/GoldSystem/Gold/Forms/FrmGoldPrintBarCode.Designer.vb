@@ -25,34 +25,42 @@ Partial Class FrmGoldPrintBarCode
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmGoldPrintBarCode))
         Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
         Me.TabNavigationPage1 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.TabNavigationPage3 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.PictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
+        Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.PictureEdit2 = New DevExpress.XtraEditors.PictureEdit()
+        Me.TabNavigationPage3 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.PictureEdit3 = New DevExpress.XtraEditors.PictureEdit()
         Me.gbItem = New Guna.UI2.WinForms.Guna2GroupBox()
-        Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
-        Me.PictureEdit4 = New DevExpress.XtraEditors.PictureEdit()
-        Me.PictureEdit5 = New DevExpress.XtraEditors.PictureEdit()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.PictureEdit5 = New DevExpress.XtraEditors.PictureEdit()
+        Me.PictureEdit4 = New DevExpress.XtraEditors.PictureEdit()
+        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
+        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPane1.SuspendLayout()
         Me.TabNavigationPage1.SuspendLayout()
-        Me.TabNavigationPage2.SuspendLayout()
-        Me.TabNavigationPage3.SuspendLayout()
         CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabNavigationPage2.SuspendLayout()
         CType(Me.PictureEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabNavigationPage3.SuspendLayout()
         CType(Me.PictureEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbItem.SuspendLayout()
         Me.Guna2GroupBox1.SuspendLayout()
-        CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabPane1
@@ -73,9 +81,21 @@ Partial Class FrmGoldPrintBarCode
         'TabNavigationPage1
         '
         Me.TabNavigationPage1.Caption = "نموذج1"
+        Me.TabNavigationPage1.Controls.Add(Me.GridControl1)
         Me.TabNavigationPage1.Controls.Add(Me.PictureEdit1)
         Me.TabNavigationPage1.Name = "TabNavigationPage1"
         Me.TabNavigationPage1.Size = New System.Drawing.Size(1073, 614)
+        '
+        'PictureEdit1
+        '
+        Me.PictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit1.EditValue = Global.GoldSystem.My.Resources.Resources.BarCode1
+        Me.PictureEdit1.Location = New System.Drawing.Point(670, 0)
+        Me.PictureEdit1.Name = "PictureEdit1"
+        Me.PictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
+        Me.PictureEdit1.Size = New System.Drawing.Size(400, 400)
+        Me.PictureEdit1.TabIndex = 1
         '
         'TabNavigationPage2
         '
@@ -83,24 +103,6 @@ Partial Class FrmGoldPrintBarCode
         Me.TabNavigationPage2.Controls.Add(Me.PictureEdit2)
         Me.TabNavigationPage2.Name = "TabNavigationPage2"
         Me.TabNavigationPage2.Size = New System.Drawing.Size(1074, 678)
-        '
-        'TabNavigationPage3
-        '
-        Me.TabNavigationPage3.Caption = "نموذج3"
-        Me.TabNavigationPage3.Controls.Add(Me.PictureEdit3)
-        Me.TabNavigationPage3.Name = "TabNavigationPage3"
-        Me.TabNavigationPage3.Size = New System.Drawing.Size(1074, 678)
-        '
-        'PictureEdit1
-        '
-        Me.PictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit1.EditValue = Global.GoldSystem.My.Resources.Resources.BarCode1
-        Me.PictureEdit1.Location = New System.Drawing.Point(463, 3)
-        Me.PictureEdit1.Name = "PictureEdit1"
-        Me.PictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
-        Me.PictureEdit1.Size = New System.Drawing.Size(400, 400)
-        Me.PictureEdit1.TabIndex = 1
         '
         'PictureEdit2
         '
@@ -112,6 +114,13 @@ Partial Class FrmGoldPrintBarCode
         Me.PictureEdit2.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
         Me.PictureEdit2.Size = New System.Drawing.Size(400, 400)
         Me.PictureEdit2.TabIndex = 1
+        '
+        'TabNavigationPage3
+        '
+        Me.TabNavigationPage3.Caption = "نموذج3"
+        Me.TabNavigationPage3.Controls.Add(Me.PictureEdit3)
+        Me.TabNavigationPage3.Name = "TabNavigationPage3"
+        Me.TabNavigationPage3.Size = New System.Drawing.Size(1074, 678)
         '
         'PictureEdit3
         '
@@ -149,6 +158,83 @@ Partial Class FrmGoldPrintBarCode
         Me.gbItem.Text = "الأدوات"
         Me.gbItem.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
+        'Label7
+        '
+        Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label7.ForeColor = System.Drawing.Color.Black
+        Me.Label7.Location = New System.Drawing.Point(56, 56)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(119, 23)
+        Me.Label7.TabIndex = 0
+        Me.Label7.Text = "باركود"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label6
+        '
+        Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(56, 104)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(119, 23)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "اسم الصنف"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label5
+        '
+        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label5.ForeColor = System.Drawing.Color.Black
+        Me.Label5.Location = New System.Drawing.Point(56, 152)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(119, 23)
+        Me.Label5.TabIndex = 0
+        Me.Label5.Text = "الوزن"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label4
+        '
+        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label4.ForeColor = System.Drawing.Color.Black
+        Me.Label4.Location = New System.Drawing.Point(56, 200)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(119, 23)
+        Me.Label4.TabIndex = 0
+        Me.Label4.Text = "العيار"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label3
+        '
+        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(56, 248)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(119, 23)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "المصنعية"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label2
+        '
+        Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label2.ForeColor = System.Drawing.Color.Black
+        Me.Label2.Location = New System.Drawing.Point(56, 296)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(119, 23)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "الفصوص"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label1
+        '
+        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label1.ForeColor = System.Drawing.Color.Black
+        Me.Label1.Location = New System.Drawing.Point(56, 344)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(119, 23)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "الرمز"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Guna2GroupBox1
         '
         Me.Guna2GroupBox1.BackColor = System.Drawing.Color.WhiteSmoke
@@ -169,16 +255,6 @@ Partial Class FrmGoldPrintBarCode
         Me.Guna2GroupBox1.Text = "الأدوات"
         Me.Guna2GroupBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'PictureEdit4
-        '
-        Me.PictureEdit4.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit4.EditValue = CType(resources.GetObject("PictureEdit4.EditValue"), Object)
-        Me.PictureEdit4.Location = New System.Drawing.Point(1276, 4)
-        Me.PictureEdit4.Name = "PictureEdit4"
-        Me.PictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit4.Size = New System.Drawing.Size(63, 60)
-        Me.PictureEdit4.TabIndex = 0
-        '
         'PictureEdit5
         '
         Me.PictureEdit5.Cursor = System.Windows.Forms.Cursors.Default
@@ -189,82 +265,61 @@ Partial Class FrmGoldPrintBarCode
         Me.PictureEdit5.Size = New System.Drawing.Size(63, 60)
         Me.PictureEdit5.TabIndex = 0
         '
-        'Label1
+        'PictureEdit4
         '
-        Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(56, 344)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(119, 23)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "الرمز"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.PictureEdit4.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit4.EditValue = CType(resources.GetObject("PictureEdit4.EditValue"), Object)
+        Me.PictureEdit4.Location = New System.Drawing.Point(1276, 4)
+        Me.PictureEdit4.Name = "PictureEdit4"
+        Me.PictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit4.Size = New System.Drawing.Size(63, 60)
+        Me.PictureEdit4.TabIndex = 0
         '
-        'Label2
+        'GridControl1
         '
-        Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(56, 296)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(119, 23)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "الفصوص"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.GridControl1.Location = New System.Drawing.Point(0, 0)
+        Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Name = "GridControl1"
+        Me.GridControl1.Size = New System.Drawing.Size(469, 614)
+        Me.GridControl1.TabIndex = 2
+        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
-        'Label3
+        'GridView1
         '
-        Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(56, 248)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(119, 23)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "المصنعية"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn4, Me.GridColumn1, Me.GridColumn2, Me.GridColumn3})
+        Me.GridView1.GridControl = Me.GridControl1
+        Me.GridView1.Name = "GridView1"
+        Me.GridView1.OptionsSelection.MultiSelect = True
+        Me.GridView1.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CheckBoxRowSelect
         '
-        'Label4
+        'GridColumn1
         '
-        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label4.ForeColor = System.Drawing.Color.Black
-        Me.Label4.Location = New System.Drawing.Point(56, 200)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(119, 23)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "العيار"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.GridColumn1.Caption = "اسم الحقل"
+        Me.GridColumn1.Name = "GridColumn1"
+        Me.GridColumn1.Visible = True
+        Me.GridColumn1.VisibleIndex = 2
         '
-        'Label5
+        'GridColumn2
         '
-        Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label5.ForeColor = System.Drawing.Color.Black
-        Me.Label5.Location = New System.Drawing.Point(56, 152)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(119, 23)
-        Me.Label5.TabIndex = 0
-        Me.Label5.Text = "الوزن"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.GridColumn2.Caption = "الموضع الأفقي"
+        Me.GridColumn2.Name = "GridColumn2"
+        Me.GridColumn2.Visible = True
+        Me.GridColumn2.VisibleIndex = 3
         '
-        'Label6
+        'GridColumn3
         '
-        Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(56, 104)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(119, 23)
-        Me.Label6.TabIndex = 0
-        Me.Label6.Text = "اسم الصنف"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.GridColumn3.Caption = "الموضع الرأسي"
+        Me.GridColumn3.Name = "GridColumn3"
+        Me.GridColumn3.Visible = True
+        Me.GridColumn3.VisibleIndex = 4
         '
-        'Label7
+        'GridColumn4
         '
-        Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(56, 56)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(119, 23)
-        Me.Label7.TabIndex = 0
-        Me.Label7.Text = "باركود"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.GridColumn4.Caption = "نوع الحقل"
+        Me.GridColumn4.Name = "GridColumn4"
+        Me.GridColumn4.Visible = True
+        Me.GridColumn4.VisibleIndex = 1
         '
         'FrmGoldPrintBarCode
         '
@@ -281,15 +336,17 @@ Partial Class FrmGoldPrintBarCode
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPane1.ResumeLayout(False)
         Me.TabNavigationPage1.ResumeLayout(False)
-        Me.TabNavigationPage2.ResumeLayout(False)
-        Me.TabNavigationPage3.ResumeLayout(False)
         CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabNavigationPage2.ResumeLayout(False)
         CType(Me.PictureEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabNavigationPage3.ResumeLayout(False)
         CType(Me.PictureEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbItem.ResumeLayout(False)
         Me.Guna2GroupBox1.ResumeLayout(False)
-        CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -312,4 +369,10 @@ Partial Class FrmGoldPrintBarCode
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
+    Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents GridColumn1 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GridColumn2 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GridColumn4 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GridColumn3 As DevExpress.XtraGrid.Columns.GridColumn
 End Class
