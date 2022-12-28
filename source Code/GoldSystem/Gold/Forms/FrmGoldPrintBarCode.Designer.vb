@@ -25,11 +25,30 @@ Partial Class FrmGoldPrintBarCode
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmGoldPrintBarCode))
         Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
         Me.TabNavigationPage1 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.PictureEdit8 = New DevExpress.XtraEditors.PictureEdit()
+        Me.PictureEdit6 = New DevExpress.XtraEditors.PictureEdit()
+        Me.PictureEdit7 = New DevExpress.XtraEditors.PictureEdit()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
+        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.PictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
         Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.PictureEdit10 = New DevExpress.XtraEditors.PictureEdit()
         Me.PictureEdit2 = New DevExpress.XtraEditors.PictureEdit()
+        Me.PictureEdit9 = New DevExpress.XtraEditors.PictureEdit()
         Me.TabNavigationPage3 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.PictureEdit12 = New DevExpress.XtraEditors.PictureEdit()
         Me.PictureEdit3 = New DevExpress.XtraEditors.PictureEdit()
+        Me.PictureEdit11 = New DevExpress.XtraEditors.PictureEdit()
         Me.gbItem = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -41,26 +60,27 @@ Partial Class FrmGoldPrintBarCode
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.PictureEdit5 = New DevExpress.XtraEditors.PictureEdit()
         Me.PictureEdit4 = New DevExpress.XtraEditors.PictureEdit()
-        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
-        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn3 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn4 = New DevExpress.XtraGrid.Columns.GridColumn()
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPane1.SuspendLayout()
         Me.TabNavigationPage1.SuspendLayout()
+        CType(Me.PictureEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabNavigationPage2.SuspendLayout()
+        CType(Me.PictureEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabNavigationPage3.SuspendLayout()
+        CType(Me.PictureEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbItem.SuspendLayout()
         Me.Guna2GroupBox1.SuspendLayout()
         CType(Me.PictureEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabPane1
@@ -81,16 +101,164 @@ Partial Class FrmGoldPrintBarCode
         'TabNavigationPage1
         '
         Me.TabNavigationPage1.Caption = "نموذج1"
+        Me.TabNavigationPage1.Controls.Add(Me.PictureEdit8)
+        Me.TabNavigationPage1.Controls.Add(Me.PictureEdit6)
+        Me.TabNavigationPage1.Controls.Add(Me.PictureEdit7)
+        Me.TabNavigationPage1.Controls.Add(Me.Label13)
+        Me.TabNavigationPage1.Controls.Add(Me.Label12)
+        Me.TabNavigationPage1.Controls.Add(Me.Label11)
+        Me.TabNavigationPage1.Controls.Add(Me.Label10)
+        Me.TabNavigationPage1.Controls.Add(Me.Label9)
+        Me.TabNavigationPage1.Controls.Add(Me.Label8)
         Me.TabNavigationPage1.Controls.Add(Me.GridControl1)
         Me.TabNavigationPage1.Controls.Add(Me.PictureEdit1)
         Me.TabNavigationPage1.Name = "TabNavigationPage1"
         Me.TabNavigationPage1.Size = New System.Drawing.Size(1073, 614)
         '
+        'PictureEdit8
+        '
+        Me.PictureEdit8.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit8.EditValue = CType(resources.GetObject("PictureEdit8.EditValue"), Object)
+        Me.PictureEdit8.Location = New System.Drawing.Point(938, 0)
+        Me.PictureEdit8.Name = "PictureEdit8"
+        Me.PictureEdit8.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit8.Size = New System.Drawing.Size(63, 60)
+        Me.PictureEdit8.TabIndex = 0
+        '
+        'PictureEdit6
+        '
+        Me.PictureEdit6.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit6.EditValue = CType(resources.GetObject("PictureEdit6.EditValue"), Object)
+        Me.PictureEdit6.Location = New System.Drawing.Point(700, 353)
+        Me.PictureEdit6.Name = "PictureEdit6"
+        Me.PictureEdit6.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
+        Me.PictureEdit6.Properties.Appearance.Options.UseBackColor = True
+        Me.PictureEdit6.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit6.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
+        Me.PictureEdit6.Size = New System.Drawing.Size(80, 35)
+        Me.PictureEdit6.TabIndex = 4
+        '
+        'PictureEdit7
+        '
+        Me.PictureEdit7.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit7.EditValue = CType(resources.GetObject("PictureEdit7.EditValue"), Object)
+        Me.PictureEdit7.Location = New System.Drawing.Point(1007, 0)
+        Me.PictureEdit7.Name = "PictureEdit7"
+        Me.PictureEdit7.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit7.Size = New System.Drawing.Size(63, 60)
+        Me.PictureEdit7.TabIndex = 0
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.BackColor = System.Drawing.Color.Transparent
+        Me.Label13.Location = New System.Drawing.Point(794, 372)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(38, 13)
+        Me.Label13.TabIndex = 3
+        Me.Label13.Text = "Label8"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
+        Me.Label12.Location = New System.Drawing.Point(794, 353)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(38, 13)
+        Me.Label12.TabIndex = 3
+        Me.Label12.Text = "Label8"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
+        Me.Label11.Location = New System.Drawing.Point(700, 412)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(38, 13)
+        Me.Label11.TabIndex = 3
+        Me.Label11.Text = "Label8"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Location = New System.Drawing.Point(744, 412)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(38, 13)
+        Me.Label10.TabIndex = 3
+        Me.Label10.Text = "Label8"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Location = New System.Drawing.Point(700, 392)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(38, 13)
+        Me.Label9.TabIndex = 3
+        Me.Label9.Text = "Label8"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
+        Me.Label8.Location = New System.Drawing.Point(744, 392)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(38, 13)
+        Me.Label8.TabIndex = 3
+        Me.Label8.Text = "Label8"
+        '
+        'GridControl1
+        '
+        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.GridControl1.Location = New System.Drawing.Point(0, 0)
+        Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Name = "GridControl1"
+        Me.GridControl1.Size = New System.Drawing.Size(469, 614)
+        Me.GridControl1.TabIndex = 2
+        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
+        '
+        'GridView1
+        '
+        Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn4, Me.GridColumn1, Me.GridColumn2, Me.GridColumn3})
+        Me.GridView1.GridControl = Me.GridControl1
+        Me.GridView1.Name = "GridView1"
+        Me.GridView1.OptionsSelection.MultiSelect = True
+        Me.GridView1.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CheckBoxRowSelect
+        '
+        'GridColumn4
+        '
+        Me.GridColumn4.Caption = "نوع الحقل"
+        Me.GridColumn4.Name = "GridColumn4"
+        Me.GridColumn4.Visible = True
+        Me.GridColumn4.VisibleIndex = 1
+        '
+        'GridColumn1
+        '
+        Me.GridColumn1.Caption = "اسم الحقل"
+        Me.GridColumn1.Name = "GridColumn1"
+        Me.GridColumn1.Visible = True
+        Me.GridColumn1.VisibleIndex = 2
+        '
+        'GridColumn2
+        '
+        Me.GridColumn2.Caption = "الموضع الأفقي"
+        Me.GridColumn2.Name = "GridColumn2"
+        Me.GridColumn2.Visible = True
+        Me.GridColumn2.VisibleIndex = 3
+        '
+        'GridColumn3
+        '
+        Me.GridColumn3.Caption = "الموضع الرأسي"
+        Me.GridColumn3.Name = "GridColumn3"
+        Me.GridColumn3.Visible = True
+        Me.GridColumn3.VisibleIndex = 4
+        '
         'PictureEdit1
         '
         Me.PictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit1.EditValue = Global.GoldSystem.My.Resources.Resources.BarCode1
-        Me.PictureEdit1.Location = New System.Drawing.Point(670, 0)
+        Me.PictureEdit1.Location = New System.Drawing.Point(673, 209)
         Me.PictureEdit1.Name = "PictureEdit1"
         Me.PictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
@@ -100,38 +268,82 @@ Partial Class FrmGoldPrintBarCode
         'TabNavigationPage2
         '
         Me.TabNavigationPage2.Caption = "نموذج2"
+        Me.TabNavigationPage2.Controls.Add(Me.PictureEdit10)
         Me.TabNavigationPage2.Controls.Add(Me.PictureEdit2)
+        Me.TabNavigationPage2.Controls.Add(Me.PictureEdit9)
         Me.TabNavigationPage2.Name = "TabNavigationPage2"
-        Me.TabNavigationPage2.Size = New System.Drawing.Size(1074, 678)
+        Me.TabNavigationPage2.Size = New System.Drawing.Size(1073, 614)
+        '
+        'PictureEdit10
+        '
+        Me.PictureEdit10.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit10.EditValue = CType(resources.GetObject("PictureEdit10.EditValue"), Object)
+        Me.PictureEdit10.Location = New System.Drawing.Point(938, 0)
+        Me.PictureEdit10.Name = "PictureEdit10"
+        Me.PictureEdit10.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit10.Size = New System.Drawing.Size(63, 60)
+        Me.PictureEdit10.TabIndex = 0
         '
         'PictureEdit2
         '
         Me.PictureEdit2.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit2.EditValue = Global.GoldSystem.My.Resources.Resources.BarCode2
-        Me.PictureEdit2.Location = New System.Drawing.Point(463, 3)
+        Me.PictureEdit2.Location = New System.Drawing.Point(670, 106)
         Me.PictureEdit2.Name = "PictureEdit2"
         Me.PictureEdit2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit2.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
         Me.PictureEdit2.Size = New System.Drawing.Size(400, 400)
         Me.PictureEdit2.TabIndex = 1
         '
+        'PictureEdit9
+        '
+        Me.PictureEdit9.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit9.EditValue = CType(resources.GetObject("PictureEdit9.EditValue"), Object)
+        Me.PictureEdit9.Location = New System.Drawing.Point(1007, 0)
+        Me.PictureEdit9.Name = "PictureEdit9"
+        Me.PictureEdit9.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit9.Size = New System.Drawing.Size(63, 60)
+        Me.PictureEdit9.TabIndex = 0
+        '
         'TabNavigationPage3
         '
         Me.TabNavigationPage3.Caption = "نموذج3"
+        Me.TabNavigationPage3.Controls.Add(Me.PictureEdit12)
         Me.TabNavigationPage3.Controls.Add(Me.PictureEdit3)
+        Me.TabNavigationPage3.Controls.Add(Me.PictureEdit11)
         Me.TabNavigationPage3.Name = "TabNavigationPage3"
-        Me.TabNavigationPage3.Size = New System.Drawing.Size(1074, 678)
+        Me.TabNavigationPage3.Size = New System.Drawing.Size(1073, 614)
+        '
+        'PictureEdit12
+        '
+        Me.PictureEdit12.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit12.EditValue = CType(resources.GetObject("PictureEdit12.EditValue"), Object)
+        Me.PictureEdit12.Location = New System.Drawing.Point(938, 0)
+        Me.PictureEdit12.Name = "PictureEdit12"
+        Me.PictureEdit12.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit12.Size = New System.Drawing.Size(63, 60)
+        Me.PictureEdit12.TabIndex = 0
         '
         'PictureEdit3
         '
         Me.PictureEdit3.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit3.EditValue = Global.GoldSystem.My.Resources.Resources.BarCode3
-        Me.PictureEdit3.Location = New System.Drawing.Point(463, 3)
+        Me.PictureEdit3.Location = New System.Drawing.Point(670, 115)
         Me.PictureEdit3.Name = "PictureEdit3"
         Me.PictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit3.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
         Me.PictureEdit3.Size = New System.Drawing.Size(400, 400)
         Me.PictureEdit3.TabIndex = 1
+        '
+        'PictureEdit11
+        '
+        Me.PictureEdit11.Cursor = System.Windows.Forms.Cursors.Default
+        Me.PictureEdit11.EditValue = CType(resources.GetObject("PictureEdit11.EditValue"), Object)
+        Me.PictureEdit11.Location = New System.Drawing.Point(1007, 0)
+        Me.PictureEdit11.Name = "PictureEdit11"
+        Me.PictureEdit11.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.PictureEdit11.Size = New System.Drawing.Size(63, 60)
+        Me.PictureEdit11.TabIndex = 0
         '
         'gbItem
         '
@@ -275,52 +487,6 @@ Partial Class FrmGoldPrintBarCode
         Me.PictureEdit4.Size = New System.Drawing.Size(63, 60)
         Me.PictureEdit4.TabIndex = 0
         '
-        'GridControl1
-        '
-        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.GridControl1.Location = New System.Drawing.Point(0, 0)
-        Me.GridControl1.MainView = Me.GridView1
-        Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(469, 614)
-        Me.GridControl1.TabIndex = 2
-        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
-        '
-        'GridView1
-        '
-        Me.GridView1.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn4, Me.GridColumn1, Me.GridColumn2, Me.GridColumn3})
-        Me.GridView1.GridControl = Me.GridControl1
-        Me.GridView1.Name = "GridView1"
-        Me.GridView1.OptionsSelection.MultiSelect = True
-        Me.GridView1.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CheckBoxRowSelect
-        '
-        'GridColumn1
-        '
-        Me.GridColumn1.Caption = "اسم الحقل"
-        Me.GridColumn1.Name = "GridColumn1"
-        Me.GridColumn1.Visible = True
-        Me.GridColumn1.VisibleIndex = 2
-        '
-        'GridColumn2
-        '
-        Me.GridColumn2.Caption = "الموضع الأفقي"
-        Me.GridColumn2.Name = "GridColumn2"
-        Me.GridColumn2.Visible = True
-        Me.GridColumn2.VisibleIndex = 3
-        '
-        'GridColumn3
-        '
-        Me.GridColumn3.Caption = "الموضع الرأسي"
-        Me.GridColumn3.Name = "GridColumn3"
-        Me.GridColumn3.Visible = True
-        Me.GridColumn3.VisibleIndex = 4
-        '
-        'GridColumn4
-        '
-        Me.GridColumn4.Caption = "نوع الحقل"
-        Me.GridColumn4.Name = "GridColumn4"
-        Me.GridColumn4.Visible = True
-        Me.GridColumn4.VisibleIndex = 1
-        '
         'FrmGoldPrintBarCode
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -329,24 +495,32 @@ Partial Class FrmGoldPrintBarCode
         Me.Controls.Add(Me.Guna2GroupBox1)
         Me.Controls.Add(Me.gbItem)
         Me.Controls.Add(Me.TabPane1)
-        Me.MinimumSize = New System.Drawing.Size(1366, 768)
+        Me.MinimumSize = New System.Drawing.Size(1364, 726)
         Me.Name = "FrmGoldPrintBarCode"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "طباعة باركود الذهب"
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPane1.ResumeLayout(False)
         Me.TabNavigationPage1.ResumeLayout(False)
+        Me.TabNavigationPage1.PerformLayout()
+        CType(Me.PictureEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabNavigationPage2.ResumeLayout(False)
+        CType(Me.PictureEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabNavigationPage3.ResumeLayout(False)
+        CType(Me.PictureEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbItem.ResumeLayout(False)
         Me.Guna2GroupBox1.ResumeLayout(False)
         CType(Me.PictureEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -375,4 +549,17 @@ Partial Class FrmGoldPrintBarCode
     Friend WithEvents GridColumn2 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn4 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn3 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents PictureEdit6 As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents PictureEdit8 As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents PictureEdit7 As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents PictureEdit10 As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents PictureEdit9 As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents PictureEdit12 As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents PictureEdit11 As DevExpress.XtraEditors.PictureEdit
 End Class

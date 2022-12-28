@@ -21,4 +21,7 @@
         Else
         End If
     End Sub
+    Public Function PrintBarCodeLocation(x As Integer, y As Integer, label As Label)
+        'label.Location(x, y)
+    End Function
 End Module

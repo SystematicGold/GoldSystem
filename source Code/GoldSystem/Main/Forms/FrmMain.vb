@@ -26,7 +26,7 @@ Public Class FrmMain
         End Try
     End Sub
     Private Sub btnSilver_Click(sender As Object, e As EventArgs) Handles btnSilver.Click
-        Dim f As New XtraReport1
+        'Dim f As New XtraReport1
 
     End Sub
     Private Sub pbGoldHide_Click(sender As Object, e As EventArgs) Handles pbGoldHide.Click

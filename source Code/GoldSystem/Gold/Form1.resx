@@ -1,0 +1,1563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="XrDesignBarManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>160, 17</value>
+  </metadata>
+  <data name="Bar2.Text" xml:space="preserve">
+    <value>Standard Controls</value>
+  </data>
+  <data name="msiFile.Caption" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="CommandBarItem1.Caption" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="CommandBarItem1.Hint" xml:space="preserve">
+    <value>Create a new blank report</value>
+  </data>
+  <data name="CommandBarItem2.Caption" xml:space="preserve">
+    <value>New via &amp;Wizard...</value>
+  </data>
+  <data name="CommandBarItem2.Hint" xml:space="preserve">
+    <value>Create a new report using the Wizard</value>
+  </data>
+  <data name="bbiOpenFile.Caption" xml:space="preserve">
+    <value>&amp;Open...</value>
+  </data>
+  <data name="bbiOpenFile.Hint" xml:space="preserve">
+    <value>Open a report</value>
+  </data>
+  <data name="bbiSaveFile.Caption" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="bbiSaveFile.Hint" xml:space="preserve">
+    <value>Save the report</value>
+  </data>
+  <data name="CommandBarItem3.Caption" xml:space="preserve">
+    <value>Save &amp;As...</value>
+  </data>
+  <data name="CommandBarItem3.Hint" xml:space="preserve">
+    <value>Save the report with a new name</value>
+  </data>
+  <data name="CommandBarItem7.Caption" xml:space="preserve">
+    <value>Save A&amp;ll</value>
+  </data>
+  <data name="CommandBarItem7.Hint" xml:space="preserve">
+    <value>Save all reports</value>
+  </data>
+  <data name="CommandBarItem11.Caption" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="CommandBarItem11.Hint" xml:space="preserve">
+    <value>Close the report</value>
+  </data>
+  <data name="CommandBarItem4.Caption" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="CommandBarItem4.Hint" xml:space="preserve">
+    <value>Close the designer</value>
+  </data>
+  <data name="msiEdit.Caption" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="bbiUndo.Caption" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="bbiUndo.Hint" xml:space="preserve">
+    <value>Undo the last operation</value>
+  </data>
+  <data name="bbiRedo.Caption" xml:space="preserve">
+    <value>&amp;Redo</value>
+  </data>
+  <data name="bbiRedo.Hint" xml:space="preserve">
+    <value>Redo the last operation</value>
+  </data>
+  <data name="bbiCut.Caption" xml:space="preserve">
+    <value>Cu&amp;t</value>
+  </data>
+  <data name="bbiCut.Hint" xml:space="preserve">
+    <value>Delete the control and copy it to the clipboard</value>
+  </data>
+  <data name="bbiCopy.Caption" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="bbiCopy.Hint" xml:space="preserve">
+    <value>Copy the control to the clipboard</value>
+  </data>
+  <data name="bbiPaste.Caption" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="bbiPaste.Hint" xml:space="preserve">
+    <value>Add the control from the clipboard</value>
+  </data>
+  <data name="CommandBarItem5.Caption" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="CommandBarItem5.Hint" xml:space="preserve">
+    <value>Delete the control</value>
+  </data>
+  <data name="CommandBarItem6.Caption" xml:space="preserve">
+    <value>Select &amp;All</value>
+  </data>
+  <data name="CommandBarItem6.Hint" xml:space="preserve">
+    <value>Select all the controls in the document</value>
+  </data>
+  <data name="msiTabButtons.Caption" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="BarReportTabButtonsListItem1.Caption" xml:space="preserve">
+    <value>Tab Buttons</value>
+  </data>
+  <data name="BarSubItem1.Caption" xml:space="preserve">
+    <value>&amp;Toolbars</value>
+  </data>
+  <data name="XrBarToolbarsListItem1.Caption" xml:space="preserve">
+    <value>&amp;Toolbars</value>
+  </data>
+  <data name="BarSubItem2.Caption" xml:space="preserve">
+    <value>&amp;Windows</value>
+  </data>
+  <data name="BarDockPanelsListItem1.Caption" xml:space="preserve">
+    <value>&amp;Windows</value>
+  </data>
+  <data name="msiFormat.Caption" xml:space="preserve">
+    <value>Fo&amp;rmat</value>
+  </data>
+  <data name="bbiForeColor.Caption" xml:space="preserve">
+    <value>For&amp;eground Color</value>
+  </data>
+  <data name="bbiForeColor.Hint" xml:space="preserve">
+    <value>Set the foreground color of the control</value>
+  </data>
+  <data name="bbiBackColor.Caption" xml:space="preserve">
+    <value>Bac&amp;kground Color</value>
+  </data>
+  <data name="bbiBackColor.Hint" xml:space="preserve">
+    <value>Set the background color of the control</value>
+  </data>
+  <data name="msiFont.Caption" xml:space="preserve">
+    <value>&amp;Font</value>
+  </data>
+  <data name="bbiFontBold.Caption" xml:space="preserve">
+    <value>&amp;Bold</value>
+  </data>
+  <data name="bbiFontBold.Hint" xml:space="preserve">
+    <value>Make the font bold</value>
+  </data>
+  <data name="bbiFontItalic.Caption" xml:space="preserve">
+    <value>&amp;Italic</value>
+  </data>
+  <data name="bbiFontItalic.Hint" xml:space="preserve">
+    <value>Make the font italic</value>
+  </data>
+  <data name="bbiFontUnderline.Caption" xml:space="preserve">
+    <value>&amp;Underline</value>
+  </data>
+  <data name="bbiFontUnderline.Hint" xml:space="preserve">
+    <value>Underline the font</value>
+  </data>
+  <data name="msiJustify.Caption" xml:space="preserve">
+    <value>&amp;Justify</value>
+  </data>
+  <data name="bbiJustifyLeft.Caption" xml:space="preserve">
+    <value>&amp;Left</value>
+  </data>
+  <data name="bbiJustifyLeft.Hint" xml:space="preserve">
+    <value>Align the control's text to the left</value>
+  </data>
+  <data name="bbiJustifyCenter.Caption" xml:space="preserve">
+    <value>&amp;Center</value>
+  </data>
+  <data name="bbiJustifyCenter.Hint" xml:space="preserve">
+    <value>Align the control's text to the center</value>
+  </data>
+  <data name="bbiJustifyRight.Caption" xml:space="preserve">
+    <value>&amp;Rights</value>
+  </data>
+  <data name="bbiJustifyRight.Hint" xml:space="preserve">
+    <value>Align the control's text to the right</value>
+  </data>
+  <data name="bbiJustifyJustify.Caption" xml:space="preserve">
+    <value>&amp;Justify</value>
+  </data>
+  <data name="bbiJustifyJustify.Hint" xml:space="preserve">
+    <value>Justify the control's text</value>
+  </data>
+  <data name="msiAlign.Caption" xml:space="preserve">
+    <value>&amp;Align</value>
+  </data>
+  <data name="bbiAlignLeft.Caption" xml:space="preserve">
+    <value>&amp;Lefts</value>
+  </data>
+  <data name="bbiAlignLeft.Hint" xml:space="preserve">
+    <value>Left align the selected controls</value>
+  </data>
+  <data name="bbiAlignVerticalCenters.Caption" xml:space="preserve">
+    <value>&amp;Centers</value>
+  </data>
+  <data name="bbiAlignVerticalCenters.Hint" xml:space="preserve">
+    <value>Align the centers of the selected controls vertically</value>
+  </data>
+  <data name="bbiAlignRight.Caption" xml:space="preserve">
+    <value>&amp;Rights</value>
+  </data>
+  <data name="bbiAlignRight.Hint" xml:space="preserve">
+    <value>Right align the selected controls</value>
+  </data>
+  <data name="bbiAlignTop.Caption" xml:space="preserve">
+    <value>&amp;Tops</value>
+  </data>
+  <data name="bbiAlignTop.Hint" xml:space="preserve">
+    <value>Align the tops of the selected controls</value>
+  </data>
+  <data name="bbiAlignHorizontalCenters.Caption" xml:space="preserve">
+    <value>&amp;Middles</value>
+  </data>
+  <data name="bbiAlignHorizontalCenters.Hint" xml:space="preserve">
+    <value>Align the centers of the selected controls horizontally</value>
+  </data>
+  <data name="bbiAlignBottom.Caption" xml:space="preserve">
+    <value>&amp;Bottoms</value>
+  </data>
+  <data name="bbiAlignBottom.Hint" xml:space="preserve">
+    <value>Align the bottoms of the selected controls</value>
+  </data>
+  <data name="bbiAlignToGrid.Caption" xml:space="preserve">
+    <value>to &amp;Grid</value>
+  </data>
+  <data name="bbiAlignToGrid.Hint" xml:space="preserve">
+    <value>Align the positions of the selected controls to the grid</value>
+  </data>
+  <data name="msiSameSize.Caption" xml:space="preserve">
+    <value>&amp;Make Same Size</value>
+  </data>
+  <data name="bbiSizeToControlWidth.Caption" xml:space="preserve">
+    <value>&amp;Width</value>
+  </data>
+  <data name="bbiSizeToControlWidth.Hint" xml:space="preserve">
+    <value>Make the selected controls have the same width</value>
+  </data>
+  <data name="bbiSizeToGrid.Caption" xml:space="preserve">
+    <value>Size to Gri&amp;d</value>
+  </data>
+  <data name="bbiSizeToGrid.Hint" xml:space="preserve">
+    <value>Size the selected controls to the grid</value>
+  </data>
+  <data name="bbiSizeToControlHeight.Caption" xml:space="preserve">
+    <value>&amp;Height</value>
+  </data>
+  <data name="bbiSizeToControlHeight.Hint" xml:space="preserve">
+    <value>Make the selected controls have the same height</value>
+  </data>
+  <data name="bbiSizeToControl.Caption" xml:space="preserve">
+    <value>&amp;Both</value>
+  </data>
+  <data name="bbiSizeToControl.Hint" xml:space="preserve">
+    <value>Make the selected controls the same size</value>
+  </data>
+  <data name="msiHorizontalSpacing.Caption" xml:space="preserve">
+    <value>&amp;Horizontal Spacing</value>
+  </data>
+  <data name="bbiHorizSpaceMakeEqual.Caption" xml:space="preserve">
+    <value>Make &amp;Equal</value>
+  </data>
+  <data name="bbiHorizSpaceMakeEqual.Hint" xml:space="preserve">
+    <value>Make the spacing between the selected controls equal</value>
+  </data>
+  <data name="bbiHorizSpaceIncrease.Caption" xml:space="preserve">
+    <value>&amp;Increase</value>
+  </data>
+  <data name="bbiHorizSpaceIncrease.Hint" xml:space="preserve">
+    <value>Increase the spacing between the selected controls</value>
+  </data>
+  <data name="bbiHorizSpaceDecrease.Caption" xml:space="preserve">
+    <value>&amp;Decrease</value>
+  </data>
+  <data name="bbiHorizSpaceDecrease.Hint" xml:space="preserve">
+    <value>Decrease the spacing between the selected controls</value>
+  </data>
+  <data name="bbiHorizSpaceConcatenate.Caption" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="bbiHorizSpaceConcatenate.Hint" xml:space="preserve">
+    <value>Remove the spacing between the selected controls</value>
+  </data>
+  <data name="msiVerticalSpacing.Caption" xml:space="preserve">
+    <value>&amp;Vertical Spacing</value>
+  </data>
+  <data name="bbiVertSpaceMakeEqual.Caption" xml:space="preserve">
+    <value>Make &amp;Equal</value>
+  </data>
+  <data name="bbiVertSpaceMakeEqual.Hint" xml:space="preserve">
+    <value>Make the spacing between the selected controls equal</value>
+  </data>
+  <data name="bbiVertSpaceIncrease.Caption" xml:space="preserve">
+    <value>&amp;Increase</value>
+  </data>
+  <data name="bbiVertSpaceIncrease.Hint" xml:space="preserve">
+    <value>Increase the spacing between the selected controls</value>
+  </data>
+  <data name="bbiVertSpaceDecrease.Caption" xml:space="preserve">
+    <value>&amp;Decrease</value>
+  </data>
+  <data name="bbiVertSpaceDecrease.Hint" xml:space="preserve">
+    <value>Decrease the spacing between the selected controls</value>
+  </data>
+  <data name="bbiVertSpaceConcatenate.Caption" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="bbiVertSpaceConcatenate.Hint" xml:space="preserve">
+    <value>Remove the spacing between the selected controls</value>
+  </data>
+  <data name="bsiCenter.Caption" xml:space="preserve">
+    <value>&amp;Center in Form</value>
+  </data>
+  <data name="bbiCenterHorizontally.Caption" xml:space="preserve">
+    <value>&amp;Horizontally</value>
+  </data>
+  <data name="bbiCenterHorizontally.Hint" xml:space="preserve">
+    <value>Horizontally center the selected controls within a band</value>
+  </data>
+  <data name="bbiCenterVertically.Caption" xml:space="preserve">
+    <value>&amp;Vertically</value>
+  </data>
+  <data name="bbiCenterVertically.Hint" xml:space="preserve">
+    <value>Vertically center the selected controls within a band</value>
+  </data>
+  <data name="msiOrder.Caption" xml:space="preserve">
+    <value>&amp;Order</value>
+  </data>
+  <data name="bbiBringToFront.Caption" xml:space="preserve">
+    <value>&amp;Bring to Front</value>
+  </data>
+  <data name="bbiBringToFront.Hint" xml:space="preserve">
+    <value>Bring the selected controls to the front</value>
+  </data>
+  <data name="bbiSendToBack.Caption" xml:space="preserve">
+    <value>&amp;Send to Back</value>
+  </data>
+  <data name="bbiSendToBack.Hint" xml:space="preserve">
+    <value>Move the selected controls to the back</value>
+  </data>
+  <data name="msiWindow.Caption" xml:space="preserve">
+    <value>&amp;Window</value>
+  </data>
+  <data name="msiWindowInterface.Caption" xml:space="preserve">
+    <value>&amp;Tabbed Interface</value>
+  </data>
+  <data name="msiWindowInterface.Hint" xml:space="preserve">
+    <value>Switch between tabbed and window MDI layout modes</value>
+  </data>
+  <data name="CommandBarItem8.Caption" xml:space="preserve">
+    <value>&amp;Cascade</value>
+  </data>
+  <data name="CommandBarItem8.Hint" xml:space="preserve">
+    <value>Arrange all open documents cascaded, so that they overlap each other</value>
+  </data>
+  <data name="CommandBarItem9.Caption" xml:space="preserve">
+    <value>Tile &amp;Horizontal</value>
+  </data>
+  <data name="CommandBarItem9.Hint" xml:space="preserve">
+    <value>Arrange all open documents from top to bottom</value>
+  </data>
+  <data name="CommandBarItem10.Caption" xml:space="preserve">
+    <value>Tile &amp;Vertical</value>
+  </data>
+  <data name="CommandBarItem10.Hint" xml:space="preserve">
+    <value>Arrange all open documents from left to right</value>
+  </data>
+  <data name="msiWindows.Caption" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="DesignBar1.Text" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="DesignBar2.Text" xml:space="preserve">
+    <value>Toolbar</value>
+  </data>
+  <data name="beiFontName.Caption" xml:space="preserve">
+    <value>Font Name</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="RecentlyUsedItemsComboBox1.AppearanceDropDown.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RecentlyUsedItemsComboBox1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="DevExpress.Utils.v17.1" name="DevExpress.Utils.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="RecentlyUsedItemsComboBox1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v17.1">
+    <value>Combo</value>
+  </data>
+  <data name="beiFontName.EditWidth" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="beiFontName.Hint" xml:space="preserve">
+    <value>Font Name</value>
+  </data>
+  <data name="beiFontSize.Caption" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="DesignRepositoryItemComboBox1.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DesignRepositoryItemComboBox1.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v17.1">
+    <value>Combo</value>
+  </data>
+  <data name="beiFontSize.EditWidth" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="beiFontSize.Hint" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="DesignBar3.Text" xml:space="preserve">
+    <value>Formatting Toolbar</value>
+  </data>
+  <data name="DesignBar4.Text" xml:space="preserve">
+    <value>Layout Toolbar</value>
+  </data>
+  <data name="DesignBar5.Text" xml:space="preserve">
+    <value>Status Bar</value>
+  </data>
+  <data name="bbiZoomOut.Caption" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="bbiZoomOut.Hint" xml:space="preserve">
+    <value>Zoom out the design surface</value>
+  </data>
+  <data name="bbiZoom.Caption" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="DesignRepositoryItemComboBox2.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v17.1">
+    <value>Combo</value>
+  </data>
+  <data name="bbiZoom.EditWidth" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="bbiZoom.Hint" xml:space="preserve">
+    <value>Select or input the zoom factor</value>
+  </data>
+  <data name="bbiZoomIn.Caption" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="bbiZoomIn.Hint" xml:space="preserve">
+    <value>Zoom in the design surface</value>
+  </data>
+  <data name="Bar1.Text" xml:space="preserve">
+    <value>Zoom Toolbar</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="barDockControlTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="barDockControlTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="barDockControlTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1284, 84</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Name" xml:space="preserve">
+    <value>barDockControlTop</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="barDockControlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="barDockControlBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 676</value>
+  </data>
+  <data name="barDockControlBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1284, 25</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Name" xml:space="preserve">
+    <value>barDockControlBottom</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlBottom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="barDockControlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="barDockControlLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 84</value>
+  </data>
+  <data name="barDockControlLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 592</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Name" xml:space="preserve">
+    <value>barDockControlLeft</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlLeft.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="barDockControlRight.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="barDockControlRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1284, 84</value>
+  </data>
+  <data name="barDockControlRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 592</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Name" xml:space="preserve">
+    <value>barDockControlRight</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;barDockControlRight.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="XrDesignDockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>334, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ar</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1284, 701</value>
+  </data>
+  <data name="FieldListDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="FieldListDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 240</value>
+  </data>
+  <data name="FieldListDockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FieldListDockPanel1_Container.Name" xml:space="preserve">
+    <value>FieldListDockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;FieldListDockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FieldListDockPanel1_Container.Parent" xml:space="preserve">
+    <value>FieldListDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;FieldListDockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FieldListDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="FieldListDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 240</value>
+  </data>
+  <data name="FieldListDockPanel1.Text" xml:space="preserve">
+    <value>Field List</value>
+  </data>
+  <data name="&gt;&gt;FieldListDockPanel1.Name" xml:space="preserve">
+    <value>FieldListDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;FieldListDockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.FieldListDockPanel, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FieldListDockPanel1.Parent" xml:space="preserve">
+    <value>panelContainer2</value>
+  </data>
+  <data name="&gt;&gt;FieldListDockPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ReportExplorerDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ReportExplorerDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 240</value>
+  </data>
+  <data name="ReportExplorerDockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ReportExplorerDockPanel1_Container.Name" xml:space="preserve">
+    <value>ReportExplorerDockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;ReportExplorerDockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ReportExplorerDockPanel1_Container.Parent" xml:space="preserve">
+    <value>ReportExplorerDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;ReportExplorerDockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ReportExplorerDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="ReportExplorerDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 240</value>
+  </data>
+  <data name="ReportExplorerDockPanel1.Text" xml:space="preserve">
+    <value>Report Explorer</value>
+  </data>
+  <data name="&gt;&gt;ReportExplorerDockPanel1.Name" xml:space="preserve">
+    <value>ReportExplorerDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;ReportExplorerDockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.ReportExplorerDockPanel, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ReportExplorerDockPanel1.Parent" xml:space="preserve">
+    <value>panelContainer2</value>
+  </data>
+  <data name="&gt;&gt;ReportExplorerDockPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelContainer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 296</value>
+  </data>
+  <data name="panelContainer2.Text" xml:space="preserve">
+    <value>panelContainer2</value>
+  </data>
+  <data name="&gt;&gt;panelContainer2.Name" xml:space="preserve">
+    <value>panelContainer2</value>
+  </data>
+  <data name="&gt;&gt;panelContainer2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelContainer2.Parent" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;panelContainer2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ReportGalleryDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ReportGalleryDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 241</value>
+  </data>
+  <data name="ReportGalleryDockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ReportGalleryDockPanel1_Container.Name" xml:space="preserve">
+    <value>ReportGalleryDockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;ReportGalleryDockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ReportGalleryDockPanel1_Container.Parent" xml:space="preserve">
+    <value>ReportGalleryDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;ReportGalleryDockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ReportGalleryDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="ReportGalleryDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 241</value>
+  </data>
+  <data name="ReportGalleryDockPanel1.Text" xml:space="preserve">
+    <value>Report Gallery</value>
+  </data>
+  <data name="&gt;&gt;ReportGalleryDockPanel1.Name" xml:space="preserve">
+    <value>ReportGalleryDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;ReportGalleryDockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.ReportGalleryDockPanel, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ReportGalleryDockPanel1.Parent" xml:space="preserve">
+    <value>panelContainer3</value>
+  </data>
+  <data name="&gt;&gt;ReportGalleryDockPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PropertyGridDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PropertyGridDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 241</value>
+  </data>
+  <data name="PropertyGridDockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PropertyGridDockPanel1_Container.Name" xml:space="preserve">
+    <value>PropertyGridDockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;PropertyGridDockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PropertyGridDockPanel1_Container.Parent" xml:space="preserve">
+    <value>PropertyGridDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;PropertyGridDockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PropertyGridDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 23</value>
+  </data>
+  <data name="PropertyGridDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 241</value>
+  </data>
+  <data name="PropertyGridDockPanel1.Text" xml:space="preserve">
+    <value>Property Grid</value>
+  </data>
+  <data name="&gt;&gt;PropertyGridDockPanel1.Name" xml:space="preserve">
+    <value>PropertyGridDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;PropertyGridDockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.PropertyGridDockPanel, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;PropertyGridDockPanel1.Parent" xml:space="preserve">
+    <value>panelContainer3</value>
+  </data>
+  <data name="&gt;&gt;PropertyGridDockPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelContainer3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 296</value>
+  </data>
+  <data name="panelContainer3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 296</value>
+  </data>
+  <data name="panelContainer3.Text" xml:space="preserve">
+    <value>panelContainer3</value>
+  </data>
+  <data name="&gt;&gt;panelContainer3.Name" xml:space="preserve">
+    <value>panelContainer3</value>
+  </data>
+  <data name="&gt;&gt;panelContainer3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelContainer3.Parent" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;panelContainer3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1034, 84</value>
+  </data>
+  <data name="panelContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 592</value>
+  </data>
+  <data name="panelContainer1.Text" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.Name" xml:space="preserve">
+    <value>panelContainer1</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ErrorListDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ErrorListDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>997, 144</value>
+  </data>
+  <data name="ErrorListDockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ErrorListDockPanel1_Container.Name" xml:space="preserve">
+    <value>ErrorListDockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;ErrorListDockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ErrorListDockPanel1_Container.Parent" xml:space="preserve">
+    <value>ErrorListDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;ErrorListDockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ErrorListDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="ErrorListDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>997, 144</value>
+  </data>
+  <data name="ErrorListDockPanel1.Text" xml:space="preserve">
+    <value>Scripts Errors</value>
+  </data>
+  <data name="&gt;&gt;ErrorListDockPanel1.Name" xml:space="preserve">
+    <value>ErrorListDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;ErrorListDockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.ErrorListDockPanel, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ErrorListDockPanel1.Parent" xml:space="preserve">
+    <value>panelContainer4</value>
+  </data>
+  <data name="&gt;&gt;ErrorListDockPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GroupAndSortDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="GroupAndSortDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
+    <value>997, 144</value>
+  </data>
+  <data name="GroupAndSortDockPanel1_Container.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GroupAndSortDockPanel1_Container.Name" xml:space="preserve">
+    <value>GroupAndSortDockPanel1_Container</value>
+  </data>
+  <data name="&gt;&gt;GroupAndSortDockPanel1_Container.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GroupAndSortDockPanel1_Container.Parent" xml:space="preserve">
+    <value>GroupAndSortDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;GroupAndSortDockPanel1_Container.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GroupAndSortDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="GroupAndSortDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>997, 144</value>
+  </data>
+  <data name="GroupAndSortDockPanel1.Text" xml:space="preserve">
+    <value>Group and Sort</value>
+  </data>
+  <data name="&gt;&gt;GroupAndSortDockPanel1.Name" xml:space="preserve">
+    <value>GroupAndSortDockPanel1</value>
+  </data>
+  <data name="&gt;&gt;GroupAndSortDockPanel1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.GroupAndSortDockPanel, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;GroupAndSortDockPanel1.Parent" xml:space="preserve">
+    <value>panelContainer4</value>
+  </data>
+  <data name="&gt;&gt;GroupAndSortDockPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelContainer4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 476</value>
+  </data>
+  <data name="panelContainer4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1005, 200</value>
+  </data>
+  <data name="panelContainer4.Text" xml:space="preserve">
+    <value>panelContainer4</value>
+  </data>
+  <data name="&gt;&gt;panelContainer4.Name" xml:space="preserve">
+    <value>panelContainer4</value>
+  </data>
+  <data name="&gt;&gt;panelContainer4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;panelContainer4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelContainer4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;XrDesignBarManager1.Name" xml:space="preserve">
+    <value>XrDesignBarManager1</value>
+  </data>
+  <data name="&gt;&gt;XrDesignBarManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.XRDesignBarManager, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Bar2.Name" xml:space="preserve">
+    <value>Bar2</value>
+  </data>
+  <data name="&gt;&gt;Bar2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DesignBar1.Name" xml:space="preserve">
+    <value>DesignBar1</value>
+  </data>
+  <data name="&gt;&gt;DesignBar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiFile.Name" xml:space="preserve">
+    <value>msiFile</value>
+  </data>
+  <data name="&gt;&gt;msiFile.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem1.Name" xml:space="preserve">
+    <value>CommandBarItem1</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem2.Name" xml:space="preserve">
+    <value>CommandBarItem2</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiOpenFile.Name" xml:space="preserve">
+    <value>bbiOpenFile</value>
+  </data>
+  <data name="&gt;&gt;bbiOpenFile.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSaveFile.Name" xml:space="preserve">
+    <value>bbiSaveFile</value>
+  </data>
+  <data name="&gt;&gt;bbiSaveFile.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem3.Name" xml:space="preserve">
+    <value>CommandBarItem3</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem3.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem7.Name" xml:space="preserve">
+    <value>CommandBarItem7</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem7.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem11.Name" xml:space="preserve">
+    <value>CommandBarItem11</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem11.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem4.Name" xml:space="preserve">
+    <value>CommandBarItem4</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem4.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiEdit.Name" xml:space="preserve">
+    <value>msiEdit</value>
+  </data>
+  <data name="&gt;&gt;msiEdit.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiUndo.Name" xml:space="preserve">
+    <value>bbiUndo</value>
+  </data>
+  <data name="&gt;&gt;bbiUndo.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiRedo.Name" xml:space="preserve">
+    <value>bbiRedo</value>
+  </data>
+  <data name="&gt;&gt;bbiRedo.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiCut.Name" xml:space="preserve">
+    <value>bbiCut</value>
+  </data>
+  <data name="&gt;&gt;bbiCut.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiCopy.Name" xml:space="preserve">
+    <value>bbiCopy</value>
+  </data>
+  <data name="&gt;&gt;bbiCopy.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiPaste.Name" xml:space="preserve">
+    <value>bbiPaste</value>
+  </data>
+  <data name="&gt;&gt;bbiPaste.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem5.Name" xml:space="preserve">
+    <value>CommandBarItem5</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem5.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem6.Name" xml:space="preserve">
+    <value>CommandBarItem6</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem6.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiTabButtons.Name" xml:space="preserve">
+    <value>msiTabButtons</value>
+  </data>
+  <data name="&gt;&gt;msiTabButtons.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarReportTabButtonsListItem1.Name" xml:space="preserve">
+    <value>BarReportTabButtonsListItem1</value>
+  </data>
+  <data name="&gt;&gt;BarReportTabButtonsListItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.BarReportTabButtonsListItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarSubItem1.Name" xml:space="preserve">
+    <value>BarSubItem1</value>
+  </data>
+  <data name="&gt;&gt;BarSubItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;XrBarToolbarsListItem1.Name" xml:space="preserve">
+    <value>XrBarToolbarsListItem1</value>
+  </data>
+  <data name="&gt;&gt;XrBarToolbarsListItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.XRBarToolbarsListItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarSubItem2.Name" xml:space="preserve">
+    <value>BarSubItem2</value>
+  </data>
+  <data name="&gt;&gt;BarSubItem2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BarDockPanelsListItem1.Name" xml:space="preserve">
+    <value>BarDockPanelsListItem1</value>
+  </data>
+  <data name="&gt;&gt;BarDockPanelsListItem1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.BarDockPanelsListItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiFormat.Name" xml:space="preserve">
+    <value>msiFormat</value>
+  </data>
+  <data name="&gt;&gt;msiFormat.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiForeColor.Name" xml:space="preserve">
+    <value>bbiForeColor</value>
+  </data>
+  <data name="&gt;&gt;bbiForeColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandColorBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiBackColor.Name" xml:space="preserve">
+    <value>bbiBackColor</value>
+  </data>
+  <data name="&gt;&gt;bbiBackColor.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandColorBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiFont.Name" xml:space="preserve">
+    <value>msiFont</value>
+  </data>
+  <data name="&gt;&gt;msiFont.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiFontBold.Name" xml:space="preserve">
+    <value>bbiFontBold</value>
+  </data>
+  <data name="&gt;&gt;bbiFontBold.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiFontItalic.Name" xml:space="preserve">
+    <value>bbiFontItalic</value>
+  </data>
+  <data name="&gt;&gt;bbiFontItalic.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiFontUnderline.Name" xml:space="preserve">
+    <value>bbiFontUnderline</value>
+  </data>
+  <data name="&gt;&gt;bbiFontUnderline.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiJustify.Name" xml:space="preserve">
+    <value>msiJustify</value>
+  </data>
+  <data name="&gt;&gt;msiJustify.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiJustifyLeft.Name" xml:space="preserve">
+    <value>bbiJustifyLeft</value>
+  </data>
+  <data name="&gt;&gt;bbiJustifyLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiJustifyCenter.Name" xml:space="preserve">
+    <value>bbiJustifyCenter</value>
+  </data>
+  <data name="&gt;&gt;bbiJustifyCenter.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiJustifyRight.Name" xml:space="preserve">
+    <value>bbiJustifyRight</value>
+  </data>
+  <data name="&gt;&gt;bbiJustifyRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiJustifyJustify.Name" xml:space="preserve">
+    <value>bbiJustifyJustify</value>
+  </data>
+  <data name="&gt;&gt;bbiJustifyJustify.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiAlign.Name" xml:space="preserve">
+    <value>msiAlign</value>
+  </data>
+  <data name="&gt;&gt;msiAlign.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignLeft.Name" xml:space="preserve">
+    <value>bbiAlignLeft</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignVerticalCenters.Name" xml:space="preserve">
+    <value>bbiAlignVerticalCenters</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignVerticalCenters.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignRight.Name" xml:space="preserve">
+    <value>bbiAlignRight</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignTop.Name" xml:space="preserve">
+    <value>bbiAlignTop</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignTop.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignHorizontalCenters.Name" xml:space="preserve">
+    <value>bbiAlignHorizontalCenters</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignHorizontalCenters.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignBottom.Name" xml:space="preserve">
+    <value>bbiAlignBottom</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignBottom.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignToGrid.Name" xml:space="preserve">
+    <value>bbiAlignToGrid</value>
+  </data>
+  <data name="&gt;&gt;bbiAlignToGrid.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiSameSize.Name" xml:space="preserve">
+    <value>msiSameSize</value>
+  </data>
+  <data name="&gt;&gt;msiSameSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSizeToControlWidth.Name" xml:space="preserve">
+    <value>bbiSizeToControlWidth</value>
+  </data>
+  <data name="&gt;&gt;bbiSizeToControlWidth.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSizeToGrid.Name" xml:space="preserve">
+    <value>bbiSizeToGrid</value>
+  </data>
+  <data name="&gt;&gt;bbiSizeToGrid.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSizeToControlHeight.Name" xml:space="preserve">
+    <value>bbiSizeToControlHeight</value>
+  </data>
+  <data name="&gt;&gt;bbiSizeToControlHeight.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSizeToControl.Name" xml:space="preserve">
+    <value>bbiSizeToControl</value>
+  </data>
+  <data name="&gt;&gt;bbiSizeToControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiHorizontalSpacing.Name" xml:space="preserve">
+    <value>msiHorizontalSpacing</value>
+  </data>
+  <data name="&gt;&gt;msiHorizontalSpacing.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiHorizSpaceMakeEqual.Name" xml:space="preserve">
+    <value>bbiHorizSpaceMakeEqual</value>
+  </data>
+  <data name="&gt;&gt;bbiHorizSpaceMakeEqual.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiHorizSpaceIncrease.Name" xml:space="preserve">
+    <value>bbiHorizSpaceIncrease</value>
+  </data>
+  <data name="&gt;&gt;bbiHorizSpaceIncrease.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiHorizSpaceDecrease.Name" xml:space="preserve">
+    <value>bbiHorizSpaceDecrease</value>
+  </data>
+  <data name="&gt;&gt;bbiHorizSpaceDecrease.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiHorizSpaceConcatenate.Name" xml:space="preserve">
+    <value>bbiHorizSpaceConcatenate</value>
+  </data>
+  <data name="&gt;&gt;bbiHorizSpaceConcatenate.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiVerticalSpacing.Name" xml:space="preserve">
+    <value>msiVerticalSpacing</value>
+  </data>
+  <data name="&gt;&gt;msiVerticalSpacing.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiVertSpaceMakeEqual.Name" xml:space="preserve">
+    <value>bbiVertSpaceMakeEqual</value>
+  </data>
+  <data name="&gt;&gt;bbiVertSpaceMakeEqual.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiVertSpaceIncrease.Name" xml:space="preserve">
+    <value>bbiVertSpaceIncrease</value>
+  </data>
+  <data name="&gt;&gt;bbiVertSpaceIncrease.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiVertSpaceDecrease.Name" xml:space="preserve">
+    <value>bbiVertSpaceDecrease</value>
+  </data>
+  <data name="&gt;&gt;bbiVertSpaceDecrease.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiVertSpaceConcatenate.Name" xml:space="preserve">
+    <value>bbiVertSpaceConcatenate</value>
+  </data>
+  <data name="&gt;&gt;bbiVertSpaceConcatenate.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bsiCenter.Name" xml:space="preserve">
+    <value>bsiCenter</value>
+  </data>
+  <data name="&gt;&gt;bsiCenter.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiCenterHorizontally.Name" xml:space="preserve">
+    <value>bbiCenterHorizontally</value>
+  </data>
+  <data name="&gt;&gt;bbiCenterHorizontally.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiCenterVertically.Name" xml:space="preserve">
+    <value>bbiCenterVertically</value>
+  </data>
+  <data name="&gt;&gt;bbiCenterVertically.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiOrder.Name" xml:space="preserve">
+    <value>msiOrder</value>
+  </data>
+  <data name="&gt;&gt;msiOrder.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiBringToFront.Name" xml:space="preserve">
+    <value>bbiBringToFront</value>
+  </data>
+  <data name="&gt;&gt;bbiBringToFront.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiSendToBack.Name" xml:space="preserve">
+    <value>bbiSendToBack</value>
+  </data>
+  <data name="&gt;&gt;bbiSendToBack.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiWindow.Name" xml:space="preserve">
+    <value>msiWindow</value>
+  </data>
+  <data name="&gt;&gt;msiWindow.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiWindowInterface.Name" xml:space="preserve">
+    <value>msiWindowInterface</value>
+  </data>
+  <data name="&gt;&gt;msiWindowInterface.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarCheckItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem8.Name" xml:space="preserve">
+    <value>CommandBarItem8</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem8.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem9.Name" xml:space="preserve">
+    <value>CommandBarItem9</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem9.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem10.Name" xml:space="preserve">
+    <value>CommandBarItem10</value>
+  </data>
+  <data name="&gt;&gt;CommandBarItem10.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;msiWindows.Name" xml:space="preserve">
+    <value>msiWindows</value>
+  </data>
+  <data name="&gt;&gt;msiWindows.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarMdiChildrenListItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DesignBar2.Name" xml:space="preserve">
+    <value>DesignBar2</value>
+  </data>
+  <data name="&gt;&gt;DesignBar2.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DesignBar3.Name" xml:space="preserve">
+    <value>DesignBar3</value>
+  </data>
+  <data name="&gt;&gt;DesignBar3.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;beiFontName.Name" xml:space="preserve">
+    <value>beiFontName</value>
+  </data>
+  <data name="&gt;&gt;beiFontName.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RecentlyUsedItemsComboBox1.Name" xml:space="preserve">
+    <value>RecentlyUsedItemsComboBox1</value>
+  </data>
+  <data name="&gt;&gt;RecentlyUsedItemsComboBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.RecentlyUsedItemsComboBox, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;beiFontSize.Name" xml:space="preserve">
+    <value>beiFontSize</value>
+  </data>
+  <data name="&gt;&gt;beiFontSize.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DesignRepositoryItemComboBox1.Name" xml:space="preserve">
+    <value>DesignRepositoryItemComboBox1</value>
+  </data>
+  <data name="&gt;&gt;DesignRepositoryItemComboBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DesignBar4.Name" xml:space="preserve">
+    <value>DesignBar4</value>
+  </data>
+  <data name="&gt;&gt;DesignBar4.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DesignBar5.Name" xml:space="preserve">
+    <value>DesignBar5</value>
+  </data>
+  <data name="&gt;&gt;DesignBar5.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bsiHint.Name" xml:space="preserve">
+    <value>bsiHint</value>
+  </data>
+  <data name="&gt;&gt;bsiHint.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;Bar1.Name" xml:space="preserve">
+    <value>Bar1</value>
+  </data>
+  <data name="&gt;&gt;Bar1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiZoomOut.Name" xml:space="preserve">
+    <value>bbiZoomOut</value>
+  </data>
+  <data name="&gt;&gt;bbiZoomOut.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiZoom.Name" xml:space="preserve">
+    <value>bbiZoom</value>
+  </data>
+  <data name="&gt;&gt;bbiZoom.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.XRZoomBarEditItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DesignRepositoryItemComboBox2.Name" xml:space="preserve">
+    <value>DesignRepositoryItemComboBox2</value>
+  </data>
+  <data name="&gt;&gt;DesignRepositoryItemComboBox2.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiZoomIn.Name" xml:space="preserve">
+    <value>bbiZoomIn</value>
+  </data>
+  <data name="&gt;&gt;bbiZoomIn.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;XrDesignDockManager1.Name" xml:space="preserve">
+    <value>XrDesignDockManager1</value>
+  </data>
+  <data name="&gt;&gt;XrDesignDockManager1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.XRDesignDockManager, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ReportDesigner1.Name" xml:space="preserve">
+    <value>ReportDesigner1</value>
+  </data>
+  <data name="&gt;&gt;ReportDesigner1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.UserDesigner.XRDesignMdiController, DevExpress.XtraReports.v17.1.Extensions, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="XrDesignDockManager1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v17.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxNy4xLCBWZXJzaW9uPTE3LjEu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAAChE
+        ZXZFeHByZXNzLlV0aWxzLkltYWdlQ29sbGVjdGlvblN0cmVhbWVyAAAAAAIAAAAL
+</value>
+  </data>
+  <data name="XrDesignBarManager1.ImageStream" type="DevExpress.Utils.ImageCollectionStreamer, DevExpress.Utils.v17.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpEZXZFeHByZXNzLlV0aWxzLnYxNy4xLCBWZXJzaW9uPTE3LjEu
+        Ny4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAAChE
+        ZXZFeHByZXNzLlV0aWxzLkltYWdlQ29sbGVjdGlvblN0cmVhbWVyAAAAAAIAAAAL
+</value>
+  </data>
+  <metadata name="ReportDesigner1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

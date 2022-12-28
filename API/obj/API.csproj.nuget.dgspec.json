@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mts_e\\Desktop\\GoldSystem-main\\API\\API.csproj": {}
+    "C:\\Source Code\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mts_e\\Desktop\\GoldSystem-main\\API\\API.csproj": {
+    "C:\\Source Code\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mts_e\\Desktop\\GoldSystem-main\\API\\API.csproj",
+        "projectUniqueName": "C:\\Source Code\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\mts_e\\Desktop\\GoldSystem-main\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\mts_e\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mts_e\\Desktop\\GoldSystem-main\\API\\obj\\",
+        "projectPath": "C:\\Source Code\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Source Code\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mts_e\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.devexpress.com/YjHWjA5WiNLkKokcnNIFltO9YEcTUsk221lReOjq5Y9l6UggWp/api": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -61,6 +60,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
