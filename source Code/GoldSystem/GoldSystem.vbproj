@@ -223,6 +223,12 @@
     <Compile Include="Gold\Forms\FrmGoldPurchase.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Gold\Forms\FrmGoldPurchaseFromSupplier.Designer.vb">
+      <DependentUpon>FrmGoldPurchaseFromSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmGoldPurchaseFromSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Gold\Forms\frmReport.Designer.vb">
       <DependentUpon>frmReport.vb</DependentUpon>
     </Compile>
@@ -328,6 +334,12 @@
     <Compile Include="Main\Forms\FrmMaxmizeGold.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Main\Forms\UCSupplier.Designer.vb">
+      <DependentUpon>UCSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Forms\UCSupplier.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -358,6 +370,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\FrmGoldPurchase.resx">
       <DependentUpon>FrmGoldPurchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\FrmGoldPurchaseFromSupplier.resx">
+      <DependentUpon>FrmGoldPurchaseFromSupplier.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\frmReport.resx">
       <DependentUpon>frmReport.vb</DependentUpon>
@@ -415,6 +430,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Forms\FrmMaxmizeGold.resx">
       <DependentUpon>FrmMaxmizeGold.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Forms\UCSupplier.resx">
+      <DependentUpon>UCSupplier.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">

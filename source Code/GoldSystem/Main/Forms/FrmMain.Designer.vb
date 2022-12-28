@@ -967,7 +967,7 @@ Partial Class FrmMain
         Me.pnlYear.Controls.Add(Me.Guna2ProgressBar1)
         Me.pnlYear.Controls.Add(Me.Guna2CircleProgressBar1)
         Me.pnlYear.FillColor = System.Drawing.Color.White
-        Me.pnlYear.Location = New System.Drawing.Point(18, 323)
+        Me.pnlYear.Location = New System.Drawing.Point(18, 298)
         Me.pnlYear.Name = "pnlYear"
         Me.pnlYear.ShadowDecoration.BorderRadius = 15
         Me.pnlYear.ShadowDecoration.CustomizableEdges.BottomLeft = False

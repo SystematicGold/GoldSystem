@@ -23,14 +23,14 @@ Partial Class UCGoldAddItem
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UCGoldAddItem))
-        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.gbItemData = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.lblNote = New System.Windows.Forms.Label()
         Me.txtNote = New System.Windows.Forms.TextBox()
@@ -87,6 +87,8 @@ Partial Class UCGoldAddItem
         Me.Column19 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.cmbSupplierInvoiceNo = New System.Windows.Forms.ComboBox()
+        Me.lblSupplierInvoiceNo = New System.Windows.Forms.Label()
         Me.gbItemData.SuspendLayout()
         CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -123,6 +125,7 @@ Partial Class UCGoldAddItem
         Me.gbItemData.Controls.Add(Me.txtCostPerGram)
         Me.gbItemData.Controls.Add(Me.txtBarCode)
         Me.gbItemData.Controls.Add(Me.txtCostPerPiece)
+        Me.gbItemData.Controls.Add(Me.lblSupplierInvoiceNo)
         Me.gbItemData.Controls.Add(Me.lblSupplier)
         Me.gbItemData.Controls.Add(Me.lblMakingCharge)
         Me.gbItemData.Controls.Add(Me.lblCostPerGram)
@@ -137,6 +140,7 @@ Partial Class UCGoldAddItem
         Me.gbItemData.Controls.Add(Me.LblSymbol)
         Me.gbItemData.Controls.Add(Me.cmbName)
         Me.gbItemData.Controls.Add(Me.lblCountryOfOrigin)
+        Me.gbItemData.Controls.Add(Me.cmbSupplierInvoiceNo)
         Me.gbItemData.Controls.Add(Me.cmbSupplier)
         Me.gbItemData.Controls.Add(Me.txtItemNo)
         Me.gbItemData.Controls.Add(Me.lblNoOfPieces)
@@ -163,7 +167,7 @@ Partial Class UCGoldAddItem
         Me.lblNote.Location = New System.Drawing.Point(180, 160)
         Me.lblNote.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblNote.Name = "lblNote"
-        Me.lblNote.Size = New System.Drawing.Size(660, 27)
+        Me.lblNote.Size = New System.Drawing.Size(495, 27)
         Me.lblNote.TabIndex = 114
         Me.lblNote.Text = "ملاحظات"
         Me.lblNote.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -179,7 +183,7 @@ Partial Class UCGoldAddItem
         Me.txtNote.Name = "txtNote"
         Me.txtNote.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.txtNote.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtNote.Size = New System.Drawing.Size(660, 27)
+        Me.txtNote.Size = New System.Drawing.Size(495, 27)
         Me.txtNote.TabIndex = 115
         Me.txtNote.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -189,7 +193,7 @@ Partial Class UCGoldAddItem
         Me.dtDateAdd.CustomFormat = "dd/MM/yyyy"
         Me.dtDateAdd.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtDateAdd.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtDateAdd.Location = New System.Drawing.Point(345, 131)
+        Me.dtDateAdd.Location = New System.Drawing.Point(180, 131)
         Me.dtDateAdd.Name = "dtDateAdd"
         Me.dtDateAdd.Size = New System.Drawing.Size(165, 27)
         Me.dtDateAdd.TabIndex = 113
@@ -200,7 +204,7 @@ Partial Class UCGoldAddItem
         Me.lblDateAdd.BackColor = System.Drawing.Color.Transparent
         Me.lblDateAdd.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDateAdd.ForeColor = System.Drawing.Color.Black
-        Me.lblDateAdd.Location = New System.Drawing.Point(345, 100)
+        Me.lblDateAdd.Location = New System.Drawing.Point(180, 100)
         Me.lblDateAdd.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDateAdd.Name = "lblDateAdd"
         Me.lblDateAdd.Size = New System.Drawing.Size(165, 27)
@@ -214,7 +218,7 @@ Partial Class UCGoldAddItem
         Me.cmbItemStatus.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbItemStatus.FormattingEnabled = True
         Me.cmbItemStatus.Items.AddRange(New Object() {"جديد", "مستعمل"})
-        Me.cmbItemStatus.Location = New System.Drawing.Point(675, 131)
+        Me.cmbItemStatus.Location = New System.Drawing.Point(510, 131)
         Me.cmbItemStatus.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbItemStatus.Name = "cmbItemStatus"
         Me.cmbItemStatus.Size = New System.Drawing.Size(165, 27)
@@ -226,7 +230,7 @@ Partial Class UCGoldAddItem
         Me.lblItemStatus.BackColor = System.Drawing.Color.Transparent
         Me.lblItemStatus.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblItemStatus.ForeColor = System.Drawing.Color.Black
-        Me.lblItemStatus.Location = New System.Drawing.Point(675, 100)
+        Me.lblItemStatus.Location = New System.Drawing.Point(510, 100)
         Me.lblItemStatus.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblItemStatus.Name = "lblItemStatus"
         Me.lblItemStatus.Size = New System.Drawing.Size(165, 27)
@@ -240,7 +244,7 @@ Partial Class UCGoldAddItem
         Me.cmbTaxExempt.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbTaxExempt.FormattingEnabled = True
         Me.cmbTaxExempt.Items.AddRange(New Object() {"معفي", "غير معفي"})
-        Me.cmbTaxExempt.Location = New System.Drawing.Point(840, 131)
+        Me.cmbTaxExempt.Location = New System.Drawing.Point(675, 131)
         Me.cmbTaxExempt.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbTaxExempt.Name = "cmbTaxExempt"
         Me.cmbTaxExempt.Size = New System.Drawing.Size(165, 27)
@@ -252,7 +256,7 @@ Partial Class UCGoldAddItem
         Me.lblTaxExempt.BackColor = System.Drawing.Color.Transparent
         Me.lblTaxExempt.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTaxExempt.ForeColor = System.Drawing.Color.Black
-        Me.lblTaxExempt.Location = New System.Drawing.Point(840, 100)
+        Me.lblTaxExempt.Location = New System.Drawing.Point(675, 100)
         Me.lblTaxExempt.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTaxExempt.Name = "lblTaxExempt"
         Me.lblTaxExempt.Size = New System.Drawing.Size(165, 27)
@@ -266,7 +270,7 @@ Partial Class UCGoldAddItem
         Me.dtDateOfManufacture.CustomFormat = "dd/MM/yyyy"
         Me.dtDateOfManufacture.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtDateOfManufacture.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtDateOfManufacture.Location = New System.Drawing.Point(510, 131)
+        Me.dtDateOfManufacture.Location = New System.Drawing.Point(345, 131)
         Me.dtDateOfManufacture.Name = "dtDateOfManufacture"
         Me.dtDateOfManufacture.Size = New System.Drawing.Size(165, 27)
         Me.dtDateOfManufacture.TabIndex = 107
@@ -385,7 +389,7 @@ Partial Class UCGoldAddItem
         Me.lblDateOfManufacture.BackColor = System.Drawing.Color.Transparent
         Me.lblDateOfManufacture.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDateOfManufacture.ForeColor = System.Drawing.Color.Black
-        Me.lblDateOfManufacture.Location = New System.Drawing.Point(510, 100)
+        Me.lblDateOfManufacture.Location = New System.Drawing.Point(345, 100)
         Me.lblDateOfManufacture.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDateOfManufacture.Name = "lblDateOfManufacture"
         Me.lblDateOfManufacture.Size = New System.Drawing.Size(165, 27)
@@ -399,7 +403,7 @@ Partial Class UCGoldAddItem
         Me.lblBarCode.BackColor = System.Drawing.Color.Transparent
         Me.lblBarCode.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblBarCode.ForeColor = System.Drawing.Color.Black
-        Me.lblBarCode.Location = New System.Drawing.Point(840, 160)
+        Me.lblBarCode.Location = New System.Drawing.Point(675, 160)
         Me.lblBarCode.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblBarCode.Name = "lblBarCode"
         Me.lblBarCode.Size = New System.Drawing.Size(165, 27)
@@ -425,7 +429,7 @@ Partial Class UCGoldAddItem
         Me.txtBarCode.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtBarCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtBarCode.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBarCode.Location = New System.Drawing.Point(840, 187)
+        Me.txtBarCode.Location = New System.Drawing.Point(675, 187)
         Me.txtBarCode.Margin = New System.Windows.Forms.Padding(4)
         Me.txtBarCode.Name = "txtBarCode"
         Me.txtBarCode.Size = New System.Drawing.Size(165, 27)
@@ -451,7 +455,7 @@ Partial Class UCGoldAddItem
         Me.lblSupplier.BackColor = System.Drawing.Color.Transparent
         Me.lblSupplier.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSupplier.ForeColor = System.Drawing.Color.Black
-        Me.lblSupplier.Location = New System.Drawing.Point(1005, 100)
+        Me.lblSupplier.Location = New System.Drawing.Point(1005, 98)
         Me.lblSupplier.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblSupplier.Name = "lblSupplier"
         Me.lblSupplier.Size = New System.Drawing.Size(165, 27)
@@ -533,7 +537,7 @@ Partial Class UCGoldAddItem
         Me.txtNoOfPieces.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtNoOfPieces.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNoOfPieces.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNoOfPieces.Location = New System.Drawing.Point(180, 131)
+        Me.txtNoOfPieces.Location = New System.Drawing.Point(1170, 187)
         Me.txtNoOfPieces.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNoOfPieces.Name = "txtNoOfPieces"
         Me.txtNoOfPieces.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -572,7 +576,7 @@ Partial Class UCGoldAddItem
         Me.lblItemNo.BackColor = System.Drawing.Color.Transparent
         Me.lblItemNo.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblItemNo.ForeColor = System.Drawing.Color.Black
-        Me.lblItemNo.Location = New System.Drawing.Point(1170, 160)
+        Me.lblItemNo.Location = New System.Drawing.Point(1005, 160)
         Me.lblItemNo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblItemNo.Name = "lblItemNo"
         Me.lblItemNo.Size = New System.Drawing.Size(165, 27)
@@ -597,7 +601,7 @@ Partial Class UCGoldAddItem
         Me.LblSymbol.BackColor = System.Drawing.Color.Transparent
         Me.LblSymbol.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblSymbol.ForeColor = System.Drawing.Color.Black
-        Me.LblSymbol.Location = New System.Drawing.Point(1005, 160)
+        Me.LblSymbol.Location = New System.Drawing.Point(840, 160)
         Me.LblSymbol.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblSymbol.Name = "LblSymbol"
         Me.LblSymbol.Size = New System.Drawing.Size(165, 27)
@@ -646,7 +650,7 @@ Partial Class UCGoldAddItem
         Me.txtItemNo.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtItemNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtItemNo.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtItemNo.Location = New System.Drawing.Point(1170, 187)
+        Me.txtItemNo.Location = New System.Drawing.Point(1005, 187)
         Me.txtItemNo.Margin = New System.Windows.Forms.Padding(4)
         Me.txtItemNo.Name = "txtItemNo"
         Me.txtItemNo.Size = New System.Drawing.Size(165, 27)
@@ -659,7 +663,7 @@ Partial Class UCGoldAddItem
         Me.lblNoOfPieces.BackColor = System.Drawing.Color.Transparent
         Me.lblNoOfPieces.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblNoOfPieces.ForeColor = System.Drawing.Color.Black
-        Me.lblNoOfPieces.Location = New System.Drawing.Point(180, 100)
+        Me.lblNoOfPieces.Location = New System.Drawing.Point(1170, 160)
         Me.lblNoOfPieces.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblNoOfPieces.Name = "lblNoOfPieces"
         Me.lblNoOfPieces.Size = New System.Drawing.Size(165, 27)
@@ -672,7 +676,7 @@ Partial Class UCGoldAddItem
         Me.cmbSymbol.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbSymbol.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.cmbSymbol.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbSymbol.Location = New System.Drawing.Point(1005, 187)
+        Me.cmbSymbol.Location = New System.Drawing.Point(840, 187)
         Me.cmbSymbol.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbSymbol.Name = "cmbSymbol"
         Me.cmbSymbol.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -720,9 +724,9 @@ Partial Class UCGoldAddItem
         Me.gbStoneData.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.gbStoneData.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.gbStoneData.ForeColor = System.Drawing.Color.Black
-        Me.gbStoneData.Location = New System.Drawing.Point(0, 225)
+        Me.gbStoneData.Location = New System.Drawing.Point(0, 223)
         Me.gbStoneData.Name = "gbStoneData"
-        Me.gbStoneData.Size = New System.Drawing.Size(1350, 130)
+        Me.gbStoneData.Size = New System.Drawing.Size(1350, 132)
         Me.gbStoneData.TabIndex = 3
         Me.gbStoneData.Text = "بيانات الفصوص"
         Me.gbStoneData.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -741,60 +745,60 @@ Partial Class UCGoldAddItem
         Me.pbAddStone.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.pbAddStone.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbAddStone.Size = New System.Drawing.Size(40, 30)
-        ToolTipTitleItem1.Text = "إضافة فص"
-        ToolTipItem1.LeftIndent = 6
-        ToolTipItem1.Text = "اضغط لإضافة فص للقطعة"
-        SuperToolTip1.Items.Add(ToolTipTitleItem1)
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        Me.pbAddStone.SuperTip = SuperToolTip1
+        ToolTipTitleItem2.Text = "إضافة فص"
+        ToolTipItem2.LeftIndent = 6
+        ToolTipItem2.Text = "اضغط لإضافة فص للقطعة"
+        SuperToolTip2.Items.Add(ToolTipTitleItem2)
+        SuperToolTip2.Items.Add(ToolTipItem2)
+        Me.pbAddStone.SuperTip = SuperToolTip2
         Me.pbAddStone.TabIndex = 101
         '
         'DgvStone
         '
         Me.DgvStone.AllowUserToAddRows = False
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DgvStone.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DgvStone.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle6
         Me.DgvStone.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.DgvStone.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DgvStone.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DgvStone.BackgroundColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvStone.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DgvStone.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
         Me.DgvStone.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DgvStone.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column5, Me.Column9, Me.Column20, Me.Column1, Me.Column2, Me.Column3, Me.Column18, Me.Column19, Me.Column4, Me.Column12})
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DgvStone.DefaultCellStyle = DataGridViewCellStyle3
-        Me.DgvStone.Location = New System.Drawing.Point(2, 40)
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DgvStone.DefaultCellStyle = DataGridViewCellStyle8
+        Me.DgvStone.Location = New System.Drawing.Point(3, 40)
         Me.DgvStone.Margin = New System.Windows.Forms.Padding(4)
         Me.DgvStone.Name = "DgvStone"
         Me.DgvStone.ReadOnly = True
         Me.DgvStone.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvStone.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
+        DataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DgvStone.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
         Me.DgvStone.RowHeadersWidth = 10
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle5.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.DgvStone.RowsDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle10.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.DgvStone.RowsDefaultCellStyle = DataGridViewCellStyle10
         Me.DgvStone.RowTemplate.DefaultCellStyle.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
         Me.DgvStone.Size = New System.Drawing.Size(1345, 90)
         Me.DgvStone.TabIndex = 100
@@ -866,6 +870,31 @@ Partial Class UCGoldAddItem
         Me.Column12.HeaderText = "عرض المرفق"
         Me.Column12.Name = "Column12"
         Me.Column12.ReadOnly = True
+        '
+        'cmbSupplierInvoiceNo
+        '
+        Me.cmbSupplierInvoiceNo.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.cmbSupplierInvoiceNo.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbSupplierInvoiceNo.FormattingEnabled = True
+        Me.cmbSupplierInvoiceNo.Location = New System.Drawing.Point(840, 131)
+        Me.cmbSupplierInvoiceNo.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbSupplierInvoiceNo.Name = "cmbSupplierInvoiceNo"
+        Me.cmbSupplierInvoiceNo.Size = New System.Drawing.Size(165, 27)
+        Me.cmbSupplierInvoiceNo.TabIndex = 93
+        '
+        'lblSupplierInvoiceNo
+        '
+        Me.lblSupplierInvoiceNo.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblSupplierInvoiceNo.BackColor = System.Drawing.Color.Transparent
+        Me.lblSupplierInvoiceNo.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSupplierInvoiceNo.ForeColor = System.Drawing.Color.Black
+        Me.lblSupplierInvoiceNo.Location = New System.Drawing.Point(840, 98)
+        Me.lblSupplierInvoiceNo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblSupplierInvoiceNo.Name = "lblSupplierInvoiceNo"
+        Me.lblSupplierInvoiceNo.Size = New System.Drawing.Size(165, 27)
+        Me.lblSupplierInvoiceNo.TabIndex = 60
+        Me.lblSupplierInvoiceNo.Text = "المورد"
+        Me.lblSupplierInvoiceNo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'UCGoldAddItem
         '
@@ -942,4 +971,6 @@ Partial Class UCGoldAddItem
     Friend WithEvents lblDateAdd As Label
     Friend WithEvents lblNote As Label
     Friend WithEvents txtNote As TextBox
+    Friend WithEvents lblSupplierInvoiceNo As Label
+    Friend WithEvents cmbSupplierInvoiceNo As ComboBox
 End Class

@@ -58,8 +58,6 @@ Partial Class FrmGoldPrintBarCode
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
-        Me.PictureEdit5 = New DevExpress.XtraEditors.PictureEdit()
-        Me.PictureEdit4 = New DevExpress.XtraEditors.PictureEdit()
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPane1.SuspendLayout()
         Me.TabNavigationPage1.SuspendLayout()
@@ -78,13 +76,13 @@ Partial Class FrmGoldPrintBarCode
         CType(Me.PictureEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbItem.SuspendLayout()
-        Me.Guna2GroupBox1.SuspendLayout()
-        CType(Me.PictureEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabPane1
         '
+        Me.TabPane1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TabPane1.Controls.Add(Me.TabNavigationPage1)
         Me.TabPane1.Controls.Add(Me.TabNavigationPage2)
         Me.TabPane1.Controls.Add(Me.TabNavigationPage3)
@@ -117,6 +115,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'PictureEdit8
         '
+        Me.PictureEdit8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit8.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit8.EditValue = CType(resources.GetObject("PictureEdit8.EditValue"), Object)
         Me.PictureEdit8.Location = New System.Drawing.Point(938, 0)
@@ -127,6 +126,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'PictureEdit6
         '
+        Me.PictureEdit6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit6.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit6.EditValue = CType(resources.GetObject("PictureEdit6.EditValue"), Object)
         Me.PictureEdit6.Location = New System.Drawing.Point(700, 353)
@@ -140,6 +140,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'PictureEdit7
         '
+        Me.PictureEdit7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit7.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit7.EditValue = CType(resources.GetObject("PictureEdit7.EditValue"), Object)
         Me.PictureEdit7.Location = New System.Drawing.Point(1007, 0)
@@ -150,6 +151,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'Label13
         '
+        Me.Label13.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.Location = New System.Drawing.Point(794, 372)
@@ -160,6 +162,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'Label12
         '
+        Me.Label12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Location = New System.Drawing.Point(794, 353)
@@ -170,6 +173,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'Label11
         '
+        Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Location = New System.Drawing.Point(700, 412)
@@ -180,6 +184,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'Label10
         '
+        Me.Label10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Location = New System.Drawing.Point(744, 412)
@@ -190,6 +195,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'Label9
         '
+        Me.Label9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Location = New System.Drawing.Point(700, 392)
@@ -200,6 +206,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'Label8
         '
+        Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Location = New System.Drawing.Point(744, 392)
@@ -210,11 +217,12 @@ Partial Class FrmGoldPrintBarCode
         '
         'GridControl1
         '
-        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Left
+        Me.GridControl1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GridControl1.Location = New System.Drawing.Point(0, 0)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(469, 614)
+        Me.GridControl1.Size = New System.Drawing.Size(667, 614)
         Me.GridControl1.TabIndex = 2
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -256,6 +264,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'PictureEdit1
         '
+        Me.PictureEdit1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit1.EditValue = Global.GoldSystem.My.Resources.Resources.BarCode1
         Me.PictureEdit1.Location = New System.Drawing.Point(673, 209)
@@ -276,6 +285,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'PictureEdit10
         '
+        Me.PictureEdit10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit10.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit10.EditValue = CType(resources.GetObject("PictureEdit10.EditValue"), Object)
         Me.PictureEdit10.Location = New System.Drawing.Point(938, 0)
@@ -286,6 +296,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'PictureEdit2
         '
+        Me.PictureEdit2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit2.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit2.EditValue = Global.GoldSystem.My.Resources.Resources.BarCode2
         Me.PictureEdit2.Location = New System.Drawing.Point(670, 106)
@@ -297,6 +308,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'PictureEdit9
         '
+        Me.PictureEdit9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit9.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit9.EditValue = CType(resources.GetObject("PictureEdit9.EditValue"), Object)
         Me.PictureEdit9.Location = New System.Drawing.Point(1007, 0)
@@ -316,6 +328,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'PictureEdit12
         '
+        Me.PictureEdit12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit12.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit12.EditValue = CType(resources.GetObject("PictureEdit12.EditValue"), Object)
         Me.PictureEdit12.Location = New System.Drawing.Point(938, 0)
@@ -326,6 +339,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'PictureEdit3
         '
+        Me.PictureEdit3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit3.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit3.EditValue = Global.GoldSystem.My.Resources.Resources.BarCode3
         Me.PictureEdit3.Location = New System.Drawing.Point(670, 115)
@@ -337,6 +351,7 @@ Partial Class FrmGoldPrintBarCode
         '
         'PictureEdit11
         '
+        Me.PictureEdit11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit11.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit11.EditValue = CType(resources.GetObject("PictureEdit11.EditValue"), Object)
         Me.PictureEdit11.Location = New System.Drawing.Point(1007, 0)
@@ -449,12 +464,12 @@ Partial Class FrmGoldPrintBarCode
         '
         'Guna2GroupBox1
         '
+        Me.Guna2GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2GroupBox1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Guna2GroupBox1.BorderColor = System.Drawing.Color.DarkSlateBlue
         Me.Guna2GroupBox1.BorderRadius = 5
         Me.Guna2GroupBox1.BorderThickness = 2
-        Me.Guna2GroupBox1.Controls.Add(Me.PictureEdit5)
-        Me.Guna2GroupBox1.Controls.Add(Me.PictureEdit4)
         Me.Guna2GroupBox1.CustomBorderColor = System.Drawing.Color.DarkSlateBlue
         Me.Guna2GroupBox1.CustomBorderThickness = New System.Windows.Forms.Padding(0)
         Me.Guna2GroupBox1.FillColor = System.Drawing.Color.WhiteSmoke
@@ -466,26 +481,6 @@ Partial Class FrmGoldPrintBarCode
         Me.Guna2GroupBox1.TabIndex = 21
         Me.Guna2GroupBox1.Text = "الأدوات"
         Me.Guna2GroupBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'PictureEdit5
-        '
-        Me.PictureEdit5.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit5.EditValue = CType(resources.GetObject("PictureEdit5.EditValue"), Object)
-        Me.PictureEdit5.Location = New System.Drawing.Point(1207, 4)
-        Me.PictureEdit5.Name = "PictureEdit5"
-        Me.PictureEdit5.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit5.Size = New System.Drawing.Size(63, 60)
-        Me.PictureEdit5.TabIndex = 0
-        '
-        'PictureEdit4
-        '
-        Me.PictureEdit4.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit4.EditValue = CType(resources.GetObject("PictureEdit4.EditValue"), Object)
-        Me.PictureEdit4.Location = New System.Drawing.Point(1276, 4)
-        Me.PictureEdit4.Name = "PictureEdit4"
-        Me.PictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit4.Size = New System.Drawing.Size(63, 60)
-        Me.PictureEdit4.TabIndex = 0
         '
         'FrmGoldPrintBarCode
         '
@@ -518,9 +513,6 @@ Partial Class FrmGoldPrintBarCode
         CType(Me.PictureEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbItem.ResumeLayout(False)
-        Me.Guna2GroupBox1.ResumeLayout(False)
-        CType(Me.PictureEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -534,8 +526,6 @@ Partial Class FrmGoldPrintBarCode
     Friend WithEvents PictureEdit3 As DevExpress.XtraEditors.PictureEdit
     Friend WithEvents gbItem As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents Guna2GroupBox1 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents PictureEdit5 As DevExpress.XtraEditors.PictureEdit
-    Friend WithEvents PictureEdit4 As DevExpress.XtraEditors.PictureEdit
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label

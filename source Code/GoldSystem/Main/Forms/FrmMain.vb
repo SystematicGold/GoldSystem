@@ -143,4 +143,13 @@ Public Class FrmMain
 
         End Try
     End Sub
+
+    Private Sub btnGoldBuyWholeSale_Click(sender As Object, e As EventArgs) Handles btnGoldBuyWholeSale.Click
+        Try
+            FrmGoldPurchaseFromSupplier.Show()
+            FrmGoldPurchaseFromSupplier.UcSupplier1.gbCompanyData.Text = "»Ì«‰«  «·‘—ﬂ… «·„Ê—œ…"
+        Catch ex As Exception
+
+        End Try
+    End Sub
 End Class

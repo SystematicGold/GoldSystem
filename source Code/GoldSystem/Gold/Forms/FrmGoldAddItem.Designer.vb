@@ -44,7 +44,7 @@ Partial Class FrmAdderItem
         Me.btnNew.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnNew.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnNew.ForeColor = System.Drawing.Color.White
-        Me.btnNew.Location = New System.Drawing.Point(744, 526)
+        Me.btnNew.Location = New System.Drawing.Point(1148, 526)
         Me.btnNew.Margin = New System.Windows.Forms.Padding(4)
         Me.btnNew.Name = "btnNew"
         Me.btnNew.Size = New System.Drawing.Size(143, 51)
@@ -62,7 +62,7 @@ Partial Class FrmAdderItem
         Me.btnSave.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnSave.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSave.ForeColor = System.Drawing.Color.White
-        Me.btnSave.Location = New System.Drawing.Point(497, 526)
+        Me.btnSave.Location = New System.Drawing.Point(901, 526)
         Me.btnSave.Margin = New System.Windows.Forms.Padding(4)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(143, 51)
@@ -80,7 +80,7 @@ Partial Class FrmAdderItem
         Me.btnModify.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnModify.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnModify.ForeColor = System.Drawing.Color.White
-        Me.btnModify.Location = New System.Drawing.Point(250, 526)
+        Me.btnModify.Location = New System.Drawing.Point(654, 526)
         Me.btnModify.Margin = New System.Windows.Forms.Padding(4)
         Me.btnModify.Name = "btnModify"
         Me.btnModify.Size = New System.Drawing.Size(143, 51)
@@ -98,7 +98,7 @@ Partial Class FrmAdderItem
         Me.btnClose.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnClose.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnClose.ForeColor = System.Drawing.Color.White
-        Me.btnClose.Location = New System.Drawing.Point(3, 526)
+        Me.btnClose.Location = New System.Drawing.Point(407, 526)
         Me.btnClose.Margin = New System.Windows.Forms.Padding(4)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(143, 51)
@@ -113,7 +113,7 @@ Partial Class FrmAdderItem
         '
         Me.TxtCode.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TxtCode.Font = New System.Drawing.Font("Tahoma", 12.0!)
-        Me.TxtCode.Location = New System.Drawing.Point(-404, 289)
+        Me.TxtCode.Location = New System.Drawing.Point(0, 289)
         Me.TxtCode.Margin = New System.Windows.Forms.Padding(4)
         Me.TxtCode.Name = "TxtCode"
         Me.TxtCode.ReadOnly = True
@@ -128,7 +128,7 @@ Partial Class FrmAdderItem
         Me.ComboBox1.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"عادى", "ثمين"})
-        Me.ComboBox1.Location = New System.Drawing.Point(1105, 465)
+        Me.ComboBox1.Location = New System.Drawing.Point(1509, 465)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(125, 27)
@@ -138,7 +138,7 @@ Partial Class FrmAdderItem
         '
         Me.Label41.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label41.AutoSize = True
-        Me.Label41.Location = New System.Drawing.Point(1135, 433)
+        Me.Label41.Location = New System.Drawing.Point(1539, 433)
         Me.Label41.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(61, 19)
@@ -148,17 +148,18 @@ Partial Class FrmAdderItem
         'AddGoldItem1
         '
         Me.AddGoldItem1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.AddGoldItem1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AddGoldItem1.Location = New System.Drawing.Point(0, 0)
         Me.AddGoldItem1.Margin = New System.Windows.Forms.Padding(4)
         Me.AddGoldItem1.Name = "AddGoldItem1"
-        Me.AddGoldItem1.Size = New System.Drawing.Size(946, 505)
+        Me.AddGoldItem1.Size = New System.Drawing.Size(1350, 505)
         Me.AddGoldItem1.TabIndex = 99
         '
         'FrmAdderItem
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(946, 591)
+        Me.ClientSize = New System.Drawing.Size(1350, 591)
         Me.Controls.Add(Me.AddGoldItem1)
         Me.Controls.Add(Me.TxtCode)
         Me.Controls.Add(Me.ComboBox1)
@@ -170,7 +171,7 @@ Partial Class FrmAdderItem
         Me.Font = New System.Drawing.Font("Calibri", 12.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(4)
-        Me.MaximumSize = New System.Drawing.Size(962, 630)
+        Me.MaximumSize = New System.Drawing.Size(1366, 630)
         Me.MinimumSize = New System.Drawing.Size(962, 630)
         Me.Name = "FrmAdderItem"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

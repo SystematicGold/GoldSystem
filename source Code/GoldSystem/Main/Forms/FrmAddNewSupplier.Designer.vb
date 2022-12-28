@@ -47,47 +47,51 @@ Partial Class FrmAddNewSupplier
         '
         'Label1
         '
+        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(644, 24)
+        Me.Label1.Location = New System.Drawing.Point(668, 15)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(73, 23)
+        Me.Label1.Size = New System.Drawing.Size(65, 19)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "رقم المورد"
         '
         'TxtCode
         '
-        Me.TxtCode.Location = New System.Drawing.Point(422, 21)
+        Me.TxtCode.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtCode.Location = New System.Drawing.Point(446, 12)
         Me.TxtCode.Name = "TxtCode"
         Me.TxtCode.ReadOnly = True
-        Me.TxtCode.Size = New System.Drawing.Size(216, 31)
+        Me.TxtCode.Size = New System.Drawing.Size(216, 27)
         Me.TxtCode.TabIndex = 1
         Me.TxtCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
+        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(332, 24)
+        Me.Label2.Location = New System.Drawing.Point(331, 15)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(77, 23)
+        Me.Label2.Size = New System.Drawing.Size(67, 19)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "اسم المورد"
         '
         'TxtName
         '
-        Me.TxtName.Location = New System.Drawing.Point(12, 21)
+        Me.TxtName.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtName.Location = New System.Drawing.Point(11, 12)
         Me.TxtName.Name = "TxtName"
-        Me.TxtName.Size = New System.Drawing.Size(316, 31)
+        Me.TxtName.Size = New System.Drawing.Size(316, 27)
         Me.TxtName.TabIndex = 1
         Me.TxtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'DGV
         '
         Me.DGV.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.DGV.Location = New System.Drawing.Point(0, 194)
+        Me.DGV.Location = New System.Drawing.Point(0, 201)
         Me.DGV.MainView = Me.GridView1
         Me.DGV.Name = "DGV"
         Me.DGV.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.DGV.Size = New System.Drawing.Size(735, 260)
+        Me.DGV.Size = New System.Drawing.Size(744, 260)
         Me.DGV.TabIndex = 2
         Me.DGV.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -101,11 +105,8 @@ Partial Class FrmAddNewSupplier
         Me.PictureEdit6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit6.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit6.EditValue = CType(resources.GetObject("PictureEdit6.EditValue"), Object)
-        Me.PictureEdit6.Location = New System.Drawing.Point(367, 141)
+        Me.PictureEdit6.Location = New System.Drawing.Point(383, 146)
         Me.PictureEdit6.Name = "PictureEdit6"
-        '
-        '
-        '
         Me.PictureEdit6.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.PictureEdit6.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
         Me.PictureEdit6.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
@@ -123,11 +124,8 @@ Partial Class FrmAddNewSupplier
         Me.PictureEdit7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit7.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit7.EditValue = CType(resources.GetObject("PictureEdit7.EditValue"), Object)
-        Me.PictureEdit7.Location = New System.Drawing.Point(547, 141)
+        Me.PictureEdit7.Location = New System.Drawing.Point(548, 146)
         Me.PictureEdit7.Name = "PictureEdit7"
-        '
-        '
-        '
         Me.PictureEdit7.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.PictureEdit7.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
         Me.PictureEdit7.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
@@ -149,8 +147,9 @@ Partial Class FrmAddNewSupplier
         Me.Guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.Guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2Button8.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2Button8.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Guna2Button8.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button8.Location = New System.Drawing.Point(367, 131)
+        Me.Guna2Button8.Location = New System.Drawing.Point(368, 136)
         Me.Guna2Button8.Name = "Guna2Button8"
         Me.Guna2Button8.Size = New System.Drawing.Size(174, 57)
         Me.Guna2Button8.TabIndex = 19
@@ -166,8 +165,9 @@ Partial Class FrmAddNewSupplier
         Me.Guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
         Me.Guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2Button9.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.Guna2Button9.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Guna2Button9.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button9.Location = New System.Drawing.Point(547, 131)
+        Me.Guna2Button9.Location = New System.Drawing.Point(548, 136)
         Me.Guna2Button9.Name = "Guna2Button9"
         Me.Guna2Button9.Size = New System.Drawing.Size(174, 57)
         Me.Guna2Button9.TabIndex = 20
@@ -176,59 +176,65 @@ Partial Class FrmAddNewSupplier
         '
         'Label3
         '
+        Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(644, 57)
+        Me.Label3.Location = New System.Drawing.Point(668, 48)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(78, 23)
+        Me.Label3.Size = New System.Drawing.Size(67, 19)
         Me.Label3.TabIndex = 0
         Me.Label3.Text = "رقم الهاتف"
         '
         'TxtPhoneNumber
         '
-        Me.TxtPhoneNumber.Location = New System.Drawing.Point(422, 54)
+        Me.TxtPhoneNumber.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtPhoneNumber.Location = New System.Drawing.Point(446, 45)
         Me.TxtPhoneNumber.Name = "TxtPhoneNumber"
-        Me.TxtPhoneNumber.Size = New System.Drawing.Size(216, 31)
+        Me.TxtPhoneNumber.Size = New System.Drawing.Size(216, 27)
         Me.TxtPhoneNumber.TabIndex = 1
         Me.TxtPhoneNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label4
         '
+        Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(336, 57)
+        Me.Label4.Location = New System.Drawing.Point(335, 48)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(54, 23)
+        Me.Label4.Size = New System.Drawing.Size(47, 19)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "العنوان"
         '
         'TxtAddress
         '
-        Me.TxtAddress.Location = New System.Drawing.Point(12, 54)
+        Me.TxtAddress.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtAddress.Location = New System.Drawing.Point(11, 45)
         Me.TxtAddress.Name = "TxtAddress"
-        Me.TxtAddress.Size = New System.Drawing.Size(318, 31)
+        Me.TxtAddress.Size = New System.Drawing.Size(318, 27)
         Me.TxtAddress.TabIndex = 1
         Me.TxtAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label5
         '
+        Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(644, 90)
+        Me.Label5.Location = New System.Drawing.Point(668, 81)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(75, 23)
+        Me.Label5.Size = New System.Drawing.Size(65, 19)
         Me.Label5.TabIndex = 0
         Me.Label5.Text = "رقم الشركة"
         '
         'TxtCompany
         '
-        Me.TxtCompany.Location = New System.Drawing.Point(422, 87)
+        Me.TxtCompany.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TxtCompany.Location = New System.Drawing.Point(446, 78)
         Me.TxtCompany.Name = "TxtCompany"
-        Me.TxtCompany.Size = New System.Drawing.Size(216, 31)
+        Me.TxtCompany.Size = New System.Drawing.Size(216, 27)
         Me.TxtCompany.TabIndex = 1
         Me.TxtCompany.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'FrmAddNewSupplier
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.ClientSize = New System.Drawing.Size(735, 454)
+        Me.ClientSize = New System.Drawing.Size(744, 461)
         Me.Controls.Add(Me.PictureEdit6)
         Me.Controls.Add(Me.PictureEdit7)
         Me.Controls.Add(Me.Guna2Button8)
@@ -244,14 +250,12 @@ Partial Class FrmAddNewSupplier
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TxtCode)
         Me.Controls.Add(Me.Label1)
-        Me.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(751, 493)
+        Me.Font = New System.Drawing.Font("Calibri", 12.0!)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(751, 493)
+        Me.MinimumSize = New System.Drawing.Size(0, 500)
         Me.Name = "FrmAddNewSupplier"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "FrmAddNweSupplier"
+        Me.Text = "إضافة مورد"
         CType(Me.DGV, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
