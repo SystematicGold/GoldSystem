@@ -203,6 +203,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acconting\Forms\frmAccountingTree.Designer.vb">
+      <DependentUpon>frmAccountingTree.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acconting\Forms\frmAccountingTree.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acconting\Forms\FrmSelectAccount.Designer.vb">
+      <DependentUpon>FrmSelectAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Acconting\Forms\FrmSelectAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Gold\Cls\ClsGoldItem.vb" />
     <Compile Include="Gold\Form1.Designer.vb">
@@ -221,12 +233,6 @@
       <DependentUpon>FrmGoldPurchase.vb</DependentUpon>
     </Compile>
     <Compile Include="Gold\Forms\FrmGoldPurchase.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gold\Forms\FrmGoldPurchaseFromSupplier.Designer.vb">
-      <DependentUpon>FrmGoldPurchaseFromSupplier.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Gold\Forms\FrmGoldPurchaseFromSupplier.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gold\Forms\frmReport.Designer.vb">
@@ -252,6 +258,12 @@
     </Compile>
     <Compile Include="Gold\Reports\PrintBarCode.vb">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Main\Forms\frmVoucher.Designer.vb">
+      <DependentUpon>frmVoucher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Forms\frmVoucher.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main\Forms\UCCivilId.Designer.vb">
       <DependentUpon>UCCivilId.vb</DependentUpon>
@@ -359,6 +371,12 @@
     <Compile Include="Setting\Settings.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Acconting\Forms\frmAccountingTree.resx">
+      <DependentUpon>frmAccountingTree.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acconting\Forms\FrmSelectAccount.resx">
+      <DependentUpon>FrmSelectAccount.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gold\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -371,9 +389,6 @@
     <EmbeddedResource Include="Gold\Forms\FrmGoldPurchase.resx">
       <DependentUpon>FrmGoldPurchase.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\FrmGoldPurchaseFromSupplier.resx">
-      <DependentUpon>FrmGoldPurchaseFromSupplier.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\frmReport.resx">
       <DependentUpon>frmReport.vb</DependentUpon>
     </EmbeddedResource>
@@ -385,6 +400,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Reports\PrintBarCode.resx">
       <DependentUpon>PrintBarCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Forms\frmVoucher.resx">
+      <DependentUpon>frmVoucher.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Forms\UCCivilId.resx">
       <DependentUpon>UCCivilId.vb</DependentUpon>
@@ -503,6 +521,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BarCode3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Acconting\Cls\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="..\packages\EmptyLicensesLicx.3.0.0\build\EmptyLicensesLicx.targets" Condition="Exists('..\packages\EmptyLicensesLicx.3.0.0\build\EmptyLicensesLicx.targets')" />

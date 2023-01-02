@@ -28,13 +28,10 @@ Partial Class FrmMain
         Me.btnGold = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.pnlMenu = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2VSeparator1 = New Guna.UI2.WinForms.Guna2VSeparator()
-        Me.btnNotifications = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.lblDashboard = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.lblProfile = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2VSeparator2 = New Guna.UI2.WinForms.Guna2VSeparator()
-        Me.pbProfile = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         Me.lblUser = New Guna.UI2.WinForms.Guna2HtmlLabel()
-        Me.btnSettings = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2NotificationPaint1 = New Guna.UI2.WinForms.Guna2NotificationPaint(Me.components)
         Me.Guna2HtmlLabel4 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel5 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -116,8 +113,6 @@ Partial Class FrmMain
         Me.Guna2HtmlLabel21 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.pnlGraph = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2VSeparator3 = New Guna.UI2.WinForms.Guna2VSeparator()
-        Me.btnGraph2 = New Guna.UI2.WinForms.Guna2Button()
-        Me.btnGraph1 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2HtmlLabel29 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel41 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2HtmlLabel40 = New Guna.UI2.WinForms.Guna2HtmlLabel()
@@ -160,7 +155,6 @@ Partial Class FrmMain
         Me.Guna2ProgressBar5 = New Guna.UI2.WinForms.Guna2ProgressBar()
         Me.Guna2Separator9 = New Guna.UI2.WinForms.Guna2Separator()
         Me.pnlMain = New Guna.UI2.WinForms.Guna2Panel()
-        Me.GunaPictureBox1 = New Guna.UI.WinForms.GunaPictureBox()
         Me.pnlAll = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
@@ -173,7 +167,7 @@ Partial Class FrmMain
         Me.btnDiamond = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnBrand = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.pnlGold = New Guna.UI2.WinForms.Guna2Panel()
-        Me.btnGoldPaymentVoucher = New Guna.UI2.WinForms.Guna2GradientButton()
+        Me.btnCloseTransaction = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnGoldArchive = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnGoldSettings = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnGoldCustomers = New Guna.UI2.WinForms.Guna2GradientButton()
@@ -186,13 +180,16 @@ Partial Class FrmMain
         Me.btnGoldAccounting = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnGoldSell = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnGoldBuy = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.btnGoldSellWholeSale = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.btnGoldBuyWholeSale = New Guna.UI2.WinForms.Guna2GradientButton()
         Me.btnGoldWorkShop = New Guna.UI2.WinForms.Guna2GradientButton()
-        Me.pbGoldHide = New DevExpress.XtraEditors.PictureEdit()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.pbGoldHide = New DevExpress.XtraEditors.PictureEdit()
+        Me.GunaPictureBox1 = New Guna.UI.WinForms.GunaPictureBox()
+        Me.btnGraph2 = New Guna.UI2.WinForms.Guna2Button()
+        Me.btnGraph1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.btnNotifications = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.pbProfile = New Guna.UI2.WinForms.Guna2CirclePictureBox()
+        Me.btnSettings = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.pnlMenu.SuspendLayout()
-        CType(Me.pbProfile, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SettingMenu.SuspendLayout()
         Me.pnlGoldPrice.SuspendLayout()
         Me.pnlSilverPrice.SuspendLayout()
@@ -201,10 +198,11 @@ Partial Class FrmMain
         Me.pnlTechSupport.SuspendLayout()
         Me.pnlGraph.SuspendLayout()
         Me.pnlMain.SuspendLayout()
-        CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.pnlAll.SuspendLayout()
         Me.pnlGold.SuspendLayout()
         CType(Me.pbGoldHide.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbProfile, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnSilver
@@ -287,27 +285,6 @@ Partial Class FrmMain
         Me.Guna2VSeparator1.Size = New System.Drawing.Size(10, 26)
         Me.Guna2VSeparator1.TabIndex = 2
         '
-        'btnNotifications
-        '
-        Me.btnNotifications.Animated = True
-        Me.btnNotifications.BackColor = System.Drawing.Color.Transparent
-        Me.btnNotifications.BorderColor = System.Drawing.Color.White
-        Me.btnNotifications.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnNotifications.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnNotifications.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnNotifications.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnNotifications.FillColor = System.Drawing.Color.White
-        Me.btnNotifications.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.btnNotifications.ForeColor = System.Drawing.Color.White
-        Me.btnNotifications.Image = Global.GoldSystem.My.Resources.Resources.notification_90px1
-        Me.btnNotifications.ImageSize = New System.Drawing.Size(28, 28)
-        Me.btnNotifications.Location = New System.Drawing.Point(71, 3)
-        Me.btnNotifications.Name = "btnNotifications"
-        Me.btnNotifications.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.btnNotifications.Size = New System.Drawing.Size(37, 37)
-        Me.btnNotifications.TabIndex = 2
-        Me.btnNotifications.UseTransparentBackground = True
-        '
         'lblDashboard
         '
         Me.lblDashboard.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -341,19 +318,6 @@ Partial Class FrmMain
         Me.Guna2VSeparator2.Size = New System.Drawing.Size(10, 26)
         Me.Guna2VSeparator2.TabIndex = 2
         '
-        'pbProfile
-        '
-        Me.pbProfile.FillColor = System.Drawing.Color.Black
-        Me.pbProfile.Image = Global.GoldSystem.My.Resources.Resources.Profile_Male_PNG
-        Me.pbProfile.ImageRotate = 0!
-        Me.pbProfile.Location = New System.Drawing.Point(126, 3)
-        Me.pbProfile.Name = "pbProfile"
-        Me.pbProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.pbProfile.Size = New System.Drawing.Size(37, 37)
-        Me.pbProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.pbProfile.TabIndex = 2
-        Me.pbProfile.TabStop = False
-        '
         'lblUser
         '
         Me.lblUser.BackColor = System.Drawing.Color.Transparent
@@ -365,27 +329,6 @@ Partial Class FrmMain
         Me.lblUser.TabIndex = 0
         Me.lblUser.Text = "Admin Admin"
         Me.lblUser.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'btnSettings
-        '
-        Me.btnSettings.Animated = True
-        Me.btnSettings.BackColor = System.Drawing.Color.Transparent
-        Me.btnSettings.BorderColor = System.Drawing.Color.White
-        Me.btnSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnSettings.FillColor = System.Drawing.Color.White
-        Me.btnSettings.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.btnSettings.ForeColor = System.Drawing.Color.White
-        Me.btnSettings.Image = Global.GoldSystem.My.Resources.Resources.settings_90px
-        Me.btnSettings.ImageSize = New System.Drawing.Size(28, 28)
-        Me.btnSettings.Location = New System.Drawing.Point(12, 3)
-        Me.btnSettings.Name = "btnSettings"
-        Me.btnSettings.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Me.btnSettings.Size = New System.Drawing.Size(37, 37)
-        Me.btnSettings.TabIndex = 2
-        Me.btnSettings.UseTransparentBackground = True
         '
         'Guna2NotificationPaint1
         '
@@ -1531,42 +1474,6 @@ Partial Class FrmMain
         Me.Guna2VSeparator3.Size = New System.Drawing.Size(10, 183)
         Me.Guna2VSeparator3.TabIndex = 2
         '
-        'btnGraph2
-        '
-        Me.btnGraph2.Animated = True
-        Me.btnGraph2.BorderRadius = 5
-        Me.btnGraph2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnGraph2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnGraph2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnGraph2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnGraph2.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
-        Me.btnGraph2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.btnGraph2.ForeColor = System.Drawing.Color.White
-        Me.btnGraph2.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
-        Me.btnGraph2.Location = New System.Drawing.Point(188, 11)
-        Me.btnGraph2.Name = "btnGraph2"
-        Me.btnGraph2.Size = New System.Drawing.Size(30, 30)
-        Me.btnGraph2.TabIndex = 0
-        Me.btnGraph2.UseTransparentBackground = True
-        '
-        'btnGraph1
-        '
-        Me.btnGraph1.Animated = True
-        Me.btnGraph1.BorderRadius = 5
-        Me.btnGraph1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnGraph1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnGraph1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnGraph1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnGraph1.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.btnGraph1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.btnGraph1.ForeColor = System.Drawing.Color.White
-        Me.btnGraph1.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
-        Me.btnGraph1.Location = New System.Drawing.Point(23, 11)
-        Me.btnGraph1.Name = "btnGraph1"
-        Me.btnGraph1.Size = New System.Drawing.Size(30, 30)
-        Me.btnGraph1.TabIndex = 0
-        Me.btnGraph1.UseTransparentBackground = True
-        '
         'Guna2HtmlLabel29
         '
         Me.Guna2HtmlLabel29.BackColor = System.Drawing.Color.Transparent
@@ -2206,19 +2113,6 @@ Partial Class FrmMain
         Me.pnlMain.Size = New System.Drawing.Size(200, 687)
         Me.pnlMain.TabIndex = 8
         '
-        'GunaPictureBox1
-        '
-        Me.GunaPictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaPictureBox1.BaseColor = System.Drawing.Color.White
-        Me.GunaPictureBox1.ErrorImage = Nothing
-        Me.GunaPictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Ship
-        Me.GunaPictureBox1.Location = New System.Drawing.Point(3, 3)
-        Me.GunaPictureBox1.Name = "GunaPictureBox1"
-        Me.GunaPictureBox1.Size = New System.Drawing.Size(191, 43)
-        Me.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.GunaPictureBox1.TabIndex = 1
-        Me.GunaPictureBox1.TabStop = False
-        '
         'pnlAll
         '
         Me.pnlAll.Controls.Add(Me.Guna2GradientButton4)
@@ -2341,7 +2235,7 @@ Partial Class FrmMain
         Me.Guna2GradientButton1.ShadowDecoration.Enabled = True
         Me.Guna2GradientButton1.Size = New System.Drawing.Size(196, 44)
         Me.Guna2GradientButton1.TabIndex = 7
-        Me.Guna2GradientButton1.Text = "xx"
+        Me.Guna2GradientButton1.Text = "الحســــــــــــــــــــــــــــــــــــــــــــــــــــــابــــــــــات"
         '
         'btnLira
         '
@@ -2506,7 +2400,7 @@ Partial Class FrmMain
         Me.pnlGold.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.pnlGold.AutoScroll = True
-        Me.pnlGold.Controls.Add(Me.btnGoldPaymentVoucher)
+        Me.pnlGold.Controls.Add(Me.btnCloseTransaction)
         Me.pnlGold.Controls.Add(Me.btnGoldArchive)
         Me.pnlGold.Controls.Add(Me.btnGoldSettings)
         Me.pnlGold.Controls.Add(Me.btnGoldCustomers)
@@ -2519,8 +2413,6 @@ Partial Class FrmMain
         Me.pnlGold.Controls.Add(Me.btnGoldAccounting)
         Me.pnlGold.Controls.Add(Me.btnGoldSell)
         Me.pnlGold.Controls.Add(Me.btnGoldBuy)
-        Me.pnlGold.Controls.Add(Me.btnGoldSellWholeSale)
-        Me.pnlGold.Controls.Add(Me.btnGoldBuyWholeSale)
         Me.pnlGold.Controls.Add(Me.btnGoldWorkShop)
         Me.pnlGold.Controls.Add(Me.pbGoldHide)
         Me.pnlGold.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
@@ -2530,27 +2422,27 @@ Partial Class FrmMain
         Me.pnlGold.Size = New System.Drawing.Size(200, 692)
         Me.pnlGold.TabIndex = 8
         '
-        'btnGoldPaymentVoucher
+        'btnCloseTransaction
         '
-        Me.btnGoldPaymentVoucher.AutoRoundedCorners = True
-        Me.btnGoldPaymentVoucher.BackColor = System.Drawing.Color.Transparent
-        Me.btnGoldPaymentVoucher.BorderRadius = 19
-        Me.btnGoldPaymentVoucher.BorderThickness = 1
-        Me.btnGoldPaymentVoucher.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnGoldPaymentVoucher.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnGoldPaymentVoucher.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnGoldPaymentVoucher.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnGoldPaymentVoucher.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnGoldPaymentVoucher.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.btnGoldPaymentVoucher.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.btnGoldPaymentVoucher.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.btnGoldPaymentVoucher.ForeColor = System.Drawing.Color.White
-        Me.btnGoldPaymentVoucher.Location = New System.Drawing.Point(0, 437)
-        Me.btnGoldPaymentVoucher.Name = "btnGoldPaymentVoucher"
-        Me.btnGoldPaymentVoucher.ShadowDecoration.Enabled = True
-        Me.btnGoldPaymentVoucher.Size = New System.Drawing.Size(180, 40)
-        Me.btnGoldPaymentVoucher.TabIndex = 9
-        Me.btnGoldPaymentVoucher.Text = "سند صــــــــــــــــــــــــــــــــــــــرف"
+        Me.btnCloseTransaction.AutoRoundedCorners = True
+        Me.btnCloseTransaction.BackColor = System.Drawing.Color.Transparent
+        Me.btnCloseTransaction.BorderRadius = 19
+        Me.btnCloseTransaction.BorderThickness = 1
+        Me.btnCloseTransaction.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnCloseTransaction.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnCloseTransaction.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnCloseTransaction.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnCloseTransaction.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnCloseTransaction.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnCloseTransaction.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
+        Me.btnCloseTransaction.Font = New System.Drawing.Font("Calibri", 14.0!)
+        Me.btnCloseTransaction.ForeColor = System.Drawing.Color.White
+        Me.btnCloseTransaction.Location = New System.Drawing.Point(10, 490)
+        Me.btnCloseTransaction.Name = "btnCloseTransaction"
+        Me.btnCloseTransaction.ShadowDecoration.Enabled = True
+        Me.btnCloseTransaction.Size = New System.Drawing.Size(180, 40)
+        Me.btnCloseTransaction.TabIndex = 9
+        Me.btnCloseTransaction.Text = "تســــــــــــــكــــــــــــــــــــــــــــــــــــيـــــــــــــــــــــر"
         '
         'btnGoldArchive
         '
@@ -2567,7 +2459,7 @@ Partial Class FrmMain
         Me.btnGoldArchive.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldArchive.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldArchive.ForeColor = System.Drawing.Color.White
-        Me.btnGoldArchive.Location = New System.Drawing.Point(0, 695)
+        Me.btnGoldArchive.Location = New System.Drawing.Point(10, 570)
         Me.btnGoldArchive.Name = "btnGoldArchive"
         Me.btnGoldArchive.ShadowDecoration.Enabled = True
         Me.btnGoldArchive.Size = New System.Drawing.Size(180, 40)
@@ -2589,7 +2481,7 @@ Partial Class FrmMain
         Me.btnGoldSettings.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldSettings.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldSettings.ForeColor = System.Drawing.Color.White
-        Me.btnGoldSettings.Location = New System.Drawing.Point(0, 652)
+        Me.btnGoldSettings.Location = New System.Drawing.Point(10, 530)
         Me.btnGoldSettings.Name = "btnGoldSettings"
         Me.btnGoldSettings.ShadowDecoration.Enabled = True
         Me.btnGoldSettings.Size = New System.Drawing.Size(180, 40)
@@ -2611,7 +2503,7 @@ Partial Class FrmMain
         Me.btnGoldCustomers.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldCustomers.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldCustomers.ForeColor = System.Drawing.Color.White
-        Me.btnGoldCustomers.Location = New System.Drawing.Point(0, 609)
+        Me.btnGoldCustomers.Location = New System.Drawing.Point(10, 450)
         Me.btnGoldCustomers.Name = "btnGoldCustomers"
         Me.btnGoldCustomers.ShadowDecoration.Enabled = True
         Me.btnGoldCustomers.Size = New System.Drawing.Size(180, 40)
@@ -2633,7 +2525,7 @@ Partial Class FrmMain
         Me.btnGoldBarCodePrint.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldBarCodePrint.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldBarCodePrint.ForeColor = System.Drawing.Color.White
-        Me.btnGoldBarCodePrint.Location = New System.Drawing.Point(0, 566)
+        Me.btnGoldBarCodePrint.Location = New System.Drawing.Point(10, 410)
         Me.btnGoldBarCodePrint.Name = "btnGoldBarCodePrint"
         Me.btnGoldBarCodePrint.ShadowDecoration.Enabled = True
         Me.btnGoldBarCodePrint.Size = New System.Drawing.Size(180, 40)
@@ -2655,7 +2547,7 @@ Partial Class FrmMain
         Me.btnGoldItems.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldItems.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldItems.ForeColor = System.Drawing.Color.White
-        Me.btnGoldItems.Location = New System.Drawing.Point(0, 523)
+        Me.btnGoldItems.Location = New System.Drawing.Point(10, 370)
         Me.btnGoldItems.Name = "btnGoldItems"
         Me.btnGoldItems.ShadowDecoration.Enabled = True
         Me.btnGoldItems.Size = New System.Drawing.Size(180, 40)
@@ -2677,7 +2569,7 @@ Partial Class FrmMain
         Me.btnGoldGallery.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldGallery.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldGallery.ForeColor = System.Drawing.Color.White
-        Me.btnGoldGallery.Location = New System.Drawing.Point(0, 480)
+        Me.btnGoldGallery.Location = New System.Drawing.Point(10, 330)
         Me.btnGoldGallery.Name = "btnGoldGallery"
         Me.btnGoldGallery.ShadowDecoration.Enabled = True
         Me.btnGoldGallery.Size = New System.Drawing.Size(180, 40)
@@ -2699,12 +2591,12 @@ Partial Class FrmMain
         Me.btnGoldٌReceiptVoucher.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldٌReceiptVoucher.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldٌReceiptVoucher.ForeColor = System.Drawing.Color.White
-        Me.btnGoldٌReceiptVoucher.Location = New System.Drawing.Point(0, 394)
+        Me.btnGoldٌReceiptVoucher.Location = New System.Drawing.Point(10, 290)
         Me.btnGoldٌReceiptVoucher.Name = "btnGoldٌReceiptVoucher"
         Me.btnGoldٌReceiptVoucher.ShadowDecoration.Enabled = True
         Me.btnGoldٌReceiptVoucher.Size = New System.Drawing.Size(180, 40)
         Me.btnGoldٌReceiptVoucher.TabIndex = 8
-        Me.btnGoldٌReceiptVoucher.Text = "سند قبــــــــــــــــــــــــــــــــــــــض"
+        Me.btnGoldٌReceiptVoucher.Text = "ســــــــــــــــــــــــنــــــــــــــــــــــــــــدات"
         '
         'btnGoldMarketing
         '
@@ -2721,7 +2613,7 @@ Partial Class FrmMain
         Me.btnGoldMarketing.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldMarketing.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldMarketing.ForeColor = System.Drawing.Color.White
-        Me.btnGoldMarketing.Location = New System.Drawing.Point(0, 351)
+        Me.btnGoldMarketing.Location = New System.Drawing.Point(10, 250)
         Me.btnGoldMarketing.Name = "btnGoldMarketing"
         Me.btnGoldMarketing.ShadowDecoration.Enabled = True
         Me.btnGoldMarketing.Size = New System.Drawing.Size(180, 40)
@@ -2743,7 +2635,7 @@ Partial Class FrmMain
         Me.btnGoldReports.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldReports.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldReports.ForeColor = System.Drawing.Color.White
-        Me.btnGoldReports.Location = New System.Drawing.Point(0, 308)
+        Me.btnGoldReports.Location = New System.Drawing.Point(10, 210)
         Me.btnGoldReports.Name = "btnGoldReports"
         Me.btnGoldReports.ShadowDecoration.Enabled = True
         Me.btnGoldReports.Size = New System.Drawing.Size(180, 40)
@@ -2765,7 +2657,7 @@ Partial Class FrmMain
         Me.btnGoldAccounting.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldAccounting.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldAccounting.ForeColor = System.Drawing.Color.White
-        Me.btnGoldAccounting.Location = New System.Drawing.Point(0, 265)
+        Me.btnGoldAccounting.Location = New System.Drawing.Point(10, 170)
         Me.btnGoldAccounting.Name = "btnGoldAccounting"
         Me.btnGoldAccounting.ShadowDecoration.Enabled = True
         Me.btnGoldAccounting.Size = New System.Drawing.Size(180, 40)
@@ -2787,7 +2679,7 @@ Partial Class FrmMain
         Me.btnGoldSell.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldSell.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldSell.ForeColor = System.Drawing.Color.White
-        Me.btnGoldSell.Location = New System.Drawing.Point(0, 222)
+        Me.btnGoldSell.Location = New System.Drawing.Point(10, 130)
         Me.btnGoldSell.Name = "btnGoldSell"
         Me.btnGoldSell.ShadowDecoration.Enabled = True
         Me.btnGoldSell.Size = New System.Drawing.Size(180, 40)
@@ -2809,56 +2701,12 @@ Partial Class FrmMain
         Me.btnGoldBuy.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldBuy.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldBuy.ForeColor = System.Drawing.Color.White
-        Me.btnGoldBuy.Location = New System.Drawing.Point(0, 179)
+        Me.btnGoldBuy.Location = New System.Drawing.Point(10, 90)
         Me.btnGoldBuy.Name = "btnGoldBuy"
         Me.btnGoldBuy.ShadowDecoration.Enabled = True
         Me.btnGoldBuy.Size = New System.Drawing.Size(180, 40)
         Me.btnGoldBuy.TabIndex = 8
         Me.btnGoldBuy.Text = "مـــــــــــشـــــــــــتريــــــــــــــــــــــات"
-        '
-        'btnGoldSellWholeSale
-        '
-        Me.btnGoldSellWholeSale.AutoRoundedCorners = True
-        Me.btnGoldSellWholeSale.BackColor = System.Drawing.Color.Transparent
-        Me.btnGoldSellWholeSale.BorderRadius = 19
-        Me.btnGoldSellWholeSale.BorderThickness = 1
-        Me.btnGoldSellWholeSale.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnGoldSellWholeSale.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnGoldSellWholeSale.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnGoldSellWholeSale.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnGoldSellWholeSale.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnGoldSellWholeSale.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.btnGoldSellWholeSale.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.btnGoldSellWholeSale.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.btnGoldSellWholeSale.ForeColor = System.Drawing.Color.White
-        Me.btnGoldSellWholeSale.Location = New System.Drawing.Point(0, 136)
-        Me.btnGoldSellWholeSale.Name = "btnGoldSellWholeSale"
-        Me.btnGoldSellWholeSale.ShadowDecoration.Enabled = True
-        Me.btnGoldSellWholeSale.Size = New System.Drawing.Size(180, 40)
-        Me.btnGoldSellWholeSale.TabIndex = 8
-        Me.btnGoldSellWholeSale.Text = "مبيعات الجملة"
-        '
-        'btnGoldBuyWholeSale
-        '
-        Me.btnGoldBuyWholeSale.AutoRoundedCorners = True
-        Me.btnGoldBuyWholeSale.BackColor = System.Drawing.Color.Transparent
-        Me.btnGoldBuyWholeSale.BorderRadius = 19
-        Me.btnGoldBuyWholeSale.BorderThickness = 1
-        Me.btnGoldBuyWholeSale.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.btnGoldBuyWholeSale.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.btnGoldBuyWholeSale.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnGoldBuyWholeSale.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.btnGoldBuyWholeSale.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.btnGoldBuyWholeSale.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.btnGoldBuyWholeSale.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.btnGoldBuyWholeSale.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.btnGoldBuyWholeSale.ForeColor = System.Drawing.Color.White
-        Me.btnGoldBuyWholeSale.Location = New System.Drawing.Point(0, 93)
-        Me.btnGoldBuyWholeSale.Name = "btnGoldBuyWholeSale"
-        Me.btnGoldBuyWholeSale.ShadowDecoration.Enabled = True
-        Me.btnGoldBuyWholeSale.Size = New System.Drawing.Size(180, 40)
-        Me.btnGoldBuyWholeSale.TabIndex = 8
-        Me.btnGoldBuyWholeSale.Text = "مشتريات الجملة"
         '
         'btnGoldWorkShop
         '
@@ -2875,12 +2723,16 @@ Partial Class FrmMain
         Me.btnGoldWorkShop.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.btnGoldWorkShop.Font = New System.Drawing.Font("Calibri", 14.0!)
         Me.btnGoldWorkShop.ForeColor = System.Drawing.Color.White
-        Me.btnGoldWorkShop.Location = New System.Drawing.Point(0, 50)
+        Me.btnGoldWorkShop.Location = New System.Drawing.Point(10, 50)
         Me.btnGoldWorkShop.Name = "btnGoldWorkShop"
         Me.btnGoldWorkShop.ShadowDecoration.Enabled = True
         Me.btnGoldWorkShop.Size = New System.Drawing.Size(180, 40)
         Me.btnGoldWorkShop.TabIndex = 8
         Me.btnGoldWorkShop.Text = "ورش التصنيـــــــــــع"
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 10
         '
         'pbGoldHide
         '
@@ -2897,9 +2749,109 @@ Partial Class FrmMain
         Me.pbGoldHide.Size = New System.Drawing.Size(40, 39)
         Me.pbGoldHide.TabIndex = 7
         '
-        'Timer1
+        'GunaPictureBox1
         '
-        Me.Timer1.Interval = 10
+        Me.GunaPictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaPictureBox1.BaseColor = System.Drawing.Color.White
+        Me.GunaPictureBox1.ErrorImage = Nothing
+        Me.GunaPictureBox1.Image = Global.GoldSystem.My.Resources.Resources.Ship
+        Me.GunaPictureBox1.Location = New System.Drawing.Point(3, 3)
+        Me.GunaPictureBox1.Name = "GunaPictureBox1"
+        Me.GunaPictureBox1.Size = New System.Drawing.Size(191, 43)
+        Me.GunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.GunaPictureBox1.TabIndex = 1
+        Me.GunaPictureBox1.TabStop = False
+        '
+        'btnGraph2
+        '
+        Me.btnGraph2.Animated = True
+        Me.btnGraph2.BorderRadius = 5
+        Me.btnGraph2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGraph2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGraph2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGraph2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGraph2.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(84, Byte), Integer), CType(CType(127, Byte), Integer))
+        Me.btnGraph2.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnGraph2.ForeColor = System.Drawing.Color.White
+        Me.btnGraph2.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
+        Me.btnGraph2.Location = New System.Drawing.Point(188, 11)
+        Me.btnGraph2.Name = "btnGraph2"
+        Me.btnGraph2.Size = New System.Drawing.Size(30, 30)
+        Me.btnGraph2.TabIndex = 0
+        Me.btnGraph2.UseTransparentBackground = True
+        '
+        'btnGraph1
+        '
+        Me.btnGraph1.Animated = True
+        Me.btnGraph1.BorderRadius = 5
+        Me.btnGraph1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnGraph1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnGraph1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnGraph1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnGraph1.FillColor = System.Drawing.Color.FromArgb(CType(CType(116, Byte), Integer), CType(CType(145, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.btnGraph1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnGraph1.ForeColor = System.Drawing.Color.White
+        Me.btnGraph1.Image = Global.GoldSystem.My.Resources.Resources.bar_chart_90px
+        Me.btnGraph1.Location = New System.Drawing.Point(23, 11)
+        Me.btnGraph1.Name = "btnGraph1"
+        Me.btnGraph1.Size = New System.Drawing.Size(30, 30)
+        Me.btnGraph1.TabIndex = 0
+        Me.btnGraph1.UseTransparentBackground = True
+        '
+        'btnNotifications
+        '
+        Me.btnNotifications.Animated = True
+        Me.btnNotifications.BackColor = System.Drawing.Color.Transparent
+        Me.btnNotifications.BorderColor = System.Drawing.Color.White
+        Me.btnNotifications.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnNotifications.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnNotifications.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnNotifications.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnNotifications.FillColor = System.Drawing.Color.White
+        Me.btnNotifications.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnNotifications.ForeColor = System.Drawing.Color.White
+        Me.btnNotifications.Image = Global.GoldSystem.My.Resources.Resources.notification_90px1
+        Me.btnNotifications.ImageSize = New System.Drawing.Size(28, 28)
+        Me.btnNotifications.Location = New System.Drawing.Point(71, 3)
+        Me.btnNotifications.Name = "btnNotifications"
+        Me.btnNotifications.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.btnNotifications.Size = New System.Drawing.Size(37, 37)
+        Me.btnNotifications.TabIndex = 2
+        Me.btnNotifications.UseTransparentBackground = True
+        '
+        'pbProfile
+        '
+        Me.pbProfile.FillColor = System.Drawing.Color.Black
+        Me.pbProfile.Image = Global.GoldSystem.My.Resources.Resources.Profile_Male_PNG
+        Me.pbProfile.ImageRotate = 0!
+        Me.pbProfile.Location = New System.Drawing.Point(126, 3)
+        Me.pbProfile.Name = "pbProfile"
+        Me.pbProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.pbProfile.Size = New System.Drawing.Size(37, 37)
+        Me.pbProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbProfile.TabIndex = 2
+        Me.pbProfile.TabStop = False
+        '
+        'btnSettings
+        '
+        Me.btnSettings.Animated = True
+        Me.btnSettings.BackColor = System.Drawing.Color.Transparent
+        Me.btnSettings.BorderColor = System.Drawing.Color.White
+        Me.btnSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btnSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btnSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btnSettings.FillColor = System.Drawing.Color.White
+        Me.btnSettings.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.btnSettings.ForeColor = System.Drawing.Color.White
+        Me.btnSettings.Image = Global.GoldSystem.My.Resources.Resources.settings_90px
+        Me.btnSettings.ImageSize = New System.Drawing.Size(28, 28)
+        Me.btnSettings.Location = New System.Drawing.Point(12, 3)
+        Me.btnSettings.Name = "btnSettings"
+        Me.btnSettings.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.btnSettings.Size = New System.Drawing.Size(37, 37)
+        Me.btnSettings.TabIndex = 2
+        Me.btnSettings.UseTransparentBackground = True
         '
         'FrmMain
         '
@@ -2924,7 +2876,6 @@ Partial Class FrmMain
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.pnlMenu.ResumeLayout(False)
         Me.pnlMenu.PerformLayout()
-        CType(Me.pbProfile, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SettingMenu.ResumeLayout(False)
         Me.pnlGoldPrice.ResumeLayout(False)
         Me.pnlGoldPrice.PerformLayout()
@@ -2939,10 +2890,11 @@ Partial Class FrmMain
         Me.pnlGraph.ResumeLayout(False)
         Me.pnlGraph.PerformLayout()
         Me.pnlMain.ResumeLayout(False)
-        CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.pnlAll.ResumeLayout(False)
         Me.pnlGold.ResumeLayout(False)
         CType(Me.pbGoldHide.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GunaPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbProfile, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -3091,8 +3043,6 @@ Partial Class FrmMain
     Friend WithEvents btnGoldAccounting As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnGoldSell As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnGoldBuy As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents btnGoldSellWholeSale As Guna.UI2.WinForms.Guna2GradientButton
-    Friend WithEvents btnGoldBuyWholeSale As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnGoldWorkShop As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnGoldItems As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnGoldGallery As Guna.UI2.WinForms.Guna2GradientButton
@@ -3109,9 +3059,9 @@ Partial Class FrmMain
     Friend WithEvents btnBar As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents btnStone As Guna.UI2.WinForms.Guna2GradientButton
     Private WithEvents pbGoldHide As DevExpress.XtraEditors.PictureEdit
-    Friend WithEvents btnGoldPaymentVoucher As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton4 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton3 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton2 As Guna.UI2.WinForms.Guna2GradientButton
     Friend WithEvents Guna2GradientButton1 As Guna.UI2.WinForms.Guna2GradientButton
+    Friend WithEvents btnCloseTransaction As Guna.UI2.WinForms.Guna2GradientButton
 End Class

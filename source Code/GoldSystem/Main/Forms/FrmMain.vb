@@ -144,10 +144,18 @@ Public Class FrmMain
         End Try
     End Sub
 
-    Private Sub btnGoldBuyWholeSale_Click(sender As Object, e As EventArgs) Handles btnGoldBuyWholeSale.Click
+    Private Sub btnGoldÒReceiptVoucher_Click(sender As Object, e As EventArgs) Handles btnGoldÒReceiptVoucher.Click
         Try
-            FrmGoldPurchaseFromSupplier.Show()
-            FrmGoldPurchaseFromSupplier.UcSupplier1.gbCompanyData.Text = "»Ì«‰«  «·‘—ﬂ… «·„Ê—œ…"
+            frmVoucher.Show()
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
+        Try
+            Dim f As New frmAccountingTree
+            f.Show()
         Catch ex As Exception
 
         End Try

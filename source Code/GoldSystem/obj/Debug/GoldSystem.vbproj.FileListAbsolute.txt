@@ -974,5 +974,8 @@ C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSyst
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.FrmControlBarCode.resources
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.USGoldControlBarCode.resources
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.PrintBarCode.resources
-C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldPurchaseFromSupplier.resources
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.UCSupplier.resources
+C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.vbprojAssemblyReference.cache
+C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.frmVoucher.resources
+C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.frmAccountingTree.resources
+C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\Debug\GoldSystem.FrmSelectAccount.resources

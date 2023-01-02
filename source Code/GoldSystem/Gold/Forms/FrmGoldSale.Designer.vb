@@ -111,6 +111,9 @@ Partial Class FrmGoldSale
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.CivilId1 = New GoldSystem.UCCivilId()
+        Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
+        Me.TabNavigationPage1 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.gbItemData.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.pbViewItem.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -121,6 +124,9 @@ Partial Class FrmGoldSale
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbPay.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPane1.SuspendLayout()
+        Me.TabNavigationPage1.SuspendLayout()
         Me.SuspendLayout()
         '
         'gbItemData
@@ -166,7 +172,7 @@ Partial Class FrmGoldSale
         Me.gbItemData.CustomBorderThickness = New System.Windows.Forms.Padding(0, 20, 0, 0)
         Me.gbItemData.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.gbItemData.ForeColor = System.Drawing.Color.Black
-        Me.gbItemData.Location = New System.Drawing.Point(298, 272)
+        Me.gbItemData.Location = New System.Drawing.Point(282, 277)
         Me.gbItemData.Name = "gbItemData"
         Me.gbItemData.Size = New System.Drawing.Size(1053, 283)
         Me.gbItemData.TabIndex = 3
@@ -806,10 +812,11 @@ Partial Class FrmGoldSale
         '
         'gridItems
         '
-        Me.gridItems.Location = New System.Drawing.Point(1, 561)
+        Me.gridItems.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.gridItems.Location = New System.Drawing.Point(0, 566)
         Me.gridItems.MainView = Me.GridView1
         Me.gridItems.Name = "gridItems"
-        Me.gridItems.Size = New System.Drawing.Size(1350, 168)
+        Me.gridItems.Size = New System.Drawing.Size(1332, 118)
         Me.gridItems.TabIndex = 5
         Me.gridItems.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -847,7 +854,7 @@ Partial Class FrmGoldSale
         Me.gbPay.CustomBorderThickness = New System.Windows.Forms.Padding(0, 30, 0, 0)
         Me.gbPay.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.gbPay.ForeColor = System.Drawing.Color.Black
-        Me.gbPay.Location = New System.Drawing.Point(1, 0)
+        Me.gbPay.Location = New System.Drawing.Point(-15, 5)
         Me.gbPay.Name = "gbPay"
         Me.gbPay.Size = New System.Drawing.Size(296, 555)
         Me.gbPay.TabIndex = 118
@@ -1112,20 +1119,48 @@ Partial Class FrmGoldSale
         '
         Me.CivilId1.BackColor = System.Drawing.Color.Gainsboro
         Me.CivilId1.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.CivilId1.Location = New System.Drawing.Point(298, 0)
+        Me.CivilId1.Location = New System.Drawing.Point(282, 5)
         Me.CivilId1.Margin = New System.Windows.Forms.Padding(5)
         Me.CivilId1.Name = "CivilId1"
         Me.CivilId1.Size = New System.Drawing.Size(1050, 270)
         Me.CivilId1.TabIndex = 119
         '
+        'TabPane1
+        '
+        Me.TabPane1.Controls.Add(Me.TabNavigationPage1)
+        Me.TabPane1.Controls.Add(Me.TabNavigationPage2)
+        Me.TabPane1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabPane1.Location = New System.Drawing.Point(0, 0)
+        Me.TabPane1.Name = "TabPane1"
+        Me.TabPane1.Pages.AddRange(New DevExpress.XtraBars.Navigation.NavigationPageBase() {Me.TabNavigationPage1, Me.TabNavigationPage2})
+        Me.TabPane1.RegularSize = New System.Drawing.Size(1350, 729)
+        Me.TabPane1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TabPane1.SelectedPage = Me.TabNavigationPage1
+        Me.TabPane1.Size = New System.Drawing.Size(1350, 729)
+        Me.TabPane1.TabIndex = 120
+        Me.TabPane1.Text = "TabPane1"
+        '
+        'TabNavigationPage1
+        '
+        Me.TabNavigationPage1.Caption = "مبيعات أفراد"
+        Me.TabNavigationPage1.Controls.Add(Me.CivilId1)
+        Me.TabNavigationPage1.Controls.Add(Me.gbPay)
+        Me.TabNavigationPage1.Controls.Add(Me.gbItemData)
+        Me.TabNavigationPage1.Controls.Add(Me.gridItems)
+        Me.TabNavigationPage1.Name = "TabNavigationPage1"
+        Me.TabNavigationPage1.Size = New System.Drawing.Size(1332, 684)
+        '
+        'TabNavigationPage2
+        '
+        Me.TabNavigationPage2.Caption = "مبيعات شركات"
+        Me.TabNavigationPage2.Name = "TabNavigationPage2"
+        Me.TabNavigationPage2.Size = New System.Drawing.Size(1332, 105)
+        '
         'FrmGoldSale
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.ClientSize = New System.Drawing.Size(1350, 729)
-        Me.Controls.Add(Me.gbPay)
-        Me.Controls.Add(Me.CivilId1)
-        Me.Controls.Add(Me.gridItems)
-        Me.Controls.Add(Me.gbItemData)
+        Me.Controls.Add(Me.TabPane1)
         Me.Font = New System.Drawing.Font("Calibri", 12.0!)
         Me.Margin = New System.Windows.Forms.Padding(5)
         Me.MaximumSize = New System.Drawing.Size(1366, 768)
@@ -1147,6 +1182,9 @@ Partial Class FrmGoldSale
         Me.gbPay.ResumeLayout(False)
         Me.gbPay.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPane1.ResumeLayout(False)
+        Me.TabNavigationPage1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -1228,4 +1266,7 @@ Partial Class FrmGoldSale
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
     Friend WithEvents Column12 As DataGridViewTextBoxColumn
     Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents TabPane1 As DevExpress.XtraBars.Navigation.TabPane
+    Friend WithEvents TabNavigationPage1 As DevExpress.XtraBars.Navigation.TabNavigationPage
+    Friend WithEvents TabNavigationPage2 As DevExpress.XtraBars.Navigation.TabNavigationPage
 End Class

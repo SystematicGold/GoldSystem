@@ -23,9 +23,6 @@ Partial Class UCSupplier
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UCSupplier))
-        Dim SuperToolTip14 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem14 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem14 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
@@ -35,14 +32,14 @@ Partial Class UCSupplier
         Dim SuperToolTip3 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem3 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem3 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim EditorButtonImageOptions7 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
-        Dim SerializableAppearanceObject25 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject26 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject27 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject28 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SuperToolTip4 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem4 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem4 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim EditorButtonImageOptions1 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
+        Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject3 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject4 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SuperToolTip5 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem5 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem5 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
@@ -52,11 +49,9 @@ Partial Class UCSupplier
         Dim SuperToolTip7 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem7 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem7 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim EditorButtonImageOptions1 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
-        Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject3 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject4 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SuperToolTip8 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem8 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem8 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Dim EditorButtonImageOptions2 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
         Dim SerializableAppearanceObject5 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SerializableAppearanceObject6 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
@@ -77,9 +72,11 @@ Partial Class UCSupplier
         Dim SerializableAppearanceObject18 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SerializableAppearanceObject19 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SerializableAppearanceObject20 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SuperToolTip8 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem8 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem8 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim EditorButtonImageOptions6 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
+        Dim SerializableAppearanceObject21 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject22 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject23 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject24 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SuperToolTip9 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem9 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem9 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
@@ -92,6 +89,9 @@ Partial Class UCSupplier
         Dim SuperToolTip12 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem12 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem12 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip13 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem13 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem13 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Me.lblCID = New System.Windows.Forms.Label()
         Me.lblPassportNo = New System.Windows.Forms.Label()
         Me.lblName = New System.Windows.Forms.Label()
@@ -166,6 +166,7 @@ Partial Class UCSupplier
         '
         'lblCID
         '
+        Me.lblCID.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblCID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblCID.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lblCID.ForeColor = System.Drawing.Color.Black
@@ -178,6 +179,7 @@ Partial Class UCSupplier
         '
         'lblPassportNo
         '
+        Me.lblPassportNo.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblPassportNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblPassportNo.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lblPassportNo.ForeColor = System.Drawing.Color.Black
@@ -190,6 +192,7 @@ Partial Class UCSupplier
         '
         'lblName
         '
+        Me.lblName.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblName.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lblName.ForeColor = System.Drawing.Color.Black
@@ -202,6 +205,7 @@ Partial Class UCSupplier
         '
         'lblAddress
         '
+        Me.lblAddress.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblAddress.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lblAddress.ForeColor = System.Drawing.Color.Black
@@ -214,6 +218,7 @@ Partial Class UCSupplier
         '
         'lblPhone
         '
+        Me.lblPhone.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblPhone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblPhone.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lblPhone.ForeColor = System.Drawing.Color.Black
@@ -226,6 +231,7 @@ Partial Class UCSupplier
         '
         'gbCompanyData
         '
+        Me.gbCompanyData.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.gbCompanyData.BackColor = System.Drawing.Color.WhiteSmoke
         Me.gbCompanyData.BorderColor = System.Drawing.Color.SteelBlue
         Me.gbCompanyData.BorderRadius = 5
@@ -284,6 +290,7 @@ Partial Class UCSupplier
         '
         'ComboBox2
         '
+        Me.ComboBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComboBox2.Font = New System.Drawing.Font("Calibri", 14.0!, System.Drawing.FontStyle.Bold)
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Location = New System.Drawing.Point(893, 110)
@@ -293,6 +300,7 @@ Partial Class UCSupplier
         '
         'PictureEdit8
         '
+        Me.PictureEdit8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit8.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit8.EditValue = CType(resources.GetObject("PictureEdit8.EditValue"), Object)
         Me.PictureEdit8.Location = New System.Drawing.Point(865, 115)
@@ -304,16 +312,17 @@ Partial Class UCSupplier
         Me.PictureEdit8.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit8.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit8.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem14.Text = "بحث برقم التليفون"
-        ToolTipItem14.LeftIndent = 6
-        ToolTipItem14.Text = "اضغط للبحث عن عميل برقم تليفونه"
-        SuperToolTip14.Items.Add(ToolTipTitleItem14)
-        SuperToolTip14.Items.Add(ToolTipItem14)
-        Me.PictureEdit8.SuperTip = SuperToolTip14
+        ToolTipTitleItem1.Text = "بحث برقم التليفون"
+        ToolTipItem1.LeftIndent = 6
+        ToolTipItem1.Text = "اضغط للبحث عن عميل برقم تليفونه"
+        SuperToolTip1.Items.Add(ToolTipTitleItem1)
+        SuperToolTip1.Items.Add(ToolTipItem1)
+        Me.PictureEdit8.SuperTip = SuperToolTip1
         Me.PictureEdit8.TabIndex = 120
         '
         'PictureEdit9
         '
+        Me.PictureEdit9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit9.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit9.EditValue = CType(resources.GetObject("PictureEdit9.EditValue"), Object)
         Me.PictureEdit9.Location = New System.Drawing.Point(1170, 115)
@@ -325,16 +334,17 @@ Partial Class UCSupplier
         Me.PictureEdit9.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit9.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit9.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem1.Text = "بحث برقم التليفون"
-        ToolTipItem1.LeftIndent = 6
-        ToolTipItem1.Text = "اضغط للبحث عن عميل برقم تليفونه"
-        SuperToolTip1.Items.Add(ToolTipTitleItem1)
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        Me.PictureEdit9.SuperTip = SuperToolTip1
+        ToolTipTitleItem2.Text = "بحث برقم التليفون"
+        ToolTipItem2.LeftIndent = 6
+        ToolTipItem2.Text = "اضغط للبحث عن عميل برقم تليفونه"
+        SuperToolTip2.Items.Add(ToolTipTitleItem2)
+        SuperToolTip2.Items.Add(ToolTipItem2)
+        Me.PictureEdit9.SuperTip = SuperToolTip2
         Me.PictureEdit9.TabIndex = 121
         '
         'PictureEdit10
         '
+        Me.PictureEdit10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit10.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit10.EditValue = CType(resources.GetObject("PictureEdit10.EditValue"), Object)
         Me.PictureEdit10.Location = New System.Drawing.Point(844, 115)
@@ -346,16 +356,17 @@ Partial Class UCSupplier
         Me.PictureEdit10.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit10.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit10.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem2.Text = "إضافة تليفون"
-        ToolTipItem2.LeftIndent = 6
-        ToolTipItem2.Text = "اضغط لإضافة تليفون آخر"
-        SuperToolTip2.Items.Add(ToolTipTitleItem2)
-        SuperToolTip2.Items.Add(ToolTipItem2)
-        Me.PictureEdit10.SuperTip = SuperToolTip2
+        ToolTipTitleItem3.Text = "إضافة تليفون"
+        ToolTipItem3.LeftIndent = 6
+        ToolTipItem3.Text = "اضغط لإضافة تليفون آخر"
+        SuperToolTip3.Items.Add(ToolTipTitleItem3)
+        SuperToolTip3.Items.Add(ToolTipItem3)
+        Me.PictureEdit10.SuperTip = SuperToolTip3
         Me.PictureEdit10.TabIndex = 118
         '
         'PictureEdit11
         '
+        Me.PictureEdit11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit11.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit11.EditValue = CType(resources.GetObject("PictureEdit11.EditValue"), Object)
         Me.PictureEdit11.Location = New System.Drawing.Point(1193, 115)
@@ -367,16 +378,17 @@ Partial Class UCSupplier
         Me.PictureEdit11.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit11.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit11.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem3.Text = "إضافة تليفون"
-        ToolTipItem3.LeftIndent = 6
-        ToolTipItem3.Text = "اضغط لإضافة تليفون آخر"
-        SuperToolTip3.Items.Add(ToolTipTitleItem3)
-        SuperToolTip3.Items.Add(ToolTipItem3)
-        Me.PictureEdit11.SuperTip = SuperToolTip3
+        ToolTipTitleItem4.Text = "إضافة تليفون"
+        ToolTipItem4.LeftIndent = 6
+        ToolTipItem4.Text = "اضغط لإضافة تليفون آخر"
+        SuperToolTip4.Items.Add(ToolTipTitleItem4)
+        SuperToolTip4.Items.Add(ToolTipItem4)
+        Me.PictureEdit11.SuperTip = SuperToolTip4
         Me.PictureEdit11.TabIndex = 119
         '
         'Label11
         '
+        Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label11.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label11.ForeColor = System.Drawing.Color.Black
@@ -389,6 +401,7 @@ Partial Class UCSupplier
         '
         'Label12
         '
+        Me.Label12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label12.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label12.ForeColor = System.Drawing.Color.Black
@@ -401,18 +414,20 @@ Partial Class UCSupplier
         '
         'ButtonEdit1
         '
+        Me.ButtonEdit1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonEdit1.Location = New System.Drawing.Point(893, 141)
         Me.ButtonEdit1.Name = "ButtonEdit1"
         Me.ButtonEdit1.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonEdit1.Properties.Appearance.Options.UseFont = True
-        EditorButtonImageOptions7.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions7.Image = CType(resources.GetObject("EditorButtonImageOptions7.Image"), System.Drawing.Image)
-        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions7, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject25, SerializableAppearanceObject26, SerializableAppearanceObject27, SerializableAppearanceObject28, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions1.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions1.Image = CType(resources.GetObject("EditorButtonImageOptions1.Image"), System.Drawing.Image)
+        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions1, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, SerializableAppearanceObject2, SerializableAppearanceObject3, SerializableAppearanceObject4, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.ButtonEdit1.Size = New System.Drawing.Size(274, 26)
         Me.ButtonEdit1.TabIndex = 115
         '
         'ComboBox1
         '
+        Me.ComboBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComboBox1.Font = New System.Drawing.Font("Calibri", 14.0!, System.Drawing.FontStyle.Bold)
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Location = New System.Drawing.Point(893, 250)
@@ -422,6 +437,7 @@ Partial Class UCSupplier
         '
         'PictureEdit4
         '
+        Me.PictureEdit4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit4.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit4.EditValue = CType(resources.GetObject("PictureEdit4.EditValue"), Object)
         Me.PictureEdit4.Location = New System.Drawing.Point(865, 255)
@@ -433,16 +449,17 @@ Partial Class UCSupplier
         Me.PictureEdit4.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit4.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit4.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem4.Text = "بحث برقم التليفون"
-        ToolTipItem4.LeftIndent = 6
-        ToolTipItem4.Text = "اضغط للبحث عن عميل برقم تليفونه"
-        SuperToolTip4.Items.Add(ToolTipTitleItem4)
-        SuperToolTip4.Items.Add(ToolTipItem4)
-        Me.PictureEdit4.SuperTip = SuperToolTip4
+        ToolTipTitleItem5.Text = "بحث برقم التليفون"
+        ToolTipItem5.LeftIndent = 6
+        ToolTipItem5.Text = "اضغط للبحث عن عميل برقم تليفونه"
+        SuperToolTip5.Items.Add(ToolTipTitleItem5)
+        SuperToolTip5.Items.Add(ToolTipItem5)
+        Me.PictureEdit4.SuperTip = SuperToolTip5
         Me.PictureEdit4.TabIndex = 112
         '
         'PictureEdit5
         '
+        Me.PictureEdit5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit5.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit5.EditValue = CType(resources.GetObject("PictureEdit5.EditValue"), Object)
         Me.PictureEdit5.Location = New System.Drawing.Point(1170, 255)
@@ -454,16 +471,17 @@ Partial Class UCSupplier
         Me.PictureEdit5.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit5.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit5.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem5.Text = "بحث برقم التليفون"
-        ToolTipItem5.LeftIndent = 6
-        ToolTipItem5.Text = "اضغط للبحث عن عميل برقم تليفونه"
-        SuperToolTip5.Items.Add(ToolTipTitleItem5)
-        SuperToolTip5.Items.Add(ToolTipItem5)
-        Me.PictureEdit5.SuperTip = SuperToolTip5
+        ToolTipTitleItem6.Text = "بحث برقم التليفون"
+        ToolTipItem6.LeftIndent = 6
+        ToolTipItem6.Text = "اضغط للبحث عن عميل برقم تليفونه"
+        SuperToolTip6.Items.Add(ToolTipTitleItem6)
+        SuperToolTip6.Items.Add(ToolTipItem6)
+        Me.PictureEdit5.SuperTip = SuperToolTip6
         Me.PictureEdit5.TabIndex = 113
         '
         'PictureEdit6
         '
+        Me.PictureEdit6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit6.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit6.EditValue = CType(resources.GetObject("PictureEdit6.EditValue"), Object)
         Me.PictureEdit6.Location = New System.Drawing.Point(844, 255)
@@ -475,16 +493,17 @@ Partial Class UCSupplier
         Me.PictureEdit6.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit6.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit6.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem6.Text = "إضافة تليفون"
-        ToolTipItem6.LeftIndent = 6
-        ToolTipItem6.Text = "اضغط لإضافة تليفون آخر"
-        SuperToolTip6.Items.Add(ToolTipTitleItem6)
-        SuperToolTip6.Items.Add(ToolTipItem6)
-        Me.PictureEdit6.SuperTip = SuperToolTip6
+        ToolTipTitleItem7.Text = "إضافة تليفون"
+        ToolTipItem7.LeftIndent = 6
+        ToolTipItem7.Text = "اضغط لإضافة تليفون آخر"
+        SuperToolTip7.Items.Add(ToolTipTitleItem7)
+        SuperToolTip7.Items.Add(ToolTipItem7)
+        Me.PictureEdit6.SuperTip = SuperToolTip7
         Me.PictureEdit6.TabIndex = 110
         '
         'PictureEdit7
         '
+        Me.PictureEdit7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit7.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit7.EditValue = CType(resources.GetObject("PictureEdit7.EditValue"), Object)
         Me.PictureEdit7.Location = New System.Drawing.Point(1193, 255)
@@ -496,16 +515,17 @@ Partial Class UCSupplier
         Me.PictureEdit7.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit7.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit7.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem7.Text = "إضافة تليفون"
-        ToolTipItem7.LeftIndent = 6
-        ToolTipItem7.Text = "اضغط لإضافة تليفون آخر"
-        SuperToolTip7.Items.Add(ToolTipTitleItem7)
-        SuperToolTip7.Items.Add(ToolTipItem7)
-        Me.PictureEdit7.SuperTip = SuperToolTip7
+        ToolTipTitleItem8.Text = "إضافة تليفون"
+        ToolTipItem8.LeftIndent = 6
+        ToolTipItem8.Text = "اضغط لإضافة تليفون آخر"
+        SuperToolTip8.Items.Add(ToolTipTitleItem8)
+        SuperToolTip8.Items.Add(ToolTipItem8)
+        Me.PictureEdit7.SuperTip = SuperToolTip8
         Me.PictureEdit7.TabIndex = 111
         '
         'Label3
         '
+        Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label3.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label3.ForeColor = System.Drawing.Color.Black
@@ -518,6 +538,7 @@ Partial Class UCSupplier
         '
         'lblEmployee
         '
+        Me.lblEmployee.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblEmployee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblEmployee.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.lblEmployee.ForeColor = System.Drawing.Color.Black
@@ -530,61 +551,66 @@ Partial Class UCSupplier
         '
         'ButtonEdit2
         '
+        Me.ButtonEdit2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonEdit2.Location = New System.Drawing.Point(893, 193)
         Me.ButtonEdit2.Name = "ButtonEdit2"
         Me.ButtonEdit2.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonEdit2.Properties.Appearance.Options.UseFont = True
-        EditorButtonImageOptions1.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions1.Image = CType(resources.GetObject("EditorButtonImageOptions1.Image"), System.Drawing.Image)
-        Me.ButtonEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions1, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, SerializableAppearanceObject2, SerializableAppearanceObject3, SerializableAppearanceObject4, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions2.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions2.Image = CType(resources.GetObject("EditorButtonImageOptions2.Image"), System.Drawing.Image)
+        Me.ButtonEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions2, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, SerializableAppearanceObject6, SerializableAppearanceObject7, SerializableAppearanceObject8, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.ButtonEdit2.Size = New System.Drawing.Size(274, 26)
         Me.ButtonEdit2.TabIndex = 107
         '
         'ButtonEdit5
         '
+        Me.ButtonEdit5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonEdit5.Location = New System.Drawing.Point(893, 167)
         Me.ButtonEdit5.Name = "ButtonEdit5"
         Me.ButtonEdit5.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonEdit5.Properties.Appearance.Options.UseFont = True
-        EditorButtonImageOptions2.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions2.Image = CType(resources.GetObject("EditorButtonImageOptions2.Image"), System.Drawing.Image)
-        Me.ButtonEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions2, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, SerializableAppearanceObject6, SerializableAppearanceObject7, SerializableAppearanceObject8, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions3.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions3.Image = CType(resources.GetObject("EditorButtonImageOptions3.Image"), System.Drawing.Image)
+        Me.ButtonEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions3, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject9, SerializableAppearanceObject10, SerializableAppearanceObject11, SerializableAppearanceObject12, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.ButtonEdit5.Size = New System.Drawing.Size(274, 26)
         Me.ButtonEdit5.TabIndex = 107
         '
         'ButtonEdit3
         '
+        Me.ButtonEdit3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ButtonEdit3.Location = New System.Drawing.Point(893, 84)
         Me.ButtonEdit3.Name = "ButtonEdit3"
         Me.ButtonEdit3.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonEdit3.Properties.Appearance.Options.UseFont = True
-        EditorButtonImageOptions3.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions3.Image = CType(resources.GetObject("EditorButtonImageOptions3.Image"), System.Drawing.Image)
-        Me.ButtonEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions3, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject9, SerializableAppearanceObject10, SerializableAppearanceObject11, SerializableAppearanceObject12, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions4.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions4.Image = CType(resources.GetObject("EditorButtonImageOptions4.Image"), System.Drawing.Image)
+        Me.ButtonEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions4, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject13, SerializableAppearanceObject14, SerializableAppearanceObject15, SerializableAppearanceObject16, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.ButtonEdit3.Size = New System.Drawing.Size(274, 26)
         Me.ButtonEdit3.TabIndex = 107
         '
         'btnNameFull
         '
+        Me.btnNameFull.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnNameFull.Location = New System.Drawing.Point(893, 58)
         Me.btnNameFull.Name = "btnNameFull"
         Me.btnNameFull.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnNameFull.Properties.Appearance.Options.UseFont = True
-        EditorButtonImageOptions4.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions4.Image = CType(resources.GetObject("EditorButtonImageOptions4.Image"), System.Drawing.Image)
-        Me.btnNameFull.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions4, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject13, SerializableAppearanceObject14, SerializableAppearanceObject15, SerializableAppearanceObject16, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions5.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions5.Image = CType(resources.GetObject("EditorButtonImageOptions5.Image"), System.Drawing.Image)
+        Me.btnNameFull.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions5, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject17, SerializableAppearanceObject18, SerializableAppearanceObject19, SerializableAppearanceObject20, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.btnNameFull.Size = New System.Drawing.Size(274, 26)
         Me.btnNameFull.TabIndex = 107
         '
         'btnName
         '
+        Me.btnName.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnName.Location = New System.Drawing.Point(893, 32)
         Me.btnName.Name = "btnName"
         Me.btnName.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnName.Properties.Appearance.Options.UseFont = True
-        EditorButtonImageOptions5.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions5.Image = CType(resources.GetObject("EditorButtonImageOptions5.Image"), System.Drawing.Image)
-        Me.btnName.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions5, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject17, SerializableAppearanceObject18, SerializableAppearanceObject19, SerializableAppearanceObject20, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions6.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions6.Image = CType(resources.GetObject("EditorButtonImageOptions6.Image"), System.Drawing.Image)
+        Me.btnName.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions6, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject21, SerializableAppearanceObject22, SerializableAppearanceObject23, SerializableAppearanceObject24, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.btnName.Size = New System.Drawing.Size(274, 26)
         Me.btnName.TabIndex = 107
         '
@@ -599,16 +625,17 @@ Partial Class UCSupplier
         Me.PictureEdit3.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit3.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit3.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem8.Text = "حفظ"
-        ToolTipItem8.LeftIndent = 6
-        ToolTipItem8.Text = "حفظ بيانات العميل"
-        SuperToolTip8.Items.Add(ToolTipTitleItem8)
-        SuperToolTip8.Items.Add(ToolTipItem8)
-        Me.PictureEdit3.SuperTip = SuperToolTip8
+        ToolTipTitleItem9.Text = "حفظ"
+        ToolTipItem9.LeftIndent = 6
+        ToolTipItem9.Text = "حفظ بيانات العميل"
+        SuperToolTip9.Items.Add(ToolTipTitleItem9)
+        SuperToolTip9.Items.Add(ToolTipItem9)
+        Me.PictureEdit3.SuperTip = SuperToolTip9
         Me.PictureEdit3.TabIndex = 106
         '
         'cmbPhone
         '
+        Me.cmbPhone.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbPhone.Font = New System.Drawing.Font("Calibri", 14.0!, System.Drawing.FontStyle.Bold)
         Me.cmbPhone.FormattingEnabled = True
         Me.cmbPhone.Location = New System.Drawing.Point(893, 219)
@@ -618,6 +645,7 @@ Partial Class UCSupplier
         '
         'PictureEdit2
         '
+        Me.PictureEdit2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit2.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit2.EditValue = CType(resources.GetObject("PictureEdit2.EditValue"), Object)
         Me.PictureEdit2.Location = New System.Drawing.Point(865, 224)
@@ -629,16 +657,17 @@ Partial Class UCSupplier
         Me.PictureEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit2.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem9.Text = "بحث برقم التليفون"
-        ToolTipItem9.LeftIndent = 6
-        ToolTipItem9.Text = "اضغط للبحث عن عميل برقم تليفونه"
-        SuperToolTip9.Items.Add(ToolTipTitleItem9)
-        SuperToolTip9.Items.Add(ToolTipItem9)
-        Me.PictureEdit2.SuperTip = SuperToolTip9
+        ToolTipTitleItem10.Text = "بحث برقم التليفون"
+        ToolTipItem10.LeftIndent = 6
+        ToolTipItem10.Text = "اضغط للبحث عن عميل برقم تليفونه"
+        SuperToolTip10.Items.Add(ToolTipTitleItem10)
+        SuperToolTip10.Items.Add(ToolTipItem10)
+        Me.PictureEdit2.SuperTip = SuperToolTip10
         Me.PictureEdit2.TabIndex = 103
         '
         'pbSearchPhone
         '
+        Me.pbSearchPhone.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pbSearchPhone.Cursor = System.Windows.Forms.Cursors.Default
         Me.pbSearchPhone.EditValue = CType(resources.GetObject("pbSearchPhone.EditValue"), Object)
         Me.pbSearchPhone.Location = New System.Drawing.Point(1170, 224)
@@ -650,16 +679,17 @@ Partial Class UCSupplier
         Me.pbSearchPhone.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.pbSearchPhone.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbSearchPhone.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem10.Text = "بحث برقم التليفون"
-        ToolTipItem10.LeftIndent = 6
-        ToolTipItem10.Text = "اضغط للبحث عن عميل برقم تليفونه"
-        SuperToolTip10.Items.Add(ToolTipTitleItem10)
-        SuperToolTip10.Items.Add(ToolTipItem10)
-        Me.pbSearchPhone.SuperTip = SuperToolTip10
+        ToolTipTitleItem11.Text = "بحث برقم التليفون"
+        ToolTipItem11.LeftIndent = 6
+        ToolTipItem11.Text = "اضغط للبحث عن عميل برقم تليفونه"
+        SuperToolTip11.Items.Add(ToolTipTitleItem11)
+        SuperToolTip11.Items.Add(ToolTipItem11)
+        Me.pbSearchPhone.SuperTip = SuperToolTip11
         Me.pbSearchPhone.TabIndex = 103
         '
         'PictureEdit1
         '
+        Me.PictureEdit1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit1.EditValue = CType(resources.GetObject("PictureEdit1.EditValue"), Object)
         Me.PictureEdit1.Location = New System.Drawing.Point(844, 224)
@@ -671,16 +701,17 @@ Partial Class UCSupplier
         Me.PictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit1.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem11.Text = "إضافة تليفون"
-        ToolTipItem11.LeftIndent = 6
-        ToolTipItem11.Text = "اضغط لإضافة تليفون آخر"
-        SuperToolTip11.Items.Add(ToolTipTitleItem11)
-        SuperToolTip11.Items.Add(ToolTipItem11)
-        Me.PictureEdit1.SuperTip = SuperToolTip11
+        ToolTipTitleItem12.Text = "إضافة تليفون"
+        ToolTipItem12.LeftIndent = 6
+        ToolTipItem12.Text = "اضغط لإضافة تليفون آخر"
+        SuperToolTip12.Items.Add(ToolTipTitleItem12)
+        SuperToolTip12.Items.Add(ToolTipItem12)
+        Me.PictureEdit1.SuperTip = SuperToolTip12
         Me.PictureEdit1.TabIndex = 102
         '
         'pbAddPhone
         '
+        Me.pbAddPhone.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pbAddPhone.Cursor = System.Windows.Forms.Cursors.Default
         Me.pbAddPhone.EditValue = CType(resources.GetObject("pbAddPhone.EditValue"), Object)
         Me.pbAddPhone.Location = New System.Drawing.Point(1193, 224)
@@ -692,24 +723,25 @@ Partial Class UCSupplier
         Me.pbAddPhone.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.pbAddPhone.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbAddPhone.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem12.Text = "إضافة تليفون"
-        ToolTipItem12.LeftIndent = 6
-        ToolTipItem12.Text = "اضغط لإضافة تليفون آخر"
-        SuperToolTip12.Items.Add(ToolTipTitleItem12)
-        SuperToolTip12.Items.Add(ToolTipItem12)
-        Me.pbAddPhone.SuperTip = SuperToolTip12
+        ToolTipTitleItem13.Text = "إضافة تليفون"
+        ToolTipItem13.LeftIndent = 6
+        ToolTipItem13.Text = "اضغط لإضافة تليفون آخر"
+        SuperToolTip13.Items.Add(ToolTipTitleItem13)
+        SuperToolTip13.Items.Add(ToolTipItem13)
+        Me.pbAddPhone.SuperTip = SuperToolTip13
         Me.pbAddPhone.TabIndex = 102
         '
         'tbPhoto
         '
+        Me.tbPhoto.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.tbPhoto.Controls.Add(Me.tbCID)
-        Me.tbPhoto.Location = New System.Drawing.Point(20, 32)
+        Me.tbPhoto.Location = New System.Drawing.Point(405, 32)
         Me.tbPhoto.Multiline = True
         Me.tbPhoto.Name = "tbPhoto"
         Me.tbPhoto.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.tbPhoto.RightToLeftLayout = True
         Me.tbPhoto.SelectedIndex = 0
-        Me.tbPhoto.Size = New System.Drawing.Size(633, 232)
+        Me.tbPhoto.Size = New System.Drawing.Size(264, 232)
         Me.tbPhoto.TabIndex = 23
         '
         'tbCID
@@ -720,15 +752,16 @@ Partial Class UCSupplier
         Me.tbCID.Controls.Add(Me.Guna2GradientButton7)
         Me.tbCID.Location = New System.Drawing.Point(4, 28)
         Me.tbCID.Name = "tbCID"
-        Me.tbCID.Size = New System.Drawing.Size(625, 200)
+        Me.tbCID.Size = New System.Drawing.Size(256, 200)
         Me.tbCID.TabIndex = 0
         Me.tbCID.Text = "الترخيص التجاري"
         Me.tbCID.UseVisualStyleBackColor = True
         '
         'PictureBox2
         '
+        Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox2.Location = New System.Drawing.Point(372, 3)
+        Me.PictureBox2.Location = New System.Drawing.Point(3, 3)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(250, 157)
         Me.PictureBox2.TabIndex = 22
@@ -736,6 +769,7 @@ Partial Class UCSupplier
         '
         'Guna2GradientButton14
         '
+        Me.Guna2GradientButton14.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2GradientButton14.BackColor = System.Drawing.Color.Transparent
         Me.Guna2GradientButton14.BorderRadius = 10
         Me.Guna2GradientButton14.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -748,7 +782,7 @@ Partial Class UCSupplier
         Me.Guna2GradientButton14.Font = New System.Drawing.Font("Calibri", 9.0!)
         Me.Guna2GradientButton14.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton14.ImageSize = New System.Drawing.Size(30, 30)
-        Me.Guna2GradientButton14.Location = New System.Drawing.Point(542, 166)
+        Me.Guna2GradientButton14.Location = New System.Drawing.Point(173, 166)
         Me.Guna2GradientButton14.Name = "Guna2GradientButton14"
         Me.Guna2GradientButton14.Size = New System.Drawing.Size(80, 27)
         Me.Guna2GradientButton14.TabIndex = 20
@@ -756,6 +790,7 @@ Partial Class UCSupplier
         '
         'Guna2GradientButton8
         '
+        Me.Guna2GradientButton8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2GradientButton8.BackColor = System.Drawing.Color.Transparent
         Me.Guna2GradientButton8.BorderRadius = 10
         Me.Guna2GradientButton8.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -768,7 +803,7 @@ Partial Class UCSupplier
         Me.Guna2GradientButton8.Font = New System.Drawing.Font("Calibri", 9.0!)
         Me.Guna2GradientButton8.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton8.ImageSize = New System.Drawing.Size(30, 30)
-        Me.Guna2GradientButton8.Location = New System.Drawing.Point(372, 166)
+        Me.Guna2GradientButton8.Location = New System.Drawing.Point(3, 166)
         Me.Guna2GradientButton8.Name = "Guna2GradientButton8"
         Me.Guna2GradientButton8.Size = New System.Drawing.Size(80, 27)
         Me.Guna2GradientButton8.TabIndex = 21
@@ -776,6 +811,7 @@ Partial Class UCSupplier
         '
         'Guna2GradientButton7
         '
+        Me.Guna2GradientButton7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Guna2GradientButton7.BackColor = System.Drawing.Color.Transparent
         Me.Guna2GradientButton7.BorderRadius = 10
         Me.Guna2GradientButton7.DisabledState.BorderColor = System.Drawing.Color.DarkGray
@@ -788,7 +824,7 @@ Partial Class UCSupplier
         Me.Guna2GradientButton7.Font = New System.Drawing.Font("Calibri", 9.0!)
         Me.Guna2GradientButton7.ForeColor = System.Drawing.Color.White
         Me.Guna2GradientButton7.ImageSize = New System.Drawing.Size(30, 30)
-        Me.Guna2GradientButton7.Location = New System.Drawing.Point(457, 166)
+        Me.Guna2GradientButton7.Location = New System.Drawing.Point(88, 166)
         Me.Guna2GradientButton7.Name = "Guna2GradientButton7"
         Me.Guna2GradientButton7.Size = New System.Drawing.Size(80, 27)
         Me.Guna2GradientButton7.TabIndex = 21
@@ -796,6 +832,7 @@ Partial Class UCSupplier
         '
         'Label6
         '
+        Me.Label6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label6.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label6.ForeColor = System.Drawing.Color.Black
@@ -808,6 +845,7 @@ Partial Class UCSupplier
         '
         'Label5
         '
+        Me.Label5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label5.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label5.ForeColor = System.Drawing.Color.Black
@@ -820,6 +858,7 @@ Partial Class UCSupplier
         '
         'Label4
         '
+        Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label4.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label4.ForeColor = System.Drawing.Color.Black
@@ -832,6 +871,7 @@ Partial Class UCSupplier
         '
         'Label10
         '
+        Me.Label10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label10.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label10.ForeColor = System.Drawing.Color.Black
@@ -844,6 +884,7 @@ Partial Class UCSupplier
         '
         'Label8
         '
+        Me.Label8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label8.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label8.ForeColor = System.Drawing.Color.Black
@@ -856,6 +897,7 @@ Partial Class UCSupplier
         '
         'Label2
         '
+        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label2.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label2.ForeColor = System.Drawing.Color.Black
@@ -868,6 +910,7 @@ Partial Class UCSupplier
         '
         'Label9
         '
+        Me.Label9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label9.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label9.ForeColor = System.Drawing.Color.Black
@@ -880,6 +923,7 @@ Partial Class UCSupplier
         '
         'Label1
         '
+        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label1.ForeColor = System.Drawing.Color.Black
@@ -892,6 +936,7 @@ Partial Class UCSupplier
         '
         'Label7
         '
+        Me.Label7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label7.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label7.ForeColor = System.Drawing.Color.Black
