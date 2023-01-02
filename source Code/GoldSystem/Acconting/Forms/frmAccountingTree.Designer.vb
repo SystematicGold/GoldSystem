@@ -42,7 +42,7 @@ Partial Class frmAccountingTree
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(1250, 57)
+        Me.Label1.Location = New System.Drawing.Point(1250, 9)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(87, 18)
@@ -51,7 +51,7 @@ Partial Class frmAccountingTree
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(1022, 57)
+        Me.TextBox1.Location = New System.Drawing.Point(1022, 9)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(219, 26)
@@ -60,7 +60,7 @@ Partial Class frmAccountingTree
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(897, 57)
+        Me.Label2.Location = New System.Drawing.Point(897, 9)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(92, 18)
@@ -69,7 +69,7 @@ Partial Class frmAccountingTree
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(697, 57)
+        Me.TextBox2.Location = New System.Drawing.Point(697, 9)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ReadOnly = True
@@ -78,7 +78,7 @@ Partial Class frmAccountingTree
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(645, 58)
+        Me.Button1.Location = New System.Drawing.Point(645, 10)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(44, 25)
@@ -89,7 +89,7 @@ Partial Class frmAccountingTree
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(1250, 94)
+        Me.Label3.Location = New System.Drawing.Point(1250, 46)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(57, 18)
@@ -98,7 +98,7 @@ Partial Class frmAccountingTree
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(697, 90)
+        Me.TextBox3.Location = New System.Drawing.Point(697, 42)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(544, 26)
@@ -107,7 +107,7 @@ Partial Class frmAccountingTree
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(1250, 135)
+        Me.Label4.Location = New System.Drawing.Point(1250, 87)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(47, 18)
@@ -118,7 +118,7 @@ Partial Class frmAccountingTree
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"الميزانية العمومية", "حساب الارباح والخسائر", "حساب المصروفات", "حساب الايرادات"})
-        Me.ComboBox1.Location = New System.Drawing.Point(1081, 135)
+        Me.ComboBox1.Location = New System.Drawing.Point(1081, 87)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -128,10 +128,10 @@ Partial Class frmAccountingTree
         'TreeList1
         '
         Me.TreeList1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.TreeList1.Location = New System.Drawing.Point(0, 254)
+        Me.TreeList1.Location = New System.Drawing.Point(0, 180)
         Me.TreeList1.Margin = New System.Windows.Forms.Padding(4)
         Me.TreeList1.Name = "TreeList1"
-        Me.TreeList1.Size = New System.Drawing.Size(1350, 475)
+        Me.TreeList1.Size = New System.Drawing.Size(1350, 549)
         Me.TreeList1.TabIndex = 6
         '
         'Guna2Button3
@@ -144,7 +144,7 @@ Partial Class frmAccountingTree
         Me.Guna2Button3.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2Button3.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button3.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button3.Location = New System.Drawing.Point(1139, 185)
+        Me.Guna2Button3.Location = New System.Drawing.Point(1139, 137)
         Me.Guna2Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button3.Name = "Guna2Button3"
         Me.Guna2Button3.Size = New System.Drawing.Size(129, 35)
@@ -161,7 +161,7 @@ Partial Class frmAccountingTree
         Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2Button1.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.Location = New System.Drawing.Point(977, 185)
+        Me.Guna2Button1.Location = New System.Drawing.Point(977, 137)
         Me.Guna2Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button1.Name = "Guna2Button1"
         Me.Guna2Button1.Size = New System.Drawing.Size(129, 35)
@@ -178,7 +178,7 @@ Partial Class frmAccountingTree
         Me.Guna2Button2.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2Button2.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button2.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button2.Location = New System.Drawing.Point(653, 185)
+        Me.Guna2Button2.Location = New System.Drawing.Point(653, 137)
         Me.Guna2Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button2.Name = "Guna2Button2"
         Me.Guna2Button2.Size = New System.Drawing.Size(129, 35)
@@ -195,7 +195,7 @@ Partial Class frmAccountingTree
         Me.Guna2Button4.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2Button4.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button4.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button4.Location = New System.Drawing.Point(815, 185)
+        Me.Guna2Button4.Location = New System.Drawing.Point(815, 137)
         Me.Guna2Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button4.Name = "Guna2Button4"
         Me.Guna2Button4.Size = New System.Drawing.Size(129, 35)

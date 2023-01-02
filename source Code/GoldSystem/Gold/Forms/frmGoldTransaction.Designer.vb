@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class FrmGoldPurchase
+Partial Class frmGoldTransaction
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class FrmGoldPurchase
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmGoldPurchase))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmGoldTransaction))
         Me.gbItemData = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.lblNote = New System.Windows.Forms.Label()
         Me.txtNote = New System.Windows.Forms.TextBox()
@@ -40,6 +40,7 @@ Partial Class FrmGoldPurchase
         Me.txtGoldWeight = New System.Windows.Forms.TextBox()
         Me.txtImagePath = New DevExpress.XtraEditors.TextEdit()
         Me.lblGoldWeight = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.lblKarat = New System.Windows.Forms.Label()
         Me.lblDateOfManufacture = New System.Windows.Forms.Label()
         Me.lblBarCode = New System.Windows.Forms.Label()
@@ -53,6 +54,7 @@ Partial Class FrmGoldPurchase
         Me.lblCostPerPiece = New System.Windows.Forms.Label()
         Me.lblGramCost = New System.Windows.Forms.Label()
         Me.txtNoOfPieces = New System.Windows.Forms.TextBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.txt = New System.Windows.Forms.TextBox()
         Me.cmbKarat = New System.Windows.Forms.ComboBox()
         Me.lblItemNo = New System.Windows.Forms.Label()
@@ -66,7 +68,6 @@ Partial Class FrmGoldPurchase
         Me.cmbSymbol = New System.Windows.Forms.TextBox()
         Me.lblPhoto = New System.Windows.Forms.Label()
         Me.lblDocument = New System.Windows.Forms.Label()
-        Me.UcCivilId1 = New GoldSystem.UCCivilId()
         Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
         Me.TabNavigationPage1 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
@@ -76,6 +77,8 @@ Partial Class FrmGoldPurchase
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -96,10 +99,7 @@ Partial Class FrmGoldPurchase
         Me.TabNavigationPage4 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.UcGoldAddItem1 = New GoldSystem.UCGoldAddItem()
         Me.UcSupplier1 = New GoldSystem.UCSupplier()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.UcSupplier2 = New GoldSystem.UCSupplier()
         Me.gbItemData.SuspendLayout()
         CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -169,9 +169,9 @@ Partial Class FrmGoldPurchase
         Me.gbItemData.CustomBorderColor = System.Drawing.Color.CornflowerBlue
         Me.gbItemData.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.gbItemData.ForeColor = System.Drawing.Color.Black
-        Me.gbItemData.Location = New System.Drawing.Point(-18, 272)
+        Me.gbItemData.Location = New System.Drawing.Point(0, 302)
         Me.gbItemData.Name = "gbItemData"
-        Me.gbItemData.Size = New System.Drawing.Size(1350, 222)
+        Me.gbItemData.Size = New System.Drawing.Size(1332, 222)
         Me.gbItemData.TabIndex = 3
         Me.gbItemData.Text = "بيانات القطعة"
         Me.gbItemData.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -182,7 +182,7 @@ Partial Class FrmGoldPurchase
         Me.lblNote.BackColor = System.Drawing.Color.Transparent
         Me.lblNote.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblNote.ForeColor = System.Drawing.Color.Black
-        Me.lblNote.Location = New System.Drawing.Point(345, 160)
+        Me.lblNote.Location = New System.Drawing.Point(327, 160)
         Me.lblNote.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblNote.Name = "lblNote"
         Me.lblNote.Size = New System.Drawing.Size(495, 27)
@@ -195,7 +195,7 @@ Partial Class FrmGoldPurchase
         Me.txtNote.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtNote.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNote.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNote.Location = New System.Drawing.Point(345, 187)
+        Me.txtNote.Location = New System.Drawing.Point(327, 187)
         Me.txtNote.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNote.Multiline = True
         Me.txtNote.Name = "txtNote"
@@ -211,7 +211,7 @@ Partial Class FrmGoldPurchase
         Me.dtDateAdd.CustomFormat = "dd/MM/yyyy"
         Me.dtDateAdd.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtDateAdd.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtDateAdd.Location = New System.Drawing.Point(345, 131)
+        Me.dtDateAdd.Location = New System.Drawing.Point(327, 131)
         Me.dtDateAdd.Name = "dtDateAdd"
         Me.dtDateAdd.Size = New System.Drawing.Size(165, 27)
         Me.dtDateAdd.TabIndex = 113
@@ -222,7 +222,7 @@ Partial Class FrmGoldPurchase
         Me.lblDateAdd.BackColor = System.Drawing.Color.Transparent
         Me.lblDateAdd.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDateAdd.ForeColor = System.Drawing.Color.Black
-        Me.lblDateAdd.Location = New System.Drawing.Point(345, 100)
+        Me.lblDateAdd.Location = New System.Drawing.Point(327, 100)
         Me.lblDateAdd.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDateAdd.Name = "lblDateAdd"
         Me.lblDateAdd.Size = New System.Drawing.Size(165, 27)
@@ -236,7 +236,7 @@ Partial Class FrmGoldPurchase
         Me.cmbItemStatus.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbItemStatus.FormattingEnabled = True
         Me.cmbItemStatus.Items.AddRange(New Object() {"جديد", "مستعمل"})
-        Me.cmbItemStatus.Location = New System.Drawing.Point(675, 131)
+        Me.cmbItemStatus.Location = New System.Drawing.Point(657, 131)
         Me.cmbItemStatus.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbItemStatus.Name = "cmbItemStatus"
         Me.cmbItemStatus.Size = New System.Drawing.Size(165, 27)
@@ -248,7 +248,7 @@ Partial Class FrmGoldPurchase
         Me.lblItemStatus.BackColor = System.Drawing.Color.Transparent
         Me.lblItemStatus.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblItemStatus.ForeColor = System.Drawing.Color.Black
-        Me.lblItemStatus.Location = New System.Drawing.Point(675, 100)
+        Me.lblItemStatus.Location = New System.Drawing.Point(657, 100)
         Me.lblItemStatus.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblItemStatus.Name = "lblItemStatus"
         Me.lblItemStatus.Size = New System.Drawing.Size(165, 27)
@@ -262,7 +262,7 @@ Partial Class FrmGoldPurchase
         Me.cmbTaxExempt.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbTaxExempt.FormattingEnabled = True
         Me.cmbTaxExempt.Items.AddRange(New Object() {"معفي", "غير معفي"})
-        Me.cmbTaxExempt.Location = New System.Drawing.Point(840, 131)
+        Me.cmbTaxExempt.Location = New System.Drawing.Point(822, 131)
         Me.cmbTaxExempt.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbTaxExempt.Name = "cmbTaxExempt"
         Me.cmbTaxExempt.Size = New System.Drawing.Size(165, 27)
@@ -274,7 +274,7 @@ Partial Class FrmGoldPurchase
         Me.lblTaxExempt.BackColor = System.Drawing.Color.Transparent
         Me.lblTaxExempt.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTaxExempt.ForeColor = System.Drawing.Color.Black
-        Me.lblTaxExempt.Location = New System.Drawing.Point(840, 100)
+        Me.lblTaxExempt.Location = New System.Drawing.Point(822, 100)
         Me.lblTaxExempt.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTaxExempt.Name = "lblTaxExempt"
         Me.lblTaxExempt.Size = New System.Drawing.Size(165, 27)
@@ -288,7 +288,7 @@ Partial Class FrmGoldPurchase
         Me.dtDateOfManufacture.CustomFormat = "dd/MM/yyyy"
         Me.dtDateOfManufacture.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtDateOfManufacture.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtDateOfManufacture.Location = New System.Drawing.Point(510, 131)
+        Me.dtDateOfManufacture.Location = New System.Drawing.Point(492, 131)
         Me.dtDateOfManufacture.Name = "dtDateOfManufacture"
         Me.dtDateOfManufacture.Size = New System.Drawing.Size(165, 27)
         Me.dtDateOfManufacture.TabIndex = 107
@@ -298,7 +298,7 @@ Partial Class FrmGoldPurchase
         Me.txtCostForSeller.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtCostForSeller.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCostForSeller.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCostForSeller.Location = New System.Drawing.Point(345, 70)
+        Me.txtCostForSeller.Location = New System.Drawing.Point(327, 70)
         Me.txtCostForSeller.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCostForSeller.Name = "txtCostForSeller"
         Me.txtCostForSeller.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -312,7 +312,7 @@ Partial Class FrmGoldPurchase
         Me.lblCostForSeller.BackColor = System.Drawing.Color.Transparent
         Me.lblCostForSeller.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCostForSeller.ForeColor = System.Drawing.Color.Black
-        Me.lblCostForSeller.Location = New System.Drawing.Point(345, 39)
+        Me.lblCostForSeller.Location = New System.Drawing.Point(327, 39)
         Me.lblCostForSeller.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCostForSeller.Name = "lblCostForSeller"
         Me.lblCostForSeller.Size = New System.Drawing.Size(165, 27)
@@ -326,7 +326,7 @@ Partial Class FrmGoldPurchase
         Me.lblItemName.BackColor = System.Drawing.Color.Transparent
         Me.lblItemName.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblItemName.ForeColor = System.Drawing.Color.Black
-        Me.lblItemName.Location = New System.Drawing.Point(1170, 39)
+        Me.lblItemName.Location = New System.Drawing.Point(1152, 39)
         Me.lblItemName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblItemName.Name = "lblItemName"
         Me.lblItemName.Size = New System.Drawing.Size(165, 27)
@@ -337,7 +337,7 @@ Partial Class FrmGoldPurchase
         'txtDocumentPath
         '
         Me.txtDocumentPath.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtDocumentPath.Location = New System.Drawing.Point(15, 187)
+        Me.txtDocumentPath.Location = New System.Drawing.Point(-3, 187)
         Me.txtDocumentPath.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDocumentPath.Name = "txtDocumentPath"
         Me.txtDocumentPath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -352,7 +352,7 @@ Partial Class FrmGoldPurchase
         Me.txtGoldWeight.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtGoldWeight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtGoldWeight.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGoldWeight.Location = New System.Drawing.Point(840, 70)
+        Me.txtGoldWeight.Location = New System.Drawing.Point(822, 70)
         Me.txtGoldWeight.Margin = New System.Windows.Forms.Padding(4)
         Me.txtGoldWeight.Name = "txtGoldWeight"
         Me.txtGoldWeight.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -363,7 +363,7 @@ Partial Class FrmGoldPurchase
         'txtImagePath
         '
         Me.txtImagePath.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtImagePath.Location = New System.Drawing.Point(15, 131)
+        Me.txtImagePath.Location = New System.Drawing.Point(-3, 131)
         Me.txtImagePath.Margin = New System.Windows.Forms.Padding(4)
         Me.txtImagePath.Name = "txtImagePath"
         Me.txtImagePath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -379,7 +379,7 @@ Partial Class FrmGoldPurchase
         Me.lblGoldWeight.BackColor = System.Drawing.Color.Transparent
         Me.lblGoldWeight.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblGoldWeight.ForeColor = System.Drawing.Color.Black
-        Me.lblGoldWeight.Location = New System.Drawing.Point(840, 39)
+        Me.lblGoldWeight.Location = New System.Drawing.Point(822, 39)
         Me.lblGoldWeight.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblGoldWeight.Name = "lblGoldWeight"
         Me.lblGoldWeight.Size = New System.Drawing.Size(165, 27)
@@ -387,13 +387,27 @@ Partial Class FrmGoldPurchase
         Me.lblGoldWeight.Text = "وزن الذهب"
         Me.lblGoldWeight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Label9
+        '
+        Me.Label9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Black
+        Me.Label9.Location = New System.Drawing.Point(162, 160)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(165, 27)
+        Me.Label9.TabIndex = 72
+        Me.Label9.Text = "ترحيل إلى"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'lblKarat
         '
         Me.lblKarat.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblKarat.BackColor = System.Drawing.Color.Transparent
         Me.lblKarat.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblKarat.ForeColor = System.Drawing.Color.Black
-        Me.lblKarat.Location = New System.Drawing.Point(1005, 39)
+        Me.lblKarat.Location = New System.Drawing.Point(987, 39)
         Me.lblKarat.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblKarat.Name = "lblKarat"
         Me.lblKarat.Size = New System.Drawing.Size(165, 27)
@@ -407,7 +421,7 @@ Partial Class FrmGoldPurchase
         Me.lblDateOfManufacture.BackColor = System.Drawing.Color.Transparent
         Me.lblDateOfManufacture.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDateOfManufacture.ForeColor = System.Drawing.Color.Black
-        Me.lblDateOfManufacture.Location = New System.Drawing.Point(510, 100)
+        Me.lblDateOfManufacture.Location = New System.Drawing.Point(492, 100)
         Me.lblDateOfManufacture.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDateOfManufacture.Name = "lblDateOfManufacture"
         Me.lblDateOfManufacture.Size = New System.Drawing.Size(165, 27)
@@ -421,7 +435,7 @@ Partial Class FrmGoldPurchase
         Me.lblBarCode.BackColor = System.Drawing.Color.Transparent
         Me.lblBarCode.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblBarCode.ForeColor = System.Drawing.Color.Black
-        Me.lblBarCode.Location = New System.Drawing.Point(840, 160)
+        Me.lblBarCode.Location = New System.Drawing.Point(822, 160)
         Me.lblBarCode.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblBarCode.Name = "lblBarCode"
         Me.lblBarCode.Size = New System.Drawing.Size(165, 27)
@@ -434,7 +448,7 @@ Partial Class FrmGoldPurchase
         Me.txtCostPerGram.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtCostPerGram.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCostPerGram.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCostPerGram.Location = New System.Drawing.Point(510, 70)
+        Me.txtCostPerGram.Location = New System.Drawing.Point(492, 70)
         Me.txtCostPerGram.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCostPerGram.Name = "txtCostPerGram"
         Me.txtCostPerGram.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -447,7 +461,7 @@ Partial Class FrmGoldPurchase
         Me.txtBarCode.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtBarCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtBarCode.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBarCode.Location = New System.Drawing.Point(840, 187)
+        Me.txtBarCode.Location = New System.Drawing.Point(822, 187)
         Me.txtBarCode.Margin = New System.Windows.Forms.Padding(4)
         Me.txtBarCode.Name = "txtBarCode"
         Me.txtBarCode.Size = New System.Drawing.Size(165, 27)
@@ -459,7 +473,7 @@ Partial Class FrmGoldPurchase
         Me.txtCostPerPiece.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtCostPerPiece.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtCostPerPiece.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCostPerPiece.Location = New System.Drawing.Point(15, 70)
+        Me.txtCostPerPiece.Location = New System.Drawing.Point(-3, 70)
         Me.txtCostPerPiece.Margin = New System.Windows.Forms.Padding(4)
         Me.txtCostPerPiece.Name = "txtCostPerPiece"
         Me.txtCostPerPiece.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -473,7 +487,7 @@ Partial Class FrmGoldPurchase
         Me.lblSupplier.BackColor = System.Drawing.Color.Transparent
         Me.lblSupplier.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSupplier.ForeColor = System.Drawing.Color.Black
-        Me.lblSupplier.Location = New System.Drawing.Point(1005, 100)
+        Me.lblSupplier.Location = New System.Drawing.Point(987, 100)
         Me.lblSupplier.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblSupplier.Name = "lblSupplier"
         Me.lblSupplier.Size = New System.Drawing.Size(165, 27)
@@ -487,7 +501,7 @@ Partial Class FrmGoldPurchase
         Me.lblMakingCharge.BackColor = System.Drawing.Color.Transparent
         Me.lblMakingCharge.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMakingCharge.ForeColor = System.Drawing.Color.Black
-        Me.lblMakingCharge.Location = New System.Drawing.Point(675, 39)
+        Me.lblMakingCharge.Location = New System.Drawing.Point(657, 39)
         Me.lblMakingCharge.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblMakingCharge.Name = "lblMakingCharge"
         Me.lblMakingCharge.Size = New System.Drawing.Size(165, 27)
@@ -501,7 +515,7 @@ Partial Class FrmGoldPurchase
         Me.lblCostPerGram.BackColor = System.Drawing.Color.Transparent
         Me.lblCostPerGram.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCostPerGram.ForeColor = System.Drawing.Color.Black
-        Me.lblCostPerGram.Location = New System.Drawing.Point(510, 39)
+        Me.lblCostPerGram.Location = New System.Drawing.Point(492, 39)
         Me.lblCostPerGram.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCostPerGram.Name = "lblCostPerGram"
         Me.lblCostPerGram.Size = New System.Drawing.Size(165, 27)
@@ -514,7 +528,7 @@ Partial Class FrmGoldPurchase
         Me.txtMakingCharge.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtMakingCharge.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtMakingCharge.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtMakingCharge.Location = New System.Drawing.Point(675, 70)
+        Me.txtMakingCharge.Location = New System.Drawing.Point(657, 70)
         Me.txtMakingCharge.Margin = New System.Windows.Forms.Padding(4)
         Me.txtMakingCharge.Name = "txtMakingCharge"
         Me.txtMakingCharge.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -528,7 +542,7 @@ Partial Class FrmGoldPurchase
         Me.lblCostPerPiece.BackColor = System.Drawing.Color.Transparent
         Me.lblCostPerPiece.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCostPerPiece.ForeColor = System.Drawing.Color.Black
-        Me.lblCostPerPiece.Location = New System.Drawing.Point(15, 39)
+        Me.lblCostPerPiece.Location = New System.Drawing.Point(-3, 39)
         Me.lblCostPerPiece.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCostPerPiece.Name = "lblCostPerPiece"
         Me.lblCostPerPiece.Size = New System.Drawing.Size(165, 27)
@@ -542,7 +556,7 @@ Partial Class FrmGoldPurchase
         Me.lblGramCost.BackColor = System.Drawing.Color.Transparent
         Me.lblGramCost.Font = New System.Drawing.Font("Calibri", 10.0!, System.Drawing.FontStyle.Bold)
         Me.lblGramCost.ForeColor = System.Drawing.Color.Black
-        Me.lblGramCost.Location = New System.Drawing.Point(180, 39)
+        Me.lblGramCost.Location = New System.Drawing.Point(162, 39)
         Me.lblGramCost.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblGramCost.Name = "lblGramCost"
         Me.lblGramCost.Size = New System.Drawing.Size(165, 27)
@@ -555,7 +569,7 @@ Partial Class FrmGoldPurchase
         Me.txtNoOfPieces.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtNoOfPieces.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtNoOfPieces.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNoOfPieces.Location = New System.Drawing.Point(180, 131)
+        Me.txtNoOfPieces.Location = New System.Drawing.Point(162, 131)
         Me.txtNoOfPieces.Margin = New System.Windows.Forms.Padding(4)
         Me.txtNoOfPieces.Name = "txtNoOfPieces"
         Me.txtNoOfPieces.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -563,12 +577,25 @@ Partial Class FrmGoldPurchase
         Me.txtNoOfPieces.TabIndex = 79
         Me.txtNoOfPieces.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'ComboBox3
+        '
+        Me.ComboBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ComboBox3.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"مشغولات", "كسر"})
+        Me.ComboBox3.Location = New System.Drawing.Point(162, 187)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox3.Size = New System.Drawing.Size(165, 27)
+        Me.ComboBox3.TabIndex = 99
+        '
         'txt
         '
         Me.txt.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txt.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txt.Location = New System.Drawing.Point(180, 70)
+        Me.txt.Location = New System.Drawing.Point(162, 70)
         Me.txt.Margin = New System.Windows.Forms.Padding(4)
         Me.txt.Name = "txt"
         Me.txt.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -581,7 +608,7 @@ Partial Class FrmGoldPurchase
         Me.cmbKarat.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbKarat.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbKarat.FormattingEnabled = True
-        Me.cmbKarat.Location = New System.Drawing.Point(1005, 70)
+        Me.cmbKarat.Location = New System.Drawing.Point(987, 70)
         Me.cmbKarat.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbKarat.Name = "cmbKarat"
         Me.cmbKarat.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -594,7 +621,7 @@ Partial Class FrmGoldPurchase
         Me.lblItemNo.BackColor = System.Drawing.Color.Transparent
         Me.lblItemNo.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblItemNo.ForeColor = System.Drawing.Color.Black
-        Me.lblItemNo.Location = New System.Drawing.Point(1170, 160)
+        Me.lblItemNo.Location = New System.Drawing.Point(1152, 160)
         Me.lblItemNo.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblItemNo.Name = "lblItemNo"
         Me.lblItemNo.Size = New System.Drawing.Size(165, 27)
@@ -607,7 +634,7 @@ Partial Class FrmGoldPurchase
         Me.cmbCountryOfOrigin.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbCountryOfOrigin.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbCountryOfOrigin.FormattingEnabled = True
-        Me.cmbCountryOfOrigin.Location = New System.Drawing.Point(1170, 131)
+        Me.cmbCountryOfOrigin.Location = New System.Drawing.Point(1152, 131)
         Me.cmbCountryOfOrigin.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbCountryOfOrigin.Name = "cmbCountryOfOrigin"
         Me.cmbCountryOfOrigin.Size = New System.Drawing.Size(165, 27)
@@ -619,7 +646,7 @@ Partial Class FrmGoldPurchase
         Me.LblSymbol.BackColor = System.Drawing.Color.Transparent
         Me.LblSymbol.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LblSymbol.ForeColor = System.Drawing.Color.Black
-        Me.LblSymbol.Location = New System.Drawing.Point(1005, 160)
+        Me.LblSymbol.Location = New System.Drawing.Point(987, 160)
         Me.LblSymbol.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LblSymbol.Name = "LblSymbol"
         Me.LblSymbol.Size = New System.Drawing.Size(165, 27)
@@ -632,7 +659,7 @@ Partial Class FrmGoldPurchase
         Me.cmbName.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbName.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbName.FormattingEnabled = True
-        Me.cmbName.Location = New System.Drawing.Point(1170, 70)
+        Me.cmbName.Location = New System.Drawing.Point(1152, 70)
         Me.cmbName.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbName.Name = "cmbName"
         Me.cmbName.Size = New System.Drawing.Size(165, 27)
@@ -644,7 +671,7 @@ Partial Class FrmGoldPurchase
         Me.lblCountryOfOrigin.BackColor = System.Drawing.Color.Transparent
         Me.lblCountryOfOrigin.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCountryOfOrigin.ForeColor = System.Drawing.Color.Black
-        Me.lblCountryOfOrigin.Location = New System.Drawing.Point(1170, 100)
+        Me.lblCountryOfOrigin.Location = New System.Drawing.Point(1152, 100)
         Me.lblCountryOfOrigin.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblCountryOfOrigin.Name = "lblCountryOfOrigin"
         Me.lblCountryOfOrigin.Size = New System.Drawing.Size(165, 27)
@@ -657,7 +684,7 @@ Partial Class FrmGoldPurchase
         Me.cmbSupplier.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbSupplier.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbSupplier.FormattingEnabled = True
-        Me.cmbSupplier.Location = New System.Drawing.Point(1005, 131)
+        Me.cmbSupplier.Location = New System.Drawing.Point(987, 131)
         Me.cmbSupplier.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbSupplier.Name = "cmbSupplier"
         Me.cmbSupplier.Size = New System.Drawing.Size(165, 27)
@@ -668,7 +695,7 @@ Partial Class FrmGoldPurchase
         Me.txtItemNo.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtItemNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtItemNo.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtItemNo.Location = New System.Drawing.Point(1170, 187)
+        Me.txtItemNo.Location = New System.Drawing.Point(1152, 187)
         Me.txtItemNo.Margin = New System.Windows.Forms.Padding(4)
         Me.txtItemNo.Name = "txtItemNo"
         Me.txtItemNo.Size = New System.Drawing.Size(165, 27)
@@ -681,7 +708,7 @@ Partial Class FrmGoldPurchase
         Me.lblNoOfPieces.BackColor = System.Drawing.Color.Transparent
         Me.lblNoOfPieces.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblNoOfPieces.ForeColor = System.Drawing.Color.Black
-        Me.lblNoOfPieces.Location = New System.Drawing.Point(180, 100)
+        Me.lblNoOfPieces.Location = New System.Drawing.Point(162, 100)
         Me.lblNoOfPieces.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblNoOfPieces.Name = "lblNoOfPieces"
         Me.lblNoOfPieces.Size = New System.Drawing.Size(165, 27)
@@ -694,7 +721,7 @@ Partial Class FrmGoldPurchase
         Me.cmbSymbol.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbSymbol.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.cmbSymbol.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbSymbol.Location = New System.Drawing.Point(1005, 187)
+        Me.cmbSymbol.Location = New System.Drawing.Point(987, 187)
         Me.cmbSymbol.Margin = New System.Windows.Forms.Padding(4)
         Me.cmbSymbol.Name = "cmbSymbol"
         Me.cmbSymbol.RightToLeft = System.Windows.Forms.RightToLeft.No
@@ -708,7 +735,7 @@ Partial Class FrmGoldPurchase
         Me.lblPhoto.BackColor = System.Drawing.Color.Transparent
         Me.lblPhoto.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPhoto.ForeColor = System.Drawing.Color.Black
-        Me.lblPhoto.Location = New System.Drawing.Point(15, 100)
+        Me.lblPhoto.Location = New System.Drawing.Point(-3, 100)
         Me.lblPhoto.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblPhoto.Name = "lblPhoto"
         Me.lblPhoto.Size = New System.Drawing.Size(165, 27)
@@ -722,24 +749,13 @@ Partial Class FrmGoldPurchase
         Me.lblDocument.BackColor = System.Drawing.Color.Transparent
         Me.lblDocument.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDocument.ForeColor = System.Drawing.Color.Black
-        Me.lblDocument.Location = New System.Drawing.Point(15, 160)
+        Me.lblDocument.Location = New System.Drawing.Point(-3, 160)
         Me.lblDocument.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblDocument.Name = "lblDocument"
         Me.lblDocument.Size = New System.Drawing.Size(165, 27)
         Me.lblDocument.TabIndex = 55
         Me.lblDocument.Text = "مستندات / شهادات للقطعة"
         Me.lblDocument.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'UcCivilId1
-        '
-        Me.UcCivilId1.BackColor = System.Drawing.Color.Transparent
-        Me.UcCivilId1.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.UcCivilId1.Location = New System.Drawing.Point(282, 0)
-        Me.UcCivilId1.Margin = New System.Windows.Forms.Padding(5)
-        Me.UcCivilId1.Name = "UcCivilId1"
-        Me.UcCivilId1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.UcCivilId1.Size = New System.Drawing.Size(1050, 270)
-        Me.UcCivilId1.TabIndex = 4
         '
         'TabPane1
         '
@@ -758,15 +774,15 @@ Partial Class FrmGoldPurchase
         '
         'TabNavigationPage1
         '
-        Me.TabNavigationPage1.Caption = "مشتريات أفراد"
-        Me.TabNavigationPage1.Controls.Add(Me.UcCivilId1)
+        Me.TabNavigationPage1.Caption = "مبيعات تسكير"
+        Me.TabNavigationPage1.Controls.Add(Me.UcSupplier2)
         Me.TabNavigationPage1.Controls.Add(Me.gbItemData)
         Me.TabNavigationPage1.Name = "TabNavigationPage1"
         Me.TabNavigationPage1.Size = New System.Drawing.Size(1332, 684)
         '
         'TabNavigationPage2
         '
-        Me.TabNavigationPage2.Caption = "مشتريات الجملة"
+        Me.TabNavigationPage2.Caption = "مشتريات تسكير"
         Me.TabNavigationPage2.Controls.Add(Me.TabPane2)
         Me.TabNavigationPage2.Controls.Add(Me.UcSupplier1)
         Me.TabNavigationPage2.Name = "TabNavigationPage2"
@@ -861,6 +877,33 @@ Partial Class FrmGoldPurchase
         Me.Guna2GroupBox1.TabIndex = 3
         Me.Guna2GroupBox1.Text = "بيانات الشراء"
         Me.Guna2GroupBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label11
+        '
+        Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
+        Me.Label11.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.Black
+        Me.Label11.Location = New System.Drawing.Point(195, 45)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(109, 27)
+        Me.Label11.TabIndex = 108
+        Me.Label11.Text = "ترحيل إلى"
+        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ComboBox4.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"مشغولات", "كسر"})
+        Me.ComboBox4.Location = New System.Drawing.Point(195, 72)
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox4.Size = New System.Drawing.Size(109, 27)
+        Me.ComboBox4.TabIndex = 109
         '
         'DateTimePicker1
         '
@@ -1110,70 +1153,27 @@ Partial Class FrmGoldPurchase
         Me.UcSupplier1.Size = New System.Drawing.Size(1352, 300)
         Me.UcSupplier1.TabIndex = 6
         '
-        'ComboBox3
+        'UcSupplier2
         '
-        Me.ComboBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ComboBox3.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"مشغولات", "كسر"})
-        Me.ComboBox3.Location = New System.Drawing.Point(180, 187)
-        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ComboBox3.Size = New System.Drawing.Size(165, 27)
-        Me.ComboBox3.TabIndex = 99
+        Me.UcSupplier2.BackColor = System.Drawing.Color.Transparent
+        Me.UcSupplier2.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.UcSupplier2.Location = New System.Drawing.Point(0, 1)
+        Me.UcSupplier2.Margin = New System.Windows.Forms.Padding(5)
+        Me.UcSupplier2.Name = "UcSupplier2"
+        Me.UcSupplier2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.UcSupplier2.Size = New System.Drawing.Size(1332, 300)
+        Me.UcSupplier2.TabIndex = 7
         '
-        'Label9
-        '
-        Me.Label9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(180, 160)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(165, 27)
-        Me.Label9.TabIndex = 72
-        Me.Label9.Text = "ترحيل إلى"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label11
-        '
-        Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label11.BackColor = System.Drawing.Color.Transparent
-        Me.Label11.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(195, 45)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(109, 27)
-        Me.Label11.TabIndex = 108
-        Me.Label11.Text = "ترحيل إلى"
-        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ComboBox4.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"مشغولات", "كسر"})
-        Me.ComboBox4.Location = New System.Drawing.Point(195, 72)
-        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ComboBox4.Size = New System.Drawing.Size(109, 27)
-        Me.ComboBox4.TabIndex = 109
-        '
-        'FrmGoldPurchase
+        'frmGoldTransaction
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.ClientSize = New System.Drawing.Size(1350, 729)
         Me.Controls.Add(Me.TabPane1)
         Me.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MinimumSize = New System.Drawing.Size(1366, 768)
-        Me.Name = "FrmGoldPurchase"
+        Me.Name = "frmGoldTransaction"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "المشتريات"
+        Me.Text = "التسكير"
         Me.gbItemData.ResumeLayout(False)
         Me.gbItemData.PerformLayout()
         CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1237,7 +1237,6 @@ Partial Class FrmGoldPurchase
     Friend WithEvents cmbSymbol As TextBox
     Friend WithEvents lblPhoto As Label
     Friend WithEvents lblDocument As Label
-    Friend WithEvents UcCivilId1 As UCCivilId
     Friend WithEvents TabPane1 As DevExpress.XtraBars.Navigation.TabPane
     Friend WithEvents TabNavigationPage1 As DevExpress.XtraBars.Navigation.TabNavigationPage
     Friend WithEvents TabNavigationPage2 As DevExpress.XtraBars.Navigation.TabNavigationPage
@@ -1271,4 +1270,5 @@ Partial Class FrmGoldPurchase
     Friend WithEvents ComboBox3 As ComboBox
     Friend WithEvents Label11 As Label
     Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents UcSupplier2 As UCSupplier
 End Class

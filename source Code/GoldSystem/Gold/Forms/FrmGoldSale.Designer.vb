@@ -114,6 +114,9 @@ Partial Class FrmGoldSale
         Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
         Me.TabNavigationPage1 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.pbAddFromUsedItem = New DevExpress.XtraEditors.PictureEdit()
         Me.gbItemData.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.pbViewItem.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -127,6 +130,7 @@ Partial Class FrmGoldSale
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPane1.SuspendLayout()
         Me.TabNavigationPage1.SuspendLayout()
+        CType(Me.pbAddFromUsedItem.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'gbItemData
@@ -141,6 +145,7 @@ Partial Class FrmGoldSale
         Me.gbItemData.Controls.Add(Me.Panel1)
         Me.gbItemData.Controls.Add(Me.Label11)
         Me.gbItemData.Controls.Add(Me.pbViewItem)
+        Me.gbItemData.Controls.Add(Me.pbAddFromUsedItem)
         Me.gbItemData.Controls.Add(Me.pbAddItem)
         Me.gbItemData.Controls.Add(Me.pbCalculator)
         Me.gbItemData.Controls.Add(Me.Label14)
@@ -224,7 +229,9 @@ Partial Class FrmGoldSale
         Me.Panel1.Controls.Add(Me.lblMakingCharge)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.lblGoldWeight)
+        Me.Panel1.Controls.Add(Me.Label17)
         Me.Panel1.Controls.Add(Me.txtGoldWeight)
+        Me.Panel1.Controls.Add(Me.TextBox10)
         Me.Panel1.Location = New System.Drawing.Point(176, 20)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(343, 114)
@@ -621,10 +628,10 @@ Partial Class FrmGoldSale
         Me.Label9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(334, 246)
+        Me.Label9.Location = New System.Drawing.Point(387, 245)
         Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(165, 27)
+        Me.Label9.Size = New System.Drawing.Size(121, 27)
         Me.Label9.TabIndex = 75
         Me.Label9.Text = "اسم القطعة المباعة"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -730,10 +737,10 @@ Partial Class FrmGoldSale
         '
         Me.ComboBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(134, 246)
+        Me.ComboBox3.Location = New System.Drawing.Point(254, 245)
         Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(192, 27)
+        Me.ComboBox3.Size = New System.Drawing.Size(125, 27)
         Me.ComboBox3.TabIndex = 96
         '
         'LblSymbol
@@ -1156,6 +1163,45 @@ Partial Class FrmGoldSale
         Me.TabNavigationPage2.Name = "TabNavigationPage2"
         Me.TabNavigationPage2.Size = New System.Drawing.Size(1332, 105)
         '
+        'TextBox10
+        '
+        Me.TextBox10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox10.Location = New System.Drawing.Point(0, 30)
+        Me.TextBox10.Margin = New System.Windows.Forms.Padding(4)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TextBox10.Size = New System.Drawing.Size(115, 27)
+        Me.TextBox10.TabIndex = 117
+        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label17
+        '
+        Me.Label17.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label17.BackColor = System.Drawing.Color.Transparent
+        Me.Label17.ForeColor = System.Drawing.Color.Black
+        Me.Label17.Location = New System.Drawing.Point(0, 1)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(115, 27)
+        Me.Label17.TabIndex = 116
+        Me.Label17.Text = "الكسر"
+        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'pbAddFromUsedItem
+        '
+        Me.pbAddFromUsedItem.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pbAddFromUsedItem.Cursor = System.Windows.Forms.Cursors.Default
+        Me.pbAddFromUsedItem.EditValue = CType(resources.GetObject("pbAddFromUsedItem.EditValue"), Object)
+        Me.pbAddFromUsedItem.Location = New System.Drawing.Point(833, -4)
+        Me.pbAddFromUsedItem.Name = "pbAddFromUsedItem"
+        Me.pbAddFromUsedItem.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
+        Me.pbAddFromUsedItem.Properties.Appearance.Options.UseBackColor = True
+        Me.pbAddFromUsedItem.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.pbAddFromUsedItem.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.pbAddFromUsedItem.Size = New System.Drawing.Size(31, 28)
+        Me.pbAddFromUsedItem.TabIndex = 119
+        '
         'FrmGoldSale
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -1185,6 +1231,7 @@ Partial Class FrmGoldSale
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPane1.ResumeLayout(False)
         Me.TabNavigationPage1.ResumeLayout(False)
+        CType(Me.pbAddFromUsedItem.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1269,4 +1316,7 @@ Partial Class FrmGoldSale
     Friend WithEvents TabPane1 As DevExpress.XtraBars.Navigation.TabPane
     Friend WithEvents TabNavigationPage1 As DevExpress.XtraBars.Navigation.TabNavigationPage
     Friend WithEvents TabNavigationPage2 As DevExpress.XtraBars.Navigation.TabNavigationPage
+    Friend WithEvents Label17 As Label
+    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents pbAddFromUsedItem As DevExpress.XtraEditors.PictureEdit
 End Class

@@ -304,7 +304,7 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
     End Sub
 
     Private Sub BarLargeButtonItem1_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarLargeButtonItem1.ItemClick
-        Dim F As New FrmAddNewSupplier
+        Dim F As New frmLanguage
         Dim DT As New DataTable
         DT.Clear()
         DT = ClsGoldItem_.MaxSupplier()
