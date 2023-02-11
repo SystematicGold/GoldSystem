@@ -309,7 +309,7 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
         DT.Clear()
         DT = ClsGoldItem_.MaxSupplier()
         If DT.Rows.Count > 0 Then
-            F.TxtCode.Text = DT.Rows(0)(0)
+            'F.TxtCode.Text = DT.Rows(0)(0)
         End If
         Dim DtAll As New DataTable
         DtAll.Clear()

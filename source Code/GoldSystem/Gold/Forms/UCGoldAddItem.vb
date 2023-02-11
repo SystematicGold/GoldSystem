@@ -1,5 +1,5 @@
 ﻿Public Class UCGoldAddItem
-    Private Sub gbStoneData_Click(sender As Object, e As EventArgs) Handles gbStoneData.Click
+    Private Sub gbStoneData_Click(sender As Object, e As EventArgs)
 
     End Sub
 

@@ -23,8 +23,8 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim BarInfo1 As DevExpress.XtraReports.UserDesigner.BarInfo = New DevExpress.XtraReports.UserDesigner.BarInfo()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim BarInfo1 As DevExpress.XtraReports.UserDesigner.BarInfo = New DevExpress.XtraReports.UserDesigner.BarInfo()
         Dim XrDesignPanelListener1 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
         Dim XrDesignPanelListener2 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
         Dim XrDesignPanelListener3 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
@@ -33,8 +33,8 @@ Partial Class Form1
         Dim XrDesignPanelListener6 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
         Dim XrDesignPanelListener7 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
         Dim XrDesignPanelListener8 As DevExpress.XtraReports.UserDesigner.XRDesignPanelListener = New DevExpress.XtraReports.UserDesigner.XRDesignPanelListener()
-        Me.XrDesignBarManager1 = New DevExpress.XtraReports.UserDesigner.XRDesignBarManager(Me.components)
         Me.Bar2 = New DevExpress.XtraBars.Bar()
+        Me.XrDesignBarManager1 = New DevExpress.XtraReports.UserDesigner.XRDesignBarManager(Me.components)
         Me.DesignBar1 = New DevExpress.XtraReports.UserDesigner.DesignBar()
         Me.msiFile = New DevExpress.XtraBars.BarSubItem()
         Me.CommandBarItem1 = New DevExpress.XtraReports.UserDesigner.CommandBarItem()
@@ -157,7 +157,17 @@ Partial Class Form1
         Me.panelContainer4.SuspendLayout()
         Me.ErrorListDockPanel1.SuspendLayout()
         Me.GroupAndSortDockPanel1.SuspendLayout()
+        CType(Me.ReportDesigner1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'Bar2
+        '
+        resources.ApplyResources(Me.Bar2, "Bar2")
+        Me.Bar2.BarName = "Toolbox"
+        Me.Bar2.DockCol = 0
+        Me.Bar2.DockRow = 0
+        Me.Bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Left
+        Me.Bar2.OptionsBar.AllowQuickCustomization = False
         '
         'XrDesignBarManager1
         '
@@ -189,17 +199,9 @@ Partial Class Form1
         Me.XrDesignBarManager1.Updates.AddRange(New String() {"Toolbox"})
         Me.XrDesignBarManager1.ZoomItem = Me.bbiZoom
         '
-        'Bar2
-        '
-        Me.Bar2.BarName = "Toolbox"
-        Me.Bar2.DockCol = 0
-        Me.Bar2.DockRow = 0
-        Me.Bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Left
-        Me.Bar2.OptionsBar.AllowQuickCustomization = False
-        resources.ApplyResources(Me.Bar2, "Bar2")
-        '
         'DesignBar1
         '
+        resources.ApplyResources(Me.DesignBar1, "DesignBar1")
         Me.DesignBar1.BarName = "Main Menu"
         Me.DesignBar1.DockCol = 0
         Me.DesignBar1.DockRow = 0
@@ -207,12 +209,14 @@ Partial Class Form1
         Me.DesignBar1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.msiFile), New DevExpress.XtraBars.LinkPersistInfo(Me.msiEdit), New DevExpress.XtraBars.LinkPersistInfo(Me.msiTabButtons), New DevExpress.XtraBars.LinkPersistInfo(Me.msiFormat), New DevExpress.XtraBars.LinkPersistInfo(Me.msiWindow)})
         Me.DesignBar1.OptionsBar.MultiLine = True
         Me.DesignBar1.OptionsBar.UseWholeRow = True
-        resources.ApplyResources(Me.DesignBar1, "DesignBar1")
         '
         'msiFile
         '
         resources.ApplyResources(Me.msiFile, "msiFile")
         Me.msiFile.Id = 43
+        Me.msiFile.ImageOptions.ImageIndex = CType(resources.GetObject("msiFile.ImageOptions.ImageIndex"), Integer)
+        Me.msiFile.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiFile.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiFile.ImageOptions.SvgImage = CType(resources.GetObject("msiFile.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiFile.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiOpenFile), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSaveFile, True), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem3), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem7), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem11), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem4, True)})
         Me.msiFile.Name = "msiFile"
         '
@@ -222,6 +226,9 @@ Partial Class Form1
         Me.CommandBarItem1.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.NewReport
         Me.CommandBarItem1.Enabled = False
         Me.CommandBarItem1.Id = 34
+        Me.CommandBarItem1.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem1.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem1.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem1.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem1.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem1.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem1.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N))
         Me.CommandBarItem1.Name = "CommandBarItem1"
         '
@@ -231,6 +238,9 @@ Partial Class Form1
         Me.CommandBarItem2.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.NewReportWizard
         Me.CommandBarItem2.Enabled = False
         Me.CommandBarItem2.Id = 60
+        Me.CommandBarItem2.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem2.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem2.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem2.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem2.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem2.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem2.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.W))
         Me.CommandBarItem2.Name = "CommandBarItem2"
         '
@@ -240,6 +250,9 @@ Partial Class Form1
         Me.bbiOpenFile.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.OpenFile
         Me.bbiOpenFile.Enabled = False
         Me.bbiOpenFile.Id = 35
+        Me.bbiOpenFile.ImageOptions.ImageIndex = CType(resources.GetObject("bbiOpenFile.ImageOptions.ImageIndex"), Integer)
+        Me.bbiOpenFile.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiOpenFile.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiOpenFile.ImageOptions.SvgImage = CType(resources.GetObject("bbiOpenFile.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiOpenFile.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O))
         Me.bbiOpenFile.Name = "bbiOpenFile"
         '
@@ -249,6 +262,9 @@ Partial Class Form1
         Me.bbiSaveFile.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SaveFile
         Me.bbiSaveFile.Enabled = False
         Me.bbiSaveFile.Id = 36
+        Me.bbiSaveFile.ImageOptions.ImageIndex = CType(resources.GetObject("bbiSaveFile.ImageOptions.ImageIndex"), Integer)
+        Me.bbiSaveFile.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiSaveFile.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiSaveFile.ImageOptions.SvgImage = CType(resources.GetObject("bbiSaveFile.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiSaveFile.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S))
         Me.bbiSaveFile.Name = "bbiSaveFile"
         '
@@ -258,6 +274,9 @@ Partial Class Form1
         Me.CommandBarItem3.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SaveFileAs
         Me.CommandBarItem3.Enabled = False
         Me.CommandBarItem3.Id = 61
+        Me.CommandBarItem3.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem3.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem3.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem3.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem3.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem3.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem3.Name = "CommandBarItem3"
         '
         'CommandBarItem7
@@ -266,6 +285,9 @@ Partial Class Form1
         Me.CommandBarItem7.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SaveAll
         Me.CommandBarItem7.Enabled = False
         Me.CommandBarItem7.Id = 65
+        Me.CommandBarItem7.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem7.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem7.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem7.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem7.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem7.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem7.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.L))
         Me.CommandBarItem7.Name = "CommandBarItem7"
         '
@@ -275,6 +297,9 @@ Partial Class Form1
         Me.CommandBarItem11.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Close
         Me.CommandBarItem11.Enabled = False
         Me.CommandBarItem11.Id = 72
+        Me.CommandBarItem11.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem11.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem11.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem11.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem11.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem11.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem11.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.F4))
         Me.CommandBarItem11.Name = "CommandBarItem11"
         '
@@ -284,12 +309,18 @@ Partial Class Form1
         Me.CommandBarItem4.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.[Exit]
         Me.CommandBarItem4.Enabled = False
         Me.CommandBarItem4.Id = 62
+        Me.CommandBarItem4.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem4.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem4.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem4.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem4.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem4.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem4.Name = "CommandBarItem4"
         '
         'msiEdit
         '
         resources.ApplyResources(Me.msiEdit, "msiEdit")
         Me.msiEdit.Id = 44
+        Me.msiEdit.ImageOptions.ImageIndex = CType(resources.GetObject("msiEdit.ImageOptions.ImageIndex"), Integer)
+        Me.msiEdit.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiEdit.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiEdit.ImageOptions.SvgImage = CType(resources.GetObject("msiEdit.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiEdit.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiUndo, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiRedo), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiCut, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiCopy), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiPaste), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem5), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem6, True)})
         Me.msiEdit.Name = "msiEdit"
         '
@@ -299,6 +330,9 @@ Partial Class Form1
         Me.bbiUndo.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Undo
         Me.bbiUndo.Enabled = False
         Me.bbiUndo.Id = 40
+        Me.bbiUndo.ImageOptions.ImageIndex = CType(resources.GetObject("bbiUndo.ImageOptions.ImageIndex"), Integer)
+        Me.bbiUndo.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiUndo.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiUndo.ImageOptions.SvgImage = CType(resources.GetObject("bbiUndo.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiUndo.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z))
         Me.bbiUndo.Name = "bbiUndo"
         '
@@ -308,6 +342,9 @@ Partial Class Form1
         Me.bbiRedo.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Redo
         Me.bbiRedo.Enabled = False
         Me.bbiRedo.Id = 41
+        Me.bbiRedo.ImageOptions.ImageIndex = CType(resources.GetObject("bbiRedo.ImageOptions.ImageIndex"), Integer)
+        Me.bbiRedo.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiRedo.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiRedo.ImageOptions.SvgImage = CType(resources.GetObject("bbiRedo.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiRedo.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y))
         Me.bbiRedo.Name = "bbiRedo"
         '
@@ -317,6 +354,9 @@ Partial Class Form1
         Me.bbiCut.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Cut
         Me.bbiCut.Enabled = False
         Me.bbiCut.Id = 37
+        Me.bbiCut.ImageOptions.ImageIndex = CType(resources.GetObject("bbiCut.ImageOptions.ImageIndex"), Integer)
+        Me.bbiCut.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiCut.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiCut.ImageOptions.SvgImage = CType(resources.GetObject("bbiCut.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiCut.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X))
         Me.bbiCut.Name = "bbiCut"
         '
@@ -326,6 +366,9 @@ Partial Class Form1
         Me.bbiCopy.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Copy
         Me.bbiCopy.Enabled = False
         Me.bbiCopy.Id = 38
+        Me.bbiCopy.ImageOptions.ImageIndex = CType(resources.GetObject("bbiCopy.ImageOptions.ImageIndex"), Integer)
+        Me.bbiCopy.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiCopy.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiCopy.ImageOptions.SvgImage = CType(resources.GetObject("bbiCopy.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiCopy.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C))
         Me.bbiCopy.Name = "bbiCopy"
         '
@@ -335,6 +378,9 @@ Partial Class Form1
         Me.bbiPaste.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Paste
         Me.bbiPaste.Enabled = False
         Me.bbiPaste.Id = 39
+        Me.bbiPaste.ImageOptions.ImageIndex = CType(resources.GetObject("bbiPaste.ImageOptions.ImageIndex"), Integer)
+        Me.bbiPaste.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiPaste.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiPaste.ImageOptions.SvgImage = CType(resources.GetObject("bbiPaste.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiPaste.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V))
         Me.bbiPaste.Name = "bbiPaste"
         '
@@ -344,6 +390,9 @@ Partial Class Form1
         Me.CommandBarItem5.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.Delete
         Me.CommandBarItem5.Enabled = False
         Me.CommandBarItem5.Id = 63
+        Me.CommandBarItem5.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem5.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem5.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem5.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem5.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem5.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem5.Name = "CommandBarItem5"
         '
         'CommandBarItem6
@@ -352,6 +401,9 @@ Partial Class Form1
         Me.CommandBarItem6.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SelectAll
         Me.CommandBarItem6.Enabled = False
         Me.CommandBarItem6.Id = 64
+        Me.CommandBarItem6.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem6.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem6.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem6.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem6.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem6.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem6.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.A))
         Me.CommandBarItem6.Name = "CommandBarItem6"
         '
@@ -359,6 +411,9 @@ Partial Class Form1
         '
         resources.ApplyResources(Me.msiTabButtons, "msiTabButtons")
         Me.msiTabButtons.Id = 45
+        Me.msiTabButtons.ImageOptions.ImageIndex = CType(resources.GetObject("msiTabButtons.ImageOptions.ImageIndex"), Integer)
+        Me.msiTabButtons.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiTabButtons.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiTabButtons.ImageOptions.SvgImage = CType(resources.GetObject("msiTabButtons.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiTabButtons.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarReportTabButtonsListItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem1, True), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem2, True)})
         Me.msiTabButtons.Name = "msiTabButtons"
         '
@@ -366,12 +421,18 @@ Partial Class Form1
         '
         resources.ApplyResources(Me.BarReportTabButtonsListItem1, "BarReportTabButtonsListItem1")
         Me.BarReportTabButtonsListItem1.Id = 46
+        Me.BarReportTabButtonsListItem1.ImageOptions.ImageIndex = CType(resources.GetObject("BarReportTabButtonsListItem1.ImageOptions.ImageIndex"), Integer)
+        Me.BarReportTabButtonsListItem1.ImageOptions.LargeImageIndex = CType(resources.GetObject("BarReportTabButtonsListItem1.ImageOptions.LargeImageIndex"), Integer)
+        Me.BarReportTabButtonsListItem1.ImageOptions.SvgImage = CType(resources.GetObject("BarReportTabButtonsListItem1.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.BarReportTabButtonsListItem1.Name = "BarReportTabButtonsListItem1"
         '
         'BarSubItem1
         '
         resources.ApplyResources(Me.BarSubItem1, "BarSubItem1")
         Me.BarSubItem1.Id = 47
+        Me.BarSubItem1.ImageOptions.ImageIndex = CType(resources.GetObject("BarSubItem1.ImageOptions.ImageIndex"), Integer)
+        Me.BarSubItem1.ImageOptions.LargeImageIndex = CType(resources.GetObject("BarSubItem1.ImageOptions.LargeImageIndex"), Integer)
+        Me.BarSubItem1.ImageOptions.SvgImage = CType(resources.GetObject("BarSubItem1.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.BarSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.XrBarToolbarsListItem1)})
         Me.BarSubItem1.Name = "BarSubItem1"
         '
@@ -379,19 +440,29 @@ Partial Class Form1
         '
         resources.ApplyResources(Me.XrBarToolbarsListItem1, "XrBarToolbarsListItem1")
         Me.XrBarToolbarsListItem1.Id = 48
+        Me.XrBarToolbarsListItem1.ImageOptions.ImageIndex = CType(resources.GetObject("XrBarToolbarsListItem1.ImageOptions.ImageIndex"), Integer)
+        Me.XrBarToolbarsListItem1.ImageOptions.LargeImageIndex = CType(resources.GetObject("XrBarToolbarsListItem1.ImageOptions.LargeImageIndex"), Integer)
+        Me.XrBarToolbarsListItem1.ImageOptions.SvgImage = CType(resources.GetObject("XrBarToolbarsListItem1.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.XrBarToolbarsListItem1.Name = "XrBarToolbarsListItem1"
         '
         'BarSubItem2
         '
         resources.ApplyResources(Me.BarSubItem2, "BarSubItem2")
         Me.BarSubItem2.Id = 49
+        Me.BarSubItem2.ImageOptions.ImageIndex = CType(resources.GetObject("BarSubItem2.ImageOptions.ImageIndex"), Integer)
+        Me.BarSubItem2.ImageOptions.LargeImageIndex = CType(resources.GetObject("BarSubItem2.ImageOptions.LargeImageIndex"), Integer)
+        Me.BarSubItem2.ImageOptions.SvgImage = CType(resources.GetObject("BarSubItem2.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.BarSubItem2.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarDockPanelsListItem1)})
         Me.BarSubItem2.Name = "BarSubItem2"
         '
         'BarDockPanelsListItem1
         '
         resources.ApplyResources(Me.BarDockPanelsListItem1, "BarDockPanelsListItem1")
+        Me.BarDockPanelsListItem1.DockManager = Nothing
         Me.BarDockPanelsListItem1.Id = 50
+        Me.BarDockPanelsListItem1.ImageOptions.ImageIndex = CType(resources.GetObject("BarDockPanelsListItem1.ImageOptions.ImageIndex"), Integer)
+        Me.BarDockPanelsListItem1.ImageOptions.LargeImageIndex = CType(resources.GetObject("BarDockPanelsListItem1.ImageOptions.LargeImageIndex"), Integer)
+        Me.BarDockPanelsListItem1.ImageOptions.SvgImage = CType(resources.GetObject("BarDockPanelsListItem1.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.BarDockPanelsListItem1.Name = "BarDockPanelsListItem1"
         Me.BarDockPanelsListItem1.ShowCustomizationItem = False
         Me.BarDockPanelsListItem1.ShowDockPanels = True
@@ -401,33 +472,45 @@ Partial Class Form1
         '
         resources.ApplyResources(Me.msiFormat, "msiFormat")
         Me.msiFormat.Id = 51
+        Me.msiFormat.ImageOptions.ImageIndex = CType(resources.GetObject("msiFormat.ImageOptions.ImageIndex"), Integer)
+        Me.msiFormat.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiFormat.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiFormat.ImageOptions.SvgImage = CType(resources.GetObject("msiFormat.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiFormat.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiForeColor), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiBackColor), New DevExpress.XtraBars.LinkPersistInfo(Me.msiFont, True), New DevExpress.XtraBars.LinkPersistInfo(Me.msiJustify), New DevExpress.XtraBars.LinkPersistInfo(Me.msiAlign, True), New DevExpress.XtraBars.LinkPersistInfo(Me.msiSameSize), New DevExpress.XtraBars.LinkPersistInfo(Me.msiHorizontalSpacing, True), New DevExpress.XtraBars.LinkPersistInfo(Me.msiVerticalSpacing), New DevExpress.XtraBars.LinkPersistInfo(Me.bsiCenter, True), New DevExpress.XtraBars.LinkPersistInfo(Me.msiOrder, True)})
         Me.msiFormat.Name = "msiFormat"
         '
         'bbiForeColor
         '
-        Me.bbiForeColor.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown
         resources.ApplyResources(Me.bbiForeColor, "bbiForeColor")
-        Me.bbiForeColor.CloseSubMenuOnClick = False
+        Me.bbiForeColor.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown
+        Me.bbiForeColor.CloseSubMenuOnClickMode = DevExpress.Utils.DefaultBoolean.[False]
         Me.bbiForeColor.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.ForeColor
         Me.bbiForeColor.Enabled = False
         Me.bbiForeColor.Id = 5
+        Me.bbiForeColor.ImageOptions.ImageIndex = CType(resources.GetObject("bbiForeColor.ImageOptions.ImageIndex"), Integer)
+        Me.bbiForeColor.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiForeColor.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiForeColor.ImageOptions.SvgImage = CType(resources.GetObject("bbiForeColor.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiForeColor.Name = "bbiForeColor"
         '
         'bbiBackColor
         '
-        Me.bbiBackColor.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown
         resources.ApplyResources(Me.bbiBackColor, "bbiBackColor")
-        Me.bbiBackColor.CloseSubMenuOnClick = False
+        Me.bbiBackColor.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown
+        Me.bbiBackColor.CloseSubMenuOnClickMode = DevExpress.Utils.DefaultBoolean.[False]
         Me.bbiBackColor.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.BackColor
         Me.bbiBackColor.Enabled = False
         Me.bbiBackColor.Id = 6
+        Me.bbiBackColor.ImageOptions.ImageIndex = CType(resources.GetObject("bbiBackColor.ImageOptions.ImageIndex"), Integer)
+        Me.bbiBackColor.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiBackColor.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiBackColor.ImageOptions.SvgImage = CType(resources.GetObject("bbiBackColor.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiBackColor.Name = "bbiBackColor"
         '
         'msiFont
         '
         resources.ApplyResources(Me.msiFont, "msiFont")
         Me.msiFont.Id = 52
+        Me.msiFont.ImageOptions.ImageIndex = CType(resources.GetObject("msiFont.ImageOptions.ImageIndex"), Integer)
+        Me.msiFont.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiFont.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiFont.ImageOptions.SvgImage = CType(resources.GetObject("msiFont.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiFont.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiFontBold, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiFontItalic), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiFontUnderline)})
         Me.msiFont.Name = "msiFont"
         '
@@ -437,6 +520,9 @@ Partial Class Form1
         Me.bbiFontBold.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.FontBold
         Me.bbiFontBold.Enabled = False
         Me.bbiFontBold.Id = 2
+        Me.bbiFontBold.ImageOptions.ImageIndex = CType(resources.GetObject("bbiFontBold.ImageOptions.ImageIndex"), Integer)
+        Me.bbiFontBold.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiFontBold.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiFontBold.ImageOptions.SvgImage = CType(resources.GetObject("bbiFontBold.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiFontBold.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.B))
         Me.bbiFontBold.Name = "bbiFontBold"
         '
@@ -446,6 +532,9 @@ Partial Class Form1
         Me.bbiFontItalic.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.FontItalic
         Me.bbiFontItalic.Enabled = False
         Me.bbiFontItalic.Id = 3
+        Me.bbiFontItalic.ImageOptions.ImageIndex = CType(resources.GetObject("bbiFontItalic.ImageOptions.ImageIndex"), Integer)
+        Me.bbiFontItalic.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiFontItalic.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiFontItalic.ImageOptions.SvgImage = CType(resources.GetObject("bbiFontItalic.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiFontItalic.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.I))
         Me.bbiFontItalic.Name = "bbiFontItalic"
         '
@@ -455,6 +544,9 @@ Partial Class Form1
         Me.bbiFontUnderline.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.FontUnderline
         Me.bbiFontUnderline.Enabled = False
         Me.bbiFontUnderline.Id = 4
+        Me.bbiFontUnderline.ImageOptions.ImageIndex = CType(resources.GetObject("bbiFontUnderline.ImageOptions.ImageIndex"), Integer)
+        Me.bbiFontUnderline.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiFontUnderline.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiFontUnderline.ImageOptions.SvgImage = CType(resources.GetObject("bbiFontUnderline.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiFontUnderline.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.U))
         Me.bbiFontUnderline.Name = "bbiFontUnderline"
         '
@@ -462,6 +554,9 @@ Partial Class Form1
         '
         resources.ApplyResources(Me.msiJustify, "msiJustify")
         Me.msiJustify.Id = 53
+        Me.msiJustify.ImageOptions.ImageIndex = CType(resources.GetObject("msiJustify.ImageOptions.ImageIndex"), Integer)
+        Me.msiJustify.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiJustify.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiJustify.ImageOptions.SvgImage = CType(resources.GetObject("msiJustify.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiJustify.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiJustifyLeft, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiJustifyCenter), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiJustifyRight), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiJustifyJustify)})
         Me.msiJustify.Name = "msiJustify"
         '
@@ -471,6 +566,9 @@ Partial Class Form1
         Me.bbiJustifyLeft.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.JustifyLeft
         Me.bbiJustifyLeft.Enabled = False
         Me.bbiJustifyLeft.Id = 7
+        Me.bbiJustifyLeft.ImageOptions.ImageIndex = CType(resources.GetObject("bbiJustifyLeft.ImageOptions.ImageIndex"), Integer)
+        Me.bbiJustifyLeft.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiJustifyLeft.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiJustifyLeft.ImageOptions.SvgImage = CType(resources.GetObject("bbiJustifyLeft.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiJustifyLeft.Name = "bbiJustifyLeft"
         '
         'bbiJustifyCenter
@@ -479,6 +577,9 @@ Partial Class Form1
         Me.bbiJustifyCenter.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.JustifyCenter
         Me.bbiJustifyCenter.Enabled = False
         Me.bbiJustifyCenter.Id = 8
+        Me.bbiJustifyCenter.ImageOptions.ImageIndex = CType(resources.GetObject("bbiJustifyCenter.ImageOptions.ImageIndex"), Integer)
+        Me.bbiJustifyCenter.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiJustifyCenter.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiJustifyCenter.ImageOptions.SvgImage = CType(resources.GetObject("bbiJustifyCenter.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiJustifyCenter.Name = "bbiJustifyCenter"
         '
         'bbiJustifyRight
@@ -487,6 +588,9 @@ Partial Class Form1
         Me.bbiJustifyRight.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.JustifyRight
         Me.bbiJustifyRight.Enabled = False
         Me.bbiJustifyRight.Id = 9
+        Me.bbiJustifyRight.ImageOptions.ImageIndex = CType(resources.GetObject("bbiJustifyRight.ImageOptions.ImageIndex"), Integer)
+        Me.bbiJustifyRight.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiJustifyRight.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiJustifyRight.ImageOptions.SvgImage = CType(resources.GetObject("bbiJustifyRight.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiJustifyRight.Name = "bbiJustifyRight"
         '
         'bbiJustifyJustify
@@ -495,12 +599,18 @@ Partial Class Form1
         Me.bbiJustifyJustify.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.JustifyJustify
         Me.bbiJustifyJustify.Enabled = False
         Me.bbiJustifyJustify.Id = 10
+        Me.bbiJustifyJustify.ImageOptions.ImageIndex = CType(resources.GetObject("bbiJustifyJustify.ImageOptions.ImageIndex"), Integer)
+        Me.bbiJustifyJustify.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiJustifyJustify.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiJustifyJustify.ImageOptions.SvgImage = CType(resources.GetObject("bbiJustifyJustify.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiJustifyJustify.Name = "bbiJustifyJustify"
         '
         'msiAlign
         '
         resources.ApplyResources(Me.msiAlign, "msiAlign")
         Me.msiAlign.Id = 54
+        Me.msiAlign.ImageOptions.ImageIndex = CType(resources.GetObject("msiAlign.ImageOptions.ImageIndex"), Integer)
+        Me.msiAlign.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiAlign.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiAlign.ImageOptions.SvgImage = CType(resources.GetObject("msiAlign.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiAlign.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignLeft, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignVerticalCenters), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignRight), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignTop, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignHorizontalCenters), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignBottom), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignToGrid, True)})
         Me.msiAlign.Name = "msiAlign"
         '
@@ -510,6 +620,9 @@ Partial Class Form1
         Me.bbiAlignLeft.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignLeft
         Me.bbiAlignLeft.Enabled = False
         Me.bbiAlignLeft.Id = 12
+        Me.bbiAlignLeft.ImageOptions.ImageIndex = CType(resources.GetObject("bbiAlignLeft.ImageOptions.ImageIndex"), Integer)
+        Me.bbiAlignLeft.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiAlignLeft.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiAlignLeft.ImageOptions.SvgImage = CType(resources.GetObject("bbiAlignLeft.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiAlignLeft.Name = "bbiAlignLeft"
         '
         'bbiAlignVerticalCenters
@@ -518,6 +631,9 @@ Partial Class Form1
         Me.bbiAlignVerticalCenters.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignVerticalCenters
         Me.bbiAlignVerticalCenters.Enabled = False
         Me.bbiAlignVerticalCenters.Id = 13
+        Me.bbiAlignVerticalCenters.ImageOptions.ImageIndex = CType(resources.GetObject("bbiAlignVerticalCenters.ImageOptions.ImageIndex"), Integer)
+        Me.bbiAlignVerticalCenters.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiAlignVerticalCenters.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiAlignVerticalCenters.ImageOptions.SvgImage = CType(resources.GetObject("bbiAlignVerticalCenters.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiAlignVerticalCenters.Name = "bbiAlignVerticalCenters"
         '
         'bbiAlignRight
@@ -526,6 +642,9 @@ Partial Class Form1
         Me.bbiAlignRight.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignRight
         Me.bbiAlignRight.Enabled = False
         Me.bbiAlignRight.Id = 14
+        Me.bbiAlignRight.ImageOptions.ImageIndex = CType(resources.GetObject("bbiAlignRight.ImageOptions.ImageIndex"), Integer)
+        Me.bbiAlignRight.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiAlignRight.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiAlignRight.ImageOptions.SvgImage = CType(resources.GetObject("bbiAlignRight.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiAlignRight.Name = "bbiAlignRight"
         '
         'bbiAlignTop
@@ -534,6 +653,9 @@ Partial Class Form1
         Me.bbiAlignTop.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignTop
         Me.bbiAlignTop.Enabled = False
         Me.bbiAlignTop.Id = 15
+        Me.bbiAlignTop.ImageOptions.ImageIndex = CType(resources.GetObject("bbiAlignTop.ImageOptions.ImageIndex"), Integer)
+        Me.bbiAlignTop.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiAlignTop.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiAlignTop.ImageOptions.SvgImage = CType(resources.GetObject("bbiAlignTop.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiAlignTop.Name = "bbiAlignTop"
         '
         'bbiAlignHorizontalCenters
@@ -542,6 +664,9 @@ Partial Class Form1
         Me.bbiAlignHorizontalCenters.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignHorizontalCenters
         Me.bbiAlignHorizontalCenters.Enabled = False
         Me.bbiAlignHorizontalCenters.Id = 16
+        Me.bbiAlignHorizontalCenters.ImageOptions.ImageIndex = CType(resources.GetObject("bbiAlignHorizontalCenters.ImageOptions.ImageIndex"), Integer)
+        Me.bbiAlignHorizontalCenters.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiAlignHorizontalCenters.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiAlignHorizontalCenters.ImageOptions.SvgImage = CType(resources.GetObject("bbiAlignHorizontalCenters.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiAlignHorizontalCenters.Name = "bbiAlignHorizontalCenters"
         '
         'bbiAlignBottom
@@ -550,6 +675,9 @@ Partial Class Form1
         Me.bbiAlignBottom.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignBottom
         Me.bbiAlignBottom.Enabled = False
         Me.bbiAlignBottom.Id = 17
+        Me.bbiAlignBottom.ImageOptions.ImageIndex = CType(resources.GetObject("bbiAlignBottom.ImageOptions.ImageIndex"), Integer)
+        Me.bbiAlignBottom.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiAlignBottom.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiAlignBottom.ImageOptions.SvgImage = CType(resources.GetObject("bbiAlignBottom.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiAlignBottom.Name = "bbiAlignBottom"
         '
         'bbiAlignToGrid
@@ -558,12 +686,18 @@ Partial Class Form1
         Me.bbiAlignToGrid.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.AlignToGrid
         Me.bbiAlignToGrid.Enabled = False
         Me.bbiAlignToGrid.Id = 11
+        Me.bbiAlignToGrid.ImageOptions.ImageIndex = CType(resources.GetObject("bbiAlignToGrid.ImageOptions.ImageIndex"), Integer)
+        Me.bbiAlignToGrid.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiAlignToGrid.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiAlignToGrid.ImageOptions.SvgImage = CType(resources.GetObject("bbiAlignToGrid.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiAlignToGrid.Name = "bbiAlignToGrid"
         '
         'msiSameSize
         '
         resources.ApplyResources(Me.msiSameSize, "msiSameSize")
         Me.msiSameSize.Id = 55
+        Me.msiSameSize.ImageOptions.ImageIndex = CType(resources.GetObject("msiSameSize.ImageOptions.ImageIndex"), Integer)
+        Me.msiSameSize.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiSameSize.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiSameSize.ImageOptions.SvgImage = CType(resources.GetObject("msiSameSize.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiSameSize.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSizeToControlWidth, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSizeToGrid), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSizeToControlHeight), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSizeToControl)})
         Me.msiSameSize.Name = "msiSameSize"
         '
@@ -573,6 +707,9 @@ Partial Class Form1
         Me.bbiSizeToControlWidth.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SizeToControlWidth
         Me.bbiSizeToControlWidth.Enabled = False
         Me.bbiSizeToControlWidth.Id = 18
+        Me.bbiSizeToControlWidth.ImageOptions.ImageIndex = CType(resources.GetObject("bbiSizeToControlWidth.ImageOptions.ImageIndex"), Integer)
+        Me.bbiSizeToControlWidth.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiSizeToControlWidth.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiSizeToControlWidth.ImageOptions.SvgImage = CType(resources.GetObject("bbiSizeToControlWidth.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiSizeToControlWidth.Name = "bbiSizeToControlWidth"
         '
         'bbiSizeToGrid
@@ -581,6 +718,9 @@ Partial Class Form1
         Me.bbiSizeToGrid.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SizeToGrid
         Me.bbiSizeToGrid.Enabled = False
         Me.bbiSizeToGrid.Id = 19
+        Me.bbiSizeToGrid.ImageOptions.ImageIndex = CType(resources.GetObject("bbiSizeToGrid.ImageOptions.ImageIndex"), Integer)
+        Me.bbiSizeToGrid.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiSizeToGrid.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiSizeToGrid.ImageOptions.SvgImage = CType(resources.GetObject("bbiSizeToGrid.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiSizeToGrid.Name = "bbiSizeToGrid"
         '
         'bbiSizeToControlHeight
@@ -589,6 +729,9 @@ Partial Class Form1
         Me.bbiSizeToControlHeight.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SizeToControlHeight
         Me.bbiSizeToControlHeight.Enabled = False
         Me.bbiSizeToControlHeight.Id = 20
+        Me.bbiSizeToControlHeight.ImageOptions.ImageIndex = CType(resources.GetObject("bbiSizeToControlHeight.ImageOptions.ImageIndex"), Integer)
+        Me.bbiSizeToControlHeight.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiSizeToControlHeight.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiSizeToControlHeight.ImageOptions.SvgImage = CType(resources.GetObject("bbiSizeToControlHeight.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiSizeToControlHeight.Name = "bbiSizeToControlHeight"
         '
         'bbiSizeToControl
@@ -597,12 +740,18 @@ Partial Class Form1
         Me.bbiSizeToControl.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SizeToControl
         Me.bbiSizeToControl.Enabled = False
         Me.bbiSizeToControl.Id = 21
+        Me.bbiSizeToControl.ImageOptions.ImageIndex = CType(resources.GetObject("bbiSizeToControl.ImageOptions.ImageIndex"), Integer)
+        Me.bbiSizeToControl.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiSizeToControl.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiSizeToControl.ImageOptions.SvgImage = CType(resources.GetObject("bbiSizeToControl.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiSizeToControl.Name = "bbiSizeToControl"
         '
         'msiHorizontalSpacing
         '
         resources.ApplyResources(Me.msiHorizontalSpacing, "msiHorizontalSpacing")
         Me.msiHorizontalSpacing.Id = 56
+        Me.msiHorizontalSpacing.ImageOptions.ImageIndex = CType(resources.GetObject("msiHorizontalSpacing.ImageOptions.ImageIndex"), Integer)
+        Me.msiHorizontalSpacing.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiHorizontalSpacing.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiHorizontalSpacing.ImageOptions.SvgImage = CType(resources.GetObject("msiHorizontalSpacing.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiHorizontalSpacing.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiHorizSpaceMakeEqual, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiHorizSpaceIncrease), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiHorizSpaceDecrease), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiHorizSpaceConcatenate)})
         Me.msiHorizontalSpacing.Name = "msiHorizontalSpacing"
         '
@@ -612,6 +761,9 @@ Partial Class Form1
         Me.bbiHorizSpaceMakeEqual.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.HorizSpaceMakeEqual
         Me.bbiHorizSpaceMakeEqual.Enabled = False
         Me.bbiHorizSpaceMakeEqual.Id = 22
+        Me.bbiHorizSpaceMakeEqual.ImageOptions.ImageIndex = CType(resources.GetObject("bbiHorizSpaceMakeEqual.ImageOptions.ImageIndex"), Integer)
+        Me.bbiHorizSpaceMakeEqual.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiHorizSpaceMakeEqual.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiHorizSpaceMakeEqual.ImageOptions.SvgImage = CType(resources.GetObject("bbiHorizSpaceMakeEqual.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiHorizSpaceMakeEqual.Name = "bbiHorizSpaceMakeEqual"
         '
         'bbiHorizSpaceIncrease
@@ -620,6 +772,9 @@ Partial Class Form1
         Me.bbiHorizSpaceIncrease.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.HorizSpaceIncrease
         Me.bbiHorizSpaceIncrease.Enabled = False
         Me.bbiHorizSpaceIncrease.Id = 23
+        Me.bbiHorizSpaceIncrease.ImageOptions.ImageIndex = CType(resources.GetObject("bbiHorizSpaceIncrease.ImageOptions.ImageIndex"), Integer)
+        Me.bbiHorizSpaceIncrease.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiHorizSpaceIncrease.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiHorizSpaceIncrease.ImageOptions.SvgImage = CType(resources.GetObject("bbiHorizSpaceIncrease.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiHorizSpaceIncrease.Name = "bbiHorizSpaceIncrease"
         '
         'bbiHorizSpaceDecrease
@@ -628,6 +783,9 @@ Partial Class Form1
         Me.bbiHorizSpaceDecrease.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.HorizSpaceDecrease
         Me.bbiHorizSpaceDecrease.Enabled = False
         Me.bbiHorizSpaceDecrease.Id = 24
+        Me.bbiHorizSpaceDecrease.ImageOptions.ImageIndex = CType(resources.GetObject("bbiHorizSpaceDecrease.ImageOptions.ImageIndex"), Integer)
+        Me.bbiHorizSpaceDecrease.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiHorizSpaceDecrease.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiHorizSpaceDecrease.ImageOptions.SvgImage = CType(resources.GetObject("bbiHorizSpaceDecrease.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiHorizSpaceDecrease.Name = "bbiHorizSpaceDecrease"
         '
         'bbiHorizSpaceConcatenate
@@ -636,12 +794,18 @@ Partial Class Form1
         Me.bbiHorizSpaceConcatenate.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.HorizSpaceConcatenate
         Me.bbiHorizSpaceConcatenate.Enabled = False
         Me.bbiHorizSpaceConcatenate.Id = 25
+        Me.bbiHorizSpaceConcatenate.ImageOptions.ImageIndex = CType(resources.GetObject("bbiHorizSpaceConcatenate.ImageOptions.ImageIndex"), Integer)
+        Me.bbiHorizSpaceConcatenate.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiHorizSpaceConcatenate.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiHorizSpaceConcatenate.ImageOptions.SvgImage = CType(resources.GetObject("bbiHorizSpaceConcatenate.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiHorizSpaceConcatenate.Name = "bbiHorizSpaceConcatenate"
         '
         'msiVerticalSpacing
         '
         resources.ApplyResources(Me.msiVerticalSpacing, "msiVerticalSpacing")
         Me.msiVerticalSpacing.Id = 57
+        Me.msiVerticalSpacing.ImageOptions.ImageIndex = CType(resources.GetObject("msiVerticalSpacing.ImageOptions.ImageIndex"), Integer)
+        Me.msiVerticalSpacing.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiVerticalSpacing.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiVerticalSpacing.ImageOptions.SvgImage = CType(resources.GetObject("msiVerticalSpacing.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiVerticalSpacing.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiVertSpaceMakeEqual, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiVertSpaceIncrease), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiVertSpaceDecrease), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiVertSpaceConcatenate)})
         Me.msiVerticalSpacing.Name = "msiVerticalSpacing"
         '
@@ -651,6 +815,9 @@ Partial Class Form1
         Me.bbiVertSpaceMakeEqual.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.VertSpaceMakeEqual
         Me.bbiVertSpaceMakeEqual.Enabled = False
         Me.bbiVertSpaceMakeEqual.Id = 26
+        Me.bbiVertSpaceMakeEqual.ImageOptions.ImageIndex = CType(resources.GetObject("bbiVertSpaceMakeEqual.ImageOptions.ImageIndex"), Integer)
+        Me.bbiVertSpaceMakeEqual.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiVertSpaceMakeEqual.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiVertSpaceMakeEqual.ImageOptions.SvgImage = CType(resources.GetObject("bbiVertSpaceMakeEqual.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiVertSpaceMakeEqual.Name = "bbiVertSpaceMakeEqual"
         '
         'bbiVertSpaceIncrease
@@ -659,6 +826,9 @@ Partial Class Form1
         Me.bbiVertSpaceIncrease.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.VertSpaceIncrease
         Me.bbiVertSpaceIncrease.Enabled = False
         Me.bbiVertSpaceIncrease.Id = 27
+        Me.bbiVertSpaceIncrease.ImageOptions.ImageIndex = CType(resources.GetObject("bbiVertSpaceIncrease.ImageOptions.ImageIndex"), Integer)
+        Me.bbiVertSpaceIncrease.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiVertSpaceIncrease.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiVertSpaceIncrease.ImageOptions.SvgImage = CType(resources.GetObject("bbiVertSpaceIncrease.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiVertSpaceIncrease.Name = "bbiVertSpaceIncrease"
         '
         'bbiVertSpaceDecrease
@@ -667,6 +837,9 @@ Partial Class Form1
         Me.bbiVertSpaceDecrease.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.VertSpaceDecrease
         Me.bbiVertSpaceDecrease.Enabled = False
         Me.bbiVertSpaceDecrease.Id = 28
+        Me.bbiVertSpaceDecrease.ImageOptions.ImageIndex = CType(resources.GetObject("bbiVertSpaceDecrease.ImageOptions.ImageIndex"), Integer)
+        Me.bbiVertSpaceDecrease.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiVertSpaceDecrease.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiVertSpaceDecrease.ImageOptions.SvgImage = CType(resources.GetObject("bbiVertSpaceDecrease.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiVertSpaceDecrease.Name = "bbiVertSpaceDecrease"
         '
         'bbiVertSpaceConcatenate
@@ -675,12 +848,18 @@ Partial Class Form1
         Me.bbiVertSpaceConcatenate.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.VertSpaceConcatenate
         Me.bbiVertSpaceConcatenate.Enabled = False
         Me.bbiVertSpaceConcatenate.Id = 29
+        Me.bbiVertSpaceConcatenate.ImageOptions.ImageIndex = CType(resources.GetObject("bbiVertSpaceConcatenate.ImageOptions.ImageIndex"), Integer)
+        Me.bbiVertSpaceConcatenate.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiVertSpaceConcatenate.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiVertSpaceConcatenate.ImageOptions.SvgImage = CType(resources.GetObject("bbiVertSpaceConcatenate.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiVertSpaceConcatenate.Name = "bbiVertSpaceConcatenate"
         '
         'bsiCenter
         '
         resources.ApplyResources(Me.bsiCenter, "bsiCenter")
         Me.bsiCenter.Id = 58
+        Me.bsiCenter.ImageOptions.ImageIndex = CType(resources.GetObject("bsiCenter.ImageOptions.ImageIndex"), Integer)
+        Me.bsiCenter.ImageOptions.LargeImageIndex = CType(resources.GetObject("bsiCenter.ImageOptions.LargeImageIndex"), Integer)
+        Me.bsiCenter.ImageOptions.SvgImage = CType(resources.GetObject("bsiCenter.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bsiCenter.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiCenterHorizontally, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiCenterVertically)})
         Me.bsiCenter.Name = "bsiCenter"
         '
@@ -690,6 +869,9 @@ Partial Class Form1
         Me.bbiCenterHorizontally.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.CenterHorizontally
         Me.bbiCenterHorizontally.Enabled = False
         Me.bbiCenterHorizontally.Id = 30
+        Me.bbiCenterHorizontally.ImageOptions.ImageIndex = CType(resources.GetObject("bbiCenterHorizontally.ImageOptions.ImageIndex"), Integer)
+        Me.bbiCenterHorizontally.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiCenterHorizontally.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiCenterHorizontally.ImageOptions.SvgImage = CType(resources.GetObject("bbiCenterHorizontally.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiCenterHorizontally.Name = "bbiCenterHorizontally"
         '
         'bbiCenterVertically
@@ -698,12 +880,18 @@ Partial Class Form1
         Me.bbiCenterVertically.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.CenterVertically
         Me.bbiCenterVertically.Enabled = False
         Me.bbiCenterVertically.Id = 31
+        Me.bbiCenterVertically.ImageOptions.ImageIndex = CType(resources.GetObject("bbiCenterVertically.ImageOptions.ImageIndex"), Integer)
+        Me.bbiCenterVertically.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiCenterVertically.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiCenterVertically.ImageOptions.SvgImage = CType(resources.GetObject("bbiCenterVertically.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiCenterVertically.Name = "bbiCenterVertically"
         '
         'msiOrder
         '
         resources.ApplyResources(Me.msiOrder, "msiOrder")
         Me.msiOrder.Id = 59
+        Me.msiOrder.ImageOptions.ImageIndex = CType(resources.GetObject("msiOrder.ImageOptions.ImageIndex"), Integer)
+        Me.msiOrder.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiOrder.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiOrder.ImageOptions.SvgImage = CType(resources.GetObject("msiOrder.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiOrder.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiBringToFront, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSendToBack)})
         Me.msiOrder.Name = "msiOrder"
         '
@@ -713,6 +901,9 @@ Partial Class Form1
         Me.bbiBringToFront.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.BringToFront
         Me.bbiBringToFront.Enabled = False
         Me.bbiBringToFront.Id = 32
+        Me.bbiBringToFront.ImageOptions.ImageIndex = CType(resources.GetObject("bbiBringToFront.ImageOptions.ImageIndex"), Integer)
+        Me.bbiBringToFront.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiBringToFront.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiBringToFront.ImageOptions.SvgImage = CType(resources.GetObject("bbiBringToFront.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiBringToFront.Name = "bbiBringToFront"
         '
         'bbiSendToBack
@@ -721,23 +912,32 @@ Partial Class Form1
         Me.bbiSendToBack.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.SendToBack
         Me.bbiSendToBack.Enabled = False
         Me.bbiSendToBack.Id = 33
+        Me.bbiSendToBack.ImageOptions.ImageIndex = CType(resources.GetObject("bbiSendToBack.ImageOptions.ImageIndex"), Integer)
+        Me.bbiSendToBack.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiSendToBack.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiSendToBack.ImageOptions.SvgImage = CType(resources.GetObject("bbiSendToBack.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiSendToBack.Name = "bbiSendToBack"
         '
         'msiWindow
         '
         resources.ApplyResources(Me.msiWindow, "msiWindow")
         Me.msiWindow.Id = 66
+        Me.msiWindow.ImageOptions.ImageIndex = CType(resources.GetObject("msiWindow.ImageOptions.ImageIndex"), Integer)
+        Me.msiWindow.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiWindow.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiWindow.ImageOptions.SvgImage = CType(resources.GetObject("msiWindow.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiWindow.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.msiWindowInterface, True), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem8), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem9), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem10), New DevExpress.XtraBars.LinkPersistInfo(Me.msiWindows, True)})
         Me.msiWindow.Name = "msiWindow"
         '
         'msiWindowInterface
         '
-        Me.msiWindowInterface.BindableChecked = True
         resources.ApplyResources(Me.msiWindowInterface, "msiWindowInterface")
+        Me.msiWindowInterface.BindableChecked = True
         Me.msiWindowInterface.Checked = True
         Me.msiWindowInterface.CheckedCommand = DevExpress.XtraReports.UserDesigner.ReportCommand.ShowTabbedInterface
         Me.msiWindowInterface.Enabled = False
         Me.msiWindowInterface.Id = 67
+        Me.msiWindowInterface.ImageOptions.ImageIndex = CType(resources.GetObject("msiWindowInterface.ImageOptions.ImageIndex"), Integer)
+        Me.msiWindowInterface.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiWindowInterface.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiWindowInterface.ImageOptions.SvgImage = CType(resources.GetObject("msiWindowInterface.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiWindowInterface.Name = "msiWindowInterface"
         Me.msiWindowInterface.UncheckedCommand = DevExpress.XtraReports.UserDesigner.ReportCommand.ShowWindowInterface
         '
@@ -747,6 +947,9 @@ Partial Class Form1
         Me.CommandBarItem8.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.MdiCascade
         Me.CommandBarItem8.Enabled = False
         Me.CommandBarItem8.Id = 68
+        Me.CommandBarItem8.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem8.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem8.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem8.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem8.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem8.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem8.Name = "CommandBarItem8"
         '
         'CommandBarItem9
@@ -755,6 +958,9 @@ Partial Class Form1
         Me.CommandBarItem9.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.MdiTileHorizontal
         Me.CommandBarItem9.Enabled = False
         Me.CommandBarItem9.Id = 69
+        Me.CommandBarItem9.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem9.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem9.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem9.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem9.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem9.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem9.Name = "CommandBarItem9"
         '
         'CommandBarItem10
@@ -763,37 +969,46 @@ Partial Class Form1
         Me.CommandBarItem10.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.MdiTileVertical
         Me.CommandBarItem10.Enabled = False
         Me.CommandBarItem10.Id = 70
+        Me.CommandBarItem10.ImageOptions.ImageIndex = CType(resources.GetObject("CommandBarItem10.ImageOptions.ImageIndex"), Integer)
+        Me.CommandBarItem10.ImageOptions.LargeImageIndex = CType(resources.GetObject("CommandBarItem10.ImageOptions.LargeImageIndex"), Integer)
+        Me.CommandBarItem10.ImageOptions.SvgImage = CType(resources.GetObject("CommandBarItem10.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.CommandBarItem10.Name = "CommandBarItem10"
         '
         'msiWindows
         '
         resources.ApplyResources(Me.msiWindows, "msiWindows")
         Me.msiWindows.Id = 71
+        Me.msiWindows.ImageOptions.ImageIndex = CType(resources.GetObject("msiWindows.ImageOptions.ImageIndex"), Integer)
+        Me.msiWindows.ImageOptions.LargeImageIndex = CType(resources.GetObject("msiWindows.ImageOptions.LargeImageIndex"), Integer)
+        Me.msiWindows.ImageOptions.SvgImage = CType(resources.GetObject("msiWindows.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.msiWindows.Name = "msiWindows"
         '
         'DesignBar2
         '
+        resources.ApplyResources(Me.DesignBar2, "DesignBar2")
         Me.DesignBar2.BarName = "Toolbar"
         Me.DesignBar2.DockCol = 0
         Me.DesignBar2.DockRow = 1
         Me.DesignBar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Top
         Me.DesignBar2.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiOpenFile), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSaveFile), New DevExpress.XtraBars.LinkPersistInfo(Me.CommandBarItem7), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiCut, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiCopy), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiPaste), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiUndo, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiRedo)})
-        resources.ApplyResources(Me.DesignBar2, "DesignBar2")
         '
         'DesignBar3
         '
+        resources.ApplyResources(Me.DesignBar3, "DesignBar3")
         Me.DesignBar3.BarName = "Formatting Toolbar"
         Me.DesignBar3.DockCol = 1
         Me.DesignBar3.DockRow = 1
         Me.DesignBar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Top
         Me.DesignBar3.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.beiFontName), New DevExpress.XtraBars.LinkPersistInfo(Me.beiFontSize), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiFontBold), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiFontItalic), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiFontUnderline), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiForeColor, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiBackColor), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiJustifyLeft, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiJustifyCenter), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiJustifyRight), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiJustifyJustify)})
-        resources.ApplyResources(Me.DesignBar3, "DesignBar3")
         '
         'beiFontName
         '
         resources.ApplyResources(Me.beiFontName, "beiFontName")
         Me.beiFontName.Edit = Me.RecentlyUsedItemsComboBox1
         Me.beiFontName.Id = 0
+        Me.beiFontName.ImageOptions.ImageIndex = CType(resources.GetObject("beiFontName.ImageOptions.ImageIndex"), Integer)
+        Me.beiFontName.ImageOptions.LargeImageIndex = CType(resources.GetObject("beiFontName.ImageOptions.LargeImageIndex"), Integer)
+        Me.beiFontName.ImageOptions.SvgImage = CType(resources.GetObject("beiFontName.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.beiFontName.Name = "beiFontName"
         '
         'RecentlyUsedItemsComboBox1
@@ -810,6 +1025,9 @@ Partial Class Form1
         resources.ApplyResources(Me.beiFontSize, "beiFontSize")
         Me.beiFontSize.Edit = Me.DesignRepositoryItemComboBox1
         Me.beiFontSize.Id = 1
+        Me.beiFontSize.ImageOptions.ImageIndex = CType(resources.GetObject("beiFontSize.ImageOptions.ImageIndex"), Integer)
+        Me.beiFontSize.ImageOptions.LargeImageIndex = CType(resources.GetObject("beiFontSize.ImageOptions.LargeImageIndex"), Integer)
+        Me.beiFontSize.ImageOptions.SvgImage = CType(resources.GetObject("beiFontSize.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.beiFontSize.Name = "beiFontSize"
         '
         'DesignRepositoryItemComboBox1
@@ -820,15 +1038,16 @@ Partial Class Form1
         '
         'DesignBar4
         '
+        resources.ApplyResources(Me.DesignBar4, "DesignBar4")
         Me.DesignBar4.BarName = "Layout Toolbar"
         Me.DesignBar4.DockCol = 0
         Me.DesignBar4.DockRow = 2
         Me.DesignBar4.DockStyle = DevExpress.XtraBars.BarDockStyle.Top
         Me.DesignBar4.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignToGrid), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignLeft, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignVerticalCenters), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignRight), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignTop, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignHorizontalCenters), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiAlignBottom), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSizeToControlWidth, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSizeToGrid), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSizeToControlHeight), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSizeToControl), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiHorizSpaceMakeEqual, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiHorizSpaceIncrease), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiHorizSpaceDecrease), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiHorizSpaceConcatenate), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiVertSpaceMakeEqual, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiVertSpaceIncrease), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiVertSpaceDecrease), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiVertSpaceConcatenate), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiCenterHorizontally, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiCenterVertically), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiBringToFront, True), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiSendToBack)})
-        resources.ApplyResources(Me.DesignBar4, "DesignBar4")
         '
         'DesignBar5
         '
+        resources.ApplyResources(Me.DesignBar5, "DesignBar5")
         Me.DesignBar5.BarName = "Status Bar"
         Me.DesignBar5.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom
         Me.DesignBar5.DockCol = 0
@@ -838,23 +1057,26 @@ Partial Class Form1
         Me.DesignBar5.OptionsBar.AllowQuickCustomization = False
         Me.DesignBar5.OptionsBar.DrawDragBorder = False
         Me.DesignBar5.OptionsBar.UseWholeRow = True
-        resources.ApplyResources(Me.DesignBar5, "DesignBar5")
         '
         'bsiHint
         '
+        resources.ApplyResources(Me.bsiHint, "bsiHint")
         Me.bsiHint.AutoSize = DevExpress.XtraBars.BarStaticItemSize.Spring
         Me.bsiHint.Border = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.bsiHint.Id = 42
+        Me.bsiHint.ImageOptions.ImageIndex = CType(resources.GetObject("bsiHint.ImageOptions.ImageIndex"), Integer)
+        Me.bsiHint.ImageOptions.LargeImageIndex = CType(resources.GetObject("bsiHint.ImageOptions.LargeImageIndex"), Integer)
+        Me.bsiHint.ImageOptions.SvgImage = CType(resources.GetObject("bsiHint.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bsiHint.Name = "bsiHint"
         '
         'Bar1
         '
+        resources.ApplyResources(Me.Bar1, "Bar1")
         Me.Bar1.BarName = "Zoom Toolbar"
         Me.Bar1.DockCol = 1
         Me.Bar1.DockRow = 2
         Me.Bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top
         Me.Bar1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.bbiZoomOut), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiZoom), New DevExpress.XtraBars.LinkPersistInfo(Me.bbiZoomIn)})
-        resources.ApplyResources(Me.Bar1, "Bar1")
         '
         'bbiZoomOut
         '
@@ -862,6 +1084,9 @@ Partial Class Form1
         Me.bbiZoomOut.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.ZoomOut
         Me.bbiZoomOut.Enabled = False
         Me.bbiZoomOut.Id = 73
+        Me.bbiZoomOut.ImageOptions.ImageIndex = CType(resources.GetObject("bbiZoomOut.ImageOptions.ImageIndex"), Integer)
+        Me.bbiZoomOut.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiZoomOut.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiZoomOut.ImageOptions.SvgImage = CType(resources.GetObject("bbiZoomOut.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiZoomOut.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Subtract))
         Me.bbiZoomOut.Name = "bbiZoomOut"
         '
@@ -871,6 +1096,9 @@ Partial Class Form1
         Me.bbiZoom.Edit = Me.DesignRepositoryItemComboBox2
         Me.bbiZoom.Enabled = False
         Me.bbiZoom.Id = 74
+        Me.bbiZoom.ImageOptions.ImageIndex = CType(resources.GetObject("bbiZoom.ImageOptions.ImageIndex"), Integer)
+        Me.bbiZoom.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiZoom.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiZoom.ImageOptions.SvgImage = CType(resources.GetObject("bbiZoom.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiZoom.Name = "bbiZoom"
         '
         'DesignRepositoryItemComboBox2
@@ -885,31 +1113,34 @@ Partial Class Form1
         Me.bbiZoomIn.Command = DevExpress.XtraReports.UserDesigner.ReportCommand.ZoomIn
         Me.bbiZoomIn.Enabled = False
         Me.bbiZoomIn.Id = 75
+        Me.bbiZoomIn.ImageOptions.ImageIndex = CType(resources.GetObject("bbiZoomIn.ImageOptions.ImageIndex"), Integer)
+        Me.bbiZoomIn.ImageOptions.LargeImageIndex = CType(resources.GetObject("bbiZoomIn.ImageOptions.LargeImageIndex"), Integer)
+        Me.bbiZoomIn.ImageOptions.SvgImage = CType(resources.GetObject("bbiZoomIn.ImageOptions.SvgImage"), DevExpress.Utils.Svg.SvgImage)
         Me.bbiZoomIn.ItemShortcut = New DevExpress.XtraBars.BarShortcut((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Add))
         Me.bbiZoomIn.Name = "bbiZoomIn"
         '
         'barDockControlTop
         '
-        Me.barDockControlTop.CausesValidation = False
         resources.ApplyResources(Me.barDockControlTop, "barDockControlTop")
+        Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Manager = Me.XrDesignBarManager1
         '
         'barDockControlBottom
         '
-        Me.barDockControlBottom.CausesValidation = False
         resources.ApplyResources(Me.barDockControlBottom, "barDockControlBottom")
+        Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Manager = Me.XrDesignBarManager1
         '
         'barDockControlLeft
         '
-        Me.barDockControlLeft.CausesValidation = False
         resources.ApplyResources(Me.barDockControlLeft, "barDockControlLeft")
+        Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Manager = Me.XrDesignBarManager1
         '
         'barDockControlRight
         '
-        Me.barDockControlRight.CausesValidation = False
         resources.ApplyResources(Me.barDockControlRight, "barDockControlRight")
+        Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Manager = Me.XrDesignBarManager1
         '
         'XrDesignDockManager1
@@ -918,38 +1149,39 @@ Partial Class Form1
         Me.XrDesignDockManager1.ImageStream = CType(resources.GetObject("XrDesignDockManager1.ImageStream"), DevExpress.Utils.ImageCollectionStreamer)
         Me.XrDesignDockManager1.MenuManager = Me.XrDesignBarManager1
         Me.XrDesignDockManager1.RootPanels.AddRange(New DevExpress.XtraBars.Docking.DockPanel() {Me.panelContainer1, Me.panelContainer4})
-        Me.XrDesignDockManager1.TopZIndexControls.AddRange(New String() {"DevExpress.XtraBars.BarDockControl", "DevExpress.XtraBars.StandaloneBarDockControl", "System.Windows.Forms.StatusBar", "System.Windows.Forms.MenuStrip", "System.Windows.Forms.StatusStrip", "DevExpress.XtraBars.Ribbon.RibbonStatusBar", "DevExpress.XtraBars.Ribbon.RibbonControl", "DevExpress.XtraBars.Navigation.OfficeNavigationBar", "DevExpress.XtraBars.Navigation.TileNavPane", "DevExpress.XtraBars.TabFormControl"})
+        Me.XrDesignDockManager1.TopZIndexControls.AddRange(New String() {"DevExpress.XtraBars.BarDockControl", "DevExpress.XtraBars.StandaloneBarDockControl", "System.Windows.Forms.StatusBar", "System.Windows.Forms.MenuStrip", "System.Windows.Forms.StatusStrip", "DevExpress.XtraBars.Ribbon.RibbonStatusBar", "DevExpress.XtraBars.Ribbon.RibbonControl", "DevExpress.XtraBars.Navigation.OfficeNavigationBar", "DevExpress.XtraBars.Navigation.TileNavPane", "DevExpress.XtraBars.TabFormControl", "DevExpress.XtraReports.UserDesigner.XRToolBoxPanel"})
         '
         'panelContainer1
         '
+        resources.ApplyResources(Me.panelContainer1, "panelContainer1")
         Me.panelContainer1.Controls.Add(Me.panelContainer2)
         Me.panelContainer1.Controls.Add(Me.panelContainer3)
         Me.panelContainer1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Right
         Me.panelContainer1.ID = New System.Guid("dcf02f69-d892-4007-8893-78c27f901008")
-        resources.ApplyResources(Me.panelContainer1, "panelContainer1")
         Me.panelContainer1.Name = "panelContainer1"
         Me.panelContainer1.OriginalSize = New System.Drawing.Size(250, 200)
         '
         'panelContainer2
         '
+        resources.ApplyResources(Me.panelContainer2, "panelContainer2")
         Me.panelContainer2.ActiveChild = Me.FieldListDockPanel1
         Me.panelContainer2.Controls.Add(Me.ReportExplorerDockPanel1)
         Me.panelContainer2.Controls.Add(Me.FieldListDockPanel1)
         Me.panelContainer2.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
         Me.panelContainer2.ID = New System.Guid("8220ec6a-05f5-4f66-b33c-196ef910d837")
-        resources.ApplyResources(Me.panelContainer2, "panelContainer2")
         Me.panelContainer2.Name = "panelContainer2"
-        Me.panelContainer2.OriginalSize = New System.Drawing.Size(250, 308)
+        Me.panelContainer2.OriginalSize = New System.Drawing.Size(250, 296)
         Me.panelContainer2.Tabbed = True
         '
         'FieldListDockPanel1
         '
+        resources.ApplyResources(Me.FieldListDockPanel1, "FieldListDockPanel1")
         Me.FieldListDockPanel1.Controls.Add(Me.FieldListDockPanel1_Container)
         Me.FieldListDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
         Me.FieldListDockPanel1.ID = New System.Guid("faf69838-a93f-4114-83e8-d0d09cc5ce95")
-        resources.ApplyResources(Me.FieldListDockPanel1, "FieldListDockPanel1")
+        Me.FieldListDockPanel1.ImageOptions.ImageIndex = CType(resources.GetObject("FieldListDockPanel1.ImageOptions.ImageIndex"), Integer)
         Me.FieldListDockPanel1.Name = "FieldListDockPanel1"
-        Me.FieldListDockPanel1.OriginalSize = New System.Drawing.Size(241, 252)
+        Me.FieldListDockPanel1.OriginalSize = New System.Drawing.Size(241, 240)
         '
         'FieldListDockPanel1_Container
         '
@@ -958,12 +1190,13 @@ Partial Class Form1
         '
         'ReportExplorerDockPanel1
         '
+        resources.ApplyResources(Me.ReportExplorerDockPanel1, "ReportExplorerDockPanel1")
         Me.ReportExplorerDockPanel1.Controls.Add(Me.ReportExplorerDockPanel1_Container)
         Me.ReportExplorerDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
         Me.ReportExplorerDockPanel1.ID = New System.Guid("fb3ec6cc-3b9b-4b9c-91cf-cff78c1edbf1")
-        resources.ApplyResources(Me.ReportExplorerDockPanel1, "ReportExplorerDockPanel1")
+        Me.ReportExplorerDockPanel1.ImageOptions.ImageIndex = CType(resources.GetObject("ReportExplorerDockPanel1.ImageOptions.ImageIndex"), Integer)
         Me.ReportExplorerDockPanel1.Name = "ReportExplorerDockPanel1"
-        Me.ReportExplorerDockPanel1.OriginalSize = New System.Drawing.Size(241, 252)
+        Me.ReportExplorerDockPanel1.OriginalSize = New System.Drawing.Size(241, 240)
         '
         'ReportExplorerDockPanel1_Container
         '
@@ -972,24 +1205,25 @@ Partial Class Form1
         '
         'panelContainer3
         '
+        resources.ApplyResources(Me.panelContainer3, "panelContainer3")
         Me.panelContainer3.ActiveChild = Me.ReportGalleryDockPanel1
         Me.panelContainer3.Controls.Add(Me.PropertyGridDockPanel1)
         Me.panelContainer3.Controls.Add(Me.ReportGalleryDockPanel1)
         Me.panelContainer3.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
         Me.panelContainer3.ID = New System.Guid("38a7e1d8-3e43-4c95-822c-9bdb09c11459")
-        resources.ApplyResources(Me.panelContainer3, "panelContainer3")
         Me.panelContainer3.Name = "panelContainer3"
-        Me.panelContainer3.OriginalSize = New System.Drawing.Size(250, 307)
+        Me.panelContainer3.OriginalSize = New System.Drawing.Size(250, 296)
         Me.panelContainer3.Tabbed = True
         '
         'ReportGalleryDockPanel1
         '
+        resources.ApplyResources(Me.ReportGalleryDockPanel1, "ReportGalleryDockPanel1")
         Me.ReportGalleryDockPanel1.Controls.Add(Me.ReportGalleryDockPanel1_Container)
         Me.ReportGalleryDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
         Me.ReportGalleryDockPanel1.ID = New System.Guid("7cd5b1e8-63bb-46f7-af65-af61eb851a38")
-        resources.ApplyResources(Me.ReportGalleryDockPanel1, "ReportGalleryDockPanel1")
+        Me.ReportGalleryDockPanel1.ImageOptions.ImageIndex = CType(resources.GetObject("ReportGalleryDockPanel1.ImageOptions.ImageIndex"), Integer)
         Me.ReportGalleryDockPanel1.Name = "ReportGalleryDockPanel1"
-        Me.ReportGalleryDockPanel1.OriginalSize = New System.Drawing.Size(241, 252)
+        Me.ReportGalleryDockPanel1.OriginalSize = New System.Drawing.Size(241, 241)
         '
         'ReportGalleryDockPanel1_Container
         '
@@ -998,12 +1232,13 @@ Partial Class Form1
         '
         'PropertyGridDockPanel1
         '
+        resources.ApplyResources(Me.PropertyGridDockPanel1, "PropertyGridDockPanel1")
         Me.PropertyGridDockPanel1.Controls.Add(Me.PropertyGridDockPanel1_Container)
         Me.PropertyGridDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
         Me.PropertyGridDockPanel1.ID = New System.Guid("b38d12c3-cd06-4dec-b93d-63a0088e495a")
-        resources.ApplyResources(Me.PropertyGridDockPanel1, "PropertyGridDockPanel1")
+        Me.PropertyGridDockPanel1.ImageOptions.ImageIndex = CType(resources.GetObject("PropertyGridDockPanel1.ImageOptions.ImageIndex"), Integer)
         Me.PropertyGridDockPanel1.Name = "PropertyGridDockPanel1"
-        Me.PropertyGridDockPanel1.OriginalSize = New System.Drawing.Size(241, 252)
+        Me.PropertyGridDockPanel1.OriginalSize = New System.Drawing.Size(241, 241)
         '
         'PropertyGridDockPanel1_Container
         '
@@ -1012,24 +1247,25 @@ Partial Class Form1
         '
         'panelContainer4
         '
+        resources.ApplyResources(Me.panelContainer4, "panelContainer4")
         Me.panelContainer4.ActiveChild = Me.ErrorListDockPanel1
         Me.panelContainer4.Controls.Add(Me.GroupAndSortDockPanel1)
         Me.panelContainer4.Controls.Add(Me.ErrorListDockPanel1)
         Me.panelContainer4.Dock = DevExpress.XtraBars.Docking.DockingStyle.Bottom
         Me.panelContainer4.ID = New System.Guid("0f7922bf-f423-47f4-9260-8e5f1f202870")
-        resources.ApplyResources(Me.panelContainer4, "panelContainer4")
         Me.panelContainer4.Name = "panelContainer4"
         Me.panelContainer4.OriginalSize = New System.Drawing.Size(200, 200)
         Me.panelContainer4.Tabbed = True
         '
         'ErrorListDockPanel1
         '
+        resources.ApplyResources(Me.ErrorListDockPanel1, "ErrorListDockPanel1")
         Me.ErrorListDockPanel1.Controls.Add(Me.ErrorListDockPanel1_Container)
         Me.ErrorListDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
         Me.ErrorListDockPanel1.ID = New System.Guid("5a9a01fd-6e95-4e81-a8c4-ac63153d7488")
-        resources.ApplyResources(Me.ErrorListDockPanel1, "ErrorListDockPanel1")
+        Me.ErrorListDockPanel1.ImageOptions.ImageIndex = CType(resources.GetObject("ErrorListDockPanel1.ImageOptions.ImageIndex"), Integer)
         Me.ErrorListDockPanel1.Name = "ErrorListDockPanel1"
-        Me.ErrorListDockPanel1.OriginalSize = New System.Drawing.Size(1119, 144)
+        Me.ErrorListDockPanel1.OriginalSize = New System.Drawing.Size(997, 144)
         '
         'ErrorListDockPanel1_Container
         '
@@ -1038,12 +1274,13 @@ Partial Class Form1
         '
         'GroupAndSortDockPanel1
         '
+        resources.ApplyResources(Me.GroupAndSortDockPanel1, "GroupAndSortDockPanel1")
         Me.GroupAndSortDockPanel1.Controls.Add(Me.GroupAndSortDockPanel1_Container)
         Me.GroupAndSortDockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Fill
         Me.GroupAndSortDockPanel1.ID = New System.Guid("4bab159e-c495-4d67-87dc-f4e895da443e")
-        resources.ApplyResources(Me.GroupAndSortDockPanel1, "GroupAndSortDockPanel1")
+        Me.GroupAndSortDockPanel1.ImageOptions.ImageIndex = CType(resources.GetObject("GroupAndSortDockPanel1.ImageOptions.ImageIndex"), Integer)
         Me.GroupAndSortDockPanel1.Name = "GroupAndSortDockPanel1"
-        Me.GroupAndSortDockPanel1.OriginalSize = New System.Drawing.Size(1119, 144)
+        Me.GroupAndSortDockPanel1.OriginalSize = New System.Drawing.Size(997, 144)
         '
         'GroupAndSortDockPanel1_Container
         '
@@ -1090,6 +1327,7 @@ Partial Class Form1
         Me.panelContainer4.ResumeLayout(False)
         Me.ErrorListDockPanel1.ResumeLayout(False)
         Me.GroupAndSortDockPanel1.ResumeLayout(False)
+        CType(Me.ReportDesigner1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -49,7 +49,7 @@ Partial Class frmGoldAddStone
         '
         Me.txtStoneDocPath.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtStoneDocPath.Location = New System.Drawing.Point(291, 102)
-        Me.txtStoneDocPath.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtStoneDocPath.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtStoneDocPath.Name = "txtStoneDocPath"
         Me.txtStoneDocPath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtStoneDocPath.Properties.Appearance.Options.UseFont = True
@@ -61,7 +61,7 @@ Partial Class frmGoldAddStone
         '
         Me.txtStoneImagePath.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtStoneImagePath.Location = New System.Drawing.Point(563, 102)
-        Me.txtStoneImagePath.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtStoneImagePath.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtStoneImagePath.Name = "txtStoneImagePath"
         Me.txtStoneImagePath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtStoneImagePath.Properties.Appearance.Options.UseFont = True
@@ -75,7 +75,7 @@ Partial Class frmGoldAddStone
         Me.txtStoneWeight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStoneWeight.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.txtStoneWeight.Location = New System.Drawing.Point(610, 40)
-        Me.txtStoneWeight.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtStoneWeight.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtStoneWeight.Name = "txtStoneWeight"
         Me.txtStoneWeight.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.txtStoneWeight.Size = New System.Drawing.Size(107, 27)
@@ -87,7 +87,7 @@ Partial Class frmGoldAddStone
         Me.txtStoneColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStoneColor.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.txtStoneColor.Location = New System.Drawing.Point(438, 40)
-        Me.txtStoneColor.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtStoneColor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtStoneColor.Name = "txtStoneColor"
         Me.txtStoneColor.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.txtStoneColor.Size = New System.Drawing.Size(107, 27)
@@ -99,7 +99,7 @@ Partial Class frmGoldAddStone
         Me.txtStonePrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStonePrice.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.txtStonePrice.Location = New System.Drawing.Point(10, 40)
-        Me.txtStonePrice.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtStonePrice.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtStonePrice.Name = "txtStonePrice"
         Me.txtStonePrice.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.txtStonePrice.Size = New System.Drawing.Size(107, 27)
@@ -111,7 +111,7 @@ Partial Class frmGoldAddStone
         Me.txtStoneClarity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStoneClarity.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.txtStoneClarity.Location = New System.Drawing.Point(331, 40)
-        Me.txtStoneClarity.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtStoneClarity.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtStoneClarity.Name = "txtStoneClarity"
         Me.txtStoneClarity.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.txtStoneClarity.Size = New System.Drawing.Size(107, 27)
@@ -123,7 +123,7 @@ Partial Class frmGoldAddStone
         Me.txtStoneCut.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtStoneCut.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.txtStoneCut.Location = New System.Drawing.Point(224, 40)
-        Me.txtStoneCut.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtStoneCut.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtStoneCut.Name = "txtStoneCut"
         Me.txtStoneCut.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.txtStoneCut.Size = New System.Drawing.Size(107, 27)
@@ -136,7 +136,7 @@ Partial Class frmGoldAddStone
         Me.cmbStoneCaratOrGram.FormattingEnabled = True
         Me.cmbStoneCaratOrGram.Items.AddRange(New Object() {"قيراط", "جرام"})
         Me.cmbStoneCaratOrGram.Location = New System.Drawing.Point(545, 40)
-        Me.cmbStoneCaratOrGram.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbStoneCaratOrGram.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbStoneCaratOrGram.Name = "cmbStoneCaratOrGram"
         Me.cmbStoneCaratOrGram.Size = New System.Drawing.Size(65, 27)
         Me.cmbStoneCaratOrGram.TabIndex = 141
@@ -147,7 +147,7 @@ Partial Class frmGoldAddStone
         Me.cmbStoneCountryOfOrigin.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.cmbStoneCountryOfOrigin.FormattingEnabled = True
         Me.cmbStoneCountryOfOrigin.Location = New System.Drawing.Point(117, 40)
-        Me.cmbStoneCountryOfOrigin.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbStoneCountryOfOrigin.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbStoneCountryOfOrigin.Name = "cmbStoneCountryOfOrigin"
         Me.cmbStoneCountryOfOrigin.Size = New System.Drawing.Size(107, 27)
         Me.cmbStoneCountryOfOrigin.TabIndex = 142
@@ -164,7 +164,7 @@ Partial Class frmGoldAddStone
         Me.Guna2Button5.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button5.ForeColor = System.Drawing.Color.White
         Me.Guna2Button5.Location = New System.Drawing.Point(160, 97)
-        Me.Guna2Button5.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Guna2Button5.Name = "Guna2Button5"
         Me.Guna2Button5.Size = New System.Drawing.Size(129, 35)
         Me.Guna2Button5.TabIndex = 144
@@ -176,7 +176,7 @@ Partial Class frmGoldAddStone
         Me.cmbStone.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.cmbStone.FormattingEnabled = True
         Me.cmbStone.Location = New System.Drawing.Point(717, 40)
-        Me.cmbStone.Margin = New System.Windows.Forms.Padding(4)
+        Me.cmbStone.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cmbStone.Name = "cmbStone"
         Me.cmbStone.Size = New System.Drawing.Size(107, 27)
         Me.cmbStone.TabIndex = 143
@@ -301,7 +301,7 @@ Partial Class frmGoldAddStone
         Me.Label16.Text = "صورة الفص"
         Me.Label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'frmAddStone
+        'frmGoldAddStone
         '
         Me.Appearance.BackColor = System.Drawing.Color.White
         Me.Appearance.Options.UseBackColor = True
@@ -329,13 +329,15 @@ Partial Class frmGoldAddStone
         Me.Controls.Add(Me.lblStoneWeightKorGm)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.lblStoneCountryOfOrigin)
+        Me.Font = New System.Drawing.Font("Tahoma", 8.0!)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Name = "frmAddStone"
+        Me.Name = "frmGoldAddStone"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "إضافة فص"
         CType(Me.txtStoneDocPath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtStoneImagePath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 

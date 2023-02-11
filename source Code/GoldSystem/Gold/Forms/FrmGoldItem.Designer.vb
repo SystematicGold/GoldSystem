@@ -986,16 +986,16 @@ Partial Class FrmGoldItem
         Me.tbAddItem.Controls.Add(Me.GridControl1)
         Me.tbAddItem.Controls.Add(Me.AddGoldItem1)
         Me.tbAddItem.Name = "tbAddItem"
-        Me.tbAddItem.Size = New System.Drawing.Size(1332, 644)
+        Me.tbAddItem.Size = New System.Drawing.Size(1350, 665)
         '
         'GridControl1
         '
         Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.GridControl1.Location = New System.Drawing.Point(0, 348)
+        Me.GridControl1.Location = New System.Drawing.Point(0, 287)
         Me.GridControl1.MainView = Me.GridView2
         Me.GridControl1.MenuManager = Me.BarManager1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1332, 296)
+        Me.GridControl1.Size = New System.Drawing.Size(1350, 378)
         Me.GridControl1.TabIndex = 1
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
@@ -1010,7 +1010,7 @@ Partial Class FrmGoldItem
         Me.AddGoldItem1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AddGoldItem1.Location = New System.Drawing.Point(0, 0)
         Me.AddGoldItem1.Name = "AddGoldItem1"
-        Me.AddGoldItem1.Size = New System.Drawing.Size(1332, 348)
+        Me.AddGoldItem1.Size = New System.Drawing.Size(1350, 348)
         Me.AddGoldItem1.TabIndex = 0
         '
         'tbAddSet
@@ -1492,7 +1492,6 @@ Partial Class FrmGoldItem
         Me.Controls.Add(Me.barDockControlBottom)
         Me.Controls.Add(Me.barDockControlTop)
         Me.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IsMdiContainer = True
         Me.Name = "FrmGoldItem"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Add New Item - اضافة صنف جديد"

@@ -40,7 +40,7 @@ Partial Public Class PrintBarCode
         '
         'XrRichText1
         '
-        Me.XrRichText1.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrRichText1.Font = New DevExpress.Drawing.DXFont("Times New Roman", 9.75!)
         Me.XrRichText1.LocationFloat = New DevExpress.Utils.PointFloat(138.75!, 38.12501!)
         Me.XrRichText1.LockedInUserDesigner = True
         Me.XrRichText1.Name = "XrRichText1"
@@ -80,7 +80,7 @@ Partial Public Class PrintBarCode
         'PrintBarCode
         '
         Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin})
-        Me.Margins = New System.Drawing.Printing.Margins(5, 100, 2, 23)
+        Me.Margins = New DevExpress.Drawing.DXMargins(5, 100, 2, 23)
         Me.PageHeight = 500
         Me.PageWidth = 500
         Me.PaperKind = System.Drawing.Printing.PaperKind.Custom
