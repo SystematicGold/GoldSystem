@@ -97,8 +97,8 @@ Partial Class frmGoldTransaction
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.TabNavigationPage4 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.UcGoldAddItem1 = New GoldSystem.UCGoldAddItem()
-        Me.UcSupplier1 = New GoldSystem.UCSupplier()
+        Me.UcGoldAddItem = New GoldSystem.UCGoldAddItem()
+        Me.UcSupplier = New GoldSystem.UCSupplier()
         Me.UcSupplier2 = New GoldSystem.UCSupplier()
         Me.gbItemData.SuspendLayout()
         CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -784,7 +784,7 @@ Partial Class frmGoldTransaction
         '
         Me.TabNavigationPage2.Caption = "مشتريات تسكير"
         Me.TabNavigationPage2.Controls.Add(Me.TabPane2)
-        Me.TabNavigationPage2.Controls.Add(Me.UcSupplier1)
+        Me.TabNavigationPage2.Controls.Add(Me.UcSupplier)
         Me.TabNavigationPage2.Name = "TabNavigationPage2"
         Me.TabNavigationPage2.Size = New System.Drawing.Size(1332, 684)
         '
@@ -1130,28 +1130,28 @@ Partial Class frmGoldTransaction
         'TabNavigationPage4
         '
         Me.TabNavigationPage4.Caption = "شراء تفصيلي"
-        Me.TabNavigationPage4.Controls.Add(Me.UcGoldAddItem1)
+        Me.TabNavigationPage4.Controls.Add(Me.UcGoldAddItem)
         Me.TabNavigationPage4.Name = "TabNavigationPage4"
         Me.TabNavigationPage4.Size = New System.Drawing.Size(1334, 380)
         '
-        'UcGoldAddItem1
+        'UcGoldAddItem
         '
-        Me.UcGoldAddItem1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UcGoldAddItem1.Location = New System.Drawing.Point(-5, 3)
-        Me.UcGoldAddItem1.Name = "UcGoldAddItem1"
-        Me.UcGoldAddItem1.Size = New System.Drawing.Size(1350, 355)
-        Me.UcGoldAddItem1.TabIndex = 0
+        Me.UcGoldAddItem.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UcGoldAddItem.Location = New System.Drawing.Point(-5, 3)
+        Me.UcGoldAddItem.Name = "UcGoldAddItem"
+        Me.UcGoldAddItem.Size = New System.Drawing.Size(1350, 355)
+        Me.UcGoldAddItem.TabIndex = 0
         '
-        'UcSupplier1
+        'UcSupplier
         '
-        Me.UcSupplier1.BackColor = System.Drawing.Color.Transparent
-        Me.UcSupplier1.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.UcSupplier1.Location = New System.Drawing.Point(-10, 3)
-        Me.UcSupplier1.Margin = New System.Windows.Forms.Padding(5)
-        Me.UcSupplier1.Name = "UcSupplier1"
-        Me.UcSupplier1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.UcSupplier1.Size = New System.Drawing.Size(1352, 300)
-        Me.UcSupplier1.TabIndex = 6
+        Me.UcSupplier.BackColor = System.Drawing.Color.Transparent
+        Me.UcSupplier.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.UcSupplier.Location = New System.Drawing.Point(-10, 3)
+        Me.UcSupplier.Margin = New System.Windows.Forms.Padding(5)
+        Me.UcSupplier.Name = "UcSupplier"
+        Me.UcSupplier.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.UcSupplier.Size = New System.Drawing.Size(1352, 300)
+        Me.UcSupplier.TabIndex = 6
         '
         'UcSupplier2
         '
@@ -1264,8 +1264,8 @@ Partial Class frmGoldTransaction
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents TabNavigationPage4 As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents UcGoldAddItem1 As UCGoldAddItem
-    Friend WithEvents UcSupplier1 As UCSupplier
+    Friend WithEvents UcGoldAddItem As UCGoldAddItem
+    Friend WithEvents UcSupplier As UCSupplier
     Friend WithEvents Label9 As Label
     Friend WithEvents ComboBox3 As ComboBox
     Friend WithEvents Label11 As Label

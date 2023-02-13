@@ -1,17 +1,14 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class FrmGoldItem
-    Inherits System.Windows.Forms.Form
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmGoldItem
+    Inherits DevExpress.XtraEditors.XtraForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-        Try
-            If disposing AndAlso components IsNot Nothing Then
-                components.Dispose()
-            End If
-        Finally
-            MyBase.Dispose(disposing)
-        End Try
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
     End Sub
 
     'Required by the Windows Form Designer
@@ -20,41 +17,105 @@ Partial Class FrmGoldItem
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmGoldItem))
-        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Me.DgvAdderItem = New System.Windows.Forms.DataGridView()
-        Me.Column16 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column17 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column14 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column15 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.PictureEdit15 = New DevExpress.XtraEditors.PictureEdit()
-        Me.Guna2Button14 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button12 = New Guna.UI2.WinForms.Guna2Button()
-        Me.DgvAddItems = New DevExpress.XtraGrid.GridControl()
-        Me.GridView3 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.PictureEdit14 = New DevExpress.XtraEditors.PictureEdit()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmGoldItem))
+        Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim WindowsUIButtonImageOptions7 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim WindowsUIButtonImageOptions8 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim WindowsUIButtonImageOptions9 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim WindowsUIButtonImageOptions10 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim WindowsUIButtonImageOptions11 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim WindowsUIButtonImageOptions12 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
+        Me.tbAddItem = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
+        Me.GridView2 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.AddGoldItem = New GoldSystem.UCGoldAddItem()
+        Me.tbAddSet = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.gbItemData = New DevExpress.XtraEditors.GroupControl()
+        Me.pbAddSetItem = New DevExpress.XtraEditors.PictureEdit()
+        Me.dgvSetItem = New DevExpress.XtraGrid.GridControl()
+        Me.DgvStone = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.colSetItemCode = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemBarCode = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemName = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemKarat = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemGoldWeight = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemMakingCharge = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemPurchaseCost = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemGramPrice = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemCountryOfOrigin = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemNoOfPieces = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemSymbol = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemItemNo = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSetItemSupplier = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.gbSetData = New DevExpress.XtraEditors.GroupControl()
+        Me.txtNote = New DevExpress.XtraEditors.MemoEdit()
+        Me.WindowsUIButtonPanel1 = New DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel()
+        Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
+        Me.dtpDateAdded = New DevExpress.XtraEditors.DateEdit()
+        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
+        Me.txtCostPerPiece = New DevExpress.XtraEditors.TextEdit()
+        Me.ComboBoxEdit3 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.ComboBoxEdit2 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.ComboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.cmbPhone = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl15 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl14 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl16 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl13 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
+        Me.lblCIDAr = New DevExpress.XtraEditors.LabelControl()
+        Me.GridControl2 = New DevExpress.XtraGrid.GridControl()
+        Me.GridView4 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.txtSetCode = New System.Windows.Forms.TextBox()
+        Me.LabelControl21 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl20 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl19 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl18 = New DevExpress.XtraEditors.LabelControl()
+        Me.tbQuery = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
+        Me.ComboBoxEdit4 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.DateEdit3 = New DevExpress.XtraEditors.DateEdit()
+        Me.DateEdit2 = New DevExpress.XtraEditors.DateEdit()
+        Me.LabelControl25 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl23 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl24 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl22 = New DevExpress.XtraEditors.LabelControl()
+        Me.UcFavorite1 = New GoldSystem.UCFavorite()
         Me.DGVSelectAll = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
+        Me.tbExcel = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.btnPanelExcel = New DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel()
+        Me.UcFavorite2 = New GoldSystem.UCFavorite()
+        Me.DgvAddItems = New DevExpress.XtraGrid.GridControl()
+        Me.GridView3 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.RadialMenu1 = New DevExpress.XtraBars.Ribbon.RadialMenu(Me.components)
         Me.BarManager1 = New DevExpress.XtraBars.BarManager(Me.components)
         Me.barDockControlTop = New DevExpress.XtraBars.BarDockControl()
         Me.barDockControlBottom = New DevExpress.XtraBars.BarDockControl()
@@ -70,356 +131,1144 @@ Partial Class FrmGoldItem
         Me.BarButtonItem5 = New DevExpress.XtraBars.BarButtonItem()
         Me.BarButtonItem6 = New DevExpress.XtraBars.BarButtonItem()
         Me.BarButtonItem7 = New DevExpress.XtraBars.BarButtonItem()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
-        Me.ComNameBlock = New System.Windows.Forms.ComboBox()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label35 = New System.Windows.Forms.Label()
-        Me.TxtNumberBlock = New System.Windows.Forms.TextBox()
-        Me.TxtRamzBlock = New System.Windows.Forms.TextBox()
-        Me.ComSupplierBlock = New System.Windows.Forms.ComboBox()
-        Me.TxtCodeBlock = New System.Windows.Forms.TextBox()
-        Me.Label17 = New System.Windows.Forms.Label()
-        Me.TxtBarCodeBlock = New System.Windows.Forms.TextBox()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
-        Me.TxtMakingChargeBlock = New System.Windows.Forms.TextBox()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.TxtTotalCostBlock = New System.Windows.Forms.TextBox()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.TxtNumberPiesesBlock = New System.Windows.Forms.TextBox()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button9 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button10 = New Guna.UI2.WinForms.Guna2Button()
-        Me.PictureEdit5 = New DevExpress.XtraEditors.PictureEdit()
-        Me.PictureEdit6 = New DevExpress.XtraEditors.PictureEdit()
-        Me.PictureEdit7 = New DevExpress.XtraEditors.PictureEdit()
-        Me.PictureEdit8 = New DevExpress.XtraEditors.PictureEdit()
-        Me.OFD = New System.Windows.Forms.OpenFileDialog()
-        Me.RadialMenu1 = New DevExpress.XtraBars.Ribbon.RadialMenu(Me.components)
-        Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
-        Me.tbAddItem = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
-        Me.GridView2 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.AddGoldItem1 = New GoldSystem.UCGoldAddItem()
-        Me.tbAddSet = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.GridControl2 = New DevExpress.XtraGrid.GridControl()
-        Me.GridView4 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
-        Me.pbAddSetItem = New DevExpress.XtraEditors.PictureEdit()
-        Me.gbItemData = New Guna.UI2.WinForms.Guna2GroupBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.txtStoneWeight = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.cmbCountryOfOrigin = New System.Windows.Forms.ComboBox()
-        Me.lblCountryOfOrigin = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.dtDateAdd = New System.Windows.Forms.DateTimePicker()
-        Me.lblDateAdd = New System.Windows.Forms.Label()
-        Me.cmbItemStatus = New System.Windows.Forms.ComboBox()
-        Me.lblItemStatus = New System.Windows.Forms.Label()
-        Me.dtDateOfManufacture = New System.Windows.Forms.DateTimePicker()
-        Me.txtCostForSeller = New System.Windows.Forms.TextBox()
-        Me.lblCostForSeller = New System.Windows.Forms.Label()
-        Me.lblDateOfManufacture = New System.Windows.Forms.Label()
-        Me.tbQuery = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.UcFavorite1 = New GoldSystem.UCFavorite()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.tbExcel = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.UcFavorite2 = New GoldSystem.UCFavorite()
-        CType(Me.DgvAdderItem, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureEdit15.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DgvAddItems, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GridView3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DGVSelectAll, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RadialMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPane1.SuspendLayout()
         Me.tbAddItem.SuspendLayout()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tbAddSet.SuspendLayout()
+        CType(Me.gbItemData, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.gbItemData.SuspendLayout()
+        CType(Me.pbAddSetItem.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgvSetItem, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.gbSetData, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.gbSetData.SuspendLayout()
+        CType(Me.txtNote.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dtpDateAdded.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dtpDateAdded.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtCostPerPiece.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbPhone.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Guna2GroupBox1.SuspendLayout()
-        CType(Me.pbAddSetItem.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.gbItemData.SuspendLayout()
         Me.tbQuery.SuspendLayout()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit3.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DGVSelectAll, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tbExcel.SuspendLayout()
+        CType(Me.DgvAddItems, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RadialMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'DgvAdderItem
+        'TabPane1
         '
-        Me.DgvAdderItem.AllowUserToAddRows = False
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DgvAdderItem.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        Me.DgvAdderItem.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.DgvAdderItem.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
-        Me.DgvAdderItem.BackgroundColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DgvAdderItem.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        Me.DgvAdderItem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DgvAdderItem.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column16, Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.Column8, Me.DataGridViewTextBoxColumn5, Me.Column6, Me.Column17, Me.Column7, Me.Column13, Me.Column14, Me.Column15, Me.Column11})
-        Me.DgvAdderItem.Location = New System.Drawing.Point(3, 41)
-        Me.DgvAdderItem.Name = "DgvAdderItem"
-        Me.DgvAdderItem.ReadOnly = True
-        Me.DgvAdderItem.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.DgvAdderItem.RowHeadersWidth = 10
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.DgvAdderItem.RowsDefaultCellStyle = DataGridViewCellStyle3
-        Me.DgvAdderItem.RowTemplate.DefaultCellStyle.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.DgvAdderItem.Size = New System.Drawing.Size(1326, 175)
-        Me.DgvAdderItem.TabIndex = 4
+        Me.TabPane1.Appearance.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabPane1.Appearance.Options.UseFont = True
+        Me.TabPane1.AppearanceButton.Hovered.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.TabPane1.AppearanceButton.Hovered.Options.UseFont = True
+        Me.TabPane1.AppearanceButton.Normal.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.TabPane1.AppearanceButton.Normal.Options.UseFont = True
+        Me.TabPane1.AppearanceButton.Pressed.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.TabPane1.AppearanceButton.Pressed.Options.UseFont = True
+        Me.TabPane1.Controls.Add(Me.tbAddItem)
+        Me.TabPane1.Controls.Add(Me.tbAddSet)
+        Me.TabPane1.Controls.Add(Me.tbQuery)
+        Me.TabPane1.Controls.Add(Me.tbExcel)
+        Me.TabPane1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabPane1.Location = New System.Drawing.Point(0, 0)
+        Me.TabPane1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TabPane1.Name = "TabPane1"
+        Me.TabPane1.Pages.AddRange(New DevExpress.XtraBars.Navigation.NavigationPageBase() {Me.tbAddItem, Me.tbAddSet, Me.tbQuery, Me.tbExcel})
+        Me.TabPane1.RegularSize = New System.Drawing.Size(1364, 688)
+        Me.TabPane1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TabPane1.SelectedPage = Me.tbAddItem
+        Me.TabPane1.Size = New System.Drawing.Size(1364, 688)
+        Me.TabPane1.TabIndex = 18
+        Me.TabPane1.Text = "TabPane1"
         '
-        'Column16
+        'tbAddItem
         '
-        Me.Column16.HeaderText = "الكود"
-        Me.Column16.Name = "Column16"
-        Me.Column16.ReadOnly = True
+        Me.tbAddItem.Caption = "إضافة صنف فردي"
+        Me.tbAddItem.Controls.Add(Me.GridControl1)
+        Me.tbAddItem.Controls.Add(Me.AddGoldItem)
+        Me.tbAddItem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.tbAddItem.Name = "tbAddItem"
+        Me.tbAddItem.Size = New System.Drawing.Size(1364, 654)
         '
-        'DataGridViewTextBoxColumn1
+        'GridControl1
         '
-        Me.DataGridViewTextBoxColumn1.HeaderText = "الباركود"
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        Me.DataGridViewTextBoxColumn1.ReadOnly = True
+        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.GridControl1.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GridControl1.Location = New System.Drawing.Point(0, 365)
+        Me.GridControl1.MainView = Me.GridView2
+        Me.GridControl1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GridControl1.Name = "GridControl1"
+        Me.GridControl1.Size = New System.Drawing.Size(1364, 289)
+        Me.GridControl1.TabIndex = 1
+        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
         '
-        'DataGridViewTextBoxColumn2
+        'GridView2
         '
-        Me.DataGridViewTextBoxColumn2.HeaderText = "الاسم"
-        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
-        Me.DataGridViewTextBoxColumn2.ReadOnly = True
+        Me.GridView2.DetailHeight = 268
+        Me.GridView2.GridControl = Me.GridControl1
+        Me.GridView2.Name = "GridView2"
         '
-        'DataGridViewTextBoxColumn3
+        'AddGoldItem
         '
-        Me.DataGridViewTextBoxColumn3.HeaderText = " العيار"
-        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
-        Me.DataGridViewTextBoxColumn3.ReadOnly = True
+        Me.AddGoldItem.Dock = System.Windows.Forms.DockStyle.Top
+        Me.AddGoldItem.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AddGoldItem.Location = New System.Drawing.Point(0, 0)
+        Me.AddGoldItem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.AddGoldItem.Name = "AddGoldItem"
+        Me.AddGoldItem.Size = New System.Drawing.Size(1364, 266)
+        Me.AddGoldItem.TabIndex = 0
         '
-        'DataGridViewTextBoxColumn4
+        'tbAddSet
         '
-        Me.DataGridViewTextBoxColumn4.HeaderText = "وزن الذهب"
-        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
-        Me.DataGridViewTextBoxColumn4.ReadOnly = True
+        Me.tbAddSet.Caption = "إضافة طقم"
+        Me.tbAddSet.Controls.Add(Me.gbItemData)
+        Me.tbAddSet.Controls.Add(Me.gbSetData)
+        Me.tbAddSet.Controls.Add(Me.GridControl2)
+        Me.tbAddSet.Controls.Add(Me.txtSetCode)
+        Me.tbAddSet.Controls.Add(Me.LabelControl21)
+        Me.tbAddSet.Controls.Add(Me.LabelControl20)
+        Me.tbAddSet.Controls.Add(Me.LabelControl19)
+        Me.tbAddSet.Controls.Add(Me.LabelControl18)
+        Me.tbAddSet.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.tbAddSet.Name = "tbAddSet"
+        Me.tbAddSet.Size = New System.Drawing.Size(1364, 654)
         '
-        'Column8
+        'gbItemData
         '
-        Me.Column8.HeaderText = "مصنعية البيع"
-        Me.Column8.Name = "Column8"
-        Me.Column8.ReadOnly = True
+        Me.gbItemData.Controls.Add(Me.pbAddSetItem)
+        Me.gbItemData.Controls.Add(Me.dgvSetItem)
+        Me.gbItemData.Location = New System.Drawing.Point(3, 144)
+        Me.gbItemData.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.gbItemData.Name = "gbItemData"
+        Me.gbItemData.Size = New System.Drawing.Size(1157, 131)
+        Me.gbItemData.TabIndex = 122
+        Me.gbItemData.Text = "بيانات القطع المضافة بالطقم"
         '
-        'DataGridViewTextBoxColumn5
+        'pbAddSetItem
         '
-        Me.DataGridViewTextBoxColumn5.HeaderText = "تكلفة الشراء"
-        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
-        Me.DataGridViewTextBoxColumn5.ReadOnly = True
+        Me.pbAddSetItem.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pbAddSetItem.Cursor = System.Windows.Forms.Cursors.Default
+        Me.pbAddSetItem.EditValue = CType(resources.GetObject("pbAddSetItem.EditValue"), Object)
+        Me.pbAddSetItem.Location = New System.Drawing.Point(981, 0)
+        Me.pbAddSetItem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.pbAddSetItem.Name = "pbAddSetItem"
+        Me.pbAddSetItem.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
+        Me.pbAddSetItem.Properties.Appearance.ForeColor = System.Drawing.Color.White
+        Me.pbAddSetItem.Properties.Appearance.Options.UseBackColor = True
+        Me.pbAddSetItem.Properties.Appearance.Options.UseForeColor = True
+        Me.pbAddSetItem.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.pbAddSetItem.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.pbAddSetItem.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
+        Me.pbAddSetItem.Size = New System.Drawing.Size(20, 18)
+        ToolTipTitleItem2.Text = "إضافة حجر"
+        ToolTipItem2.LeftIndent = 6
+        ToolTipItem2.Text = "اضغط إضافة حجر للقطعة"
+        SuperToolTip2.Items.Add(ToolTipTitleItem2)
+        SuperToolTip2.Items.Add(ToolTipItem2)
+        Me.pbAddSetItem.SuperTip = SuperToolTip2
+        Me.pbAddSetItem.TabIndex = 102
+        Me.pbAddSetItem.ToolTip = "إضافة قطعة للطقم"
         '
-        'Column6
+        'dgvSetItem
         '
-        Me.Column6.HeaderText = "سعر الجرام"
-        Me.Column6.Name = "Column6"
-        Me.Column6.ReadOnly = True
+        Me.dgvSetItem.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.dgvSetItem.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.dgvSetItem.Location = New System.Drawing.Point(2, 23)
+        Me.dgvSetItem.MainView = Me.DgvStone
+        Me.dgvSetItem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.dgvSetItem.Name = "dgvSetItem"
+        Me.dgvSetItem.Size = New System.Drawing.Size(1153, 106)
+        Me.dgvSetItem.TabIndex = 103
+        Me.dgvSetItem.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.DgvStone})
         '
-        'Column17
+        'DgvStone
         '
-        Me.Column17.HeaderText = "بلد المنشأ"
-        Me.Column17.Name = "Column17"
-        Me.Column17.ReadOnly = True
+        Me.DgvStone.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colSetItemCode, Me.colSetItemBarCode, Me.colSetItemName, Me.colSetItemKarat, Me.colSetItemGoldWeight, Me.colSetItemMakingCharge, Me.colSetItemPurchaseCost, Me.colSetItemGramPrice, Me.colSetItemCountryOfOrigin, Me.colSetItemNoOfPieces, Me.colSetItemSymbol, Me.colSetItemItemNo, Me.colSetItemSupplier})
+        Me.DgvStone.DetailHeight = 268
+        Me.DgvStone.GridControl = Me.dgvSetItem
+        Me.DgvStone.Name = "DgvStone"
+        Me.DgvStone.OptionsView.ShowGroupPanel = False
         '
-        'Column7
+        'colSetItemCode
         '
-        Me.Column7.HeaderText = "عدد القطع"
-        Me.Column7.Name = "Column7"
-        Me.Column7.ReadOnly = True
+        Me.colSetItemCode.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemCode.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemCode.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemCode.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemCode.Caption = "الكود"
+        Me.colSetItemCode.MinWidth = 17
+        Me.colSetItemCode.Name = "colSetItemCode"
+        Me.colSetItemCode.Width = 64
         '
-        'Column13
+        'colSetItemBarCode
         '
-        Me.Column13.HeaderText = "الرمز"
-        Me.Column13.Name = "Column13"
-        Me.Column13.ReadOnly = True
+        Me.colSetItemBarCode.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemBarCode.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemBarCode.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemBarCode.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemBarCode.Caption = "الباركود"
+        Me.colSetItemBarCode.MinWidth = 17
+        Me.colSetItemBarCode.Name = "colSetItemBarCode"
+        Me.colSetItemBarCode.Visible = True
+        Me.colSetItemBarCode.VisibleIndex = 0
+        Me.colSetItemBarCode.Width = 64
         '
-        'Column14
+        'colSetItemName
         '
-        Me.Column14.HeaderText = "رقم القطعة"
-        Me.Column14.Name = "Column14"
-        Me.Column14.ReadOnly = True
+        Me.colSetItemName.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemName.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemName.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemName.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemName.Caption = "الاسم"
+        Me.colSetItemName.MinWidth = 17
+        Me.colSetItemName.Name = "colSetItemName"
+        Me.colSetItemName.Visible = True
+        Me.colSetItemName.VisibleIndex = 1
+        Me.colSetItemName.Width = 64
         '
-        'Column15
+        'colSetItemKarat
         '
-        Me.Column15.HeaderText = "المورد"
-        Me.Column15.Name = "Column15"
-        Me.Column15.ReadOnly = True
+        Me.colSetItemKarat.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemKarat.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemKarat.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemKarat.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemKarat.Caption = "العيار"
+        Me.colSetItemKarat.MinWidth = 17
+        Me.colSetItemKarat.Name = "colSetItemKarat"
+        Me.colSetItemKarat.Visible = True
+        Me.colSetItemKarat.VisibleIndex = 2
+        Me.colSetItemKarat.Width = 64
         '
-        'Column11
+        'colSetItemGoldWeight
         '
-        Me.Column11.HeaderText = "File"
-        Me.Column11.Name = "Column11"
-        Me.Column11.ReadOnly = True
-        Me.Column11.Visible = False
+        Me.colSetItemGoldWeight.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemGoldWeight.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemGoldWeight.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemGoldWeight.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemGoldWeight.Caption = "وزن الذهب"
+        Me.colSetItemGoldWeight.MinWidth = 17
+        Me.colSetItemGoldWeight.Name = "colSetItemGoldWeight"
+        Me.colSetItemGoldWeight.Visible = True
+        Me.colSetItemGoldWeight.VisibleIndex = 3
+        Me.colSetItemGoldWeight.Width = 64
         '
-        'PictureEdit15
+        'colSetItemMakingCharge
         '
-        Me.PictureEdit15.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureEdit15.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit15.EditValue = CType(resources.GetObject("PictureEdit15.EditValue"), Object)
-        Me.PictureEdit15.Location = New System.Drawing.Point(483, 13)
-        Me.PictureEdit15.Name = "PictureEdit15"
-        Me.PictureEdit15.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.PictureEdit15.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
-        Me.PictureEdit15.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
-        Me.PictureEdit15.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
-        Me.PictureEdit15.Properties.Appearance.Options.UseBackColor = True
-        Me.PictureEdit15.Properties.Appearance.Options.UseBorderColor = True
-        Me.PictureEdit15.Properties.Appearance.Options.UseForeColor = True
-        Me.PictureEdit15.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.PictureEdit15.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit15.Size = New System.Drawing.Size(49, 47)
-        Me.PictureEdit15.TabIndex = 58
+        Me.colSetItemMakingCharge.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemMakingCharge.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemMakingCharge.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemMakingCharge.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemMakingCharge.Caption = "مصنعية البيع"
+        Me.colSetItemMakingCharge.MinWidth = 17
+        Me.colSetItemMakingCharge.Name = "colSetItemMakingCharge"
+        Me.colSetItemMakingCharge.Visible = True
+        Me.colSetItemMakingCharge.VisibleIndex = 4
+        Me.colSetItemMakingCharge.Width = 64
         '
-        'Guna2Button14
+        'colSetItemPurchaseCost
         '
-        Me.Guna2Button14.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Button14.BorderRadius = 10
-        Me.Guna2Button14.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button14.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button14.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button14.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2Button14.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button14.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button14.Location = New System.Drawing.Point(473, 3)
-        Me.Guna2Button14.Name = "Guna2Button14"
-        Me.Guna2Button14.Size = New System.Drawing.Size(174, 67)
-        Me.Guna2Button14.TabIndex = 57
-        Me.Guna2Button14.Text = "حفظ"
-        Me.Guna2Button14.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.colSetItemPurchaseCost.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemPurchaseCost.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemPurchaseCost.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemPurchaseCost.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemPurchaseCost.Caption = "تكلفة الشراء"
+        Me.colSetItemPurchaseCost.MinWidth = 17
+        Me.colSetItemPurchaseCost.Name = "colSetItemPurchaseCost"
+        Me.colSetItemPurchaseCost.Visible = True
+        Me.colSetItemPurchaseCost.VisibleIndex = 5
+        Me.colSetItemPurchaseCost.Width = 64
         '
-        'Guna2Button12
+        'colSetItemGramPrice
         '
-        Me.Guna2Button12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Button12.BorderRadius = 10
-        Me.Guna2Button12.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button12.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button12.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2Button12.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button12.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button12.Location = New System.Drawing.Point(289, 3)
-        Me.Guna2Button12.Name = "Guna2Button12"
-        Me.Guna2Button12.Size = New System.Drawing.Size(174, 67)
-        Me.Guna2Button12.TabIndex = 57
-        Me.Guna2Button12.Text = "اختيار ملف إكسل"
-        Me.Guna2Button12.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.colSetItemGramPrice.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemGramPrice.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemGramPrice.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemGramPrice.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemGramPrice.Caption = "سعر الجرام"
+        Me.colSetItemGramPrice.MinWidth = 17
+        Me.colSetItemGramPrice.Name = "colSetItemGramPrice"
+        Me.colSetItemGramPrice.Visible = True
+        Me.colSetItemGramPrice.VisibleIndex = 6
+        Me.colSetItemGramPrice.Width = 64
         '
-        'DgvAddItems
+        'colSetItemCountryOfOrigin
         '
-        Me.DgvAddItems.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.DgvAddItems.Location = New System.Drawing.Point(0, 94)
-        Me.DgvAddItems.MainView = Me.GridView3
-        Me.DgvAddItems.Name = "DgvAddItems"
-        Me.DgvAddItems.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.DgvAddItems.Size = New System.Drawing.Size(1332, 550)
-        Me.DgvAddItems.TabIndex = 56
-        Me.DgvAddItems.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView3})
+        Me.colSetItemCountryOfOrigin.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemCountryOfOrigin.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemCountryOfOrigin.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemCountryOfOrigin.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemCountryOfOrigin.Caption = "بلد المنشأ"
+        Me.colSetItemCountryOfOrigin.MinWidth = 17
+        Me.colSetItemCountryOfOrigin.Name = "colSetItemCountryOfOrigin"
+        Me.colSetItemCountryOfOrigin.Visible = True
+        Me.colSetItemCountryOfOrigin.VisibleIndex = 7
+        Me.colSetItemCountryOfOrigin.Width = 64
         '
-        'GridView3
+        'colSetItemNoOfPieces
         '
-        Me.GridView3.GridControl = Me.DgvAddItems
-        Me.GridView3.Name = "GridView3"
-        Me.GridView3.OptionsFind.SearchInPreview = True
+        Me.colSetItemNoOfPieces.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemNoOfPieces.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemNoOfPieces.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemNoOfPieces.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemNoOfPieces.Caption = "عدد القطع"
+        Me.colSetItemNoOfPieces.MinWidth = 17
+        Me.colSetItemNoOfPieces.Name = "colSetItemNoOfPieces"
+        Me.colSetItemNoOfPieces.Visible = True
+        Me.colSetItemNoOfPieces.VisibleIndex = 8
+        Me.colSetItemNoOfPieces.Width = 64
         '
-        'PictureEdit14
+        'colSetItemSymbol
         '
-        Me.PictureEdit14.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureEdit14.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit14.EditValue = CType(resources.GetObject("PictureEdit14.EditValue"), Object)
-        Me.PictureEdit14.Location = New System.Drawing.Point(289, 13)
-        Me.PictureEdit14.Name = "PictureEdit14"
-        Me.PictureEdit14.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.PictureEdit14.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
-        Me.PictureEdit14.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
-        Me.PictureEdit14.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PictureEdit14.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
-        Me.PictureEdit14.Properties.Appearance.Options.UseBackColor = True
-        Me.PictureEdit14.Properties.Appearance.Options.UseBorderColor = True
-        Me.PictureEdit14.Properties.Appearance.Options.UseFont = True
-        Me.PictureEdit14.Properties.Appearance.Options.UseForeColor = True
-        Me.PictureEdit14.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.PictureEdit14.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit14.Size = New System.Drawing.Size(46, 47)
-        Me.PictureEdit14.TabIndex = 58
+        Me.colSetItemSymbol.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemSymbol.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemSymbol.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemSymbol.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemSymbol.Caption = "الرمز"
+        Me.colSetItemSymbol.MinWidth = 17
+        Me.colSetItemSymbol.Name = "colSetItemSymbol"
+        Me.colSetItemSymbol.Visible = True
+        Me.colSetItemSymbol.VisibleIndex = 9
+        Me.colSetItemSymbol.Width = 64
+        '
+        'colSetItemItemNo
+        '
+        Me.colSetItemItemNo.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemItemNo.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemItemNo.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemItemNo.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemItemNo.Caption = "رقم القطعة"
+        Me.colSetItemItemNo.MinWidth = 17
+        Me.colSetItemItemNo.Name = "colSetItemItemNo"
+        Me.colSetItemItemNo.Visible = True
+        Me.colSetItemItemNo.VisibleIndex = 10
+        Me.colSetItemItemNo.Width = 64
+        '
+        'colSetItemSupplier
+        '
+        Me.colSetItemSupplier.AppearanceCell.Options.UseTextOptions = True
+        Me.colSetItemSupplier.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemSupplier.AppearanceHeader.Options.UseTextOptions = True
+        Me.colSetItemSupplier.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.colSetItemSupplier.Caption = "المورد"
+        Me.colSetItemSupplier.MinWidth = 17
+        Me.colSetItemSupplier.Name = "colSetItemSupplier"
+        Me.colSetItemSupplier.Visible = True
+        Me.colSetItemSupplier.VisibleIndex = 11
+        Me.colSetItemSupplier.Width = 64
+        '
+        'gbSetData
+        '
+        Me.gbSetData.Controls.Add(Me.txtNote)
+        Me.gbSetData.Controls.Add(Me.WindowsUIButtonPanel1)
+        Me.gbSetData.Controls.Add(Me.DateEdit1)
+        Me.gbSetData.Controls.Add(Me.dtpDateAdded)
+        Me.gbSetData.Controls.Add(Me.TextEdit3)
+        Me.gbSetData.Controls.Add(Me.TextEdit4)
+        Me.gbSetData.Controls.Add(Me.TextEdit12)
+        Me.gbSetData.Controls.Add(Me.TextEdit11)
+        Me.gbSetData.Controls.Add(Me.TextEdit9)
+        Me.gbSetData.Controls.Add(Me.TextEdit8)
+        Me.gbSetData.Controls.Add(Me.TextEdit7)
+        Me.gbSetData.Controls.Add(Me.TextEdit6)
+        Me.gbSetData.Controls.Add(Me.TextEdit10)
+        Me.gbSetData.Controls.Add(Me.TextEdit5)
+        Me.gbSetData.Controls.Add(Me.txtCostPerPiece)
+        Me.gbSetData.Controls.Add(Me.ComboBoxEdit3)
+        Me.gbSetData.Controls.Add(Me.ComboBoxEdit2)
+        Me.gbSetData.Controls.Add(Me.ComboBoxEdit1)
+        Me.gbSetData.Controls.Add(Me.cmbPhone)
+        Me.gbSetData.Controls.Add(Me.LabelControl8)
+        Me.gbSetData.Controls.Add(Me.LabelControl7)
+        Me.gbSetData.Controls.Add(Me.LabelControl15)
+        Me.gbSetData.Controls.Add(Me.LabelControl17)
+        Me.gbSetData.Controls.Add(Me.LabelControl14)
+        Me.gbSetData.Controls.Add(Me.LabelControl16)
+        Me.gbSetData.Controls.Add(Me.LabelControl13)
+        Me.gbSetData.Controls.Add(Me.LabelControl6)
+        Me.gbSetData.Controls.Add(Me.LabelControl5)
+        Me.gbSetData.Controls.Add(Me.LabelControl4)
+        Me.gbSetData.Controls.Add(Me.LabelControl11)
+        Me.gbSetData.Controls.Add(Me.LabelControl3)
+        Me.gbSetData.Controls.Add(Me.LabelControl2)
+        Me.gbSetData.Controls.Add(Me.LabelControl1)
+        Me.gbSetData.Controls.Add(Me.LabelControl12)
+        Me.gbSetData.Controls.Add(Me.LabelControl10)
+        Me.gbSetData.Controls.Add(Me.LabelControl9)
+        Me.gbSetData.Controls.Add(Me.lblCIDAr)
+        Me.gbSetData.Location = New System.Drawing.Point(0, 0)
+        Me.gbSetData.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.gbSetData.Name = "gbSetData"
+        Me.gbSetData.Size = New System.Drawing.Size(1157, 143)
+        Me.gbSetData.TabIndex = 121
+        Me.gbSetData.Text = "بيانات الطقم"
+        '
+        'txtNote
+        '
+        Me.txtNote.Location = New System.Drawing.Point(16, 66)
+        Me.txtNote.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtNote.Name = "txtNote"
+        Me.txtNote.Size = New System.Drawing.Size(333, 15)
+        Me.txtNote.TabIndex = 120
+        '
+        'WindowsUIButtonPanel1
+        '
+        Me.WindowsUIButtonPanel1.AllowGlyphSkinning = False
+        Me.WindowsUIButtonPanel1.BackColor = System.Drawing.Color.Transparent
+        WindowsUIButtonImageOptions7.SvgImage = CType(resources.GetObject("WindowsUIButtonImageOptions7.SvgImage"), DevExpress.Utils.Svg.SvgImage)
+        WindowsUIButtonImageOptions7.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.None
+        WindowsUIButtonImageOptions8.Image = CType(resources.GetObject("WindowsUIButtonImageOptions8.Image"), System.Drawing.Image)
+        WindowsUIButtonImageOptions9.Image = CType(resources.GetObject("WindowsUIButtonImageOptions9.Image"), System.Drawing.Image)
+        WindowsUIButtonImageOptions10.Image = CType(resources.GetObject("WindowsUIButtonImageOptions10.Image"), System.Drawing.Image)
+        Me.WindowsUIButtonPanel1.Buttons.AddRange(New DevExpress.XtraEditors.ButtonPanel.IBaseButton() {New DevExpress.XtraBars.Docking2010.WindowsUIButton("إغلاق", True, WindowsUIButtonImageOptions7, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("تعديل", True, WindowsUIButtonImageOptions8, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("حفظ", True, WindowsUIButtonImageOptions9, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("جديد", True, WindowsUIButtonImageOptions10, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False)})
+        Me.WindowsUIButtonPanel1.Location = New System.Drawing.Point(0, 87)
+        Me.WindowsUIButtonPanel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.WindowsUIButtonPanel1.Name = "WindowsUIButtonPanel1"
+        Me.WindowsUIButtonPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.WindowsUIButtonPanel1.Size = New System.Drawing.Size(1157, 54)
+        Me.WindowsUIButtonPanel1.TabIndex = 119
+        Me.WindowsUIButtonPanel1.Text = "WindowsUIButtonPanel1"
+        '
+        'DateEdit1
+        '
+        Me.DateEdit1.EditValue = Nothing
+        Me.DateEdit1.Location = New System.Drawing.Point(469, 66)
+        Me.DateEdit1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.DateEdit1.Name = "DateEdit1"
+        Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEdit1.Size = New System.Drawing.Size(106, 20)
+        Me.DateEdit1.TabIndex = 118
+        '
+        'dtpDateAdded
+        '
+        Me.dtpDateAdded.EditValue = Nothing
+        Me.dtpDateAdded.Location = New System.Drawing.Point(356, 66)
+        Me.dtpDateAdded.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.dtpDateAdded.Name = "dtpDateAdded"
+        Me.dtpDateAdded.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.dtpDateAdded.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.dtpDateAdded.Size = New System.Drawing.Size(106, 20)
+        Me.dtpDateAdded.TabIndex = 118
+        '
+        'TextEdit3
+        '
+        Me.TextEdit3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextEdit3.Location = New System.Drawing.Point(16, 35)
+        Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit3.Name = "TextEdit3"
+        Me.TextEdit3.Properties.ContextImageOptions.Image = CType(resources.GetObject("TextEdit3.Properties.ContextImageOptions.Image"), System.Drawing.Image)
+        Me.TextEdit3.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.TextEdit3.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit3.TabIndex = 116
+        '
+        'TextEdit4
+        '
+        Me.TextEdit4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextEdit4.Location = New System.Drawing.Point(129, 35)
+        Me.TextEdit4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit4.Name = "TextEdit4"
+        Me.TextEdit4.Properties.ContextImageOptions.Image = CType(resources.GetObject("TextEdit4.Properties.ContextImageOptions.Image"), System.Drawing.Image)
+        Me.TextEdit4.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.TextEdit4.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit4.TabIndex = 117
+        '
+        'TextEdit12
+        '
+        Me.TextEdit12.Location = New System.Drawing.Point(582, 66)
+        Me.TextEdit12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit12.Name = "TextEdit12"
+        Me.TextEdit12.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit12.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit12.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit12.TabIndex = 115
+        '
+        'TextEdit11
+        '
+        Me.TextEdit11.Location = New System.Drawing.Point(695, 66)
+        Me.TextEdit11.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit11.Name = "TextEdit11"
+        Me.TextEdit11.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit11.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit11.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit11.TabIndex = 115
+        '
+        'TextEdit9
+        '
+        Me.TextEdit9.Location = New System.Drawing.Point(356, 35)
+        Me.TextEdit9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit9.Name = "TextEdit9"
+        Me.TextEdit9.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit9.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit9.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit9.TabIndex = 115
+        '
+        'TextEdit8
+        '
+        Me.TextEdit8.Location = New System.Drawing.Point(469, 35)
+        Me.TextEdit8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit8.Name = "TextEdit8"
+        Me.TextEdit8.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit8.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit8.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit8.TabIndex = 115
+        '
+        'TextEdit7
+        '
+        Me.TextEdit7.Location = New System.Drawing.Point(582, 35)
+        Me.TextEdit7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit7.Name = "TextEdit7"
+        Me.TextEdit7.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit7.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit7.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit7.TabIndex = 115
+        '
+        'TextEdit6
+        '
+        Me.TextEdit6.Location = New System.Drawing.Point(695, 35)
+        Me.TextEdit6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit6.Name = "TextEdit6"
+        Me.TextEdit6.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit6.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit6.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit6.TabIndex = 115
+        '
+        'TextEdit10
+        '
+        Me.TextEdit10.Location = New System.Drawing.Point(243, 35)
+        Me.TextEdit10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit10.Name = "TextEdit10"
+        Me.TextEdit10.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit10.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit10.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit10.TabIndex = 115
+        '
+        'TextEdit5
+        '
+        Me.TextEdit5.Location = New System.Drawing.Point(808, 35)
+        Me.TextEdit5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit5.Name = "TextEdit5"
+        Me.TextEdit5.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit5.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit5.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit5.TabIndex = 115
+        '
+        'txtCostPerPiece
+        '
+        Me.txtCostPerPiece.Location = New System.Drawing.Point(921, 35)
+        Me.txtCostPerPiece.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtCostPerPiece.Name = "txtCostPerPiece"
+        Me.txtCostPerPiece.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtCostPerPiece.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.txtCostPerPiece.Size = New System.Drawing.Size(106, 20)
+        Me.txtCostPerPiece.TabIndex = 115
+        '
+        'ComboBoxEdit3
+        '
+        Me.ComboBoxEdit3.Location = New System.Drawing.Point(808, 66)
+        Me.ComboBoxEdit3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
+        Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit3.Size = New System.Drawing.Size(106, 20)
+        Me.ComboBoxEdit3.TabIndex = 114
+        '
+        'ComboBoxEdit2
+        '
+        Me.ComboBoxEdit2.Location = New System.Drawing.Point(921, 66)
+        Me.ComboBoxEdit2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
+        Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit2.Size = New System.Drawing.Size(106, 20)
+        Me.ComboBoxEdit2.TabIndex = 114
+        '
+        'ComboBoxEdit1
+        '
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(1035, 66)
+        Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
+        Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(106, 20)
+        Me.ComboBoxEdit1.TabIndex = 114
+        '
+        'cmbPhone
+        '
+        Me.cmbPhone.Location = New System.Drawing.Point(1035, 35)
+        Me.cmbPhone.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.cmbPhone.Name = "cmbPhone"
+        Me.cmbPhone.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbPhone.Size = New System.Drawing.Size(106, 20)
+        Me.cmbPhone.TabIndex = 114
+        '
+        'LabelControl8
+        '
+        Me.LabelControl8.Appearance.Options.UseTextOptions = True
+        Me.LabelControl8.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl8.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl8.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl8.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl8.Location = New System.Drawing.Point(16, 20)
+        Me.LabelControl8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl8.Name = "LabelControl8"
+        Me.LabelControl8.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl8.TabIndex = 113
+        Me.LabelControl8.Text = "مستندات/شهادة للطقم"
+        '
+        'LabelControl7
+        '
+        Me.LabelControl7.Appearance.Options.UseTextOptions = True
+        Me.LabelControl7.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl7.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl7.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl7.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl7.Location = New System.Drawing.Point(129, 20)
+        Me.LabelControl7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl7.Name = "LabelControl7"
+        Me.LabelControl7.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl7.TabIndex = 113
+        Me.LabelControl7.Text = "صورة الطقم"
+        '
+        'LabelControl15
+        '
+        Me.LabelControl15.Appearance.Options.UseTextOptions = True
+        Me.LabelControl15.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl15.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl15.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl15.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl15.Location = New System.Drawing.Point(469, 50)
+        Me.LabelControl15.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl15.Name = "LabelControl15"
+        Me.LabelControl15.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl15.TabIndex = 113
+        Me.LabelControl15.Text = "تاريخ الصنع"
+        '
+        'LabelControl17
+        '
+        Me.LabelControl17.Appearance.Options.UseTextOptions = True
+        Me.LabelControl17.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl17.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl17.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl17.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl17.Location = New System.Drawing.Point(16, 50)
+        Me.LabelControl17.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl17.Name = "LabelControl17"
+        Me.LabelControl17.Size = New System.Drawing.Size(333, 15)
+        Me.LabelControl17.TabIndex = 113
+        Me.LabelControl17.Text = "ملاحظات"
+        '
+        'LabelControl14
+        '
+        Me.LabelControl14.Appearance.Options.UseTextOptions = True
+        Me.LabelControl14.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl14.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl14.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl14.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl14.Location = New System.Drawing.Point(356, 50)
+        Me.LabelControl14.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl14.Name = "LabelControl14"
+        Me.LabelControl14.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl14.TabIndex = 113
+        Me.LabelControl14.Text = "تاريخ الإدخال"
+        '
+        'LabelControl16
+        '
+        Me.LabelControl16.Appearance.Options.UseTextOptions = True
+        Me.LabelControl16.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl16.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl16.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl16.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl16.Location = New System.Drawing.Point(582, 50)
+        Me.LabelControl16.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl16.Name = "LabelControl16"
+        Me.LabelControl16.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl16.TabIndex = 113
+        Me.LabelControl16.Text = "وزن الفصوص"
+        '
+        'LabelControl13
+        '
+        Me.LabelControl13.Appearance.Options.UseTextOptions = True
+        Me.LabelControl13.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl13.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl13.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl13.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl13.Location = New System.Drawing.Point(695, 50)
+        Me.LabelControl13.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl13.Name = "LabelControl13"
+        Me.LabelControl13.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl13.TabIndex = 113
+        Me.LabelControl13.Text = "وزن الطقم"
+        '
+        'LabelControl6
+        '
+        Me.LabelControl6.Appearance.Options.UseTextOptions = True
+        Me.LabelControl6.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl6.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl6.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl6.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl6.Location = New System.Drawing.Point(356, 20)
+        Me.LabelControl6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl6.Name = "LabelControl6"
+        Me.LabelControl6.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl6.TabIndex = 113
+        Me.LabelControl6.Text = "رقم الطقم"
+        '
+        'LabelControl5
+        '
+        Me.LabelControl5.Appearance.Options.UseTextOptions = True
+        Me.LabelControl5.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl5.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl5.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl5.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl5.Location = New System.Drawing.Point(469, 20)
+        Me.LabelControl5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl5.Name = "LabelControl5"
+        Me.LabelControl5.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl5.TabIndex = 113
+        Me.LabelControl5.Text = "سعر شراء الطقم"
+        '
+        'LabelControl4
+        '
+        Me.LabelControl4.Appearance.Options.UseTextOptions = True
+        Me.LabelControl4.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl4.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl4.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl4.Location = New System.Drawing.Point(582, 20)
+        Me.LabelControl4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl4.Name = "LabelControl4"
+        Me.LabelControl4.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl4.TabIndex = 113
+        Me.LabelControl4.Text = "تكلفة للبائع"
+        '
+        'LabelControl11
+        '
+        Me.LabelControl11.Appearance.Options.UseTextOptions = True
+        Me.LabelControl11.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl11.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl11.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl11.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl11.Location = New System.Drawing.Point(243, 20)
+        Me.LabelControl11.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl11.Name = "LabelControl11"
+        Me.LabelControl11.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl11.TabIndex = 113
+        Me.LabelControl11.Text = "عدد قطع الطقم"
+        '
+        'LabelControl3
+        '
+        Me.LabelControl3.Appearance.Options.UseTextOptions = True
+        Me.LabelControl3.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl3.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl3.Location = New System.Drawing.Point(695, 20)
+        Me.LabelControl3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl3.Name = "LabelControl3"
+        Me.LabelControl3.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl3.TabIndex = 113
+        Me.LabelControl3.Text = "رمز الطقم"
+        '
+        'LabelControl2
+        '
+        Me.LabelControl2.Appearance.Options.UseTextOptions = True
+        Me.LabelControl2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl2.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl2.Location = New System.Drawing.Point(808, 20)
+        Me.LabelControl2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl2.Name = "LabelControl2"
+        Me.LabelControl2.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl2.TabIndex = 113
+        Me.LabelControl2.Text = "مصنعية الطقم"
+        '
+        'LabelControl1
+        '
+        Me.LabelControl1.Appearance.Options.UseTextOptions = True
+        Me.LabelControl1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl1.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl1.Location = New System.Drawing.Point(921, 20)
+        Me.LabelControl1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl1.Name = "LabelControl1"
+        Me.LabelControl1.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl1.TabIndex = 113
+        Me.LabelControl1.Text = "باركود الطقم"
+        '
+        'LabelControl12
+        '
+        Me.LabelControl12.Appearance.Options.UseTextOptions = True
+        Me.LabelControl12.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl12.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl12.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl12.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl12.Location = New System.Drawing.Point(808, 50)
+        Me.LabelControl12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl12.Name = "LabelControl12"
+        Me.LabelControl12.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl12.TabIndex = 113
+        Me.LabelControl12.Text = "حالة القطعة"
+        '
+        'LabelControl10
+        '
+        Me.LabelControl10.Appearance.Options.UseTextOptions = True
+        Me.LabelControl10.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl10.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl10.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl10.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl10.Location = New System.Drawing.Point(921, 50)
+        Me.LabelControl10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl10.Name = "LabelControl10"
+        Me.LabelControl10.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl10.TabIndex = 113
+        Me.LabelControl10.Text = "المورد"
+        '
+        'LabelControl9
+        '
+        Me.LabelControl9.Appearance.Options.UseTextOptions = True
+        Me.LabelControl9.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl9.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl9.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl9.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl9.Location = New System.Drawing.Point(1035, 50)
+        Me.LabelControl9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl9.Name = "LabelControl9"
+        Me.LabelControl9.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl9.TabIndex = 113
+        Me.LabelControl9.Text = "بلد المنشأ"
+        '
+        'lblCIDAr
+        '
+        Me.lblCIDAr.Appearance.Options.UseTextOptions = True
+        Me.lblCIDAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.lblCIDAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.lblCIDAr.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.lblCIDAr.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.lblCIDAr.Location = New System.Drawing.Point(1035, 20)
+        Me.lblCIDAr.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.lblCIDAr.Name = "lblCIDAr"
+        Me.lblCIDAr.Size = New System.Drawing.Size(106, 15)
+        Me.lblCIDAr.TabIndex = 113
+        Me.lblCIDAr.Text = "اسم الطقم"
+        '
+        'GridControl2
+        '
+        Me.GridControl2.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.GridControl2.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GridControl2.Location = New System.Drawing.Point(0, 444)
+        Me.GridControl2.MainView = Me.GridView4
+        Me.GridControl2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GridControl2.Name = "GridControl2"
+        Me.GridControl2.Size = New System.Drawing.Size(1364, 210)
+        Me.GridControl2.TabIndex = 120
+        Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView4})
+        '
+        'GridView4
+        '
+        Me.GridView4.DetailHeight = 268
+        Me.GridView4.GridControl = Me.GridControl2
+        Me.GridView4.Name = "GridView4"
+        '
+        'txtSetCode
+        '
+        Me.txtSetCode.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtSetCode.Location = New System.Drawing.Point(217, 274)
+        Me.txtSetCode.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txtSetCode.Name = "txtSetCode"
+        Me.txtSetCode.ReadOnly = True
+        Me.txtSetCode.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.txtSetCode.Size = New System.Drawing.Size(35, 20)
+        Me.txtSetCode.TabIndex = 37
+        Me.txtSetCode.Visible = False
+        '
+        'LabelControl21
+        '
+        Me.LabelControl21.Appearance.Options.UseTextOptions = True
+        Me.LabelControl21.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl21.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl21.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl21.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.LabelControl21.Location = New System.Drawing.Point(109, 279)
+        Me.LabelControl21.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl21.Name = "LabelControl21"
+        Me.LabelControl21.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl21.TabIndex = 113
+        Me.LabelControl21.Text = "0"
+        '
+        'LabelControl20
+        '
+        Me.LabelControl20.Appearance.Options.UseTextOptions = True
+        Me.LabelControl20.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl20.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl20.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl20.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.LabelControl20.Location = New System.Drawing.Point(209, 279)
+        Me.LabelControl20.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl20.Name = "LabelControl20"
+        Me.LabelControl20.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl20.TabIndex = 113
+        Me.LabelControl20.Text = "عدد القطع المدخلة"
+        '
+        'LabelControl19
+        '
+        Me.LabelControl19.Appearance.Options.UseTextOptions = True
+        Me.LabelControl19.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl19.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl19.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl19.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.LabelControl19.Location = New System.Drawing.Point(321, 279)
+        Me.LabelControl19.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl19.Name = "LabelControl19"
+        Me.LabelControl19.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl19.TabIndex = 113
+        Me.LabelControl19.Text = "0"
+        '
+        'LabelControl18
+        '
+        Me.LabelControl18.Appearance.Options.UseTextOptions = True
+        Me.LabelControl18.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl18.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl18.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl18.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
+        Me.LabelControl18.Location = New System.Drawing.Point(432, 279)
+        Me.LabelControl18.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl18.Name = "LabelControl18"
+        Me.LabelControl18.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl18.TabIndex = 113
+        Me.LabelControl18.Text = "وزن الطقم"
+        '
+        'tbQuery
+        '
+        Me.tbQuery.Appearance.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.tbQuery.Appearance.Options.UseBackColor = True
+        Me.tbQuery.Caption = "استعلام"
+        Me.tbQuery.Controls.Add(Me.TextEdit1)
+        Me.tbQuery.Controls.Add(Me.ComboBoxEdit4)
+        Me.tbQuery.Controls.Add(Me.DateEdit3)
+        Me.tbQuery.Controls.Add(Me.DateEdit2)
+        Me.tbQuery.Controls.Add(Me.LabelControl25)
+        Me.tbQuery.Controls.Add(Me.LabelControl23)
+        Me.tbQuery.Controls.Add(Me.LabelControl24)
+        Me.tbQuery.Controls.Add(Me.LabelControl22)
+        Me.tbQuery.Controls.Add(Me.UcFavorite1)
+        Me.tbQuery.Controls.Add(Me.DGVSelectAll)
+        Me.tbQuery.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.tbQuery.Name = "tbQuery"
+        Me.tbQuery.Size = New System.Drawing.Size(1364, 654)
+        '
+        'TextEdit1
+        '
+        Me.TextEdit1.Location = New System.Drawing.Point(503, 31)
+        Me.TextEdit1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TextEdit1.Name = "TextEdit1"
+        Me.TextEdit1.Properties.Appearance.Options.UseTextOptions = True
+        Me.TextEdit1.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit1.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit1.TabIndex = 122
+        '
+        'ComboBoxEdit4
+        '
+        Me.ComboBoxEdit4.Location = New System.Drawing.Point(503, 8)
+        Me.ComboBoxEdit4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ComboBoxEdit4.Name = "ComboBoxEdit4"
+        Me.ComboBoxEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit4.Size = New System.Drawing.Size(106, 20)
+        Me.ComboBoxEdit4.TabIndex = 121
+        '
+        'DateEdit3
+        '
+        Me.DateEdit3.EditValue = Nothing
+        Me.DateEdit3.Location = New System.Drawing.Point(148, 28)
+        Me.DateEdit3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.DateEdit3.Name = "DateEdit3"
+        Me.DateEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEdit3.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEdit3.Size = New System.Drawing.Size(106, 20)
+        Me.DateEdit3.TabIndex = 120
+        '
+        'DateEdit2
+        '
+        Me.DateEdit2.EditValue = Nothing
+        Me.DateEdit2.Location = New System.Drawing.Point(148, 5)
+        Me.DateEdit2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.DateEdit2.Name = "DateEdit2"
+        Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEdit2.Size = New System.Drawing.Size(106, 20)
+        Me.DateEdit2.TabIndex = 120
+        '
+        'LabelControl25
+        '
+        Me.LabelControl25.Appearance.Options.UseTextOptions = True
+        Me.LabelControl25.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl25.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl25.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl25.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl25.Location = New System.Drawing.Point(615, 34)
+        Me.LabelControl25.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl25.Name = "LabelControl25"
+        Me.LabelControl25.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl25.TabIndex = 119
+        Me.LabelControl25.Text = "قيمة معيار البحث"
+        '
+        'LabelControl23
+        '
+        Me.LabelControl23.Appearance.Options.UseTextOptions = True
+        Me.LabelControl23.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl23.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl23.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl23.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl23.Location = New System.Drawing.Point(243, 29)
+        Me.LabelControl23.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl23.Name = "LabelControl23"
+        Me.LabelControl23.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl23.TabIndex = 119
+        Me.LabelControl23.Text = "إلى تاريخ"
+        '
+        'LabelControl24
+        '
+        Me.LabelControl24.Appearance.Options.UseTextOptions = True
+        Me.LabelControl24.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl24.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl24.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl24.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl24.Location = New System.Drawing.Point(615, 9)
+        Me.LabelControl24.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl24.Name = "LabelControl24"
+        Me.LabelControl24.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl24.TabIndex = 119
+        Me.LabelControl24.Text = "معيار البحث"
+        '
+        'LabelControl22
+        '
+        Me.LabelControl22.Appearance.Options.UseTextOptions = True
+        Me.LabelControl22.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LabelControl22.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
+        Me.LabelControl22.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl22.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.LabelControl22.Location = New System.Drawing.Point(243, 5)
+        Me.LabelControl22.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.LabelControl22.Name = "LabelControl22"
+        Me.LabelControl22.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl22.TabIndex = 119
+        Me.LabelControl22.Text = "من تاريخ"
+        '
+        'UcFavorite1
+        '
+        Me.UcFavorite1.BackColor = System.Drawing.Color.Transparent
+        Me.UcFavorite1.Location = New System.Drawing.Point(0, 0)
+        Me.UcFavorite1.Name = "UcFavorite1"
+        Me.UcFavorite1.Size = New System.Drawing.Size(34, 31)
+        Me.UcFavorite1.TabIndex = 6
         '
         'DGVSelectAll
         '
-        Me.DGVSelectAll.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.DGVSelectAll.Location = New System.Drawing.Point(0, 75)
+        Me.DGVSelectAll.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.DGVSelectAll.Location = New System.Drawing.Point(0, 73)
         Me.DGVSelectAll.MainView = Me.GridView1
+        Me.DGVSelectAll.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DGVSelectAll.Name = "DGVSelectAll"
-        Me.DGVSelectAll.Size = New System.Drawing.Size(1332, 569)
+        Me.DGVSelectAll.Size = New System.Drawing.Size(941, 435)
         Me.DGVSelectAll.TabIndex = 0
         Me.DGVSelectAll.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
         'GridView1
         '
+        Me.GridView1.DetailHeight = 268
         Me.GridView1.GridControl = Me.DGVSelectAll
         Me.GridView1.Name = "GridView1"
         Me.GridView1.OptionsFind.AlwaysVisible = True
         '
-        'TextEdit1
+        'tbExcel
         '
-        Me.TextEdit1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextEdit1.Location = New System.Drawing.Point(6, 125)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextEdit1.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit1.Properties.ContextImageOptions.Image = CType(resources.GetObject("TextEdit1.Properties.ContextImageOptions.Image"), System.Drawing.Image)
-        Me.TextEdit1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.TextEdit1.Size = New System.Drawing.Size(165, 30)
-        Me.TextEdit1.TabIndex = 61
+        Me.tbExcel.Caption = "إضافة من إكسل"
+        Me.tbExcel.Controls.Add(Me.btnPanelExcel)
+        Me.tbExcel.Controls.Add(Me.UcFavorite2)
+        Me.tbExcel.Controls.Add(Me.DgvAddItems)
+        Me.tbExcel.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.tbExcel.Name = "tbExcel"
+        Me.tbExcel.Size = New System.Drawing.Size(1364, 654)
         '
-        'TextEdit2
+        'btnPanelExcel
         '
-        Me.TextEdit2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextEdit2.Location = New System.Drawing.Point(6, 68)
-        Me.TextEdit2.MenuManager = Me.BarManager1
-        Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextEdit2.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit2.Properties.ContextImageOptions.Image = CType(resources.GetObject("TextEdit2.Properties.ContextImageOptions.Image"), System.Drawing.Image)
-        Me.TextEdit2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.TextEdit2.Size = New System.Drawing.Size(165, 30)
-        Me.TextEdit2.TabIndex = 62
+        Me.btnPanelExcel.AllowGlyphSkinning = False
+        Me.btnPanelExcel.BackColor = System.Drawing.Color.Transparent
+        WindowsUIButtonImageOptions11.Image = CType(resources.GetObject("WindowsUIButtonImageOptions11.Image"), System.Drawing.Image)
+        WindowsUIButtonImageOptions12.Image = CType(resources.GetObject("WindowsUIButtonImageOptions12.Image"), System.Drawing.Image)
+        Me.btnPanelExcel.Buttons.AddRange(New DevExpress.XtraEditors.ButtonPanel.IBaseButton() {New DevExpress.XtraBars.Docking2010.WindowsUIButton("اختيار من إكسل", True, WindowsUIButtonImageOptions11, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("جديد", True, WindowsUIButtonImageOptions12, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False)})
+        Me.btnPanelExcel.Location = New System.Drawing.Point(65, 19)
+        Me.btnPanelExcel.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnPanelExcel.Name = "btnPanelExcel"
+        Me.btnPanelExcel.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.btnPanelExcel.Size = New System.Drawing.Size(298, 54)
+        Me.btnPanelExcel.TabIndex = 120
+        Me.btnPanelExcel.Text = "WindowsUIButtonPanel2"
+        '
+        'UcFavorite2
+        '
+        Me.UcFavorite2.BackColor = System.Drawing.Color.Transparent
+        Me.UcFavorite2.Location = New System.Drawing.Point(0, 0)
+        Me.UcFavorite2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.UcFavorite2.Name = "UcFavorite2"
+        Me.UcFavorite2.Size = New System.Drawing.Size(34, 31)
+        Me.UcFavorite2.TabIndex = 59
+        '
+        'DgvAddItems
+        '
+        Me.DgvAddItems.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.DgvAddItems.EmbeddedNavigator.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.DgvAddItems.Location = New System.Drawing.Point(0, 233)
+        Me.DgvAddItems.MainView = Me.GridView3
+        Me.DgvAddItems.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.DgvAddItems.Name = "DgvAddItems"
+        Me.DgvAddItems.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.DgvAddItems.Size = New System.Drawing.Size(1364, 421)
+        Me.DgvAddItems.TabIndex = 56
+        Me.DgvAddItems.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView3})
+        '
+        'GridView3
+        '
+        Me.GridView3.DetailHeight = 268
+        Me.GridView3.GridControl = Me.DgvAddItems
+        Me.GridView3.Name = "GridView3"
+        Me.GridView3.OptionsFind.SearchInPreview = True
+        '
+        'RadialMenu1
+        '
+        Me.RadialMenu1.AutoExpand = True
+        Me.RadialMenu1.CloseOnOuterMouseClick = False
+        Me.RadialMenu1.Glyph = CType(resources.GetObject("RadialMenu1.Glyph"), System.Drawing.Image)
+        Me.RadialMenu1.ItemAutoSize = DevExpress.XtraBars.Ribbon.RadialMenuItemAutoSize.Spring
+        Me.RadialMenu1.Manager = Me.BarManager1
+        Me.RadialMenu1.MenuColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.RadialMenu1.Name = "RadialMenu1"
+        Me.RadialMenu1.SubMenuHoverColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         '
         'BarManager1
         '
@@ -438,15 +1287,17 @@ Partial Class FrmGoldItem
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
         Me.barDockControlTop.Manager = Me.BarManager1
-        Me.barDockControlTop.Size = New System.Drawing.Size(1350, 0)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.barDockControlTop.Size = New System.Drawing.Size(1364, 0)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 699)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 688)
         Me.barDockControlBottom.Manager = Me.BarManager1
-        Me.barDockControlBottom.Size = New System.Drawing.Size(1350, 0)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(1364, 0)
         '
         'barDockControlLeft
         '
@@ -454,15 +1305,17 @@ Partial Class FrmGoldItem
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
         Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
         Me.barDockControlLeft.Manager = Me.BarManager1
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 699)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 688)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(1350, 0)
+        Me.barDockControlRight.Location = New System.Drawing.Point(1364, 0)
         Me.barDockControlRight.Manager = Me.BarManager1
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 699)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 688)
         '
         'BarLargeButtonItem1
         '
@@ -571,946 +1424,19 @@ Partial Class FrmGoldItem
         Me.BarButtonItem7.ItemInMenuAppearance.Normal.Options.UseBackColor = True
         Me.BarButtonItem7.Name = "BarButtonItem7"
         '
-        'Label21
-        '
-        Me.Label21.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label21.Location = New System.Drawing.Point(6, 100)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(165, 27)
-        Me.Label21.TabIndex = 59
-        Me.Label21.Text = "مستندات / شهادات للطقم"
-        Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label25
-        '
-        Me.Label25.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label25.Location = New System.Drawing.Point(6, 44)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(165, 24)
-        Me.Label25.TabIndex = 60
-        Me.Label25.Text = "صورة الطقم"
-        Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'ComNameBlock
-        '
-        Me.ComNameBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ComNameBlock.FormattingEnabled = True
-        Me.ComNameBlock.Location = New System.Drawing.Point(1161, 70)
-        Me.ComNameBlock.Name = "ComNameBlock"
-        Me.ComNameBlock.Size = New System.Drawing.Size(165, 27)
-        Me.ComNameBlock.TabIndex = 58
-        '
-        'Label33
-        '
-        Me.Label33.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label33.Location = New System.Drawing.Point(171, 44)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(165, 24)
-        Me.Label33.TabIndex = 54
-        Me.Label33.Text = "رقم الطقم"
-        Me.Label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label35
-        '
-        Me.Label35.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label35.Location = New System.Drawing.Point(666, 44)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(165, 24)
-        Me.Label35.TabIndex = 55
-        Me.Label35.Text = "رمز الطقم"
-        Me.Label35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TxtNumberBlock
-        '
-        Me.TxtNumberBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtNumberBlock.Location = New System.Drawing.Point(171, 70)
-        Me.TxtNumberBlock.Name = "TxtNumberBlock"
-        Me.TxtNumberBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtNumberBlock.Size = New System.Drawing.Size(165, 27)
-        Me.TxtNumberBlock.TabIndex = 56
-        '
-        'TxtRamzBlock
-        '
-        Me.TxtRamzBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtRamzBlock.Location = New System.Drawing.Point(666, 70)
-        Me.TxtRamzBlock.Name = "TxtRamzBlock"
-        Me.TxtRamzBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtRamzBlock.Size = New System.Drawing.Size(165, 27)
-        Me.TxtRamzBlock.TabIndex = 57
-        '
-        'ComSupplierBlock
-        '
-        Me.ComSupplierBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ComSupplierBlock.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComSupplierBlock.FormattingEnabled = True
-        Me.ComSupplierBlock.Location = New System.Drawing.Point(996, 127)
-        Me.ComSupplierBlock.Name = "ComSupplierBlock"
-        Me.ComSupplierBlock.Size = New System.Drawing.Size(165, 27)
-        Me.ComSupplierBlock.TabIndex = 52
-        '
-        'TxtCodeBlock
-        '
-        Me.TxtCodeBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtCodeBlock.Location = New System.Drawing.Point(196, 444)
-        Me.TxtCodeBlock.Name = "TxtCodeBlock"
-        Me.TxtCodeBlock.ReadOnly = True
-        Me.TxtCodeBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtCodeBlock.Size = New System.Drawing.Size(40, 27)
-        Me.TxtCodeBlock.TabIndex = 37
-        Me.TxtCodeBlock.Visible = False
-        '
-        'Label17
-        '
-        Me.Label17.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label17.Location = New System.Drawing.Point(996, 42)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(165, 24)
-        Me.Label17.TabIndex = 29
-        Me.Label17.Text = "باركود الطقم"
-        Me.Label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TxtBarCodeBlock
-        '
-        Me.TxtBarCodeBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtBarCodeBlock.Location = New System.Drawing.Point(996, 70)
-        Me.TxtBarCodeBlock.Name = "TxtBarCodeBlock"
-        Me.TxtBarCodeBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtBarCodeBlock.Size = New System.Drawing.Size(165, 27)
-        Me.TxtBarCodeBlock.TabIndex = 35
-        '
-        'Label18
-        '
-        Me.Label18.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label18.Location = New System.Drawing.Point(1161, 42)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(165, 24)
-        Me.Label18.TabIndex = 28
-        Me.Label18.Text = "اسم الطقم"
-        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label19
-        '
-        Me.Label19.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label19.Location = New System.Drawing.Point(831, 44)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(165, 24)
-        Me.Label19.TabIndex = 27
-        Me.Label19.Text = "مصنعية الطقم"
-        Me.Label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TxtMakingChargeBlock
-        '
-        Me.TxtMakingChargeBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtMakingChargeBlock.Location = New System.Drawing.Point(831, 70)
-        Me.TxtMakingChargeBlock.Name = "TxtMakingChargeBlock"
-        Me.TxtMakingChargeBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtMakingChargeBlock.Size = New System.Drawing.Size(165, 27)
-        Me.TxtMakingChargeBlock.TabIndex = 38
-        '
-        'Label20
-        '
-        Me.Label20.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label20.Location = New System.Drawing.Point(336, 44)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(165, 24)
-        Me.Label20.TabIndex = 25
-        Me.Label20.Text = "سعر شراء الطقم"
-        Me.Label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TxtTotalCostBlock
-        '
-        Me.TxtTotalCostBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtTotalCostBlock.Location = New System.Drawing.Point(336, 70)
-        Me.TxtTotalCostBlock.Name = "TxtTotalCostBlock"
-        Me.TxtTotalCostBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtTotalCostBlock.Size = New System.Drawing.Size(165, 27)
-        Me.TxtTotalCostBlock.TabIndex = 30
-        '
-        'Label22
-        '
-        Me.Label22.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label22.Location = New System.Drawing.Point(831, 100)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(165, 27)
-        Me.Label22.TabIndex = 23
-        Me.Label22.Text = "عدد قطع الطقم"
-        Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TxtNumberPiesesBlock
-        '
-        Me.TxtNumberPiesesBlock.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TxtNumberPiesesBlock.Location = New System.Drawing.Point(831, 127)
-        Me.TxtNumberPiesesBlock.Name = "TxtNumberPiesesBlock"
-        Me.TxtNumberPiesesBlock.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TxtNumberPiesesBlock.Size = New System.Drawing.Size(165, 27)
-        Me.TxtNumberPiesesBlock.TabIndex = 33
-        '
-        'Label24
-        '
-        Me.Label24.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label24.Location = New System.Drawing.Point(996, 100)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(165, 27)
-        Me.Label24.TabIndex = 21
-        Me.Label24.Text = "المورد"
-        Me.Label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label16
-        '
-        Me.Label16.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(303, 448)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(115, 19)
-        Me.Label16.TabIndex = 24
-        Me.Label16.Text = "عدد القطع المدخلة"
-        '
-        'Label27
-        '
-        Me.Label27.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label27.AutoSize = True
-        Me.Label27.Location = New System.Drawing.Point(439, 448)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(17, 19)
-        Me.Label27.TabIndex = 24
-        Me.Label27.Text = "0"
-        '
-        'Label23
-        '
-        Me.Label23.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(277, 448)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(17, 19)
-        Me.Label23.TabIndex = 24
-        Me.Label23.Text = "0"
-        '
-        'Label26
-        '
-        Me.Label26.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(465, 448)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(65, 19)
-        Me.Label26.TabIndex = 24
-        Me.Label26.Text = "وزن الطقم"
-        '
-        'Guna2Button7
-        '
-        Me.Guna2Button7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Button7.BorderRadius = 10
-        Me.Guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button7.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2Button7.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button7.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button7.Location = New System.Drawing.Point(6, 166)
-        Me.Guna2Button7.Name = "Guna2Button7"
-        Me.Guna2Button7.Size = New System.Drawing.Size(136, 45)
-        Me.Guna2Button7.TabIndex = 11
-        Me.Guna2Button7.Text = "Close - إغلاق"
-        Me.Guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
-        'Guna2Button8
-        '
-        Me.Guna2Button8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Button8.BorderRadius = 10
-        Me.Guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button8.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2Button8.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button8.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button8.Location = New System.Drawing.Point(178, 166)
-        Me.Guna2Button8.Name = "Guna2Button8"
-        Me.Guna2Button8.Size = New System.Drawing.Size(136, 45)
-        Me.Guna2Button8.TabIndex = 12
-        Me.Guna2Button8.Text = "Edit - تعديل"
-        Me.Guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
-        'Guna2Button9
-        '
-        Me.Guna2Button9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Button9.BorderRadius = 10
-        Me.Guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button9.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2Button9.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button9.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button9.Location = New System.Drawing.Point(350, 166)
-        Me.Guna2Button9.Name = "Guna2Button9"
-        Me.Guna2Button9.Size = New System.Drawing.Size(136, 45)
-        Me.Guna2Button9.TabIndex = 13
-        Me.Guna2Button9.Text = "Save - حفظ"
-        Me.Guna2Button9.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
-        'Guna2Button10
-        '
-        Me.Guna2Button10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2Button10.BorderRadius = 10
-        Me.Guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button10.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2Button10.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button10.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button10.Location = New System.Drawing.Point(522, 166)
-        Me.Guna2Button10.Name = "Guna2Button10"
-        Me.Guna2Button10.Size = New System.Drawing.Size(136, 45)
-        Me.Guna2Button10.TabIndex = 14
-        Me.Guna2Button10.Text = "New - جديد"
-        Me.Guna2Button10.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
-        'PictureEdit5
-        '
-        Me.PictureEdit5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureEdit5.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit5.EditValue = CType(resources.GetObject("PictureEdit5.EditValue"), Object)
-        Me.PictureEdit5.Location = New System.Drawing.Point(14, 174)
-        Me.PictureEdit5.Name = "PictureEdit5"
-        Me.PictureEdit5.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.PictureEdit5.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
-        Me.PictureEdit5.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
-        Me.PictureEdit5.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
-        Me.PictureEdit5.Properties.Appearance.Options.UseBackColor = True
-        Me.PictureEdit5.Properties.Appearance.Options.UseBorderColor = True
-        Me.PictureEdit5.Properties.Appearance.Options.UseForeColor = True
-        Me.PictureEdit5.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.PictureEdit5.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit5.Size = New System.Drawing.Size(28, 24)
-        Me.PictureEdit5.TabIndex = 17
-        '
-        'PictureEdit6
-        '
-        Me.PictureEdit6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureEdit6.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit6.EditValue = CType(resources.GetObject("PictureEdit6.EditValue"), Object)
-        Me.PictureEdit6.Location = New System.Drawing.Point(184, 176)
-        Me.PictureEdit6.Name = "PictureEdit6"
-        Me.PictureEdit6.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.PictureEdit6.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
-        Me.PictureEdit6.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
-        Me.PictureEdit6.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
-        Me.PictureEdit6.Properties.Appearance.Options.UseBackColor = True
-        Me.PictureEdit6.Properties.Appearance.Options.UseBorderColor = True
-        Me.PictureEdit6.Properties.Appearance.Options.UseForeColor = True
-        Me.PictureEdit6.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.PictureEdit6.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit6.Size = New System.Drawing.Size(28, 24)
-        Me.PictureEdit6.TabIndex = 18
-        '
-        'PictureEdit7
-        '
-        Me.PictureEdit7.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureEdit7.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit7.EditValue = CType(resources.GetObject("PictureEdit7.EditValue"), Object)
-        Me.PictureEdit7.Location = New System.Drawing.Point(356, 176)
-        Me.PictureEdit7.Name = "PictureEdit7"
-        Me.PictureEdit7.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.PictureEdit7.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
-        Me.PictureEdit7.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
-        Me.PictureEdit7.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
-        Me.PictureEdit7.Properties.Appearance.Options.UseBackColor = True
-        Me.PictureEdit7.Properties.Appearance.Options.UseBorderColor = True
-        Me.PictureEdit7.Properties.Appearance.Options.UseForeColor = True
-        Me.PictureEdit7.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.PictureEdit7.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit7.Size = New System.Drawing.Size(28, 24)
-        Me.PictureEdit7.TabIndex = 16
-        '
-        'PictureEdit8
-        '
-        Me.PictureEdit8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureEdit8.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit8.EditValue = CType(resources.GetObject("PictureEdit8.EditValue"), Object)
-        Me.PictureEdit8.Location = New System.Drawing.Point(527, 176)
-        Me.PictureEdit8.Name = "PictureEdit8"
-        Me.PictureEdit8.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.PictureEdit8.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
-        Me.PictureEdit8.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
-        Me.PictureEdit8.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
-        Me.PictureEdit8.Properties.Appearance.Options.UseBackColor = True
-        Me.PictureEdit8.Properties.Appearance.Options.UseBorderColor = True
-        Me.PictureEdit8.Properties.Appearance.Options.UseForeColor = True
-        Me.PictureEdit8.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.PictureEdit8.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit8.Size = New System.Drawing.Size(28, 24)
-        Me.PictureEdit8.TabIndex = 15
-        '
-        'RadialMenu1
-        '
-        Me.RadialMenu1.AutoExpand = True
-        Me.RadialMenu1.CloseOnOuterMouseClick = False
-        Me.RadialMenu1.Glyph = CType(resources.GetObject("RadialMenu1.Glyph"), System.Drawing.Image)
-        Me.RadialMenu1.ItemAutoSize = DevExpress.XtraBars.Ribbon.RadialMenuItemAutoSize.Spring
-        Me.RadialMenu1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.BarLargeButtonItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem1), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.BarLargeButtonItem2), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem3), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem4), New DevExpress.XtraBars.LinkPersistInfo(Me.BarSubItem1)})
-        Me.RadialMenu1.Manager = Me.BarManager1
-        Me.RadialMenu1.MenuColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.RadialMenu1.Name = "RadialMenu1"
-        Me.RadialMenu1.SubMenuHoverColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        '
-        'TabPane1
-        '
-        Me.TabPane1.Appearance.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPane1.Appearance.Options.UseFont = True
-        Me.TabPane1.AppearanceButton.Hovered.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.TabPane1.AppearanceButton.Hovered.Options.UseFont = True
-        Me.TabPane1.AppearanceButton.Normal.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.TabPane1.AppearanceButton.Normal.Options.UseFont = True
-        Me.TabPane1.AppearanceButton.Pressed.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Bold)
-        Me.TabPane1.AppearanceButton.Pressed.Options.UseFont = True
-        Me.TabPane1.Controls.Add(Me.tbAddItem)
-        Me.TabPane1.Controls.Add(Me.tbAddSet)
-        Me.TabPane1.Controls.Add(Me.tbQuery)
-        Me.TabPane1.Controls.Add(Me.tbExcel)
-        Me.TabPane1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TabPane1.Location = New System.Drawing.Point(0, 0)
-        Me.TabPane1.Name = "TabPane1"
-        Me.TabPane1.Pages.AddRange(New DevExpress.XtraBars.Navigation.NavigationPageBase() {Me.tbAddItem, Me.tbAddSet, Me.tbQuery, Me.tbExcel})
-        Me.TabPane1.RegularSize = New System.Drawing.Size(1350, 699)
-        Me.TabPane1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TabPane1.SelectedPage = Me.tbAddItem
-        Me.TabPane1.Size = New System.Drawing.Size(1350, 699)
-        Me.TabPane1.TabIndex = 17
-        Me.TabPane1.Text = "TabPane1"
-        '
-        'tbAddItem
-        '
-        Me.tbAddItem.Caption = "إضافة صنف فردي"
-        Me.tbAddItem.Controls.Add(Me.GridControl1)
-        Me.tbAddItem.Controls.Add(Me.AddGoldItem1)
-        Me.tbAddItem.Name = "tbAddItem"
-        Me.tbAddItem.Size = New System.Drawing.Size(1350, 665)
-        '
-        'GridControl1
-        '
-        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.GridControl1.Location = New System.Drawing.Point(0, 287)
-        Me.GridControl1.MainView = Me.GridView2
-        Me.GridControl1.MenuManager = Me.BarManager1
-        Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1350, 378)
-        Me.GridControl1.TabIndex = 1
-        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
-        '
-        'GridView2
-        '
-        Me.GridView2.GridControl = Me.GridControl1
-        Me.GridView2.Name = "GridView2"
-        '
-        'AddGoldItem1
-        '
-        Me.AddGoldItem1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.AddGoldItem1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AddGoldItem1.Location = New System.Drawing.Point(0, 0)
-        Me.AddGoldItem1.Name = "AddGoldItem1"
-        Me.AddGoldItem1.Size = New System.Drawing.Size(1350, 348)
-        Me.AddGoldItem1.TabIndex = 0
-        '
-        'tbAddSet
-        '
-        Me.tbAddSet.Caption = "إضافة طقم"
-        Me.tbAddSet.Controls.Add(Me.GridControl2)
-        Me.tbAddSet.Controls.Add(Me.Guna2GroupBox1)
-        Me.tbAddSet.Controls.Add(Me.gbItemData)
-        Me.tbAddSet.Controls.Add(Me.Label26)
-        Me.tbAddSet.Controls.Add(Me.Label23)
-        Me.tbAddSet.Controls.Add(Me.Label27)
-        Me.tbAddSet.Controls.Add(Me.Label16)
-        Me.tbAddSet.Controls.Add(Me.TxtCodeBlock)
-        Me.tbAddSet.Name = "tbAddSet"
-        Me.tbAddSet.Size = New System.Drawing.Size(1332, 644)
-        '
-        'GridControl2
-        '
-        Me.GridControl2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.GridControl2.Location = New System.Drawing.Point(0, 490)
-        Me.GridControl2.MainView = Me.GridView4
-        Me.GridControl2.MenuManager = Me.BarManager1
-        Me.GridControl2.Name = "GridControl2"
-        Me.GridControl2.Size = New System.Drawing.Size(1332, 154)
-        Me.GridControl2.TabIndex = 120
-        Me.GridControl2.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView4})
-        '
-        'GridView4
-        '
-        Me.GridView4.GridControl = Me.GridControl2
-        Me.GridView4.Name = "GridView4"
-        '
-        'Guna2GroupBox1
-        '
-        Me.Guna2GroupBox1.BackColor = System.Drawing.Color.White
-        Me.Guna2GroupBox1.BorderColor = System.Drawing.Color.DarkCyan
-        Me.Guna2GroupBox1.BorderRadius = 5
-        Me.Guna2GroupBox1.BorderThickness = 2
-        Me.Guna2GroupBox1.Controls.Add(Me.pbAddSetItem)
-        Me.Guna2GroupBox1.Controls.Add(Me.DgvAdderItem)
-        Me.Guna2GroupBox1.CustomBorderColor = System.Drawing.Color.DarkTurquoise
-        Me.Guna2GroupBox1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Guna2GroupBox1.ForeColor = System.Drawing.Color.Black
-        Me.Guna2GroupBox1.Location = New System.Drawing.Point(0, 221)
-        Me.Guna2GroupBox1.Name = "Guna2GroupBox1"
-        Me.Guna2GroupBox1.Size = New System.Drawing.Size(1332, 219)
-        Me.Guna2GroupBox1.TabIndex = 119
-        Me.Guna2GroupBox1.Text = "بيانات القطع المضافة بالطقم"
-        Me.Guna2GroupBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'pbAddSetItem
-        '
-        Me.pbAddSetItem.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.pbAddSetItem.Cursor = System.Windows.Forms.Cursors.Default
-        Me.pbAddSetItem.EditValue = CType(resources.GetObject("pbAddSetItem.EditValue"), Object)
-        Me.pbAddSetItem.Location = New System.Drawing.Point(1109, 4)
-        Me.pbAddSetItem.Name = "pbAddSetItem"
-        Me.pbAddSetItem.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
-        Me.pbAddSetItem.Properties.Appearance.ForeColor = System.Drawing.Color.White
-        Me.pbAddSetItem.Properties.Appearance.Options.UseBackColor = True
-        Me.pbAddSetItem.Properties.Appearance.Options.UseForeColor = True
-        Me.pbAddSetItem.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.pbAddSetItem.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.pbAddSetItem.Size = New System.Drawing.Size(40, 30)
-        ToolTipTitleItem1.Text = "إضافة حجر"
-        ToolTipItem1.LeftIndent = 6
-        ToolTipItem1.Text = "اضغط إضافة حجر للقطعة"
-        SuperToolTip1.Items.Add(ToolTipTitleItem1)
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        Me.pbAddSetItem.SuperTip = SuperToolTip1
-        Me.pbAddSetItem.TabIndex = 102
-        Me.pbAddSetItem.ToolTip = "إضافة قطعة للطقم"
-        '
-        'gbItemData
-        '
-        Me.gbItemData.BackColor = System.Drawing.Color.White
-        Me.gbItemData.BorderColor = System.Drawing.Color.DarkCyan
-        Me.gbItemData.BorderRadius = 5
-        Me.gbItemData.BorderThickness = 2
-        Me.gbItemData.Controls.Add(Me.Label3)
-        Me.gbItemData.Controls.Add(Me.txtStoneWeight)
-        Me.gbItemData.Controls.Add(Me.PictureEdit5)
-        Me.gbItemData.Controls.Add(Me.Label1)
-        Me.gbItemData.Controls.Add(Me.Guna2Button7)
-        Me.gbItemData.Controls.Add(Me.TextBox1)
-        Me.gbItemData.Controls.Add(Me.cmbCountryOfOrigin)
-        Me.gbItemData.Controls.Add(Me.lblCountryOfOrigin)
-        Me.gbItemData.Controls.Add(Me.Label2)
-        Me.gbItemData.Controls.Add(Me.PictureEdit6)
-        Me.gbItemData.Controls.Add(Me.TextEdit1)
-        Me.gbItemData.Controls.Add(Me.PictureEdit7)
-        Me.gbItemData.Controls.Add(Me.TextBox2)
-        Me.gbItemData.Controls.Add(Me.PictureEdit8)
-        Me.gbItemData.Controls.Add(Me.dtDateAdd)
-        Me.gbItemData.Controls.Add(Me.lblDateAdd)
-        Me.gbItemData.Controls.Add(Me.cmbItemStatus)
-        Me.gbItemData.Controls.Add(Me.lblItemStatus)
-        Me.gbItemData.Controls.Add(Me.Label21)
-        Me.gbItemData.Controls.Add(Me.dtDateOfManufacture)
-        Me.gbItemData.Controls.Add(Me.Guna2Button8)
-        Me.gbItemData.Controls.Add(Me.Label33)
-        Me.gbItemData.Controls.Add(Me.Guna2Button9)
-        Me.gbItemData.Controls.Add(Me.Label18)
-        Me.gbItemData.Controls.Add(Me.Guna2Button10)
-        Me.gbItemData.Controls.Add(Me.TextEdit2)
-        Me.gbItemData.Controls.Add(Me.txtCostForSeller)
-        Me.gbItemData.Controls.Add(Me.TxtNumberBlock)
-        Me.gbItemData.Controls.Add(Me.lblCostForSeller)
-        Me.gbItemData.Controls.Add(Me.Label24)
-        Me.gbItemData.Controls.Add(Me.ComSupplierBlock)
-        Me.gbItemData.Controls.Add(Me.lblDateOfManufacture)
-        Me.gbItemData.Controls.Add(Me.TxtNumberPiesesBlock)
-        Me.gbItemData.Controls.Add(Me.Label19)
-        Me.gbItemData.Controls.Add(Me.TxtMakingChargeBlock)
-        Me.gbItemData.Controls.Add(Me.Label22)
-        Me.gbItemData.Controls.Add(Me.Label25)
-        Me.gbItemData.Controls.Add(Me.TxtBarCodeBlock)
-        Me.gbItemData.Controls.Add(Me.TxtTotalCostBlock)
-        Me.gbItemData.Controls.Add(Me.Label17)
-        Me.gbItemData.Controls.Add(Me.Label20)
-        Me.gbItemData.Controls.Add(Me.TxtRamzBlock)
-        Me.gbItemData.Controls.Add(Me.Label35)
-        Me.gbItemData.Controls.Add(Me.ComNameBlock)
-        Me.gbItemData.CustomBorderColor = System.Drawing.Color.DarkTurquoise
-        Me.gbItemData.Dock = System.Windows.Forms.DockStyle.Top
-        Me.gbItemData.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.gbItemData.ForeColor = System.Drawing.Color.Black
-        Me.gbItemData.Location = New System.Drawing.Point(0, 0)
-        Me.gbItemData.Name = "gbItemData"
-        Me.gbItemData.Size = New System.Drawing.Size(1332, 219)
-        Me.gbItemData.TabIndex = 118
-        Me.gbItemData.Text = "بيانات الطقم"
-        Me.gbItemData.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'Label3
-        '
-        Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label3.Location = New System.Drawing.Point(1161, 158)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(165, 24)
-        Me.Label3.TabIndex = 120
-        Me.Label3.Text = "وزن الفصوص"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'txtStoneWeight
-        '
-        Me.txtStoneWeight.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtStoneWeight.Location = New System.Drawing.Point(1161, 184)
-        Me.txtStoneWeight.Name = "txtStoneWeight"
-        Me.txtStoneWeight.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.txtStoneWeight.Size = New System.Drawing.Size(165, 27)
-        Me.txtStoneWeight.TabIndex = 121
-        '
-        'Label1
-        '
-        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label1.Location = New System.Drawing.Point(171, 101)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(165, 24)
-        Me.Label1.TabIndex = 118
-        Me.Label1.Text = "وزن الطقم"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(171, 127)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TextBox1.Size = New System.Drawing.Size(165, 27)
-        Me.TextBox1.TabIndex = 119
-        '
-        'cmbCountryOfOrigin
-        '
-        Me.cmbCountryOfOrigin.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.cmbCountryOfOrigin.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbCountryOfOrigin.FormattingEnabled = True
-        Me.cmbCountryOfOrigin.Location = New System.Drawing.Point(1161, 127)
-        Me.cmbCountryOfOrigin.Margin = New System.Windows.Forms.Padding(4)
-        Me.cmbCountryOfOrigin.Name = "cmbCountryOfOrigin"
-        Me.cmbCountryOfOrigin.Size = New System.Drawing.Size(165, 27)
-        Me.cmbCountryOfOrigin.TabIndex = 117
-        '
-        'lblCountryOfOrigin
-        '
-        Me.lblCountryOfOrigin.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblCountryOfOrigin.BackColor = System.Drawing.Color.Transparent
-        Me.lblCountryOfOrigin.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCountryOfOrigin.ForeColor = System.Drawing.Color.Black
-        Me.lblCountryOfOrigin.Location = New System.Drawing.Point(1161, 100)
-        Me.lblCountryOfOrigin.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblCountryOfOrigin.Name = "lblCountryOfOrigin"
-        Me.lblCountryOfOrigin.Size = New System.Drawing.Size(165, 27)
-        Me.lblCountryOfOrigin.TabIndex = 116
-        Me.lblCountryOfOrigin.Text = "بلد المنشأ"
-        Me.lblCountryOfOrigin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label2
-        '
-        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(666, 160)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(495, 22)
-        Me.Label2.TabIndex = 114
-        Me.Label2.Text = "ملاحظات"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(666, 184)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TextBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox2.Size = New System.Drawing.Size(495, 27)
-        Me.TextBox2.TabIndex = 115
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'dtDateAdd
-        '
-        Me.dtDateAdd.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.dtDateAdd.CustomFormat = "dd/MM/yyyy"
-        Me.dtDateAdd.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dtDateAdd.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtDateAdd.Location = New System.Drawing.Point(336, 127)
-        Me.dtDateAdd.Name = "dtDateAdd"
-        Me.dtDateAdd.Size = New System.Drawing.Size(165, 27)
-        Me.dtDateAdd.TabIndex = 113
-        '
-        'lblDateAdd
-        '
-        Me.lblDateAdd.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblDateAdd.BackColor = System.Drawing.Color.Transparent
-        Me.lblDateAdd.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDateAdd.ForeColor = System.Drawing.Color.Black
-        Me.lblDateAdd.Location = New System.Drawing.Point(336, 100)
-        Me.lblDateAdd.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblDateAdd.Name = "lblDateAdd"
-        Me.lblDateAdd.Size = New System.Drawing.Size(165, 27)
-        Me.lblDateAdd.TabIndex = 112
-        Me.lblDateAdd.Text = "تاريخ الإدخال"
-        Me.lblDateAdd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'cmbItemStatus
-        '
-        Me.cmbItemStatus.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.cmbItemStatus.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbItemStatus.FormattingEnabled = True
-        Me.cmbItemStatus.Items.AddRange(New Object() {"جديد", "مستعمل"})
-        Me.cmbItemStatus.Location = New System.Drawing.Point(666, 127)
-        Me.cmbItemStatus.Margin = New System.Windows.Forms.Padding(4)
-        Me.cmbItemStatus.Name = "cmbItemStatus"
-        Me.cmbItemStatus.Size = New System.Drawing.Size(165, 27)
-        Me.cmbItemStatus.TabIndex = 111
-        '
-        'lblItemStatus
-        '
-        Me.lblItemStatus.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblItemStatus.BackColor = System.Drawing.Color.Transparent
-        Me.lblItemStatus.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblItemStatus.ForeColor = System.Drawing.Color.Black
-        Me.lblItemStatus.Location = New System.Drawing.Point(666, 100)
-        Me.lblItemStatus.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblItemStatus.Name = "lblItemStatus"
-        Me.lblItemStatus.Size = New System.Drawing.Size(165, 27)
-        Me.lblItemStatus.TabIndex = 110
-        Me.lblItemStatus.Text = "حالة القطعة"
-        Me.lblItemStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'dtDateOfManufacture
-        '
-        Me.dtDateOfManufacture.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.dtDateOfManufacture.CustomFormat = "dd/MM/yyyy"
-        Me.dtDateOfManufacture.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dtDateOfManufacture.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtDateOfManufacture.Location = New System.Drawing.Point(501, 127)
-        Me.dtDateOfManufacture.Name = "dtDateOfManufacture"
-        Me.dtDateOfManufacture.Size = New System.Drawing.Size(165, 27)
-        Me.dtDateOfManufacture.TabIndex = 107
-        '
-        'txtCostForSeller
-        '
-        Me.txtCostForSeller.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtCostForSeller.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtCostForSeller.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCostForSeller.Location = New System.Drawing.Point(501, 70)
-        Me.txtCostForSeller.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtCostForSeller.Name = "txtCostForSeller"
-        Me.txtCostForSeller.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtCostForSeller.Size = New System.Drawing.Size(165, 27)
-        Me.txtCostForSeller.TabIndex = 106
-        Me.txtCostForSeller.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'lblCostForSeller
-        '
-        Me.lblCostForSeller.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblCostForSeller.BackColor = System.Drawing.Color.Transparent
-        Me.lblCostForSeller.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCostForSeller.ForeColor = System.Drawing.Color.Black
-        Me.lblCostForSeller.Location = New System.Drawing.Point(501, 39)
-        Me.lblCostForSeller.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblCostForSeller.Name = "lblCostForSeller"
-        Me.lblCostForSeller.Size = New System.Drawing.Size(165, 27)
-        Me.lblCostForSeller.TabIndex = 105
-        Me.lblCostForSeller.Text = "تكلفة للبائع"
-        Me.lblCostForSeller.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'lblDateOfManufacture
-        '
-        Me.lblDateOfManufacture.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblDateOfManufacture.BackColor = System.Drawing.Color.Transparent
-        Me.lblDateOfManufacture.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblDateOfManufacture.ForeColor = System.Drawing.Color.Black
-        Me.lblDateOfManufacture.Location = New System.Drawing.Point(501, 100)
-        Me.lblDateOfManufacture.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblDateOfManufacture.Name = "lblDateOfManufacture"
-        Me.lblDateOfManufacture.Size = New System.Drawing.Size(165, 27)
-        Me.lblDateOfManufacture.TabIndex = 77
-        Me.lblDateOfManufacture.Text = "تاريخ الصنع"
-        Me.lblDateOfManufacture.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'tbQuery
-        '
-        Me.tbQuery.Appearance.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.tbQuery.Appearance.Options.UseBackColor = True
-        Me.tbQuery.Caption = "استعلام"
-        Me.tbQuery.Controls.Add(Me.UcFavorite1)
-        Me.tbQuery.Controls.Add(Me.ComboBox1)
-        Me.tbQuery.Controls.Add(Me.Guna2Button1)
-        Me.tbQuery.Controls.Add(Me.DateTimePicker2)
-        Me.tbQuery.Controls.Add(Me.DateTimePicker1)
-        Me.tbQuery.Controls.Add(Me.Label6)
-        Me.tbQuery.Controls.Add(Me.Label5)
-        Me.tbQuery.Controls.Add(Me.Label7)
-        Me.tbQuery.Controls.Add(Me.Label4)
-        Me.tbQuery.Controls.Add(Me.TextBox3)
-        Me.tbQuery.Controls.Add(Me.DGVSelectAll)
-        Me.tbQuery.Name = "tbQuery"
-        Me.tbQuery.Size = New System.Drawing.Size(1332, 644)
-        '
-        'UcFavorite1
-        '
-        Me.UcFavorite1.BackColor = System.Drawing.Color.Transparent
-        Me.UcFavorite1.Location = New System.Drawing.Point(0, 0)
-        Me.UcFavorite1.Margin = New System.Windows.Forms.Padding(4)
-        Me.UcFavorite1.Name = "UcFavorite1"
-        Me.UcFavorite1.Size = New System.Drawing.Size(40, 40)
-        Me.UcFavorite1.TabIndex = 6
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox1.Font = New System.Drawing.Font("Calibri", 14.25!)
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"باركود", "رقم القطعة", "رمز القطعة", "اسم الصنف"})
-        Me.ComboBox1.Location = New System.Drawing.Point(811, 7)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(156, 31)
-        Me.ComboBox1.TabIndex = 5
-        '
-        'Guna2Button1
-        '
-        Me.Guna2Button1.BorderRadius = 15
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
-        Me.Guna2Button1.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button1.Location = New System.Drawing.Point(1161, 7)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(163, 61)
-        Me.Guna2Button1.TabIndex = 4
-        Me.Guna2Button1.Text = "عرض الكل"
-        '
-        'DateTimePicker2
-        '
-        Me.DateTimePicker2.CustomFormat = "dd/MM/yyyy"
-        Me.DateTimePicker2.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker2.Location = New System.Drawing.Point(153, 38)
-        Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(129, 30)
-        Me.DateTimePicker2.TabIndex = 3
-        '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.CustomFormat = "dd/MM/yyyy"
-        Me.DateTimePicker1.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(153, 7)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(129, 30)
-        Me.DateTimePicker1.TabIndex = 3
-        '
-        'Label6
-        '
-        Me.Label6.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Label6.Location = New System.Drawing.Point(288, 41)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(88, 24)
-        Me.Label6.TabIndex = 2
-        Me.Label6.Text = "إلى تاريخ"
-        '
-        'Label5
-        '
-        Me.Label5.Font = New System.Drawing.Font("Calibri", 14.0!)
-        Me.Label5.Location = New System.Drawing.Point(288, 10)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(88, 24)
-        Me.Label5.TabIndex = 2
-        Me.Label5.Text = "من تاريخ"
-        '
-        'Label7
-        '
-        Me.Label7.Font = New System.Drawing.Font("Calibri", 14.25!)
-        Me.Label7.Location = New System.Drawing.Point(973, 41)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(128, 24)
-        Me.Label7.TabIndex = 2
-        Me.Label7.Text = "قيمة معيار البحث"
-        '
-        'Label4
-        '
-        Me.Label4.Font = New System.Drawing.Font("Calibri", 14.25!)
-        Me.Label4.Location = New System.Drawing.Point(973, 10)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(128, 24)
-        Me.Label4.TabIndex = 2
-        Me.Label4.Text = "معيار البحث"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Calibri", 14.25!)
-        Me.TextBox3.Location = New System.Drawing.Point(811, 38)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(156, 31)
-        Me.TextBox3.TabIndex = 1
-        '
-        'tbExcel
-        '
-        Me.tbExcel.Caption = "إضافة من إكسل"
-        Me.tbExcel.Controls.Add(Me.UcFavorite2)
-        Me.tbExcel.Controls.Add(Me.PictureEdit15)
-        Me.tbExcel.Controls.Add(Me.Guna2Button14)
-        Me.tbExcel.Controls.Add(Me.PictureEdit14)
-        Me.tbExcel.Controls.Add(Me.Guna2Button12)
-        Me.tbExcel.Controls.Add(Me.DgvAddItems)
-        Me.tbExcel.Name = "tbExcel"
-        Me.tbExcel.Size = New System.Drawing.Size(1332, 644)
-        '
-        'UcFavorite2
-        '
-        Me.UcFavorite2.BackColor = System.Drawing.Color.Transparent
-        Me.UcFavorite2.Location = New System.Drawing.Point(0, 0)
-        Me.UcFavorite2.Margin = New System.Windows.Forms.Padding(5, 6, 5, 6)
-        Me.UcFavorite2.Name = "UcFavorite2"
-        Me.UcFavorite2.Size = New System.Drawing.Size(40, 40)
-        Me.UcFavorite2.TabIndex = 59
-        '
-        'FrmGoldItem
-        '
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.AutoSize = True
-        Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1350, 699)
+        'frmGoldItem
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1364, 688)
         Me.Controls.Add(Me.TabPane1)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
         Me.Controls.Add(Me.barDockControlBottom)
         Me.Controls.Add(Me.barDockControlTop)
-        Me.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Name = "FrmGoldItem"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Add New Item - اضافة صنف جديد"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        CType(Me.DgvAdderItem, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureEdit15.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DgvAddItems, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GridView3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DGVSelectAll, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RadialMenu1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Name = "frmGoldItem"
+        Me.Text = "بيانات الأصناف"
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPane1.ResumeLayout(False)
         Me.tbAddItem.ResumeLayout(False)
@@ -1518,76 +1444,145 @@ Partial Class FrmGoldItem
         CType(Me.GridView2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tbAddSet.ResumeLayout(False)
         Me.tbAddSet.PerformLayout()
+        CType(Me.gbItemData, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.gbItemData.ResumeLayout(False)
+        CType(Me.pbAddSetItem.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvSetItem, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.gbSetData, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.gbSetData.ResumeLayout(False)
+        CType(Me.txtNote.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dtpDateAdded.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dtpDateAdded.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtCostPerPiece.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbPhone.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridControl2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Guna2GroupBox1.ResumeLayout(False)
-        CType(Me.pbAddSetItem.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.gbItemData.ResumeLayout(False)
-        Me.gbItemData.PerformLayout()
         Me.tbQuery.ResumeLayout(False)
-        Me.tbQuery.PerformLayout()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit3.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGVSelectAll, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tbExcel.ResumeLayout(False)
+        CType(Me.DgvAddItems, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RadialMenu1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents DgvAdderItem As DataGridView
-    Friend WithEvents Guna2Button7 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button8 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button9 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button10 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents TxtCodeBlock As TextBox
-    Friend WithEvents Label17 As Label
-    Friend WithEvents TxtBarCodeBlock As TextBox
-    Friend WithEvents Label18 As Label
-    Friend WithEvents Label20 As Label
-    Friend WithEvents TxtTotalCostBlock As TextBox
-    Friend WithEvents Label22 As Label
-    Friend WithEvents TxtNumberPiesesBlock As TextBox
-    Friend WithEvents Label24 As Label
-    Friend WithEvents Label26 As Label
-    Friend WithEvents ComSupplierBlock As ComboBox
-    Friend WithEvents Label33 As Label
-    Friend WithEvents Label35 As Label
-    Friend WithEvents TxtNumberBlock As TextBox
-    Friend WithEvents TxtRamzBlock As TextBox
-    Friend WithEvents ComNameBlock As ComboBox
-    Friend WithEvents OFD As OpenFileDialog
-    Friend WithEvents Label19 As Label
-    Friend WithEvents TxtMakingChargeBlock As TextBox
-    Friend WithEvents Label16 As Label
-    Friend WithEvents Label23 As Label
-    Friend WithEvents Label21 As Label
-    Friend WithEvents Label25 As Label
-    Friend WithEvents Label27 As Label
-    Friend WithEvents Column16 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
-    Friend WithEvents Column8 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn5 As DataGridViewTextBoxColumn
-    Friend WithEvents Column6 As DataGridViewTextBoxColumn
-    Friend WithEvents Column17 As DataGridViewTextBoxColumn
-    Friend WithEvents Column7 As DataGridViewTextBoxColumn
-    Friend WithEvents Column13 As DataGridViewTextBoxColumn
-    Friend WithEvents Column14 As DataGridViewTextBoxColumn
-    Friend WithEvents Column15 As DataGridViewTextBoxColumn
-    Friend WithEvents Column11 As DataGridViewTextBoxColumn
-    Friend WithEvents Guna2Button12 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button14 As Guna.UI2.WinForms.Guna2Button
+
+    Friend WithEvents TabPane1 As DevExpress.XtraBars.Navigation.TabPane
+    Friend WithEvents tbAddItem As DevExpress.XtraBars.Navigation.TabNavigationPage
+    Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
+    Friend WithEvents GridView2 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents AddGoldItem As UCGoldAddItem
+    Friend WithEvents tbAddSet As DevExpress.XtraBars.Navigation.TabNavigationPage
+    Friend WithEvents gbItemData As DevExpress.XtraEditors.GroupControl
+    Private WithEvents pbAddSetItem As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents dgvSetItem As DevExpress.XtraGrid.GridControl
+    Friend WithEvents DgvStone As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents colSetItemCode As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemBarCode As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemName As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemKarat As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemGoldWeight As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemMakingCharge As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemPurchaseCost As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemGramPrice As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemCountryOfOrigin As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemNoOfPieces As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemSymbol As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemItemNo As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSetItemSupplier As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents gbSetData As DevExpress.XtraEditors.GroupControl
+    Friend WithEvents txtNote As DevExpress.XtraEditors.MemoEdit
+    Friend WithEvents WindowsUIButtonPanel1 As DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel
+    Friend WithEvents DateEdit1 As DevExpress.XtraEditors.DateEdit
+    Friend WithEvents dtpDateAdded As DevExpress.XtraEditors.DateEdit
+    Private WithEvents TextEdit3 As DevExpress.XtraEditors.TextEdit
+    Private WithEvents TextEdit4 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TextEdit12 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TextEdit11 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TextEdit9 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TextEdit8 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TextEdit7 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TextEdit6 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TextEdit10 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents txtCostPerPiece As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents ComboBoxEdit3 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents ComboBoxEdit2 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents ComboBoxEdit1 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents cmbPhone As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl15 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl17 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl16 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl13 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents lblCIDAr As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents GridControl2 As DevExpress.XtraGrid.GridControl
+    Friend WithEvents GridView4 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents txtSetCode As TextBox
+    Friend WithEvents LabelControl21 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl20 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl19 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl18 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents tbQuery As DevExpress.XtraBars.Navigation.TabNavigationPage
+    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents ComboBoxEdit4 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents DateEdit3 As DevExpress.XtraEditors.DateEdit
+    Friend WithEvents DateEdit2 As DevExpress.XtraEditors.DateEdit
+    Friend WithEvents LabelControl25 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl23 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl24 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl22 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents UcFavorite1 As UCFavorite
     Private WithEvents DGVSelectAll As DevExpress.XtraGrid.GridControl
     Private WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
-    Private WithEvents PictureEdit5 As DevExpress.XtraEditors.PictureEdit
-    Private WithEvents PictureEdit6 As DevExpress.XtraEditors.PictureEdit
-    Private WithEvents PictureEdit7 As DevExpress.XtraEditors.PictureEdit
-    Private WithEvents PictureEdit8 As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents tbExcel As DevExpress.XtraBars.Navigation.TabNavigationPage
+    Friend WithEvents btnPanelExcel As DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel
+    Friend WithEvents UcFavorite2 As UCFavorite
+    Private WithEvents DgvAddItems As DevExpress.XtraGrid.GridControl
+    Private WithEvents GridView3 As DevExpress.XtraGrid.Views.Grid.GridView
+    Private WithEvents RadialMenu1 As DevExpress.XtraBars.Ribbon.RadialMenu
     Private WithEvents BarManager1 As DevExpress.XtraBars.BarManager
     Private WithEvents barDockControlTop As DevExpress.XtraBars.BarDockControl
     Private WithEvents barDockControlBottom As DevExpress.XtraBars.BarDockControl
     Private WithEvents barDockControlLeft As DevExpress.XtraBars.BarDockControl
     Private WithEvents barDockControlRight As DevExpress.XtraBars.BarDockControl
-    Private WithEvents RadialMenu1 As DevExpress.XtraBars.Ribbon.RadialMenu
     Private WithEvents BarLargeButtonItem1 As DevExpress.XtraBars.BarLargeButtonItem
     Private WithEvents BarButtonItem1 As DevExpress.XtraBars.BarButtonItem
     Private WithEvents BarButtonItem2 As DevExpress.XtraBars.BarButtonItem
@@ -1598,50 +1593,4 @@ Partial Class FrmGoldItem
     Private WithEvents BarButtonItem5 As DevExpress.XtraBars.BarButtonItem
     Private WithEvents BarButtonItem6 As DevExpress.XtraBars.BarButtonItem
     Private WithEvents BarButtonItem7 As DevExpress.XtraBars.BarButtonItem
-    Private WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
-    Private WithEvents TextEdit2 As DevExpress.XtraEditors.TextEdit
-    Private WithEvents DgvAddItems As DevExpress.XtraGrid.GridControl
-    Private WithEvents GridView3 As DevExpress.XtraGrid.Views.Grid.GridView
-    Private WithEvents PictureEdit14 As DevExpress.XtraEditors.PictureEdit
-    Private WithEvents PictureEdit15 As DevExpress.XtraEditors.PictureEdit
-    Friend WithEvents TabPane1 As DevExpress.XtraBars.Navigation.TabPane
-    Friend WithEvents tbAddItem As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents tbAddSet As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents AddGoldItem1 As UCGoldAddItem
-    Friend WithEvents tbQuery As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents tbExcel As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
-    Friend WithEvents GridView2 As DevExpress.XtraGrid.Views.Grid.GridView
-    Friend WithEvents gbItemData As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents dtDateAdd As DateTimePicker
-    Friend WithEvents lblDateAdd As Label
-    Friend WithEvents cmbItemStatus As ComboBox
-    Friend WithEvents lblItemStatus As Label
-    Friend WithEvents dtDateOfManufacture As DateTimePicker
-    Friend WithEvents txtCostForSeller As TextBox
-    Friend WithEvents lblCostForSeller As Label
-    Friend WithEvents lblDateOfManufacture As Label
-    Friend WithEvents cmbCountryOfOrigin As ComboBox
-    Friend WithEvents lblCountryOfOrigin As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Guna2GroupBox1 As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents GridControl2 As DevExpress.XtraGrid.GridControl
-    Friend WithEvents GridView4 As DevExpress.XtraGrid.Views.Grid.GridView
-    Private WithEvents pbAddSetItem As DevExpress.XtraEditors.PictureEdit
-    Friend WithEvents Label3 As Label
-    Friend WithEvents txtStoneWeight As TextBox
-    Friend WithEvents DateTimePicker2 As DateTimePicker
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents UcFavorite1 As UCFavorite
-    Friend WithEvents UcFavorite2 As UCFavorite
 End Class

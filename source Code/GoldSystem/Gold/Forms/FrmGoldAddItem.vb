@@ -1,4 +1,4 @@
-﻿Public Class FrmAdderItem
+﻿Public Class FrmGoldAddItem
     Dim ClsItem As New ClsGoldItem
     Public IsYes = False
 

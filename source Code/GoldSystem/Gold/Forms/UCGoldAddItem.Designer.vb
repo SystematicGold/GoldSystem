@@ -23,13 +23,14 @@ Partial Class UCGoldAddItem
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UCGoldAddItem))
-        Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Me.txtDocumentPath = New DevExpress.XtraEditors.TextEdit()
         Me.txtImagePath = New DevExpress.XtraEditors.TextEdit()
         Me.pbAddStone = New DevExpress.XtraEditors.PictureEdit()
         Me.gbItemData = New DevExpress.XtraEditors.GroupControl()
+        Me.txtNote = New DevExpress.XtraEditors.MemoEdit()
         Me.dtpDateAdded = New DevExpress.XtraEditors.DateEdit()
         Me.lblDocument = New DevExpress.XtraEditors.LabelControl()
         Me.dtpDateOfManufacture = New DevExpress.XtraEditors.DateEdit()
@@ -84,12 +85,12 @@ Partial Class UCGoldAddItem
         Me.colStoneCut = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colStonePrice = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colStoneView = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.txtNote = New DevExpress.XtraEditors.MemoEdit()
         CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbAddStone.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gbItemData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbItemData.SuspendLayout()
+        CType(Me.txtNote.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dtpDateAdded.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dtpDateAdded.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dtpDateOfManufacture.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -115,7 +116,6 @@ Partial Class UCGoldAddItem
         Me.gbStoneData.SuspendLayout()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtNote.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtDocumentPath
@@ -159,12 +159,12 @@ Partial Class UCGoldAddItem
         Me.pbAddStone.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbAddStone.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
         Me.pbAddStone.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem2.Text = "إضافة فص"
-        ToolTipItem2.LeftIndent = 6
-        ToolTipItem2.Text = "اضغط لإضافة فص للقطعة"
-        SuperToolTip2.Items.Add(ToolTipTitleItem2)
-        SuperToolTip2.Items.Add(ToolTipItem2)
-        Me.pbAddStone.SuperTip = SuperToolTip2
+        ToolTipTitleItem1.Text = "إضافة فص"
+        ToolTipItem1.LeftIndent = 6
+        ToolTipItem1.Text = "اضغط لإضافة فص للقطعة"
+        SuperToolTip1.Items.Add(ToolTipTitleItem1)
+        SuperToolTip1.Items.Add(ToolTipItem1)
+        Me.pbAddStone.SuperTip = SuperToolTip1
         Me.pbAddStone.TabIndex = 101
         '
         'gbItemData
@@ -220,6 +220,13 @@ Partial Class UCGoldAddItem
         Me.gbItemData.TabIndex = 0
         Me.gbItemData.Text = "بيانات القطعة"
         '
+        'txtNote
+        '
+        Me.txtNote.Location = New System.Drawing.Point(179, 139)
+        Me.txtNote.Name = "txtNote"
+        Me.txtNote.Size = New System.Drawing.Size(495, 20)
+        Me.txtNote.TabIndex = 20
+        '
         'dtpDateAdded
         '
         Me.dtpDateAdded.EditValue = Nothing
@@ -256,6 +263,8 @@ Partial Class UCGoldAddItem
         '
         Me.txtBarCode.Location = New System.Drawing.Point(674, 139)
         Me.txtBarCode.Name = "txtBarCode"
+        Me.txtBarCode.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtBarCode.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtBarCode.Size = New System.Drawing.Size(165, 20)
         Me.txtBarCode.TabIndex = 19
         '
@@ -263,6 +272,8 @@ Partial Class UCGoldAddItem
         '
         Me.txtCostPerPiece.Location = New System.Drawing.Point(14, 45)
         Me.txtCostPerPiece.Name = "txtCostPerPiece"
+        Me.txtCostPerPiece.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtCostPerPiece.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtCostPerPiece.Size = New System.Drawing.Size(165, 20)
         Me.txtCostPerPiece.TabIndex = 7
         '
@@ -270,6 +281,8 @@ Partial Class UCGoldAddItem
         '
         Me.txtSymbol.Location = New System.Drawing.Point(839, 139)
         Me.txtSymbol.Name = "txtSymbol"
+        Me.txtSymbol.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtSymbol.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtSymbol.Size = New System.Drawing.Size(165, 20)
         Me.txtSymbol.TabIndex = 18
         '
@@ -285,6 +298,8 @@ Partial Class UCGoldAddItem
         '
         Me.txtItemNo.Location = New System.Drawing.Point(1004, 139)
         Me.txtItemNo.Name = "txtItemNo"
+        Me.txtItemNo.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtItemNo.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtItemNo.Size = New System.Drawing.Size(165, 20)
         Me.txtItemNo.TabIndex = 17
         '
@@ -304,6 +319,8 @@ Partial Class UCGoldAddItem
         '
         Me.txtNoOfPieces.Location = New System.Drawing.Point(1169, 139)
         Me.txtNoOfPieces.Name = "txtNoOfPieces"
+        Me.txtNoOfPieces.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtNoOfPieces.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtNoOfPieces.Size = New System.Drawing.Size(165, 20)
         Me.txtNoOfPieces.TabIndex = 16
         '
@@ -319,6 +336,8 @@ Partial Class UCGoldAddItem
         '
         Me.txtGramCost.Location = New System.Drawing.Point(179, 45)
         Me.txtGramCost.Name = "txtGramCost"
+        Me.txtGramCost.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtGramCost.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtGramCost.Size = New System.Drawing.Size(165, 20)
         Me.txtGramCost.TabIndex = 6
         '
@@ -354,6 +373,8 @@ Partial Class UCGoldAddItem
         '
         Me.txtCostForSeller.Location = New System.Drawing.Point(344, 45)
         Me.txtCostForSeller.Name = "txtCostForSeller"
+        Me.txtCostForSeller.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtCostForSeller.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtCostForSeller.Size = New System.Drawing.Size(165, 20)
         Me.txtCostForSeller.TabIndex = 5
         '
@@ -381,6 +402,8 @@ Partial Class UCGoldAddItem
         '
         Me.txtCostPerGram.Location = New System.Drawing.Point(509, 45)
         Me.txtCostPerGram.Name = "txtCostPerGram"
+        Me.txtCostPerGram.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtCostPerGram.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtCostPerGram.Size = New System.Drawing.Size(165, 20)
         Me.txtCostPerGram.TabIndex = 4
         '
@@ -400,6 +423,8 @@ Partial Class UCGoldAddItem
         '
         Me.txtMakingCharge.Location = New System.Drawing.Point(674, 45)
         Me.txtMakingCharge.Name = "txtMakingCharge"
+        Me.txtMakingCharge.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtMakingCharge.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtMakingCharge.Size = New System.Drawing.Size(165, 20)
         Me.txtMakingCharge.TabIndex = 3
         '
@@ -419,6 +444,8 @@ Partial Class UCGoldAddItem
         '
         Me.txtGoldWeight.Location = New System.Drawing.Point(839, 45)
         Me.txtGoldWeight.Name = "txtGoldWeight"
+        Me.txtGoldWeight.Properties.Appearance.Options.UseTextOptions = True
+        Me.txtGoldWeight.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtGoldWeight.Size = New System.Drawing.Size(165, 20)
         Me.txtGoldWeight.TabIndex = 2
         '
@@ -766,13 +793,6 @@ Partial Class UCGoldAddItem
         Me.colStoneView.Visible = True
         Me.colStoneView.VisibleIndex = 8
         '
-        'txtNote
-        '
-        Me.txtNote.Location = New System.Drawing.Point(179, 139)
-        Me.txtNote.Name = "txtNote"
-        Me.txtNote.Size = New System.Drawing.Size(495, 20)
-        Me.txtNote.TabIndex = 20
-        '
         'UCGoldAddItem
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -786,6 +806,7 @@ Partial Class UCGoldAddItem
         CType(Me.pbAddStone.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gbItemData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbItemData.ResumeLayout(False)
+        CType(Me.txtNote.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtpDateAdded.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtpDateAdded.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtpDateOfManufacture.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -811,7 +832,6 @@ Partial Class UCGoldAddItem
         Me.gbStoneData.ResumeLayout(False)
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtNote.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

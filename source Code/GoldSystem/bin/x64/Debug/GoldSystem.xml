@@ -47,6 +47,11 @@ GoldSystem
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:GoldSystem.My.Resources.Resources.Camera">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:GoldSystem.My.Resources.Resources.Customers">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -113,6 +118,11 @@ GoldSystem
 </summary>
 </member>
 <member name="P:GoldSystem.My.Resources.Resources.Rings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:GoldSystem.My.Resources.Resources.Scanner">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

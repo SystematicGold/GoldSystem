@@ -228,10 +228,22 @@
     <Compile Include="Gold\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldPurchase.Designer.vb">
-      <DependentUpon>frmGoldPurchase.vb</DependentUpon>
+    <Compile Include="Gold\Forms\frmGoldAddStone.Designer.vb">
+      <DependentUpon>frmGoldAddStone.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldPurchase.vb">
+    <Compile Include="Gold\Forms\frmGoldAddStone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Forms\frmGoldItem.Designer.vb">
+      <DependentUpon>frmGoldItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\frmGoldItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Forms\frmGoldPurchase1.Designer.vb">
+      <DependentUpon>frmGoldPurchase1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\frmGoldPurchase1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gold\Forms\frmGoldTransaction.Designer.vb">
@@ -258,58 +270,40 @@
     <Compile Include="Gold\Forms\USGoldControlBarCode.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Gold\Forms\FrmGoldAddItem.Designer.vb">
+      <DependentUpon>FrmGoldAddItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\FrmGoldAddItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gold\Forms\frmGoldPurchase.Designer.vb">
+      <DependentUpon>frmGoldPurchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gold\Forms\frmGoldPurchase.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Gold\Reports\PrintBarCode.Designer.vb">
       <DependentUpon>PrintBarCode.vb</DependentUpon>
     </Compile>
     <Compile Include="Gold\Reports\PrintBarCode.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Main\Forms\FrmMainX.Designer.vb">
-      <DependentUpon>FrmMainX.vb</DependentUpon>
+    <Compile Include="Main\Forms\FrmMain.Designer.vb">
+      <DependentUpon>FrmMain.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\FrmMainX.vb">
+    <Compile Include="Main\Forms\FrmMain.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main\Forms\FrmPermissions.Designer.vb">
-      <DependentUpon>FrmPermissions.vb</DependentUpon>
+    <Compile Include="Main\Forms\frmPermissions.Designer.vb">
+      <DependentUpon>frmPermissions.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\FrmPermissions.vb">
+    <Compile Include="Main\Forms\frmPermissions.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main\Forms\frmVoucher.Designer.vb">
       <DependentUpon>frmVoucher.vb</DependentUpon>
     </Compile>
     <Compile Include="Main\Forms\frmVoucher.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main\Forms\UCCivilId.Designer.vb">
-      <DependentUpon>UCCivilId.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Main\Forms\UCCivilId.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Gold\Forms\frmGoldItem.Designer.vb">
-      <DependentUpon>frmGoldItem.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Gold\Forms\frmGoldItem.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gold\Forms\frmGoldAddItem.Designer.vb">
-      <DependentUpon>frmGoldAddItem.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Gold\Forms\frmGoldAddItem.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gold\Forms\frmGoldAddStone.Designer.vb">
-      <DependentUpon>frmGoldAddStone.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Gold\Forms\frmGoldAddStone.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gold\Forms\frmGoldBig.Designer.vb">
-      <DependentUpon>frmGoldBig.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Gold\Forms\frmGoldBig.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gold\Forms\frmGoldPrintBarCode.Designer.vb">
@@ -339,10 +333,16 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main\Cls\ClsMain.vb" />
-    <Compile Include="Main\Forms\UCFavorite.Designer.vb">
-      <DependentUpon>UCFavorite.vb</DependentUpon>
+    <Compile Include="Main\Forms\ucCivilID.Designer.vb">
+      <DependentUpon>ucCivilID.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\UCFavorite.vb">
+    <Compile Include="Main\Forms\ucCivilID.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main\Forms\ucFavorite.Designer.vb">
+      <DependentUpon>ucFavorite.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Forms\ucFavorite.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Main\Forms\frmLanguage.Designer.vb">
@@ -351,10 +351,10 @@
     <Compile Include="Main\Forms\frmLanguage.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main\Forms\frmMain.Designer.vb">
-      <DependentUpon>frmMain.vb</DependentUpon>
+    <Compile Include="Main\Forms\frmMainOld.Designer.vb">
+      <DependentUpon>frmMainOld.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\frmMain.vb">
+    <Compile Include="Main\Forms\frmMainOld.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main\Forms\frmMaxmizeGold.Designer.vb">
@@ -363,10 +363,10 @@
     <Compile Include="Main\Forms\frmMaxmizeGold.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main\Forms\UCSupplier.Designer.vb">
-      <DependentUpon>UCSupplier.vb</DependentUpon>
+    <Compile Include="Main\Forms\ucSupplier.Designer.vb">
+      <DependentUpon>ucSupplier.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\UCSupplier.vb">
+    <Compile Include="Main\Forms\ucSupplier.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -401,11 +401,17 @@
     <EmbeddedResource Include="Gold\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\frmGoldAddStone.resx">
+      <DependentUpon>frmGoldAddStone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\frmGoldItem.resx">
+      <DependentUpon>frmGoldItem.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\frmGoldPrintBarCode.resx">
       <DependentUpon>frmGoldPrintBarCode.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldPurchase.resx">
-      <DependentUpon>frmGoldPurchase.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\frmGoldPurchase1.resx">
+      <DependentUpon>frmGoldPurchase1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\frmGoldTransaction.resx">
       <DependentUpon>frmGoldTransaction.vb</DependentUpon>
@@ -419,32 +425,23 @@
     <EmbeddedResource Include="Gold\Forms\USGoldControlBarCode.resx">
       <DependentUpon>USGoldControlBarCode.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\FrmGoldAddItem.resx">
+      <DependentUpon>FrmGoldAddItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gold\Forms\frmGoldPurchase.resx">
+      <DependentUpon>frmGoldPurchase.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gold\Reports\PrintBarCode.resx">
       <DependentUpon>PrintBarCode.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\FrmMainX.resx">
-      <DependentUpon>FrmMainX.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\FrmMain.resx">
+      <DependentUpon>FrmMain.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\FrmPermissions.resx">
-      <DependentUpon>FrmPermissions.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\frmPermissions.resx">
+      <DependentUpon>frmPermissions.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Forms\frmVoucher.resx">
       <DependentUpon>frmVoucher.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\UCCivilId.resx">
-      <DependentUpon>UCCivilId.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldItem.resx">
-      <DependentUpon>frmGoldItem.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldAddItem.resx">
-      <DependentUpon>frmGoldAddItem.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldAddStone.resx">
-      <DependentUpon>frmGoldAddStone.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldBig.resx">
-      <DependentUpon>frmGoldBig.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\frmGoldSale.resx">
       <DependentUpon>frmGoldSale.vb</DependentUpon>
@@ -464,20 +461,23 @@
     <EmbeddedResource Include="Login\Forms\SettingFile.resx">
       <DependentUpon>SettingFile.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\UCFavorite.resx">
-      <DependentUpon>UCFavorite.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\ucCivilID.resx">
+      <DependentUpon>ucCivilID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Forms\ucFavorite.resx">
+      <DependentUpon>ucFavorite.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Forms\frmLanguage.resx">
       <DependentUpon>frmLanguage.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\frmMain.resx">
-      <DependentUpon>frmMain.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\frmMainOld.resx">
+      <DependentUpon>frmMainOld.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Forms\frmMaxmizeGold.resx">
       <DependentUpon>frmMaxmizeGold.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\UCSupplier.resx">
-      <DependentUpon>UCSupplier.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\ucSupplier.resx">
+      <DependentUpon>ucSupplier.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -593,6 +593,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Customers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scanner.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="..\packages\EmptyLicensesLicx.3.0.0\build\EmptyLicensesLicx.targets" Condition="Exists('..\packages\EmptyLicensesLicx.3.0.0\build\EmptyLicensesLicx.targets')" />

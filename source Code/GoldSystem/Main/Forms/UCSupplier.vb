@@ -1,3 +1,3 @@
-﻿Public Class UCSupplier
+﻿Public Class ucSupplier
 
 End Class

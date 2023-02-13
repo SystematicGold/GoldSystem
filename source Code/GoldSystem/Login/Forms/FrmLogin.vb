@@ -35,7 +35,7 @@ Public Class FrmLogin
         Next
         ClsLogin_.LoginInformation(My.Settings.Usercode, MAC)
       End If
-      Dim f As New FrmMain
+      Dim f As New frmMainOld
       f.Show()
       Me.Hide()
     Catch ex As Exception

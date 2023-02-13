@@ -1,17 +1,14 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class FrmGoldPurchase
-    Inherits System.Windows.Forms.Form
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class frmGoldPurchase
+    Inherits DevExpress.XtraEditors.XtraForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-        Try
-            If disposing AndAlso components IsNot Nothing Then
-                components.Dispose()
-            End If
-        Finally
-            MyBase.Dispose(disposing)
-        End Try
+        If disposing AndAlso components IsNot Nothing Then
+            components.Dispose()
+        End If
+        MyBase.Dispose(disposing)
     End Sub
 
     'Required by the Windows Form Designer
@@ -20,9 +17,11 @@ Partial Class FrmGoldPurchase
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmGoldPurchase))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmGoldPurchase))
+        Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
+        Me.TabNavigationPage1 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.gbItemData = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.lblNote = New System.Windows.Forms.Label()
         Me.txtNote = New System.Windows.Forms.TextBox()
@@ -40,6 +39,7 @@ Partial Class FrmGoldPurchase
         Me.txtGoldWeight = New System.Windows.Forms.TextBox()
         Me.txtImagePath = New DevExpress.XtraEditors.TextEdit()
         Me.lblGoldWeight = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.lblKarat = New System.Windows.Forms.Label()
         Me.lblDateOfManufacture = New System.Windows.Forms.Label()
         Me.lblBarCode = New System.Windows.Forms.Label()
@@ -53,6 +53,7 @@ Partial Class FrmGoldPurchase
         Me.lblCostPerPiece = New System.Windows.Forms.Label()
         Me.lblGramCost = New System.Windows.Forms.Label()
         Me.txtNoOfPieces = New System.Windows.Forms.TextBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.txt = New System.Windows.Forms.TextBox()
         Me.cmbKarat = New System.Windows.Forms.ComboBox()
         Me.lblItemNo = New System.Windows.Forms.Label()
@@ -66,9 +67,6 @@ Partial Class FrmGoldPurchase
         Me.cmbSymbol = New System.Windows.Forms.TextBox()
         Me.lblPhoto = New System.Windows.Forms.Label()
         Me.lblDocument = New System.Windows.Forms.Label()
-        Me.UcCivilId1 = New GoldSystem.UCCivilId()
-        Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
-        Me.TabNavigationPage1 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.TabPane2 = New DevExpress.XtraBars.Navigation.TabPane()
         Me.TabNavigationPage3 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
@@ -76,6 +74,8 @@ Partial Class FrmGoldPurchase
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.Guna2GroupBox1 = New Guna.UI2.WinForms.Guna2GroupBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -94,18 +94,15 @@ Partial Class FrmGoldPurchase
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.TabNavigationPage4 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.UcGoldAddItem1 = New GoldSystem.UCGoldAddItem()
-        Me.UcSupplier1 = New GoldSystem.UCSupplier()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.gbItemData.SuspendLayout()
-        CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.UcGoldAddItem = New GoldSystem.UCGoldAddItem()
+        Me.UcSupplier = New GoldSystem.ucSupplier()
+        Me.UcCivilID1 = New GoldSystem.ucCivilID()
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPane1.SuspendLayout()
         Me.TabNavigationPage1.SuspendLayout()
+        Me.gbItemData.SuspendLayout()
+        CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabNavigationPage2.SuspendLayout()
         CType(Me.TabPane2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPane2.SuspendLayout()
@@ -115,6 +112,29 @@ Partial Class FrmGoldPurchase
         Me.Guna2GroupBox1.SuspendLayout()
         Me.TabNavigationPage4.SuspendLayout()
         Me.SuspendLayout()
+        '
+        'TabPane1
+        '
+        Me.TabPane1.Controls.Add(Me.TabNavigationPage1)
+        Me.TabPane1.Controls.Add(Me.TabNavigationPage2)
+        Me.TabPane1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TabPane1.Location = New System.Drawing.Point(0, 0)
+        Me.TabPane1.Name = "TabPane1"
+        Me.TabPane1.Pages.AddRange(New DevExpress.XtraBars.Navigation.NavigationPageBase() {Me.TabNavigationPage1, Me.TabNavigationPage2})
+        Me.TabPane1.RegularSize = New System.Drawing.Size(1364, 688)
+        Me.TabPane1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.TabPane1.SelectedPage = Me.TabNavigationPage1
+        Me.TabPane1.Size = New System.Drawing.Size(1364, 688)
+        Me.TabPane1.TabIndex = 6
+        Me.TabPane1.Text = "TabPane1"
+        '
+        'TabNavigationPage1
+        '
+        Me.TabNavigationPage1.Caption = "مشتريات أفراد"
+        Me.TabNavigationPage1.Controls.Add(Me.UcCivilID1)
+        Me.TabNavigationPage1.Controls.Add(Me.gbItemData)
+        Me.TabNavigationPage1.Name = "TabNavigationPage1"
+        Me.TabNavigationPage1.Size = New System.Drawing.Size(1364, 655)
         '
         'gbItemData
         '
@@ -169,7 +189,7 @@ Partial Class FrmGoldPurchase
         Me.gbItemData.CustomBorderColor = System.Drawing.Color.CornflowerBlue
         Me.gbItemData.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold)
         Me.gbItemData.ForeColor = System.Drawing.Color.Black
-        Me.gbItemData.Location = New System.Drawing.Point(-18, 272)
+        Me.gbItemData.Location = New System.Drawing.Point(7, 272)
         Me.gbItemData.Name = "gbItemData"
         Me.gbItemData.Size = New System.Drawing.Size(1350, 222)
         Me.gbItemData.TabIndex = 3
@@ -387,6 +407,20 @@ Partial Class FrmGoldPurchase
         Me.lblGoldWeight.Text = "وزن الذهب"
         Me.lblGoldWeight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Label9
+        '
+        Me.Label9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Black
+        Me.Label9.Location = New System.Drawing.Point(180, 160)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(165, 27)
+        Me.Label9.TabIndex = 72
+        Me.Label9.Text = "ترحيل إلى"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'lblKarat
         '
         Me.lblKarat.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -563,6 +597,19 @@ Partial Class FrmGoldPurchase
         Me.txtNoOfPieces.TabIndex = 79
         Me.txtNoOfPieces.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'ComboBox3
+        '
+        Me.ComboBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ComboBox3.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"مشغولات", "كسر"})
+        Me.ComboBox3.Location = New System.Drawing.Point(180, 187)
+        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox3.Size = New System.Drawing.Size(165, 27)
+        Me.ComboBox3.TabIndex = 99
+        '
         'txt
         '
         Me.txt.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -730,47 +777,13 @@ Partial Class FrmGoldPurchase
         Me.lblDocument.Text = "مستندات / شهادات للقطعة"
         Me.lblDocument.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'UcCivilId1
-        '
-        Me.UcCivilId1.BackColor = System.Drawing.Color.Transparent
-        Me.UcCivilId1.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.UcCivilId1.Location = New System.Drawing.Point(282, 0)
-        Me.UcCivilId1.Margin = New System.Windows.Forms.Padding(5)
-        Me.UcCivilId1.Name = "UcCivilId1"
-        Me.UcCivilId1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.UcCivilId1.Size = New System.Drawing.Size(1050, 270)
-        Me.UcCivilId1.TabIndex = 4
-        '
-        'TabPane1
-        '
-        Me.TabPane1.Controls.Add(Me.TabNavigationPage1)
-        Me.TabPane1.Controls.Add(Me.TabNavigationPage2)
-        Me.TabPane1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TabPane1.Location = New System.Drawing.Point(0, 0)
-        Me.TabPane1.Name = "TabPane1"
-        Me.TabPane1.Pages.AddRange(New DevExpress.XtraBars.Navigation.NavigationPageBase() {Me.TabNavigationPage1, Me.TabNavigationPage2})
-        Me.TabPane1.RegularSize = New System.Drawing.Size(1350, 729)
-        Me.TabPane1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.TabPane1.SelectedPage = Me.TabNavigationPage1
-        Me.TabPane1.Size = New System.Drawing.Size(1350, 729)
-        Me.TabPane1.TabIndex = 5
-        Me.TabPane1.Text = "TabPane1"
-        '
-        'TabNavigationPage1
-        '
-        Me.TabNavigationPage1.Caption = "مشتريات أفراد"
-        Me.TabNavigationPage1.Controls.Add(Me.UcCivilId1)
-        Me.TabNavigationPage1.Controls.Add(Me.gbItemData)
-        Me.TabNavigationPage1.Name = "TabNavigationPage1"
-        Me.TabNavigationPage1.Size = New System.Drawing.Size(1332, 684)
-        '
         'TabNavigationPage2
         '
         Me.TabNavigationPage2.Caption = "مشتريات الجملة"
         Me.TabNavigationPage2.Controls.Add(Me.TabPane2)
-        Me.TabNavigationPage2.Controls.Add(Me.UcSupplier1)
+        Me.TabNavigationPage2.Controls.Add(Me.UcSupplier)
         Me.TabNavigationPage2.Name = "TabNavigationPage2"
-        Me.TabNavigationPage2.Size = New System.Drawing.Size(1332, 684)
+        Me.TabNavigationPage2.Size = New System.Drawing.Size(1364, 655)
         '
         'TabPane2
         '
@@ -793,7 +806,7 @@ Partial Class FrmGoldPurchase
         Me.TabNavigationPage3.Controls.Add(Me.GridControl1)
         Me.TabNavigationPage3.Controls.Add(Me.Guna2GroupBox1)
         Me.TabNavigationPage3.Name = "TabNavigationPage3"
-        Me.TabNavigationPage3.Size = New System.Drawing.Size(1334, 380)
+        Me.TabNavigationPage3.Size = New System.Drawing.Size(1352, 392)
         '
         'Guna2Button5
         '
@@ -806,7 +819,7 @@ Partial Class FrmGoldPurchase
         Me.Guna2Button5.FillColor = System.Drawing.Color.FromArgb(CType(CType(46, Byte), Integer), CType(CType(52, Byte), Integer), CType(CType(88, Byte), Integer))
         Me.Guna2Button5.Font = New System.Drawing.Font("Calibri", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button5.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button5.Location = New System.Drawing.Point(4, 341)
+        Me.Guna2Button5.Location = New System.Drawing.Point(22, 341)
         Me.Guna2Button5.Margin = New System.Windows.Forms.Padding(4)
         Me.Guna2Button5.Name = "Guna2Button5"
         Me.Guna2Button5.Size = New System.Drawing.Size(129, 35)
@@ -861,6 +874,33 @@ Partial Class FrmGoldPurchase
         Me.Guna2GroupBox1.TabIndex = 3
         Me.Guna2GroupBox1.Text = "بيانات الشراء"
         Me.Guna2GroupBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'Label11
+        '
+        Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
+        Me.Label11.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.Black
+        Me.Label11.Location = New System.Drawing.Point(195, 45)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(109, 27)
+        Me.Label11.TabIndex = 108
+        Me.Label11.Text = "ترحيل إلى"
+        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ComboBox4.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"مشغولات", "كسر"})
+        Me.ComboBox4.Location = New System.Drawing.Point(195, 72)
+        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ComboBox4.Size = New System.Drawing.Size(109, 27)
+        Me.ComboBox4.TabIndex = 109
         '
         'DateTimePicker1
         '
@@ -1087,100 +1127,54 @@ Partial Class FrmGoldPurchase
         'TabNavigationPage4
         '
         Me.TabNavigationPage4.Caption = "شراء تفصيلي"
-        Me.TabNavigationPage4.Controls.Add(Me.UcGoldAddItem1)
+        Me.TabNavigationPage4.Controls.Add(Me.UcGoldAddItem)
         Me.TabNavigationPage4.Name = "TabNavigationPage4"
         Me.TabNavigationPage4.Size = New System.Drawing.Size(1334, 380)
         '
-        'UcGoldAddItem1
+        'UcGoldAddItem
         '
-        Me.UcGoldAddItem1.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UcGoldAddItem1.Location = New System.Drawing.Point(-5, 3)
-        Me.UcGoldAddItem1.Name = "UcGoldAddItem1"
-        Me.UcGoldAddItem1.Size = New System.Drawing.Size(1350, 355)
-        Me.UcGoldAddItem1.TabIndex = 0
+        Me.UcGoldAddItem.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UcGoldAddItem.Location = New System.Drawing.Point(-5, 3)
+        Me.UcGoldAddItem.Name = "UcGoldAddItem"
+        Me.UcGoldAddItem.Size = New System.Drawing.Size(1350, 355)
+        Me.UcGoldAddItem.TabIndex = 0
         '
-        'UcSupplier1
+        'UcSupplier
         '
-        Me.UcSupplier1.BackColor = System.Drawing.Color.Transparent
-        Me.UcSupplier1.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.UcSupplier1.Location = New System.Drawing.Point(-10, 3)
-        Me.UcSupplier1.Margin = New System.Windows.Forms.Padding(5)
-        Me.UcSupplier1.Name = "UcSupplier1"
-        Me.UcSupplier1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.UcSupplier1.Size = New System.Drawing.Size(1352, 300)
-        Me.UcSupplier1.TabIndex = 6
+        Me.UcSupplier.Appearance.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.UcSupplier.Appearance.Options.UseFont = True
+        Me.UcSupplier.Location = New System.Drawing.Point(-10, 3)
+        Me.UcSupplier.Margin = New System.Windows.Forms.Padding(5)
+        Me.UcSupplier.Name = "UcSupplier"
+        Me.UcSupplier.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.UcSupplier.Size = New System.Drawing.Size(1352, 300)
+        Me.UcSupplier.TabIndex = 6
         '
-        'ComboBox3
+        'UcCivilID1
         '
-        Me.ComboBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ComboBox3.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"مشغولات", "كسر"})
-        Me.ComboBox3.Location = New System.Drawing.Point(180, 187)
-        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ComboBox3.Size = New System.Drawing.Size(165, 27)
-        Me.ComboBox3.TabIndex = 99
+        Me.UcCivilID1.Location = New System.Drawing.Point(103, 3)
+        Me.UcCivilID1.Name = "UcCivilID1"
+        Me.UcCivilID1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.UcCivilID1.Size = New System.Drawing.Size(1107, 270)
+        Me.UcCivilID1.TabIndex = 4
         '
-        'Label9
+        'frmGoldPurchase
         '
-        Me.Label9.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(180, 160)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(165, 27)
-        Me.Label9.TabIndex = 72
-        Me.Label9.Text = "ترحيل إلى"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label11
-        '
-        Me.Label11.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label11.BackColor = System.Drawing.Color.Transparent
-        Me.Label11.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(195, 45)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(109, 27)
-        Me.Label11.TabIndex = 108
-        Me.Label11.Text = "ترحيل إلى"
-        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ComboBox4.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"مشغولات", "كسر"})
-        Me.ComboBox4.Location = New System.Drawing.Point(195, 72)
-        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(4)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.ComboBox4.Size = New System.Drawing.Size(109, 27)
-        Me.ComboBox4.TabIndex = 109
-        '
-        'FrmGoldPurchase
-        '
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.ClientSize = New System.Drawing.Size(1350, 729)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1364, 688)
         Me.Controls.Add(Me.TabPane1)
-        Me.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MinimumSize = New System.Drawing.Size(1366, 768)
-        Me.Name = "FrmGoldPurchase"
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Name = "frmGoldPurchase"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "المشتريات"
+        CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPane1.ResumeLayout(False)
+        Me.TabNavigationPage1.ResumeLayout(False)
         Me.gbItemData.ResumeLayout(False)
         Me.gbItemData.PerformLayout()
         CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPane1.ResumeLayout(False)
-        Me.TabNavigationPage1.ResumeLayout(False)
         Me.TabNavigationPage2.ResumeLayout(False)
         CType(Me.TabPane2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPane2.ResumeLayout(False)
@@ -1194,6 +1188,8 @@ Partial Class FrmGoldPurchase
 
     End Sub
 
+    Friend WithEvents TabPane1 As DevExpress.XtraBars.Navigation.TabPane
+    Friend WithEvents TabNavigationPage1 As DevExpress.XtraBars.Navigation.TabNavigationPage
     Friend WithEvents gbItemData As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents lblNote As Label
     Friend WithEvents txtNote As TextBox
@@ -1211,6 +1207,7 @@ Partial Class FrmGoldPurchase
     Friend WithEvents txtGoldWeight As TextBox
     Friend WithEvents txtImagePath As DevExpress.XtraEditors.TextEdit
     Friend WithEvents lblGoldWeight As Label
+    Friend WithEvents Label9 As Label
     Friend WithEvents lblKarat As Label
     Friend WithEvents lblDateOfManufacture As Label
     Friend WithEvents lblBarCode As Label
@@ -1224,6 +1221,7 @@ Partial Class FrmGoldPurchase
     Friend WithEvents lblCostPerPiece As Label
     Friend WithEvents lblGramCost As Label
     Friend WithEvents txtNoOfPieces As TextBox
+    Friend WithEvents ComboBox3 As ComboBox
     Friend WithEvents txt As TextBox
     Friend WithEvents cmbKarat As ComboBox
     Friend WithEvents lblItemNo As Label
@@ -1237,9 +1235,6 @@ Partial Class FrmGoldPurchase
     Friend WithEvents cmbSymbol As TextBox
     Friend WithEvents lblPhoto As Label
     Friend WithEvents lblDocument As Label
-    Friend WithEvents UcCivilId1 As UCCivilId
-    Friend WithEvents TabPane1 As DevExpress.XtraBars.Navigation.TabPane
-    Friend WithEvents TabNavigationPage1 As DevExpress.XtraBars.Navigation.TabNavigationPage
     Friend WithEvents TabNavigationPage2 As DevExpress.XtraBars.Navigation.TabNavigationPage
     Friend WithEvents TabPane2 As DevExpress.XtraBars.Navigation.TabPane
     Friend WithEvents TabNavigationPage3 As DevExpress.XtraBars.Navigation.TabNavigationPage
@@ -1247,6 +1242,8 @@ Partial Class FrmGoldPurchase
     Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
     Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
     Friend WithEvents Guna2GroupBox1 As Guna.UI2.WinForms.Guna2GroupBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents ComboBox4 As ComboBox
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
@@ -1265,10 +1262,7 @@ Partial Class FrmGoldPurchase
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents TabNavigationPage4 As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents UcGoldAddItem1 As UCGoldAddItem
-    Friend WithEvents UcSupplier1 As UCSupplier
-    Friend WithEvents Label9 As Label
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents Label11 As Label
-    Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents UcGoldAddItem As UCGoldAddItem
+    Friend WithEvents UcSupplier As ucSupplier
+    Friend WithEvents UcCivilID1 As ucCivilID
 End Class

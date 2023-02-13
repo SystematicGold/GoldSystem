@@ -52,7 +52,7 @@ Partial Class frmVoucher
         Me.GridControl3 = New DevExpress.XtraGrid.GridControl()
         Me.GridView3 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        Me.UcCivilId1 = New GoldSystem.UCCivilId()
+        Me.UcCivilId = New GoldSystem.ucCivilID()
         Me.gbItemData = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.txtImagePath = New DevExpress.XtraEditors.TextEdit()
         Me.lblPhoto = New System.Windows.Forms.Label()
@@ -81,9 +81,9 @@ Partial Class frmVoucher
         Me.lblKarat = New System.Windows.Forms.Label()
         Me.lblDateOfManufacture = New System.Windows.Forms.Label()
         Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.UcSupplier1 = New GoldSystem.UCSupplier()
+        Me.UcSupplier = New GoldSystem.UCSupplier()
         Me.TabNavigationPage5 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.UcCivilId2 = New GoldSystem.UCCivilId()
+        Me.UcCivilId2 = New GoldSystem.ucCivilID()
         Me.TabNavigationPage6 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
@@ -239,7 +239,7 @@ Partial Class frmVoucher
         Me.TabNavigationPage1.Caption = "سند قبض أفراد"
         Me.TabNavigationPage1.Controls.Add(Me.GridControl3)
         Me.TabNavigationPage1.Controls.Add(Me.Guna2Button2)
-        Me.TabNavigationPage1.Controls.Add(Me.UcCivilId1)
+        Me.TabNavigationPage1.Controls.Add(Me.UcCivilId)
         Me.TabNavigationPage1.Controls.Add(Me.gbItemData)
         Me.TabNavigationPage1.Name = "TabNavigationPage1"
         Me.TabNavigationPage1.Size = New System.Drawing.Size(1066, 757)
@@ -276,16 +276,16 @@ Partial Class frmVoucher
         Me.Guna2Button2.TabIndex = 146
         Me.Guna2Button2.Text = "حفظ"
         '
-        'UcCivilId1
+        'UcCivilId
         '
-        Me.UcCivilId1.BackColor = System.Drawing.Color.Transparent
-        Me.UcCivilId1.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.UcCivilId1.Location = New System.Drawing.Point(8, 1)
-        Me.UcCivilId1.Margin = New System.Windows.Forms.Padding(5)
-        Me.UcCivilId1.Name = "UcCivilId1"
-        Me.UcCivilId1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.UcCivilId1.Size = New System.Drawing.Size(1050, 270)
-        Me.UcCivilId1.TabIndex = 4
+        Me.UcCivilId.BackColor = System.Drawing.Color.Transparent
+        Me.UcCivilId.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.UcCivilId.Location = New System.Drawing.Point(8, 1)
+        Me.UcCivilId.Margin = New System.Windows.Forms.Padding(5)
+        Me.UcCivilId.Name = "UcCivilId"
+        Me.UcCivilId.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.UcCivilId.Size = New System.Drawing.Size(1050, 270)
+        Me.UcCivilId.TabIndex = 4
         '
         'gbItemData
         '
@@ -689,20 +689,20 @@ Partial Class frmVoucher
         Me.TabNavigationPage2.Controls.Add(Me.GridControl1)
         Me.TabNavigationPage2.Controls.Add(Me.Guna2Button3)
         Me.TabNavigationPage2.Controls.Add(Me.Guna2GroupBox1)
-        Me.TabNavigationPage2.Controls.Add(Me.UcSupplier1)
+        Me.TabNavigationPage2.Controls.Add(Me.UcSupplier)
         Me.TabNavigationPage2.Name = "TabNavigationPage2"
         Me.TabNavigationPage2.Size = New System.Drawing.Size(1066, 757)
         '
-        'UcSupplier1
+        'UcSupplier
         '
-        Me.UcSupplier1.BackColor = System.Drawing.Color.Transparent
-        Me.UcSupplier1.Font = New System.Drawing.Font("Calibri", 12.0!)
-        Me.UcSupplier1.Location = New System.Drawing.Point(3, 1)
-        Me.UcSupplier1.Margin = New System.Windows.Forms.Padding(5)
-        Me.UcSupplier1.Name = "UcSupplier1"
-        Me.UcSupplier1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.UcSupplier1.Size = New System.Drawing.Size(1063, 300)
-        Me.UcSupplier1.TabIndex = 6
+        Me.UcSupplier.BackColor = System.Drawing.Color.Transparent
+        Me.UcSupplier.Font = New System.Drawing.Font("Calibri", 12.0!)
+        Me.UcSupplier.Location = New System.Drawing.Point(3, 1)
+        Me.UcSupplier.Margin = New System.Windows.Forms.Padding(5)
+        Me.UcSupplier.Name = "UcSupplier"
+        Me.UcSupplier.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.UcSupplier.Size = New System.Drawing.Size(1063, 300)
+        Me.UcSupplier.TabIndex = 6
         '
         'TabNavigationPage5
         '
@@ -2095,7 +2095,7 @@ Partial Class frmVoucher
 
     Friend WithEvents TabPane1 As DevExpress.XtraBars.Navigation.TabPane
     Friend WithEvents TabNavigationPage1 As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents UcCivilId1 As UCCivilId
+    Friend WithEvents UcCivilId As ucCivilID
     Friend WithEvents gbItemData As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents dtDateOfManufacture As DateTimePicker
     Friend WithEvents lblVoucherNo As Label
@@ -2109,9 +2109,9 @@ Partial Class frmVoucher
     Friend WithEvents cmbSupplier As ComboBox
     Friend WithEvents txtItemNo As TextBox
     Friend WithEvents TabNavigationPage2 As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents UcSupplier1 As UCSupplier
+    Friend WithEvents UcSupplier As UCSupplier
     Friend WithEvents TabNavigationPage5 As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents UcCivilId2 As UCCivilId
+    Friend WithEvents UcCivilId2 As ucCivilID
     Friend WithEvents TabNavigationPage6 As DevExpress.XtraBars.Navigation.TabNavigationPage
     Friend WithEvents txtVoucherNo As TextBox
     Friend WithEvents TextBox20 As TextBox

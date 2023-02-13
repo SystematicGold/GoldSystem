@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class FrmPermissions
+Partial Class frmPermissions
     Inherits DevExpress.XtraEditors.XtraForm
 
     'Form overrides dispose to clean up the component list.
@@ -19,39 +19,39 @@ Partial Class FrmPermissions
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
+        Me.grid = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grid, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'GridControl1
+        'grid
         '
-        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GridControl1.Location = New System.Drawing.Point(0, 0)
-        Me.GridControl1.MainView = Me.GridView1
-        Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.GridControl1.Size = New System.Drawing.Size(804, 467)
-        Me.GridControl1.TabIndex = 0
-        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
+        Me.grid.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.grid.Location = New System.Drawing.Point(0, 0)
+        Me.grid.MainView = Me.GridView1
+        Me.grid.Name = "grid"
+        Me.grid.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.grid.Size = New System.Drawing.Size(804, 467)
+        Me.grid.TabIndex = 0
+        Me.grid.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
         'GridView1
         '
-        Me.GridView1.GridControl = Me.GridControl1
+        Me.GridView1.GridControl = Me.grid
         Me.GridView1.Name = "GridView1"
         '
-        'FrmPermissions
+        'frmPermissions
         '
         Me.ClientSize = New System.Drawing.Size(804, 467)
-        Me.Controls.Add(Me.GridControl1)
-        Me.Name = "FrmPermissions"
-        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Controls.Add(Me.grid)
+        Me.Name = "frmPermissions"
+        CType(Me.grid, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
+    Friend WithEvents grid As DevExpress.XtraGrid.GridControl
     Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
 End Class

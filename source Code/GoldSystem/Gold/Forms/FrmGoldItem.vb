@@ -1,7 +1,6 @@
 ﻿Imports System.Data.OleDb
 Imports System.Text
-
-Public Class FrmGoldItem
+Public Class frmGoldItem
     Dim ClsGoldItem_ As New ClsGoldItem
     Dim ClsMain_ As New ClsMain
     Dim counter As Integer = 0
@@ -166,6 +165,7 @@ Public Class FrmGoldItem
     End Sub
     Private Sub Guna2Button13_Click(sender As Object, e As EventArgs)
         Try
+            Dim OFD As New OpenFileDialog
             If OFD.ShowDialog = DialogResult.OK Then
                 Dim path As String = OFD.FileName
                 'LblFileExtentions.Text = path
@@ -176,6 +176,7 @@ Public Class FrmGoldItem
     End Sub
     Private Sub PictureEdit13_Click(sender As Object, e As EventArgs)
         Try
+            Dim OFD As New OpenFileDialog
             If OFD.ShowDialog = DialogResult.OK Then
                 Dim path As String = OFD.FileName
                 'TxtPathBlock.Text = path
@@ -186,6 +187,7 @@ Public Class FrmGoldItem
     End Sub
     Private Sub Guna2Button12_Click(sender As Object, e As EventArgs)
         Try
+            Dim OFD As New OpenFileDialog
             If OFD.ShowDialog = DialogResult.OK Then
                 Dim path As String = OFD.FileName
                 'LblFileExtentionsBlock.Text = path
@@ -219,7 +221,7 @@ Public Class FrmGoldItem
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub Guna2Button9_Click(sender As Object, e As EventArgs) Handles Guna2Button9.Click
+    Private Sub Guna2Button9_Click(sender As Object, e As EventArgs)
         Try
             Max()
             'ClsGoldItem_.AddItem(TxtCodeBlock.Text, 0, 0, TxtBarCodeBlock.Text, ComNameBlock.Text, ComKartBlock.SelectedValue,
@@ -234,17 +236,17 @@ Public Class FrmGoldItem
         End Try
     End Sub
     Sub AddAnotherItem()
-        If DgvAdderItem.Rows.Count > 0 Then
-            For i As Integer = 0 To DgvAdderItem.Rows.Count - 1
-                ClsGoldItem_.AddItem(DgvAdderItem.Rows(i).Cells(0).Value, TxtCodeBlock.Text, 0, DgvAdderItem.Rows(i).Cells(1).Value,
-DgvAdderItem.Rows(i).Cells(2).Value, DgvAdderItem.Rows(i).Cells(3).Value,
-DgvAdderItem.Rows(i).Cells(4).Value, DgvAdderItem.Rows(i).Cells(5).Value, DgvAdderItem.Rows(i).Cells(6).Value,
-DgvAdderItem.Rows(i).Cells(7).Value,
-DgvAdderItem.Rows(i).Cells(8).Value, DgvAdderItem.Rows(i).Cells(12).Value,
-DgvAdderItem.Rows(i).Cells(13).Value, DgvAdderItem.Rows(i).Cells(9).Value,
-DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
-            Next
-        End If
+        '        If dgvSetItem.Rows.Count > 0 Then
+        '            For i As Integer = 0 To Me.dgvSetItem.Rows.Count - 1
+        '                ClsGoldItem_.AddItem(Me.dgvSetItem.Rows(i).Cells(0).Value, txtSetCode.Text, 0, Me.dgvSetItem.Rows(i).Cells(1).Value,
+        'Me.dgvSetItem.Rows(i).Cells(2).Value, Me.dgvSetItem.Rows(i).Cells(3).Value,
+        'Me.dgvSetItem.Rows(i).Cells(4).Value, Me.dgvSetItem.Rows(i).Cells(5).Value, Me.dgvSetItem.Rows(i).Cells(6).Value,
+        'Me.dgvSetItem.Rows(i).Cells(7).Value,
+        'Me.dgvSetItem.Rows(i).Cells(8).Value, Me.dgvSetItem.Rows(i).Cells(12).Value,
+        'Me.dgvSetItem.Rows(i).Cells(13).Value, Me.dgvSetItem.Rows(i).Cells(9).Value,
+        'Me.dgvSetItem.Rows(i).Cells(11).Value, Me.dgvSetItem.Rows(i).Cells(10).Value)
+        '            Next
+        '        End If
     End Sub
     Private Sub ComKartBlock_DropDown(sender As Object, e As EventArgs)
         Try
@@ -304,44 +306,31 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
     End Sub
 
     Private Sub BarLargeButtonItem1_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarLargeButtonItem1.ItemClick
-        Dim F As New frmLanguage
-        Dim DT As New DataTable
-        DT.Clear()
-        DT = ClsGoldItem_.MaxSupplier()
-        If DT.Rows.Count > 0 Then
-            'F.TxtCode.Text = DT.Rows(0)(0)
-        End If
-        Dim DtAll As New DataTable
-        DtAll.Clear()
-        DtAll = ClsGoldItem_.AllSupplier()
-        If DtAll.Rows.Count > 0 Then
-            F.DGV.DataSource = DtAll
-        End If
-        F.Show()
+
     End Sub
-    Private Sub ComSupplierBlock_DropDown(sender As Object, e As EventArgs) Handles ComSupplierBlock.DropDown
+    Private Sub ComSupplierBlock_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
             DT = ClsGoldItem_.Supplier()
             If DT.Rows.Count > 0 Then
-                ComSupplierBlock.DataSource = DT
-                ComSupplierBlock.DisplayMember = "Name"
-                ComSupplierBlock.ValueMember = "Code"
+                'ComSupplierBlock.DataSource = DT
+                'ComSupplierBlock.DisplayMember = "Name"
+                'ComSupplierBlock.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub ComNameBlock_DropDown(sender As Object, e As EventArgs) Handles ComNameBlock.DropDown
+    Private Sub ComNameBlock_DropDown(sender As Object, e As EventArgs)
         Try
             Dim DT As New DataTable
             DT.Clear()
             DT = ClsGoldItem_.ItemName()
             If DT.Rows.Count > 0 Then
-                ComNameBlock.DataSource = DT
-                ComNameBlock.DisplayMember = "Name"
-                ComNameBlock.ValueMember = "Code"
+                'ComNameBlock.DataSource = DT
+                'ComNameBlock.DisplayMember = "Name"
+                'ComNameBlock.ValueMember = "Code"
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
@@ -378,6 +367,7 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
 
     Private Sub gl_Click(sender As Object, e As EventArgs)
         Try
+            Dim OFD As New OpenFileDialog
             If OFD.ShowDialog = DialogResult.OK Then
                 Dim path As String = OFD.FileName
                 'TxtPath.Text = path
@@ -388,6 +378,7 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
     End Sub
     Private Sub TxtDoc_Click(sender As Object, e As EventArgs)
         Try
+            Dim OFD As New OpenFileDialog
             If OFD.ShowDialog = DialogResult.OK Then
                 Dim path As String = OFD.FileName
                 'TxtDoc.Text = path
@@ -410,8 +401,9 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
             MessageBox.Show(ex.ToString)
         End Try
     End Sub
-    Private Sub Guna2Button12_Click_1(sender As Object, e As EventArgs) Handles Guna2Button12.Click
+    Private Sub Guna2Button12_Click_1(sender As Object, e As EventArgs)
         Try
+            Dim OFD As New OpenFileDialog
             OFD.Filter = "Excel 2013|*.xlsx|Excel 2003|*.xls"
             If OFD.ShowDialog = DialogResult.OK Then
                 DgvAddItems.DataSource = Nothing
@@ -457,40 +449,40 @@ DgvAdderItem.Rows(i).Cells(11).Value, DgvAdderItem.Rows(i).Cells(10).Value)
 
     Private Sub pbAddSetItem_Click(sender As Object, e As EventArgs) Handles pbAddSetItem.Click
         Try
-            Dim f As New FrmAdderItem
+            Dim f As New frmGoldAddStone
             Dim dt As New DataTable
             dt.Clear()
             dt = ClsMain_.GetItemCode()
             If dt.Rows.Count > 0 Then
-                f.TxtCode.Text = dt.Rows(0)(0)
+                'frmGoldAddStone.TxtCode.Text = dt.Rows(0)(0)
                 Dim s As String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghigklmnopqrstuvxyz"
                 Dim r As New Random
-                Dim sb As New StringBuilder
+                Dim sb As New System.Text.StringBuilder
                 For i As Integer = 1 To 8
                     Dim idx As Integer = r.Next(0, 35)
                     sb.Append(s.Substring(idx, 1))
                 Next
                 'f.txtBarCode.Text = sb.ToString()
             End If
-            f.ShowDialog()
-            If f.IsYes = True Then
-                'Dim row As String() = New String() {
-                '                                 f.TxtCode.Text,
-                '                                 f.TxtBarCode.Text,
-                '                                 f.ComNameBlock.Text,
-                '                                 f.ComKart.SelectedValue,
-                '                                 f.TxtWeight.Text,
-                '                                 f.TxtMade.Text,
-                '                                 f.TxtCost.Text,
-                '                                 f.TxtCostGram.Text,
-                '                                 f.ComMadINBlock.SelectedValue,
-                '                                 f.TxtPeace.Text,
-                '                                 f.TxtRamzBlock.Text,
-                '                                 f.TxtNumberBlock.Text,
-                '                                 f.ComSupplierBlock.SelectedValue,
-                '                                 f.TxtPath.Text}
-                'DgvAdderItem.Rows.Add(row)
-            End If
+            frmGoldAddStone.ShowDialog()
+            'If frmGoldAddStone.IsYes = True Then
+            'Dim row As String() = New String() {
+            '                                 f.TxtCode.Text,
+            '                                 f.TxtBarCode.Text,
+            '                                 f.ComNameBlock.Text,
+            '                                 f.ComKart.SelectedValue,
+            '                                 f.TxtWeight.Text,
+            '                                 f.TxtMade.Text,
+            '                                 f.TxtCost.Text,
+            '                                 f.TxtCostGram.Text,
+            '                                 f.ComMadINBlock.SelectedValue,
+            '                                 f.TxtPeace.Text,
+            '                                 f.TxtRamzBlock.Text,
+            '                                 f.TxtNumberBlock.Text,
+            '                                 f.ComSupplierBlock.SelectedValue,
+            '                                 f.TxtPath.Text}
+            'DgvAdderItem.Rows.Add(row)
+            'End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try

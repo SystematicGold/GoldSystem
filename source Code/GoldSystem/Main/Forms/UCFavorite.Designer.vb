@@ -23,41 +23,41 @@ Partial Class UCFavorite
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UCFavorite))
-        Me.PictureEdit13 = New DevExpress.XtraEditors.PictureEdit()
-        CType(Me.PictureEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.pbStar = New DevExpress.XtraEditors.PictureEdit()
+        CType(Me.pbStar.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PictureEdit13
+        'pbStar
         '
-        Me.PictureEdit13.Cursor = System.Windows.Forms.Cursors.Default
-        Me.PictureEdit13.EditValue = CType(resources.GetObject("PictureEdit13.EditValue"), Object)
-        Me.PictureEdit13.Location = New System.Drawing.Point(0, 0)
-        Me.PictureEdit13.Name = "PictureEdit13"
-        Me.PictureEdit13.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
-        Me.PictureEdit13.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
-        Me.PictureEdit13.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
-        Me.PictureEdit13.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
-        Me.PictureEdit13.Properties.Appearance.Options.UseBackColor = True
-        Me.PictureEdit13.Properties.Appearance.Options.UseBorderColor = True
-        Me.PictureEdit13.Properties.Appearance.Options.UseForeColor = True
-        Me.PictureEdit13.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.PictureEdit13.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
-        Me.PictureEdit13.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
-        Me.PictureEdit13.Size = New System.Drawing.Size(30, 30)
-        Me.PictureEdit13.TabIndex = 56
+        Me.pbStar.Cursor = System.Windows.Forms.Cursors.Default
+        Me.pbStar.EditValue = CType(resources.GetObject("pbStar.EditValue"), Object)
+        Me.pbStar.Location = New System.Drawing.Point(0, 0)
+        Me.pbStar.Name = "pbStar"
+        Me.pbStar.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
+        Me.pbStar.Properties.Appearance.BackColor2 = System.Drawing.Color.Transparent
+        Me.pbStar.Properties.Appearance.BorderColor = System.Drawing.Color.Transparent
+        Me.pbStar.Properties.Appearance.ForeColor = System.Drawing.Color.Transparent
+        Me.pbStar.Properties.Appearance.Options.UseBackColor = True
+        Me.pbStar.Properties.Appearance.Options.UseBorderColor = True
+        Me.pbStar.Properties.Appearance.Options.UseForeColor = True
+        Me.pbStar.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.pbStar.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.pbStar.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
+        Me.pbStar.Size = New System.Drawing.Size(30, 30)
+        Me.pbStar.TabIndex = 56
         '
-        'Favorite
+        'UCFavorite
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Transparent
-        Me.Controls.Add(Me.PictureEdit13)
-        Me.Name = "Favorite"
+        Me.Controls.Add(Me.pbStar)
+        Me.Name = "UCFavorite"
         Me.Size = New System.Drawing.Size(30, 30)
-        CType(Me.PictureEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbStar.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Private WithEvents PictureEdit13 As DevExpress.XtraEditors.PictureEdit
+    Private WithEvents pbStar As DevExpress.XtraEditors.PictureEdit
 End Class

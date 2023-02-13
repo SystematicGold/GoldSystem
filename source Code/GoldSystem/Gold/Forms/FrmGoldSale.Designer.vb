@@ -110,7 +110,7 @@ Partial Class FrmGoldSale
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.CivilId1 = New GoldSystem.UCCivilId()
+        Me.CivilId1 = New GoldSystem.ucCivilID()
         Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
         Me.TabNavigationPage1 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
@@ -1272,7 +1272,7 @@ Partial Class FrmGoldSale
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents CivilId1 As UCCivilId
+    Friend WithEvents CivilId1 As ucCivilID
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents colPayNameAr As DataGridViewTextBoxColumn
     Friend WithEvents colPayAmount As DataGridViewTextBoxColumn
