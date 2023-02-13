@@ -240,10 +240,10 @@
     <Compile Include="Gold\Forms\frmGoldItem.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldPurchase1.Designer.vb">
-      <DependentUpon>frmGoldPurchase1.vb</DependentUpon>
+    <Compile Include="Gold\Forms\frmGoldSale.Designer.vb">
+      <DependentUpon>frmGoldSale.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldPurchase1.vb">
+    <Compile Include="Gold\Forms\frmGoldSale.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gold\Forms\frmGoldTransaction.Designer.vb">
@@ -312,10 +312,10 @@
     <Compile Include="Gold\Forms\frmGoldPrintBarCode.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldSale.Designer.vb">
-      <DependentUpon>frmGoldSale.vb</DependentUpon>
+    <Compile Include="Gold\Forms\frmGoldSale1.Designer.vb">
+      <DependentUpon>frmGoldSale1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldSale.vb">
+    <Compile Include="Gold\Forms\frmGoldSale1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login\Cls\ClsLogin.vb" />
@@ -410,8 +410,8 @@
     <EmbeddedResource Include="Gold\Forms\frmGoldPrintBarCode.resx">
       <DependentUpon>frmGoldPrintBarCode.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldPurchase1.resx">
-      <DependentUpon>frmGoldPurchase1.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\frmGoldSale.resx">
+      <DependentUpon>frmGoldSale.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\frmGoldTransaction.resx">
       <DependentUpon>frmGoldTransaction.vb</DependentUpon>
@@ -443,8 +443,8 @@
     <EmbeddedResource Include="Main\Forms\frmVoucher.resx">
       <DependentUpon>frmVoucher.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldSale.resx">
-      <DependentUpon>frmGoldSale.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\frmGoldSale1.resx">
+      <DependentUpon>frmGoldSale1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\Forms\FrmLogin.ar.resx">
       <DependentUpon>FrmLogin.vb</DependentUpon>
@@ -599,6 +599,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Scanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CameraSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScannerSmall.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="..\packages\EmptyLicensesLicx.3.0.0\build\EmptyLicensesLicx.targets" Condition="Exists('..\packages\EmptyLicensesLicx.3.0.0\build\EmptyLicensesLicx.targets')" />

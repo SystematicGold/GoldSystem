@@ -73,7 +73,7 @@ Partial Class UCGoldAddItem
         Me.lblCountryOfOrigin = New DevExpress.XtraEditors.LabelControl()
         Me.lblItemName = New DevExpress.XtraEditors.LabelControl()
         Me.gbStoneData = New DevExpress.XtraEditors.GroupControl()
-        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
+        Me.gridStone = New DevExpress.XtraGrid.GridControl()
         Me.DgvStone = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.colStoneCode = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colStoneSerial = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -114,13 +114,13 @@ Partial Class UCGoldAddItem
         CType(Me.cmbItemName.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gbStoneData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbStoneData.SuspendLayout()
-        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.gridStone, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtDocumentPath
         '
-        Me.txtDocumentPath.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtDocumentPath.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtDocumentPath.Location = New System.Drawing.Point(14, 138)
         Me.txtDocumentPath.Margin = New System.Windows.Forms.Padding(4)
         Me.txtDocumentPath.Name = "txtDocumentPath"
@@ -133,7 +133,7 @@ Partial Class UCGoldAddItem
         '
         'txtImagePath
         '
-        Me.txtImagePath.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.txtImagePath.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtImagePath.Location = New System.Drawing.Point(14, 90)
         Me.txtImagePath.Margin = New System.Windows.Forms.Padding(4)
         Me.txtImagePath.Name = "txtImagePath"
@@ -146,7 +146,7 @@ Partial Class UCGoldAddItem
         '
         'pbAddStone
         '
-        Me.pbAddStone.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pbAddStone.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.pbAddStone.Cursor = System.Windows.Forms.Cursors.Default
         Me.pbAddStone.EditValue = CType(resources.GetObject("pbAddStone.EditValue"), Object)
         Me.pbAddStone.Location = New System.Drawing.Point(1214, 1)
@@ -213,6 +213,7 @@ Partial Class UCGoldAddItem
         Me.gbItemData.Controls.Add(Me.lblItemName)
         Me.gbItemData.Controls.Add(Me.txtDocumentPath)
         Me.gbItemData.Controls.Add(Me.txtImagePath)
+        Me.gbItemData.Dock = System.Windows.Forms.DockStyle.Top
         Me.gbItemData.Location = New System.Drawing.Point(0, 0)
         Me.gbItemData.Name = "gbItemData"
         Me.gbItemData.RightToLeft = System.Windows.Forms.RightToLeft.Yes
@@ -222,6 +223,7 @@ Partial Class UCGoldAddItem
         '
         'txtNote
         '
+        Me.txtNote.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtNote.Location = New System.Drawing.Point(179, 139)
         Me.txtNote.Name = "txtNote"
         Me.txtNote.Size = New System.Drawing.Size(495, 20)
@@ -229,6 +231,7 @@ Partial Class UCGoldAddItem
         '
         'dtpDateAdded
         '
+        Me.dtpDateAdded.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.dtpDateAdded.EditValue = Nothing
         Me.dtpDateAdded.Location = New System.Drawing.Point(179, 91)
         Me.dtpDateAdded.Name = "dtpDateAdded"
@@ -239,6 +242,7 @@ Partial Class UCGoldAddItem
         '
         'lblDocument
         '
+        Me.lblDocument.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblDocument.Appearance.Options.UseTextOptions = True
         Me.lblDocument.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblDocument.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -251,6 +255,7 @@ Partial Class UCGoldAddItem
         '
         'dtpDateOfManufacture
         '
+        Me.dtpDateOfManufacture.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.dtpDateOfManufacture.EditValue = Nothing
         Me.dtpDateOfManufacture.Location = New System.Drawing.Point(344, 91)
         Me.dtpDateOfManufacture.Name = "dtpDateOfManufacture"
@@ -261,6 +266,7 @@ Partial Class UCGoldAddItem
         '
         'txtBarCode
         '
+        Me.txtBarCode.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtBarCode.Location = New System.Drawing.Point(674, 139)
         Me.txtBarCode.Name = "txtBarCode"
         Me.txtBarCode.Properties.Appearance.Options.UseTextOptions = True
@@ -270,6 +276,7 @@ Partial Class UCGoldAddItem
         '
         'txtCostPerPiece
         '
+        Me.txtCostPerPiece.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtCostPerPiece.Location = New System.Drawing.Point(14, 45)
         Me.txtCostPerPiece.Name = "txtCostPerPiece"
         Me.txtCostPerPiece.Properties.Appearance.Options.UseTextOptions = True
@@ -279,6 +286,7 @@ Partial Class UCGoldAddItem
         '
         'txtSymbol
         '
+        Me.txtSymbol.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtSymbol.Location = New System.Drawing.Point(839, 139)
         Me.txtSymbol.Name = "txtSymbol"
         Me.txtSymbol.Properties.Appearance.Options.UseTextOptions = True
@@ -288,6 +296,7 @@ Partial Class UCGoldAddItem
         '
         'cmbItemCondition
         '
+        Me.cmbItemCondition.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.cmbItemCondition.Location = New System.Drawing.Point(509, 91)
         Me.cmbItemCondition.Name = "cmbItemCondition"
         Me.cmbItemCondition.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -296,6 +305,7 @@ Partial Class UCGoldAddItem
         '
         'txtItemNo
         '
+        Me.txtItemNo.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtItemNo.Location = New System.Drawing.Point(1004, 139)
         Me.txtItemNo.Name = "txtItemNo"
         Me.txtItemNo.Properties.Appearance.Options.UseTextOptions = True
@@ -305,6 +315,7 @@ Partial Class UCGoldAddItem
         '
         'lblPhoto
         '
+        Me.lblPhoto.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblPhoto.Appearance.Options.UseTextOptions = True
         Me.lblPhoto.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblPhoto.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -317,6 +328,7 @@ Partial Class UCGoldAddItem
         '
         'txtNoOfPieces
         '
+        Me.txtNoOfPieces.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtNoOfPieces.Location = New System.Drawing.Point(1169, 139)
         Me.txtNoOfPieces.Name = "txtNoOfPieces"
         Me.txtNoOfPieces.Properties.Appearance.Options.UseTextOptions = True
@@ -326,6 +338,7 @@ Partial Class UCGoldAddItem
         '
         'cmbTaxExempt
         '
+        Me.cmbTaxExempt.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.cmbTaxExempt.Location = New System.Drawing.Point(674, 91)
         Me.cmbTaxExempt.Name = "cmbTaxExempt"
         Me.cmbTaxExempt.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -334,6 +347,7 @@ Partial Class UCGoldAddItem
         '
         'txtGramCost
         '
+        Me.txtGramCost.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtGramCost.Location = New System.Drawing.Point(179, 45)
         Me.txtGramCost.Name = "txtGramCost"
         Me.txtGramCost.Properties.Appearance.Options.UseTextOptions = True
@@ -343,6 +357,7 @@ Partial Class UCGoldAddItem
         '
         'cmbSupplierInvoiceNo
         '
+        Me.cmbSupplierInvoiceNo.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.cmbSupplierInvoiceNo.Location = New System.Drawing.Point(839, 91)
         Me.cmbSupplierInvoiceNo.Name = "cmbSupplierInvoiceNo"
         Me.cmbSupplierInvoiceNo.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -351,6 +366,7 @@ Partial Class UCGoldAddItem
         '
         'lblCostPerPiece
         '
+        Me.lblCostPerPiece.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblCostPerPiece.Appearance.Options.UseTextOptions = True
         Me.lblCostPerPiece.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCostPerPiece.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -363,6 +379,7 @@ Partial Class UCGoldAddItem
         '
         'cmbSupplier
         '
+        Me.cmbSupplier.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.cmbSupplier.Location = New System.Drawing.Point(1004, 91)
         Me.cmbSupplier.Name = "cmbSupplier"
         Me.cmbSupplier.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -371,6 +388,7 @@ Partial Class UCGoldAddItem
         '
         'txtCostForSeller
         '
+        Me.txtCostForSeller.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtCostForSeller.Location = New System.Drawing.Point(344, 45)
         Me.txtCostForSeller.Name = "txtCostForSeller"
         Me.txtCostForSeller.Properties.Appearance.Options.UseTextOptions = True
@@ -380,6 +398,7 @@ Partial Class UCGoldAddItem
         '
         'cmbCountryOfOrigin
         '
+        Me.cmbCountryOfOrigin.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.cmbCountryOfOrigin.Location = New System.Drawing.Point(1169, 91)
         Me.cmbCountryOfOrigin.Name = "cmbCountryOfOrigin"
         Me.cmbCountryOfOrigin.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -388,6 +407,7 @@ Partial Class UCGoldAddItem
         '
         'lblDateAdded
         '
+        Me.lblDateAdded.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblDateAdded.Appearance.Options.UseTextOptions = True
         Me.lblDateAdded.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblDateAdded.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -400,6 +420,7 @@ Partial Class UCGoldAddItem
         '
         'txtCostPerGram
         '
+        Me.txtCostPerGram.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtCostPerGram.Location = New System.Drawing.Point(509, 45)
         Me.txtCostPerGram.Name = "txtCostPerGram"
         Me.txtCostPerGram.Properties.Appearance.Options.UseTextOptions = True
@@ -409,6 +430,7 @@ Partial Class UCGoldAddItem
         '
         'lblGramCost
         '
+        Me.lblGramCost.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblGramCost.Appearance.Options.UseTextOptions = True
         Me.lblGramCost.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblGramCost.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -421,6 +443,7 @@ Partial Class UCGoldAddItem
         '
         'txtMakingCharge
         '
+        Me.txtMakingCharge.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtMakingCharge.Location = New System.Drawing.Point(674, 45)
         Me.txtMakingCharge.Name = "txtMakingCharge"
         Me.txtMakingCharge.Properties.Appearance.Options.UseTextOptions = True
@@ -430,6 +453,7 @@ Partial Class UCGoldAddItem
         '
         'lblDateOfManufacture
         '
+        Me.lblDateOfManufacture.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblDateOfManufacture.Appearance.Options.UseTextOptions = True
         Me.lblDateOfManufacture.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblDateOfManufacture.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -442,6 +466,7 @@ Partial Class UCGoldAddItem
         '
         'txtGoldWeight
         '
+        Me.txtGoldWeight.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.txtGoldWeight.Location = New System.Drawing.Point(839, 45)
         Me.txtGoldWeight.Name = "txtGoldWeight"
         Me.txtGoldWeight.Properties.Appearance.Options.UseTextOptions = True
@@ -451,6 +476,7 @@ Partial Class UCGoldAddItem
         '
         'lblCostForSeller
         '
+        Me.lblCostForSeller.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblCostForSeller.Appearance.Options.UseTextOptions = True
         Me.lblCostForSeller.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCostForSeller.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -463,6 +489,7 @@ Partial Class UCGoldAddItem
         '
         'cmbKarat
         '
+        Me.cmbKarat.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.cmbKarat.Location = New System.Drawing.Point(1004, 45)
         Me.cmbKarat.Name = "cmbKarat"
         Me.cmbKarat.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -471,6 +498,7 @@ Partial Class UCGoldAddItem
         '
         'lblNote
         '
+        Me.lblNote.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblNote.Appearance.Options.UseTextOptions = True
         Me.lblNote.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblNote.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -483,6 +511,7 @@ Partial Class UCGoldAddItem
         '
         'cmbItemName
         '
+        Me.cmbItemName.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.cmbItemName.Location = New System.Drawing.Point(1169, 45)
         Me.cmbItemName.Name = "cmbItemName"
         Me.cmbItemName.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -491,6 +520,7 @@ Partial Class UCGoldAddItem
         '
         'lblItemCondition
         '
+        Me.lblItemCondition.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblItemCondition.Appearance.Options.UseTextOptions = True
         Me.lblItemCondition.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblItemCondition.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -503,6 +533,7 @@ Partial Class UCGoldAddItem
         '
         'lblCostPerGram
         '
+        Me.lblCostPerGram.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblCostPerGram.Appearance.Options.UseTextOptions = True
         Me.lblCostPerGram.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCostPerGram.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -515,6 +546,7 @@ Partial Class UCGoldAddItem
         '
         'lblBarCode
         '
+        Me.lblBarCode.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblBarCode.Appearance.Options.UseTextOptions = True
         Me.lblBarCode.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblBarCode.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -527,6 +559,7 @@ Partial Class UCGoldAddItem
         '
         'lblTaxExempt
         '
+        Me.lblTaxExempt.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblTaxExempt.Appearance.Options.UseTextOptions = True
         Me.lblTaxExempt.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblTaxExempt.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -539,6 +572,7 @@ Partial Class UCGoldAddItem
         '
         'lblMakingCharge
         '
+        Me.lblMakingCharge.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblMakingCharge.Appearance.Options.UseTextOptions = True
         Me.lblMakingCharge.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblMakingCharge.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -551,6 +585,7 @@ Partial Class UCGoldAddItem
         '
         'lblSymbol
         '
+        Me.lblSymbol.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblSymbol.Appearance.Options.UseTextOptions = True
         Me.lblSymbol.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblSymbol.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -563,6 +598,7 @@ Partial Class UCGoldAddItem
         '
         'lblSupplierInvoiceNo
         '
+        Me.lblSupplierInvoiceNo.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblSupplierInvoiceNo.Appearance.Options.UseTextOptions = True
         Me.lblSupplierInvoiceNo.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblSupplierInvoiceNo.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -575,6 +611,7 @@ Partial Class UCGoldAddItem
         '
         'lblGoldWeight
         '
+        Me.lblGoldWeight.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblGoldWeight.Appearance.Options.UseTextOptions = True
         Me.lblGoldWeight.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblGoldWeight.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -587,6 +624,7 @@ Partial Class UCGoldAddItem
         '
         'lblItemNo
         '
+        Me.lblItemNo.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblItemNo.Appearance.Options.UseTextOptions = True
         Me.lblItemNo.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblItemNo.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -599,6 +637,7 @@ Partial Class UCGoldAddItem
         '
         'lblSupplier
         '
+        Me.lblSupplier.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblSupplier.Appearance.Options.UseTextOptions = True
         Me.lblSupplier.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblSupplier.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -611,6 +650,7 @@ Partial Class UCGoldAddItem
         '
         'lblKarat
         '
+        Me.lblKarat.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblKarat.Appearance.Options.UseTextOptions = True
         Me.lblKarat.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblKarat.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -623,6 +663,7 @@ Partial Class UCGoldAddItem
         '
         'lblNoOfPieces
         '
+        Me.lblNoOfPieces.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblNoOfPieces.Appearance.Options.UseTextOptions = True
         Me.lblNoOfPieces.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblNoOfPieces.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -635,6 +676,7 @@ Partial Class UCGoldAddItem
         '
         'lblCountryOfOrigin
         '
+        Me.lblCountryOfOrigin.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblCountryOfOrigin.Appearance.Options.UseTextOptions = True
         Me.lblCountryOfOrigin.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCountryOfOrigin.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -647,6 +689,7 @@ Partial Class UCGoldAddItem
         '
         'lblItemName
         '
+        Me.lblItemName.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblItemName.Appearance.Options.UseTextOptions = True
         Me.lblItemName.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblItemName.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -659,29 +702,30 @@ Partial Class UCGoldAddItem
         '
         'gbStoneData
         '
-        Me.gbStoneData.Controls.Add(Me.GridControl1)
+        Me.gbStoneData.Controls.Add(Me.gridStone)
         Me.gbStoneData.Controls.Add(Me.pbAddStone)
-        Me.gbStoneData.Location = New System.Drawing.Point(0, 167)
+        Me.gbStoneData.Dock = System.Windows.Forms.DockStyle.Top
+        Me.gbStoneData.Location = New System.Drawing.Point(0, 166)
         Me.gbStoneData.Name = "gbStoneData"
         Me.gbStoneData.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.gbStoneData.Size = New System.Drawing.Size(1350, 115)
         Me.gbStoneData.TabIndex = 1
         Me.gbStoneData.Text = "بيانات الفصوص"
         '
-        'GridControl1
+        'gridStone
         '
-        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GridControl1.Location = New System.Drawing.Point(2, 23)
-        Me.GridControl1.MainView = Me.DgvStone
-        Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1346, 90)
-        Me.GridControl1.TabIndex = 102
-        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.DgvStone})
+        Me.gridStone.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.gridStone.Location = New System.Drawing.Point(2, 23)
+        Me.gridStone.MainView = Me.DgvStone
+        Me.gridStone.Name = "gridStone"
+        Me.gridStone.Size = New System.Drawing.Size(1346, 90)
+        Me.gridStone.TabIndex = 102
+        Me.gridStone.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.DgvStone})
         '
         'DgvStone
         '
         Me.DgvStone.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colStoneCode, Me.colStoneSerial, Me.colStoneType, Me.colStoneName, Me.colStoneWeight, Me.colStoneColor, Me.colStoneClarity, Me.colStoneCut, Me.colStonePrice, Me.colStoneView})
-        Me.DgvStone.GridControl = Me.GridControl1
+        Me.DgvStone.GridControl = Me.gridStone
         Me.DgvStone.Name = "DgvStone"
         Me.DgvStone.OptionsView.ShowGroupPanel = False
         '
@@ -830,7 +874,7 @@ Partial Class UCGoldAddItem
         CType(Me.cmbItemName.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gbStoneData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbStoneData.ResumeLayout(False)
-        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.gridStone, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -862,7 +906,7 @@ Partial Class UCGoldAddItem
     Friend WithEvents lblSymbol As DevExpress.XtraEditors.LabelControl
     Friend WithEvents lblItemNo As DevExpress.XtraEditors.LabelControl
     Friend WithEvents lblNoOfPieces As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
+    Friend WithEvents gridStone As DevExpress.XtraGrid.GridControl
     Friend WithEvents DgvStone As DevExpress.XtraGrid.Views.Grid.GridView
     Friend WithEvents colStoneCode As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colStoneSerial As DevExpress.XtraGrid.Columns.GridColumn

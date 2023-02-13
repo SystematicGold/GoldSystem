@@ -942,6 +942,7 @@ Partial Class FrmMain
         Me.Controls.Add(Me.RibbonControl1)
         Me.Font = New System.Drawing.Font("Tahoma", 12.0!)
         Me.IsMdiContainer = True
+        Me.MinimumSize = New System.Drawing.Size(1366, 768)
         Me.Name = "FrmMain"
         Me.Ribbon = Me.RibbonControl1
         Me.RightToLeft = System.Windows.Forms.RightToLeft.Yes

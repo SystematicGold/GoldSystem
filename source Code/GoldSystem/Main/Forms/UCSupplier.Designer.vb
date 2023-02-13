@@ -220,7 +220,6 @@ Partial Class ucSupplier
         '
         'PictureEdit15
         '
-        Me.PictureEdit15.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureEdit15.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit15.EditValue = CType(resources.GetObject("PictureEdit15.EditValue"), Object)
         Me.PictureEdit15.Location = New System.Drawing.Point(614, 236)
@@ -242,7 +241,6 @@ Partial Class ucSupplier
         '
         'PictureEdit11
         '
-        Me.PictureEdit11.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureEdit11.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit11.EditValue = CType(resources.GetObject("PictureEdit11.EditValue"), Object)
         Me.PictureEdit11.Location = New System.Drawing.Point(614, 213)
@@ -264,7 +262,6 @@ Partial Class ucSupplier
         '
         'PictureEdit1
         '
-        Me.PictureEdit1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureEdit1.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit1.EditValue = CType(resources.GetObject("PictureEdit1.EditValue"), Object)
         Me.PictureEdit1.Location = New System.Drawing.Point(614, 109)
@@ -286,7 +283,7 @@ Partial Class ucSupplier
         '
         'PictureEdit14
         '
-        Me.PictureEdit14.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.PictureEdit14.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit14.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit14.EditValue = CType(resources.GetObject("PictureEdit14.EditValue"), Object)
         Me.PictureEdit14.Location = New System.Drawing.Point(913, 236)
@@ -308,7 +305,7 @@ Partial Class ucSupplier
         '
         'PictureEdit10
         '
-        Me.PictureEdit10.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.PictureEdit10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit10.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit10.EditValue = CType(resources.GetObject("PictureEdit10.EditValue"), Object)
         Me.PictureEdit10.Location = New System.Drawing.Point(913, 213)
@@ -330,7 +327,7 @@ Partial Class ucSupplier
         '
         'pbSearchPhone
         '
-        Me.pbSearchPhone.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.pbSearchPhone.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pbSearchPhone.Cursor = System.Windows.Forms.Cursors.Default
         Me.pbSearchPhone.EditValue = CType(resources.GetObject("pbSearchPhone.EditValue"), Object)
         Me.pbSearchPhone.Location = New System.Drawing.Point(913, 109)
@@ -392,7 +389,6 @@ Partial Class ucSupplier
         '
         'PictureEdit13
         '
-        Me.PictureEdit13.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureEdit13.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit13.EditValue = CType(resources.GetObject("PictureEdit13.EditValue"), Object)
         Me.PictureEdit13.Location = New System.Drawing.Point(502, 236)
@@ -414,7 +410,6 @@ Partial Class ucSupplier
         '
         'PictureEdit9
         '
-        Me.PictureEdit9.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureEdit9.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit9.EditValue = CType(resources.GetObject("PictureEdit9.EditValue"), Object)
         Me.PictureEdit9.Location = New System.Drawing.Point(502, 213)
@@ -436,7 +431,6 @@ Partial Class ucSupplier
         '
         'PictureEdit2
         '
-        Me.PictureEdit2.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureEdit2.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit2.EditValue = CType(resources.GetObject("PictureEdit2.EditValue"), Object)
         Me.PictureEdit2.Location = New System.Drawing.Point(502, 109)
@@ -458,7 +452,7 @@ Partial Class ucSupplier
         '
         'PictureEdit12
         '
-        Me.PictureEdit12.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.PictureEdit12.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit12.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit12.EditValue = CType(resources.GetObject("PictureEdit12.EditValue"), Object)
         Me.PictureEdit12.Location = New System.Drawing.Point(1025, 236)
@@ -480,7 +474,7 @@ Partial Class ucSupplier
         '
         'PictureEdit8
         '
-        Me.PictureEdit8.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.PictureEdit8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit8.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit8.EditValue = CType(resources.GetObject("PictureEdit8.EditValue"), Object)
         Me.PictureEdit8.Location = New System.Drawing.Point(1025, 213)
@@ -502,7 +496,7 @@ Partial Class ucSupplier
         '
         'pbAddPhone
         '
-        Me.pbAddPhone.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.pbAddPhone.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pbAddPhone.Cursor = System.Windows.Forms.Cursors.Default
         Me.pbAddPhone.EditValue = CType(resources.GetObject("pbAddPhone.EditValue"), Object)
         Me.pbAddPhone.Location = New System.Drawing.Point(1025, 109)
@@ -524,6 +518,8 @@ Partial Class ucSupplier
         '
         'cmbCompanyLocation
         '
+        Me.cmbCompanyLocation.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbCompanyLocation.Location = New System.Drawing.Point(636, 108)
         Me.cmbCompanyLocation.Name = "cmbCompanyLocation"
         Me.cmbCompanyLocation.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -532,6 +528,8 @@ Partial Class ucSupplier
         '
         'cmbEmployeeName
         '
+        Me.cmbEmployeeName.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbEmployeeName.Location = New System.Drawing.Point(636, 235)
         Me.cmbEmployeeName.Name = "cmbEmployeeName"
         Me.cmbEmployeeName.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -540,6 +538,8 @@ Partial Class ucSupplier
         '
         'cmbCompanyPhone
         '
+        Me.cmbCompanyPhone.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.cmbCompanyPhone.Location = New System.Drawing.Point(636, 212)
         Me.cmbCompanyPhone.Name = "cmbCompanyPhone"
         Me.cmbCompanyPhone.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -596,6 +596,7 @@ Partial Class ucSupplier
         '
         'lblEmployeeNameAr
         '
+        Me.lblEmployeeNameAr.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblEmployeeNameAr.Appearance.Options.UseTextOptions = True
         Me.lblEmployeeNameAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblEmployeeNameAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -609,6 +610,7 @@ Partial Class ucSupplier
         '
         'lblCompanyPhoneAr
         '
+        Me.lblCompanyPhoneAr.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblCompanyPhoneAr.Appearance.Options.UseTextOptions = True
         Me.lblCompanyPhoneAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCompanyPhoneAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -622,6 +624,7 @@ Partial Class ucSupplier
         '
         'lblPACINoAr
         '
+        Me.lblPACINoAr.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblPACINoAr.Appearance.Options.UseTextOptions = True
         Me.lblPACINoAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblPACINoAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -635,6 +638,7 @@ Partial Class ucSupplier
         '
         'lblCompanyEmailAr
         '
+        Me.lblCompanyEmailAr.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblCompanyEmailAr.Appearance.Options.UseTextOptions = True
         Me.lblCompanyEmailAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCompanyEmailAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -660,6 +664,7 @@ Partial Class ucSupplier
         '
         'lblCompanyAddressAr
         '
+        Me.lblCompanyAddressAr.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblCompanyAddressAr.Appearance.Options.UseTextOptions = True
         Me.lblCompanyAddressAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCompanyAddressAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -685,6 +690,7 @@ Partial Class ucSupplier
         '
         'lblCompanyLocationAr
         '
+        Me.lblCompanyLocationAr.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblCompanyLocationAr.Appearance.Options.UseTextOptions = True
         Me.lblCompanyLocationAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCompanyLocationAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -710,6 +716,7 @@ Partial Class ucSupplier
         '
         'lblCommercialRegAr
         '
+        Me.lblCommercialRegAr.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblCommercialRegAr.Appearance.Options.UseTextOptions = True
         Me.lblCommercialRegAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCommercialRegAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -735,6 +742,7 @@ Partial Class ucSupplier
         '
         'lblCompanyNameFormalAr
         '
+        Me.lblCompanyNameFormalAr.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblCompanyNameFormalAr.Appearance.Options.UseTextOptions = True
         Me.lblCompanyNameFormalAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCompanyNameFormalAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -760,6 +768,7 @@ Partial Class ucSupplier
         '
         'lblCompanyNameShortAr
         '
+        Me.lblCompanyNameShortAr.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblCompanyNameShortAr.Appearance.Options.UseTextOptions = True
         Me.lblCompanyNameShortAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCompanyNameShortAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
@@ -773,7 +782,8 @@ Partial Class ucSupplier
         '
         'txtPACINo
         '
-        Me.txtPACINo.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.txtPACINo.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtPACINo.Location = New System.Drawing.Point(636, 185)
         Me.txtPACINo.Name = "txtPACINo"
         EditorButtonImageOptions1.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
@@ -784,7 +794,8 @@ Partial Class ucSupplier
         '
         'txtCompanyEmail
         '
-        Me.txtCompanyEmail.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.txtCompanyEmail.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtCompanyEmail.Location = New System.Drawing.Point(636, 158)
         Me.txtCompanyEmail.Name = "txtCompanyEmail"
         EditorButtonImageOptions2.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
@@ -795,7 +806,8 @@ Partial Class ucSupplier
         '
         'txtCompanyAddress
         '
-        Me.txtCompanyAddress.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.txtCompanyAddress.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtCompanyAddress.Location = New System.Drawing.Point(636, 131)
         Me.txtCompanyAddress.Name = "txtCompanyAddress"
         EditorButtonImageOptions3.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
@@ -806,7 +818,8 @@ Partial Class ucSupplier
         '
         'txtCommercialReg
         '
-        Me.txtCommercialReg.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.txtCommercialReg.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtCommercialReg.Location = New System.Drawing.Point(636, 81)
         Me.txtCommercialReg.Name = "txtCommercialReg"
         EditorButtonImageOptions4.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
@@ -817,7 +830,8 @@ Partial Class ucSupplier
         '
         'txtCompanyNameFormal
         '
-        Me.txtCompanyNameFormal.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.txtCompanyNameFormal.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtCompanyNameFormal.Location = New System.Drawing.Point(636, 54)
         Me.txtCompanyNameFormal.Name = "txtCompanyNameFormal"
         EditorButtonImageOptions5.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
@@ -828,7 +842,8 @@ Partial Class ucSupplier
         '
         'txtCompanyNameShort
         '
-        Me.txtCompanyNameShort.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.txtCompanyNameShort.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.txtCompanyNameShort.Location = New System.Drawing.Point(636, 27)
         Me.txtCompanyNameShort.Name = "txtCompanyNameShort"
         EditorButtonImageOptions6.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
@@ -839,6 +854,7 @@ Partial Class ucSupplier
         '
         'PictureEdit3
         '
+        Me.PictureEdit3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureEdit3.Cursor = System.Windows.Forms.Cursors.Default
         Me.PictureEdit3.EditValue = CType(resources.GetObject("PictureEdit3.EditValue"), Object)
         Me.PictureEdit3.Location = New System.Drawing.Point(934, 1)

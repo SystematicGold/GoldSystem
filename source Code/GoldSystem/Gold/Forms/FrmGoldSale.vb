@@ -1,3 +1,3 @@
-﻿Public Class FrmGoldSale
+﻿Public Class frmGoldSale
 
 End Class
