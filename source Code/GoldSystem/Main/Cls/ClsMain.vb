@@ -1,4 +1,7 @@
-﻿Public Class ClsMain
+﻿Imports DevExpress.XtraCharts.Native
+
+Public Class ClsMain
+    Dim Con As New ClsConnectionString
     Public Function GetItemCode()
         Dim Con As New ClsConnectionString
         Dim dt As New DataTable
@@ -28,4 +31,10 @@
                         CompanyId = '" & CompanyId & "',
                         WHERE Code = " & Code & "")
     End Sub
+    Public Function CountryOfOrigin() As DataTable
+        Dim DT As New DataTable
+        DT.Clear()
+        DT = Con.SELECT_TXT("SELECT [Id] , [Code] , [NameAr] , [NameEn] FROM [DeffCountryOfOrigin] WHERE [Enabled] = 1 ORDER BY [Code]")
+        Return DT
+    End Function
 End Class

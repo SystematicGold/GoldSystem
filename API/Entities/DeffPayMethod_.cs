@@ -11,7 +11,6 @@ namespace API.Entities
         public long Code { get; set; }
         public string PayMethodAr { get; set; }
         public string PayMethodEn { get; set; }
-        public int Status { get; set; }
-        
+        public bool Enabled { get; set; }
     }
 }

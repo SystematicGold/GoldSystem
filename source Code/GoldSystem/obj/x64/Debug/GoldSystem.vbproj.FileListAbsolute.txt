@@ -467,6 +467,8 @@ C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\x64\Debug\Gold
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\x64\Debug\GoldSystem.exe
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\x64\Debug\GoldSystem.xml
 C:\Users\mts_e\Desktop\GoldSystem-main\source Code\GoldSystem\obj\x64\Debug\GoldSystem.pdb
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.PivotGrid.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.RichEdit.v22.2.Core.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\GoldSystem.exe.config
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\GoldSystem.exe
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\GoldSystem.pdb
@@ -574,6 +576,7 @@ D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Char
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Data.Desktop.v22.2.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Data.v22.2.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.DataAccess.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Dialogs.v22.2.Core.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Drawing.v22.2.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Office.v22.2.Core.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Pdf.v22.2.Core.dll
@@ -588,6 +591,7 @@ D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Util
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Utils.v22.2.UI.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraBars.v22.2.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraCharts.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraDialogs.v22.2.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraEditors.v22.2.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraGauges.v22.2.Core.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraGrid.v22.2.dll
@@ -603,7 +607,6 @@ D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Xtra
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraTreeList.v22.2.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraTreeMap.v22.2.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraTreeMap.v22.2.UI.dll
-D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\FontAwesome.Sharp.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\Guna.UI.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\Guna.UI2.dll
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\Microsoft.Bcl.AsyncInterfaces.dll
@@ -637,9 +640,7 @@ D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Data
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.DataAccess.v22.2.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Office.v22.2.Core.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Pdf.v22.2.Core.xml
-D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.PivotGrid.v22.2.Core.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Printing.v22.2.Core.xml
-D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.RichEdit.v22.2.Core.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Sparkline.v22.2.Core.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.SpellChecker.v22.2.Core.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.TreeMap.v22.2.Core.xml
@@ -648,6 +649,7 @@ D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Util
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Utils.v22.2.UI.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraBars.v22.2.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraCharts.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraDialogs.v22.2.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraEditors.v22.2.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraGauges.v22.2.Core.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.XtraGrid.v22.2.xml
@@ -687,12 +689,13 @@ D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\x64\Debug\DevExpress.Diag
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.vbproj.AssemblyReference.cache
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.vbproj.SuggestedBindingRedirects.cache
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.exe.config
-D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.frmAccountingTree.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.FrmAccountingTree.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.FrmSelectAccount.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.Form1.resources
-D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.frmGoldAddStone.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.FrmGoldAddStone.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.frmGoldItem.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.FrmGoldPrintBarCode.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.FrmGoldSale.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.frmGoldTransaction.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.frmGoldReport.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.UCGoldAddItem.resources
@@ -703,12 +706,11 @@ D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.Prin
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.FrmMain.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.frmPermissions.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.frmVoucher.resources
-D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.FrmGoldSale.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.FrmLogin.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.SettingFile.resources
-D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.ucCivilID.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.UCCivilID.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.UCFavorite.resources
-D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.frmLanguage.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.FrmLanguage.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.frmMainOld.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.FrmMaxmizeGold.resources
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.ucSupplier.resources
@@ -727,4 +729,3 @@ D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.vbpr
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.exe
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.xml
 D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.pdb
-D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\x64\Debug\GoldSystem.frmGoldSale1.resources

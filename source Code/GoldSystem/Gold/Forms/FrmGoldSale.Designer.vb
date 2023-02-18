@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmGoldSale
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class FrmGoldSale
     Inherits DevExpress.XtraEditors.XtraForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         If disposing AndAlso components IsNot Nothing Then
             components.Dispose()
@@ -17,10 +17,16 @@ Partial Class frmGoldSale
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim WindowsUIButtonImageOptions1 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmGoldSale))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmGoldSale))
         Dim WindowsUIButtonImageOptions2 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
         Dim WindowsUIButtonImageOptions3 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
         Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
@@ -28,12 +34,13 @@ Partial Class frmGoldSale
         Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
         Me.TabNavigationPage1 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.gridItems = New DevExpress.XtraGrid.GridControl()
+        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.gbPay = New DevExpress.XtraEditors.GroupControl()
+        Me.DGVCustomerPayMethod = New System.Windows.Forms.DataGridView()
+        Me.colCustomerPayValue = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.colCustomerPayMethod = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.WindowsUIButtonPanel1 = New DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel()
-        Me.gridCustomerPay = New DevExpress.XtraGrid.GridControl()
-        Me.GridView2 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.dtpDateAdded = New DevExpress.XtraEditors.DateEdit()
         Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         Me.MemoEdit1 = New DevExpress.XtraEditors.MemoEdit()
@@ -105,17 +112,18 @@ Partial Class frmGoldSale
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.lblCountryOfOrigin = New DevExpress.XtraEditors.LabelControl()
         Me.lblItemName = New DevExpress.XtraEditors.LabelControl()
-        Me.UcCivilID1 = New GoldSystem.ucCivilID()
-        Me.gridItems = New DevExpress.XtraGrid.GridControl()
-        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.UCCivilID1 = New GoldSystem.UCCivilID()
         Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
+        Me.GridColumn1 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn2 = New DevExpress.XtraGrid.Columns.GridColumn()
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPane1.SuspendLayout()
         Me.TabNavigationPage1.SuspendLayout()
+        CType(Me.gridItems, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gbPay, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbPay.SuspendLayout()
-        CType(Me.gridCustomerPay, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DGVCustomerPayMethod, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dtpDateAdded.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dtpDateAdded.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MemoEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -153,8 +161,6 @@ Partial Class frmGoldSale
         CType(Me.txtGoldWeight.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbItemName.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.gridItems, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TabPane1
@@ -169,7 +175,7 @@ Partial Class frmGoldSale
         Me.TabPane1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.TabPane1.SelectedPage = Me.TabNavigationPage1
         Me.TabPane1.Size = New System.Drawing.Size(1364, 688)
-        Me.TabPane1.TabIndex = 121
+        Me.TabPane1.TabIndex = 0
         Me.TabPane1.Text = "TabPane1"
         '
         'TabNavigationPage1
@@ -178,14 +184,30 @@ Partial Class frmGoldSale
         Me.TabNavigationPage1.Controls.Add(Me.gridItems)
         Me.TabNavigationPage1.Controls.Add(Me.gbPay)
         Me.TabNavigationPage1.Controls.Add(Me.gbItemData)
-        Me.TabNavigationPage1.Controls.Add(Me.UcCivilID1)
+        Me.TabNavigationPage1.Controls.Add(Me.UCCivilID1)
         Me.TabNavigationPage1.Name = "TabNavigationPage1"
         Me.TabNavigationPage1.Size = New System.Drawing.Size(1364, 655)
         '
+        'gridItems
+        '
+        Me.gridItems.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.gridItems.Location = New System.Drawing.Point(0, 314)
+        Me.gridItems.MainView = Me.GridView1
+        Me.gridItems.Name = "gridItems"
+        Me.gridItems.Size = New System.Drawing.Size(1364, 180)
+        Me.gridItems.TabIndex = 2
+        Me.gridItems.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
+        '
+        'GridView1
+        '
+        Me.GridView1.GridControl = Me.gridItems
+        Me.GridView1.Name = "GridView1"
+        Me.GridView1.OptionsView.ShowGroupPanel = False
+        '
         'gbPay
         '
+        Me.gbPay.Controls.Add(Me.DGVCustomerPayMethod)
         Me.gbPay.Controls.Add(Me.WindowsUIButtonPanel1)
-        Me.gbPay.Controls.Add(Me.gridCustomerPay)
         Me.gbPay.Controls.Add(Me.dtpDateAdded)
         Me.gbPay.Controls.Add(Me.LabelControl3)
         Me.gbPay.Controls.Add(Me.MemoEdit1)
@@ -203,12 +225,66 @@ Partial Class frmGoldSale
         Me.gbPay.Controls.Add(Me.LabelControl19)
         Me.gbPay.Controls.Add(Me.LabelControl20)
         Me.gbPay.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.gbPay.Location = New System.Drawing.Point(0, 522)
+        Me.gbPay.Location = New System.Drawing.Point(0, 494)
         Me.gbPay.Name = "gbPay"
         Me.gbPay.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.gbPay.Size = New System.Drawing.Size(1364, 133)
-        Me.gbPay.TabIndex = 8
+        Me.gbPay.Size = New System.Drawing.Size(1364, 161)
+        Me.gbPay.TabIndex = 3
         Me.gbPay.Text = "تفاصيل الفاتورة والدفع"
+        '
+        'DGVCustomerPayMethod
+        '
+        Me.DGVCustomerPayMethod.AllowUserToAddRows = False
+        Me.DGVCustomerPayMethod.AllowUserToDeleteRows = False
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.DGVCustomerPayMethod.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Tahoma", 8.0!)
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGVCustomerPayMethod.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.DGVCustomerPayMethod.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGVCustomerPayMethod.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.colCustomerPayValue, Me.colCustomerPayMethod})
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Tahoma", 8.0!)
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DGVCustomerPayMethod.DefaultCellStyle = DataGridViewCellStyle5
+        Me.DGVCustomerPayMethod.Location = New System.Drawing.Point(328, 23)
+        Me.DGVCustomerPayMethod.Name = "DGVCustomerPayMethod"
+        Me.DGVCustomerPayMethod.RightToLeft = System.Windows.Forms.RightToLeft.No
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Tahoma", 8.0!)
+        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DGVCustomerPayMethod.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
+        Me.DGVCustomerPayMethod.RowHeadersWidth = 5
+        Me.DGVCustomerPayMethod.Size = New System.Drawing.Size(231, 138)
+        Me.DGVCustomerPayMethod.TabIndex = 128
+        '
+        'colCustomerPayValue
+        '
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.colCustomerPayValue.DefaultCellStyle = DataGridViewCellStyle3
+        Me.colCustomerPayValue.HeaderText = "المبلغ"
+        Me.colCustomerPayValue.Name = "colCustomerPayValue"
+        '
+        'colCustomerPayMethod
+        '
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        Me.colCustomerPayMethod.DefaultCellStyle = DataGridViewCellStyle4
+        Me.colCustomerPayMethod.HeaderText = "طريقة الدفع"
+        Me.colCustomerPayMethod.Name = "colCustomerPayMethod"
+        Me.colCustomerPayMethod.ReadOnly = True
         '
         'WindowsUIButtonPanel1
         '
@@ -221,47 +297,8 @@ Partial Class frmGoldSale
         Me.WindowsUIButtonPanel1.Location = New System.Drawing.Point(7, 23)
         Me.WindowsUIButtonPanel1.Name = "WindowsUIButtonPanel1"
         Me.WindowsUIButtonPanel1.Size = New System.Drawing.Size(206, 107)
-        Me.WindowsUIButtonPanel1.TabIndex = 129
+        Me.WindowsUIButtonPanel1.TabIndex = 9
         Me.WindowsUIButtonPanel1.Text = "WindowsUIButtonPanel1"
-        '
-        'gridCustomerPay
-        '
-        Me.gridCustomerPay.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.gridCustomerPay.Location = New System.Drawing.Point(241, 26)
-        Me.gridCustomerPay.MainView = Me.GridView2
-        Me.gridCustomerPay.Name = "gridCustomerPay"
-        Me.gridCustomerPay.Size = New System.Drawing.Size(360, 101)
-        Me.gridCustomerPay.TabIndex = 128
-        Me.gridCustomerPay.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView2})
-        '
-        'GridView2
-        '
-        Me.GridView2.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn1, Me.GridColumn2})
-        Me.GridView2.GridControl = Me.gridCustomerPay
-        Me.GridView2.Name = "GridView2"
-        Me.GridView2.OptionsView.ShowGroupPanel = False
-        '
-        'GridColumn1
-        '
-        Me.GridColumn1.AppearanceCell.Options.UseTextOptions = True
-        Me.GridColumn1.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.GridColumn1.AppearanceHeader.Options.UseTextOptions = True
-        Me.GridColumn1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.GridColumn1.Caption = "طريقة الدفع"
-        Me.GridColumn1.Name = "GridColumn1"
-        Me.GridColumn1.Visible = True
-        Me.GridColumn1.VisibleIndex = 0
-        '
-        'GridColumn2
-        '
-        Me.GridColumn2.AppearanceCell.Options.UseTextOptions = True
-        Me.GridColumn2.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.GridColumn2.AppearanceHeader.Options.UseTextOptions = True
-        Me.GridColumn2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.GridColumn2.Caption = "المبلغ"
-        Me.GridColumn2.Name = "GridColumn2"
-        Me.GridColumn2.Visible = True
-        Me.GridColumn2.VisibleIndex = 1
         '
         'dtpDateAdded
         '
@@ -272,7 +309,7 @@ Partial Class frmGoldSale
         Me.dtpDateAdded.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.dtpDateAdded.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.dtpDateAdded.Size = New System.Drawing.Size(128, 20)
-        Me.dtpDateAdded.TabIndex = 126
+        Me.dtpDateAdded.TabIndex = 1
         '
         'LabelControl3
         '
@@ -293,7 +330,7 @@ Partial Class frmGoldSale
         Me.MemoEdit1.Location = New System.Drawing.Point(639, 107)
         Me.MemoEdit1.Name = "MemoEdit1"
         Me.MemoEdit1.Size = New System.Drawing.Size(546, 20)
-        Me.MemoEdit1.TabIndex = 20
+        Me.MemoEdit1.TabIndex = 7
         '
         'ComboBoxEdit4
         '
@@ -302,7 +339,7 @@ Partial Class frmGoldSale
         Me.ComboBoxEdit4.Name = "ComboBoxEdit4"
         Me.ComboBoxEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit4.Size = New System.Drawing.Size(128, 20)
-        Me.ComboBoxEdit4.TabIndex = 8
+        Me.ComboBoxEdit4.TabIndex = 2
         '
         'TextEdit19
         '
@@ -312,7 +349,7 @@ Partial Class frmGoldSale
         Me.TextEdit19.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit19.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.TextEdit19.Size = New System.Drawing.Size(165, 20)
-        Me.TextEdit19.TabIndex = 4
+        Me.TextEdit19.TabIndex = 6
         '
         'TextEdit10
         '
@@ -322,7 +359,7 @@ Partial Class frmGoldSale
         Me.TextEdit10.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit10.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.TextEdit10.Size = New System.Drawing.Size(165, 20)
-        Me.TextEdit10.TabIndex = 3
+        Me.TextEdit10.TabIndex = 5
         '
         'TextEdit20
         '
@@ -332,7 +369,7 @@ Partial Class frmGoldSale
         Me.TextEdit20.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit20.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.TextEdit20.Size = New System.Drawing.Size(165, 20)
-        Me.TextEdit20.TabIndex = 3
+        Me.TextEdit20.TabIndex = 4
         '
         'TextEdit21
         '
@@ -342,7 +379,7 @@ Partial Class frmGoldSale
         Me.TextEdit21.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit21.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.TextEdit21.Size = New System.Drawing.Size(128, 20)
-        Me.TextEdit21.TabIndex = 2
+        Me.TextEdit21.TabIndex = 0
         '
         'LabelControl10
         '
@@ -364,7 +401,7 @@ Partial Class frmGoldSale
         Me.ComboBoxEdit6.Name = "ComboBoxEdit6"
         Me.ComboBoxEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.ComboBoxEdit6.Size = New System.Drawing.Size(165, 20)
-        Me.ComboBoxEdit6.TabIndex = 0
+        Me.ComboBoxEdit6.TabIndex = 3
         '
         'LabelControl4
         '
@@ -488,11 +525,11 @@ Partial Class frmGoldSale
         Me.gbItemData.Controls.Add(Me.lblCountryOfOrigin)
         Me.gbItemData.Controls.Add(Me.lblItemName)
         Me.gbItemData.Dock = System.Windows.Forms.DockStyle.Top
-        Me.gbItemData.Location = New System.Drawing.Point(0, 202)
+        Me.gbItemData.Location = New System.Drawing.Point(0, 172)
         Me.gbItemData.Name = "gbItemData"
         Me.gbItemData.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.gbItemData.Size = New System.Drawing.Size(1364, 142)
-        Me.gbItemData.TabIndex = 7
+        Me.gbItemData.TabIndex = 1
         Me.gbItemData.Text = "بيانات القطعة"
         '
         'SimpleButton1
@@ -1106,53 +1143,47 @@ Partial Class frmGoldSale
         Me.lblItemName.TabIndex = 102
         Me.lblItemName.Text = "اسم الصنف"
         '
-        'UcCivilID1
+        'UCCivilID1
         '
-        Me.UcCivilID1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.UcCivilID1.Location = New System.Drawing.Point(0, 0)
-        Me.UcCivilID1.Name = "UcCivilID1"
-        Me.UcCivilID1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.UcCivilID1.Size = New System.Drawing.Size(1364, 202)
-        Me.UcCivilID1.TabIndex = 6
-        '
-        'gridItems
-        '
-        Me.gridItems.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.gridItems.Location = New System.Drawing.Point(0, 344)
-        Me.gridItems.MainView = Me.GridView1
-        Me.gridItems.Name = "gridItems"
-        Me.gridItems.Size = New System.Drawing.Size(1364, 178)
-        Me.gridItems.TabIndex = 20
-        Me.gridItems.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
-        '
-        'GridView1
-        '
-        Me.GridView1.GridControl = Me.gridItems
-        Me.GridView1.Name = "GridView1"
-        Me.GridView1.OptionsView.ShowGroupPanel = False
+        Me.UCCivilID1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.UCCivilID1.Location = New System.Drawing.Point(0, 0)
+        Me.UCCivilID1.Name = "UCCivilID1"
+        Me.UCCivilID1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.UCCivilID1.Size = New System.Drawing.Size(1364, 172)
+        Me.UCCivilID1.TabIndex = 0
         '
         'TabNavigationPage2
         '
         Me.TabNavigationPage2.Caption = "مبيعات شركات"
         Me.TabNavigationPage2.Name = "TabNavigationPage2"
-        Me.TabNavigationPage2.Size = New System.Drawing.Size(1350, 696)
+        Me.TabNavigationPage2.Size = New System.Drawing.Size(1364, 655)
         '
-        'frmGoldSale
+        'GridColumn1
+        '
+        Me.GridColumn1.Name = "GridColumn1"
+        '
+        'GridColumn2
+        '
+        Me.GridColumn2.Name = "GridColumn2"
+        '
+        'FrmGoldSale
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1364, 688)
         Me.Controls.Add(Me.TabPane1)
-        Me.Name = "frmGoldSale"
+        Me.DoubleBuffered = True
+        Me.Name = "FrmGoldSale"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "بيع المشغولات الذهبية"
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPane1.ResumeLayout(False)
         Me.TabNavigationPage1.ResumeLayout(False)
+        CType(Me.gridItems, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gbPay, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbPay.ResumeLayout(False)
-        CType(Me.gridCustomerPay, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GridView2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGVCustomerPayMethod, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtpDateAdded.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtpDateAdded.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MemoEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1190,8 +1221,6 @@ Partial Class frmGoldSale
         CType(Me.txtGoldWeight.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbItemName.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.gridItems, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1201,7 +1230,7 @@ Partial Class frmGoldSale
     Friend WithEvents gridItems As DevExpress.XtraGrid.GridControl
     Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
     Friend WithEvents TabNavigationPage2 As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents UcCivilID1 As ucCivilID
+    Friend WithEvents UCCivilID1 As UCCivilID
     Friend WithEvents gbItemData As DevExpress.XtraEditors.GroupControl
     Friend WithEvents txtNote As DevExpress.XtraEditors.MemoEdit
     Friend WithEvents lblDocument As DevExpress.XtraEditors.LabelControl
@@ -1274,9 +1303,10 @@ Partial Class frmGoldSale
     Friend WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit10 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents gridCustomerPay As DevExpress.XtraGrid.GridControl
-    Friend WithEvents GridView2 As DevExpress.XtraGrid.Views.Grid.GridView
     Friend WithEvents GridColumn1 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents GridColumn2 As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents WindowsUIButtonPanel1 As DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel
+    Friend WithEvents DGVCustomerPayMethod As DataGridView
+    Friend WithEvents colCustomerPayValue As DataGridViewTextBoxColumn
+    Friend WithEvents colCustomerPayMethod As DataGridViewTextBoxColumn
 End Class

@@ -1,0 +1,20 @@
+[
+  {
+    "Code": 1,
+    "NameAr": "خاتم",
+    "NameEn": "Ring",
+    "Enabled": true
+  },
+  {
+    "Code": 2,
+    "NameAr": "حلق",
+    "NameEn": "Earrings",
+    "Enabled": true
+  },
+  {
+    "Code": 3,
+    "NameAr": "سلسلة",
+    "NameEn": "Chain",
+    "Enabled": true
+  }
+]

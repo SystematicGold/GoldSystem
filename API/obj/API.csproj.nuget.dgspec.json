@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source Code\\API\\API.csproj": {}
+    "D:\\Error404\\GoldSystem-main\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Source Code\\API\\API.csproj": {
+    "D:\\Error404\\GoldSystem-main\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source Code\\API\\API.csproj",
+        "projectUniqueName": "D:\\Error404\\GoldSystem-main\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Source Code\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Source Code\\API\\obj\\",
+        "projectPath": "D:\\Error404\\GoldSystem-main\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\mts_e\\.nuget\\packages\\",
+        "outputPath": "D:\\Error404\\GoldSystem-main\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mts_e\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +27,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/YjHWjA5WiNLkKokcnNIFltO9YEcTUsk221lReOjq5Y9l6UggWp/api": {}
         },
         "frameworks": {
           "net7.0": {
@@ -61,10 +65,6 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

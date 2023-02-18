@@ -52,7 +52,7 @@ Partial Class frmVoucher
         Me.GridControl3 = New DevExpress.XtraGrid.GridControl()
         Me.GridView3 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        Me.UcCivilId = New GoldSystem.ucCivilID()
+        Me.UcCivilId = New GoldSystem.UCCivilID()
         Me.gbItemData = New Guna.UI2.WinForms.Guna2GroupBox()
         Me.txtImagePath = New DevExpress.XtraEditors.TextEdit()
         Me.lblPhoto = New System.Windows.Forms.Label()
@@ -83,7 +83,7 @@ Partial Class frmVoucher
         Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.UcSupplier = New GoldSystem.UCSupplier()
         Me.TabNavigationPage5 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
-        Me.UcCivilId2 = New GoldSystem.ucCivilID()
+        Me.UcCivilId2 = New GoldSystem.UCCivilID()
         Me.TabNavigationPage6 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
@@ -2095,7 +2095,7 @@ Partial Class frmVoucher
 
     Friend WithEvents TabPane1 As DevExpress.XtraBars.Navigation.TabPane
     Friend WithEvents TabNavigationPage1 As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents UcCivilId As ucCivilID
+    Friend WithEvents UcCivilId As UCCivilID
     Friend WithEvents gbItemData As Guna.UI2.WinForms.Guna2GroupBox
     Friend WithEvents dtDateOfManufacture As DateTimePicker
     Friend WithEvents lblVoucherNo As Label
@@ -2111,7 +2111,7 @@ Partial Class frmVoucher
     Friend WithEvents TabNavigationPage2 As DevExpress.XtraBars.Navigation.TabNavigationPage
     Friend WithEvents UcSupplier As UCSupplier
     Friend WithEvents TabNavigationPage5 As DevExpress.XtraBars.Navigation.TabNavigationPage
-    Friend WithEvents UcCivilId2 As ucCivilID
+    Friend WithEvents UcCivilId2 As UCCivilID
     Friend WithEvents TabNavigationPage6 As DevExpress.XtraBars.Navigation.TabNavigationPage
     Friend WithEvents txtVoucherNo As TextBox
     Friend WithEvents TextBox20 As TextBox

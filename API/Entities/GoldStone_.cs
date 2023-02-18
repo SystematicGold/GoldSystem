@@ -22,5 +22,6 @@ namespace API.Entities
         public byte[] Photo { get; set; }
         public byte[] Document { get; set; }
         public int UserCode { get; set; }
+        
     }
 }

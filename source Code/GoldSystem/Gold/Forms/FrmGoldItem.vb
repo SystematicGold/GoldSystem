@@ -5,32 +5,7 @@ Public Class frmGoldItem
     Dim ClsMain_ As New ClsMain
     Dim counter As Integer = 0
     Dim btnAddStoneLeft As Integer
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs)
-        Try
-            'If ComStone.Text = String.Empty Then
-            '    MessageBox.Show("يجب اختيار الفصوص")
-            '    Return
-            'End If
-            'If TxtStoneWeight.Text = String.Empty Or TxtStoneWeight.Text = 0 Then
-            '    MessageBox.Show("يجب ادخال الوزن")
-            '    Return
-            'End If
-            'If TxtStonePrice.Text = String.Empty Or TxtStonePrice.Text = 0 Then
-            '    MessageBox.Show("يجب ادخال السعر")
-            '    Return
-            'End If
-            'counter += 1
-            'Dim row As String() = New String() {ComStone.SelectedValue, counter,
-            '                                      ComStone.Text,
-            '                                      TxtStoneWeight.Text,
-            '                                      TxtStoneColor.Text, TxtStonePrice.Text,
-            '                                      LblFileExtentions.Text,
-            '                                      TxtClarity.Text, TxtCut.Text}
-            'DgvStone.Rows.Add(row)
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
+
     Private Sub TxtStoneWeight_KeyPress(sender As Object, e As KeyPressEventArgs)
         Try
             If Not Char.IsDigit(e.KeyChar) Then
@@ -248,159 +223,8 @@ Public Class frmGoldItem
         '            Next
         '        End If
     End Sub
-    Private Sub ComKartBlock_DropDown(sender As Object, e As EventArgs)
-        Try
-            Dim DT As New DataTable
-            DT.Clear()
-            DT = ClsGoldItem_.Karat()
-            If DT.Rows.Count > 0 Then
-                'ComKartBlock.DataSource = DT
-                'ComKartBlock.DisplayMember = "Name"
-                'ComKartBlock.ValueMember = "Code"
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
-    Private Sub ComName_DropDown(sender As Object, e As EventArgs)
-        Try
-            Dim DT As New DataTable
-            DT.Clear()
-            DT = ClsGoldItem_.ItemName()
-            If DT.Rows.Count > 0 Then
-                'ComName.DataSource = DT
-                'ComName.DisplayMember = "Name"
-                'ComName.ValueMember = "Code"
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
-    Private Sub ComSupplier_DropDown(sender As Object, e As EventArgs)
-        Try
-            Dim DT As New DataTable
-            DT.Clear()
-            DT = ClsGoldItem_.Supplier()
-            If DT.Rows.Count > 0 Then
-                'ComSupplier.DataSource = DT
-                'ComSupplier.DisplayMember = "Name"
-                'ComSupplier.ValueMember = "Code"
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
-    Private Sub ComMadIN_DropDown(sender As Object, e As EventArgs)
-        Try
-            Dim DT As New DataTable
-            DT.Clear()
-            DT = ClsGoldItem_.MadeIn()
-            If DT.Rows.Count > 0 Then
-                'ComMadIN.DataSource = DT
-                'ComMadIN.DisplayMember = "Name"
-                'ComMadIN.ValueMember = "Code"
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
 
-    Private Sub BarLargeButtonItem1_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarLargeButtonItem1.ItemClick
 
-    End Sub
-    Private Sub ComSupplierBlock_DropDown(sender As Object, e As EventArgs)
-        Try
-            Dim DT As New DataTable
-            DT.Clear()
-            DT = ClsGoldItem_.Supplier()
-            If DT.Rows.Count > 0 Then
-                'ComSupplierBlock.DataSource = DT
-                'ComSupplierBlock.DisplayMember = "Name"
-                'ComSupplierBlock.ValueMember = "Code"
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
-    Private Sub ComNameBlock_DropDown(sender As Object, e As EventArgs)
-        Try
-            Dim DT As New DataTable
-            DT.Clear()
-            DT = ClsGoldItem_.ItemName()
-            If DT.Rows.Count > 0 Then
-                'ComNameBlock.DataSource = DT
-                'ComNameBlock.DisplayMember = "Name"
-                'ComNameBlock.ValueMember = "Code"
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
-    Private Sub ComMadINBlock_DropDown(sender As Object, e As EventArgs)
-        Try
-            Dim DT As New DataTable
-            DT.Clear()
-            DT = ClsGoldItem_.MadeIn()
-            If DT.Rows.Count > 0 Then
-                'ComMadINBlock.DataSource = DT
-                'ComMadINBlock.DisplayMember = "Name"
-                'ComMadINBlock.ValueMember = "Code"
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
-    Private Sub ComboBox1_DropDown(sender As Object, e As EventArgs)
-        Try
-            Dim DT As New DataTable
-            DT.Clear()
-            DT = ClsGoldItem_.MadeIn()
-            If DT.Rows.Count > 0 Then
-                'ComMadeInStone.DataSource = DT
-                'ComMadeInStone.DisplayMember = "Name"
-                'ComMadeInStone.ValueMember = "Code"
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
-
-    Private Sub gl_Click(sender As Object, e As EventArgs)
-        Try
-            Dim OFD As New OpenFileDialog
-            If OFD.ShowDialog = DialogResult.OK Then
-                Dim path As String = OFD.FileName
-                'TxtPath.Text = path
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
-    Private Sub TxtDoc_Click(sender As Object, e As EventArgs)
-        Try
-            Dim OFD As New OpenFileDialog
-            If OFD.ShowDialog = DialogResult.OK Then
-                Dim path As String = OFD.FileName
-                'TxtDoc.Text = path
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
-
-    Private Sub Guna2Button11_Click_1(sender As Object, e As EventArgs)
-        Try
-            Max()
-            'ClsGoldItem_.AddItem(TxtCode.Text, 0, 0, TxtBarCode.Text, ComName.Text, ComKart.SelectedValue,
-            '                TxtWeight.Text, TxtMakingCharge.Text, TxtTotalCost.Text, TxtCostGram.Text,
-            '                ComMadIN.SelectedValue, ComSupplier.SelectedValue, TxtPath2.Text, TxtNumberPieses.Text,
-            '                TxtNumber.Text, TxtRamz.Text)
-            AddStone()
-            MessageBox.Show("تم حفظ الصنف")
-        Catch ex As Exception
-            MessageBox.Show(ex.ToString)
-        End Try
-    End Sub
     Private Sub Guna2Button12_Click_1(sender As Object, e As EventArgs)
         Try
             Dim OFD As New OpenFileDialog
@@ -449,7 +273,7 @@ Public Class frmGoldItem
 
     Private Sub pbAddSetItem_Click(sender As Object, e As EventArgs) Handles pbAddSetItem.Click
         Try
-            Dim f As New frmGoldAddStone
+            Dim f As New FrmGoldAddStone
             Dim dt As New DataTable
             dt.Clear()
             dt = ClsMain_.GetItemCode()

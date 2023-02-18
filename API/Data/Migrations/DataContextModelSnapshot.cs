@@ -22,6 +22,31 @@ namespace API.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("API.Entities.DeffCaratOrGm_", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NameAr")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameEn")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DeffCaratOrGm");
+                });
+
             modelBuilder.Entity("API.Entities.DeffCountryOfOrigin_", b =>
                 {
                     b.Property<long>("Id")
@@ -32,6 +57,9 @@ namespace API.Data.Migrations
 
                     b.Property<long>("Code")
                         .HasColumnType("bigint");
+
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
 
                     b.Property<string>("NameAr")
                         .HasColumnType("nvarchar(max)");
@@ -118,6 +146,31 @@ namespace API.Data.Migrations
                     b.ToTable("DeffGoldBarCode");
                 });
 
+            modelBuilder.Entity("API.Entities.DeffItemCondition_", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NameAr")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameEn")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DeffItemCondition");
+                });
+
             modelBuilder.Entity("API.Entities.DeffKarat_", b =>
                 {
                     b.Property<long>("Id")
@@ -128,6 +181,9 @@ namespace API.Data.Migrations
 
                     b.Property<long>("Code")
                         .HasColumnType("bigint");
+
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
@@ -148,18 +204,40 @@ namespace API.Data.Migrations
                     b.Property<long>("Code")
                         .HasColumnType("bigint");
 
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
                     b.Property<string>("PayMethodAr")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PayMethodEn")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.ToTable("DeffPayMethod");
+                });
+
+            modelBuilder.Entity("API.Entities.DeffStoneClarity_", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DeffStoneClarity");
                 });
 
             modelBuilder.Entity("API.Entities.DeffStoneColor_", b =>
@@ -173,7 +251,35 @@ namespace API.Data.Migrations
                     b.Property<long>("Code")
                         .HasColumnType("bigint");
 
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsDiamondColor")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NameAr")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameEn")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DeffStoneColor");
+                });
+
+            modelBuilder.Entity("API.Entities.DeffStoneCut_", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("Enabled")
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
@@ -181,7 +287,7 @@ namespace API.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("DeffStoneColor");
+                    b.ToTable("DeffStoneCut");
                 });
 
             modelBuilder.Entity("API.Entities.DeffStoneName_", b =>
@@ -195,12 +301,46 @@ namespace API.Data.Migrations
                     b.Property<int>("Code")
                         .HasColumnType("int");
 
-                    b.Property<string>("Name")
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NameAr")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameEn")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StoneTypeCode")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.ToTable("DeffStoneName");
+                });
+
+            modelBuilder.Entity("API.Entities.DeffStoneType_", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NameAr")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameEn")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DeffStoneType");
                 });
 
             modelBuilder.Entity("API.Entities.DeffSupplier_", b =>
@@ -220,6 +360,9 @@ namespace API.Data.Migrations
                     b.Property<string>("CompanyId")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -229,6 +372,31 @@ namespace API.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("DeffSupplier");
+                });
+
+            modelBuilder.Entity("API.Entities.DeffTaxExempt_", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("Code")
+                        .HasColumnType("bigint");
+
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NameAr")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameEn")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("DeffTaxExempt");
                 });
 
             modelBuilder.Entity("API.Entities.GoldDeffItemName_", b =>
@@ -242,7 +410,13 @@ namespace API.Data.Migrations
                     b.Property<long>("Code")
                         .HasColumnType("bigint");
 
-                    b.Property<string>("Name")
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NameAr")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NameEn")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

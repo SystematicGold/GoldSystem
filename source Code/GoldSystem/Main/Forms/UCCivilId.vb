@@ -1,3 +1,3 @@
-﻿Public Class ucCivilID
+﻿Public Class UCCivilID
 
 End Class

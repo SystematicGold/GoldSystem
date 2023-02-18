@@ -21,15 +21,15 @@ Partial Class frmGoldItem
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmGoldItem))
-        Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim WindowsUIButtonImageOptions7 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
-        Dim WindowsUIButtonImageOptions8 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
-        Dim WindowsUIButtonImageOptions9 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
-        Dim WindowsUIButtonImageOptions10 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
-        Dim WindowsUIButtonImageOptions11 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
-        Dim WindowsUIButtonImageOptions12 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim WindowsUIButtonImageOptions1 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim WindowsUIButtonImageOptions2 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim WindowsUIButtonImageOptions3 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim WindowsUIButtonImageOptions4 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim WindowsUIButtonImageOptions5 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Dim WindowsUIButtonImageOptions6 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
         Me.TabPane1 = New DevExpress.XtraBars.Navigation.TabPane()
         Me.tbAddItem = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
@@ -264,10 +264,11 @@ Partial Class frmGoldItem
         '
         Me.gbItemData.Controls.Add(Me.pbAddSetItem)
         Me.gbItemData.Controls.Add(Me.dgvSetItem)
-        Me.gbItemData.Location = New System.Drawing.Point(3, 144)
+        Me.gbItemData.Dock = System.Windows.Forms.DockStyle.Top
+        Me.gbItemData.Location = New System.Drawing.Point(0, 164)
         Me.gbItemData.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.gbItemData.Name = "gbItemData"
-        Me.gbItemData.Size = New System.Drawing.Size(1157, 131)
+        Me.gbItemData.Size = New System.Drawing.Size(1364, 131)
         Me.gbItemData.TabIndex = 122
         Me.gbItemData.Text = "بيانات القطع المضافة بالطقم"
         '
@@ -276,7 +277,7 @@ Partial Class frmGoldItem
         Me.pbAddSetItem.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pbAddSetItem.Cursor = System.Windows.Forms.Cursors.Default
         Me.pbAddSetItem.EditValue = CType(resources.GetObject("pbAddSetItem.EditValue"), Object)
-        Me.pbAddSetItem.Location = New System.Drawing.Point(981, 0)
+        Me.pbAddSetItem.Location = New System.Drawing.Point(1177, -1)
         Me.pbAddSetItem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.pbAddSetItem.Name = "pbAddSetItem"
         Me.pbAddSetItem.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
@@ -286,13 +287,13 @@ Partial Class frmGoldItem
         Me.pbAddSetItem.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.pbAddSetItem.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbAddSetItem.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
-        Me.pbAddSetItem.Size = New System.Drawing.Size(20, 18)
-        ToolTipTitleItem2.Text = "إضافة حجر"
-        ToolTipItem2.LeftIndent = 6
-        ToolTipItem2.Text = "اضغط إضافة حجر للقطعة"
-        SuperToolTip2.Items.Add(ToolTipTitleItem2)
-        SuperToolTip2.Items.Add(ToolTipItem2)
-        Me.pbAddSetItem.SuperTip = SuperToolTip2
+        Me.pbAddSetItem.Size = New System.Drawing.Size(22, 22)
+        ToolTipTitleItem1.Text = "إضافة حجر"
+        ToolTipItem1.LeftIndent = 6
+        ToolTipItem1.Text = "اضغط إضافة حجر للقطعة"
+        SuperToolTip1.Items.Add(ToolTipTitleItem1)
+        SuperToolTip1.Items.Add(ToolTipItem1)
+        Me.pbAddSetItem.SuperTip = SuperToolTip1
         Me.pbAddSetItem.TabIndex = 102
         Me.pbAddSetItem.ToolTip = "إضافة قطعة للطقم"
         '
@@ -304,7 +305,7 @@ Partial Class frmGoldItem
         Me.dgvSetItem.MainView = Me.DgvStone
         Me.dgvSetItem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.dgvSetItem.Name = "dgvSetItem"
-        Me.dgvSetItem.Size = New System.Drawing.Size(1153, 106)
+        Me.dgvSetItem.Size = New System.Drawing.Size(1360, 106)
         Me.dgvSetItem.TabIndex = 103
         Me.dgvSetItem.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.DgvStone})
         '
@@ -522,76 +523,83 @@ Partial Class frmGoldItem
         Me.gbSetData.Controls.Add(Me.LabelControl10)
         Me.gbSetData.Controls.Add(Me.LabelControl9)
         Me.gbSetData.Controls.Add(Me.lblCIDAr)
+        Me.gbSetData.Dock = System.Windows.Forms.DockStyle.Top
         Me.gbSetData.Location = New System.Drawing.Point(0, 0)
         Me.gbSetData.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.gbSetData.Name = "gbSetData"
-        Me.gbSetData.Size = New System.Drawing.Size(1157, 143)
+        Me.gbSetData.Size = New System.Drawing.Size(1364, 164)
         Me.gbSetData.TabIndex = 121
         Me.gbSetData.Text = "بيانات الطقم"
         '
         'txtNote
         '
-        Me.txtNote.Location = New System.Drawing.Point(16, 66)
+        Me.txtNote.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.txtNote.Location = New System.Drawing.Point(106, 78)
         Me.txtNote.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtNote.Name = "txtNote"
-        Me.txtNote.Size = New System.Drawing.Size(333, 15)
+        Me.txtNote.Size = New System.Drawing.Size(347, 20)
         Me.txtNote.TabIndex = 120
         '
         'WindowsUIButtonPanel1
         '
         Me.WindowsUIButtonPanel1.AllowGlyphSkinning = False
         Me.WindowsUIButtonPanel1.BackColor = System.Drawing.Color.Transparent
-        WindowsUIButtonImageOptions7.SvgImage = CType(resources.GetObject("WindowsUIButtonImageOptions7.SvgImage"), DevExpress.Utils.Svg.SvgImage)
-        WindowsUIButtonImageOptions7.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.None
-        WindowsUIButtonImageOptions8.Image = CType(resources.GetObject("WindowsUIButtonImageOptions8.Image"), System.Drawing.Image)
-        WindowsUIButtonImageOptions9.Image = CType(resources.GetObject("WindowsUIButtonImageOptions9.Image"), System.Drawing.Image)
-        WindowsUIButtonImageOptions10.Image = CType(resources.GetObject("WindowsUIButtonImageOptions10.Image"), System.Drawing.Image)
-        Me.WindowsUIButtonPanel1.Buttons.AddRange(New DevExpress.XtraEditors.ButtonPanel.IBaseButton() {New DevExpress.XtraBars.Docking2010.WindowsUIButton("إغلاق", True, WindowsUIButtonImageOptions7, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("تعديل", True, WindowsUIButtonImageOptions8, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("حفظ", True, WindowsUIButtonImageOptions9, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("جديد", True, WindowsUIButtonImageOptions10, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False)})
-        Me.WindowsUIButtonPanel1.Location = New System.Drawing.Point(0, 87)
+        WindowsUIButtonImageOptions1.SvgImage = CType(resources.GetObject("WindowsUIButtonImageOptions1.SvgImage"), DevExpress.Utils.Svg.SvgImage)
+        WindowsUIButtonImageOptions1.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.None
+        WindowsUIButtonImageOptions2.Image = CType(resources.GetObject("WindowsUIButtonImageOptions2.Image"), System.Drawing.Image)
+        WindowsUIButtonImageOptions3.Image = CType(resources.GetObject("WindowsUIButtonImageOptions3.Image"), System.Drawing.Image)
+        WindowsUIButtonImageOptions4.Image = CType(resources.GetObject("WindowsUIButtonImageOptions4.Image"), System.Drawing.Image)
+        Me.WindowsUIButtonPanel1.Buttons.AddRange(New DevExpress.XtraEditors.ButtonPanel.IBaseButton() {New DevExpress.XtraBars.Docking2010.WindowsUIButton("إغلاق", True, WindowsUIButtonImageOptions1, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("تعديل", True, WindowsUIButtonImageOptions2, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("حفظ", True, WindowsUIButtonImageOptions3, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("جديد", True, WindowsUIButtonImageOptions4, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False)})
+        Me.WindowsUIButtonPanel1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.WindowsUIButtonPanel1.Location = New System.Drawing.Point(2, 108)
         Me.WindowsUIButtonPanel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.WindowsUIButtonPanel1.Name = "WindowsUIButtonPanel1"
         Me.WindowsUIButtonPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.WindowsUIButtonPanel1.Size = New System.Drawing.Size(1157, 54)
+        Me.WindowsUIButtonPanel1.Size = New System.Drawing.Size(1360, 54)
         Me.WindowsUIButtonPanel1.TabIndex = 119
         Me.WindowsUIButtonPanel1.Text = "WindowsUIButtonPanel1"
         '
         'DateEdit1
         '
+        Me.DateEdit1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.DateEdit1.EditValue = Nothing
-        Me.DateEdit1.Location = New System.Drawing.Point(469, 66)
+        Me.DateEdit1.Location = New System.Drawing.Point(573, 78)
         Me.DateEdit1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEdit1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.DateEdit1.Size = New System.Drawing.Size(106, 20)
         Me.DateEdit1.TabIndex = 118
         '
         'dtpDateAdded
         '
+        Me.dtpDateAdded.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.dtpDateAdded.EditValue = Nothing
-        Me.dtpDateAdded.Location = New System.Drawing.Point(356, 66)
+        Me.dtpDateAdded.Location = New System.Drawing.Point(460, 78)
         Me.dtpDateAdded.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.dtpDateAdded.Name = "dtpDateAdded"
         Me.dtpDateAdded.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.dtpDateAdded.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.dtpDateAdded.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.dtpDateAdded.Size = New System.Drawing.Size(106, 20)
         Me.dtpDateAdded.TabIndex = 118
         '
         'TextEdit3
         '
-        Me.TextEdit3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextEdit3.Location = New System.Drawing.Point(16, 35)
+        Me.TextEdit3.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextEdit3.Location = New System.Drawing.Point(106, 41)
         Me.TextEdit3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Properties.ContextImageOptions.Image = CType(resources.GetObject("TextEdit3.Properties.ContextImageOptions.Image"), System.Drawing.Image)
         Me.TextEdit3.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.TextEdit3.Size = New System.Drawing.Size(106, 20)
+        Me.TextEdit3.Size = New System.Drawing.Size(120, 20)
         Me.TextEdit3.TabIndex = 116
         '
         'TextEdit4
         '
-        Me.TextEdit4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextEdit4.Location = New System.Drawing.Point(129, 35)
+        Me.TextEdit4.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextEdit4.Location = New System.Drawing.Point(233, 41)
         Me.TextEdit4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Properties.ContextImageOptions.Image = CType(resources.GetObject("TextEdit4.Properties.ContextImageOptions.Image"), System.Drawing.Image)
@@ -601,97 +609,116 @@ Partial Class frmGoldItem
         '
         'TextEdit12
         '
-        Me.TextEdit12.Location = New System.Drawing.Point(582, 66)
+        Me.TextEdit12.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextEdit12.Location = New System.Drawing.Point(686, 78)
         Me.TextEdit12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextEdit12.Name = "TextEdit12"
         Me.TextEdit12.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit12.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit12.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TextEdit12.Size = New System.Drawing.Size(106, 20)
         Me.TextEdit12.TabIndex = 115
         '
         'TextEdit11
         '
-        Me.TextEdit11.Location = New System.Drawing.Point(695, 66)
+        Me.TextEdit11.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextEdit11.Location = New System.Drawing.Point(799, 78)
         Me.TextEdit11.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextEdit11.Name = "TextEdit11"
         Me.TextEdit11.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit11.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit11.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TextEdit11.Size = New System.Drawing.Size(106, 20)
         Me.TextEdit11.TabIndex = 115
         '
         'TextEdit9
         '
-        Me.TextEdit9.Location = New System.Drawing.Point(356, 35)
+        Me.TextEdit9.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextEdit9.Location = New System.Drawing.Point(460, 41)
         Me.TextEdit9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextEdit9.Name = "TextEdit9"
         Me.TextEdit9.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit9.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit9.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TextEdit9.Size = New System.Drawing.Size(106, 20)
         Me.TextEdit9.TabIndex = 115
         '
         'TextEdit8
         '
-        Me.TextEdit8.Location = New System.Drawing.Point(469, 35)
+        Me.TextEdit8.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextEdit8.Location = New System.Drawing.Point(573, 41)
         Me.TextEdit8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextEdit8.Name = "TextEdit8"
         Me.TextEdit8.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit8.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit8.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TextEdit8.Size = New System.Drawing.Size(106, 20)
         Me.TextEdit8.TabIndex = 115
         '
         'TextEdit7
         '
-        Me.TextEdit7.Location = New System.Drawing.Point(582, 35)
+        Me.TextEdit7.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextEdit7.Location = New System.Drawing.Point(686, 41)
         Me.TextEdit7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextEdit7.Name = "TextEdit7"
         Me.TextEdit7.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit7.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit7.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TextEdit7.Size = New System.Drawing.Size(106, 20)
         Me.TextEdit7.TabIndex = 115
         '
         'TextEdit6
         '
-        Me.TextEdit6.Location = New System.Drawing.Point(695, 35)
+        Me.TextEdit6.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextEdit6.Location = New System.Drawing.Point(799, 41)
         Me.TextEdit6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextEdit6.Name = "TextEdit6"
         Me.TextEdit6.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit6.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit6.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TextEdit6.Size = New System.Drawing.Size(106, 20)
         Me.TextEdit6.TabIndex = 115
         '
         'TextEdit10
         '
-        Me.TextEdit10.Location = New System.Drawing.Point(243, 35)
+        Me.TextEdit10.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextEdit10.Location = New System.Drawing.Point(347, 41)
         Me.TextEdit10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextEdit10.Name = "TextEdit10"
         Me.TextEdit10.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit10.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit10.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TextEdit10.Size = New System.Drawing.Size(106, 20)
         Me.TextEdit10.TabIndex = 115
         '
         'TextEdit5
         '
-        Me.TextEdit5.Location = New System.Drawing.Point(808, 35)
+        Me.TextEdit5.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TextEdit5.Location = New System.Drawing.Point(912, 41)
         Me.TextEdit5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.TextEdit5.Name = "TextEdit5"
         Me.TextEdit5.Properties.Appearance.Options.UseTextOptions = True
         Me.TextEdit5.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TextEdit5.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.TextEdit5.Size = New System.Drawing.Size(106, 20)
         Me.TextEdit5.TabIndex = 115
         '
         'txtCostPerPiece
         '
-        Me.txtCostPerPiece.Location = New System.Drawing.Point(921, 35)
+        Me.txtCostPerPiece.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.txtCostPerPiece.Location = New System.Drawing.Point(1025, 41)
         Me.txtCostPerPiece.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtCostPerPiece.Name = "txtCostPerPiece"
         Me.txtCostPerPiece.Properties.Appearance.Options.UseTextOptions = True
         Me.txtCostPerPiece.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.txtCostPerPiece.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.txtCostPerPiece.Size = New System.Drawing.Size(106, 20)
         Me.txtCostPerPiece.TabIndex = 115
         '
         'ComboBoxEdit3
         '
-        Me.ComboBoxEdit3.Location = New System.Drawing.Point(808, 66)
+        Me.ComboBoxEdit3.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.ComboBoxEdit3.Location = New System.Drawing.Point(912, 78)
         Me.ComboBoxEdit3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
         Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -700,7 +727,8 @@ Partial Class frmGoldItem
         '
         'ComboBoxEdit2
         '
-        Me.ComboBoxEdit2.Location = New System.Drawing.Point(921, 66)
+        Me.ComboBoxEdit2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.ComboBoxEdit2.Location = New System.Drawing.Point(1025, 78)
         Me.ComboBoxEdit2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
         Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -709,7 +737,8 @@ Partial Class frmGoldItem
         '
         'ComboBoxEdit1
         '
-        Me.ComboBoxEdit1.Location = New System.Drawing.Point(1035, 66)
+        Me.ComboBoxEdit1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(1139, 78)
         Me.ComboBoxEdit1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
         Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -718,7 +747,8 @@ Partial Class frmGoldItem
         '
         'cmbPhone
         '
-        Me.cmbPhone.Location = New System.Drawing.Point(1035, 35)
+        Me.cmbPhone.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.cmbPhone.Location = New System.Drawing.Point(1139, 41)
         Me.cmbPhone.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cmbPhone.Name = "cmbPhone"
         Me.cmbPhone.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -727,26 +757,28 @@ Partial Class frmGoldItem
         '
         'LabelControl8
         '
+        Me.LabelControl8.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl8.Appearance.Options.UseTextOptions = True
         Me.LabelControl8.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl8.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl8.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl8.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl8.Location = New System.Drawing.Point(16, 20)
+        Me.LabelControl8.Location = New System.Drawing.Point(106, 25)
         Me.LabelControl8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl8.Name = "LabelControl8"
-        Me.LabelControl8.Size = New System.Drawing.Size(106, 15)
+        Me.LabelControl8.Size = New System.Drawing.Size(120, 15)
         Me.LabelControl8.TabIndex = 113
         Me.LabelControl8.Text = "مستندات/شهادة للطقم"
         '
         'LabelControl7
         '
+        Me.LabelControl7.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl7.Appearance.Options.UseTextOptions = True
         Me.LabelControl7.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl7.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl7.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl7.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl7.Location = New System.Drawing.Point(129, 20)
+        Me.LabelControl7.Location = New System.Drawing.Point(233, 25)
         Me.LabelControl7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(106, 15)
@@ -755,12 +787,13 @@ Partial Class frmGoldItem
         '
         'LabelControl15
         '
+        Me.LabelControl15.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl15.Appearance.Options.UseTextOptions = True
         Me.LabelControl15.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl15.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl15.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl15.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl15.Location = New System.Drawing.Point(469, 50)
+        Me.LabelControl15.Location = New System.Drawing.Point(573, 63)
         Me.LabelControl15.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(106, 15)
@@ -769,26 +802,28 @@ Partial Class frmGoldItem
         '
         'LabelControl17
         '
+        Me.LabelControl17.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl17.Appearance.Options.UseTextOptions = True
         Me.LabelControl17.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl17.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl17.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl17.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl17.Location = New System.Drawing.Point(16, 50)
+        Me.LabelControl17.Location = New System.Drawing.Point(106, 63)
         Me.LabelControl17.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl17.Name = "LabelControl17"
-        Me.LabelControl17.Size = New System.Drawing.Size(333, 15)
+        Me.LabelControl17.Size = New System.Drawing.Size(347, 15)
         Me.LabelControl17.TabIndex = 113
         Me.LabelControl17.Text = "ملاحظات"
         '
         'LabelControl14
         '
+        Me.LabelControl14.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl14.Appearance.Options.UseTextOptions = True
         Me.LabelControl14.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl14.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl14.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl14.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl14.Location = New System.Drawing.Point(356, 50)
+        Me.LabelControl14.Location = New System.Drawing.Point(460, 63)
         Me.LabelControl14.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl14.Name = "LabelControl14"
         Me.LabelControl14.Size = New System.Drawing.Size(106, 15)
@@ -797,12 +832,13 @@ Partial Class frmGoldItem
         '
         'LabelControl16
         '
+        Me.LabelControl16.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl16.Appearance.Options.UseTextOptions = True
         Me.LabelControl16.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl16.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl16.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl16.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl16.Location = New System.Drawing.Point(582, 50)
+        Me.LabelControl16.Location = New System.Drawing.Point(686, 63)
         Me.LabelControl16.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl16.Name = "LabelControl16"
         Me.LabelControl16.Size = New System.Drawing.Size(106, 15)
@@ -811,12 +847,13 @@ Partial Class frmGoldItem
         '
         'LabelControl13
         '
+        Me.LabelControl13.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl13.Appearance.Options.UseTextOptions = True
         Me.LabelControl13.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl13.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl13.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl13.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl13.Location = New System.Drawing.Point(695, 50)
+        Me.LabelControl13.Location = New System.Drawing.Point(799, 63)
         Me.LabelControl13.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl13.Name = "LabelControl13"
         Me.LabelControl13.Size = New System.Drawing.Size(106, 15)
@@ -825,12 +862,13 @@ Partial Class frmGoldItem
         '
         'LabelControl6
         '
+        Me.LabelControl6.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl6.Appearance.Options.UseTextOptions = True
         Me.LabelControl6.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl6.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl6.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl6.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl6.Location = New System.Drawing.Point(356, 20)
+        Me.LabelControl6.Location = New System.Drawing.Point(460, 25)
         Me.LabelControl6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(106, 15)
@@ -839,12 +877,13 @@ Partial Class frmGoldItem
         '
         'LabelControl5
         '
+        Me.LabelControl5.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl5.Appearance.Options.UseTextOptions = True
         Me.LabelControl5.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl5.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl5.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl5.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl5.Location = New System.Drawing.Point(469, 20)
+        Me.LabelControl5.Location = New System.Drawing.Point(573, 25)
         Me.LabelControl5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(106, 15)
@@ -853,12 +892,13 @@ Partial Class frmGoldItem
         '
         'LabelControl4
         '
+        Me.LabelControl4.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl4.Appearance.Options.UseTextOptions = True
         Me.LabelControl4.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl4.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl4.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl4.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl4.Location = New System.Drawing.Point(582, 20)
+        Me.LabelControl4.Location = New System.Drawing.Point(686, 25)
         Me.LabelControl4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(106, 15)
@@ -867,12 +907,13 @@ Partial Class frmGoldItem
         '
         'LabelControl11
         '
+        Me.LabelControl11.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl11.Appearance.Options.UseTextOptions = True
         Me.LabelControl11.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl11.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl11.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl11.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl11.Location = New System.Drawing.Point(243, 20)
+        Me.LabelControl11.Location = New System.Drawing.Point(347, 25)
         Me.LabelControl11.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl11.Name = "LabelControl11"
         Me.LabelControl11.Size = New System.Drawing.Size(106, 15)
@@ -881,12 +922,13 @@ Partial Class frmGoldItem
         '
         'LabelControl3
         '
+        Me.LabelControl3.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl3.Appearance.Options.UseTextOptions = True
         Me.LabelControl3.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl3.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl3.Location = New System.Drawing.Point(695, 20)
+        Me.LabelControl3.Location = New System.Drawing.Point(799, 25)
         Me.LabelControl3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(106, 15)
@@ -895,12 +937,13 @@ Partial Class frmGoldItem
         '
         'LabelControl2
         '
+        Me.LabelControl2.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl2.Appearance.Options.UseTextOptions = True
         Me.LabelControl2.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl2.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl2.Location = New System.Drawing.Point(808, 20)
+        Me.LabelControl2.Location = New System.Drawing.Point(912, 25)
         Me.LabelControl2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(106, 15)
@@ -909,12 +952,13 @@ Partial Class frmGoldItem
         '
         'LabelControl1
         '
+        Me.LabelControl1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl1.Appearance.Options.UseTextOptions = True
         Me.LabelControl1.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl1.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl1.Location = New System.Drawing.Point(921, 20)
+        Me.LabelControl1.Location = New System.Drawing.Point(1025, 25)
         Me.LabelControl1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(106, 15)
@@ -923,12 +967,13 @@ Partial Class frmGoldItem
         '
         'LabelControl12
         '
+        Me.LabelControl12.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl12.Appearance.Options.UseTextOptions = True
         Me.LabelControl12.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl12.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl12.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl12.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl12.Location = New System.Drawing.Point(808, 50)
+        Me.LabelControl12.Location = New System.Drawing.Point(912, 63)
         Me.LabelControl12.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl12.Name = "LabelControl12"
         Me.LabelControl12.Size = New System.Drawing.Size(106, 15)
@@ -937,12 +982,13 @@ Partial Class frmGoldItem
         '
         'LabelControl10
         '
+        Me.LabelControl10.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl10.Appearance.Options.UseTextOptions = True
         Me.LabelControl10.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl10.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl10.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl10.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl10.Location = New System.Drawing.Point(921, 50)
+        Me.LabelControl10.Location = New System.Drawing.Point(1025, 63)
         Me.LabelControl10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl10.Name = "LabelControl10"
         Me.LabelControl10.Size = New System.Drawing.Size(106, 15)
@@ -951,12 +997,13 @@ Partial Class frmGoldItem
         '
         'LabelControl9
         '
+        Me.LabelControl9.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.LabelControl9.Appearance.Options.UseTextOptions = True
         Me.LabelControl9.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl9.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl9.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl9.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.LabelControl9.Location = New System.Drawing.Point(1035, 50)
+        Me.LabelControl9.Location = New System.Drawing.Point(1139, 62)
         Me.LabelControl9.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl9.Name = "LabelControl9"
         Me.LabelControl9.Size = New System.Drawing.Size(106, 15)
@@ -965,12 +1012,13 @@ Partial Class frmGoldItem
         '
         'lblCIDAr
         '
+        Me.lblCIDAr.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.lblCIDAr.Appearance.Options.UseTextOptions = True
         Me.lblCIDAr.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblCIDAr.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.lblCIDAr.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.lblCIDAr.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
-        Me.lblCIDAr.Location = New System.Drawing.Point(1035, 20)
+        Me.lblCIDAr.Location = New System.Drawing.Point(1139, 25)
         Me.lblCIDAr.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.lblCIDAr.Name = "lblCIDAr"
         Me.lblCIDAr.Size = New System.Drawing.Size(106, 15)
@@ -998,7 +1046,7 @@ Partial Class frmGoldItem
         'txtSetCode
         '
         Me.txtSetCode.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtSetCode.Location = New System.Drawing.Point(217, 274)
+        Me.txtSetCode.Location = New System.Drawing.Point(3, 279)
         Me.txtSetCode.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtSetCode.Name = "txtSetCode"
         Me.txtSetCode.ReadOnly = True
@@ -1028,7 +1076,7 @@ Partial Class frmGoldItem
         Me.LabelControl20.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl20.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl20.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
-        Me.LabelControl20.Location = New System.Drawing.Point(209, 279)
+        Me.LabelControl20.Location = New System.Drawing.Point(215, 279)
         Me.LabelControl20.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl20.Name = "LabelControl20"
         Me.LabelControl20.Size = New System.Drawing.Size(106, 15)
@@ -1042,7 +1090,7 @@ Partial Class frmGoldItem
         Me.LabelControl19.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl19.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl19.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
-        Me.LabelControl19.Location = New System.Drawing.Point(321, 279)
+        Me.LabelControl19.Location = New System.Drawing.Point(356, 279)
         Me.LabelControl19.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl19.Name = "LabelControl19"
         Me.LabelControl19.Size = New System.Drawing.Size(106, 15)
@@ -1056,7 +1104,7 @@ Partial Class frmGoldItem
         Me.LabelControl18.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.LabelControl18.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
         Me.LabelControl18.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple
-        Me.LabelControl18.Location = New System.Drawing.Point(432, 279)
+        Me.LabelControl18.Location = New System.Drawing.Point(462, 279)
         Me.LabelControl18.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.LabelControl18.Name = "LabelControl18"
         Me.LabelControl18.Size = New System.Drawing.Size(106, 15)
@@ -1219,9 +1267,9 @@ Partial Class frmGoldItem
         '
         Me.btnPanelExcel.AllowGlyphSkinning = False
         Me.btnPanelExcel.BackColor = System.Drawing.Color.Transparent
-        WindowsUIButtonImageOptions11.Image = CType(resources.GetObject("WindowsUIButtonImageOptions11.Image"), System.Drawing.Image)
-        WindowsUIButtonImageOptions12.Image = CType(resources.GetObject("WindowsUIButtonImageOptions12.Image"), System.Drawing.Image)
-        Me.btnPanelExcel.Buttons.AddRange(New DevExpress.XtraEditors.ButtonPanel.IBaseButton() {New DevExpress.XtraBars.Docking2010.WindowsUIButton("اختيار من إكسل", True, WindowsUIButtonImageOptions11, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("جديد", True, WindowsUIButtonImageOptions12, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False)})
+        WindowsUIButtonImageOptions5.Image = CType(resources.GetObject("WindowsUIButtonImageOptions5.Image"), System.Drawing.Image)
+        WindowsUIButtonImageOptions6.Image = CType(resources.GetObject("WindowsUIButtonImageOptions6.Image"), System.Drawing.Image)
+        Me.btnPanelExcel.Buttons.AddRange(New DevExpress.XtraEditors.ButtonPanel.IBaseButton() {New DevExpress.XtraBars.Docking2010.WindowsUIButton("اختيار من إكسل", True, WindowsUIButtonImageOptions5, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("جديد", True, WindowsUIButtonImageOptions6, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False)})
         Me.btnPanelExcel.Location = New System.Drawing.Point(65, 19)
         Me.btnPanelExcel.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnPanelExcel.Name = "btnPanelExcel"

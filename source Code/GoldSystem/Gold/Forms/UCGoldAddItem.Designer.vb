@@ -22,14 +22,30 @@ Partial Class UCGoldAddItem
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UCGoldAddItem))
-        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Me.txtDocumentPath = New DevExpress.XtraEditors.TextEdit()
-        Me.txtImagePath = New DevExpress.XtraEditors.TextEdit()
+        Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim EditorButtonImageOptions3 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
+        Dim SerializableAppearanceObject9 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject10 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject11 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject12 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim EditorButtonImageOptions1 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
+        Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject3 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject4 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Me.pbAddStone = New DevExpress.XtraEditors.PictureEdit()
         Me.gbItemData = New DevExpress.XtraEditors.GroupControl()
+        Me.cmbKarat = New DevExpress.XtraEditors.LookUpEdit()
+        Me.cmbItemCondition = New DevExpress.XtraEditors.LookUpEdit()
+        Me.cmbTaxExempt = New DevExpress.XtraEditors.LookUpEdit()
+        Me.cmbSupplierReceiptNo = New DevExpress.XtraEditors.LookUpEdit()
+        Me.cmbSupplier = New DevExpress.XtraEditors.LookUpEdit()
+        Me.cmbCountryOfOrigin = New DevExpress.XtraEditors.LookUpEdit()
+        Me.cmbItemName = New DevExpress.XtraEditors.LookUpEdit()
         Me.txtNote = New DevExpress.XtraEditors.MemoEdit()
         Me.dtpDateAdded = New DevExpress.XtraEditors.DateEdit()
         Me.lblDocument = New DevExpress.XtraEditors.LabelControl()
@@ -37,17 +53,12 @@ Partial Class UCGoldAddItem
         Me.txtBarCode = New DevExpress.XtraEditors.TextEdit()
         Me.txtCostPerPiece = New DevExpress.XtraEditors.TextEdit()
         Me.txtSymbol = New DevExpress.XtraEditors.TextEdit()
-        Me.cmbItemCondition = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.txtItemNo = New DevExpress.XtraEditors.TextEdit()
         Me.lblPhoto = New DevExpress.XtraEditors.LabelControl()
         Me.txtNoOfPieces = New DevExpress.XtraEditors.TextEdit()
-        Me.cmbTaxExempt = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.txtGramCost = New DevExpress.XtraEditors.TextEdit()
-        Me.cmbSupplierInvoiceNo = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.lblCostPerPiece = New DevExpress.XtraEditors.LabelControl()
-        Me.cmbSupplier = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.txtCostForSeller = New DevExpress.XtraEditors.TextEdit()
-        Me.cmbCountryOfOrigin = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.lblDateAdded = New DevExpress.XtraEditors.LabelControl()
         Me.txtCostPerGram = New DevExpress.XtraEditors.TextEdit()
         Me.lblGramCost = New DevExpress.XtraEditors.LabelControl()
@@ -55,9 +66,7 @@ Partial Class UCGoldAddItem
         Me.lblDateOfManufacture = New DevExpress.XtraEditors.LabelControl()
         Me.txtGoldWeight = New DevExpress.XtraEditors.TextEdit()
         Me.lblCostForSeller = New DevExpress.XtraEditors.LabelControl()
-        Me.cmbKarat = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.lblNote = New DevExpress.XtraEditors.LabelControl()
-        Me.cmbItemName = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.lblItemCondition = New DevExpress.XtraEditors.LabelControl()
         Me.lblCostPerGram = New DevExpress.XtraEditors.LabelControl()
         Me.lblBarCode = New DevExpress.XtraEditors.LabelControl()
@@ -72,6 +81,8 @@ Partial Class UCGoldAddItem
         Me.lblNoOfPieces = New DevExpress.XtraEditors.LabelControl()
         Me.lblCountryOfOrigin = New DevExpress.XtraEditors.LabelControl()
         Me.lblItemName = New DevExpress.XtraEditors.LabelControl()
+        Me.txtDocumentPath = New DevExpress.XtraEditors.ButtonEdit()
+        Me.txtImagePath = New DevExpress.XtraEditors.ButtonEdit()
         Me.gbStoneData = New DevExpress.XtraEditors.GroupControl()
         Me.gridStone = New DevExpress.XtraGrid.GridControl()
         Me.DgvStone = New DevExpress.XtraGrid.Views.Grid.GridView()
@@ -85,11 +96,18 @@ Partial Class UCGoldAddItem
         Me.colStoneCut = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colStonePrice = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colStoneView = New DevExpress.XtraGrid.Columns.GridColumn()
-        CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.OFDX = New DevExpress.XtraEditors.XtraOpenFileDialog(Me.components)
+        Me.EPX = New DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(Me.components)
         CType(Me.pbAddStone.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gbItemData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbItemData.SuspendLayout()
+        CType(Me.cmbKarat.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbItemCondition.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbTaxExempt.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbSupplierReceiptNo.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbSupplier.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbCountryOfOrigin.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbItemName.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtNote.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dtpDateAdded.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dtpDateAdded.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -98,55 +116,25 @@ Partial Class UCGoldAddItem
         CType(Me.txtBarCode.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtCostPerPiece.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtSymbol.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbItemCondition.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtItemNo.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtNoOfPieces.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbTaxExempt.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtGramCost.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbSupplierInvoiceNo.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbSupplier.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtCostForSeller.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbCountryOfOrigin.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtCostPerGram.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtMakingCharge.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtGoldWeight.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbKarat.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbItemName.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gbStoneData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbStoneData.SuspendLayout()
         CType(Me.gridStone, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EPX, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'txtDocumentPath
-        '
-        Me.txtDocumentPath.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.txtDocumentPath.Location = New System.Drawing.Point(14, 138)
-        Me.txtDocumentPath.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtDocumentPath.Name = "txtDocumentPath"
-        Me.txtDocumentPath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDocumentPath.Properties.Appearance.Options.UseFont = True
-        Me.txtDocumentPath.Properties.ContextImageOptions.Image = CType(resources.GetObject("txtDocumentPath.Properties.ContextImageOptions.Image"), System.Drawing.Image)
-        Me.txtDocumentPath.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtDocumentPath.Size = New System.Drawing.Size(165, 22)
-        Me.txtDocumentPath.TabIndex = 21
-        '
-        'txtImagePath
-        '
-        Me.txtImagePath.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.txtImagePath.Location = New System.Drawing.Point(14, 90)
-        Me.txtImagePath.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtImagePath.Name = "txtImagePath"
-        Me.txtImagePath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtImagePath.Properties.Appearance.Options.UseFont = True
-        Me.txtImagePath.Properties.ContextImageOptions.Image = CType(resources.GetObject("txtImagePath.Properties.ContextImageOptions.Image"), System.Drawing.Image)
-        Me.txtImagePath.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtImagePath.Size = New System.Drawing.Size(165, 22)
-        Me.txtImagePath.TabIndex = 15
         '
         'pbAddStone
         '
-        Me.pbAddStone.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.pbAddStone.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pbAddStone.Cursor = System.Windows.Forms.Cursors.Default
         Me.pbAddStone.EditValue = CType(resources.GetObject("pbAddStone.EditValue"), Object)
         Me.pbAddStone.Location = New System.Drawing.Point(1214, 1)
@@ -159,16 +147,23 @@ Partial Class UCGoldAddItem
         Me.pbAddStone.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbAddStone.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
         Me.pbAddStone.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem1.Text = "إضافة فص"
-        ToolTipItem1.LeftIndent = 6
-        ToolTipItem1.Text = "اضغط لإضافة فص للقطعة"
-        SuperToolTip1.Items.Add(ToolTipTitleItem1)
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        Me.pbAddStone.SuperTip = SuperToolTip1
+        ToolTipTitleItem2.Text = "إضافة فص"
+        ToolTipItem2.LeftIndent = 6
+        ToolTipItem2.Text = "اضغط لإضافة فص للقطعة"
+        SuperToolTip2.Items.Add(ToolTipTitleItem2)
+        SuperToolTip2.Items.Add(ToolTipItem2)
+        Me.pbAddStone.SuperTip = SuperToolTip2
         Me.pbAddStone.TabIndex = 101
         '
         'gbItemData
         '
+        Me.gbItemData.Controls.Add(Me.cmbKarat)
+        Me.gbItemData.Controls.Add(Me.cmbItemCondition)
+        Me.gbItemData.Controls.Add(Me.cmbTaxExempt)
+        Me.gbItemData.Controls.Add(Me.cmbSupplierReceiptNo)
+        Me.gbItemData.Controls.Add(Me.cmbSupplier)
+        Me.gbItemData.Controls.Add(Me.cmbCountryOfOrigin)
+        Me.gbItemData.Controls.Add(Me.cmbItemName)
         Me.gbItemData.Controls.Add(Me.txtNote)
         Me.gbItemData.Controls.Add(Me.dtpDateAdded)
         Me.gbItemData.Controls.Add(Me.lblDocument)
@@ -176,17 +171,12 @@ Partial Class UCGoldAddItem
         Me.gbItemData.Controls.Add(Me.txtBarCode)
         Me.gbItemData.Controls.Add(Me.txtCostPerPiece)
         Me.gbItemData.Controls.Add(Me.txtSymbol)
-        Me.gbItemData.Controls.Add(Me.cmbItemCondition)
         Me.gbItemData.Controls.Add(Me.txtItemNo)
         Me.gbItemData.Controls.Add(Me.lblPhoto)
         Me.gbItemData.Controls.Add(Me.txtNoOfPieces)
-        Me.gbItemData.Controls.Add(Me.cmbTaxExempt)
         Me.gbItemData.Controls.Add(Me.txtGramCost)
-        Me.gbItemData.Controls.Add(Me.cmbSupplierInvoiceNo)
         Me.gbItemData.Controls.Add(Me.lblCostPerPiece)
-        Me.gbItemData.Controls.Add(Me.cmbSupplier)
         Me.gbItemData.Controls.Add(Me.txtCostForSeller)
-        Me.gbItemData.Controls.Add(Me.cmbCountryOfOrigin)
         Me.gbItemData.Controls.Add(Me.lblDateAdded)
         Me.gbItemData.Controls.Add(Me.txtCostPerGram)
         Me.gbItemData.Controls.Add(Me.lblGramCost)
@@ -194,9 +184,7 @@ Partial Class UCGoldAddItem
         Me.gbItemData.Controls.Add(Me.lblDateOfManufacture)
         Me.gbItemData.Controls.Add(Me.txtGoldWeight)
         Me.gbItemData.Controls.Add(Me.lblCostForSeller)
-        Me.gbItemData.Controls.Add(Me.cmbKarat)
         Me.gbItemData.Controls.Add(Me.lblNote)
-        Me.gbItemData.Controls.Add(Me.cmbItemName)
         Me.gbItemData.Controls.Add(Me.lblItemCondition)
         Me.gbItemData.Controls.Add(Me.lblCostPerGram)
         Me.gbItemData.Controls.Add(Me.lblBarCode)
@@ -221,6 +209,93 @@ Partial Class UCGoldAddItem
         Me.gbItemData.TabIndex = 0
         Me.gbItemData.Text = "بيانات القطعة"
         '
+        'cmbKarat
+        '
+        Me.cmbKarat.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.cmbKarat.Location = New System.Drawing.Point(1004, 45)
+        Me.cmbKarat.Name = "cmbKarat"
+        Me.cmbKarat.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbKarat.Properties.NullText = "اختر عيارًا"
+        Me.cmbKarat.Properties.ShowFooter = False
+        Me.cmbKarat.Properties.ShowHeader = False
+        Me.cmbKarat.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.cmbKarat.Size = New System.Drawing.Size(165, 20)
+        Me.cmbKarat.TabIndex = 1
+        '
+        'cmbItemCondition
+        '
+        Me.cmbItemCondition.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.cmbItemCondition.Location = New System.Drawing.Point(509, 91)
+        Me.cmbItemCondition.Name = "cmbItemCondition"
+        Me.cmbItemCondition.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbItemCondition.Properties.NullText = "اختر الحالة"
+        Me.cmbItemCondition.Properties.ShowFooter = False
+        Me.cmbItemCondition.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.cmbItemCondition.Size = New System.Drawing.Size(165, 20)
+        Me.cmbItemCondition.TabIndex = 12
+        '
+        'cmbTaxExempt
+        '
+        Me.cmbTaxExempt.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.cmbTaxExempt.Location = New System.Drawing.Point(674, 91)
+        Me.cmbTaxExempt.Name = "cmbTaxExempt"
+        Me.cmbTaxExempt.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbTaxExempt.Properties.NullText = "اختر الحالة"
+        Me.cmbTaxExempt.Properties.ShowFooter = False
+        Me.cmbTaxExempt.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.cmbTaxExempt.Size = New System.Drawing.Size(165, 20)
+        Me.cmbTaxExempt.TabIndex = 11
+        '
+        'cmbSupplierReceiptNo
+        '
+        Me.cmbSupplierReceiptNo.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.cmbSupplierReceiptNo.Location = New System.Drawing.Point(839, 91)
+        Me.cmbSupplierReceiptNo.Name = "cmbSupplierReceiptNo"
+        Me.cmbSupplierReceiptNo.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbSupplierReceiptNo.Properties.NullText = "اختر رقم الفاتورة"
+        Me.cmbSupplierReceiptNo.Properties.ShowFooter = False
+        Me.cmbSupplierReceiptNo.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.cmbSupplierReceiptNo.Size = New System.Drawing.Size(165, 20)
+        Me.cmbSupplierReceiptNo.TabIndex = 10
+        '
+        'cmbSupplier
+        '
+        Me.cmbSupplier.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.cmbSupplier.Location = New System.Drawing.Point(1004, 91)
+        Me.cmbSupplier.Name = "cmbSupplier"
+        Me.cmbSupplier.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbSupplier.Properties.NullText = "اختر المورد"
+        Me.cmbSupplier.Properties.ShowFooter = False
+        Me.cmbSupplier.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.cmbSupplier.Size = New System.Drawing.Size(165, 20)
+        Me.cmbSupplier.TabIndex = 9
+        '
+        'cmbCountryOfOrigin
+        '
+        Me.cmbCountryOfOrigin.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.cmbCountryOfOrigin.Location = New System.Drawing.Point(1169, 91)
+        Me.cmbCountryOfOrigin.Name = "cmbCountryOfOrigin"
+        Me.cmbCountryOfOrigin.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbCountryOfOrigin.Properties.NullText = "اختر بلد المنشأ"
+        Me.cmbCountryOfOrigin.Properties.ShowFooter = False
+        Me.cmbCountryOfOrigin.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.cmbCountryOfOrigin.Size = New System.Drawing.Size(165, 20)
+        Me.cmbCountryOfOrigin.TabIndex = 8
+        '
+        'cmbItemName
+        '
+        Me.cmbItemName.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.cmbItemName.Location = New System.Drawing.Point(1169, 45)
+        Me.cmbItemName.Name = "cmbItemName"
+        Me.cmbItemName.Properties.AcceptEditorTextAsNewValue = DevExpress.Utils.DefaultBoolean.[True]
+        Me.cmbItemName.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbItemName.Properties.NullText = ""
+        Me.cmbItemName.Properties.ShowFooter = False
+        Me.cmbItemName.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.cmbItemName.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.cmbItemName.Size = New System.Drawing.Size(165, 20)
+        Me.cmbItemName.TabIndex = 0
+        '
         'txtNote
         '
         Me.txtNote.Anchor = System.Windows.Forms.AnchorStyles.Top
@@ -237,6 +312,8 @@ Partial Class UCGoldAddItem
         Me.dtpDateAdded.Name = "dtpDateAdded"
         Me.dtpDateAdded.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.dtpDateAdded.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.dtpDateAdded.Properties.UseAdvancedMode = DevExpress.Utils.DefaultBoolean.[False]
+        Me.dtpDateAdded.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.dtpDateAdded.Size = New System.Drawing.Size(165, 20)
         Me.dtpDateAdded.TabIndex = 14
         '
@@ -261,6 +338,9 @@ Partial Class UCGoldAddItem
         Me.dtpDateOfManufacture.Name = "dtpDateOfManufacture"
         Me.dtpDateOfManufacture.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.dtpDateOfManufacture.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.dtpDateOfManufacture.Properties.MaskSettings.Set("culture", "")
+        Me.dtpDateOfManufacture.Properties.UseAdvancedMode = DevExpress.Utils.DefaultBoolean.[False]
+        Me.dtpDateOfManufacture.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.dtpDateOfManufacture.Size = New System.Drawing.Size(165, 20)
         Me.dtpDateOfManufacture.TabIndex = 13
         '
@@ -281,6 +361,8 @@ Partial Class UCGoldAddItem
         Me.txtCostPerPiece.Name = "txtCostPerPiece"
         Me.txtCostPerPiece.Properties.Appearance.Options.UseTextOptions = True
         Me.txtCostPerPiece.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.txtCostPerPiece.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
+        Me.txtCostPerPiece.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.txtCostPerPiece.Size = New System.Drawing.Size(165, 20)
         Me.txtCostPerPiece.TabIndex = 7
         '
@@ -293,15 +375,6 @@ Partial Class UCGoldAddItem
         Me.txtSymbol.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.txtSymbol.Size = New System.Drawing.Size(165, 20)
         Me.txtSymbol.TabIndex = 18
-        '
-        'cmbItemCondition
-        '
-        Me.cmbItemCondition.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbItemCondition.Location = New System.Drawing.Point(509, 91)
-        Me.cmbItemCondition.Name = "cmbItemCondition"
-        Me.cmbItemCondition.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbItemCondition.Size = New System.Drawing.Size(165, 20)
-        Me.cmbItemCondition.TabIndex = 12
         '
         'txtItemNo
         '
@@ -333,17 +406,10 @@ Partial Class UCGoldAddItem
         Me.txtNoOfPieces.Name = "txtNoOfPieces"
         Me.txtNoOfPieces.Properties.Appearance.Options.UseTextOptions = True
         Me.txtNoOfPieces.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.txtNoOfPieces.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
+        Me.txtNoOfPieces.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.txtNoOfPieces.Size = New System.Drawing.Size(165, 20)
         Me.txtNoOfPieces.TabIndex = 16
-        '
-        'cmbTaxExempt
-        '
-        Me.cmbTaxExempt.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbTaxExempt.Location = New System.Drawing.Point(674, 91)
-        Me.cmbTaxExempt.Name = "cmbTaxExempt"
-        Me.cmbTaxExempt.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbTaxExempt.Size = New System.Drawing.Size(165, 20)
-        Me.cmbTaxExempt.TabIndex = 11
         '
         'txtGramCost
         '
@@ -352,17 +418,10 @@ Partial Class UCGoldAddItem
         Me.txtGramCost.Name = "txtGramCost"
         Me.txtGramCost.Properties.Appearance.Options.UseTextOptions = True
         Me.txtGramCost.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.txtGramCost.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
+        Me.txtGramCost.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.txtGramCost.Size = New System.Drawing.Size(165, 20)
         Me.txtGramCost.TabIndex = 6
-        '
-        'cmbSupplierInvoiceNo
-        '
-        Me.cmbSupplierInvoiceNo.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbSupplierInvoiceNo.Location = New System.Drawing.Point(839, 91)
-        Me.cmbSupplierInvoiceNo.Name = "cmbSupplierInvoiceNo"
-        Me.cmbSupplierInvoiceNo.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbSupplierInvoiceNo.Size = New System.Drawing.Size(165, 20)
-        Me.cmbSupplierInvoiceNo.TabIndex = 10
         '
         'lblCostPerPiece
         '
@@ -377,15 +436,6 @@ Partial Class UCGoldAddItem
         Me.lblCostPerPiece.TabIndex = 102
         Me.lblCostPerPiece.Text = "سعر شراء القطعة"
         '
-        'cmbSupplier
-        '
-        Me.cmbSupplier.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbSupplier.Location = New System.Drawing.Point(1004, 91)
-        Me.cmbSupplier.Name = "cmbSupplier"
-        Me.cmbSupplier.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbSupplier.Size = New System.Drawing.Size(165, 20)
-        Me.cmbSupplier.TabIndex = 9
-        '
         'txtCostForSeller
         '
         Me.txtCostForSeller.Anchor = System.Windows.Forms.AnchorStyles.Top
@@ -393,17 +443,10 @@ Partial Class UCGoldAddItem
         Me.txtCostForSeller.Name = "txtCostForSeller"
         Me.txtCostForSeller.Properties.Appearance.Options.UseTextOptions = True
         Me.txtCostForSeller.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.txtCostForSeller.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
+        Me.txtCostForSeller.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.txtCostForSeller.Size = New System.Drawing.Size(165, 20)
         Me.txtCostForSeller.TabIndex = 5
-        '
-        'cmbCountryOfOrigin
-        '
-        Me.cmbCountryOfOrigin.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbCountryOfOrigin.Location = New System.Drawing.Point(1169, 91)
-        Me.cmbCountryOfOrigin.Name = "cmbCountryOfOrigin"
-        Me.cmbCountryOfOrigin.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbCountryOfOrigin.Size = New System.Drawing.Size(165, 20)
-        Me.cmbCountryOfOrigin.TabIndex = 8
         '
         'lblDateAdded
         '
@@ -425,6 +468,8 @@ Partial Class UCGoldAddItem
         Me.txtCostPerGram.Name = "txtCostPerGram"
         Me.txtCostPerGram.Properties.Appearance.Options.UseTextOptions = True
         Me.txtCostPerGram.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.txtCostPerGram.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
+        Me.txtCostPerGram.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.txtCostPerGram.Size = New System.Drawing.Size(165, 20)
         Me.txtCostPerGram.TabIndex = 4
         '
@@ -448,6 +493,8 @@ Partial Class UCGoldAddItem
         Me.txtMakingCharge.Name = "txtMakingCharge"
         Me.txtMakingCharge.Properties.Appearance.Options.UseTextOptions = True
         Me.txtMakingCharge.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.txtMakingCharge.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
+        Me.txtMakingCharge.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.txtMakingCharge.Size = New System.Drawing.Size(165, 20)
         Me.txtMakingCharge.TabIndex = 3
         '
@@ -471,6 +518,8 @@ Partial Class UCGoldAddItem
         Me.txtGoldWeight.Name = "txtGoldWeight"
         Me.txtGoldWeight.Properties.Appearance.Options.UseTextOptions = True
         Me.txtGoldWeight.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.txtGoldWeight.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
+        Me.txtGoldWeight.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.txtGoldWeight.Size = New System.Drawing.Size(165, 20)
         Me.txtGoldWeight.TabIndex = 2
         '
@@ -487,15 +536,6 @@ Partial Class UCGoldAddItem
         Me.lblCostForSeller.TabIndex = 102
         Me.lblCostForSeller.Text = "تكلفة للبائع"
         '
-        'cmbKarat
-        '
-        Me.cmbKarat.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbKarat.Location = New System.Drawing.Point(1004, 45)
-        Me.cmbKarat.Name = "cmbKarat"
-        Me.cmbKarat.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbKarat.Size = New System.Drawing.Size(165, 20)
-        Me.cmbKarat.TabIndex = 1
-        '
         'lblNote
         '
         Me.lblNote.Anchor = System.Windows.Forms.AnchorStyles.Top
@@ -508,15 +548,6 @@ Partial Class UCGoldAddItem
         Me.lblNote.Size = New System.Drawing.Size(495, 19)
         Me.lblNote.TabIndex = 102
         Me.lblNote.Text = "ملاحظات"
-        '
-        'cmbItemName
-        '
-        Me.cmbItemName.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbItemName.Location = New System.Drawing.Point(1169, 45)
-        Me.cmbItemName.Name = "cmbItemName"
-        Me.cmbItemName.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbItemName.Size = New System.Drawing.Size(165, 20)
-        Me.cmbItemName.TabIndex = 0
         '
         'lblItemCondition
         '
@@ -700,6 +731,34 @@ Partial Class UCGoldAddItem
         Me.lblItemName.TabIndex = 102
         Me.lblItemName.Text = "اسم الصنف"
         '
+        'txtDocumentPath
+        '
+        Me.txtDocumentPath.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.txtDocumentPath.Location = New System.Drawing.Point(14, 137)
+        Me.txtDocumentPath.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtDocumentPath.Name = "txtDocumentPath"
+        Me.txtDocumentPath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDocumentPath.Properties.Appearance.Options.UseFont = True
+        EditorButtonImageOptions3.Image = CType(resources.GetObject("EditorButtonImageOptions3.Image"), System.Drawing.Image)
+        Me.txtDocumentPath.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions3, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject9, SerializableAppearanceObject10, SerializableAppearanceObject11, SerializableAppearanceObject12, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        Me.txtDocumentPath.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.txtDocumentPath.Size = New System.Drawing.Size(165, 24)
+        Me.txtDocumentPath.TabIndex = 15
+        '
+        'txtImagePath
+        '
+        Me.txtImagePath.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.txtImagePath.Location = New System.Drawing.Point(14, 90)
+        Me.txtImagePath.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtImagePath.Name = "txtImagePath"
+        Me.txtImagePath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtImagePath.Properties.Appearance.Options.UseFont = True
+        EditorButtonImageOptions1.Image = CType(resources.GetObject("EditorButtonImageOptions1.Image"), System.Drawing.Image)
+        Me.txtImagePath.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions1, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, SerializableAppearanceObject2, SerializableAppearanceObject3, SerializableAppearanceObject4, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        Me.txtImagePath.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.txtImagePath.Size = New System.Drawing.Size(165, 24)
+        Me.txtImagePath.TabIndex = 15
+        '
         'gbStoneData
         '
         Me.gbStoneData.Controls.Add(Me.gridStone)
@@ -837,6 +896,16 @@ Partial Class UCGoldAddItem
         Me.colStoneView.Visible = True
         Me.colStoneView.VisibleIndex = 8
         '
+        'OFDX
+        '
+        Me.OFDX.Filter = "Image Files (*.bmp, *.jpg, *.jpeg, *.png, *.gif)|*.bmp, *.jpg, *.jpeg, *.png, *.g" &
+    "if"
+        Me.OFDX.RestoreDirectory = True
+        '
+        'EPX
+        '
+        Me.EPX.ContainerControl = Me
+        '
         'UCGoldAddItem
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -845,11 +914,16 @@ Partial Class UCGoldAddItem
         Me.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "UCGoldAddItem"
         Me.Size = New System.Drawing.Size(1350, 283)
-        CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbAddStone.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gbItemData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbItemData.ResumeLayout(False)
+        CType(Me.cmbKarat.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbItemCondition.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbTaxExempt.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbSupplierReceiptNo.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbSupplier.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbCountryOfOrigin.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbItemName.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtNote.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtpDateAdded.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtpDateAdded.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -858,29 +932,23 @@ Partial Class UCGoldAddItem
         CType(Me.txtBarCode.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtCostPerPiece.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtSymbol.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbItemCondition.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtItemNo.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtNoOfPieces.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbTaxExempt.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtGramCost.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbSupplierInvoiceNo.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbSupplier.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtCostForSeller.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbCountryOfOrigin.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtCostPerGram.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtMakingCharge.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtGoldWeight.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbKarat.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbItemName.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gbStoneData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbStoneData.ResumeLayout(False)
         CType(Me.gridStone, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EPX, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents txtDocumentPath As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents txtImagePath As DevExpress.XtraEditors.TextEdit
     Private WithEvents pbAddStone As DevExpress.XtraEditors.PictureEdit
     Friend WithEvents gbItemData As DevExpress.XtraEditors.GroupControl
     Friend WithEvents gbStoneData As DevExpress.XtraEditors.GroupControl
@@ -924,18 +992,22 @@ Partial Class UCGoldAddItem
     Friend WithEvents txtCostPerGram As DevExpress.XtraEditors.TextEdit
     Friend WithEvents txtMakingCharge As DevExpress.XtraEditors.TextEdit
     Friend WithEvents txtGoldWeight As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents cmbKarat As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents cmbItemName As DevExpress.XtraEditors.ComboBoxEdit
     Friend WithEvents dtpDateAdded As DevExpress.XtraEditors.DateEdit
     Friend WithEvents dtpDateOfManufacture As DevExpress.XtraEditors.DateEdit
-    Friend WithEvents cmbItemCondition As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents cmbTaxExempt As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents cmbSupplierInvoiceNo As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents cmbSupplier As DevExpress.XtraEditors.ComboBoxEdit
-    Friend WithEvents cmbCountryOfOrigin As DevExpress.XtraEditors.ComboBoxEdit
     Friend WithEvents txtNoOfPieces As DevExpress.XtraEditors.TextEdit
     Friend WithEvents txtItemNo As DevExpress.XtraEditors.TextEdit
     Friend WithEvents txtSymbol As DevExpress.XtraEditors.TextEdit
     Friend WithEvents txtBarCode As DevExpress.XtraEditors.TextEdit
     Friend WithEvents txtNote As DevExpress.XtraEditors.MemoEdit
+    Friend WithEvents cmbItemName As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents cmbKarat As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents cmbSupplier As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents cmbCountryOfOrigin As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents cmbItemCondition As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents cmbTaxExempt As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents cmbSupplierReceiptNo As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents txtImagePath As DevExpress.XtraEditors.ButtonEdit
+    Friend WithEvents txtDocumentPath As DevExpress.XtraEditors.ButtonEdit
+    Friend WithEvents OFDX As DevExpress.XtraEditors.XtraOpenFileDialog
+    Friend WithEvents EPX As DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider
 End Class

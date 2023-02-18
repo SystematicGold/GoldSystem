@@ -11,5 +11,6 @@ namespace API.Entities
         public long Code { get; set; }
         public string NameAr { get; set; }
         public string NameEn { get; set; }
+        public bool Enabled { get; set; }
     }
 }

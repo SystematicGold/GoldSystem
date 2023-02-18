@@ -1,5 +1,5 @@
-﻿Public Class frmAccountingTree
-    Private Sub frmAccountingTree_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+﻿Public Class FrmAccountingTree
+    Private Sub FrmAccountingTree_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 

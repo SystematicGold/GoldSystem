@@ -70,7 +70,7 @@ Partial Class frmGoldPurchase
         Me.LabelControl19 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
-        Me.UcCivilID = New GoldSystem.ucCivilID()
+        Me.UcCivilID = New GoldSystem.UCCivilID()
         Me.TabNavigationPage2 = New DevExpress.XtraBars.Navigation.TabNavigationPage()
         Me.UcSupplier = New GoldSystem.ucSupplier()
         Me.TabPane2 = New DevExpress.XtraBars.Navigation.TabPane()
@@ -1153,7 +1153,7 @@ Partial Class frmGoldPurchase
     Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
     Friend WithEvents TabNavigationPage4 As DevExpress.XtraBars.Navigation.TabNavigationPage
     Friend WithEvents UcGoldAddItem As UCGoldAddItem
-    Friend WithEvents UcCivilID As ucCivilID
+    Friend WithEvents UcCivilID As UCCivilID
     Friend WithEvents GroupControl1 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents TextEdit11 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl

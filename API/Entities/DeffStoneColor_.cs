@@ -9,7 +9,9 @@ namespace API.Entities
     {
         public long Id { get; set; }
         public long Code { get; set; }
-        public string Name { get; set; }
+        public string NameAr { get; set; }
+        public string NameEn { get; set; }
         public bool IsDiamondColor { get; set; } = false;
+        public bool Enabled { get; set; }
     }
 }

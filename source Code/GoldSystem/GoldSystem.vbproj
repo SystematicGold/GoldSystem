@@ -95,42 +95,41 @@
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>..\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
-    <Reference Include="DevExpress.Charts.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Drawing.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.DataAccess.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Office.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Pdf.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.PivotGrid.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Printing.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.RichEdit.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.RichEdit.v22.2.Export, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Sparkline.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.SpellChecker.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.TreeMap.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Data.Desktop.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v22.2.UI, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraCharts.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGauges.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraPrinting.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraReports.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraScheduler.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraScheduler.v22.2.Core.Desktop, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraScheduler.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraScheduler.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraSpellChecker.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraTreeList.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraTreeMap.v22.2.UI, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraTreeMap.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="FontAwesome.Sharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net45\FontAwesome.Sharp.dll</HintPath>
-    </Reference>
+    <Reference Include="DevExpress.Charts.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Dialogs.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Drawing.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v22.2.Export, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.TreeMap.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v22.2.UI, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraDialogs.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v22.2.Core.Desktop, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v22.2.Core, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v22.2.UI, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Guna.UI">
       <HintPath>..\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
     </Reference>
@@ -208,54 +207,56 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acconting\Forms\frmAccountingTree.Designer.vb">
-      <DependentUpon>frmAccountingTree.vb</DependentUpon>
+    <Compile Include="Acconting\Forms\FrmAccountingTree.Designer.vb">
+      <DependentUpon>FrmAccountingTree.vb</DependentUpon>
     </Compile>
-    <Compile Include="Acconting\Forms\frmAccountingTree.vb">
+    <Compile Include="Acconting\Forms\FrmAccountingTree.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Acconting\Forms\frmSelectAccount.Designer.vb">
-      <DependentUpon>frmSelectAccount.vb</DependentUpon>
+    <Compile Include="Acconting\Forms\FrmSelectAccount.Designer.vb">
+      <DependentUpon>FrmSelectAccount.vb</DependentUpon>
     </Compile>
-    <Compile Include="Acconting\Forms\frmSelectAccount.vb">
+    <Compile Include="Acconting\Forms\FrmSelectAccount.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Gold\Cls\ClsGoldAddStone.vb" />
     <Compile Include="Gold\Cls\ClsGoldItem.vb" />
+    <Compile Include="Gold\Cls\ClsGoldSale.vb" />
     <Compile Include="Gold\Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
     <Compile Include="Gold\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldAddStone.Designer.vb">
-      <DependentUpon>frmGoldAddStone.vb</DependentUpon>
+    <Compile Include="Gold\Forms\FrmGoldAddStone.Designer.vb">
+      <DependentUpon>FrmGoldAddStone.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldAddStone.vb">
+    <Compile Include="Gold\Forms\FrmGoldAddStone.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldItem.Designer.vb">
-      <DependentUpon>frmGoldItem.vb</DependentUpon>
+    <Compile Include="Gold\Forms\FrmGoldItem.Designer.vb">
+      <DependentUpon>FrmGoldItem.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldItem.vb">
+    <Compile Include="Gold\Forms\FrmGoldItem.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldSale.Designer.vb">
-      <DependentUpon>frmGoldSale.vb</DependentUpon>
+    <Compile Include="Gold\Forms\FrmGoldSale.Designer.vb">
+      <DependentUpon>FrmGoldSale.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldSale.vb">
+    <Compile Include="Gold\Forms\FrmGoldSale.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldTransaction.Designer.vb">
-      <DependentUpon>frmGoldTransaction.vb</DependentUpon>
+    <Compile Include="Gold\Forms\FrmGoldTransaction.Designer.vb">
+      <DependentUpon>FrmGoldTransaction.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldTransaction.vb">
+    <Compile Include="Gold\Forms\FrmGoldTransaction.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\frmReport.Designer.vb">
-      <DependentUpon>frmReport.vb</DependentUpon>
+    <Compile Include="Gold\Forms\FrmReport.Designer.vb">
+      <DependentUpon>FrmReport.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\frmReport.vb">
+    <Compile Include="Gold\Forms\FrmReport.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gold\Forms\UCGoldAddItem.Designer.vb">
@@ -276,10 +277,10 @@
     <Compile Include="Gold\Forms\FrmGoldAddItem.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldPurchase.Designer.vb">
-      <DependentUpon>frmGoldPurchase.vb</DependentUpon>
+    <Compile Include="Gold\Forms\FrmGoldPurchase.Designer.vb">
+      <DependentUpon>FrmGoldPurchase.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldPurchase.vb">
+    <Compile Include="Gold\Forms\FrmGoldPurchase.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gold\Reports\PrintBarCode.Designer.vb">
@@ -294,28 +295,22 @@
     <Compile Include="Main\Forms\FrmMain.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main\Forms\frmPermissions.Designer.vb">
-      <DependentUpon>frmPermissions.vb</DependentUpon>
+    <Compile Include="Main\Forms\FrmPermissions.Designer.vb">
+      <DependentUpon>FrmPermissions.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\frmPermissions.vb">
+    <Compile Include="Main\Forms\FrmPermissions.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main\Forms\frmVoucher.Designer.vb">
-      <DependentUpon>frmVoucher.vb</DependentUpon>
+    <Compile Include="Main\Forms\FrmVoucher.Designer.vb">
+      <DependentUpon>FrmVoucher.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\frmVoucher.vb">
+    <Compile Include="Main\Forms\FrmVoucher.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldPrintBarCode.Designer.vb">
-      <DependentUpon>frmGoldPrintBarCode.vb</DependentUpon>
+    <Compile Include="Gold\Forms\FrmGoldPrintBarCode.Designer.vb">
+      <DependentUpon>FrmGoldPrintBarCode.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\frmGoldPrintBarCode.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gold\Forms\frmGoldSale1.Designer.vb">
-      <DependentUpon>frmGoldSale1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Gold\Forms\frmGoldSale1.vb">
+    <Compile Include="Gold\Forms\FrmGoldPrintBarCode.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login\Cls\ClsLogin.vb" />
@@ -333,40 +328,40 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main\Cls\ClsMain.vb" />
-    <Compile Include="Main\Forms\ucCivilID.Designer.vb">
-      <DependentUpon>ucCivilID.vb</DependentUpon>
+    <Compile Include="Main\Forms\UCCivilID.Designer.vb">
+      <DependentUpon>UCCivilID.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\ucCivilID.vb">
+    <Compile Include="Main\Forms\UCCivilID.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Main\Forms\ucFavorite.Designer.vb">
-      <DependentUpon>ucFavorite.vb</DependentUpon>
+    <Compile Include="Main\Forms\UCFavorite.Designer.vb">
+      <DependentUpon>UCFavorite.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\ucFavorite.vb">
+    <Compile Include="Main\Forms\UCFavorite.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Main\Forms\frmLanguage.Designer.vb">
-      <DependentUpon>frmLanguage.vb</DependentUpon>
+    <Compile Include="Main\Forms\FrmLanguage.Designer.vb">
+      <DependentUpon>FrmLanguage.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\frmLanguage.vb">
+    <Compile Include="Main\Forms\FrmLanguage.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main\Forms\frmMainOld.Designer.vb">
-      <DependentUpon>frmMainOld.vb</DependentUpon>
+    <Compile Include="Main\Forms\FrmMainOld.Designer.vb">
+      <DependentUpon>FrmMainOld.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\frmMainOld.vb">
+    <Compile Include="Main\Forms\FrmMainOld.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main\Forms\frmMaxmizeGold.Designer.vb">
-      <DependentUpon>frmMaxmizeGold.vb</DependentUpon>
+    <Compile Include="Main\Forms\FrmMaxmizeGold.Designer.vb">
+      <DependentUpon>FrmMaxmizeGold.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\frmMaxmizeGold.vb">
+    <Compile Include="Main\Forms\FrmMaxmizeGold.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main\Forms\ucSupplier.Designer.vb">
-      <DependentUpon>ucSupplier.vb</DependentUpon>
+    <Compile Include="Main\Forms\UCSupplier.Designer.vb">
+      <DependentUpon>UCSupplier.vb</DependentUpon>
     </Compile>
-    <Compile Include="Main\Forms\ucSupplier.vb">
+    <Compile Include="Main\Forms\UCSupplier.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -389,11 +384,11 @@
     <Compile Include="Setting\Settings.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Acconting\Forms\frmAccountingTree.resx">
-      <DependentUpon>frmAccountingTree.vb</DependentUpon>
+    <EmbeddedResource Include="Acconting\Forms\FrmAccountingTree.resx">
+      <DependentUpon>FrmAccountingTree.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Acconting\Forms\frmSelectAccount.resx">
-      <DependentUpon>frmSelectAccount.vb</DependentUpon>
+      <DependentUpon>FrmSelectAccount.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Form1.ar.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -401,23 +396,23 @@
     <EmbeddedResource Include="Gold\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldAddStone.resx">
-      <DependentUpon>frmGoldAddStone.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\FrmGoldAddStone.resx">
+      <DependentUpon>FrmGoldAddStone.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldItem.resx">
-      <DependentUpon>frmGoldItem.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\FrmGoldItem.resx">
+      <DependentUpon>FrmGoldItem.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldPrintBarCode.resx">
-      <DependentUpon>frmGoldPrintBarCode.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\FrmGoldPrintBarCode.resx">
+      <DependentUpon>FrmGoldPrintBarCode.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldSale.resx">
-      <DependentUpon>frmGoldSale.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\FrmGoldSale.resx">
+      <DependentUpon>FrmGoldSale.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldTransaction.resx">
-      <DependentUpon>frmGoldTransaction.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\FrmGoldTransaction.resx">
+      <DependentUpon>FrmGoldTransaction.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmReport.resx">
-      <DependentUpon>frmReport.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\FrmReport.resx">
+      <DependentUpon>FrmReport.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\UCGoldAddItem.resx">
       <DependentUpon>UCGoldAddItem.vb</DependentUpon>
@@ -428,8 +423,8 @@
     <EmbeddedResource Include="Gold\Forms\FrmGoldAddItem.resx">
       <DependentUpon>FrmGoldAddItem.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldPurchase.resx">
-      <DependentUpon>frmGoldPurchase.vb</DependentUpon>
+    <EmbeddedResource Include="Gold\Forms\FrmGoldPurchase.resx">
+      <DependentUpon>FrmGoldPurchase.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Reports\PrintBarCode.resx">
       <DependentUpon>PrintBarCode.vb</DependentUpon>
@@ -437,14 +432,11 @@
     <EmbeddedResource Include="Main\Forms\FrmMain.resx">
       <DependentUpon>FrmMain.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\frmPermissions.resx">
-      <DependentUpon>frmPermissions.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\FrmPermissions.resx">
+      <DependentUpon>FrmPermissions.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\frmVoucher.resx">
-      <DependentUpon>frmVoucher.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\frmGoldSale1.resx">
-      <DependentUpon>frmGoldSale1.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\FrmVoucher.resx">
+      <DependentUpon>FrmVoucher.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login\Forms\FrmLogin.ar.resx">
       <DependentUpon>FrmLogin.vb</DependentUpon>
@@ -461,23 +453,23 @@
     <EmbeddedResource Include="Login\Forms\SettingFile.resx">
       <DependentUpon>SettingFile.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\ucCivilID.resx">
-      <DependentUpon>ucCivilID.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\UCCivilID.resx">
+      <DependentUpon>UCCivilID.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\ucFavorite.resx">
-      <DependentUpon>ucFavorite.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\UCFavorite.resx">
+      <DependentUpon>UCFavorite.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\frmLanguage.resx">
-      <DependentUpon>frmLanguage.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\FrmLanguage.resx">
+      <DependentUpon>FrmLanguage.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\frmMainOld.resx">
-      <DependentUpon>frmMainOld.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\FrmMainOld.resx">
+      <DependentUpon>FrmMainOld.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\frmMaxmizeGold.resx">
-      <DependentUpon>frmMaxmizeGold.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\FrmMaxmizeGold.resx">
+      <DependentUpon>FrmMaxmizeGold.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main\Forms\ucSupplier.resx">
-      <DependentUpon>ucSupplier.vb</DependentUpon>
+    <EmbeddedResource Include="Main\Forms\UCSupplier.resx">
+      <DependentUpon>UCSupplier.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
