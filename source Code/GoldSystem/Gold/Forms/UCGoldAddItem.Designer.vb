@@ -27,16 +27,6 @@ Partial Class UCGoldAddItem
         Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim EditorButtonImageOptions3 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
-        Dim SerializableAppearanceObject9 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject10 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject11 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject12 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim EditorButtonImageOptions1 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
-        Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject3 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject4 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Me.pbAddStone = New DevExpress.XtraEditors.PictureEdit()
         Me.gbItemData = New DevExpress.XtraEditors.GroupControl()
         Me.cmbKarat = New DevExpress.XtraEditors.LookUpEdit()
@@ -84,7 +74,8 @@ Partial Class UCGoldAddItem
         Me.txtDocumentPath = New DevExpress.XtraEditors.ButtonEdit()
         Me.txtImagePath = New DevExpress.XtraEditors.ButtonEdit()
         Me.gbStoneData = New DevExpress.XtraEditors.GroupControl()
-        Me.gridStone = New DevExpress.XtraGrid.GridControl()
+        Me.DGVStone1 = New DevExpress.XtraGrid.GridControl()
+        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.DgvStone = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.colStoneCode = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colStoneSerial = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -127,7 +118,8 @@ Partial Class UCGoldAddItem
         CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gbStoneData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbStoneData.SuspendLayout()
-        CType(Me.gridStone, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DGVStone1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EPX, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -307,7 +299,7 @@ Partial Class UCGoldAddItem
         'dtpDateAdded
         '
         Me.dtpDateAdded.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.dtpDateAdded.EditValue = Nothing
+        Me.dtpDateAdded.EditValue = New Date(2023, 2, 18, 0, 0, 0, 0)
         Me.dtpDateAdded.Location = New System.Drawing.Point(179, 91)
         Me.dtpDateAdded.Name = "dtpDateAdded"
         Me.dtpDateAdded.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -333,7 +325,7 @@ Partial Class UCGoldAddItem
         'dtpDateOfManufacture
         '
         Me.dtpDateOfManufacture.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.dtpDateOfManufacture.EditValue = Nothing
+        Me.dtpDateOfManufacture.EditValue = New Date(2023, 2, 18, 0, 0, 0, 0)
         Me.dtpDateOfManufacture.Location = New System.Drawing.Point(344, 91)
         Me.dtpDateOfManufacture.Name = "dtpDateOfManufacture"
         Me.dtpDateOfManufacture.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -739,10 +731,8 @@ Partial Class UCGoldAddItem
         Me.txtDocumentPath.Name = "txtDocumentPath"
         Me.txtDocumentPath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDocumentPath.Properties.Appearance.Options.UseFont = True
-        EditorButtonImageOptions3.Image = CType(resources.GetObject("EditorButtonImageOptions3.Image"), System.Drawing.Image)
-        Me.txtDocumentPath.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions3, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject9, SerializableAppearanceObject10, SerializableAppearanceObject11, SerializableAppearanceObject12, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.txtDocumentPath.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtDocumentPath.Size = New System.Drawing.Size(165, 24)
+        Me.txtDocumentPath.Size = New System.Drawing.Size(165, 22)
         Me.txtDocumentPath.TabIndex = 15
         '
         'txtImagePath
@@ -753,15 +743,13 @@ Partial Class UCGoldAddItem
         Me.txtImagePath.Name = "txtImagePath"
         Me.txtImagePath.Properties.Appearance.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtImagePath.Properties.Appearance.Options.UseFont = True
-        EditorButtonImageOptions1.Image = CType(resources.GetObject("EditorButtonImageOptions1.Image"), System.Drawing.Image)
-        Me.txtImagePath.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions1, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, SerializableAppearanceObject2, SerializableAppearanceObject3, SerializableAppearanceObject4, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.txtImagePath.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtImagePath.Size = New System.Drawing.Size(165, 24)
+        Me.txtImagePath.Size = New System.Drawing.Size(165, 22)
         Me.txtImagePath.TabIndex = 15
         '
         'gbStoneData
         '
-        Me.gbStoneData.Controls.Add(Me.gridStone)
+        Me.gbStoneData.Controls.Add(Me.DGVStone1)
         Me.gbStoneData.Controls.Add(Me.pbAddStone)
         Me.gbStoneData.Dock = System.Windows.Forms.DockStyle.Top
         Me.gbStoneData.Location = New System.Drawing.Point(0, 166)
@@ -771,20 +759,24 @@ Partial Class UCGoldAddItem
         Me.gbStoneData.TabIndex = 1
         Me.gbStoneData.Text = "بيانات الفصوص"
         '
-        'gridStone
+        'DGVStone1
         '
-        Me.gridStone.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.gridStone.Location = New System.Drawing.Point(2, 23)
-        Me.gridStone.MainView = Me.DgvStone
-        Me.gridStone.Name = "gridStone"
-        Me.gridStone.Size = New System.Drawing.Size(1346, 90)
-        Me.gridStone.TabIndex = 102
-        Me.gridStone.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.DgvStone})
+        Me.DGVStone1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DGVStone1.Location = New System.Drawing.Point(2, 23)
+        Me.DGVStone1.MainView = Me.GridView1
+        Me.DGVStone1.Name = "DGVStone1"
+        Me.DGVStone1.Size = New System.Drawing.Size(1346, 90)
+        Me.DGVStone1.TabIndex = 102
+        Me.DGVStone1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
+        '
+        'GridView1
+        '
+        Me.GridView1.GridControl = Me.DGVStone1
+        Me.GridView1.Name = "GridView1"
         '
         'DgvStone
         '
         Me.DgvStone.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colStoneCode, Me.colStoneSerial, Me.colStoneType, Me.colStoneName, Me.colStoneWeight, Me.colStoneColor, Me.colStoneClarity, Me.colStoneCut, Me.colStonePrice, Me.colStoneView})
-        Me.DgvStone.GridControl = Me.gridStone
         Me.DgvStone.Name = "DgvStone"
         Me.DgvStone.OptionsView.ShowGroupPanel = False
         '
@@ -832,7 +824,6 @@ Partial Class UCGoldAddItem
         '
         'colStoneWeight
         '
-        Me.colStoneWeight.AppearanceCell.Options.UseTextOptions = True
         Me.colStoneWeight.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colStoneWeight.AppearanceHeader.Options.UseTextOptions = True
         Me.colStoneWeight.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
@@ -943,7 +934,8 @@ Partial Class UCGoldAddItem
         CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gbStoneData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbStoneData.ResumeLayout(False)
-        CType(Me.gridStone, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGVStone1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DgvStone, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EPX, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -1010,4 +1002,6 @@ Partial Class UCGoldAddItem
     Friend WithEvents txtDocumentPath As DevExpress.XtraEditors.ButtonEdit
     Friend WithEvents OFDX As DevExpress.XtraEditors.XtraOpenFileDialog
     Friend WithEvents EPX As DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider
+    Friend WithEvents DGVStone1 As DevExpress.XtraGrid.GridControl
+    Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
 End Class

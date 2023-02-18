@@ -1,6 +1,6 @@
 ﻿Public Class ClsGoldAddStone
 
-    Dim Con As New ClsConnectionString
+    Private Shared ReadOnly Con As New ClsConnectionString
     Public Function StoneType() As DataTable
         Dim DT As New DataTable
         DT.Clear()
@@ -37,5 +37,10 @@
         DT = Con.SELECT_TXT("SELECT [Id] , [Code] , [Name] FROM [DeffStoneCut] WHERE [Enabled] = 1 ORDER BY [Code]")
         Return DT
     End Function
-
+    Public Function StoneCountry()
+        Dim Dt As New DataTable
+        Dt.Clear()
+        Dt = Con.SELECT_TXT("SELECT [Id] , [Code] , [NameAr], [NameEn] FROM [DeffCountryOfOrigin] WHERE [Enabled] = 1 ORDER BY [Code]")
+        Return Dt
+    End Function
 End Class

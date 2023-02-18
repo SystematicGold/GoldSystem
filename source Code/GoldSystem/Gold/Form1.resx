@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="&gt;&gt;FieldListDockPanel1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.FieldListDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.FieldListDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="msiTabButtons.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
@@ -132,7 +132,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;ReportDesigner1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.XRDesignMdiController, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.XRDesignMdiController, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiSizeToControl.Caption" xml:space="preserve">
     <value>&amp;Both</value>
@@ -148,7 +148,7 @@
     <value>1284, 84</value>
   </data>
   <data name="&gt;&gt;CommandBarItem8.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="barDockControlLeft.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -157,7 +157,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;msiFile.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiCopy.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -169,7 +169,7 @@
     <value>5, 23</value>
   </data>
   <data name="&gt;&gt;beiFontName.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiSameSize.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -205,13 +205,13 @@
     <value>ReportExplorerDockPanel1_Container</value>
   </data>
   <data name="&gt;&gt;msiWindow.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="FieldListDockPanel1.Text" xml:space="preserve">
     <value>Field List</value>
   </data>
   <data name="&gt;&gt;Bar1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;GroupAndSortDockPanel1_Container.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -226,7 +226,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;panelContainer2.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="ErrorListDockPanel1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -250,10 +250,10 @@
     <value>DesignRepositoryItemComboBox2</value>
   </data>
   <data name="&gt;&gt;bbiHorizSpaceMakeEqual.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;PropertyGridDockPanel1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.PropertyGridDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.PropertyGridDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="beiFontName.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -289,7 +289,7 @@
     <value />
   </data>
   <data name="&gt;&gt;bbiFontUnderline.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiPaste.Caption" xml:space="preserve">
     <value>&amp;Paste</value>
@@ -307,25 +307,25 @@
     <value>241, 240</value>
   </data>
   <data name="&gt;&gt;msiJustify.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiAlignRight.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;bbiAlignTop.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiOpenFile.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;DesignBar4.Name" xml:space="preserve">
     <value>DesignBar4</value>
   </data>
   <data name="&gt;&gt;DesignRepositoryItemComboBox1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiZoomIn.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="GroupAndSortDockPanel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>997, 144</value>
@@ -346,7 +346,7 @@
     <value>bbiAlignBottom</value>
   </data>
   <data name="&gt;&gt;bbiSizeToControl.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiZoomIn.Name" xml:space="preserve">
     <value>bbiZoomIn</value>
@@ -355,7 +355,7 @@
     <value>ErrorListDockPanel1</value>
   </data>
   <data name="&gt;&gt;RecentlyUsedItemsComboBox1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.RecentlyUsedItemsComboBox, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.RecentlyUsedItemsComboBox, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiHorizSpaceConcatenate.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -382,7 +382,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;CommandBarItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="CommandBarItem4.Caption" xml:space="preserve">
     <value>E&amp;xit</value>
@@ -397,7 +397,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;PropertyGridDockPanel1_Container.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiHorizSpaceConcatenate.Name" xml:space="preserve">
     <value>bbiHorizSpaceConcatenate</value>
@@ -429,7 +429,7 @@
   <data name="&gt;&gt;XrDesignDockManager1.Name" xml:space="preserve">
     <value>XrDesignDockManager1</value>
   </data>
-  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <assembly alias="DevExpress.Utils.v22.2" name="DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="DesignRepositoryItemComboBox2.Buttons" type="DevExpress.XtraEditors.Controls.ButtonPredefines, DevExpress.Utils.v22.2">
     <value>Combo</value>
   </data>
@@ -449,7 +449,7 @@
     <value>ReportDesigner1</value>
   </data>
   <data name="&gt;&gt;bbiJustifyRight.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiSizeToControlHeight.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -488,13 +488,13 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;ReportExplorerDockPanel1_Container.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiSizeToGrid.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;barDockControlLeft.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;beiFontName.Name" xml:space="preserve">
     <value>beiFontName</value>
@@ -527,16 +527,16 @@
     <value>Align the control's text to the center</value>
   </data>
   <data name="&gt;&gt;CommandBarItem3.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiVertSpaceDecrease.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;bbiZoom.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.XRZoomBarEditItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.XRZoomBarEditItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;beiFontSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarEditItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiHorizSpaceIncrease.Name" xml:space="preserve">
     <value>bbiHorizSpaceIncrease</value>
@@ -560,7 +560,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;bbiAlignVerticalCenters.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiFontItalic.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -569,7 +569,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;msiAlign.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiHorizSpaceDecrease.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -578,7 +578,7 @@
     <value>Bring the selected controls to the front</value>
   </data>
   <data name="&gt;&gt;bbiCenterHorizontally.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiUndo.Hint" xml:space="preserve">
     <value>Undo the last operation</value>
@@ -620,7 +620,7 @@
     <value>BarSubItem1</value>
   </data>
   <data name="&gt;&gt;GroupAndSortDockPanel1_Container.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiSizeToControl.Hint" xml:space="preserve">
     <value>Make the selected controls the same size</value>
@@ -650,7 +650,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;CommandBarItem5.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bsiCenter.Name" xml:space="preserve">
     <value>bsiCenter</value>
@@ -665,7 +665,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;FieldListDockPanel1_Container.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiRedo.Hint" xml:space="preserve">
     <value>Redo the last operation</value>
@@ -704,13 +704,13 @@
     <value>bbiJustifyCenter</value>
   </data>
   <data name="&gt;&gt;XrBarToolbarsListItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.XRBarToolbarsListItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.XRBarToolbarsListItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiAlignTop.Hint" xml:space="preserve">
     <value>Align the tops of the selected controls</value>
   </data>
   <data name="&gt;&gt;bbiSaveFile.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiWindowInterface.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -719,7 +719,7 @@
     <value>Fo&amp;rmat</value>
   </data>
   <data name="&gt;&gt;CommandBarItem11.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiWindowInterface.Caption" xml:space="preserve">
     <value>&amp;Tabbed Interface</value>
@@ -731,10 +731,10 @@
     <value>bbiAlignHorizontalCenters</value>
   </data>
   <data name="&gt;&gt;BarDockPanelsListItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.BarDockPanelsListItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.BarDockPanelsListItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;BarSubItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;PropertyGridDockPanel1.Name" xml:space="preserve">
     <value>PropertyGridDockPanel1</value>
@@ -761,10 +761,10 @@
     <value>Make &amp;Equal</value>
   </data>
   <data name="&gt;&gt;bbiSizeToControlWidth.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;msiFont.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;ErrorListDockPanel1_Container.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -773,7 +773,7 @@
     <value>Make the font italic</value>
   </data>
   <data name="&gt;&gt;CommandBarItem7.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="FieldListDockPanel1_Container.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -800,7 +800,7 @@
     <value>Remove the spacing between the selected controls</value>
   </data>
   <data name="&gt;&gt;bbiHorizSpaceIncrease.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="barDockControlBottom.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
@@ -845,7 +845,7 @@
     <value>msiWindows</value>
   </data>
   <data name="&gt;&gt;bsiHint.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarStaticItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiCenterVertically.Caption" xml:space="preserve">
     <value>&amp;Vertically</value>
@@ -863,7 +863,7 @@
     <value>Size the selected controls to the grid</value>
   </data>
   <data name="&gt;&gt;bbiSendToBack.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;GroupAndSortDockPanel1_Container.Name" xml:space="preserve">
     <value>GroupAndSortDockPanel1_Container</value>
@@ -887,7 +887,7 @@
     <value>&amp;Left</value>
   </data>
   <data name="&gt;&gt;bbiAlignBottom.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiBackColor.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -905,7 +905,7 @@
     <value>bbiFontItalic</value>
   </data>
   <data name="&gt;&gt;bbiJustifyJustify.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;GroupAndSortDockPanel1.Name" xml:space="preserve">
     <value>GroupAndSortDockPanel1</value>
@@ -914,7 +914,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;panelContainer3.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="panelContainer4.Location" type="System.Drawing.Point, System.Drawing">
     <value>29, 476</value>
@@ -923,7 +923,7 @@
     <value>bbiHorizSpaceMakeEqual</value>
   </data>
   <data name="&gt;&gt;msiSameSize.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;barDockControlLeft.Parent" xml:space="preserve">
     <value>$this</value>
@@ -944,7 +944,7 @@
     <value>Zoom</value>
   </data>
   <data name="&gt;&gt;msiVerticalSpacing.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiFontItalic.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -965,13 +965,13 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;bbiSizeToGrid.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiAlignTop.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="&gt;&gt;ErrorListDockPanel1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.ErrorListDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.ErrorListDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiFile.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -998,7 +998,7 @@
     <value>msiFormat</value>
   </data>
   <data name="&gt;&gt;bbiCut.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiBringToFront.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1028,7 +1028,7 @@
     <value>&amp;Windows</value>
   </data>
   <data name="&gt;&gt;msiFormat.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiCut.Hint" xml:space="preserve">
     <value>Delete the control and copy it to the clipboard</value>
@@ -1037,7 +1037,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;panelContainer1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="BarDockPanelsListItem1.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1049,13 +1049,13 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;bbiSizeToControlHeight.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiPaste.Name" xml:space="preserve">
     <value>bbiPaste</value>
   </data>
   <data name="&gt;&gt;barDockControlRight.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiAlignTop.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -1082,7 +1082,7 @@
     <value />
   </data>
   <data name="&gt;&gt;Bar2.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.Bar, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="beiFontName.Hint" xml:space="preserve">
     <value>Font Name</value>
@@ -1112,13 +1112,13 @@
     <value>Arrange all open documents from left to right</value>
   </data>
   <data name="&gt;&gt;barDockControlBottom.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiJustify.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;bbiRedo.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="DesignBar5.Text" xml:space="preserve">
     <value>Status Bar</value>
@@ -1130,7 +1130,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;XrDesignDockManager1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.XRDesignDockManager, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.XRDesignDockManager, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="DesignBar2.Text" xml:space="preserve">
     <value>Toolbar</value>
@@ -1208,7 +1208,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;bbiAlignRight.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiCenterVertically.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1238,7 +1238,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;bbiJustifyLeft.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiWindows.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1280,13 +1280,13 @@
     <value />
   </data>
   <data name="&gt;&gt;msiTabButtons.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiAlignBottom.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="&gt;&gt;CommandBarItem2.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="BarReportTabButtonsListItem1.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -1301,7 +1301,7 @@
     <value>Zoom Out</value>
   </data>
   <data name="&gt;&gt;ErrorListDockPanel1_Container.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiCenterVertically.Hint" xml:space="preserve">
     <value>Vertically center the selected controls within a band</value>
@@ -1319,7 +1319,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;DesignBar4.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiSaveFile.Caption" xml:space="preserve">
     <value>&amp;Save</value>
@@ -1337,7 +1337,7 @@
     <value>Property Grid</value>
   </data>
   <data name="&gt;&gt;DesignBar3.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiSizeToControlHeight.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1379,13 +1379,13 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;DesignBar1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiCopy.Name" xml:space="preserve">
     <value>bbiCopy</value>
   </data>
   <data name="&gt;&gt;bbiFontBold.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiWindowInterface.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1406,13 +1406,13 @@
     <value />
   </data>
   <data name="&gt;&gt;BarSubItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;panelContainer3.Name" xml:space="preserve">
     <value>panelContainer3</value>
   </data>
   <data name="&gt;&gt;bbiBackColor.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandColorBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandColorBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiWindowInterface.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -1448,19 +1448,19 @@
     <value>&amp;Undo</value>
   </data>
   <data name="&gt;&gt;BarReportTabButtonsListItem1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.BarReportTabButtonsListItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.BarReportTabButtonsListItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="beiFontSize.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;bsiCenter.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;GroupAndSortDockPanel1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.GroupAndSortDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.GroupAndSortDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;msiOrder.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="GroupAndSortDockPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 24</value>
@@ -1487,7 +1487,7 @@
     <value>bbiUndo</value>
   </data>
   <data name="&gt;&gt;CommandBarItem9.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="CommandBarItem3.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -1505,7 +1505,7 @@
     <value>&amp;Toolbars</value>
   </data>
   <data name="&gt;&gt;msiWindowInterface.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarCheckItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarCheckItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="CommandBarItem6.Caption" xml:space="preserve">
     <value>Select &amp;All</value>
@@ -1523,7 +1523,7 @@
     <value>bbiJustifyLeft</value>
   </data>
   <data name="&gt;&gt;bbiVertSpaceIncrease.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;CommandBarItem8.Name" xml:space="preserve">
     <value>CommandBarItem8</value>
@@ -1532,16 +1532,16 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;CommandBarItem10.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiVertSpaceDecrease.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiUndo.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiBringToFront.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;CommandBarItem6.Name" xml:space="preserve">
     <value>CommandBarItem6</value>
@@ -1553,7 +1553,7 @@
     <value>DesignBar5</value>
   </data>
   <data name="&gt;&gt;msiWindows.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarMdiChildrenListItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarMdiChildrenListItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiSaveFile.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
@@ -1577,13 +1577,13 @@
     <value>&amp;Decrease</value>
   </data>
   <data name="&gt;&gt;bbiJustifyCenter.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiVertSpaceMakeEqual.Name" xml:space="preserve">
     <value>bbiVertSpaceMakeEqual</value>
   </data>
   <data name="&gt;&gt;CommandBarItem6.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiFile.Caption" xml:space="preserve">
     <value>&amp;File</value>
@@ -1592,13 +1592,13 @@
     <value>250, 592</value>
   </data>
   <data name="&gt;&gt;bbiHorizSpaceConcatenate.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;FieldListDockPanel1_Container.Parent" xml:space="preserve">
     <value>FieldListDockPanel1</value>
   </data>
   <data name="&gt;&gt;CommandBarItem4.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiWindows.Caption" xml:space="preserve">
     <value>Windows</value>
@@ -1613,10 +1613,10 @@
     <value>&amp;Center in Form</value>
   </data>
   <data name="&gt;&gt;bbiAlignToGrid.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;ReportGalleryDockPanel1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.ReportGalleryDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.ReportGalleryDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="beiFontName.EditWidth" type="System.Int32, mscorlib">
     <value>120</value>
@@ -1664,7 +1664,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;bbiAlignLeft.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="ReportGalleryDockPanel1_Container.Size" type="System.Drawing.Size, System.Drawing">
     <value>241, 241</value>
@@ -1685,7 +1685,7 @@
     <value />
   </data>
   <data name="&gt;&gt;XrDesignBarManager1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.XRDesignBarManager, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.XRDesignBarManager, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;PropertyGridDockPanel1_Container.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1694,13 +1694,13 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;DesignRepositoryItemComboBox2.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignRepositoryItemComboBox, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiFont.ImageOptions.SvgImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="&gt;&gt;bbiHorizSpaceDecrease.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiOrder.Caption" xml:space="preserve">
     <value>&amp;Order</value>
@@ -1772,7 +1772,7 @@
     <value>0, 0</value>
   </data>
   <data name="&gt;&gt;bbiVertSpaceMakeEqual.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="CommandBarItem3.Hint" xml:space="preserve">
     <value>Save the report with a new name</value>
@@ -1844,7 +1844,7 @@
     <value>&amp;Remove</value>
   </data>
   <data name="&gt;&gt;ReportExplorerDockPanel1.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.ReportExplorerDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.ReportExplorerDockPanel, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiUndo.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -1878,7 +1878,7 @@
     <value>&amp;Close</value>
   </data>
   <data name="&gt;&gt;bbiFontItalic.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;bbiZoomOut.Name" xml:space="preserve">
     <value>bbiZoomOut</value>
@@ -1920,7 +1920,7 @@
     <value>bbiBackColor</value>
   </data>
   <data name="&gt;&gt;bbiAlignHorizontalCenters.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="CommandBarItem5.ImageOptions.LargeImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -1935,13 +1935,13 @@
     <value>Font Size</value>
   </data>
   <data name="&gt;&gt;bbiCopy.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiSaveFile.Hint" xml:space="preserve">
     <value>Save the report</value>
   </data>
   <data name="&gt;&gt;msiHorizontalSpacing.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;barDockControlTop.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -1950,16 +1950,16 @@
     <value>&amp;Remove</value>
   </data>
   <data name="&gt;&gt;bbiCenterVertically.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiSizeToControl.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
   </data>
   <data name="&gt;&gt;bbiForeColor.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandColorBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandColorBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;barDockControlTop.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarDockControl, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="beiFontName.Caption" xml:space="preserve">
     <value>Font Name</value>
@@ -2028,7 +2028,7 @@
     <value>Main Menu</value>
   </data>
   <data name="&gt;&gt;bbiPaste.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;FieldListDockPanel1.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -2088,7 +2088,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;DesignBar5.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiSizeToControlWidth.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -2125,7 +2125,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;panelContainer4.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.Docking.DockPanel, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bbiCopy.Caption" xml:space="preserve">
     <value>&amp;Copy</value>
@@ -2134,7 +2134,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;ReportGalleryDockPanel1_Container.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignControlContainer, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bsiHint.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -2167,7 +2167,7 @@
     <value>-1</value>
   </data>
   <data name="&gt;&gt;DesignBar2.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.DesignBar, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;RecentlyUsedItemsComboBox1.Name" xml:space="preserve">
     <value>RecentlyUsedItemsComboBox1</value>
@@ -2185,7 +2185,7 @@
     <value>bbiSizeToControl</value>
   </data>
   <data name="&gt;&gt;bbiZoomOut.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="BarSubItem1.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
     <value>-1</value>
@@ -2206,7 +2206,7 @@
     <value />
   </data>
   <data name="&gt;&gt;bbiVertSpaceConcatenate.Type" xml:space="preserve">
-    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraReports.UserDesigner.CommandBarItem, DevExpress.XtraReports.v22.2.Extensions, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="&gt;&gt;DesignBar3.Name" xml:space="preserve">
     <value>DesignBar3</value>
@@ -2221,7 +2221,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;msiEdit.Type" xml:space="preserve">
-    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+    <value>DevExpress.XtraBars.BarSubItem, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="msiJustify.Caption" xml:space="preserve">
     <value>&amp;Justify</value>

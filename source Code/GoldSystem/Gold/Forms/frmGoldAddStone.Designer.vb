@@ -19,10 +19,9 @@ Partial Class FrmGoldAddStone
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim WindowsUIButtonImageOptions1 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmGoldAddStone))
-        Dim WindowsUIButtonImageOptions2 As DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions = New DevExpress.XtraBars.Docking2010.WindowsUIButtonImageOptions()
+        Me.components = New System.ComponentModel.Container()
         Dim EditorButtonImageOptions1 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmGoldAddStone))
         Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SerializableAppearanceObject3 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
@@ -41,31 +40,35 @@ Partial Class FrmGoldAddStone
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.lblStoneType = New DevExpress.XtraEditors.LabelControl()
         Me.lblStoneName = New DevExpress.XtraEditors.LabelControl()
-        Me.txtCostForSeller = New DevExpress.XtraEditors.TextEdit()
-        Me.txtStonePrice = New DevExpress.XtraEditors.TextEdit()
-        Me.btnPanel = New DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel()
+        Me.TxtCostForSeller = New DevExpress.XtraEditors.TextEdit()
+        Me.TxtStonePrice = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
-        Me.txtDocumentPath = New DevExpress.XtraEditors.ButtonEdit()
-        Me.txtImagePath = New DevExpress.XtraEditors.ButtonEdit()
-        Me.cmbStoneType = New DevExpress.XtraEditors.LookUpEdit()
-        Me.cmbStoneName = New DevExpress.XtraEditors.LookUpEdit()
-        Me.cmbCaratGm = New DevExpress.XtraEditors.LookUpEdit()
-        Me.cmbStoneColor = New DevExpress.XtraEditors.LookUpEdit()
-        Me.cmbStoneClarity = New DevExpress.XtraEditors.LookUpEdit()
-        Me.cmbStoneCut = New DevExpress.XtraEditors.LookUpEdit()
-        Me.cmbStoneCountryOfOrigin = New DevExpress.XtraEditors.LookUpEdit()
-        CType(Me.txtCostForSeller.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtStonePrice.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbStoneType.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbStoneName.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbCaratGm.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbStoneColor.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbStoneClarity.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbStoneCut.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.cmbStoneCountryOfOrigin.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TxtDocumentPath = New DevExpress.XtraEditors.ButtonEdit()
+        Me.TxtImagePath = New DevExpress.XtraEditors.ButtonEdit()
+        Me.CmbStoneType = New DevExpress.XtraEditors.LookUpEdit()
+        Me.CmbStoneName = New DevExpress.XtraEditors.LookUpEdit()
+        Me.CmbCaratGm = New DevExpress.XtraEditors.LookUpEdit()
+        Me.CmbStoneColor = New DevExpress.XtraEditors.LookUpEdit()
+        Me.CmbStoneClarity = New DevExpress.XtraEditors.LookUpEdit()
+        Me.CmbStoneCut = New DevExpress.XtraEditors.LookUpEdit()
+        Me.CmbStoneCountryOfOrigin = New DevExpress.XtraEditors.LookUpEdit()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.OFD = New System.Windows.Forms.OpenFileDialog()
+        Me.DEPError = New DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(Me.components)
+        CType(Me.TxtCostForSeller.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TxtStonePrice.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TxtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TxtImagePath.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.CmbStoneType.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.CmbStoneName.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.CmbCaratGm.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.CmbStoneColor.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.CmbStoneClarity.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.CmbStoneCut.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.CmbStoneCountryOfOrigin.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DEPError, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LabelControl7
@@ -185,47 +188,31 @@ Partial Class FrmGoldAddStone
         Me.lblStoneName.TabIndex = 159
         Me.lblStoneName.Text = "اسم الفص"
         '
-        'txtCostForSeller
+        'TxtCostForSeller
         '
-        Me.txtCostForSeller.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.txtCostForSeller.Location = New System.Drawing.Point(315, 33)
-        Me.txtCostForSeller.Name = "txtCostForSeller"
-        Me.txtCostForSeller.Properties.Appearance.Options.UseTextOptions = True
-        Me.txtCostForSeller.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.txtCostForSeller.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
-        Me.txtCostForSeller.Properties.MaskSettings.Set("MaskManagerSignature", "allowNull=False")
-        Me.txtCostForSeller.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtCostForSeller.Size = New System.Drawing.Size(101, 20)
-        Me.txtCostForSeller.TabIndex = 2
+        Me.TxtCostForSeller.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TxtCostForSeller.Location = New System.Drawing.Point(315, 33)
+        Me.TxtCostForSeller.Name = "TxtCostForSeller"
+        Me.TxtCostForSeller.Properties.Appearance.Options.UseTextOptions = True
+        Me.TxtCostForSeller.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TxtCostForSeller.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
+        Me.TxtCostForSeller.Properties.MaskSettings.Set("MaskManagerSignature", "allowNull=False")
+        Me.TxtCostForSeller.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.TxtCostForSeller.Size = New System.Drawing.Size(101, 20)
+        Me.TxtCostForSeller.TabIndex = 2
         '
-        'txtStonePrice
+        'TxtStonePrice
         '
-        Me.txtStonePrice.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.txtStonePrice.Location = New System.Drawing.Point(313, 84)
-        Me.txtStonePrice.Name = "txtStonePrice"
-        Me.txtStonePrice.Properties.Appearance.Options.UseTextOptions = True
-        Me.txtStonePrice.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.txtStonePrice.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
-        Me.txtStonePrice.Properties.MaskSettings.Set("MaskManagerSignature", "allowNull=False")
-        Me.txtStonePrice.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtStonePrice.Size = New System.Drawing.Size(101, 20)
-        Me.txtStonePrice.TabIndex = 8
-        '
-        'btnPanel
-        '
-        Me.btnPanel.AllowGlyphSkinning = False
-        Me.btnPanel.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.btnPanel.BackColor = System.Drawing.Color.Transparent
-        WindowsUIButtonImageOptions1.SvgImage = CType(resources.GetObject("WindowsUIButtonImageOptions1.SvgImage"), DevExpress.Utils.Svg.SvgImage)
-        WindowsUIButtonImageOptions1.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.None
-        WindowsUIButtonImageOptions2.Image = CType(resources.GetObject("WindowsUIButtonImageOptions2.Image"), System.Drawing.Image)
-        Me.btnPanel.Buttons.AddRange(New DevExpress.XtraEditors.ButtonPanel.IBaseButton() {New DevExpress.XtraBars.Docking2010.WindowsUIButton("إغلاق", True, WindowsUIButtonImageOptions1, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False), New DevExpress.XtraBars.Docking2010.WindowsUISeparator(), New DevExpress.XtraBars.Docking2010.WindowsUIButton("حفظ", True, WindowsUIButtonImageOptions2, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, True, Nothing, True, False, True, Nothing, -1, False)})
-        Me.btnPanel.Location = New System.Drawing.Point(12, 107)
-        Me.btnPanel.Name = "btnPanel"
-        Me.btnPanel.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.btnPanel.Size = New System.Drawing.Size(606, 59)
-        Me.btnPanel.TabIndex = 11
-        Me.btnPanel.Text = "WindowsUIButtonPanel1"
+        Me.TxtStonePrice.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TxtStonePrice.Location = New System.Drawing.Point(313, 84)
+        Me.TxtStonePrice.Name = "TxtStonePrice"
+        Me.TxtStonePrice.Properties.Appearance.Options.UseTextOptions = True
+        Me.TxtStonePrice.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.TxtStonePrice.Properties.MaskSettings.Set("MaskManagerType", GetType(DevExpress.Data.Mask.NumericMaskManager))
+        Me.TxtStonePrice.Properties.MaskSettings.Set("MaskManagerSignature", "allowNull=False")
+        Me.TxtStonePrice.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.TxtStonePrice.Size = New System.Drawing.Size(101, 20)
+        Me.TxtStonePrice.TabIndex = 8
         '
         'LabelControl9
         '
@@ -253,124 +240,166 @@ Partial Class FrmGoldAddStone
         Me.LabelControl10.TabIndex = 151
         Me.LabelControl10.Text = "شهادة/مستند للفص"
         '
-        'txtDocumentPath
+        'TxtDocumentPath
         '
-        Me.txtDocumentPath.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.txtDocumentPath.Location = New System.Drawing.Point(10, 80)
-        Me.txtDocumentPath.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtDocumentPath.Name = "txtDocumentPath"
+        Me.TxtDocumentPath.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TxtDocumentPath.Location = New System.Drawing.Point(10, 80)
+        Me.TxtDocumentPath.Margin = New System.Windows.Forms.Padding(4)
+        Me.TxtDocumentPath.Name = "TxtDocumentPath"
         EditorButtonImageOptions1.Image = CType(resources.GetObject("EditorButtonImageOptions1.Image"), System.Drawing.Image)
-        Me.txtDocumentPath.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions1, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, SerializableAppearanceObject2, SerializableAppearanceObject3, SerializableAppearanceObject4, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
-        Me.txtDocumentPath.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtDocumentPath.Size = New System.Drawing.Size(143, 24)
-        Me.txtDocumentPath.TabIndex = 10
+        Me.TxtDocumentPath.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions1, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, SerializableAppearanceObject2, SerializableAppearanceObject3, SerializableAppearanceObject4, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        Me.TxtDocumentPath.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.TxtDocumentPath.Size = New System.Drawing.Size(143, 24)
+        Me.TxtDocumentPath.TabIndex = 10
         '
-        'txtImagePath
+        'TxtImagePath
         '
-        Me.txtImagePath.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.txtImagePath.Location = New System.Drawing.Point(152, 80)
-        Me.txtImagePath.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtImagePath.Name = "txtImagePath"
+        Me.TxtImagePath.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.TxtImagePath.Location = New System.Drawing.Point(152, 80)
+        Me.TxtImagePath.Margin = New System.Windows.Forms.Padding(4)
+        Me.TxtImagePath.Name = "TxtImagePath"
         EditorButtonImageOptions2.Image = CType(resources.GetObject("EditorButtonImageOptions2.Image"), System.Drawing.Image)
-        Me.txtImagePath.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions2, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, SerializableAppearanceObject6, SerializableAppearanceObject7, SerializableAppearanceObject8, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
-        Me.txtImagePath.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtImagePath.Size = New System.Drawing.Size(160, 24)
-        Me.txtImagePath.TabIndex = 9
+        Me.TxtImagePath.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions2, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, SerializableAppearanceObject6, SerializableAppearanceObject7, SerializableAppearanceObject8, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        Me.TxtImagePath.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.TxtImagePath.Size = New System.Drawing.Size(160, 24)
+        Me.TxtImagePath.TabIndex = 9
         '
-        'cmbStoneType
+        'CmbStoneType
         '
-        Me.cmbStoneType.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbStoneType.Location = New System.Drawing.Point(517, 33)
-        Me.cmbStoneType.Name = "cmbStoneType"
-        Me.cmbStoneType.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbStoneType.Properties.NullText = ""
-        Me.cmbStoneType.Properties.PopupSizeable = False
-        Me.cmbStoneType.Properties.ShowFooter = False
-        Me.cmbStoneType.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmbStoneType.Size = New System.Drawing.Size(101, 20)
-        Me.cmbStoneType.TabIndex = 0
+        Me.CmbStoneType.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.CmbStoneType.Location = New System.Drawing.Point(517, 33)
+        Me.CmbStoneType.Name = "CmbStoneType"
+        Me.CmbStoneType.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.CmbStoneType.Properties.NullText = ""
+        Me.CmbStoneType.Properties.PopupSizeable = False
+        Me.CmbStoneType.Properties.ShowFooter = False
+        Me.CmbStoneType.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.CmbStoneType.Size = New System.Drawing.Size(101, 20)
+        Me.CmbStoneType.TabIndex = 0
         '
-        'cmbStoneName
+        'CmbStoneName
         '
-        Me.cmbStoneName.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbStoneName.Location = New System.Drawing.Point(416, 33)
-        Me.cmbStoneName.Name = "cmbStoneName"
-        Me.cmbStoneName.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbStoneName.Properties.NullText = ""
-        Me.cmbStoneName.Properties.PopupSizeable = False
-        Me.cmbStoneName.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmbStoneName.Size = New System.Drawing.Size(101, 20)
-        Me.cmbStoneName.TabIndex = 1
+        Me.CmbStoneName.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.CmbStoneName.Location = New System.Drawing.Point(416, 33)
+        Me.CmbStoneName.Name = "CmbStoneName"
+        Me.CmbStoneName.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.CmbStoneName.Properties.NullText = ""
+        Me.CmbStoneName.Properties.PopupSizeable = False
+        Me.CmbStoneName.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.CmbStoneName.Size = New System.Drawing.Size(101, 20)
+        Me.CmbStoneName.TabIndex = 1
         '
-        'cmbCaratGm
+        'CmbCaratGm
         '
-        Me.cmbCaratGm.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbCaratGm.Location = New System.Drawing.Point(214, 33)
-        Me.cmbCaratGm.Name = "cmbCaratGm"
-        Me.cmbCaratGm.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbCaratGm.Properties.NullText = ""
-        Me.cmbCaratGm.Properties.PopupSizeable = False
-        Me.cmbCaratGm.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmbCaratGm.Size = New System.Drawing.Size(101, 20)
-        Me.cmbCaratGm.TabIndex = 3
+        Me.CmbCaratGm.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.CmbCaratGm.Location = New System.Drawing.Point(214, 33)
+        Me.CmbCaratGm.Name = "CmbCaratGm"
+        Me.CmbCaratGm.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.CmbCaratGm.Properties.NullText = ""
+        Me.CmbCaratGm.Properties.PopupSizeable = False
+        Me.CmbCaratGm.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.CmbCaratGm.Size = New System.Drawing.Size(101, 20)
+        Me.CmbCaratGm.TabIndex = 3
         '
-        'cmbStoneColor
+        'CmbStoneColor
         '
-        Me.cmbStoneColor.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbStoneColor.Location = New System.Drawing.Point(113, 33)
-        Me.cmbStoneColor.Name = "cmbStoneColor"
-        Me.cmbStoneColor.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbStoneColor.Properties.NullText = ""
-        Me.cmbStoneColor.Properties.PopupSizeable = False
-        Me.cmbStoneColor.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmbStoneColor.Size = New System.Drawing.Size(101, 20)
-        Me.cmbStoneColor.TabIndex = 0
+        Me.CmbStoneColor.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.CmbStoneColor.Location = New System.Drawing.Point(113, 33)
+        Me.CmbStoneColor.Name = "CmbStoneColor"
+        Me.CmbStoneColor.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.CmbStoneColor.Properties.NullText = ""
+        Me.CmbStoneColor.Properties.PopupSizeable = False
+        Me.CmbStoneColor.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.CmbStoneColor.Size = New System.Drawing.Size(101, 20)
+        Me.CmbStoneColor.TabIndex = 0
         '
-        'cmbStoneClarity
+        'CmbStoneClarity
         '
-        Me.cmbStoneClarity.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbStoneClarity.Location = New System.Drawing.Point(12, 33)
-        Me.cmbStoneClarity.Name = "cmbStoneClarity"
-        Me.cmbStoneClarity.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbStoneClarity.Properties.NullText = ""
-        Me.cmbStoneClarity.Properties.PopupSizeable = False
-        Me.cmbStoneClarity.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmbStoneClarity.Size = New System.Drawing.Size(101, 20)
-        Me.cmbStoneClarity.TabIndex = 1
+        Me.CmbStoneClarity.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.CmbStoneClarity.Location = New System.Drawing.Point(12, 33)
+        Me.CmbStoneClarity.Name = "CmbStoneClarity"
+        Me.CmbStoneClarity.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.CmbStoneClarity.Properties.NullText = ""
+        Me.CmbStoneClarity.Properties.PopupSizeable = False
+        Me.CmbStoneClarity.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.CmbStoneClarity.Size = New System.Drawing.Size(101, 20)
+        Me.CmbStoneClarity.TabIndex = 1
         '
-        'cmbStoneCut
+        'CmbStoneCut
         '
-        Me.cmbStoneCut.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbStoneCut.Location = New System.Drawing.Point(515, 84)
-        Me.cmbStoneCut.Name = "cmbStoneCut"
-        Me.cmbStoneCut.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbStoneCut.Properties.NullText = ""
-        Me.cmbStoneCut.Properties.PopupSizeable = False
-        Me.cmbStoneCut.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmbStoneCut.Size = New System.Drawing.Size(101, 20)
-        Me.cmbStoneCut.TabIndex = 6
+        Me.CmbStoneCut.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.CmbStoneCut.Location = New System.Drawing.Point(515, 84)
+        Me.CmbStoneCut.Name = "CmbStoneCut"
+        Me.CmbStoneCut.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.CmbStoneCut.Properties.NullText = ""
+        Me.CmbStoneCut.Properties.PopupSizeable = False
+        Me.CmbStoneCut.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.CmbStoneCut.Size = New System.Drawing.Size(101, 20)
+        Me.CmbStoneCut.TabIndex = 6
         '
-        'cmbStoneCountryOfOrigin
+        'CmbStoneCountryOfOrigin
         '
-        Me.cmbStoneCountryOfOrigin.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.cmbStoneCountryOfOrigin.Location = New System.Drawing.Point(414, 84)
-        Me.cmbStoneCountryOfOrigin.Name = "cmbStoneCountryOfOrigin"
-        Me.cmbStoneCountryOfOrigin.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.cmbStoneCountryOfOrigin.Properties.NullText = ""
-        Me.cmbStoneCountryOfOrigin.Properties.PopupSizeable = False
-        Me.cmbStoneCountryOfOrigin.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmbStoneCountryOfOrigin.Size = New System.Drawing.Size(101, 20)
-        Me.cmbStoneCountryOfOrigin.TabIndex = 7
+        Me.CmbStoneCountryOfOrigin.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.CmbStoneCountryOfOrigin.Location = New System.Drawing.Point(414, 84)
+        Me.CmbStoneCountryOfOrigin.Name = "CmbStoneCountryOfOrigin"
+        Me.CmbStoneCountryOfOrigin.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.CmbStoneCountryOfOrigin.Properties.NullText = ""
+        Me.CmbStoneCountryOfOrigin.Properties.PopupSizeable = False
+        Me.CmbStoneCountryOfOrigin.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.CmbStoneCountryOfOrigin.Size = New System.Drawing.Size(101, 20)
+        Me.CmbStoneCountryOfOrigin.TabIndex = 7
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(94, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.SimpleButton1.Appearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(94, Byte), Integer), CType(CType(23, Byte), Integer))
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SimpleButton1.Appearance.Options.UseBackColor = True
+        Me.SimpleButton1.Appearance.Options.UseBorderColor = True
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = CType(resources.GetObject("SimpleButton1.ImageOptions.Image"), System.Drawing.Image)
+        Me.SimpleButton1.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter
+        Me.SimpleButton1.Location = New System.Drawing.Point(312, 138)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(172, 46)
+        Me.SimpleButton1.TabIndex = 160
+        Me.SimpleButton1.Text = "حفظ"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.SimpleButton2.Appearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(163, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SimpleButton2.Appearance.Options.UseBackColor = True
+        Me.SimpleButton2.Appearance.Options.UseBorderColor = True
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = CType(resources.GetObject("SimpleButton2.ImageOptions.Image"), System.Drawing.Image)
+        Me.SimpleButton2.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.ImageAlignToText.RightCenter
+        Me.SimpleButton2.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.TopRight
+        Me.SimpleButton2.Location = New System.Drawing.Point(134, 138)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(172, 46)
+        Me.SimpleButton2.TabIndex = 160
+        Me.SimpleButton2.Text = "اغلاق"
+        '
+        'OFD
+        '
+        Me.OFD.FileName = "OpenFileDialog1"
+        '
+        'DEPError
+        '
+        Me.DEPError.ContainerControl = Me
         '
         'FrmGoldAddStone
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.ClientSize = New System.Drawing.Size(627, 166)
-        Me.Controls.Add(Me.txtDocumentPath)
-        Me.Controls.Add(Me.btnPanel)
-        Me.Controls.Add(Me.txtImagePath)
-        Me.Controls.Add(Me.txtStonePrice)
-        Me.Controls.Add(Me.txtCostForSeller)
+        Me.ClientSize = New System.Drawing.Size(627, 188)
+        Me.Controls.Add(Me.SimpleButton2)
+        Me.Controls.Add(Me.SimpleButton1)
+        Me.Controls.Add(Me.TxtDocumentPath)
+        Me.Controls.Add(Me.TxtImagePath)
+        Me.Controls.Add(Me.TxtStonePrice)
+        Me.Controls.Add(Me.TxtCostForSeller)
         Me.Controls.Add(Me.LabelControl10)
         Me.Controls.Add(Me.LabelControl9)
         Me.Controls.Add(Me.LabelControl7)
@@ -382,29 +411,30 @@ Partial Class FrmGoldAddStone
         Me.Controls.Add(Me.LabelControl1)
         Me.Controls.Add(Me.lblStoneType)
         Me.Controls.Add(Me.lblStoneName)
-        Me.Controls.Add(Me.cmbStoneType)
-        Me.Controls.Add(Me.cmbStoneName)
-        Me.Controls.Add(Me.cmbCaratGm)
-        Me.Controls.Add(Me.cmbStoneColor)
-        Me.Controls.Add(Me.cmbStoneClarity)
-        Me.Controls.Add(Me.cmbStoneCut)
-        Me.Controls.Add(Me.cmbStoneCountryOfOrigin)
+        Me.Controls.Add(Me.CmbStoneType)
+        Me.Controls.Add(Me.CmbStoneName)
+        Me.Controls.Add(Me.CmbCaratGm)
+        Me.Controls.Add(Me.CmbStoneColor)
+        Me.Controls.Add(Me.CmbStoneClarity)
+        Me.Controls.Add(Me.CmbStoneCut)
+        Me.Controls.Add(Me.CmbStoneCountryOfOrigin)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "FrmGoldAddStone"
         Me.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "إضافة فص"
-        CType(Me.txtCostForSeller.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtStonePrice.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.txtImagePath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbStoneType.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbStoneName.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbCaratGm.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbStoneColor.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbStoneClarity.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbStoneCut.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.cmbStoneCountryOfOrigin.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TxtCostForSeller.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TxtStonePrice.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TxtDocumentPath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TxtImagePath.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.CmbStoneType.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.CmbStoneName.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.CmbCaratGm.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.CmbStoneColor.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.CmbStoneClarity.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.CmbStoneCut.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.CmbStoneCountryOfOrigin.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DEPError, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -418,18 +448,21 @@ Partial Class FrmGoldAddStone
     Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents lblStoneType As DevExpress.XtraEditors.LabelControl
     Friend WithEvents lblStoneName As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents btnPanel As DevExpress.XtraBars.Docking2010.WindowsUIButtonPanel
     Friend WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents txtDocumentPath As DevExpress.XtraEditors.ButtonEdit
-    Friend WithEvents txtImagePath As DevExpress.XtraEditors.ButtonEdit
-    Private WithEvents txtCostForSeller As DevExpress.XtraEditors.TextEdit
-    Private WithEvents txtStonePrice As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents cmbStoneType As DevExpress.XtraEditors.LookUpEdit
-    Friend WithEvents cmbStoneName As DevExpress.XtraEditors.LookUpEdit
-    Friend WithEvents cmbCaratGm As DevExpress.XtraEditors.LookUpEdit
-    Friend WithEvents cmbStoneColor As DevExpress.XtraEditors.LookUpEdit
-    Friend WithEvents cmbStoneClarity As DevExpress.XtraEditors.LookUpEdit
-    Friend WithEvents cmbStoneCut As DevExpress.XtraEditors.LookUpEdit
-    Friend WithEvents cmbStoneCountryOfOrigin As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents TxtDocumentPath As DevExpress.XtraEditors.ButtonEdit
+    Friend WithEvents TxtImagePath As DevExpress.XtraEditors.ButtonEdit
+    Friend WithEvents CmbStoneType As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents CmbStoneName As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents CmbCaratGm As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents CmbStoneColor As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents CmbStoneClarity As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents CmbStoneCut As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents CmbStoneCountryOfOrigin As DevExpress.XtraEditors.LookUpEdit
+    Public WithEvents TxtCostForSeller As DevExpress.XtraEditors.TextEdit
+    Public WithEvents TxtStonePrice As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents OFD As OpenFileDialog
+    Friend WithEvents DEPError As DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider
 End Class
