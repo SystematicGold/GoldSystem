@@ -1,0 +1,32 @@
+[
+  {
+    "Code": 1,
+    "NameAr": "الكويت",
+    "NameEn": "Kuwait",
+    "Enabled": true
+  },
+  {
+    "Code": 2,
+    "NameAr": "الإمارات",
+    "NameEn": "UAE",
+    "Enabled": true
+  },
+  {
+    "Code": 3,
+    "NameAr": "السعودية",
+    "NameEn": "KSA",
+    "Enabled": true
+  },
+  {
+    "Code": 4,
+    "NameAr": "تركيا",
+    "NameEn": "Turkey",
+    "Enabled": true
+  },
+  {
+    "Code": 5,
+    "NameAr": "هونج كونج",
+    "NameEn": "Hong Kong",
+    "Enabled": true
+  }
+]

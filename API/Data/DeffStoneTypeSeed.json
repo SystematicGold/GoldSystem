@@ -1,0 +1,20 @@
+[
+  {
+    "Code": 1,
+    "NameAr": "عادي",
+    "NameEn": "Normal",
+    "Enabled": true
+  },
+  {
+    "Code": 2,
+    "NameAr": "نصف ثمين",
+    "NameEn": "Semi-Precious",
+    "Enabled": true
+  },
+  {
+    "Code": 3,
+    "NameAr": "ثمين",
+    "NameEn": "Precious",
+    "Enabled": true
+  }
+]

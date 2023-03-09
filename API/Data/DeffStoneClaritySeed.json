@@ -1,0 +1,12 @@
+[
+  {
+    "Code": 1,
+    "Name": "VI",
+    "Enabled": true
+  },
+  {
+    "Code": 2,
+    "Name": "VSSI",
+    "Enabled": true
+  }
+]
