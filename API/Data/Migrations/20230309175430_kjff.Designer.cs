@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230305054553_zxa")]
-    partial class zxa
+    [Migration("20230309175430_kjff")]
+    partial class kjff
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -497,6 +497,9 @@ namespace API.Data.Migrations
                     b.Property<double?>("CostPerGram")
                         .HasColumnType("float");
 
+                    b.Property<double?>("CostPerGramPurchase")
+                        .HasColumnType("float");
+
                     b.Property<double?>("CostPerPiece")
                         .HasColumnType("float");
 
@@ -564,43 +567,46 @@ namespace API.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
 
-                    b.Property<string>("Clarity")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("CodeItem")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Color")
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("StoneClarity")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CountryOfOrigin")
+                    b.Property<string>("StoneColor")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Cut")
+                    b.Property<string>("StoneCountryOfOrigin")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Document")
+                    b.Property<string>("StoneCut")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Photo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("Price")
-                        .HasColumnType("float");
+                    b.Property<byte[]>("StoneDocument")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<long>("StoneNameCode")
                         .HasColumnType("bigint");
 
-                    b.Property<long>("TypeCode")
+                    b.Property<byte[]>("StonePhoto")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<double>("StonePrice")
+                        .HasColumnType("float");
+
+                    b.Property<long>("StoneTypeCode")
                         .HasColumnType("bigint");
 
-                    b.Property<int>("UserCode")
+                    b.Property<long>("StoneWeight")
+                        .HasColumnType("bigint");
+
+                    b.Property<int>("StoneWeightType")
                         .HasColumnType("int");
 
-                    b.Property<long>("Weight")
-                        .HasColumnType("bigint");
-
-                    b.Property<int>("WeightType")
+                    b.Property<int>("UserCode")
                         .HasColumnType("int");
 
                     b.HasKey("Id");

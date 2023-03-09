@@ -1,8 +1,12 @@
 ﻿Public Class FrmGoldAddItem
-    Dim ClsItem As New ClsGoldItem
+    Private ReadOnly ClsItem As New ClsGoldItem
     Public IsYes = False
 
     Private Sub FrmGoldAddItem_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub WindowsUIButtonPanel1_Click(sender As Object, e As EventArgs) Handles WindowsUIButtonPanel1.Click
 
     End Sub
 
