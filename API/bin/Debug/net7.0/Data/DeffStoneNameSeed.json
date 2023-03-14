@@ -1,0 +1,23 @@
+[
+  {
+    "Code": 1,
+    "NameAr": "مينا",
+    "NameEn": "Mina",
+    "StoneTypeCode": 1,
+    "Enabled": true
+  },
+  {
+    "Code": 2,
+    "NameAr": "زركون",
+    "NameEn": "Zircon",
+    "StoneTypeCode": 1,
+    "Enabled": true
+  },
+  {
+    "Code": 3,
+    "NameAr": "زركون",
+    "NameEn": "Zircon",
+    "StoneTypeCode": 3,
+    "Enabled": true
+  }
+]

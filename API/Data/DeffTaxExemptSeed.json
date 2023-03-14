@@ -1,0 +1,14 @@
+[
+  {
+    "Code": 1,
+    "NameAr": "معفي",
+    "NameEn": "Exempt From Tax",
+    "Enabled": true
+  },
+  {
+    "Code": 2,
+    "NameAr": "غير معفي",
+    "NameEn": "Taxed",
+    "Enabled": true
+  }
+]

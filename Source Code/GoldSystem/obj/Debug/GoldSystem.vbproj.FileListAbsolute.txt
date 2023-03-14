@@ -1,0 +1,778 @@
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\GoldSystem.exe.config
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\GoldSystem.exe
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\GoldSystem.pdb
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\GoldSystem.xml
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\Bunifu_UI_v1.52.dll
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\Guna.UI.dll
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.vbprojAssemblyReference.cache
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.Resources.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.GenerateResource.cache
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CoreCompileInputs.cache
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CopyComplete
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.exe
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.xml
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.pdb
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\ar-KW\GoldSystem.resources.dll
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\en-US\GoldSystem.resources.dll
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.ar-KW.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.en-US.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\ar-KW\GoldSystem.resources.dll
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\en-US\GoldSystem.resources.dll
+D:\GoldSystem\source Code\GoldSystem\bin\Debug\ar\GoldSystem.resources.dll
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.ar.resources
+D:\GoldSystem\source Code\GoldSystem\obj\Debug\ar\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\GoldSystem.exe.config
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\GoldSystem.exe
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\GoldSystem.pdb
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\GoldSystem.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ar\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ar-KW\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\en-US\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Bunifu_UI_v1.52.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Guna.UI.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.vbprojAssemblyReference.cache
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.Resources.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.ar.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.ar-KW.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.en-US.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.GenerateResource.cache
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CoreCompileInputs.cache
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\ar\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\ar-KW\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\en-US\GoldSystem.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CopyComplete
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.exe
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.xml
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.pdb
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmMain.resources
+C:\Source Code\source Code\GoldSystem\bin\Debug\Guna.UI2.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Guna.UI2.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Newtonsoft.Json.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\RestSharp.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\RestSharp.Serializers.Newtonsoft.Json.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\Newtonsoft.Json.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\RestSharp.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Data.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmAddCat.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmAdderItem.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmGold.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmSales.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.XtraReport1.resources
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.exe.licenses
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Data.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Office.v17.1.Core.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.RichEdit.v17.1.Export.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Utils.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\FontAwesome.Sharp.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraBars.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v17.1.Extensions.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraPivotGrid.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.CodeParser.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Xpo.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Data.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Office.v17.1.Core.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.PivotGrid.v17.1.Core.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Utils.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraBars.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraPivotGrid.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Xpo.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraReports.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraReports.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraReports.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraReports.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\electron\demo\G\source Code\GoldSystem\obj\Debug\GoldSystem.FrmMaxmizeGold.resources
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.SpellChecker.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\netstandard.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.AppContext.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Collections.Concurrent.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Collections.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Collections.NonGeneric.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Collections.Specialized.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.ComponentModel.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Console.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Data.Common.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Diagnostics.Debug.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Diagnostics.Process.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Diagnostics.Tools.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Drawing.Primitives.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Dynamic.Runtime.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Globalization.Calendars.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Globalization.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Globalization.Extensions.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.Compression.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.FileSystem.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.Pipes.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Linq.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Linq.Expressions.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Linq.Parallel.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Linq.Queryable.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.Http.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.NameResolution.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.NetworkInformation.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.Ping.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.Primitives.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.Requests.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.Security.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.Sockets.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Net.WebSockets.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.ObjectModel.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Reflection.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Reflection.Extensions.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Reflection.Primitives.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Resources.Reader.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Resources.ResourceManager.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Resources.Writer.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.Extensions.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.Handles.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.InteropServices.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.Numerics.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Security.Claims.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Security.Principal.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Security.SecureString.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Text.Encoding.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Text.RegularExpressions.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Threading.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Threading.Overlapped.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Threading.Tasks.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Threading.Thread.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Threading.ThreadPool.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Threading.Timer.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Xml.XDocument.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Xml.XmlDocument.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Xml.XPath.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.RichEdit.v17.1.Export.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.TreeMap.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v17.1.Extensions.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraSpellChecker.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeMap.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\FontAwesome.Sharp.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\Guna.UI.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\Newtonsoft.Json.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\RestSharp.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\RestSharp.Serializers.Newtonsoft.Json.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Buffers.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Memory.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Numerics.Vectors.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Text.Encodings.Web.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Text.Json.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.ValueTuple.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v17.1.Extensions.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraPivotGrid.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.PivotGrid.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.SpellChecker.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.TreeMap.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v17.1.Extensions.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraSpellChecker.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeMap.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\Newtonsoft.Json.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\RestSharp.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Buffers.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Memory.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Numerics.Vectors.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Text.Encodings.Web.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Text.Json.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\System.ValueTuple.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraPivotGrid.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraReports.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraReports.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraReports.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraReports.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraScheduler.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraScheduler.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraScheduler.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraScheduler.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraScheduler.v17.1.Extensions.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraScheduler.v17.1.Extensions.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraScheduler.v17.1.Extensions.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraScheduler.v17.1.Extensions.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraSpellChecker.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraSpellChecker.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraSpellChecker.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraSpellChecker.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.exe.config
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmControlBarCode.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldPrintBarCode.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldPurchase.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.frmGoldReport.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.UCGoldAddItem.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.USGoldControlBarCode.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.PrintBarCode.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.UCCivilId.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldItem.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmAdderItem.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.frmGoldAddStone.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldBig.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldSale.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.UCFavorite.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmAddNewSupplier.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmMain.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmMaxmizeGold.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.Resources.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.ar.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.ar-KW.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.en-US.resources
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.GenerateResource.cache
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.exe.licenses
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CoreCompileInputs.cache
+C:\Source Code\source Code\GoldSystem\obj\Debug\ar\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\obj\Debug\ar-KW\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\obj\Debug\en-US\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.exe
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.xml
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.pdb
+C:\Source Code\source Code\GoldSystem\bin\Debug\GoldSystem.exe.config
+C:\Source Code\source Code\GoldSystem\bin\Debug\GoldSystem.exe
+C:\Source Code\source Code\GoldSystem\bin\Debug\GoldSystem.pdb
+C:\Source Code\source Code\GoldSystem\bin\Debug\GoldSystem.xml
+C:\Source Code\source Code\GoldSystem\bin\Debug\ar\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\ar-KW\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\bin\Debug\en-US\GoldSystem.resources.dll
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.vbprojAssemblyReference.cache
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CopyComplete
+C:\Source Code\source Code\GoldSystem\obj\Debug\GoldSystem.Form1.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\GoldSystem.exe.config
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\GoldSystem.exe
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\GoldSystem.pdb
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\GoldSystem.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\ar\GoldSystem.resources.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\ar-KW\GoldSystem.resources.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\en-US\GoldSystem.resources.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\Bunifu_UI_v1.52.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Charts.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Data.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Dialogs.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Drawing.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Office.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.PivotGrid.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.RichEdit.v22.2.Export.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.SpellChecker.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.TreeMap.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Utils.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Utils.v22.2.UI.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraBars.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraDialogs.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraGauges.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.Desktop.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v22.2.Extensions.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraSpellChecker.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeMap.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\Guna.UI.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\Guna.UI2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\Newtonsoft.Json.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\RestSharp.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\RestSharp.Serializers.Newtonsoft.Json.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Buffers.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Memory.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Numerics.Vectors.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Text.Encodings.Web.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Text.Json.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.ValueTuple.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Xpo.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.CodeParser.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraRichEdit.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.DataVisualization.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v22.2.UI.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraNavBar.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraPivotGrid.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v22.2.Extensions.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Images.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraDiagram.v22.2.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Diagram.v22.2.Core.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Charts.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Data.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Office.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.PivotGrid.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.SpellChecker.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.TreeMap.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Utils.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Utils.v22.2.UI.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraBars.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraDialogs.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraGauges.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.Desktop.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraScheduler.v22.2.Extensions.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraSpellChecker.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraTreeMap.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\Newtonsoft.Json.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\RestSharp.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Buffers.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Memory.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Numerics.Vectors.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Text.Encodings.Web.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Text.Json.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\System.ValueTuple.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Xpo.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraRichEdit.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.DataAccess.v22.2.UI.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraNavBar.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraPivotGrid.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.XtraDiagram.v22.2.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\bin\Debug\DevExpress.Diagram.v22.2.Core.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.AssemblyReference.cache
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.SuggestedBindingRedirects.cache
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmAccountingTree.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmSelectAccount.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.Form1.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.Form2.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldAddStone.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.frmGoldItem.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldItemSingle.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldPrintBarCode.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldSale.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldSaleToCompany.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.frmGoldTransaction.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmPhoto.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.frmGoldReport.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.UCGoldAddItem.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.USGoldControlBarCode.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmGoldAddItem.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.frmGoldPurchase.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.PrintBarCode.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmAddPhone.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmMain.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.frmPermissions.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.frmVoucher.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.UCCivilID.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.UCFavorite.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmLanguage.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.frmMainOld.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmMaxmizeGold.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.ucSupplier.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.Resources.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.FrmLogin.ar.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.ar-KW.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.SettingFile.en-US.resources
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.GenerateResource.cache
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.exe.licenses
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CoreCompileInputs.cache
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\ar\GoldSystem.resources.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\ar-KW\GoldSystem.resources.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\en-US\GoldSystem.resources.dll
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.vbproj.CopyComplete
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.exe
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.xml
+D:\Error404\GoldSystem-main\Source Code\GoldSystem\obj\Debug\GoldSystem.pdb

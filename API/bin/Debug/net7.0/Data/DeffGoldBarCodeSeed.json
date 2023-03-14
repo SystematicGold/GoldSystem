@@ -1,0 +1,147 @@
+[
+  {
+    "Code": 1,
+    "BarCodeTypeAr": "الباركود",
+    "BarCodeTypeEn": "BarCode",
+    "BarCodeName": "الباركود",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 2,
+    "BarCodeTypeAr": "نص اسم الصنف",
+    "BarCodeTypeEn": "Item Name Text",
+    "BarCodeName": "اسم الصنف",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 3,
+    "BarCodeTypeAr": "قيمة اسم الصنف",
+    "BarCodeTypeEn": "Item Name Value",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 4,
+    "BarCodeTypeAr": "نص الوزن",
+    "BarCodeTypeEn": "Item Weight Text",
+    "BarCodeName": "الوزن",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 5,
+    "BarCodeTypeAr": "قيمة الوزن",
+    "BarCodeTypeEn": "Weight Value",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 6,
+    "BarCodeTypeAr": "نص العيار",
+    "BarCodeTypeEn": "Karat Text",
+    "BarCodeName": "العيار",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 7,
+    "BarCodeTypeAr": "قيمة العيار",
+    "BarCodeTypeEn": "Karat Value",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 8,
+    "BarCodeTypeAr": "نص الفص1",
+    "BarCodeTypeEn": "Stone1 Text",
+    "BarCodeName": "نص الفص1",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 9,
+    "BarCodeTypeAr": "قيمة الفص1",
+    "BarCodeTypeEn": "Stone1 Value",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 10,
+    "BarCodeTypeAr": "نص الفص2",
+    "BarCodeTypeEn": "Stone2 Text",
+    "BarCodeName": "نص الفص2",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 11,
+    "BarCodeTypeAr": "قيمة الفص2",
+    "BarCodeTypeEn": "Stone2 Value",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 12,
+    "BarCodeTypeAr": "نص الفص3",
+    "BarCodeTypeEn": "Stone3 Text",
+    "BarCodeName": "نص الفص3",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 13,
+    "BarCodeTypeAr": "قيمة الفص3",
+    "BarCodeTypeEn": "Stone3 Value",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 14,
+    "BarCodeTypeAr": "نص الفص4",
+    "BarCodeTypeEn": "Stone4 Text",
+    "BarCodeName": "نص الفص4",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 15,
+    "BarCodeTypeAr": "قيمة الفص4",
+    "BarCodeTypeEn": "Stone4 Value",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 16,
+    "BarCodeTypeAr": "نص الفص5",
+    "BarCodeTypeEn": "Stone5 Text",
+    "BarCodeName": "نص الفص5",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  },
+  {
+    "Code": 17,
+    "BarCodeTypeAr": "قيمة الفص5",
+    "BarCodeTypeEn": "Stone5 Value",
+    "BarCodeX": 0.0,
+    "BarCodeY": 0.0,
+    "IsVisible": 0
+  }
+]

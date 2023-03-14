@@ -1,0 +1,16 @@
+[
+  {
+    "Code": 1,
+    "NameAr": "أحمر",
+    "NameEn": "Red",
+    "IsDiamondColor": false,
+    "Enabled": true
+  },
+  {
+    "Code": 2,
+    "NameAr": "أخضر",
+    "NameEn": "Green",
+    "IsDiamondColor": false,
+    "Enabled": true
+  }
+]
