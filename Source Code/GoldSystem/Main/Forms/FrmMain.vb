@@ -1,13 +1,22 @@
-﻿Imports System.IO
+﻿Imports System.Globalization
+Imports System.IO
 Imports System.Text
+Imports System.Threading
+Imports DevExpress.Data.Svg
+Imports DevExpress.Pdf.Native.BouncyCastle.Asn1.Ocsp
 Imports DevExpress.XtraBars.Ribbon
+Imports DevExpress.XtraEditors
 
 Public Class FrmMain
     Dim ClsMain_ As New ClsMain
     Private Sub btnGoldSale_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles btnGoldSale.ItemClick
         Try
-            FrmGoldSale.MdiParent = Me
-            FrmGoldSale.Show()
+            With FrmGoldSale
+                .MdiParent = Me
+                .Show()
+                .WindowState = FormWindowState.Minimized
+                .WindowState = FormWindowState.Normal
+            End With
         Catch ex As Exception
 
         End Try
@@ -15,9 +24,13 @@ Public Class FrmMain
 
     Private Sub btnGoldPurchase_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles btnGoldPurchase.ItemClick
         Try
-            frmGoldPurchase.MdiParent = Me
-            frmGoldPurchase.Show()
-            ActivateMdiChild(frmGoldPurchase)
+            With frmGoldPurchase
+                .MdiParent = Me
+                .Show()
+                .WindowState = FormWindowState.Minimized
+                .WindowState = FormWindowState.Normal
+            End With
+
         Catch ex As Exception
 
         End Try
@@ -42,9 +55,13 @@ Public Class FrmMain
             'FrmGoldItem.TxtBarCode.Text = sb.ToString()
             'frmGoldItem.TxtBarCodeBlock.Text = sb.ToString()
             'End If
-            FrmGoldItemSingle.MdiParent = Me
-            FrmGoldItemSingle.Show()
-            ActivateMdiChild(FrmGoldItemSingle)
+            With FrmGoldItemSingle
+                .MdiParent = Me
+                .Show()
+                .WindowState = FormWindowState.Minimized
+                .WindowState = FormWindowState.Normal
+            End With
+
         Catch ex As Exception
             MessageBox.Show(ex.ToString())
         End Try
@@ -52,8 +69,11 @@ Public Class FrmMain
 
     Private Sub FrmMain_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         Try
-            Dim FS As New FileStream(Application.StartupPath & "\QuickAccessBar.xml", FileMode.Create)
-            RibbonControl1.Toolbar.SaveLayoutToStream(FS)
+            If XtraMessageBox.Show("هل تريد الخروج؟", "إنهاء", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
+                Dim FS As New FileStream(Application.StartupPath & "\QuickAccessBar.xml", FileMode.Create)
+                RibbonControl1.Toolbar.SaveLayoutToStream(FS)
+            End If
+
         Catch ex As Exception
             MessageBox.Show(ex.ToString())
         End Try
@@ -66,7 +86,6 @@ Public Class FrmMain
             If File.Exists(FSPath) Then
                 Dim FS As New FileStream(FSPath, FileMode.Open)
                 RibbonControl1.Toolbar.RestoreLayoutFromStream(FS)
-
             End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString())

@@ -24,12 +24,6 @@ Partial Class UCGoldAddItem
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UCGoldAddItem))
-        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Dim EditorButtonImageOptions1 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
         Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
@@ -42,13 +36,21 @@ Partial Class UCGoldAddItem
         Dim SerializableAppearanceObject8 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Me.pbAddStone = New DevExpress.XtraEditors.PictureEdit()
         Me.gbItemData = New DevExpress.XtraEditors.GroupControl()
+        Me.btnSave = New DevExpress.XtraEditors.DropDownButton()
+        Me.mnubtnSave = New DevExpress.XtraBars.PopupMenu(Me.components)
+        Me.btnSaveItem = New DevExpress.XtraBars.BarButtonItem()
+        Me.btnSaveMulti = New DevExpress.XtraBars.BarButtonItem()
+        Me.BarManager1 = New DevExpress.XtraBars.BarManager(Me.components)
+        Me.barDockControlTop = New DevExpress.XtraBars.BarDockControl()
+        Me.barDockControlBottom = New DevExpress.XtraBars.BarDockControl()
+        Me.barDockControlLeft = New DevExpress.XtraBars.BarDockControl()
+        Me.barDockControlRight = New DevExpress.XtraBars.BarDockControl()
         Me.txtItemID = New DevExpress.XtraEditors.TextEdit()
         Me.pbNewItem = New DevExpress.XtraEditors.PictureEdit()
         Me.btnDocument = New DevExpress.XtraEditors.SimpleButton()
         Me.btnPhoto = New DevExpress.XtraEditors.SimpleButton()
         Me.pbDocument = New DevExpress.XtraEditors.PictureEdit()
         Me.pbPhoto = New DevExpress.XtraEditors.PictureEdit()
-        Me.btnSaveItem = New DevExpress.XtraEditors.SimpleButton()
         Me.gbStoneData = New DevExpress.XtraEditors.GroupControl()
         Me.DGCStone = New DevExpress.XtraGrid.GridControl()
         Me.DgvStone = New DevExpress.XtraGrid.Views.Grid.GridView()
@@ -71,13 +73,14 @@ Partial Class UCGoldAddItem
         Me.cmbStoneCountryOfOrigin = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.colStonePrice = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colStonePhoto = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.btnStonePhoto = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
         Me.colStoneDocument = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.btnStoneDocument = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
         Me.colStoneEdit = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.btnStoneEdit = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
         Me.colStoneDelete = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.btnStoneDelete = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
+        Me.btnStonePhoto = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
+        Me.btnStoneDocument = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
+        Me.txtStoneEmpty = New DevExpress.XtraEditors.Repository.RepositoryItemTextEdit()
         Me.cmbKarat = New DevExpress.XtraEditors.LookUpEdit()
         Me.cmbItemCondition = New DevExpress.XtraEditors.LookUpEdit()
         Me.cmbTaxExempt = New DevExpress.XtraEditors.LookUpEdit()
@@ -125,6 +128,8 @@ Partial Class UCGoldAddItem
         CType(Me.pbAddStone.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.gbItemData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbItemData.SuspendLayout()
+        CType(Me.mnubtnSave, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtItemID.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbNewItem.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbDocument.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -140,10 +145,11 @@ Partial Class UCGoldAddItem
         CType(Me.cmbStoneClarity, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbStoneCut, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbStoneCountryOfOrigin, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnStonePhoto, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnStoneDocument, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnStoneEdit, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnStoneDelete, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnStonePhoto, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnStoneDocument, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtStoneEmpty, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbKarat.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbItemCondition.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbTaxExempt.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -184,23 +190,17 @@ Partial Class UCGoldAddItem
         Me.pbAddStone.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbAddStone.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
         Me.pbAddStone.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem1.Text = "إضافة فص"
-        ToolTipItem1.LeftIndent = 6
-        ToolTipItem1.Text = "اضغط لإضافة فص للقطعة"
-        SuperToolTip1.Items.Add(ToolTipTitleItem1)
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        Me.pbAddStone.SuperTip = SuperToolTip1
         Me.pbAddStone.TabIndex = 101
         '
         'gbItemData
         '
+        Me.gbItemData.Controls.Add(Me.btnSave)
         Me.gbItemData.Controls.Add(Me.txtItemID)
         Me.gbItemData.Controls.Add(Me.pbNewItem)
         Me.gbItemData.Controls.Add(Me.btnDocument)
         Me.gbItemData.Controls.Add(Me.btnPhoto)
         Me.gbItemData.Controls.Add(Me.pbDocument)
         Me.gbItemData.Controls.Add(Me.pbPhoto)
-        Me.gbItemData.Controls.Add(Me.btnSaveItem)
         Me.gbItemData.Controls.Add(Me.gbStoneData)
         Me.gbItemData.Controls.Add(Me.cmbKarat)
         Me.gbItemData.Controls.Add(Me.cmbItemCondition)
@@ -252,6 +252,82 @@ Partial Class UCGoldAddItem
         Me.gbItemData.TabIndex = 0
         Me.gbItemData.Text = "بيانات القطعة"
         '
+        'btnSave
+        '
+        Me.btnSave.DropDownControl = Me.mnubtnSave
+        Me.btnSave.ImageOptions.Image = CType(resources.GetObject("btnSave.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnSave.Location = New System.Drawing.Point(6, 145)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(100, 29)
+        Me.btnSave.TabIndex = 108
+        Me.btnSave.Text = "حفظ"
+        '
+        'mnubtnSave
+        '
+        Me.mnubtnSave.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.btnSaveItem), New DevExpress.XtraBars.LinkPersistInfo(Me.btnSaveMulti)})
+        Me.mnubtnSave.Manager = Me.BarManager1
+        Me.mnubtnSave.Name = "mnubtnSave"
+        '
+        'btnSaveItem
+        '
+        Me.btnSaveItem.Caption = "حفظ"
+        Me.btnSaveItem.Id = 0
+        Me.btnSaveItem.ImageOptions.Image = CType(resources.GetObject("btnSaveItem.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnSaveItem.ImageOptions.LargeImage = CType(resources.GetObject("btnSaveItem.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnSaveItem.Name = "btnSaveItem"
+        Me.btnSaveItem.Tag = "SaveItem"
+        '
+        'btnSaveMulti
+        '
+        Me.btnSaveMulti.Caption = "حفظ متكرر"
+        Me.btnSaveMulti.Id = 1
+        Me.btnSaveMulti.ImageOptions.Image = CType(resources.GetObject("btnSaveMulti.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnSaveMulti.ImageOptions.LargeImage = CType(resources.GetObject("btnSaveMulti.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnSaveMulti.Name = "btnSaveMulti"
+        Me.btnSaveMulti.Tag = "SaveMulti"
+        '
+        'BarManager1
+        '
+        Me.BarManager1.DockControls.Add(Me.barDockControlTop)
+        Me.BarManager1.DockControls.Add(Me.barDockControlBottom)
+        Me.BarManager1.DockControls.Add(Me.barDockControlLeft)
+        Me.BarManager1.DockControls.Add(Me.barDockControlRight)
+        Me.BarManager1.Form = Me
+        Me.BarManager1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.btnSaveItem, Me.btnSaveMulti})
+        Me.BarManager1.MaxItemId = 2
+        '
+        'barDockControlTop
+        '
+        Me.barDockControlTop.CausesValidation = False
+        Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
+        Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
+        Me.barDockControlTop.Manager = Me.BarManager1
+        Me.barDockControlTop.Size = New System.Drawing.Size(1350, 0)
+        '
+        'barDockControlBottom
+        '
+        Me.barDockControlBottom.CausesValidation = False
+        Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 183)
+        Me.barDockControlBottom.Manager = Me.BarManager1
+        Me.barDockControlBottom.Size = New System.Drawing.Size(1350, 0)
+        '
+        'barDockControlLeft
+        '
+        Me.barDockControlLeft.CausesValidation = False
+        Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
+        Me.barDockControlLeft.Location = New System.Drawing.Point(0, 0)
+        Me.barDockControlLeft.Manager = Me.BarManager1
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 183)
+        '
+        'barDockControlRight
+        '
+        Me.barDockControlRight.CausesValidation = False
+        Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
+        Me.barDockControlRight.Location = New System.Drawing.Point(1350, 0)
+        Me.barDockControlRight.Manager = Me.BarManager1
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 183)
+        '
         'txtItemID
         '
         Me.txtItemID.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -283,12 +359,6 @@ Partial Class UCGoldAddItem
         Me.pbNewItem.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbNewItem.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
         Me.pbNewItem.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem2.Text = "إضافة فص"
-        ToolTipItem2.LeftIndent = 6
-        ToolTipItem2.Text = "اضغط لإضافة فص للقطعة"
-        SuperToolTip2.Items.Add(ToolTipTitleItem2)
-        SuperToolTip2.Items.Add(ToolTipItem2)
-        Me.pbNewItem.SuperTip = SuperToolTip2
         Me.pbNewItem.TabIndex = 106
         '
         'btnDocument
@@ -337,15 +407,6 @@ Partial Class UCGoldAddItem
         Me.pbPhoto.Size = New System.Drawing.Size(108, 20)
         Me.pbPhoto.TabIndex = 104
         '
-        'btnSaveItem
-        '
-        Me.btnSaveItem.ImageOptions.Image = CType(resources.GetObject("btnSaveItem.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnSaveItem.Location = New System.Drawing.Point(8, 145)
-        Me.btnSaveItem.Name = "btnSaveItem"
-        Me.btnSaveItem.Size = New System.Drawing.Size(75, 29)
-        Me.btnSaveItem.TabIndex = 103
-        Me.btnSaveItem.Text = "حفظ"
-        '
         'gbStoneData
         '
         Me.gbStoneData.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
@@ -365,8 +426,7 @@ Partial Class UCGoldAddItem
         Me.DGCStone.Location = New System.Drawing.Point(2, 23)
         Me.DGCStone.MainView = Me.DgvStone
         Me.DGCStone.Name = "DGCStone"
-        Me.DGCStone.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.cmbStoneName, Me.cmbStoneType, Me.cmbStoneWeightType, Me.cmbStoneColor, Me.cmbStoneClarity, Me.cmbStoneCut, Me.cmbStoneCountryOfOrigin, Me.btnStonePhoto, Me.btnStoneDocument, Me.btnStoneDelete, Me.btnStoneEdit})
-        Me.DGCStone.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.DGCStone.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.cmbStoneName, Me.cmbStoneType, Me.cmbStoneWeightType, Me.cmbStoneColor, Me.cmbStoneClarity, Me.cmbStoneCut, Me.cmbStoneCountryOfOrigin, Me.btnStonePhoto, Me.btnStoneDocument, Me.btnStoneDelete, Me.btnStoneEdit, Me.txtStoneEmpty})
         Me.DGCStone.Size = New System.Drawing.Size(549, 90)
         Me.DGCStone.TabIndex = 102
         Me.DGCStone.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.DgvStone})
@@ -580,19 +640,10 @@ Partial Class UCGoldAddItem
         Me.colStonePhoto.AppearanceHeader.Options.UseTextOptions = True
         Me.colStonePhoto.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colStonePhoto.Caption = "صورة"
-        Me.colStonePhoto.ColumnEdit = Me.btnStonePhoto
         Me.colStonePhoto.FieldName = "StonePhoto"
         Me.colStonePhoto.Name = "colStonePhoto"
-        Me.colStonePhoto.OptionsColumn.AllowEdit = False
         Me.colStonePhoto.Visible = True
         Me.colStonePhoto.VisibleIndex = 9
-        '
-        'btnStonePhoto
-        '
-        Me.btnStonePhoto.AutoHeight = False
-        Me.btnStonePhoto.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)})
-        Me.btnStonePhoto.Name = "btnStonePhoto"
-        Me.btnStonePhoto.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
         '
         'colStoneDocument
         '
@@ -601,19 +652,10 @@ Partial Class UCGoldAddItem
         Me.colStoneDocument.AppearanceHeader.Options.UseTextOptions = True
         Me.colStoneDocument.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colStoneDocument.Caption = "مستند"
-        Me.colStoneDocument.ColumnEdit = Me.btnStoneDocument
         Me.colStoneDocument.FieldName = "StoneDocument"
         Me.colStoneDocument.Name = "colStoneDocument"
-        Me.colStoneDocument.OptionsColumn.AllowEdit = False
         Me.colStoneDocument.Visible = True
         Me.colStoneDocument.VisibleIndex = 10
-        '
-        'btnStoneDocument
-        '
-        Me.btnStoneDocument.AutoHeight = False
-        Me.btnStoneDocument.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)})
-        Me.btnStoneDocument.Name = "btnStoneDocument"
-        Me.btnStoneDocument.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
         '
         'colStoneEdit
         '
@@ -654,6 +696,25 @@ Partial Class UCGoldAddItem
         Me.btnStoneDelete.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions2, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, SerializableAppearanceObject6, SerializableAppearanceObject7, SerializableAppearanceObject8, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.btnStoneDelete.Name = "btnStoneDelete"
         Me.btnStoneDelete.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        '
+        'btnStonePhoto
+        '
+        Me.btnStonePhoto.AutoHeight = False
+        Me.btnStonePhoto.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)})
+        Me.btnStonePhoto.Name = "btnStonePhoto"
+        Me.btnStonePhoto.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        '
+        'btnStoneDocument
+        '
+        Me.btnStoneDocument.AutoHeight = False
+        Me.btnStoneDocument.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)})
+        Me.btnStoneDocument.Name = "btnStoneDocument"
+        Me.btnStoneDocument.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        '
+        'txtStoneEmpty
+        '
+        Me.txtStoneEmpty.AutoHeight = False
+        Me.txtStoneEmpty.Name = "txtStoneEmpty"
         '
         'cmbKarat
         '
@@ -746,9 +807,9 @@ Partial Class UCGoldAddItem
         '
         Me.txtNote.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.txtNote.Location = New System.Drawing.Point(89, 145)
+        Me.txtNote.Location = New System.Drawing.Point(112, 145)
         Me.txtNote.Name = "txtNote"
-        Me.txtNote.Size = New System.Drawing.Size(329, 29)
+        Me.txtNote.Size = New System.Drawing.Size(346, 29)
         Me.txtNote.TabIndex = 20
         '
         'dtpDateAdded
@@ -1005,9 +1066,9 @@ Partial Class UCGoldAddItem
         Me.lblNote.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.lblNote.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center
         Me.lblNote.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.lblNote.Location = New System.Drawing.Point(424, 150)
+        Me.lblNote.Location = New System.Drawing.Point(456, 150)
         Me.lblNote.Name = "lblNote"
-        Me.lblNote.Size = New System.Drawing.Size(127, 19)
+        Me.lblNote.Size = New System.Drawing.Size(95, 19)
         Me.lblNote.TabIndex = 102
         Me.lblNote.Text = "ملاحظات"
         '
@@ -1206,12 +1267,17 @@ Partial Class UCGoldAddItem
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.Controls.Add(Me.gbItemData)
-        Me.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Controls.Add(Me.barDockControlLeft)
+        Me.Controls.Add(Me.barDockControlRight)
+        Me.Controls.Add(Me.barDockControlBottom)
+        Me.Controls.Add(Me.barDockControlTop)
         Me.Name = "UCGoldAddItem"
         Me.Size = New System.Drawing.Size(1350, 183)
         CType(Me.pbAddStone.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.gbItemData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.gbItemData.ResumeLayout(False)
+        CType(Me.mnubtnSave, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtItemID.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbNewItem.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbDocument.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1227,10 +1293,11 @@ Partial Class UCGoldAddItem
         CType(Me.cmbStoneClarity, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbStoneCut, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbStoneCountryOfOrigin, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnStonePhoto, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnStoneDocument, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnStoneEdit, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnStoneDelete, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnStonePhoto, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnStoneDocument, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtStoneEmpty, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbKarat.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbItemCondition.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbTaxExempt.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1255,6 +1322,7 @@ Partial Class UCGoldAddItem
         CType(Me.txtGoldWeight.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EPX, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Private WithEvents pbAddStone As DevExpress.XtraEditors.PictureEdit
@@ -1315,7 +1383,6 @@ Partial Class UCGoldAddItem
     Friend WithEvents cmbSupplierInvoiceNo As DevExpress.XtraEditors.LookUpEdit
     Friend WithEvents OFDX As DevExpress.XtraEditors.XtraOpenFileDialog
     Friend WithEvents EPX As DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider
-    Friend WithEvents btnSaveItem As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents colStonePhoto As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colStoneWeightType As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colStoneCountryOfOrigin As DevExpress.XtraGrid.Columns.GridColumn
@@ -1332,11 +1399,21 @@ Partial Class UCGoldAddItem
     Friend WithEvents pbPhoto As DevExpress.XtraEditors.PictureEdit
     Friend WithEvents btnPhoto As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents btnDocument As DevExpress.XtraEditors.SimpleButton
-    Private WithEvents pbNewItem As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents pbNewItem As DevExpress.XtraEditors.PictureEdit
     Friend WithEvents txtItemID As DevExpress.XtraEditors.TextEdit
     Friend WithEvents colID As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colStoneDelete As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents btnStoneDelete As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
     Friend WithEvents btnStoneEdit As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
     Friend WithEvents colStoneEdit As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents txtStoneEmpty As DevExpress.XtraEditors.Repository.RepositoryItemTextEdit
+    Friend WithEvents btnSave As DevExpress.XtraEditors.DropDownButton
+    Friend WithEvents barDockControlLeft As DevExpress.XtraBars.BarDockControl
+    Friend WithEvents BarManager1 As DevExpress.XtraBars.BarManager
+    Friend WithEvents barDockControlTop As DevExpress.XtraBars.BarDockControl
+    Friend WithEvents barDockControlBottom As DevExpress.XtraBars.BarDockControl
+    Friend WithEvents barDockControlRight As DevExpress.XtraBars.BarDockControl
+    Friend WithEvents btnSaveItem As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents btnSaveMulti As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents mnubtnSave As DevExpress.XtraBars.PopupMenu
 End Class

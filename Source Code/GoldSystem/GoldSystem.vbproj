@@ -277,10 +277,10 @@
     <Compile Include="Gold\Forms\FrmGoldTransaction.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gold\Forms\FrmPhoto.Designer.vb">
+    <Compile Include="Main\Forms\FrmPhoto.Designer.vb">
       <DependentUpon>FrmPhoto.vb</DependentUpon>
     </Compile>
-    <Compile Include="Gold\Forms\FrmPhoto.vb">
+    <Compile Include="Main\Forms\FrmPhoto.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gold\Forms\FrmReport.Designer.vb">
@@ -364,6 +364,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main\Cls\ClsMain.vb" />
+    <Compile Include="Main\Forms\SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\Forms\SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Main\Forms\UCCivilID.Designer.vb">
       <DependentUpon>UCCivilID.vb</DependentUpon>
     </Compile>
@@ -453,7 +459,7 @@
     <EmbeddedResource Include="Gold\Forms\FrmGoldTransaction.resx">
       <DependentUpon>FrmGoldTransaction.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gold\Forms\FrmPhoto.resx">
+    <EmbeddedResource Include="Main\Forms\FrmPhoto.resx">
       <DependentUpon>FrmPhoto.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gold\Forms\FrmReport.resx">
@@ -491,6 +497,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login\Forms\SettingFile.resx">
       <DependentUpon>SettingFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\Forms\SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Forms\UCCivilID.resx">
       <DependentUpon>UCCivilID.vb</DependentUpon>
@@ -640,6 +649,7 @@
   <ItemGroup>
     <None Include="Resources\Ring.png" />
     <None Include="Resources\RingGold.png" />
+    <None Include="Resources\Ship1.png" />
     <Content Include="Ring.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

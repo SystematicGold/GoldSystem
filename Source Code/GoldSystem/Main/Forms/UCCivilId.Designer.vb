@@ -20,24 +20,18 @@ Partial Class UCCivilID
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UCCivilID))
-        Dim SuperToolTip6 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem6 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem6 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem2 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Dim SuperToolTip3 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipTitleItem3 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
         Dim ToolTipItem3 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim EditorButtonImageOptions7 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
-        Dim SerializableAppearanceObject25 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject26 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject27 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject28 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SuperToolTip4 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem4 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem4 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip5 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem5 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem5 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Dim EditorButtonImageOptions1 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
         Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
@@ -63,9 +57,18 @@ Partial Class UCCivilID
         Dim SerializableAppearanceObject18 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SerializableAppearanceObject19 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Dim SerializableAppearanceObject20 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SuperToolTip4 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem4 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem4 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim EditorButtonImageOptions6 As DevExpress.XtraEditors.Controls.EditorButtonImageOptions = New DevExpress.XtraEditors.Controls.EditorButtonImageOptions()
+        Dim SerializableAppearanceObject21 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject22 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject23 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject24 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SuperToolTip6 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem6 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem6 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UCCivilID))
+        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
+        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Me.gbItemData = New DevExpress.XtraEditors.GroupControl()
         Me.PictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
         Me.pbSearchPhone = New DevExpress.XtraEditors.PictureEdit()
@@ -138,6 +141,7 @@ Partial Class UCCivilID
         Me.btnSaveCustomer = New DevExpress.XtraEditors.PictureEdit()
         Me.cmbPhone = New DevExpress.XtraEditors.LookUpEdit()
         Me.EPX = New DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(Me.components)
+        Me.pbPACI = New DevExpress.XtraEditors.PictureEdit()
         CType(Me.gbItemData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbItemData.SuspendLayout()
         CType(Me.PictureEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -170,10 +174,12 @@ Partial Class UCCivilID
         CType(Me.btnSaveCustomer.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbPhone.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EPX, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbPACI.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'gbItemData
         '
+        Me.gbItemData.Controls.Add(Me.pbPACI)
         Me.gbItemData.Controls.Add(Me.PictureEdit1)
         Me.gbItemData.Controls.Add(Me.pbSearchPhone)
         Me.gbItemData.Controls.Add(Me.tbPhoto)
@@ -219,12 +225,12 @@ Partial Class UCCivilID
         Me.PictureEdit1.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit1.Size = New System.Drawing.Size(18, 18)
-        ToolTipTitleItem6.Text = "بحث برقم التليفون"
-        ToolTipItem6.LeftIndent = 6
-        ToolTipItem6.Text = "اضغط للبحث عن عميل برقم تليفونه"
-        SuperToolTip6.Items.Add(ToolTipTitleItem6)
-        SuperToolTip6.Items.Add(ToolTipItem6)
-        Me.PictureEdit1.SuperTip = SuperToolTip6
+        ToolTipTitleItem2.Text = "بحث برقم التليفون"
+        ToolTipItem2.LeftIndent = 6
+        ToolTipItem2.Text = "اضغط للبحث عن عميل برقم تليفونه"
+        SuperToolTip2.Items.Add(ToolTipTitleItem2)
+        SuperToolTip2.Items.Add(ToolTipItem2)
+        Me.PictureEdit1.SuperTip = SuperToolTip2
         Me.PictureEdit1.TabIndex = 105
         '
         'pbSearchPhone
@@ -241,12 +247,12 @@ Partial Class UCCivilID
         Me.pbSearchPhone.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.pbSearchPhone.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbSearchPhone.Size = New System.Drawing.Size(18, 18)
-        ToolTipTitleItem1.Text = "بحث برقم التليفون"
-        ToolTipItem1.LeftIndent = 6
-        ToolTipItem1.Text = "اضغط للبحث عن عميل برقم تليفونه"
-        SuperToolTip1.Items.Add(ToolTipTitleItem1)
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        Me.pbSearchPhone.SuperTip = SuperToolTip1
+        ToolTipTitleItem3.Text = "بحث برقم التليفون"
+        ToolTipItem3.LeftIndent = 6
+        ToolTipItem3.Text = "اضغط للبحث عن عميل برقم تليفونه"
+        SuperToolTip3.Items.Add(ToolTipTitleItem3)
+        SuperToolTip3.Items.Add(ToolTipItem3)
+        Me.pbSearchPhone.SuperTip = SuperToolTip3
         Me.pbSearchPhone.TabIndex = 105
         '
         'tbPhoto
@@ -703,12 +709,12 @@ Partial Class UCCivilID
         Me.PictureEdit2.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.PictureEdit2.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.PictureEdit2.Size = New System.Drawing.Size(18, 18)
-        ToolTipTitleItem2.Text = "إضافة تليفون"
-        ToolTipItem2.LeftIndent = 6
-        ToolTipItem2.Text = "اضغط لإضافة تليفون آخر"
-        SuperToolTip2.Items.Add(ToolTipTitleItem2)
-        SuperToolTip2.Items.Add(ToolTipItem2)
-        Me.PictureEdit2.SuperTip = SuperToolTip2
+        ToolTipTitleItem4.Text = "إضافة تليفون"
+        ToolTipItem4.LeftIndent = 6
+        ToolTipItem4.Text = "اضغط لإضافة تليفون آخر"
+        SuperToolTip4.Items.Add(ToolTipTitleItem4)
+        SuperToolTip4.Items.Add(ToolTipItem4)
+        Me.PictureEdit2.SuperTip = SuperToolTip4
         Me.PictureEdit2.TabIndex = 104
         '
         'pbAddPhone
@@ -725,12 +731,12 @@ Partial Class UCCivilID
         Me.pbAddPhone.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.pbAddPhone.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbAddPhone.Size = New System.Drawing.Size(18, 18)
-        ToolTipTitleItem3.Text = "إضافة تليفون"
-        ToolTipItem3.LeftIndent = 6
-        ToolTipItem3.Text = "اضغط لإضافة تليفون آخر"
-        SuperToolTip3.Items.Add(ToolTipTitleItem3)
-        SuperToolTip3.Items.Add(ToolTipItem3)
-        Me.pbAddPhone.SuperTip = SuperToolTip3
+        ToolTipTitleItem5.Text = "إضافة تليفون"
+        ToolTipItem5.LeftIndent = 6
+        ToolTipItem5.Text = "اضغط لإضافة تليفون آخر"
+        SuperToolTip5.Items.Add(ToolTipTitleItem5)
+        SuperToolTip5.Items.Add(ToolTipItem5)
+        Me.pbAddPhone.SuperTip = SuperToolTip5
         Me.pbAddPhone.TabIndex = 104
         '
         'lblPhoneEn
@@ -897,9 +903,9 @@ Partial Class UCCivilID
         Me.txtAddress.Name = "txtAddress"
         Me.txtAddress.Properties.Appearance.Options.UseTextOptions = True
         Me.txtAddress.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        EditorButtonImageOptions7.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions7.Image = CType(resources.GetObject("EditorButtonImageOptions7.Image"), System.Drawing.Image)
-        Me.txtAddress.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions7, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject25, SerializableAppearanceObject26, SerializableAppearanceObject27, SerializableAppearanceObject28, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions1.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions1.Image = CType(resources.GetObject("EditorButtonImageOptions1.Image"), System.Drawing.Image)
+        Me.txtAddress.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions1, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, SerializableAppearanceObject2, SerializableAppearanceObject3, SerializableAppearanceObject4, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.txtAddress.Size = New System.Drawing.Size(471, 24)
         Me.txtAddress.TabIndex = 5
         '
@@ -911,9 +917,9 @@ Partial Class UCCivilID
         Me.txtNationality.Name = "txtNationality"
         Me.txtNationality.Properties.Appearance.Options.UseTextOptions = True
         Me.txtNationality.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        EditorButtonImageOptions1.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions1.Image = CType(resources.GetObject("EditorButtonImageOptions1.Image"), System.Drawing.Image)
-        Me.txtNationality.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions1, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, SerializableAppearanceObject2, SerializableAppearanceObject3, SerializableAppearanceObject4, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions2.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions2.Image = CType(resources.GetObject("EditorButtonImageOptions2.Image"), System.Drawing.Image)
+        Me.txtNationality.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions2, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, SerializableAppearanceObject6, SerializableAppearanceObject7, SerializableAppearanceObject8, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.txtNationality.Size = New System.Drawing.Size(471, 24)
         Me.txtNationality.TabIndex = 4
         '
@@ -923,9 +929,9 @@ Partial Class UCCivilID
         Me.txtCustomerNameEn.Name = "txtCustomerNameEn"
         Me.txtCustomerNameEn.Properties.Appearance.Options.UseTextOptions = True
         Me.txtCustomerNameEn.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        EditorButtonImageOptions2.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions2.Image = CType(resources.GetObject("EditorButtonImageOptions2.Image"), System.Drawing.Image)
-        Me.txtCustomerNameEn.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions2, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, SerializableAppearanceObject6, SerializableAppearanceObject7, SerializableAppearanceObject8, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions3.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions3.Image = CType(resources.GetObject("EditorButtonImageOptions3.Image"), System.Drawing.Image)
+        Me.txtCustomerNameEn.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions3, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject9, SerializableAppearanceObject10, SerializableAppearanceObject11, SerializableAppearanceObject12, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.txtCustomerNameEn.Size = New System.Drawing.Size(235, 24)
         Me.txtCustomerNameEn.TabIndex = 3
         '
@@ -938,9 +944,9 @@ Partial Class UCCivilID
         Me.txtCustomerNameAr.Name = "txtCustomerNameAr"
         Me.txtCustomerNameAr.Properties.Appearance.Options.UseTextOptions = True
         Me.txtCustomerNameAr.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        EditorButtonImageOptions3.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions3.Image = CType(resources.GetObject("EditorButtonImageOptions3.Image"), System.Drawing.Image)
-        Me.txtCustomerNameAr.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions3, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject9, SerializableAppearanceObject10, SerializableAppearanceObject11, SerializableAppearanceObject12, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions4.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions4.Image = CType(resources.GetObject("EditorButtonImageOptions4.Image"), System.Drawing.Image)
+        Me.txtCustomerNameAr.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions4, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject13, SerializableAppearanceObject14, SerializableAppearanceObject15, SerializableAppearanceObject16, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.txtCustomerNameAr.Size = New System.Drawing.Size(235, 24)
         Me.txtCustomerNameAr.TabIndex = 2
         '
@@ -952,9 +958,9 @@ Partial Class UCCivilID
         Me.txtPassportNo.Name = "txtPassportNo"
         Me.txtPassportNo.Properties.Appearance.Options.UseTextOptions = True
         Me.txtPassportNo.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        EditorButtonImageOptions4.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions4.Image = CType(resources.GetObject("EditorButtonImageOptions4.Image"), System.Drawing.Image)
-        Me.txtPassportNo.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, True, EditorButtonImageOptions4, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject13, SerializableAppearanceObject14, SerializableAppearanceObject15, SerializableAppearanceObject16, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions5.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions5.Image = CType(resources.GetObject("EditorButtonImageOptions5.Image"), System.Drawing.Image)
+        Me.txtPassportNo.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, True, EditorButtonImageOptions5, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject17, SerializableAppearanceObject18, SerializableAppearanceObject19, SerializableAppearanceObject20, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.txtPassportNo.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.txtPassportNo.Size = New System.Drawing.Size(471, 24)
         Me.txtPassportNo.TabIndex = 1
@@ -967,9 +973,9 @@ Partial Class UCCivilID
         Me.txtCID.Name = "txtCID"
         Me.txtCID.Properties.Appearance.Options.UseTextOptions = True
         Me.txtCID.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        EditorButtonImageOptions5.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
-        EditorButtonImageOptions5.Image = CType(resources.GetObject("EditorButtonImageOptions5.Image"), System.Drawing.Image)
-        Me.txtCID.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, True, EditorButtonImageOptions5, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject17, SerializableAppearanceObject18, SerializableAppearanceObject19, SerializableAppearanceObject20, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
+        EditorButtonImageOptions6.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.[True]
+        EditorButtonImageOptions6.Image = CType(resources.GetObject("EditorButtonImageOptions6.Image"), System.Drawing.Image)
+        Me.txtCID.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, True, EditorButtonImageOptions6, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject21, SerializableAppearanceObject22, SerializableAppearanceObject23, SerializableAppearanceObject24, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.txtCID.Properties.UseAdvancedMode = DevExpress.Utils.DefaultBoolean.[True]
         Me.txtCID.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.txtCID.Size = New System.Drawing.Size(471, 24)
@@ -987,12 +993,12 @@ Partial Class UCCivilID
         Me.btnSaveCustomer.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.btnSaveCustomer.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.btnSaveCustomer.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem4.Text = "حفظ"
-        ToolTipItem4.LeftIndent = 6
-        ToolTipItem4.Text = "حفظ بيانات العميل"
-        SuperToolTip4.Items.Add(ToolTipTitleItem4)
-        SuperToolTip4.Items.Add(ToolTipItem4)
-        Me.btnSaveCustomer.SuperTip = SuperToolTip4
+        ToolTipTitleItem6.Text = "حفظ"
+        ToolTipItem6.LeftIndent = 6
+        ToolTipItem6.Text = "حفظ بيانات العميل"
+        SuperToolTip6.Items.Add(ToolTipTitleItem6)
+        SuperToolTip6.Items.Add(ToolTipItem6)
+        Me.btnSaveCustomer.SuperTip = SuperToolTip6
         Me.btnSaveCustomer.TabIndex = 7
         '
         'cmbPhone
@@ -1015,6 +1021,26 @@ Partial Class UCCivilID
         'EPX
         '
         Me.EPX.ContainerControl = Me
+        '
+        'pbPACI
+        '
+        Me.pbPACI.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.pbPACI.Cursor = System.Windows.Forms.Cursors.Default
+        Me.pbPACI.EditValue = CType(resources.GetObject("pbPACI.EditValue"), Object)
+        Me.pbPACI.Location = New System.Drawing.Point(1208, 0)
+        Me.pbPACI.Name = "pbPACI"
+        Me.pbPACI.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
+        Me.pbPACI.Properties.Appearance.Options.UseBackColor = True
+        Me.pbPACI.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
+        Me.pbPACI.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
+        Me.pbPACI.Size = New System.Drawing.Size(20, 20)
+        ToolTipTitleItem1.Text = "حفظ"
+        ToolTipItem1.LeftIndent = 6
+        ToolTipItem1.Text = "حفظ بيانات العميل"
+        SuperToolTip1.Items.Add(ToolTipTitleItem1)
+        SuperToolTip1.Items.Add(ToolTipItem1)
+        Me.pbPACI.SuperTip = SuperToolTip1
+        Me.pbPACI.TabIndex = 114
         '
         'UCCivilID
         '
@@ -1056,6 +1082,7 @@ Partial Class UCCivilID
         CType(Me.btnSaveCustomer.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbPhone.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EPX, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbPACI.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1132,4 +1159,5 @@ Partial Class UCCivilID
     Friend WithEvents btnDSignatureFileBack As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents btnDSignatureCameraFront As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents btnDSignatureFileFront As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents pbPACI As DevExpress.XtraEditors.PictureEdit
 End Class

@@ -86,4 +86,8 @@ Module ModGold
             End If
         Next
     End Sub
+    Public Function ArabicNo(Num As String) As String
+        Dim romanNumber = From c In Num Select Char.GetNumericValue(c)
+        Return Decimal.Parse(String.Concat(romanNumber))
+    End Function
 End Module

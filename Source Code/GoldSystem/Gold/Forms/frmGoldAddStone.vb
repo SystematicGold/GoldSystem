@@ -206,22 +206,19 @@ Public Class FrmGoldAddStone
             dtStone.Rows(RowNo)("StoneDocument") = If(IsNothing(pbStoneDocument.Image), Nothing, ImageToByte(pbStoneDocument.Image))
         Else
             dtStone.Rows.Add(dtStone.Rows.Count + 1,
-                                     0,
-                                     cmbStoneType.EditValue,
-                                     cmbStoneName.EditValue,
-                                     txtWeight.Text.Trim,
-                                     cmbStoneWeightType.EditValue,
-                                     cmbStoneColor.EditValue,
-                                     cmbStoneClarity.EditValue,
-                                     cmbStoneCut.EditValue,
-                                     cmbStoneCountryOfOrigin.EditValue,
-                                     txtStonePrice.Text.Trim,
-                                     If(IsNothing(pbStonePhoto.Image), Nothing, ImageToByte(pbStonePhoto.Image)),
-                                     If(IsNothing(pbStoneDocument.Image), Nothing, ImageToByte(pbStoneDocument.Image)))
+                             0,
+                             cmbStoneType.EditValue,
+                             cmbStoneName.EditValue,
+                             ArabicNo(txtWeight.Text.Trim),
+                             cmbStoneWeightType.EditValue,
+                             cmbStoneColor.EditValue,
+                             cmbStoneClarity.EditValue,
+                             cmbStoneCut.EditValue,
+                             cmbStoneCountryOfOrigin.EditValue,
+                             ArabicNo(txtStonePrice.Text.Trim),
+                             If(IsNothing(pbStonePhoto.Image), Nothing, ImageToByte(pbStonePhoto.Image)),
+                             If(IsNothing(pbStoneDocument.Image), Nothing, ImageToByte(pbStoneDocument.Image)))
         End If
-
-
-
         Close()
     End Sub
 
@@ -229,13 +226,13 @@ Public Class FrmGoldAddStone
         Dispose()
     End Sub
 
-    Private Sub txtPhotoPath_ButtonClick(sender As Object, e As DevExpress.XtraEditors.Controls.ButtonPressedEventArgs) Handles btnStonePhoto.Click
+    Private Sub btnStonePhoto_ButtonClick(sender As Object, e As EventArgs) Handles btnStonePhoto.Click
         OFDX.ShowDialog()
         If IsValidImage(OFDX.FileName) Then
             pbStonePhoto.Image = Image.FromFile(OFDX.FileName)
         End If
     End Sub
-    Private Sub txtDocumentPath_ButtonClick(sender As Object, e As DevExpress.XtraEditors.Controls.ButtonPressedEventArgs) Handles btnStoneDocument.Click
+    Private Sub btnStoneDocument_ButtonClick(sender As Object, e As EventArgs) Handles btnStoneDocument.Click
         OFDX.ShowDialog()
         If IsValidImage(OFDX.FileName) Then
             pbStoneDocument.Image = Image.FromFile(OFDX.FileName)

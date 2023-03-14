@@ -35,6 +35,6 @@ namespace API.Entities
         public DateTime? DateAdd { get; set; } = new DateTime();
         public DateTime? DateOfManufacture { get; set; } = new DateTime();
         public int? TaxExempt { get; set; } = 0;
-        public bool? Enabled { get; set; } = true;
+        public bool Enabled { get; set; }
     }
 }

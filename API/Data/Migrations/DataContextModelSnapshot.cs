@@ -512,7 +512,7 @@ namespace API.Data.Migrations
                     b.Property<byte[]>("Document")
                         .HasColumnType("varbinary(max)");
 
-                    b.Property<bool?>("Enabled")
+                    b.Property<bool>("Enabled")
                         .HasColumnType("bit");
 
                     b.Property<double>("GoldWeight")
@@ -567,6 +567,9 @@ namespace API.Data.Migrations
                     b.Property<string>("CodeItem")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("Enabled")
+                        .HasColumnType("bit");
+
                     b.Property<string>("StoneClarity")
                         .HasColumnType("nvarchar(max)");
 
@@ -579,14 +582,14 @@ namespace API.Data.Migrations
                     b.Property<string>("StoneCut")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("StoneDocument")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<byte[]>("StoneDocument")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<long>("StoneNameCode")
                         .HasColumnType("bigint");
 
-                    b.Property<string>("StonePhoto")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<byte[]>("StonePhoto")
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<double>("StonePrice")
                         .HasColumnType("float");

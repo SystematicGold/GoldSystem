@@ -20,9 +20,6 @@ Partial Class FrmGoldSale
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmGoldSale))
-        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipTitleItem1 As DevExpress.Utils.ToolTipTitleItem = New DevExpress.Utils.ToolTipTitleItem()
-        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
@@ -386,12 +383,6 @@ Partial Class FrmGoldSale
         Me.pbAddStone.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.[Auto]
         Me.pbAddStone.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom
         Me.pbAddStone.Size = New System.Drawing.Size(20, 20)
-        ToolTipTitleItem1.Text = "إضافة فص"
-        ToolTipItem1.LeftIndent = 6
-        ToolTipItem1.Text = "اضغط لإضافة فص للقطعة"
-        SuperToolTip1.Items.Add(ToolTipTitleItem1)
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        Me.pbAddStone.SuperTip = SuperToolTip1
         Me.pbAddStone.TabIndex = 101
         '
         'pbViewItem
@@ -1205,7 +1196,7 @@ Partial Class FrmGoldSale
     Friend WithEvents colStoneCut As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colStonePrice As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colStoneView As DevExpress.XtraGrid.Columns.GridColumn
-    Private WithEvents pbAddStone As DevExpress.XtraEditors.PictureEdit
+    Friend WithEvents pbAddStone As DevExpress.XtraEditors.PictureEdit
     Friend WithEvents pbViewItem As DevExpress.XtraEditors.PictureEdit
     Friend WithEvents txtNote As DevExpress.XtraEditors.MemoEdit
     Friend WithEvents pbAddFromUsedItem As DevExpress.XtraEditors.PictureEdit

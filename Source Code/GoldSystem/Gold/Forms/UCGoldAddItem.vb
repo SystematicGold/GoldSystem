@@ -1,9 +1,8 @@
 ﻿Imports System.IO
-Imports DevExpress.Data.Svg
-Imports DevExpress.DataProcessing.InMemoryDataProcessor
-Imports DevExpress.Pdf.Native.BouncyCastle.Asn1.Ocsp
+Imports DevExpress.XtraBars
 Imports DevExpress.XtraEditors
-Imports DevExpress.XtraEditors.Repository
+Imports DevExpress.XtraGrid
+Imports DevExpress.XtraGrid.Columns
 
 Public Class UCGoldAddItem
     Dim ClsGoldItem_ As New ClsGoldItem
@@ -25,19 +24,16 @@ Public Class UCGoldAddItem
         ClsGoldItem_.FillStoneClarity(cmbStoneClarity)
         ClsGoldItem_.FillStoneCut(cmbStoneCut)
         ClsGoldItem_.FillCountryOfOrigin(cmbStoneCountryOfOrigin)
+        InitBtnSave()
+        UpdateDropDownButton(btnSaveItem)
     End Sub
 #End Region
-
-
 #Region "Stone"
     Private Sub pbAddStone_Click(sender As Object, e As EventArgs) Handles pbAddStone.Click
         Try
             FrmGoldAddStone.StoneID = ""
             FrmGoldAddStone.ShowDialog()
             DGCStone.DataSource = dtStone
-            'If DgvStone.RowCount > 0 Then
-            '    ClsGoldItem_.FillStoneType(cmbStoneType)
-            'End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
@@ -98,13 +94,13 @@ Public Class UCGoldAddItem
         With FrmGoldAddStone
             .cmbStoneType.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneType)), "", DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneType).ToString)
             .cmbStoneName.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneName)), "", DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneName).ToString)
-            .txtWeight.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneWeight)), "", DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneWeight).ToString)
+            .txtWeight.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneWeight)), "", ArabicNo(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneWeight).ToString))
             .cmbStoneWeightType.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneWeightType)), "", DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneWeightType).ToString)
             .cmbStoneColor.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneColor)), "", DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneColor).ToString)
             .cmbStoneClarity.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneClarity)), "", DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneClarity).ToString)
             .cmbStoneCut.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneCut)), "", DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneCut).ToString)
             .cmbStoneCountryOfOrigin.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneCountryOfOrigin)), "", DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneCountryOfOrigin).ToString)
-            .txtStonePrice.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStonePrice)), "", DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStonePrice).ToString)
+            .txtStonePrice.EditValue = If(IsNothing(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStonePrice)), "", ArabicNo(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStonePrice).ToString))
             .pbStonePhoto.Image = If(IsDBNull(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStonePhoto)), Nothing, ByteToImage(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStonePhoto)))
             .pbStoneDocument.Image = If(IsDBNull(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneDocument)), Nothing, ByteToImage(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneDocument)))
         End With
@@ -140,9 +136,10 @@ Public Class UCGoldAddItem
             FrmGoldAddStone.StoneID = DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colID).ToString
             FrmGoldAddStone.ShowDialog()
             DGCStone.DataSource = dtStone
-            'If DgvStone.RowCount > 0 Then
-            '    ClsGoldItem_.FillStoneType(cmbStoneType)
-            'End If
+            If DgvStone.RowCount > 0 Then
+                Dim col As GridColumn = DgvStone.Columns("colStonePrice")
+                DgvStone.FocusedColumn = col
+            End If
         Catch ex As Exception
             MessageBox.Show(ex.ToString)
         End Try
@@ -166,7 +163,7 @@ Public Class UCGoldAddItem
         End If
     End Sub
 
-    Private Sub btnSaveItem_Click(sender As Object, e As EventArgs) Handles btnSaveItem.Click
+    Private Sub Save(SaveType As String)
         Dim ErrCount As Integer = 0
         EPX.ClearErrors()
         If cmbItemName.Text = String.Empty Then
@@ -203,33 +200,16 @@ Public Class UCGoldAddItem
         Dim FocusedRowNo As Integer = FrmGoldItemSingle.DGVItem.FocusedRowHandle
         If txtItemID.Text = "" Then
             'AddItem (No ID)
-            Dim BarCodeString = cmbItemName.GetSelectedDataRow("BarCodeString").ToString
-            ClsGoldItem_.AddItem(ClsMain_.GetItemCode,
-                                 0,
-                                 0,
-                                 If(txtBarCode.Text.Trim = String.Empty, BarCodeString & ClsGoldItem_.GetItemBarCodeSerial(BarCodeString), txtBarCode.Text.Trim),
-                                 cmbItemName.EditValue,
-                                 cmbKarat.EditValue,
-                                 txtGoldWeight.Text.Trim,
-                                 txtMakingCharge.Text.Trim,
-                                 txtCostPerPiece.Text.Trim,
-                                 txtCostPerGram.Text.Trim,
-                                 txtCostForSeller.Text.Trim,
-                                 txtCostPerGramPurchase.Text.Trim,
-                                 cmbCountryOfOrigin.EditValue,
-                                 txtNumberOfPieces.Text.Trim,
-                                 ImageToByte(pbPhoto.Image),
-                                 ImageToByte(pbDocument.Image),
-                                 cmbSupplier.EditValue,
-                                 txtSymbol.Text.Trim,
-                                 cmbItemCondition.EditValue,
-                                 txtItemNo.Text.Trim,
-                                 1,
-                                 dtpDateAdded.EditValue,
-                                 dtpDateOfManufacture.EditValue,
-                                 cmbTaxExempt.EditValue,
-                                 cmbSupplierInvoiceNo.EditValue,
-                                 1)
+
+            Select Case SaveType
+                Case "SaveItem"
+                    SaveNewItem(1, False)
+                Case "SaveMulti"
+                    For i As Integer = 1 To Val(txtNumberOfPieces.Text)
+                        SaveNewItem(Val(txtNumberOfPieces.Text), True)
+                    Next
+            End Select
+
         Else
             'Edit Item (ID Exist)
             Dim BarCodeString = cmbItemName.GetSelectedDataRow("BarCodeString").ToString
@@ -271,8 +251,8 @@ Public Class UCGoldAddItem
                                       If(IsNothing(DgvStone.GetRowCellValue(i, colStoneCut)), "", DgvStone.GetRowCellValue(i, colStoneCut).ToString),
                                       If(IsNothing(DgvStone.GetRowCellValue(i, colStoneCountryOfOrigin)), "", DgvStone.GetRowCellValue(i, colStoneCountryOfOrigin).ToString),
                                       If(IsNothing(DgvStone.GetRowCellValue(i, colStonePrice)), "", DgvStone.GetRowCellValue(i, colStonePrice).ToString),
-                                      If(IsNothing(DgvStone.GetRowCellValue(i, colStonePhoto)), "", DgvStone.GetRowCellValue(i, colStonePhoto).ToString),
-                                      If(IsNothing(DgvStone.GetRowCellValue(i, colStoneDocument)), "", DgvStone.GetRowCellValue(i, colStoneDocument).ToString),
+                                      If(IsDBNull(DgvStone.GetRowCellValue(i, colStonePhoto)), Nothing, DgvStone.GetRowCellValue(i, colStonePhoto)),
+                                      If(IsDBNull(DgvStone.GetRowCellValue(i, colStoneDocument)), Nothing, DgvStone.GetRowCellValue(i, colStoneDocument)),
                                       1,
                                       Code,
                                       1)
@@ -285,7 +265,105 @@ Public Class UCGoldAddItem
         FrmGoldItemSingle.DGCItem.DataSource = ClsGoldItem_.AllItems
         FrmGoldItemSingle.DGVItem.FocusedRowHandle = FocusedRowNo
     End Sub
+    Private Sub SaveNewItem(NoOfPieces As Integer, Multi As Boolean)
+        Dim BarCodeString = cmbItemName.GetSelectedDataRow("BarCodeString").ToString
+        Code = ClsMain_.GetItemCode
+        ClsGoldItem_.AddItem(Code,
+                             0,
+                             0,
+                             If(txtBarCode.Text.Trim = String.Empty, BarCodeString & ClsGoldItem_.GetItemBarCodeSerial(BarCodeString), txtBarCode.Text.Trim),
+                             cmbItemName.EditValue,
+                             cmbKarat.EditValue,
+                             txtGoldWeight.Text.Trim,
+                             txtMakingCharge.Text.Trim,
+                             txtCostPerPiece.Text.Trim,
+                             txtCostPerGram.Text.Trim,
+                             txtCostForSeller.Text.Trim,
+                             txtCostPerGramPurchase.Text.Trim,
+                             cmbCountryOfOrigin.EditValue,
+                             If(Multi = False, NoOfPieces, 1),
+                             ImageToByte(pbPhoto.Image),
+                             ImageToByte(pbDocument.Image),
+                             cmbSupplier.EditValue,
+                             txtSymbol.Text.Trim,
+                             cmbItemCondition.EditValue,
+                             txtItemNo.Text.Trim,
+                             1,
+                             dtpDateAdded.EditValue,
+                             dtpDateOfManufacture.EditValue,
+                             cmbTaxExempt.EditValue,
+                             cmbSupplierInvoiceNo.EditValue,
+                             1)
+    End Sub
+#End Region
+#Region "GridDrawing"
+    Private Sub DGVStone_CustomRowCellEdit(sender As Object, e As DevExpress.XtraGrid.Views.Grid.CustomRowCellEditEventArgs) Handles DgvStone.CustomRowCellEdit
+        If e.Column Is colStonePhoto Then
+            If IsNothing(e.CellValue) = True OrElse IsDBNull(e.CellValue) OrElse e.CellValue.ToString = "" Then
+                e.RepositoryItem = txtStoneEmpty
+            Else
+                e.RepositoryItem = btnStonePhoto
+            End If
+        End If
+        If e.Column Is colStoneDocument Then
+            If IsNothing(e.CellValue) = True OrElse IsDBNull(e.CellValue) OrElse e.CellValue.ToString = "" Then
+                e.RepositoryItem = txtStoneEmpty
 
+            Else
+                e.RepositoryItem = btnStoneDocument
+            End If
+        End If
+    End Sub
+
+    Private Sub DgvStone_CustomDrawCell(sender As Object, e As Views.Base.RowCellCustomDrawEventArgs) Handles DgvStone.CustomDrawCell
+        If e.Column.Name = "colStoneWeight" OrElse e.Column.Name = "colStonePrice" Then
+            Dim drawFormat As StringFormat = New StringFormat()
+            drawFormat.FormatFlags = 2
+            drawFormat.Alignment = StringAlignment.Center
+            drawFormat.LineAlignment = StringAlignment.Center
+            e.Appearance.DrawString(e.Cache, e.DisplayText, e.Bounds, drawFormat)
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub DGVItem_ShowingEditor(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles DgvStone.ShowingEditor
+        If DgvStone.FocusedColumn Is colStonePhoto Then
+            If IsDBNull(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStonePhoto)) = True Then
+                e.Cancel = True
+            End If
+        End If
+        If DgvStone.FocusedColumn Is colStoneDocument Then
+            If IsDBNull(DgvStone.GetRowCellValue(DgvStone.FocusedRowHandle, colStoneDocument)) = True Then
+                e.Cancel = True
+            End If
+        End If
+    End Sub
+#End Region
+#Region "btnSave"
+    Private Sub btnSave_Click(sender As Object, e As EventArgs)
+        Dim tag As String = (TryCast(sender, DropDownButton)).Tag.ToString()
+        Save(tag)
+    End Sub
+    Private Sub InitBtnSave()
+        AddHandler btnSave.Click, New EventHandler(AddressOf Me.btnSave_Click)
+        AddHandler btnSaveItem.ItemClick, AddressOf Me.btnSaveItem_ItemClick
+        AddHandler btnSaveMulti.ItemClick, AddressOf Me.btnSaveMulti_ItemClick
+    End Sub
+    Private Sub btnSaveItem_ItemClick(sender As Object, e As ItemClickEventArgs)
+        UpdateDropDownButton(e.Item)
+    End Sub
+
+    Private Sub btnSaveMulti_ItemClick(sender As Object, e As ItemClickEventArgs)
+        UpdateDropDownButton(e.Item)
+
+    End Sub
+
+    Private Sub UpdateDropDownButton(submenuItem As BarItem)
+        btnSave.Text = submenuItem.Caption
+        btnSave.ImageOptions.SvgImage = submenuItem.ImageOptions.SvgImage
+        btnSave.ImageOptions.SvgImageSize = New Size(16, 16)
+        btnSave.Tag = submenuItem.Tag
+    End Sub
 #End Region
 
 End Class

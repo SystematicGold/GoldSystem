@@ -41,7 +41,7 @@ Public Class ClsConnectionString
       SQLCON_TELE.Close()
     End If
   End Sub
-  Public Sub EXECUTECOMMAND(ByVal TXT_ As String, ByVal PARAM() As SqlParameter)
+  Public Sub EXECUTECOMMAND(TXT_ As String, PARAM() As SqlParameter)
     CONNECT()
     Dim CMD As New SqlCommand(TXT_, SQLCON_TELE)
     CMD.CommandType = CommandType.Text
@@ -53,7 +53,7 @@ Public Class ClsConnectionString
     CMD.ExecuteNonQuery()
     DISCONNECT()
   End Sub
-  Public Function SELECTDATA(ByVal TXT_ As String, ByVal PARAM() As SqlParameter) As DataTable
+  Public Function SELECTDATA(TXT_ As String, PARAM() As SqlParameter) As DataTable
     Dim CMD As New SqlCommand(TXT_, SQLCON_TELE)
     CMD.CommandType = CommandType.Text
     If Not PARAM Is Nothing Then

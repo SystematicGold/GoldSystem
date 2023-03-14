@@ -1,6 +1,5 @@
-﻿Imports System.Data.OleDb
-Imports System.Text
-Imports DevExpress.XtraEditors
+﻿Imports DevExpress.XtraEditors
+Imports DevExpress.XtraGrid
 
 Public Class FrmGoldItemSingle
     Dim ClsGoldItem_ As New ClsGoldItem
@@ -83,5 +82,57 @@ Public Class FrmGoldItemSingle
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
+    End Sub
+
+    Private Sub DGVItem_CustomRowCellEdit(sender As Object, e As DevExpress.XtraGrid.Views.Grid.CustomRowCellEditEventArgs) Handles DGVItem.CustomRowCellEdit
+        If e.Column Is colPhoto Then
+            If IsNothing(e.CellValue) = True OrElse IsDBNull(e.CellValue) OrElse e.CellValue.ToString = "" Then
+                e.RepositoryItem = txtEmpty
+            Else
+                e.RepositoryItem = btnPhoto
+            End If
+        End If
+        If e.Column Is colDocument Then
+            If IsNothing(e.CellValue) = True OrElse IsDBNull(e.CellValue) OrElse e.CellValue.ToString = "" Then
+                e.RepositoryItem = txtEmpty
+
+            Else
+                e.RepositoryItem = btnDocument
+            End If
+        End If
+    End Sub
+
+    Private Sub DGVItem_ShowingEditor(sender As Object, e As System.ComponentModel.CancelEventArgs) Handles DGVItem.ShowingEditor
+        If DGVItem.FocusedColumn Is colPhoto Then
+            If IsDBNull(DGVItem.GetRowCellValue(DGVItem.FocusedRowHandle, colPhoto)) = True Then
+                e.Cancel = True
+            End If
+        End If
+        If DGVItem.FocusedColumn Is colDocument Then
+            If IsDBNull(DGVItem.GetRowCellValue(DGVItem.FocusedRowHandle, colDocument)) = True Then
+                e.Cancel = True
+            End If
+        End If
+    End Sub
+    Private Sub DgvItem_CustomDrawCell(sender As Object, e As Views.Base.RowCellCustomDrawEventArgs) Handles DGVItem.CustomDrawCell
+        If e.Column.Name = "colSerial" OrElse e.Column.Name = "colBarCode" OrElse e.Column.Name =
+            "colKarat" OrElse e.Column.Name = "colGoldWeight" OrElse e.Column.Name =
+            "colMakingCharge" OrElse e.Column.Name = "colCostPerPiece" OrElse e.Column.Name =
+            "colCostPerGram" OrElse e.Column.Name = "colCostForSeller" OrElse e.Column.Name =
+            "colCostPerGramPurchase" OrElse e.Column.Name = "colNumberOfPieces" OrElse e.Column.Name =
+            "colSupplierInvoiceNo" OrElse e.Column.Name = "colSymbol" OrElse e.Column.Name =
+            "colItemNo" OrElse e.Column.Name = "colDateAdd" OrElse e.Column.Name = "colDateOfManufacture" Then
+            Dim drawFormat As StringFormat = New StringFormat()
+            drawFormat.FormatFlags = 2
+            drawFormat.Alignment = StringAlignment.Center
+            drawFormat.LineAlignment = StringAlignment.Center
+            e.Appearance.DrawString(e.Cache, e.DisplayText, e.Bounds, drawFormat)
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub FrmGoldItemSingle_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        dtStone.Clear()
+        Dispose()
     End Sub
 End Class

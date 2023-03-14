@@ -70,9 +70,7 @@ Partial Class FrmGoldItemSingle
         Me.cmbCountryOfOrigin = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.colNumberOfPieces = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.colPhoto = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.btnPhoto = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
         Me.colDocument = New DevExpress.XtraGrid.Columns.GridColumn()
-        Me.btnDocument = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
         Me.colSupplier = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.cmbSupplier = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.colSupplierInvoiceNo = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -88,7 +86,10 @@ Partial Class FrmGoldItemSingle
         Me.cmbTaxExempt = New DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit()
         Me.colDelete = New DevExpress.XtraGrid.Columns.GridColumn()
         Me.btnDelete = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
+        Me.btnPhoto = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
+        Me.btnDocument = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
         Me.btnEdit = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
+        Me.txtEmpty = New DevExpress.XtraEditors.Repository.RepositoryItemTextEdit()
         CType(Me.RadialMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DGCItem, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -96,14 +97,15 @@ Partial Class FrmGoldItemSingle
         CType(Me.cmbItemName, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbKarat, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbCountryOfOrigin, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnPhoto, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.btnDocument, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbSupplier, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbSupplierInvoiceNo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbItemCondition, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cmbTaxExempt, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnDelete, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnPhoto, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.btnDocument, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btnEdit, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtEmpty, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'RadialMenu1
@@ -289,7 +291,8 @@ Partial Class FrmGoldItemSingle
         Me.DGCItem.MainView = Me.DGVItem
         Me.DGCItem.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DGCItem.Name = "DGCItem"
-        Me.DGCItem.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.cmbItemName, Me.cmbKarat, Me.cmbCountryOfOrigin, Me.cmbSupplier, Me.cmbSupplierInvoiceNo, Me.cmbItemCondition, Me.cmbTaxExempt, Me.btnPhoto, Me.btnDocument, Me.btnEdit, Me.btnDelete})
+        Me.DGCItem.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.cmbItemName, Me.cmbKarat, Me.cmbCountryOfOrigin, Me.cmbSupplier, Me.cmbSupplierInvoiceNo, Me.cmbItemCondition, Me.cmbTaxExempt, Me.btnPhoto, Me.btnDocument, Me.btnEdit, Me.btnDelete, Me.txtEmpty})
+        Me.DGCItem.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.DGCItem.Size = New System.Drawing.Size(1348, 504)
         Me.DGCItem.TabIndex = 24
         Me.DGCItem.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.DGVItem})
@@ -375,7 +378,7 @@ Partial Class FrmGoldItemSingle
         Me.colBarCode.Name = "colBarCode"
         Me.colBarCode.OptionsColumn.AllowEdit = False
         Me.colBarCode.Visible = True
-        Me.colBarCode.VisibleIndex = 4
+        Me.colBarCode.VisibleIndex = 23
         '
         'colName
         '
@@ -456,7 +459,7 @@ Partial Class FrmGoldItemSingle
         Me.colCostPerPiece.Name = "colCostPerPiece"
         Me.colCostPerPiece.OptionsColumn.AllowEdit = False
         Me.colCostPerPiece.Visible = True
-        Me.colCostPerPiece.VisibleIndex = 9
+        Me.colCostPerPiece.VisibleIndex = 18
         '
         'colCostPerGram
         '
@@ -469,7 +472,7 @@ Partial Class FrmGoldItemSingle
         Me.colCostPerGram.Name = "colCostPerGram"
         Me.colCostPerGram.OptionsColumn.AllowEdit = False
         Me.colCostPerGram.Visible = True
-        Me.colCostPerGram.VisibleIndex = 10
+        Me.colCostPerGram.VisibleIndex = 15
         '
         'colCostForSeller
         '
@@ -482,7 +485,7 @@ Partial Class FrmGoldItemSingle
         Me.colCostForSeller.Name = "colCostForSeller"
         Me.colCostForSeller.OptionsColumn.AllowEdit = False
         Me.colCostForSeller.Visible = True
-        Me.colCostForSeller.VisibleIndex = 11
+        Me.colCostForSeller.VisibleIndex = 16
         '
         'colCostPerGramPurchase
         '
@@ -495,7 +498,7 @@ Partial Class FrmGoldItemSingle
         Me.colCostPerGramPurchase.Name = "colCostPerGramPurchase"
         Me.colCostPerGramPurchase.OptionsColumn.AllowEdit = False
         Me.colCostPerGramPurchase.Visible = True
-        Me.colCostPerGramPurchase.VisibleIndex = 12
+        Me.colCostPerGramPurchase.VisibleIndex = 17
         '
         'colCountryOfOrigin
         '
@@ -509,7 +512,7 @@ Partial Class FrmGoldItemSingle
         Me.colCountryOfOrigin.Name = "colCountryOfOrigin"
         Me.colCountryOfOrigin.OptionsColumn.AllowEdit = False
         Me.colCountryOfOrigin.Visible = True
-        Me.colCountryOfOrigin.VisibleIndex = 13
+        Me.colCountryOfOrigin.VisibleIndex = 9
         '
         'cmbCountryOfOrigin
         '
@@ -529,7 +532,7 @@ Partial Class FrmGoldItemSingle
         Me.colNumberOfPieces.Name = "colNumberOfPieces"
         Me.colNumberOfPieces.OptionsColumn.AllowEdit = False
         Me.colNumberOfPieces.Visible = True
-        Me.colNumberOfPieces.VisibleIndex = 14
+        Me.colNumberOfPieces.VisibleIndex = 12
         '
         'colPhoto
         '
@@ -538,18 +541,10 @@ Partial Class FrmGoldItemSingle
         Me.colPhoto.AppearanceHeader.Options.UseTextOptions = True
         Me.colPhoto.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colPhoto.Caption = "الصورة"
-        Me.colPhoto.ColumnEdit = Me.btnPhoto
         Me.colPhoto.FieldName = "Photo"
         Me.colPhoto.Name = "colPhoto"
         Me.colPhoto.Visible = True
-        Me.colPhoto.VisibleIndex = 15
-        '
-        'btnPhoto
-        '
-        Me.btnPhoto.AutoHeight = False
-        Me.btnPhoto.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)})
-        Me.btnPhoto.Name = "btnPhoto"
-        Me.btnPhoto.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        Me.colPhoto.VisibleIndex = 24
         '
         'colDocument
         '
@@ -558,18 +553,10 @@ Partial Class FrmGoldItemSingle
         Me.colDocument.AppearanceHeader.Options.UseTextOptions = True
         Me.colDocument.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.colDocument.Caption = "المستند"
-        Me.colDocument.ColumnEdit = Me.btnDocument
         Me.colDocument.FieldName = "Document"
         Me.colDocument.Name = "colDocument"
         Me.colDocument.Visible = True
-        Me.colDocument.VisibleIndex = 16
-        '
-        'btnDocument
-        '
-        Me.btnDocument.AutoHeight = False
-        Me.btnDocument.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)})
-        Me.btnDocument.Name = "btnDocument"
-        Me.btnDocument.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        Me.colDocument.VisibleIndex = 25
         '
         'colSupplier
         '
@@ -583,7 +570,7 @@ Partial Class FrmGoldItemSingle
         Me.colSupplier.Name = "colSupplier"
         Me.colSupplier.OptionsColumn.AllowEdit = False
         Me.colSupplier.Visible = True
-        Me.colSupplier.VisibleIndex = 17
+        Me.colSupplier.VisibleIndex = 10
         '
         'cmbSupplier
         '
@@ -603,7 +590,7 @@ Partial Class FrmGoldItemSingle
         Me.colSupplierInvoiceNo.Name = "colSupplierInvoiceNo"
         Me.colSupplierInvoiceNo.OptionsColumn.AllowEdit = False
         Me.colSupplierInvoiceNo.Visible = True
-        Me.colSupplierInvoiceNo.VisibleIndex = 18
+        Me.colSupplierInvoiceNo.VisibleIndex = 11
         '
         'cmbSupplierInvoiceNo
         '
@@ -623,7 +610,7 @@ Partial Class FrmGoldItemSingle
         Me.colSymbol.Name = "colSymbol"
         Me.colSymbol.OptionsColumn.AllowEdit = False
         Me.colSymbol.Visible = True
-        Me.colSymbol.VisibleIndex = 19
+        Me.colSymbol.VisibleIndex = 14
         '
         'colCondition
         '
@@ -637,7 +624,7 @@ Partial Class FrmGoldItemSingle
         Me.colCondition.Name = "colCondition"
         Me.colCondition.OptionsColumn.AllowEdit = False
         Me.colCondition.Visible = True
-        Me.colCondition.VisibleIndex = 20
+        Me.colCondition.VisibleIndex = 19
         '
         'cmbItemCondition
         '
@@ -657,7 +644,7 @@ Partial Class FrmGoldItemSingle
         Me.colItemNo.Name = "colItemNo"
         Me.colItemNo.OptionsColumn.AllowEdit = False
         Me.colItemNo.Visible = True
-        Me.colItemNo.VisibleIndex = 21
+        Me.colItemNo.VisibleIndex = 13
         '
         'colUserCode
         '
@@ -670,7 +657,7 @@ Partial Class FrmGoldItemSingle
         Me.colUserCode.Name = "colUserCode"
         Me.colUserCode.OptionsColumn.AllowEdit = False
         Me.colUserCode.Visible = True
-        Me.colUserCode.VisibleIndex = 22
+        Me.colUserCode.VisibleIndex = 4
         '
         'colDateAdd
         '
@@ -683,7 +670,7 @@ Partial Class FrmGoldItemSingle
         Me.colDateAdd.Name = "colDateAdd"
         Me.colDateAdd.OptionsColumn.AllowEdit = False
         Me.colDateAdd.Visible = True
-        Me.colDateAdd.VisibleIndex = 23
+        Me.colDateAdd.VisibleIndex = 22
         '
         'colDateOfManufacture
         '
@@ -696,7 +683,7 @@ Partial Class FrmGoldItemSingle
         Me.colDateOfManufacture.Name = "colDateOfManufacture"
         Me.colDateOfManufacture.OptionsColumn.AllowEdit = False
         Me.colDateOfManufacture.Visible = True
-        Me.colDateOfManufacture.VisibleIndex = 24
+        Me.colDateOfManufacture.VisibleIndex = 21
         '
         'colTaxExempt
         '
@@ -710,7 +697,7 @@ Partial Class FrmGoldItemSingle
         Me.colTaxExempt.Name = "colTaxExempt"
         Me.colTaxExempt.OptionsColumn.AllowEdit = False
         Me.colTaxExempt.Visible = True
-        Me.colTaxExempt.VisibleIndex = 25
+        Me.colTaxExempt.VisibleIndex = 20
         '
         'cmbTaxExempt
         '
@@ -739,6 +726,20 @@ Partial Class FrmGoldItemSingle
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
         '
+        'btnPhoto
+        '
+        Me.btnPhoto.AutoHeight = False
+        Me.btnPhoto.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)})
+        Me.btnPhoto.Name = "btnPhoto"
+        Me.btnPhoto.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        '
+        'btnDocument
+        '
+        Me.btnDocument.AutoHeight = False
+        Me.btnDocument.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Search)})
+        Me.btnDocument.Name = "btnDocument"
+        Me.btnDocument.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        '
         'btnEdit
         '
         Me.btnEdit.AutoHeight = False
@@ -746,6 +747,11 @@ Partial Class FrmGoldItemSingle
         Me.btnEdit.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, EditorButtonImageOptions2, New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, SerializableAppearanceObject6, SerializableAppearanceObject7, SerializableAppearanceObject8, "", Nothing, Nothing, DevExpress.Utils.ToolTipAnchor.[Default])})
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
+        '
+        'txtEmpty
+        '
+        Me.txtEmpty.AutoHeight = False
+        Me.txtEmpty.Name = "txtEmpty"
         '
         'FrmGoldItemSingle
         '
@@ -769,14 +775,15 @@ Partial Class FrmGoldItemSingle
         CType(Me.cmbItemName, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbKarat, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbCountryOfOrigin, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnPhoto, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.btnDocument, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbSupplier, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbSupplierInvoiceNo, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbItemCondition, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cmbTaxExempt, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnDelete, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnPhoto, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.btnDocument, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btnEdit, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtEmpty, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -839,4 +846,5 @@ Partial Class FrmGoldItemSingle
     Friend WithEvents btnDelete As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
     Friend WithEvents colSerial As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents colCostPerGramPurchase As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents txtEmpty As DevExpress.XtraEditors.Repository.RepositoryItemTextEdit
 End Class

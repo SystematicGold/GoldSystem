@@ -674,20 +674,23 @@ Public Class ClsGoldItem
         Dim Con As New ClsConnectionString
         Con.EXECUTE_TXT("UPDATE GoldStone SET Enabled = N'0' WHERE ID = N'" & ID & "'")
     End Sub
-    Public Sub AddGoldStone(StoneNameCode As Integer, StoneTypeCode As Integer, StoneWeight As Integer, StoneWeightType As Integer,
-                            StoneColor As String, StoneClarity As String, StoneCut As String, StoneCountryOfOrigin As String,
-                            StonePrice As Double, StonePhoto As String,
-                            StoneDocument As String, UserCode As Integer, CodeItem As String, Enabled As Boolean)
+    Public Sub AddGoldStone(StoneNameCode As Integer, StoneTypeCode As Integer, StoneWeight As Integer, StoneWeightType As Integer, StoneColor As String,
+                            StoneClarity As String, StoneCut As String, StoneCountryOfOrigin As String, StonePrice As Double, StonePhoto As Byte(),
+                            StoneDocument As Byte(), UserCode As Integer, CodeItem As String, Enabled As Boolean)
         Dim Con As New ClsConnectionString
-        Con.EXECUTE_TXT("INSERT INTO GoldStone (                                                                                                                                                
-                         StoneNameCode, StoneTypeCode, StoneWeight, StoneWeightType, StoneColor,
-                         StoneClarity, StoneCut, StoneCountryOfOrigin, StonePrice, StonePhoto,
-                         StoneDocument, UserCode, CodeItem, Enabled) 
-                          VALUES 
-                          (
-                         '" & StoneNameCode & "','" & StoneTypeCode & "','" & StoneWeight & "','" & StoneWeightType & "','" & StoneColor & "',
-                         '" & StoneClarity & "','" & StoneCut & "','" & StoneCountryOfOrigin & "','" & StonePrice & "','" & StonePhoto & "',
-                         '" & StoneDocument & "','" & UserCode & "','" & CodeItem & "','" & Enabled & "')")
+        Dim Prm(1) As SqlParameter
+        Prm(0) = New SqlParameter("@StonePhoto", SqlDbType.VarBinary) With {.Value = If(IsNothing(StonePhoto), DBNull.Value, StonePhoto)}
+        Prm(1) = New SqlParameter("@StoneDocument", SqlDbType.VarBinary) With {.Value = If(IsNothing(StoneDocument), DBNull.Value, StoneDocument)}
+
+        Con.EXECUTECOMMAND("INSERT INTO GoldStone (                                                                                                                                                            
+                            StoneNameCode,StoneTypeCode,StoneWeight,StoneWeightType,StoneColor,
+                            StoneClarity,StoneCut,StoneCountryOfOrigin,StonePrice,StonePhoto,
+                            StoneDocument,UserCode,CodeItem,Enabled) 
+                             VALUES 
+                             (
+                            '" & StoneNameCode & "','" & StoneTypeCode & "','" & StoneWeight & "','" & StoneWeightType & "','" & StoneColor & "',
+                            '" & StoneClarity & "','" & StoneCut & "','" & StoneCountryOfOrigin & "','" & StonePrice & "',@StonePhoto,
+                            @StoneDocument,'" & UserCode & "','" & CodeItem & "','" & Enabled & "')", Prm)
     End Sub
     Public Function GetGoldStone(CodeItem As String) As DataTable
         Dim Con As New ClsConnectionString
