@@ -27,7 +27,7 @@ namespace API.Entities
         public byte[] Photo { get; set; }
         public byte[] Document { get; set; }
         public int? Supplier { get; set; }
-        public string SupplierInvoiceNo { get; set; } 
+        public string SupplierInvoiceNo { get; set; }
         public string Symbol { get; set; }
         public int? Condition { get; set; } = 1;
         public int? ItemNo { get; set; } = 0;
